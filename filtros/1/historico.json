@@ -1799,5 +1799,31 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-10-10"
+  },
+  {
+    "folder_id": "CONT26064",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Asistencia técnica para la redacción y tramitación del proyecto de urbanización y documento ambiental del ARI-DBP-08 \"Las Razas\" del PGOU de Sevilla",
+    "updated": "2026-10-11T10:41:54.297+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=PNT8zrdVieaTylGzYmBF9Q%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71400000",
+      "71410000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=O1ztHKLXSJngMFMKpgAy5sdWxs3ygYJ0LToN9dtyw8aaoe0hk%2BLM71fIXooIAxVJ4CXVnMaCYbdd5Js42x7CtL5xaammMGhWU9FnHM9ruA7VTD3T98KC0nSgQFM0q%2B5s",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9u58PB8XjSFrlKfnIxWMS%2B8VybGNpU8fEJMKR7N/76TPkXh4F1eXVGlsOE5Jhy5iVnV6OLjHBPK2vXvdsrgrZzZr6TBih9ZA9Kom2KY9JrTDdQD9RyhUmzT4jZ2In4zL",
+    "organo": "Autoridad Portuaria de Sevilla",
+    "importe": "358282.2",
+    "importe_num": 358282.2,
+    "fecha_limite": "2026-11-09",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fecha_captura": "2026-10-12"
   }
 ]
