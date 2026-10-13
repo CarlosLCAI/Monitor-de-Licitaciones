@@ -1162,6 +1162,14 @@ def generar_revision_bajo_demanda(folder_id, salida, forzar=False):
             resultado = analizar_licitacion_ia(base, perfil_empresa)
         print(f"Informe de {folder_id}: {len(resultado['informe'])} caracteres")
 
+        # Al regenerar a la fuerza, un fallo (clave caducada, PCAP no descargable...) no debe
+        # machacar un informe que ya era válido, aunque fuera incompleto.
+        if forzar and not informe_ia_valido(resultado):
+            previo = next((r["revision_ia"] for r in registros if informe_ia_valido(r.get("revision_ia"))), None)
+            if previo:
+                print("La regeneración ha fallado; se conserva el informe anterior.")
+                resultado = previo
+
     with open(salida, "w", encoding="utf-8") as f:
         json.dump(resultado, f, ensure_ascii=False, indent=2)
 
