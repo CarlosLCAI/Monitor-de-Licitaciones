@@ -1,1 +1,57 @@
-[]
+[
+  {
+    "folder_id": "290/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de servicios, por lotes, para la redacción de proyectos básicos y de ejecución de obras, dirección de obras, estudios y coordinación de la seguridad y salud, y asistencia t écnica de las actuaciones rehabilitación del colector municipal; pavimentación camino de la Rumbrosa, pavimentación camino acceso al Parque Natural; pavimentación en calles de servicio.",
+    "updated": "2026-10-13T13:02:41.585+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=kz57MNmeribECtSnloz%2BZQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000",
+      "71240000",
+      "71240000",
+      "71240000",
+      "71240000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=AZNKorTB7VmpnF69Fj8h5c2DCkt%2BYYcfNfpngB4wtl/OEQGuDAxFI1REOLVx1XFZikCgSC54Xqc2lvEpiC6cyZu0s5mTdPzSGwoBeoMof2XVTD3T98KC0nSgQFM0q%2B5s",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iVr9XPOFOtSfIfoqTj%2BKLTKV215Y2bOuy3dskfovC8E4wJBBfOxJHk2Ed2EJMQSnI4rJkhEMewN7u9RivLAduyo5cdWFVKbnfwNS9lJVwzAZyAJWGsSt0OzTSTyw9JAs",
+    "organo": "Alcaldia del Ayuntamiento de Santa Elena",
+    "importe": "30467.5",
+    "importe_num": 30467.5,
+    "fecha_limite": "2026-11-04",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true
+  },
+  {
+    "folder_id": "4165/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicios profesionales de dirección de obra, dirección de ejecución de obra y coordinación de seguridad y salud durante las obras de construcción de un parque de bomberos en Huércal de Almería.",
+    "updated": "2026-10-13T08:26:26.493+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=M2KKLKU%2FOn0wYTJJ03sHog%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000",
+      "71240000",
+      "71240000",
+      "71240000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=cQQHOblDqSScI3ux%2BBoqpchnLdHN4c5Cev1G6fQGshSZeDPQyrKCBZEWkBkm0z82pml69OtpNwbxe8sJWV4uOdcRZLROdU%2BoXHJ1SAQPdk7fdyQgZAdTm3EfcUAC7CJ6",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=fisZLOX2QOeNGCulQWPyMACyDMDQ%2B0y9T%2BJTP4o2SLFpqWtKzm8lva5kuhzPaZYRZVG2rN6YNbuocY9w7IWwCapvE3Xqre5C9MSvxJexCzD3GVhXrFFqN7yFncy7YfRK",
+    "organo": "Junta de Gobierno Local del Ayuntamiento de Huércal de Almería",
+    "importe": "71242.72",
+    "importe_num": 71242.72,
+    "fecha_limite": "2026-10-28",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true
+  }
+]

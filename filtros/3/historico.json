@@ -65,7 +65,7 @@
   },
   {
     "folder_id": "1854/2026",
-    "estado": "EV",
+    "estado": "ADJ",
     "titulo": "“Redacción proyecto básico y de ejecución, dirección facultativa de las obras y coordinación  de seguridad y salud para las obras de construcción de edificio para centro deportivo en Velilla de San Antonio.",
     "updated": "2026-08-05T10:07:19.087+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KXcmHtkgvJ19PLkba5eRog%3D%3D",
@@ -91,10 +91,10 @@
       "fecha_analisis": "2026-08-06T06:12:16.242982+00:00"
     },
     "fecha_captura": "2026-08-06",
-    "estado_anterior": "RES",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-10",
-    "estado_updated": "2026-10-09T13:20:40.070+02:00",
+    "estado_anterior": "EV",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-10-13",
+    "estado_updated": "2026-10-13T14:26:21.214+02:00",
     "fecha_limite_anterior": "2026-08-05",
     "fecha_limite_cambiada_el": "2026-10-10"
   },

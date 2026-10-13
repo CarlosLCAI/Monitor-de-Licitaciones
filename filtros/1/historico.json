@@ -591,7 +591,7 @@
   },
   {
     "folder_id": "23707/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "Redacción de Proyecto, Dirección de Obra, Coordinación de Seguridad y Salud, Topográfico para Acondicionamiento Ambiental y Recreativo en el Entorno de la Ermita San Miguel de Torremolinos, Programa de Ayuda a Inversiones (PAI), cofinanciado por la Unión Europea – Fondo Europeo de Desarrollo Regional (FEDER) en el Marco del Programa operativo Plurirregional de España POPE 2021-2027.",
     "updated": "2026-07-29T16:02:20.333+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=mTUc%2BL8kRqNSYrkJkLlFdw%3D%3D",
@@ -618,7 +618,11 @@
       "informe": "# 1. Solvencia económico-financiera\n\n**Medios exigidos:**\n- Volumen anual de negocio del licitador, referido al año de mayor volumen de los 3 últimos ejercicios cerrados, que deberá ser **igual o superior al valor anual medio del contrato** (art. 87 LCSP).\n- No se exige clasificación empresarial (Clasificación en servicios: NO).\n- Para empresas de nueva creación (antigüedad inferior a 5 años): acreditación mediante informe de institución financiera.\n\n**Forma de acreditación:**\n- Cuentas anuales aprobadas y depositadas en el Registro Mercantil (o Registro Oficial correspondiente).\n- Empresarios individuales no inscritos: libros de inventario y cuentas anuales legalizadas.\n- Personas físicas: IRPF (modelo 100).\n- Sociedades/entidades sujetas al Impuesto de Sociedades: modelo 200.\n\n**Nota de cálculo orientativo:** dado el reducido valor estimado del contrato (Lote 1: 17.561,98 €; Lote 2: 3.099,18 €, ambos IVA excluido) y un plazo total estimado de 18 meses, el valor anual medio exigible resulta muy inferior a la cifra de negocio anual de CAI Consultores (1.100.000 €), por lo que el umbral de solvencia económica no supone dificultad alguna.\n\n---\n\n# 2. Solvencia técnica / Equipo mínimo\n\n⚠ El PCAP **no exige experiencia mínima (años) como requisito de solvencia técnica** para ninguno de los perfiles; la solvencia técnica se acredita únicamente mediante declaración de adscripción del equipo con la titulación indicada y de los medios materiales necesarios. La experiencia del equipo se valora exclusivamente como **criterio de adjudicación** (ver sección 3), no como umbral de solvencia.\n\n**LOTE 1 — Levantamiento topográfico, geotécnico, proyecto y dirección facultativa**\n\n* Redactor/a de proyecto (1): Técnico/a competente con titulación universitaria oficial habilitante para la redacción del proyecto, conforme a la normativa vigente\n   * No se exige experiencia mínima como requisito de solvencia\n\n* Técnico/a de instalaciones (1): Ingeniero/a Técnico/a Industrial, Graduado/a en Ingeniería del ámbito industrial o titulación equivalente habilitante\n   * No se exige experiencia mínima como requisito de solvencia\n\n* Redactor/a de documentos de seguridad y salud (1): Técnico/a competente (puede coincidir con otro perfil del equipo si reúne la competencia exigible)\n   * No se exige experiencia mínima como requisito de solvencia\n\n* Director/a de Obra (1): Técnico/a competente con titulación universitaria oficial habilitante, conforme a la normativa vigente\n   * No se exige experiencia mínima como requisito de solvencia\n\n* Director/a de la ejecución material (1): Técnico/a competente con titulación universitaria oficial habilitante, conforme a la normativa vigente\n   * No se exige experiencia mínima como requisito de solvencia\n\n**LOTE 2 — Coordinación de Seguridad y Salud**\n\n* Coordinador/a de seguridad y salud en obra (1): Técnico/a competente con titulación universitaria oficial habilitante, conforme a la normativa vigente\n   * No se exige experiencia mínima como requisito de solvencia\n\n**Observaciones generales:**\n- Una misma persona puede asumir varias funciones si es legalmente compatible, no compromete la ejecución y queda justificado.\n- Si se licita a ambos lotes, debe acreditarse disponer de medios suficientes para atenderlos simultáneamente.\n- La composición del equipo tiene carácter de **obligación esencial** (art. 76.2 y 211.1.f LCSP): su incumplimiento (cambio no autorizado) puede dar lugar a resolución contractual.\n\n---",
       "fecha_analisis": "2026-07-30T05:54:11.123315+00:00"
     },
-    "fecha_captura": "2026-07-30"
+    "fecha_captura": "2026-07-30",
+    "estado_anterior": "PUB",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-13",
+    "estado_updated": "2026-10-13T17:32:19.934+02:00"
   },
   {
     "folder_id": "SDA33/2026",
@@ -1330,7 +1334,7 @@
   },
   {
     "folder_id": "115/2026",
-    "estado": "RES",
+    "estado": "ADJ",
     "titulo": "El objeto del contrato lo constituye la redacción del proyecto de obras, dirección de obra y la coordinación y seguridad y salud de las obras necesarias para la mejora de la Pista Hípica “La Fuentecilla” de Puebla de Guzmán.",
     "updated": "2026-09-28T10:26:32.669+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Jy63I0UGvaoQyBAnWzHfCg%3D%3D",
@@ -1344,7 +1348,7 @@
     "organo": "Presidencia de la Mancomunidad de Municipios Beturia",
     "importe": "64462.29",
     "importe_num": 64462.29,
-    "fecha_limite": "2026-06-04",
+    "fecha_limite": "2026-07-10",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -1355,16 +1359,16 @@
       "fecha_analisis": "2026-09-29T09:51:40.791793+00:00"
     },
     "fecha_captura": "2026-09-29",
-    "estado_anterior": "PUB",
-    "resultado": "formalizada",
-    "estado_cambiado_el": "2026-10-10",
-    "estado_updated": "2026-10-09T10:04:51.619+02:00",
-    "fecha_limite_anterior": "2026-10-15",
-    "fecha_limite_cambiada_el": "2026-10-10"
+    "estado_anterior": "RES",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-10-13",
+    "estado_updated": "2026-10-13T09:10:39.134+02:00",
+    "fecha_limite_anterior": "2026-06-04",
+    "fecha_limite_cambiada_el": "2026-10-13"
   },
   {
     "folder_id": "25/26",
-    "estado": "ADJ",
+    "estado": "EV",
     "titulo": "Servicio de Consultoria - Oficina Tecnica Administrativa del Proyecto ECOCREM, cofinanciado por el Programa Plurirregional de España FEDER 2021-2027 en un 85% del gasto elegible, en el marco de la Línea FID-CPI del Ministerio de Ciencia, Innovación y Universidades para la empresa Parque Cementerio de Málaga S.A (PARCEMASA)",
     "updated": "2026-09-28T09:28:08.923+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XAO3D5uzCgmHCIsjvJ3rhQ%3D%3D",
@@ -1383,7 +1387,7 @@
     "organo": "Gerencia del Parque Cementerio de Málaga, S.A.",
     "importe": "481189.78",
     "importe_num": 481189.78,
-    "fecha_limite": "2026-08-14",
+    "fecha_limite": "2026-09-07",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1394,12 +1398,12 @@
       "fecha_analisis": "2026-09-29T09:52:38.339915+00:00"
     },
     "fecha_captura": "2026-09-29",
-    "estado_anterior": "PUB",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-09",
-    "estado_updated": "2026-10-07T11:18:29.416+02:00",
-    "fecha_limite_anterior": "2026-10-21",
-    "fecha_limite_cambiada_el": "2026-10-09"
+    "estado_anterior": "ADJ",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-13",
+    "estado_updated": "2026-10-13T17:23:30.295+02:00",
+    "fecha_limite_anterior": "2026-08-14",
+    "fecha_limite_cambiada_el": "2026-10-13"
   },
   {
     "folder_id": "12419/2026",
@@ -1434,7 +1438,7 @@
   },
   {
     "folder_id": "1275/2026",
-    "estado": "EV",
+    "estado": "PUB",
     "titulo": "Asistencia Técnica para la redacción y tramitación de la modificación puntual del Plan General de Ordenación Urbanística (PGOU) de Cádiz en el ámbito de la avenida de Astilleros (CA-102-26)",
     "updated": "2026-09-29T13:21:24.653+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ZncGsja8FVTua%2Fi14w%2FPLA%3D%3D",
@@ -1461,10 +1465,10 @@
       "fecha_analisis": "2026-09-30T09:54:41.861942+00:00"
     },
     "fecha_captura": "2026-09-30",
-    "estado_anterior": "PUB",
+    "estado_anterior": "EV",
     "resultado": null,
-    "estado_cambiado_el": "2026-10-02",
-    "estado_updated": "2026-10-01T14:29:33.310+02:00",
+    "estado_cambiado_el": "2026-10-13",
+    "estado_updated": "2026-10-13T12:46:55.761+02:00",
     "revisado_humano": true,
     "revisado_fecha": "2026-10-02T11:06:39.077Z"
   },
@@ -1837,5 +1841,62 @@
       "semaforo_motivo": "Cumple volumen de negocio, ICCP en plantilla, ISO y seguro; faltan Responsable BIM y acreditar trabajos similares por importe, cubribles con UTE o medios externos.",
       "fecha_analisis": "2026-10-13T16:15:33.975390+00:00"
     }
+  },
+  {
+    "folder_id": "290/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de servicios, por lotes, para la redacción de proyectos básicos y de ejecución de obras, dirección de obras, estudios y coordinación de la seguridad y salud, y asistencia t écnica de las actuaciones rehabilitación del colector municipal; pavimentación camino de la Rumbrosa, pavimentación camino acceso al Parque Natural; pavimentación en calles de servicio.",
+    "updated": "2026-10-13T13:02:41.585+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=kz57MNmeribECtSnloz%2BZQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000",
+      "71240000",
+      "71240000",
+      "71240000",
+      "71240000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=AZNKorTB7VmpnF69Fj8h5c2DCkt%2BYYcfNfpngB4wtl/OEQGuDAxFI1REOLVx1XFZikCgSC54Xqc2lvEpiC6cyZu0s5mTdPzSGwoBeoMof2XVTD3T98KC0nSgQFM0q%2B5s",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iVr9XPOFOtSfIfoqTj%2BKLTKV215Y2bOuy3dskfovC8E4wJBBfOxJHk2Ed2EJMQSnI4rJkhEMewN7u9RivLAduyo5cdWFVKbnfwNS9lJVwzAZyAJWGsSt0OzTSTyw9JAs",
+    "organo": "Alcaldia del Ayuntamiento de Santa Elena",
+    "importe": "30467.5",
+    "importe_num": 30467.5,
+    "fecha_limite": "2026-11-04",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fecha_captura": "2026-10-13"
+  },
+  {
+    "folder_id": "4165/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicios profesionales de dirección de obra, dirección de ejecución de obra y coordinación de seguridad y salud durante las obras de construcción de un parque de bomberos en Huércal de Almería.",
+    "updated": "2026-10-13T08:26:26.493+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=M2KKLKU%2FOn0wYTJJ03sHog%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000",
+      "71240000",
+      "71240000",
+      "71240000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=cQQHOblDqSScI3ux%2BBoqpchnLdHN4c5Cev1G6fQGshSZeDPQyrKCBZEWkBkm0z82pml69OtpNwbxe8sJWV4uOdcRZLROdU%2BoXHJ1SAQPdk7fdyQgZAdTm3EfcUAC7CJ6",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=fisZLOX2QOeNGCulQWPyMACyDMDQ%2B0y9T%2BJTP4o2SLFpqWtKzm8lva5kuhzPaZYRZVG2rN6YNbuocY9w7IWwCapvE3Xqre5C9MSvxJexCzD3GVhXrFFqN7yFncy7YfRK",
+    "organo": "Junta de Gobierno Local del Ayuntamiento de Huércal de Almería",
+    "importe": "71242.72",
+    "importe_num": 71242.72,
+    "fecha_limite": "2026-10-28",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fecha_captura": "2026-10-13"
   }
 ]

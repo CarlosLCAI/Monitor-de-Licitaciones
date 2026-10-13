@@ -1,1 +1,117 @@
-[]
+[
+  {
+    "folder_id": "35453/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de prevención ajeno de riesgos laborales en las especialidades de medicina del trabajo, higiene industrial y la gestión de los riesgos psicosociales y examen ginecológico y de mamas",
+    "updated": "2026-10-13T15:17:24.881+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=tb2WecRWe907%2B9FIQYNjeQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71317200",
+      "85121210"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=GUwev1shFz2%2BiuCa81lFrhc7kppAdB%2BZ8lRACr9XaIhy5OdYIQlqwYsJ12usZjdFDLoILjsN2UYXujnlArCCnn/bqF7W%2BTzzeBOUJ4mRZ3v6CYyL7SIrUOBFfNf52ZqA",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=DHHifGn1CqX0dJ%2BQ%2BaFE7ox16mCrjXn0RT6W1y/Fmt%2BTiQl1S/mJPdRDDmxDTY5Lqzhh8UE3uURSbNpTI1MK5tusAlI1zpfZ%2BpOFEhCXNfy1aXEvq3KHa/AEHgtDrQw0",
+    "organo": "Alcaldía del Ayuntamiento de Estepona",
+    "importe": "411603.56",
+    "importe_num": 411603.56,
+    "fecha_limite": "2026-10-16",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "revision_ia": {
+      "informe": "# 1. Solvencia económico-financiera\n\n**Medio exigido:** Justificante de la existencia de un **seguro de responsabilidad civil por riesgos profesionales** por importe igual o superior a **500.000 €**, junto con el compromiso de su renovación o prórroga que garantice el mantenimiento de la cobertura durante toda la ejecución del contrato.\n\nNo se exige volumen de negocio mínimo anual ni acumulado como medio de solvencia económica.\n\n# 2. Solvencia técnica / Equipo mínimo\n\nEl PCAP **no define un equipo mínimo con perfiles, titulaciones y experiencia individual** al modo habitual en contratos de redacción de instrumentos urbanísticos. La acreditación de la solvencia técnica se plantea de forma distinta:\n\n* **Medio principal de acreditación:** relación de los principales servicios o trabajos realizados en los últimos 3 años, relacionados con el objeto del contrato (medicina del trabajo, higiene industrial, psicosociología, vigilancia de la salud), que sumen, al menos, **300.000,00 €** en dicho periodo, indicando importe, fechas y destinatario (público o privado).\n* **Alternativa solo para empresas de nueva creación:** acreditación mediante las titulaciones académicas y profesionales del personal responsable de la ejecución del contrato, citando expresamente \"técnicos superiores en prevención de riesgos laborales\" (sin mayor desglose de especialidades, número de efectivos ni años de experiencia).\n\nNo se exige clasificación empresarial (Cláusula Novena: \"No se exige\").\n\n⚠ No existe en este pliego una tabla de equipo mínimo con perfiles tipo Arquitecto/Ingeniero, técnico redactor, etc. — el objeto del contrato corresponde a servicios sanitario-preventivos (medicina del trabajo, higiene industrial, psicosociología, ginecología/mamas), no a redacción de instrumentos urbanísticos.\n\n# 3. Criterios de adjudicación\n\n**1. Oferta económica — hasta 70 puntos**, distribuidos así:\n* Mejor precio unitario de reconocimiento médico individual (Medicina del Trabajo): 30 puntos\n* Mejor precio anual de vigilancia de la salud colectiva: 10 puntos\n* Mejor precio para especialidades técnicas (Higiene Industrial y Psicosociología): 20 puntos\n* Mejor precio de actuación individual de psicólogo/a: 10 puntos\n* El resto de ofertas se puntúa de forma proporcional corregida.\n\n**2. Mejora de formación específica en primeros auxilios** dirigida a la plantilla de Policía Local (≈139 efectivos), con curso teórico-práctico y habilitación en uso de material táctico (torniquetes, vendaje israelí, parches torácicos, etc.): **3 puntos**.\n\n(Suma total indicada en el pliego: 73 puntos sobre los criterios detallados; no se especifica un tercer bloque de juicio de valor).\n\nNo existe un criterio o subapartado de \"mejora de la experiencia del equipo\" distinto del mínimo de solvencia; la única mejora prevista es la formativa en primeros auxilios descrita arriba.\n\n# 4. Valoración para CAI Consultores\n\n**⚠ ALERTA PRINCIPAL — Objeto del contrato ajeno a la actividad de CAI Consultores:** Este PCAP corresponde a un **servicio de prevención ajena de riesgos laborales** (medicina del trabajo, higiene industrial, gestión de riesgos psicosociales y exámenes ginecológicos), sin ninguna relación con redacción de instrumentos urbanísticos, LISTA o LOUA. No es una licitación propia del perfil de arquitectura/ingeniería de CAI Consultores.\n\n**Puntos a verificar internamente (si, pese a ello, se planteara concurrir o colaborar):**\n- CAI Consultores carecería de los medios personales exigibles (médicos del trabajo, técnicos superiores en PRL en las especialidades de higiene industrial y psicosociología, ginecólogos), lo que obligaría a una subcontratación total o alianza con un Servicio de Prevención Ajeno (SPA) acreditado, no a una mera subcontratación parcial de perfiles puntuales.\n- El requisito de solvencia técnica (300.000 € en servicios similares en los últimos 3 años) no es acreditable con la experiencia habitual de CAI en instrumentos urbanísticos; sería necesario apoyarse íntegramente en la experiencia de un tercero (UTE o subcontratación con SPA), lo cual desvirtúa el rol de CAI como licitador principal.\n- El seguro de RC exigido (500.000 €) es de \"riesgos profesionales\" vinculado a la actividad sanitario-preventiva, distinto de la póliza de responsabilidad civil profesional habitual de un estudio de arquitectura/ingeniería.\n\n**Puntos a favor:** Ninguno relevante identificado desde el perfil de CAI Consultores; no se detectan sinergias con su capacidad LISTA/LOUA ni con su equipo técnico habitual.\n\n**Recomendación:** Descartar la participación directa de CAI Consultores en esta licitación, salvo que se plantee exclusivamente como socio minoritario o subcontratista de un SPA acreditado para alguna prestación accesoria no médica (lo cual no está previsto ni facilitado por el objeto del contrato).",
+      "fecha_analisis": "2026-09-18T08:40:05.352200+00:00"
+    }
+  },
+  {
+    "folder_id": "2026/000654-PEAS",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicios de producción escenográfica para la celebración del Festival Internacional de Danza de Itálica 2027 del Área de Cultura y Ciudadanía de la Diputación de Sevilla",
+    "updated": "2026-10-13T13:46:24.904+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=utVTkL1%2BSv%2BcTfjQf3USOg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71500000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=DAdUrF7cYFpMACwZZCqwihM3Mha%2Bd5lTXkvC3UzIdEaLWoFoailWLdso5SJV73KQ/TaALYCXm7ND9AJN7uyMjuNkI/6zYM34sW94Dd1PpPrVTD3T98KC0nSgQFM0q%2B5s",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=92CMJiY9WT01NtHcH4KA40Se5QU404wPmScqRbFA%2BjiJmKwK0JZY/z5B%2Bpr8UlbI6Ui3iie9/Y1yXp5oY4yETBkPgMPoKPqtHsHI7is2EYyCx2e6p7hqtlp2aFupgHMr",
+    "organo": "Presidencia de la Diputación Provincial de Sevilla",
+    "importe": "120936.4",
+    "importe_num": 120936.4,
+    "fecha_limite": "2026-10-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true
+  },
+  {
+    "folder_id": "Expte 10153/2026 Proyecto+Obra Campo futbol7",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato mixto de elaboración de Proyecto y ejecución de Obra de Construcción de un nuevo Campo de Futbol 7 en terrenos anexos al Campo de Futbol Municipal de Aljaraque, cofinanciada por la Unión Europea a través del Fondo Europeo de Desarrollo Regional FEDER 2021-2027 (Plan EDIL)",
+    "updated": "2026-10-13T13:44:31.604+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4pqrkKl%2B0HFrSd8H4b2soA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "45212200",
+      "71520000",
+      "71242000",
+      "45212200",
+      "71242000",
+      "71520000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/i8EJMkUlwtj05M/Q16z7XZFsDg3OUDOueTqSr6ZvntEeoRradcZEy9TvN6eI6r4/DXb9N2izYoV9w4WWh93LgWbDvh2f5D2qVMFsgdjmy5JOVDbGCDM%2BMigrvuVS7Rv",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0eUinkfo9MQBus95nBEosZXLH4hyRlhQIKQGGcP7yo0a5yTzbNHxEy20vF3i6Y1Oz7%2BBGfTd5Qjyg7KUxBC29uB/i8rmdBnunMQjGAU6r3Vt/o8fNevwsujgRzaBbugn",
+    "organo": "Alcaldía del Ayuntamiento de Aljaraque",
+    "importe": "486596.59",
+    "importe_num": 486596.59,
+    "fecha_limite": "2026-11-09",
+    "tipo_contrato": "3",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true
+  },
+  {
+    "folder_id": "29/26.-Servicio",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Dirección de Ejecución y Coordinación de Seguridad y Salud para la actuación \"Construcción de la Casa Consistorial, derribo de edificio existente y la ampliación de la Plaza de la Constitución y de los espacios públicos adyacentes, t.m. de Roquetas de Mar (Almería)\".",
+    "updated": "2026-10-13T13:05:03.253+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2FwcKqp%2FabWyOUi78BmzhOQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000",
+      "71317200",
+      "71000000",
+      "71317200",
+      "71000000",
+      "71317200"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=DdhdMre6JB1HVrdx76exTLL%2BEh42uvFwUpTFrhH9mAoqUF4Qqm2ujen2Jy5CuKXBw3Mu3jF3QydnnZEP7CJZfnJpc8ctqtqurCWNMjckazjVTD3T98KC0nSgQFM0q%2B5s",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=n6SbPrwn2l8b1ua0RlMm41zDSxfSaZ3JgplV/wZ7yMK5ppD6jz7lF%2B/Eyeojy7ulEIDmMxDJ/4gpCgWuGQZqO0cMn24TyGcXZW1WXp6vSBi1aXEvq3KHa/AEHgtDrQw0",
+    "organo": "Junta de Gobierno del Ayuntamiento de Roquetas de Mar",
+    "importe": "208475.64",
+    "importe_num": 208475.64,
+    "fecha_limite": "2026-10-20",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "revision_ia": {
+      "informe": "## Bloque 1 – Características Principales del Contrato\n\n### Objeto de la licitación\nEl contrato tiene por objeto la prestación de servicios profesionales de **Dirección de Ejecución de obra** y **Coordinación de Seguridad y Salud** para la actuación \"Construcción de la Casa Consistorial, derribo de edificio existente y la ampliación de la Plaza de la Constitución y de los espacios públicos adyacentes\" en Roquetas de Mar (Almería). El responsable del contrato es el arquitecto municipal **Agustín Martínez Aparicio**. Objetivos principales:\n- Controlar cualitativa y cuantitativamente la ejecución de la obra.\n- Garantizar la aplicación del Plan de Seguridad y Salud durante la construcción.\n- Asistencia semanal obligatoria a obra con levantamiento de acta documental (fotografías y anotaciones).\n\n### División en lotes\nEl contrato se divide en **2 lotes**, sin límite de lotes a los que puede optar o resultar adjudicatario un mismo licitador:\n1. **Lote 1**: Dirección de Ejecución (CPV 71000000-8).\n2. **Lote 2**: Coordinación de Seguridad y Salud (CPV 71317200-5).\n\n### Características del contrato\n\n| Concepto | Lote 1 (Dir. Ejecución) | Lote 2 (Coord. SyS) | Total |\n|---|---|---|---|\n| Presupuesto base licitación (IVA incl.) | 219.352,62 € | 32.902,90 € | 252.255,52 € |\n| Valor estimado (sin IVA) | 181.283,16 € | 27.192,48 € | 208.475,64 € |\n| Anualidad 2026 | 36.558,77 € | 5.483,82 € | 42.042,59 € |\n| Anualidad 2027 | 109.676,31 € | 16.451,45 € | 126.127,76 € |\n| Anualidad 2028 | 73.117,54 € | 10.967,63 € | 84.085,17 € |\n\n- **Duración**: ⚠ REVISAR — el contenido específico de la Cláusula 19 \"Plazo de ejecución\" no aparece en el fragmento recibido. No obstante, el cuadro de anualidades (2026-2027-2028) sugiere un plazo de ejecución ligado a la duración de la obra de aproximadamente **3 ejercicios presupuestarios**. Se recomienda verificar el texto íntegro de la Cláusula 19 del PCAP y el PPT para el plazo exacto en meses.\n- **Plazo de presentación de ofertas**: 15 días naturales desde el día siguiente a la publicación del anuncio en la PLACSP.\n- **Lugar/forma de presentación**: exclusivamente electrónica, a través de la Plataforma de Contratación del Sector Público (PLACSP).\n- **Honorarios**: precio cerrado, no sujeto a modificación por variación del presupuesto final de la obra.\n- **Revisión de precios**: No procede.\n- **Trabajos obligatorios específicos**: asistencia mínima semanal a obra con acta documentada (fotos + anotaciones); adscripción de un vehículo con distintivo ambiental ECO o CERO (condición especial de ejecución medioambiental, obligación esencial).\n- **Garantía definitiva**: 5% del presupuesto de adjudicación (IVA excluido); complementaria adicional del 5% en caso de oferta inicialmente anormal (hasta 10% total).\n- No se exige clasificación empresarial ni garantía provisional.\n\n## Bloque 2 – Solvencia\n\n### Económica y financiera\nSe acredita mediante **volumen anual de negocios** del mejor ejercicio de los últimos 3 años disponibles, exigiéndose al menos **1,5 veces el valor anual medio del contrato**, aplicado por lote:\n\n| Lote | Importe mínimo exigido |\n|---|---|\n| Lote 1 | 90.641,58 € |\n| Lote 2 | 13.596,24 € |\n| Ambos lotes | 104.237,82 € |\n\nAcreditación: certificado AEAT del Importe Neto de la Cifra de Negocios, o cuentas anuales depositadas en Registro Mercantil (o registro equivalente).\n\n**Seguro de responsabilidad civil profesional**: exigido con cobertura mínima de **325.000,00 €** por daños materiales y personales, para Lote 1 y Lote 2 (mismo importe, independiente del lote o ambos). Debe aportarse póliza vigente + recibo + declaración responsable de mantenimiento de la vigencia.\n\n### Técnica y profesional\nAcreditada mediante relación de servicios similares ejecutados en los últimos 3 años, exigiéndose en el año de mayor ejecución al menos el **70% de la anualidad media del contrato**:\n\n| Lote | Importe mínimo exigido |\n|---|---|\n| Lote 1 | 63.449,11 € |\n| Lote 2 | 9.517,37 € |\n| Ambos lotes | 72.966,48 € |\n\n**Titulación y experiencia del equipo mínimo por lote**:\n\n| Puesto | Titulación | Experiencia | Otros requisitos |\n|---|---|---|---|\n| Dirección de Ejecución (Lote 1) | Arquitecto Técnico | >3 años | Haber dirigido la ejecución de al menos 2 obras de características similares |\n| Coordinación de Seguridad y Salud (Lote 2) | Arquitecto, Arquitecto Técnico o Ingeniero (técnico habilitado) | >3 años | Haber realizado la coordinación de S y S de al menos 2 obras similares |\n\n**Definición de \"obra similar/análoga\"**:\n- PEM acreditado ≥ mitad del PEM estimado de la obra licitada → **PEM mínimo de referencia: 4.028.514,74 €** (PEM obra = 8.057.028,48 €).\n- Deben ser edificios de pública concurrencia promovidos por Administración Pública.\n- **No se admiten** obra civil, urbanización ni construcciones residenciales.\n\n**Subcontratación**: **No permitida** en ninguno de los dos lotes. El pliego exige que la totalidad del servicio (tanto Dirección de Ejecución como Coordinación de SyS) sea prestado por personal en plantilla de la empresa/autónomo adjudicatario, de forma que la subcontratación resulte innecesaria. No se permite delegar la asistencia a obra en terceros.\n\n⚠ REVISAR — criterio de mejora de equipo, no confundir con el mínimo de solvencia: el PCAP valora como criterio de adjudicación automático (hasta 2,5 puntos, Lote 1) la **adscripción de medios humanos adicionales cualificados** (arquitecto técnico ayudante, especialista en estructuras, ingeniero de instalaciones, topógrafo), por encima del mínimo exigido de solvencia. Este criterio es una mejora valorable y **no",
+      "fecha_analisis": "2026-10-01T10:27:37.540629+00:00"
+    }
+  }
+]
