@@ -9,6 +9,11 @@ on:
         description: "Expediente (folder_id) de la licitación a analizar"
         required: true
         type: string
+      forzar:
+        description: "Regenerar aunque ya exista un informe válido (solo al lanzarlo a mano desde Actions)"
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -34,7 +39,11 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SOLVENCIA_EMPRESA: ${{ secrets.SOLVENCIA_EMPRESA }}
           FOLDER_ID: ${{ inputs.folder_id }}
-        run: python fetch_licitaciones.py --generar-revision "$FOLDER_ID" --salida "$RUNNER_TEMP/revision.json"
+          FORZAR: ${{ inputs.forzar }}
+        run: |
+          OPCIONES=""
+          if [ "$FORZAR" = "true" ]; then OPCIONES="--forzar"; fi
+          python fetch_licitaciones.py --generar-revision "$FOLDER_ID" --salida "$RUNNER_TEMP/revision.json" $OPCIONES
 
       # El informe ya está generado; si el push falla porque otro proceso (el monitor diario, una
       # revisión marcada desde el visor...) escribió antes, se reaplica sobre la última versión del
