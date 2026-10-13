@@ -1097,7 +1097,7 @@
   },
   {
     "folder_id": "5456/2026",
-    "estado": "EV",
+    "estado": "PUB",
     "titulo": "servicios de redacción del proyecto básico y de ejecución de las obras de reasfaltado de diferentes viarios del municipio, para la posterior licitación de las mismas, así como Dirección facultativa de dichas obras y coordinación en materia de seguridad y salud, todo ello de conformidad con lo establecido en el Pliego de Prescripciones Técnicas",
     "updated": "2026-08-21T12:28:43.260+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SOMkMkw2swwUqXM96WStVA%3D%3D",
@@ -1113,7 +1113,7 @@
     "organo": "Junta de Gobierno del Ayuntamiento San Juan de Aznalfarache",
     "importe": "60000",
     "importe_num": 60000,
-    "fecha_limite": "2026-09-11",
+    "fecha_limite": "2026-10-27",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -1124,10 +1124,12 @@
       "fecha_analisis": "2026-08-22T03:54:40.089517+00:00"
     },
     "fecha_captura": "2026-08-22",
-    "estado_anterior": "PUB",
+    "estado_anterior": "EV",
     "resultado": null,
-    "estado_cambiado_el": "2026-10-02",
-    "estado_updated": "2026-10-01T13:44:53.642+02:00"
+    "estado_cambiado_el": "2026-10-13",
+    "estado_updated": "2026-10-12T13:18:05.868+02:00",
+    "fecha_limite_anterior": "2026-09-11",
+    "fecha_limite_cambiada_el": "2026-10-13"
   },
   {
     "folder_id": "55/2026",
