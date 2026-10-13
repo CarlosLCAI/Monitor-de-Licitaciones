@@ -2,7 +2,7 @@ name: Monitor licitaciones PLACSP
 
 on:
   schedule:
-    - cron: '8 3 * * *'   # 03:08 UTC = 05:08 hora España en verano (04:08 en invierno) — hora "no en punto" para evitar picos de carga en Actions, con margen amplio antes del inicio de la jornada
+    - cron: '47 19 * * *'   # 19:47 UTC = 21:47 hora España en verano (20:47 en invierno). Los feeds de PLACSP apenas reciben entradas entre las ~21:00 y las ~06:00, así que leer de noche ve el día completo. GitHub retrasa las programadas varias horas (en octubre de 2026, la de 03:08 UTC arrancaba hacia las 09-10 UTC); con esta hora se espera que los datos estén listos de madrugada. PRUEBA desde el 9/10/2026: si el retraso sigue siendo malo, volver a '30 1 * * *' (01:30 UTC). Minuto "no en punto" para evitar el pico de carga de las horas en punto
   workflow_dispatch:        # permite ejecución manual desde la pestaña Actions
 
 permissions:
