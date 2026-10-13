@@ -25,6 +25,11 @@
     --hover-fila: #f0faf9;
     --teal-suave: #E3F5F5;
     --teal-texto: #055f5f;
+    /* Semáforo de la revisión IA: tonos pastel de poco contraste */
+    --sem-verde: #DCEEE2;
+    --sem-naranja: #FAE5CF;
+    --sem-rojo: #F5D8DC;
+    --sem-gris: #E6E8E9;
   }
   /* Tema oscuro: solo cambia el visor; los informes que se comparten (PDF/HTML/copiar) siguen claros. */
   html[data-tema="oscuro"] {
@@ -41,6 +46,10 @@
     --hover-fila: #2B3A3A;
     --teal-suave: #1E3B3B;
     --teal-texto: #4CCFCF;
+    --sem-verde: #2B3F34;
+    --sem-naranja: #4A3C2B;
+    --sem-rojo: #4A2F36;
+    --sem-gris: #37393B;
   }
   html[data-tema="oscuro"] .badge-PUB, html[data-tema="oscuro"] .badge-ia-apto { background: #16392f; color: #8fe3c6; }
   html[data-tema="oscuro"] .badge-EV, html[data-tema="oscuro"] .badge-ia-apto-ute { background: #17304a; color: #9cc8f0; }
@@ -198,6 +207,11 @@
     user-select: none;
     white-space: nowrap;
   }
+  .sem-verde { background: var(--sem-verde); }
+  .sem-naranja { background: var(--sem-naranja); }
+  .sem-rojo { background: var(--sem-rojo); }
+  .sem-gris { background: var(--sem-gris); }
+  .sem-banner { padding: 9px 14px; margin-bottom: 14px; font-size: 13.5px; line-height: 1.5; color: var(--ink); border-radius: 6px; }
   .exp-vertical {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
@@ -942,7 +956,13 @@ function abrirModalRevisionIA(registro) {
   const fecha = revisionIA.fecha_analisis ? formatearFecha(revisionIA.fecha_analisis) : '—';
   let cuerpo;
   if (revisionIA.informe) {
+    const sem = semaforoDe(registro);
+    const bannerSemaforo = sem
+      ? '<div class="sem-banner sem-' + sem.color + '"><strong>' + escapeHtml(SEMAFOROS[sem.color]) + '</strong>' +
+        (sem.motivo ? '<br>' + escapeHtml(sem.motivo) : '') + '</div>'
+      : '';
     cuerpo =
+      bannerSemaforo +
       '<div class="informe-ia">' + formatearInformeIA(revisionIA.informe) + '</div>' +
       '<p class="ayuda" style="margin-top:14px;">Análisis generado el ' + fecha + '.</p>';
   } else if (revisionIA.clasificacion) {
@@ -1342,6 +1362,38 @@ function celdaRevisadoHumano(r) {
 
 // Las licitaciones de la Junta traen una descripción que explica el objeto mejor que su título
 // (casi siempre una abreviatura): se muestra la descripción y el título queda como tooltip.
+// Semáforo de la revisión IA: color de fondo de la celda del expediente según si CAI podría
+// presentarse con su perfil de solvencia (verde / naranja / rojo) o no se puede valorar (gris).
+// Lo escribe la revisión IA en revision_ia.semaforo (+ semaforo_motivo); sin ese dato la celda
+// queda sin color. Con ?semaforo=demo en la dirección se pintan colores de muestra (solo para
+// ver el aspecto, no son valoraciones reales).
+const SEMAFOROS = {
+  verde: 'Verde: nos podemos presentar con la solvencia actual',
+  naranja: 'Naranja: nos podemos presentar, pero falta algún perfil o parte de la solvencia',
+  rojo: 'Rojo: no cumplimos los requisitos',
+  gris: 'Gris: no se puede valorar (falta información en el informe o en el pliego)',
+};
+const SEMAFORO_DEMO = new URLSearchParams(location.search).get('semaforo') === 'demo';
+
+function semaforoDe(r) {
+  if (SEMAFORO_DEMO) {
+    let h = 0;
+    for (const c of String(r.folder_id || '')) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+    const color = Object.keys(SEMAFOROS)[h % 4];
+    return { color, motivo: 'Vista previa de colores: no es una valoración real.' };
+  }
+  const rev = r.revision_ia;
+  if (!revisionIaValida(rev) || !SEMAFOROS[rev.semaforo]) return null;
+  return { color: rev.semaforo, motivo: rev.semaforo_motivo || '' };
+}
+
+function celdaExpediente(r) {
+  const sem = semaforoDe(r);
+  const clase = 'mono exp-vertical' + (sem ? ' sem-' + sem.color : '');
+  const tooltip = sem ? ' title="' + escapeHtml(SEMAFOROS[sem.color] + (sem.motivo ? '\n' + sem.motivo : '')) + '"' : '';
+  return '<td class="' + clase + '"' + tooltip + '>' + escapeHtml(r.folder_id || '—') + '</td>';
+}
+
 function celdaTitulo(r) {
   const desc = (r.descripcion || '').trim();
   const tit = r.titulo || '';
@@ -1430,7 +1482,7 @@ function renderTabla(lista) {
     '</tr></thead><tbody>';
   for (const r of lista) {
     html += '<tr>' +
-      '<td class="mono exp-vertical">' + (r.folder_id || '—') + '</td>' +
+      celdaExpediente(r) +
       celdaTitulo(r) +
       '<td>' + (r.organo || '—') + '</td>' +
       '<td class="importe">' + formatearImporte(r.importe) + '</td>' +

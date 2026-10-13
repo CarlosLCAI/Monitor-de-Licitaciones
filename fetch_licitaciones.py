@@ -86,7 +86,7 @@ ANTHROPIC_API_ENDPOINT = "https://api.anthropic.com/v1/messages"
 ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-sonnet-5-5")
 # Modelo barato usado solo para localizar en qué páginas del PCAP está cada apartado, antes de
 # mandarle el documento completo al modelo caro — ver localizar_paginas_relevantes().
-ANTHROPIC_MODEL_LOCALIZADOR = os.environ.get("ANTHROPIC_MODEL_LOCALIZADOR", "claude-haiku-4-5-20251001")
+ANTHROPIC_MODEL_LOCALIZADOR = os.environ.get("ANTHROPIC_MODEL_LOCALIZADOR", "claude-haiku-5-5")
 ANTHROPIC_VERSION = "2023-06-01"
 
 MARCA_INFORME_CORTADO = "⚠ REVISAR — informe cortado por límite de longitud de la IA, puede estar incompleto."
@@ -148,7 +148,33 @@ PROMPT_SISTEMA_INFORME = (
     "Analiza el precio de licitación en relación con la duración del contrato. Compara los "
     "requisitos de solvencia económica y técnica de los Bloques 2 y 3 contra el perfil de la "
     "empresa que se te facilita en el mensaje (equipo, experiencia, cifra de negocio), y valora "
-    "si CAI Consultores cumple los mínimos o qué le faltaría acreditar.\n\n"
+    "si CAI Consultores cumple los mínimos o qué le faltaría acreditar.\n"
+    "### Semáforo de presentación\n"
+    "Valora SOLO si CAI puede presentarse con su perfil de solvencia (admisibilidad); no valores "
+    "precio, baja, plazo ni probabilidad de ganar. Compara cada requisito (solvencia económica, "
+    "experiencia en trabajos similares, equipo mínimo y titulaciones/colegiación, seguros, "
+    "clasificación) con el perfil, aplicando los CRITERIOS DE LA DIRECCIÓN que figuran al principio "
+    "del perfil. Asigna UN color:\n"
+    "- VERDE: con el perfil cumplimos todos los requisitos y podemos presentarnos en solitario; o "
+    "ya hemos ganado un contrato muy similar por objeto (consta en el perfil), por lo que la solvencia exigida "
+    "es equivalente a la que ya acreditamos.\n"
+    "- NARANJA: podemos presentarnos, pero falta algo que no es la mayoría de los requisitos "
+    "(por ejemplo 1 de 3 o 2 de 5 perfiles, o una parte de la solvencia) y lo que falta es "
+    "subcontratable o cubrible con medios externos o UTE según el propio pliego; o el único "
+    "precedente similar lo ganamos yendo en UTE.\n"
+    "- ROJO: no cumplimos: falta la mayoría de los requisitos, o falta algo imprescindible que el "
+    "pliego no permite subcontratar ni integrar con medios externos, o la solvencia económica es insuficiente.\n"
+    "- GRIS: no se puede valorar porque el texto recibido no incluye los requisitos de solvencia "
+    "o de equipo (páginas no localizadas, pliego incompleto) o el perfil no permite compararlos. Gris NO "
+    "significa que no cumplamos: úsalo en lugar de rojo cuando falte información.\n"
+    "Detalla en el informe: el color elegido, cuántos requisitos se cumplen del total, qué falta y "
+    "si el pliego permite subcontratarlo. Los datos del perfil marcados [SIN VERIFICAR] o que no "
+    "consten son carencia por acreditar, no incumplimiento definitivo. Si el pliego exige "
+    "clasificación empresarial y el perfil no consta que la tengamos, señálalo con \"⚠ REVISAR — "
+    "criterio pendiente de decidir\" y no des rojo solo por esto.\n\n"
+    "LÍNEA FINAL (obligatoria): termina tu respuesta con una última línea, sola, exactamente con "
+    "este formato (sin negritas ni comillas): SEMAFORO: <verde|naranja|rojo|gris> | <motivo en una "
+    "sola frase de 25 palabras como máximo>\n\n"
     "Reglas generales: responde en español técnico, basándote solo en el PCAP proporcionado "
     "(nunca extrapoles de otros pliegos), sé riguroso con baremos y limitaciones de formato, y "
     "ante cualquier duda o incoherencia en el documento, no la inventes — indícalo y sugiere "
@@ -401,6 +427,28 @@ def obtener_pcap(url, api_key=None, min_chars_por_pagina=100, max_chars_texto=35
     return "documento", base64.b64encode(contenido_bytes).decode("ascii")
 
 
+# El informe termina con una línea "SEMAFORO: color | motivo" (ver PROMPT_SISTEMA_INFORME): se separa
+# del texto y se guarda aparte para que el visor pinte la celda del expediente. Tolera negritas,
+# viñetas o comillas que el modelo añada por su cuenta.
+RE_SEMAFORO = re.compile(
+    r"^[ \t>*_`#\-]*SEMAFORO\s*:\s*[*_`]*\s*(verde|naranja|rojo|gris)\b[ \t*_`]*\|?[ \t]*(.*?)[ \t*_`\"]*$",
+    re.IGNORECASE | re.MULTILINE,
+)
+
+
+def extraer_semaforo(texto):
+    """Devuelve (texto sin la línea del semáforo, color o None, motivo o None). Si el modelo repite
+    la línea, vale la última."""
+    coincidencias = list(RE_SEMAFORO.finditer(texto))
+    if not coincidencias:
+        return texto, None, None
+    ultima = coincidencias[-1]
+    color = ultima.group(1).lower()
+    motivo = ultima.group(2).strip().strip('"').strip() or None
+    limpio = RE_SEMAFORO.sub("", texto).rstrip()
+    return limpio, color, motivo
+
+
 def generar_informe_licitacion_ia(perfil_empresa, pcap_tipo, pcap_contenido, titulo, organo, api_key):
     if not api_key:
         return {"informe": "No hay ANTHROPIC_API_KEY configurada para llamar a Claude."}
@@ -479,9 +527,14 @@ def generar_informe_licitacion_ia(perfil_empresa, pcap_tipo, pcap_contenido, tit
         texto = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text").strip()
         if not texto:
             return {"informe": f"Error al generar el informe con IA: la respuesta no contiene texto (stop_reason={stop_reason})."}
+        texto, semaforo, motivo = extraer_semaforo(texto)
         if stop_reason == "max_tokens":
             texto += "\n\n" + MARCA_INFORME_CORTADO
-        return {"informe": texto}
+        resultado = {"informe": texto}
+        if semaforo:
+            resultado["semaforo"] = semaforo
+            resultado["semaforo_motivo"] = motivo
+        return resultado
     except Exception as e:
         return {"informe": f"Error al generar el informe con IA: {e!r}"}
 
