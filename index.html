@@ -52,9 +52,8 @@
   .wrap { position: relative; }
   #btn-tema {
     position: absolute; top: 10px; right: 24px;
-    font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 12.5px;
-    letter-spacing: .04em; text-transform: uppercase; cursor: pointer;
-    background: var(--surface); color: var(--ink-soft); border: 1px solid var(--border); padding: 4px 10px;
+    cursor: pointer; line-height: 1;
+    background: var(--surface); color: var(--ink-soft); border: 1px solid var(--border); padding: 5px 9px; font-size: 16px;
   }
   #btn-tema:hover { color: var(--teal-texto); border-color: var(--teal-texto); }
   * { box-sizing: border-box; }
@@ -585,7 +584,7 @@
 <body>
 <div class="wrap">
 
-  <button type="button" id="btn-tema" aria-pressed="false" title="Cambiar entre tema claro y oscuro">☾ Tema oscuro</button>
+  <button type="button" id="btn-tema" aria-pressed="false" title="Cambiar a tema oscuro" aria-label="Cambiar a tema oscuro">☾</button>
   <p class="marca-cai">CAI Consultores</p>
 
   <div class="cajetin">
@@ -2238,7 +2237,8 @@ function aplicarTema(tema, guardar) {
   const oscuro = tema === 'oscuro';
   if (oscuro) document.documentElement.dataset.tema = 'oscuro'; else delete document.documentElement.dataset.tema;
   const boton = document.getElementById('btn-tema');
-  boton.textContent = oscuro ? '☀ Tema claro' : '☾ Tema oscuro';
+  boton.textContent = oscuro ? '☀' : '☾';
+  boton.title = boton.ariaLabel = oscuro ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro';
   boton.setAttribute('aria-pressed', oscuro ? 'true' : 'false');
   if (guardar) { try { localStorage.setItem(TEMA_KEY, tema); } catch (e) { /* sin almacenamiento */ } }
 }

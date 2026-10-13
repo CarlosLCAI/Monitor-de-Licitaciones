@@ -212,14 +212,41 @@ HERRAMIENTA_LOCALIZADOR = {
 }
 
 
+# Cuántos caracteres del comienzo de cada página ve el localizador (Haiku, barato: 60 páginas × 350
+# caracteres son unos 6.000 tokens).
+LONGITUD_INICIO_PAGINA = 350
+
+
+def quitar_lineas_repetidas(paginas_texto, fraccion_minima=0.3, paginas_minimas=4):
+    """Devuelve las páginas sin las líneas que se repiten en muchas de ellas (cabeceras y pies:
+    sello de firma electrónica con CSV y enlace de validación, 'Página 3 de 60', nombre del
+    órgano…). Se usa solo para el resumen del localizador: si la cabecera de cada página ocupa
+    más de 220 caracteres, el inicio de todas las páginas sería idéntico y el localizador no vería
+    nada útil (pasó con un PCAP de la Autoridad Portuaria de Sevilla). Las líneas se comparan sin
+    cifras, para que 'Página 2 de 60' y 'Página 3 de 60' cuenten como la misma."""
+    def clave(linea):
+        return re.sub(r"\d+", "#", re.sub(r"\s+", " ", linea.strip()))
+
+    if len(paginas_texto) < paginas_minimas:
+        return list(paginas_texto)
+    paginas_con_linea = {}
+    for texto in paginas_texto:
+        for k in {clave(l) for l in (texto or "").splitlines() if l.strip()}:
+            paginas_con_linea[k] = paginas_con_linea.get(k, 0) + 1
+    umbral = max(paginas_minimas, fraccion_minima * len(paginas_texto))
+    repetidas = {k for k, n in paginas_con_linea.items() if n >= umbral}
+    return [
+        "\n".join(l for l in (texto or "").splitlines() if l.strip() and clave(l) not in repetidas)
+        for texto in paginas_texto
+    ]
+
+
 def localizar_paginas_relevantes(paginas_texto, api_key):
     """Llamada barata (Haiku) que decide qué páginas hacen falta leer para cada apartado del
     informe, a partir de un resumen de cada página (no el documento entero). Lanza una excepción
     si algo falla; el llamador cae entonces al recorte por Anexo I/III de siempre."""
-    indice = "\n".join(
-        f"[Página {i + 1}] {(texto or '').strip()[:220]}"
-        for i, texto in enumerate(paginas_texto)
-    )
+    inicios = [re.sub(r"\s+", " ", texto).strip()[:LONGITUD_INICIO_PAGINA] for texto in quitar_lineas_repetidas(paginas_texto)]
+    indice = "\n".join(f"[Página {i + 1}] {inicio}" for i, inicio in enumerate(inicios))
     indice = indice[:60000]  # tope de seguridad para documentos con muchísimas páginas
 
     payload = {
@@ -285,7 +312,12 @@ PATRONES_ANEXO = [r'anexo\s+i\b', r'anexo\s+1\b', r'anexo\s+iii\b', r'anexo\s+3\
 # contar cualquier mención en el cuerpo ("véase Anexo I") metía en algunos PCAP más de la mitad
 # de las páginas. Un anexo ocupa varias páginas y las siguientes no repiten el encabezado, por
 # eso construir_texto_reducido incluye también las 3 páginas posteriores a cada encabezado.
-PATRON_CABECERA_ANEXO = re.compile(r'^\s*anexo\s+(i|1|iii|3)\b', re.IGNORECASE | re.MULTILINE)
+# El Cuadro Resumen / de Características (datos clave: presupuesto, plazos, solvencia, criterios) se
+# trata igual: varios pliegos lo llevan como anexo y el localizador se lo dejaba fuera.
+PATRON_CABECERA_ANEXO = re.compile(
+    r'^\s*(?:anexo\s+(?:i|1|iii|3)\b|cuadro[\s-]+(?:resumen|de\s+caracter[ií]sticas))',
+    re.IGNORECASE | re.MULTILINE,
+)
 PAGINAS_POSTERIORES_ANEXO = 3
 
 
@@ -348,6 +380,10 @@ def obtener_pcap(url, api_key=None, min_chars_por_pagina=100, max_chars_texto=35
                 texto_reducido, paginas_incluidas = construir_texto_reducido(
                     paginas_texto, secciones, max_chars=max_chars_texto
                 )
+                if num_paginas > 6 and (not any(secciones.values()) or len(paginas_incluidas) <= 3):
+                    # El localizador no ha encontrado nada útil (o solo quedan las 3 páginas fijas
+                    # del inicio). Mejor el documento completo (recortado) que un informe sin cláusulas.
+                    raise ValueError(f"el localizador no encontró páginas útiles ({len(paginas_incluidas)}/{num_paginas})")
                 print(
                     f"    Localizador: usando {len(paginas_incluidas)}/{num_paginas} páginas "
                     f"({len(texto_reducido)} caracteres) en vez del documento completo."
