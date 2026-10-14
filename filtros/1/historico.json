@@ -1,7 +1,7 @@
 [
   {
     "folder_id": "esDONES/260/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "Contratación de servicios de consultoría y soporte en cálculos neutrónicos mediante simulaciones Monte Carlo en el proyecto IFMIF-DONES",
     "updated": "2026-07-08T12:22:04.453+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KCK3iB8oZn1eKgd8LfVV9g%3D%3D",
@@ -16,7 +16,14 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YUZr6Mf8bK0peQFpNsFP200PBcDgiYBQ51ZEXef207DEzkNd60%2B6oHOoHZcr47a780r7OXf80cD7q2IHd2NNvbPHP7OnqLX3TIY42NiNoiqB0nvVKRzfe4rpHcnlPhSZ",
     "organo": "Consorcio IFMIF-DONES España",
     "importe": "0",
-    "fecha_captura": "2026-07-10"
+    "fecha_captura": "2026-07-10",
+    "estado_anterior": "PUB",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-14",
+    "fecha_limite_anterior": null,
+    "fecha_limite": "2026-08-20",
+    "fecha_limite_cambiada_el": "2026-10-14",
+    "estado_updated": "2026-10-13T20:31:47.589+02:00"
   },
   {
     "folder_id": "704/2026",
@@ -126,7 +133,7 @@
   },
   {
     "folder_id": "205/2026",
-    "estado": "PUB",
+    "estado": "RES",
     "titulo": "contratacion del servicio de asistencia tecnica para la redacción del Plan General de Ordenación Municipal PGOM y del Plan POU",
     "updated": "2026-07-13T09:00:00.000+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=80aPPYr93hmOUi78BmzhOQ%3D%3D",
@@ -141,16 +148,16 @@
     "importe": "289256.2",
     "fecha_limite": "2026-10-26",
     "fecha_captura": "2026-07-14",
-    "estado_anterior": "EV",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-09",
-    "estado_updated": "2026-10-08T08:37:54.801+02:00",
+    "estado_anterior": "PUB",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-10-14",
+    "estado_updated": "2026-10-13T14:23:22.252+02:00",
     "fecha_limite_anterior": "2026-08-14",
     "fecha_limite_cambiada_el": "2026-10-09"
   },
   {
     "folder_id": "24/26",
-    "estado": "ADJ",
+    "estado": "PUB",
     "titulo": "Servicio de Consultoría – Oficina Técnica Administrativa del Proyecto ECOCREM, cofinanciado por el Programa Plurirregional de España FEDER 2021-2027 en un 85% del gasto elegible, en el marco de la Línea FID-CPI del Ministerio de Ciencia, Innovación y Universidades para la empresa Parque Cementerio de Málaga S.A (PARCEMASA).",
     "updated": "2026-07-13T09:00:00.000+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7j7HaCQg2c9eKgd8LfVV9g%3D%3D",
@@ -168,14 +175,14 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=zp5eD6eWRxhOIVlpuwyE1k4R9uZNkJoHd27aLbND1mxFAZdLp5uwwNuWbeWYaqhgpMH2HVJVk6K6YcbhRWC4iEmcSHkMBZ3Xh2/1gEJzGfcC1/zDIE0Kw/PWNnLS0Z0z",
     "organo": "Gerencia del Parque Cementerio de Málaga, S.A.",
     "importe": "481470.91",
-    "fecha_limite": "2026-08-14",
+    "fecha_limite": "2026-10-27",
     "fecha_captura": "2026-07-14",
-    "estado_anterior": "RES",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-09",
-    "estado_updated": "2026-10-07T11:04:49.551+02:00",
-    "fecha_limite_anterior": "2026-08-17",
-    "fecha_limite_cambiada_el": "2026-10-09"
+    "estado_anterior": "ADJ",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-14",
+    "estado_updated": "2026-10-13T15:11:55.302+02:00",
+    "fecha_limite_anterior": "2026-08-14",
+    "fecha_limite_cambiada_el": "2026-10-14"
   },
   {
     "folder_id": "06/2026-Servicios_ABI_Simplificado",
@@ -422,7 +429,7 @@
   },
   {
     "folder_id": "160/2026",
-    "estado": "RES",
+    "estado": "EV",
     "titulo": "Servicio de asistencia técnica al Ayuntamiento de Iznatoraf, para la redacción Plan Básico de Ordenación Municipal (PBOM) y el Plan Especial de Protección del Patrimonio Histórico (PEPPH).",
     "updated": "2026-07-21T18:24:04.681+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=CqCs6W%2BKVz%2Fs%2BnLj3vAg5A%3D%3D",
@@ -436,7 +443,7 @@
     "organo": "Alcaldía del Ayuntamiento de Iznatoraf",
     "importe": "120000",
     "importe_num": 120000,
-    "fecha_limite": "2026-08-05",
+    "fecha_limite": "2026-09-16",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -449,10 +456,12 @@
       "fecha_analisis": "2026-07-22T12:34:46.237172+00:00"
     },
     "fecha_captura": "2026-07-22",
-    "estado_anterior": "ADJ",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-08",
-    "estado_updated": "2026-10-07T14:26:31.025+02:00"
+    "estado_anterior": "RES",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-14",
+    "estado_updated": "2026-10-13T18:01:52.095+02:00",
+    "fecha_limite_anterior": "2026-08-05",
+    "fecha_limite_cambiada_el": "2026-10-14"
   },
   {
     "folder_id": "2026/438",
@@ -711,7 +720,7 @@
   },
   {
     "folder_id": "79-26",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "Contratación del Servicio de \"Redacción del Proyecto constructivo, Dirección de Obra y Coordinación de Seguridad y Salud para la mejora de la interconexión de los sistemas campo de Gibraltar y Costa del Sol. Ramal este, tramo Marbella-Fuengirola (Málaga). Fase 1.",
     "updated": "2026-08-04T09:15:12.611+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=b0fR2SAYhnrzAq95uGTrDQ%3D%3D",
@@ -758,7 +767,11 @@
       "informe": "# Informe de Análisis PCAP — Redacción Proyecto Constructivo, DO y CSS. Ramal Este Marbella-Fuengirola (Fase 1) — ACOSOL\n\n## 1. Solvencia económico-financiera\n\nLos requisitos se aplican **por cada lote** al que se concurra (cada lote constituye un contrato independiente), no de forma acumulada salvo que se licite a varios lotes conjuntamente sin previsión expresa de acumulación:\n\n* **Volumen anual de negocios**: referido al mejor ejercicio de los tres últimos disponibles, por importe mínimo de **1,5 veces el valor estimado del contrato (lote)**.\n  * Acreditación: cuentas anuales depositadas en el Registro Mercantil (o libros de inventario/cuentas legalizadas si no está inscrito), o certificado de cifra de negocios de la AEAT, o resumen del modelo 390 de IVA.\n* **Seguro de responsabilidad civil por riesgos profesionales**: importe mínimo igual al **valor estimado del contrato (lote)**.\n  * Acreditación: certificado de la aseguradora con importes, riesgos y vencimiento, más compromiso de renovación/prórroga durante la ejecución.\n* **Patrimonio neto**: según balance del último ejercicio, deberá superar **1,5 veces el valor estimado del contrato (lote)**.\n  * Acreditación: cuentas anuales depositadas en Registro Mercantil (o registro oficial correspondiente).\n\nValores estimados de referencia por lote (sin IVA):\n\n| Lote | Valor estimado | Volumen negocio exigido (x1,5) | Seguro RC exigido (x1) |\n|---|---|---|---|\n| Lote 1 | 360.189,21 € | 540.283,82 € | 360.189,21 € |\n| Lote 2 | 487.522,80 € | 731.284,20 € | 487.522,80 € |\n| Lote 3 | 674.815,30 € | 1.012.222,95 € | 674.815,30 € |\n\nNo se exige clasificación empresarial (no es exigible en contratos de servicios conforme al art. 77.1.b LCSP) ni inscripción en ROLECE.\n\n## 2. Solvencia técnica / Equipo mínimo\n\n**Requisito previo de solvencia técnica (a nivel de empresa, no de personas concretas):**\nPresentación de al menos **3 certificados** de participación en proyectos de construcción iguales o similares al objeto del contrato, ejecutados en los **últimos 5 años**, indicando importe, fecha y destinatario.\n\n**Compromiso de adscripción de medios personales mínimos** (obligación esencial art. 211.1.f LCSP), por cada lote:\n\n* Autor del Proyecto Constructivo (1 persona por lote, distinta si se adjudican varios lotes): titulación habilitante para redacción de proyectos\n   * Experiencia en proyectos de infraestructuras hidráulicas, conducciones a presión, redes de abastecimiento o actuaciones técnicamente equivalentes (el PCAP **no fija un número mínimo de años ni de proyectos** como requisito de solvencia; la cuantificación se traslada al criterio de adjudicación técnico)\n\n* Director de Obra (1 persona por lote, distinta si se adjudican varios lotes): técnico competente habilitado para asumir la Dirección de Obra\n   * No se fija experiencia mínima cuantificada como requisito de solvencia (igual observación que el perfil anterior)\n\n* Coordinador de Seguridad y Salud (1 persona por lote, distinta si se adjudican varios lotes): técnico competente conforme al RD 1627/1997\n   * No se fija experiencia mínima cuantificada; solo habilitación normativa exigida\n\n* Técnico de apoyo a la Dirección Facultativa / Vigilante de Obra (según PPTP): perfil técnico de apoyo\n   * Requisitos remitidos al PPTP (no incluido en el documento analizado) ⚠ REVISAR — verificar PPTP para condiciones concretas\n\n* Responsables de disciplinas técnicas (sin número mínimo fijado, \"equipo deberá contar con especialistas\"): ingeniería hidráulica, trazado, geotecnia, estructuras, topografía, servicios afectados, expropiaciones, medio ambiente, seguridad y salud, instrumentación/control/telemando, control de calidad, planificación y presupuesto\n   * Sin requisitos de experiencia cuantificados en el PCAP; se remite al PPTP\n\nAdemás, se exige compromiso de medios materiales su",
       "fecha_analisis": "2026-08-05T06:19:24.239046+00:00"
     },
-    "fecha_captura": "2026-08-05"
+    "fecha_captura": "2026-08-05",
+    "estado_anterior": "PUB",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-14",
+    "estado_updated": "2026-10-14T12:30:58.746+02:00"
   },
   {
     "folder_id": "11515/2026 PROYECTO ARQUILLA AGUA",
@@ -854,7 +867,7 @@
   },
   {
     "folder_id": "13094/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "Asistencia técnica redacción del proyecto básico y de ejecución, estudio o estudio básico de seguridad y salud, estudio de gestión de residuos, dirección facultativa obras y coordinación de seguridad y salud de recuperación de espacios públicos, en concreto de parques Calahoyas y Atarazana y plaza de los Alcores para integrar dichos espacios dentro del proyecto Mairena Econectada",
     "updated": "2026-08-14T14:10:25.219+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=3nswTw97Cgr9pbnDwlaUlg%3D%3D",
@@ -897,7 +910,11 @@
       "informe": "# 1. Solvencia económico-financiera\n\n**Medio exigido (regla general):**\n- Volumen anual de negocios del licitador, referido al año de mayor volumen de los tres últimos ejercicios concluidos, que deberá ser **al menos 1,5 veces el valor estimado del/los lote/s** a los que se presente.\n- Acreditación: cuentas anuales aprobadas y depositadas en el Registro Mercantil (o registro oficial correspondiente); empresarios individuales no inscritos, mediante libros de inventarios y cuentas anuales legalizados.\n- Al estar el contrato dividido en lotes, este criterio se aplica **en relación con cada lote** al que se concurra.\n\n**Alternativa para empresas de nueva creación** (antigüedad inferior a 5 años):\n- Acreditación mediante seguro de responsabilidad civil vigente a la fecha de fin de presentación de ofertas, por un importe mínimo igual al **valor estimado del/los lote/s** a los que se concurra, mediante certificado del asegurador (asegurado, importes, riesgos y vencimiento).\n\n*(Nota: valores estimados por lote — Lote 1: 17.708,00 €; Lote 2: 29.720,00 €; Lote 3: 38.960,00 €; umbral de solvencia = 1,5x cada uno de estos importes según el/los lotes ofertados).*\n\n---\n\n# 2. Solvencia técnica / Equipo mínimo\n\n* Técnico redactor del proyecto (1 persona): Arquitecto, ingeniero o titulación equivalente habilitante para la redacción de proyectos\n   * Antigüedad mínima de la titulación de 3 años (a contar desde la fecha de expedición del título o, en su caso, de colegiación)\n\n* Director de Obra (1 persona): Arquitecto técnico o titulación equivalente habilitante para ser responsable de la dirección de obra\n   * Antigüedad mínima de la titulación de 3 años\n\n* Director de Ejecución de Obra (1 persona): Arquitecto técnico o titulación equivalente habilitante para ser responsable de la dirección de la ejecución de obra y control material de obra\n   * Antigüedad mínima de la titulación de 3 años\n\n* Coordinador de Seguridad y Salud (1 persona): Arquitecto técnico o titulación equivalente habilitante para la coordinación de seguridad y salud (conforme RD 1627/1997 y normativa PRL)\n   * Antigüedad mínima de la titulación de 3 años\n\n**Notas adicionales de configuración del equipo:**\n- El técnico redactor del proyecto debe participar de forma directa y continuada en la fase de dirección facultativa de obras (coherencia proyecto-ejecución). Si la dirección de obra no recae en la misma persona, debe justificarse y garantizar mecanismos de coordinación.\n- Si se presenta un equipo multidisciplinar (agrupación, UTE, etc.), debe designarse expresamente un **Director del Trabajo** con titulación habilitante, responsable principal e interlocutor con el promotor.\n- Sustituciones de cualquier miembro del equipo requieren aceptación expresa del órgano de contratación y deben realizarse por perfil equivalente.\n- Medios de acreditación: copia compulsada de títulos, CV firmado por cada técnico (experiencia y función), compromiso de adscripción de medios (Anexo III) y certificado de colegiación o documento equivalente.\n\n---\n\n# 3. Criterios de adjudicación\n\n## Criterios evaluables mediante juicio de valor — Máximo 40 puntos\nUmbral mínimo: **20 puntos (50%)** para continuar en la licitación.\n\n- **Memoria Técnica — Análisis del estado actual de la zona de actuación** (hasta 10 puntos):\n  - Estado de vegetación, riego, calidad paisajística y sombra: 2 puntos\n  - Permeabilidad del suelo y drenaje: 2 puntos\n  - Estado de pavimentos, estructuras y mobiliario urbano: 2 puntos\n  - Condiciones de accesibilidad: 2 puntos\n  - Calidad ambiental, refugio climático y relación con el entorno: 2 puntos\n\n- **Propuesta conceptual de diseño** (hasta 30 puntos):\n  - Calidad global del diseño / accesibilidad / movilidad sostenible: 4 puntos\n  - Coherencia con el análisis previo: 4 puntos\n  - Integración de vegetación y soluciones verdes: 5 puntos\n  - Posible incorporación de fuentes: 4 puntos\n  - Organización funcional y multifuncionalidad: 4 puntos\n  - Materiales drenantes / mitigación isla de calor: 4 puntos\n  - Mobiliario urbano ecológico y posibilidad de juegos infantiles: 5 puntos\n\nFormato: memoria máx. 8 páginas (Arial 11, DIN-A4) + panel DIN-A2 con render/infografía.\n\n## Criterios evaluables mediante fórmulas — Máximo 60 puntos\n\n- **Experiencia del equipo técnico** (hasta 15 puntos): 5 puntos por cada actuación acreditada (máx. 3) de proyectos/obras similares ejecutadas en los últimos 10 años, con certificado final de obra, y PEM ≥ al mínimo exigido por lote (Lote 1: 196.350,00 €; Lote 2: 346.500,00 €; Lote 3: 462.000,00 €).\n  ⚠ REVISAR — criterio de mejora de equipo, no confundir con el mínimo de solvencia\n\n- **Reducción del plazo de ejecución de redacción del proyecto** (hasta 15 puntos):\n  - 1 semana: 0 puntos\n  - 2 semanas: 5 puntos\n  - 3 semanas: 10 puntos\n  - 4 semanas o más: 15 puntos\n  (Compromiso contractual exigible al adjudicatario)\n\n- **Oferta económica** (hasta 30 puntos): fórmula Px = PM − [K × (1 − (Qm/Qx))], con K=10, PM=30. Fórmula diseñada para no premiar excesivamente la baja de precio.\n\n---\n\n# 4. Valoración para CAI Consultores\n\n**Puntos a favor:**\n- El volumen de negocio de CAI (1.100.000 €/año) cubre ampliamente el umbral de solvencia económica exigido (1,5x el valor estimado del lote de mayor importe, Lote 3 = 38.960,00 € → umbral ≈ 58.440 €), incluso presentándose a los tres lotes simultáneamente.\n- Contrato de importe reducido (86.388 € total, dividido en 3 lotes pequeños) y procedimiento abierto simplificado, con plazos de tramitación ágiles — encaja bien con estructura de PYME/consultora de tamaño medio como CAI.\n- Los perfiles exigidos (arquitecto, arquitecto técnico ×3 roles) son estándar en un despacho de arquitectura/ingeniería; probablemente CAI ya dispone de estos perfiles con antigüedad de titulación >3 años.\n- El criterio técnico de \"Experiencia del equipo\" (fórmula, 15 puntos) permite acreditar hasta 3 actuaciones con PEM elevado (hasta 462.000 € en Lote 3); si CAI cuenta con referencias de proyectos de espacios públicos/parques de esa envergadura, puede maximizar esta puntuación.\n- Posibilidad de presentarse a los 3 lotes sin límite de adjudicación (máx. 3 lotes por licitador), lo que permite optimizar economías de escala del equipo.\n\n**Puntos a verificar internamente:**\n- Verificar si CAI dispone de **referencias concretas de PEM certificado** (con certificado final de obra) que igualen o superen los umbrales exigidos por lote, especialmente el Lote 3 (462.000 €), ya que sin certificado final de obra la actuación NO se valora.\n- Confirmar la antigüedad de colegiación/titulación (≥3 años) de cada uno de los 4 perfiles técnicos designados, y su disponibilidad efectiva y continuada (redacción + dirección facultativa de obra).\n- Valorar si se necesita subcontratar el perfil de Coordinador de Seguridad y Salud si no está cubierto internamente, dado que esta es una figura técnica separada y su designación resulta preceptiva en fase de ejecución de obra.\n- Revisar la capacidad de producir la Memoria Técnica con criterios de diseño paisajístico/urbano (render, infografía, panel DIN-A2), ya que estos criterios de juicio de valor requieren capacidad gráfica/paisajística que puede exceder el perfil puramente técnico-constructivo; valorar necesidad de apoyo de perfil de arquitectura paisajística (recordar que el CPV incluye \"servicios de arquitectura paisajística\").\n- No se menciona explícitamente experiencia en instrumentos LISTA/LOUA en este PCAP (no es una licitación de planeamiento urbanístico sino de proyecto de obra/dirección facultativa), por lo que ese criterio de experiencia específica de CAI no sería determinante aquí — verificar que no se pierda foco respecto a lo que realmente pide este pliego (redacción de proyecto y dirección de obra, no instrumento de planeamiento).\n- Comprobar el cumplimiento del umbral mínimo del 50% en juicios de valor (20/40 puntos) antes de continuar en el proceso, dado el peso relevante del diseño gráfico/conceptual.\n- Verificar el seguro de responsabilidad civil de CAI cubre el importe mínimo exigido (300.000 €) según cláusula de garantías/seguros del cuadro resumen.",
       "fecha_analisis": "2026-08-15T03:53:15.800776+00:00"
     },
-    "fecha_captura": "2026-08-15"
+    "fecha_captura": "2026-08-15",
+    "estado_anterior": "PUB",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-14",
+    "estado_updated": "2026-10-14T14:31:10.564+02:00"
   },
   {
     "folder_id": "4380/2026",
@@ -1026,7 +1043,7 @@
     "organo": "Alcaldia de Ayuntamiento de Castro del Río",
     "importe": "153817.36",
     "importe_num": 153817.36,
-    "fecha_limite": "2026-08-27",
+    "fecha_limite": "2026-08-11",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1040,7 +1057,9 @@
     "estado_anterior": "PUB",
     "resultado": null,
     "estado_cambiado_el": "2026-10-02",
-    "estado_updated": "2026-10-01T08:09:58.077+02:00"
+    "estado_updated": "2026-10-14T09:03:49.095+02:00",
+    "fecha_limite_anterior": "2026-08-27",
+    "fecha_limite_cambiada_el": "2026-10-14"
   },
   {
     "folder_id": "34/2026",
@@ -1143,7 +1162,7 @@
   },
   {
     "folder_id": "55/2026",
-    "estado": "EV",
+    "estado": "RES",
     "titulo": "Servicio asistencia técnica destinado a disponer de un equipo técnico cualificado para redacción de Proyectos Básicos y de Ejecución, elaboración de Estudios Básicos de Seguridad y Salud, y realización de los trabajos, correspondientes a actuaciones de mejora de accesibilidad e instalación de ascensores en edificios residenciales de vivienda colectiva beneficiarios ayudas Municipal 2024.",
     "updated": "2026-08-24T12:35:29.309+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VVaCe715rqCAAM7L03kM8A%3D%3D",
@@ -1168,10 +1187,10 @@
       "fecha_analisis": "2026-08-25T03:55:52.711452+00:00"
     },
     "fecha_captura": "2026-08-25",
-    "estado_anterior": "PUB",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-02",
-    "estado_updated": "2026-10-06T15:29:09.621+02:00",
+    "estado_anterior": "EV",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-10-14",
+    "estado_updated": "2026-10-13T08:33:12.786+02:00",
     "fecha_limite_anterior": "2026-07-23",
     "fecha_limite_cambiada_el": "2026-10-09"
   },
@@ -1904,5 +1923,62 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-10-13"
+  },
+  {
+    "folder_id": "5100075465 - PROYECTO Y DF RETROFIT MAGUE 5",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "La presente licitación tiene por objeto la contratación de la redacción de proyecto y realización de la dirección de obra, dirección de ejecución y coordinación de seguridad y salud para el retrofit de la grúa Mague 5 de Navantia Puerto Real, que incluya el diseño de una nueva pluma estructural.",
+    "updated": "2026-10-14T13:23:22.332+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=l140tO7LuYEwYTJJ03sHog%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71300000",
+      "71242000",
+      "71520000",
+      "71540000",
+      "71245000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=JDTew4DVW1IJrS%2BEzTF7xtSapZGp4vJME/98%2BWmucSUmU6DxJcFAhoC3bkbYPHMAiFoPrQh%2BPYEBThwX/T7gKZ0WL0J1zYqer5A%2BeRATIznVTD3T98KC0nSgQFM0q%2B5s",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=j5TYGXIBxB6lCVB/4tBuqVNegwdYKrEn02fAXQ%2BChrSyJgZo3FE9eRxawyVY4BIqG63l2gfYxyfJFCRZoaxyyojcEfgYWkzE/oZVwFJ7aU8C1/zDIE0Kw/PWNnLS0Z0z",
+    "organo": "Comité Central de Compras de Navantia S.A., S.M.E.",
+    "importe": "95000",
+    "importe_num": 95000.0,
+    "fecha_limite": "2026-11-17",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "100",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fecha_captura": "2026-10-14"
+  },
+  {
+    "folder_id": "4066/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de servicios técnicos de redacción de proyectos y dirección de obra del Ayuntamiento de Mojácar",
+    "updated": "2026-10-14T13:20:01.987+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=0EWUwqcQYS%2FgL1BHd3qjQA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71241000",
+      "71310000",
+      "71242000",
+      "71251000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=TLy8iBScMNIm%2BeA5LhArDj0b89dFcyaTDOlb3EJllWmE4paSgc1/VQX0rzOJnaXoo5PLuYNhsM0cuQC86sFkv%2B%2BqLNgmC%2BzzoMwK9RZ2Ju%2BHAj0WEJrB5sP7amrh2jBD",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=b7BmOaFGAQE9UcogZaRjsex7f9uqpx%2BCLDKU02vx1wVccasajTzVuEHOdIBzOfhabtOSImHzlK8EAeG49CMdQUUmJWfRlA1Ba35uIFak9nmB0nvVKRzfe4rpHcnlPhSZ",
+    "organo": "Junta de Gobierno Local del Ayuntamiento de Mojácar",
+    "importe": "50000",
+    "importe_num": 100000.0,
+    "fecha_limite": "2026-10-29",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fecha_captura": "2026-10-14"
   }
 ]
