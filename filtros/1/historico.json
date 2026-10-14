@@ -528,7 +528,10 @@
       "valoracion_criterios_adjudicacion": "",
       "fecha_analisis": "2026-07-23T06:10:24.553512+00:00"
     },
-    "fecha_captura": "2026-07-23"
+    "fecha_captura": "2026-07-23",
+    "descartado": true,
+    "descartado_fecha": "2026-10-14T13:40:44.768Z",
+    "descartado_por": "CarlosLCAI"
   },
   {
     "folder_id": "1608/2026",
