@@ -27,6 +27,8 @@
     --teal-texto: #055f5f;
     --on-teal: #fff; /* letra sobre fondo turquesa */
     --etiqueta-suave: #9AA0A5;
+    --descarte: #D64550; /* rojo de la casilla Descartado */
+    --borde-casilla: #8A9096;
     /* Semáforo de la revisión IA: tonos pastel de poco contraste */
     --sem-verde: #DCEEE2;
     --sem-naranja: #FAE5CF;
@@ -50,6 +52,8 @@
     --teal-texto: #5BC4C4;
     --on-teal: #E1E6E6;
     --etiqueta-suave: #8B9196;
+    --descarte: #E0565F;
+    --borde-casilla: #7C8288;
     --sem-verde: #2B3F34;
     --sem-naranja: #4A3C2B;
     --sem-rojo: #4A2F36;
@@ -193,9 +197,19 @@
   .marca-etiqueta { font-size: 11px; color: var(--etiqueta-suave); line-height: 1; }
   .check-marca { width: 16px; height: 16px; margin: 0; cursor: pointer; }
   .check-marca:disabled { cursor: wait; opacity: 0.5; }
+  /* Descartado: recuadro que al marcarse se rellena de rojo con una X blanca */
+  .check-marca[data-tipo="descartado"] {
+    -webkit-appearance: none; appearance: none;
+    border: 1.5px solid var(--borde-casilla); border-radius: 3px; background-color: var(--surface);
+  }
+  .check-marca[data-tipo="descartado"]:checked {
+    background: var(--descarte) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M2 2l6 6M8 2l-6 6' stroke='white' stroke-width='1.9' stroke-linecap='round'/%3E%3C/svg%3E") center / 11px 11px no-repeat;
+    border-color: var(--descarte);
+  }
+  button.marca-por[data-tipo="descartado"] { background: var(--descarte); }
   /* Licitación descartada: solo se ve en "Todas", atenuada */
-  tr.descartada { opacity: 0.5; }
-  tr.descartada:hover { opacity: 0.85; }
+  tr.descartada td:not(:last-child) { opacity: 0.5; }
+  tr.descartada:hover td:not(:last-child) { opacity: 0.85; }
   .marca-por {
     display: inline-flex;
     align-items: center;
