@@ -669,7 +669,10 @@
       "informe": "No es posible generar el informe solicitado.\n\nEl documento aportado corresponde al **Pliego Modelo de Cláusulas Administrativas Particulares para la tramitación de Sistemas Dinámicos de Adquisición de Suministros (SDA)** de EMACSA (Empresa Municipal de Aguas de Córdoba, S.A.).\n\nEste documento **no se corresponde con el objeto de licitación indicado** (\"Servicio de asistencia, consultoría y asesoramiento técnico, redacción de proyectos, direcciones de obras y trabajos de apoyo técnico para el seguimiento de obras y servicios de EMACSA\"), sino que regula un procedimiento distinto: la adquisición de **suministros** (productos de uso corriente) mediante un sistema dinámico de adquisición, no un contrato de servicios de consultoría/asistencia técnica de arquitectura o ingeniería.\n\nAdemás, el texto es un **pliego \"modelo\" genérico**, sin Cuadro de Características Particulares (CCP) cumplimentado, que es el documento donde constarían los datos específicos de esta licitación en concreto: no contiene:\n\n- Solvencia económico-financiera concreta (remite todo a \"lo que se indique en el CCP\").\n- Equipo mínimo, perfiles, titulaciones ni experiencia exigida (no aplica a un SDA de suministros; y aquí tampoco se ha aportado el PPT ni el CCP correspondientes).\n- Criterios de adjudicación con puntuaciones concretas (el pliego modelo solo regula la naturaleza y reglas generales de los criterios, remitiendo su ponderación y contenido al CCP de cada SDA/contrato específico).\n\n**Recomendación:** Verificar que se ha adjuntado el PCAP correcto correspondiente a la licitación de \"redacción de instrumento urbanístico\"/servicios de asistencia técnica y consultoría de EMACSA, junto con su Cuadro de Características Particulares (CCP) y Pliego de Prescripciones Técnicas (PPT), que son los documentos que contendrían la información necesaria (solvencia, equipo técnico exigido, criterios de adjudicación) para elaborar el análisis solicitado por CAI Consultores.",
       "fecha_analisis": "2026-08-04T05:57:44.370553+00:00"
     },
-    "fecha_captura": "2026-08-04"
+    "fecha_captura": "2026-08-04",
+    "descartado": true,
+    "descartado_fecha": "2026-10-14T13:40:33.272Z",
+    "descartado_por": "CarlosLCAI"
   },
   {
     "folder_id": "63-26 (5316)",
@@ -1590,7 +1593,7 @@
     "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/425549",
     "organo": "Cetursa Sierra Nevada, S.A.",
     "importe": "100000",
-    "importe_num": 100000.0,
+    "importe_num": 100000,
     "fecha_limite": "2026-10-22",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -1746,7 +1749,7 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=54Hz%2BRdUk3ucaTOwICBJlrg7qMHDcuYFLO/dqGjnzuTPhmO%2BmzZfD2elQqND1SyAumWoonNO41g/iib0jLgLkgc1042F6205gS4/b7B1Z6WHAj0WEJrB5sP7amrh2jBD",
     "organo": "Alcaldía del Ayuntamiento de Zagra",
     "importe": "32070",
-    "importe_num": 32070.0,
+    "importe_num": 32070,
     "fecha_limite": "2026-10-21",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
