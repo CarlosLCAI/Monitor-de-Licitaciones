@@ -1012,6 +1012,44 @@ def leer_feed(nombre, url_inicial, contextos, limite_fecha, fecha_captura_hoy):
     return pagina, entradas_leidas
 
 
+# Marcas que pone el equipo desde el visor: "revisado" y "descartado". Valen para la licitación en
+# todos los filtros donde aparece; el visor las escribe en todos, y aquí se deja igual lo que haya
+# quedado desigual (datos anteriores, un guardado a medias) y las licitaciones que entran nuevas
+# en otro filtro heredan la marca. Si hay varias, manda la más reciente.
+CAMPOS_MARCA_REVISION = (
+    ("revisado_humano", "revisado_fecha", "revisado_por"),
+    ("descartado", "descartado_fecha", "descartado_por"),
+)
+
+
+def unificar_marcas_revision(contextos):
+    ultima = {}  # (folder_id, campo_valor) -> registro con la marca más reciente
+    for ctx in contextos:
+        for r in ctx["historico"]:
+            fid = r.get("folder_id")
+            if not fid:
+                continue
+            for c_valor, c_fecha, _ in CAMPOS_MARCA_REVISION:
+                if r.get(c_valor):
+                    k = (fid, c_valor)
+                    if k not in ultima or str(r.get(c_fecha) or "") > str(ultima[k].get(c_fecha) or ""):
+                        ultima[k] = r
+    propagadas = 0
+    for ctx in contextos:
+        for r in list(ctx["historico"]) + list(ctx["resultados"]):
+            fid = r.get("folder_id")
+            for c_valor, c_fecha, c_por in CAMPOS_MARCA_REVISION:
+                origen = ultima.get((fid, c_valor))
+                if origen is None or origen is r:
+                    continue
+                if any(r.get(c) != origen.get(c) for c in (c_valor, c_fecha, c_por)):
+                    for c in (c_valor, c_fecha, c_por):
+                        r[c] = origen.get(c)
+                    propagadas += 1
+    if propagadas:
+        print(f"Marcas de revisión/descarte propagadas entre filtros: {propagadas}")
+
+
 def main():
     filtros_desc = cargar_manifiesto_filtros()
 
@@ -1088,6 +1126,8 @@ def main():
         for registro in ctx["historico"]:
             if registro.get("folder_id") and informe_ia_valido(registro.get("revision_ia")):
                 informes_ia.setdefault(registro["folder_id"], registro["revision_ia"])
+
+    unificar_marcas_revision(contextos)
 
     for ctx in contextos:
         desc = ctx["desc"]

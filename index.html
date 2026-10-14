@@ -26,6 +26,7 @@
     --teal-suave: #E3F5F5;
     --teal-texto: #055f5f;
     --on-teal: #fff; /* letra sobre fondo turquesa */
+    --etiqueta-suave: #9AA0A5;
     /* Semáforo de la revisión IA: tonos pastel de poco contraste */
     --sem-verde: #DCEEE2;
     --sem-naranja: #FAE5CF;
@@ -48,6 +49,7 @@
     --teal-suave: #1E3B3B;
     --teal-texto: #5BC4C4;
     --on-teal: #E1E6E6;
+    --etiqueta-suave: #8B9196;
     --sem-verde: #2B3F34;
     --sem-naranja: #4A3C2B;
     --sem-rojo: #4A2F36;
@@ -175,7 +177,7 @@
   /* En pantallas estrechas la tabla principal conserva un ancho mínimo y se desplaza en horizontal,
      en vez de aplastar las columnas de título y órgano. */
   #contenido { overflow-x: auto; }
-  #contenido > table { min-width: 1080px; }
+  #contenido > table { min-width: 1110px; }
   th:nth-child(1), td:nth-child(1) { width: 60px; }
   th:nth-child(2), td:nth-child(2) { width: 25%; }
   th:nth-child(3), td:nth-child(3) { width: 13%; }
@@ -184,9 +186,16 @@
   th:nth-child(6), td:nth-child(6) { width: 110px; }
   th:nth-child(7), td:nth-child(7) { width: 145px; }
   th:nth-child(8), td:nth-child(8) { width: 125px; }
-  th:nth-child(9), td:nth-child(9) { width: 65px; text-align: center; }
-  .check-revisado { width: 16px; height: 16px; cursor: pointer; }
-  .check-revisado:disabled { cursor: wait; opacity: 0.5; }
+  th:nth-child(9), td:nth-child(9) { width: 92px; text-align: center; }
+  /* Columna Revisión: dos marcas apiladas (Revisado / Descartado) con la etiqueta en gris claro */
+  .marca-bloque { display: flex; flex-direction: column; align-items: center; gap: 3px; }
+  .marca-bloque + .marca-bloque { margin-top: 8px; }
+  .marca-etiqueta { font-size: 11px; color: var(--etiqueta-suave); line-height: 1; }
+  .check-marca { width: 16px; height: 16px; margin: 0; cursor: pointer; }
+  .check-marca:disabled { cursor: wait; opacity: 0.5; }
+  /* Licitación descartada: solo se ve en "Todas", atenuada */
+  tr.descartada { opacity: 0.5; }
+  tr.descartada:hover { opacity: 0.85; }
   .marca-por {
     display: inline-flex;
     align-items: center;
@@ -763,8 +772,8 @@
             <h4>Las pestañas</h4>
             <ul>
               <li><strong>Última lectura:</strong> las licitaciones nuevas que ha encontrado el monitor en su última ejecución (se lanza cada madrugada). Es lo primero que conviene mirar cada día.</li>
-              <li><strong>En plazo:</strong> las licitaciones a las que todavía se puede presentar oferta, es decir, cuya fecha límite no ha vencido, da igual cuándo se captaron.</li>
-              <li><strong>Todas:</strong> el histórico completo de todo lo que ha captado el filtro seleccionado, también lo que ya venció.</li>
+              <li><strong>En plazo:</strong> las licitaciones a las que todavía se puede presentar oferta, es decir, cuya fecha límite no ha vencido, da igual cuándo se captaron. No incluye las descartadas.</li>
+              <li><strong>Todas:</strong> el histórico completo de todo lo que ha captado el filtro seleccionado, también lo que ya venció y las descartadas (atenuadas).</li>
               <li><strong>Estadísticas:</strong> un resumen con los datos de la última lectura, cuántas licitaciones hay en plazo y vencidas, cuántas ha revisado el equipo, cuántos informes IA se han generado y el reparto por estado.</li>
             </ul>
 
@@ -777,7 +786,7 @@
 
             <h4>Ordenar las columnas</h4>
             <ul>
-              <li>Pulsa el encabezado de una columna (Exp, Título, Órgano, Importe, Estado, fechas o Revisado) para ordenar por ella. Si vuelves a pulsarla, se invierte el orden. Por defecto salen primero las más recientes.</li>
+              <li>Pulsa el encabezado de una columna (Exp, Título, Órgano, Importe, Estado, fechas o Revisión) para ordenar por ella. Si vuelves a pulsarla, se invierte el orden. En Revisión el orden es: sin revisar, revisadas y descartadas. Por defecto salen primero las más recientes.</li>
             </ul>
 
             <h4>Documentos</h4>
@@ -785,10 +794,11 @@
               <li><strong>Ficha</strong> abre la licitación en la web oficial; <strong>PCAP</strong> y <strong>PPT</strong> descargan los pliegos de cláusulas administrativas y de prescripciones técnicas.</li>
             </ul>
 
-            <h4>Revisión IA y check de revisado</h4>
+            <h4>Revisión IA, revisado y descartado</h4>
             <ul>
               <li><strong>Solicitar Revisión IA:</strong> la revisión no se genera sola, se pide en la licitación que interese. En unos minutos el enlace pasa a <strong>Revisión IA</strong> en negrita; al abrirlo se ve el informe, que se puede compartir con el botón <em>Compartir</em> (copiar, PDF o HTML). Cada revisión tiene un pequeño coste.</li>
-              <li><strong>Check de revisado:</strong> marca que alguien del equipo ya ha mirado esa licitación. Si lo marca otra persona con su nombre configurado, en lugar del check aparece su inicial. Solo se puede marcar dentro de un filtro concreto, no en <em>Todos los filtros</em>.</li>
+              <li><strong>Revisado:</strong> marca que alguien del equipo ya ha mirado esa licitación. Si lo marca otra persona con su nombre configurado, en lugar del check aparece su inicial (al pulsarla se desmarca). Vale para todos los filtros en los que aparezca la licitación y se puede marcar también desde <em>Todos los filtros</em>.</li>
+              <li><strong>Descartado:</strong> marca las licitaciones que no interesan. Al descartarla desaparece de <em>Última lectura</em> y de <em>En plazo</em> y solo se ve en <em>Todas</em>, atenuada. Desde ahí puedes desmarcarla si cambias de idea. Igual que Revisado, se aplica a todos los filtros y se ve con la inicial de quien la descartó. Son dos marcas independientes: descartar no marca revisado, ni al revés.</li>
             </ul>
 
             <h4>Semáforo de solvencia (color de la celda del expediente)</h4>
@@ -1363,26 +1373,35 @@ async function comprobarRevisionesIA() {
   }
 }
 
-function celdaRevisadoHumano(r) {
-  const marcado = !!r.revisado_humano;
-  const esDeOtroUsuario = marcado && r.revisado_por && r.revisado_por.toLowerCase() !== GH_OWNER.toLowerCase();
+// Columna Revisión: dos marcas independientes, Revisado y Descartado. Cada una se guarda en la
+// licitación de TODOS los filtros donde aparece (también al pulsarla desde "Todos los filtros").
+// Si la marcó otra persona (con su nombre configurado), se muestra su inicial en lugar del check;
+// al pulsarla se desmarca.
+function bloqueMarca(r, tipo) {
+  const c = CAMPOS_MARCA[tipo];
+  const marcado = !!r[c.valor];
+  const por = r[c.por];
+  const fecha = r[c.fecha];
+  const etiqueta = '<span class="marca-etiqueta">' + ETIQUETAS_MARCA[tipo] + '</span>';
+  const id = escapeHtml(r.folder_id || '');
+  const esDeOtroUsuario = marcado && por && por.toLowerCase() !== GH_OWNER.toLowerCase();
+  let control;
   if (esDeOtroUsuario) {
-    const titulo = 'Revisado por ' + r.revisado_por + (r.revisado_fecha ? ' el ' + formatearFecha(r.revisado_fecha) : '');
-    const letra = escapeHtml(inicialDeUsuario(r.revisado_por));
-    if (filtroActivoId === ID_VISTA_TODOS) {
-      return '<span class="marca-por" title="' + escapeHtml(titulo) + '">' + letra + '</span>';
-    }
-    return '<button type="button" class="marca-por" data-folder-id="' + escapeHtml(r.folder_id || '') +
-      '" title="' + escapeHtml(titulo + ' (clic para desmarcar)') + '">' + letra + '</button>';
+    const titulo = ETIQUETAS_MARCA[tipo] + ' por ' + por + (fecha ? ' el ' + formatearFecha(fecha) : '') + ' (clic para desmarcar)';
+    control = '<button type="button" class="marca-por" data-folder-id="' + id + '" data-tipo="' + tipo +
+      '" title="' + escapeHtml(titulo) + '">' + escapeHtml(inicialDeUsuario(por)) + '</button>';
+  } else {
+    const titulo = marcado
+      ? ETIQUETAS_MARCA[tipo] + (fecha ? ' el ' + formatearFecha(fecha) : '')
+      : (tipo === 'revisado' ? 'Marcar como revisado' : 'Descartar: sale de «Última lectura» y «En plazo» y solo se ve en «Todas»');
+    control = '<input type="checkbox" class="check-marca" data-folder-id="' + id + '" data-tipo="' + tipo +
+      '" title="' + escapeHtml(titulo) + '"' + (marcado ? ' checked' : '') + '>';
   }
-  if (filtroActivoId === ID_VISTA_TODOS) {
-    // Vista agregada: solo lectura. La revisión se guarda por filtro, así que se marca desde el filtro concreto.
-    return '<input type="checkbox" class="check-revisado" disabled title="Para marcar como revisado, hazlo desde el filtro correspondiente"' +
-      (marcado ? ' checked' : '') + '>';
-  }
-  const titulo = r.revisado_fecha ? 'Revisado el ' + formatearFecha(r.revisado_fecha) : 'Marcar como revisado';
-  return '<input type="checkbox" class="check-revisado" data-folder-id="' + escapeHtml(r.folder_id || '') +
-    '" title="' + escapeHtml(titulo) + '"' + (marcado ? ' checked' : '') + '>';
+  return '<div class="marca-bloque">' + etiqueta + control + '</div>';
+}
+
+function celdaRevision(r) {
+  return '<td>' + bloqueMarca(r, 'revisado') + bloqueMarca(r, 'descartado') + '</td>';
 }
 
 // Las licitaciones de la Junta traen una descripción que explica el objeto mejor que su título
@@ -1443,18 +1462,19 @@ function esVigente(d) {
 }
 
 function datosPorPestana() {
+  // Las descartadas solo se ven en "Todas": no pasan por "Última lectura" ni por "En plazo".
   if (pestanaActiva === 'ultima') {
-    return datos.filter(d => d.fecha_captura === fechaUltimaLectura);
+    return datos.filter(d => !d.descartado && d.fecha_captura === fechaUltimaLectura);
   }
   if (pestanaActiva === 'enplazo') {
-    return datos.filter(esVigente);
+    return datos.filter(d => !d.descartado && esVigente(d));
   }
   return datos;
 }
 
 function renderTabs() {
-  const ultima = datos.filter(d => d.fecha_captura === fechaUltimaLectura).length;
-  const enPlazo = datos.filter(esVigente).length;
+  const ultima = datos.filter(d => !d.descartado && d.fecha_captura === fechaUltimaLectura).length;
+  const enPlazo = datos.filter(d => !d.descartado && esVigente(d)).length;
   const tabsEl = document.getElementById('tabs');
   tabsEl.innerHTML =
     '<button class="tab' + (pestanaActiva === 'ultima' ? ' active' : '') + '" data-tab="ultima">Última lectura<span class="count">' + ultima + '</span></button>' +
@@ -1503,10 +1523,10 @@ function renderTabla(lista) {
     '<th data-col="updated">Fecha licitación</th>' +
     '<th data-col="fecha_limite">Fecha límite</th>' +
     '<th>Documentos</th>' +
-    '<th data-col="revisado_humano">Revisado</th>' +
+    '<th data-col="revision">Revisión</th>' +
     '</tr></thead><tbody>';
   for (const r of lista) {
-    html += '<tr>' +
+    html += '<tr' + (r.descartado ? ' class="descartada"' : '') + '>' +
       celdaExpediente(r) +
       celdaTitulo(r) +
       '<td>' + (r.organo || '—') + '</td>' +
@@ -1520,7 +1540,7 @@ function renderTabla(lista) {
         (r.ppt_url ? '<a href="' + r.ppt_url + '" target="_blank" rel="noopener">PPT</a>' : '') +
         enlaceRevisionIA(r) +
       '</td>' +
-      '<td>' + celdaRevisadoHumano(r) + '</td>' +
+      celdaRevision(r) +
     '</tr>';
   }
   html += '</tbody></table>';
@@ -1534,11 +1554,11 @@ function renderTabla(lista) {
     });
   });
 
-  cont.querySelectorAll('.check-revisado').forEach(chk => {
-    chk.addEventListener('change', () => alCambiarRevisadoHumano(chk, chk.checked));
+  cont.querySelectorAll('.check-marca').forEach(chk => {
+    chk.addEventListener('change', () => alCambiarMarca(chk, chk.dataset.tipo, chk.checked));
   });
   cont.querySelectorAll('button.marca-por').forEach(btn => {
-    btn.addEventListener('click', () => alCambiarRevisadoHumano(btn, false));
+    btn.addEventListener('click', () => alCambiarMarca(btn, btn.dataset.tipo, false));
   });
 
   cont.querySelectorAll('.link-revision-ia').forEach(a => {
@@ -1589,9 +1609,9 @@ function aplicarFiltros() {
       va = parseFloat(va) || 0;
       vb = parseFloat(vb) || 0;
     }
-    if (ordenColumna === 'revisado_humano') {
-      va = a.revisado_humano ? 1 : 0;
-      vb = b.revisado_humano ? 1 : 0;
+    if (ordenColumna === 'revision') { // sin revisar < revisado < descartado
+      va = a.descartado ? 2 : (a.revisado_humano ? 1 : 0);
+      vb = b.descartado ? 2 : (b.revisado_humano ? 1 : 0);
     }
     if (va < vb) return ordenAsc ? -1 : 1;
     if (va > vb) return ordenAsc ? 1 : -1;
@@ -1617,8 +1637,9 @@ function renderEstadisticas() {
   document.getElementById('resumen-lectura').style.display = 'none';
 
   const total = datos.length;
-  const enPlazo = datos.filter(esVigente).length;
-  const vencidas = total - enPlazo;
+  const enPlazo = datos.filter(d => !d.descartado && esVigente(d)).length;
+  const vencidas = datos.filter(d => !esVigente(d)).length;
+  const descartadas = datos.filter(d => d.descartado).length;
 
   const porEstado = {};
   datos.forEach(d => {
@@ -1659,6 +1680,7 @@ function renderEstadisticas() {
     statTile('En plazo ahora mismo', enPlazo) +
     statTile('Plazo vencido', vencidas) +
     statTile('Revisadas por el equipo', revisadas + ' / ' + total + ' (' + pctRevisadas + '%)') +
+    statTile('Descartadas', descartadas + ' / ' + total) +
     statTile('Informes IA generados', conInformeIA + ' / ' + total) +
     '</div>';
 
@@ -1943,15 +1965,20 @@ function base64ToUtf8(b64) {
   return new TextDecoder('utf-8').decode(bytes);
 }
 
-async function guardarRevisionHumana(folderId, valor, intentosMax = 3) {
-  const token = obtenerTokenGuardado();
-  if (!token) throw new Error('Configura primero un token de GitHub.');
+// Marcas de revisión (Revisado / Descartado): cada una se aplica a la licitación en TODOS los
+// filtros donde aparece. Los campos viven en cada registro del histórico de cada filtro.
+const CAMPOS_MARCA = {
+  revisado: { valor: 'revisado_humano', fecha: 'revisado_fecha', por: 'revisado_por' },
+  descartado: { valor: 'descartado', fecha: 'descartado_fecha', por: 'descartado_por' },
+};
+const ETIQUETAS_MARCA = { revisado: 'Revisado', descartado: 'Descartado' };
 
-  const desc = descriptorFiltro(filtroActivoId);
+async function guardarCamposEnFiltro(filtroId, folderId, campos, mensaje, intentosMax = 3) {
+  const token = obtenerTokenGuardado();
+  const desc = descriptorFiltro(filtroId);
   const archivo = rutaFiltro(desc, 'historico.json');
   const apiUrl = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${archivo}`;
   const cabeceras = { Authorization: `token ${token}`, Accept: 'application/vnd.github+json' };
-  const revisor = valor ? await obtenerNombreRevisor(token).catch(() => null) : null;
 
   for (let intento = 1; intento <= intentosMax; intento++) {
     const actual = await fetch(`${apiUrl}?ref=${GH_BRANCH}`, { headers: cabeceras, cache: 'no-store' });
@@ -1961,20 +1988,18 @@ async function guardarRevisionHumana(folderId, valor, intentosMax = 3) {
     const actualData = await actual.json();
     const historicoRemoto = JSON.parse(base64ToUtf8(actualData.content));
 
-    const idx = historicoRemoto.findIndex(r => r.folder_id === folderId);
-    if (idx === -1) {
-      throw new Error('No se encontró esta licitación en el histórico remoto (puede que se haya actualizado mientras tanto — recarga la página).');
-    }
-    historicoRemoto[idx].revisado_humano = valor;
-    historicoRemoto[idx].revisado_fecha = valor ? new Date().toISOString() : null;
-    historicoRemoto[idx].revisado_por = revisor;
+    let tocados = 0;
+    historicoRemoto.forEach(r => {
+      if (r.folder_id === folderId) { Object.assign(r, campos); tocados++; }
+    });
+    if (!tocados) return null; // este filtro ya no contiene la licitación
 
     const contenido = JSON.stringify(historicoRemoto, null, 2) + '\n';
     const resp = await fetch(apiUrl, {
       method: 'PUT',
       headers: cabeceras,
       body: JSON.stringify({
-        message: `Marca revisión humana de ${folderId} (${archivo})`,
+        message: mensaje + ` (${archivo})`,
         content: utf8ToBase64(contenido),
         sha: actualData.sha,
         branch: GH_BRANCH,
@@ -1989,6 +2014,73 @@ async function guardarRevisionHumana(folderId, valor, intentosMax = 3) {
 
     const err = await resp.json().catch(() => ({}));
     throw new Error(`Error al guardar (HTTP ${resp.status}): ${err.message || 'sin detalle'}`);
+  }
+  throw new Error('Hubo conflictos al guardar en GitHub; inténtalo de nuevo.');
+}
+
+async function asegurarFiltrosCargados() {
+  await Promise.all(filtrosManifest.map(async f => {
+    if (!cacheFiltros[f.id]) cacheFiltros[f.id] = await cargarDatosFiltro(f);
+  }));
+}
+
+// Si una marca consta en un filtro y no en otro (datos anteriores a que se aplicaran a todos),
+// se unifica en memoria: manda la más reciente. El monitor diario también lo deja guardado.
+function unificarMarcas() {
+  const grupos = new Map();
+  for (const f of filtrosManifest) {
+    for (const r of (cacheFiltros[f.id] && cacheFiltros[f.id].historico) || []) {
+      if (!r.folder_id) continue;
+      if (!grupos.has(r.folder_id)) grupos.set(r.folder_id, []);
+      grupos.get(r.folder_id).push(r);
+    }
+  }
+  for (const regs of grupos.values()) {
+    if (regs.length < 2) continue;
+    for (const c of Object.values(CAMPOS_MARCA)) {
+      const marcados = regs.filter(r => r[c.valor])
+        .sort((a, b) => String(b[c.fecha] || '').localeCompare(String(a[c.fecha] || '')));
+      if (!marcados.length) continue;
+      const origen = marcados[0];
+      for (const r of regs) {
+        if (r === origen) continue;
+        r[c.valor] = true;
+        r[c.fecha] = origen[c.fecha] || null;
+        r[c.por] = origen[c.por] || null;
+      }
+    }
+  }
+}
+
+async function guardarMarca(folderId, tipo, valor) {
+  const token = obtenerTokenGuardado();
+  if (!token) throw new Error('Configura primero un token de GitHub.');
+  await asegurarFiltrosCargados();
+
+  const c = CAMPOS_MARCA[tipo];
+  const objetivos = filtrosManifest.filter(f => ((cacheFiltros[f.id] && cacheFiltros[f.id].historico) || [])
+    .some(r => r.folder_id === folderId));
+  if (!objetivos.length) throw new Error('No se encontró esta licitación en ningún filtro (recarga la página).');
+
+  const por = valor ? await obtenerNombreRevisor(token).catch(() => null) : null;
+  const fecha = valor ? new Date().toISOString() : null;
+  const campos = { [c.valor]: valor, [c.fecha]: fecha, [c.por]: por };
+  const mensaje = `${valor ? 'Marca' : 'Desmarca'} ${tipo === 'revisado' ? 'revisión humana' : 'descarte'} de ${folderId}`;
+
+  const errores = [];
+  for (const f of objetivos) {
+    try {
+      const historico = await guardarCamposEnFiltro(f.id, folderId, campos, mensaje);
+      if (historico) {
+        cacheFiltros[f.id].historico = historico;
+        recordarMarcaPendiente(f.id, folderId, tipo, valor, fecha, por);
+      }
+    } catch (e) {
+      errores.push((f.nombre || ('Filtro ' + f.id)) + ': ' + e.message);
+    }
+  }
+  if (errores.length) {
+    throw new Error((errores.length < objetivos.length ? 'Se guardó solo en parte. ' : '') + errores.join(' | '));
   }
 }
 
@@ -2007,9 +2099,10 @@ function escribirRevisionesPendientes(todas) {
   try { localStorage.setItem(REVISIONES_PENDIENTES_KEY, JSON.stringify(todas)); } catch (e) { /* sin almacenamiento: se pierde solo el respaldo */ }
 }
 
-function recordarRevisionPendiente(filtroId, folderId, valor, fecha, por) {
+function recordarMarcaPendiente(filtroId, folderId, tipo, valor, fecha, por) {
   const todas = leerRevisionesPendientes();
-  (todas[filtroId] = todas[filtroId] || {})[folderId] = { valor, fecha: fecha || null, por: por || null, guardadoEn: Date.now() };
+  (todas[filtroId] = todas[filtroId] || {})[folderId + '::' + tipo] =
+    { folderId, tipo, valor, fecha: fecha || null, por: por || null, guardadoEn: Date.now() };
   escribirRevisionesPendientes(todas);
 }
 
@@ -2018,38 +2111,45 @@ function aplicarRevisionesPendientes(filtroId, historico) {
   const delFiltro = todas[filtroId];
   if (!delFiltro) return historico;
   const ahora = Date.now();
-  for (const [folderId, p] of Object.entries(delFiltro)) {
-    const reg = historico.find(r => r.folder_id === folderId);
+  for (const [clave, p] of Object.entries(delFiltro)) {
+    // Las entradas antiguas (solo revisado) se guardaban con el folder_id como clave y sin "tipo".
+    const folderId = p.folderId || clave;
+    const c = CAMPOS_MARCA[p.tipo || 'revisado'];
+    const regs = historico.filter(r => r.folder_id === folderId);
     const caducada = ahora - p.guardadoEn > REVISION_PENDIENTE_TTL_MS;
-    const yaPublicada = reg && !!reg.revisado_humano === p.valor;
-    const hayOtraMasReciente = reg && reg.revisado_fecha && p.fecha && reg.revisado_fecha > p.fecha;
-    if (!reg || caducada || yaPublicada || hayOtraMasReciente) {
-      delete delFiltro[folderId];
+    const yaPublicada = regs.length && regs.every(r => !!r[c.valor] === p.valor);
+    const hayOtraMasReciente = regs.some(r => r[c.fecha] && p.fecha && r[c.fecha] > p.fecha);
+    if (!regs.length || caducada || yaPublicada || hayOtraMasReciente) {
+      delete delFiltro[clave];
       continue;
     }
-    reg.revisado_humano = p.valor;
-    reg.revisado_fecha = p.fecha;
-    reg.revisado_por = p.por || null;
+    regs.forEach(r => { r[c.valor] = p.valor; r[c.fecha] = p.fecha; r[c.por] = p.por || null; });
   }
   if (!Object.keys(delFiltro).length) delete todas[filtroId];
   escribirRevisionesPendientes(todas);
   return historico;
 }
 
-async function alCambiarRevisadoHumano(elemento, valor) {
+// Vuelve a pintar con los datos actuales sin cambiar de pestaña ni de filtro.
+async function refrescarDatosActuales() {
+  if (filtroActivoId === ID_VISTA_TODOS) {
+    datos = (await construirVistaTodos()).historico;
+  } else {
+    datos = (cacheFiltros[filtroActivoId] && cacheFiltros[filtroActivoId].historico) || [];
+  }
+  renderTabs();
+  renderVista();
+}
+
+async function alCambiarMarca(elemento, tipo, valor) {
   const folderId = elemento.dataset.folderId;
   elemento.disabled = true;
   try {
-    const historicoActualizado = await guardarRevisionHumana(folderId, valor);
-    const guardado = historicoActualizado.find(r => r.folder_id === folderId);
-    recordarRevisionPendiente(filtroActivoId, folderId, valor, guardado && guardado.revisado_fecha, guardado && guardado.revisado_por);
-    cacheFiltros[filtroActivoId].historico = historicoActualizado;
-    datos = historicoActualizado;
-    aplicarFiltros();
+    await guardarMarca(folderId, tipo, valor);
+    await refrescarDatosActuales();
   } catch (e) {
-    if (elemento.type === 'checkbox') elemento.checked = !valor;
-    elemento.disabled = false;
-    alert('No se pudo guardar la revisión: ' + e.message);
+    await refrescarDatosActuales().catch(() => {});
+    alert('No se pudo guardar la marca: ' + e.message);
   }
 }
 
@@ -2097,9 +2197,8 @@ function aplicarDatosFiltro(datosCargados) {
 const ID_VISTA_TODOS = 'todos';
 
 async function construirVistaTodos() {
-  await Promise.all(filtrosManifest.map(async f => {
-    if (!cacheFiltros[f.id]) cacheFiltros[f.id] = await cargarDatosFiltro(f);
-  }));
+  await asegurarFiltrosCargados();
+  unificarMarcas();
 
   const clave = r => r.estado_updated || r.updated || '';
   const grupos = new Map();
@@ -2127,6 +2226,10 @@ async function construirVistaTodos() {
     base.revisado_humano = revisadas.length > 0;
     base.revisado_por = revisadas.length ? revisadas[0].r.revisado_por || null : null;
     base.revisado_fecha = revisadas.length ? revisadas[0].r.revisado_fecha || null : null;
+    const descartadas = items.filter(x => x.r.descartado).sort((a, b) => String(b.r.descartado_fecha).localeCompare(String(a.r.descartado_fecha)));
+    base.descartado = descartadas.length > 0;
+    base.descartado_por = descartadas.length ? descartadas[0].r.descartado_por || null : null;
+    base.descartado_fecha = descartadas.length ? descartadas[0].r.descartado_fecha || null : null;
     const capturas = items.map(x => x.r.fecha_captura).filter(Boolean).sort();
     base.fecha_captura = capturas.length ? capturas[0] : base.fecha_captura;
     base.filtros_origen = [...new Set(items.map(x => x.nombre))];
@@ -2271,6 +2374,7 @@ document.getElementById('modal-revision-overlay').addEventListener('click', (e) 
 // y la campana se muestra rellena durante la primera semana. Solo cambios que el usuario note.
 const NOVEDADES = [
   { fecha: '2026-10-14', items: [
+    "<strong>Revisado y Descartado.</strong> La columna <em>Revisión</em> tiene ahora dos casillas. <em>Descartado</em> quita la licitación de «Última lectura» y «En plazo» (solo se ve, atenuada, en «Todas», donde se puede volver a activar). Las dos marcas se aplican a todos los filtros en los que aparezca la licitación, y el check de Revisado ya se puede marcar también desde «Todos los filtros».",
     "<strong>Semáforo de solvencia.</strong> Las Revisiones IA nuevas colorean la celda del expediente: <em>verde</em> (podemos presentarnos), <em>naranja</em> (falta algo asumible, como un perfil subcontratable), <em>rojo</em> (no cumplimos) o <em>gris</em> (falta información para valorarlo). Al pasar el ratón por encima aparece una breve indicación con el motivo. Solo valora si nos podemos presentar, no el precio.",
     "<strong>Buscador en la fila de pestañas.</strong> Ahora está a la derecha de las pestañas y busca siempre entre todas las licitaciones, sea cual sea su estado; se ha quitado el desplegable de estados.",
     "<strong>Botones de novedades, tutorial y tema.</strong> Arriba a la derecha hay tres iconos: la campana (novedades, rellena durante la primera semana tras cada actualización), el signo de interrogación (tutorial) y la luna/sol (tema claro u oscuro). Sustituyen a los enlaces del final de la página.",
@@ -2290,7 +2394,8 @@ const NOVEDADES = [
     "<strong>Más fuentes y más información.</strong> Se leen también las plataformas agregadas (Junta de Andalucía) y los contratos menores. El estado se muestra como Publicada, Adjudicada, Desierta o Anulada, y se actualizan las ampliaciones de plazo.",
   ] },
 ];
-const VERSION_NOVEDADES = NOVEDADES[0].fecha;
+// La versión incluye el nº de entradas del último grupo: añadir una entrada a la fecha más reciente también reabre la ventana.
+const VERSION_NOVEDADES = NOVEDADES[0].fecha + '#' + NOVEDADES[0].items.length;
 const NOVEDADES_VISTAS_KEY = 'monitorLicitaciones.novedadesVistas';
 
 const ICONO_BASE = '<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">';
@@ -2315,7 +2420,7 @@ function renderNovedades() {
 
 // La campana va rellena durante la primera semana tras la última actualización.
 function novedadesRecientes() {
-  const t = Date.parse(VERSION_NOVEDADES + 'T00:00:00');
+  const t = Date.parse(NOVEDADES[0].fecha + 'T00:00:00');
   return !isNaN(t) && Date.now() - t < 8 * 24 * 3600 * 1000;
 }
 
@@ -2323,7 +2428,7 @@ function pintarBotonNovedades() {
   const boton = document.getElementById('btn-novedades');
   boton.innerHTML = ICONOS.campana;
   boton.classList.toggle('relleno', novedadesRecientes());
-  boton.title = boton.ariaLabel = 'Novedades (última actualización: ' + fechaLarga(VERSION_NOVEDADES) + ')';
+  boton.title = boton.ariaLabel = 'Novedades (última actualización: ' + fechaLarga(NOVEDADES[0].fecha) + ')';
 }
 
 function cerrarNovedades() {
