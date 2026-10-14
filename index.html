@@ -61,12 +61,17 @@
   html[data-tema="oscuro"] .btn-primario:disabled { background: #46505a; border-color: #46505a; color: #9aa3ab; }
   html[data-tema="oscuro"] .modal-overlay { background: rgba(0, 0, 0, 0.65); }
   .wrap { position: relative; }
-  #btn-tema {
-    position: absolute; top: 10px; right: 24px;
-    cursor: pointer; line-height: 1;
-    background: var(--surface); color: var(--ink-soft); border: 1px solid var(--border); padding: 5px 9px; font-size: 16px;
+  /* Botones de arriba a la derecha: novedades (campana), tutorial (?) y tema (luna/sol). Mismos iconos de
+     línea (SVG) para que tengan la misma estética en cualquier sistema. */
+  .iconos-cabecera { position: absolute; top: 10px; right: 24px; display: flex; gap: 6px; }
+  .btn-icono {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 30px; height: 30px; padding: 0; cursor: pointer; line-height: 1;
+    background: var(--surface); color: var(--ink-soft); border: 1px solid var(--border); border-radius: 6px;
   }
-  #btn-tema:hover { color: var(--teal-texto); border-color: var(--teal-texto); }
+  .btn-icono:hover { color: var(--teal-texto); border-color: var(--teal-texto); }
+  .btn-icono.relleno { color: var(--teal-texto); border-color: var(--teal-texto); }
+  .btn-icono.relleno svg { fill: currentColor; }
   * { box-sizing: border-box; }
   body {
     margin: 0;
@@ -167,6 +172,10 @@
     border: 1px solid var(--border);
     font-size: 13.5px;
   }
+  /* En pantallas estrechas la tabla principal conserva un ancho mínimo y se desplaza en horizontal,
+     en vez de aplastar las columnas de título y órgano. */
+  #contenido { overflow-x: auto; }
+  #contenido > table { min-width: 1080px; }
   th:nth-child(1), td:nth-child(1) { width: 60px; }
   th:nth-child(2), td:nth-child(2) { width: 25%; }
   th:nth-child(3), td:nth-child(3) { width: 13%; }
@@ -299,8 +308,12 @@
     margin-top: 16px; padding: 10px 14px; background: var(--teal-suave); border-left: 4px solid var(--teal);
     font-size: 13.5px; line-height: 1.55;
   }
-  .pie-novedades { text-align: center; margin: 18px 0 0; font-size: 12px; }
-  .pie-novedades a { color: var(--ink-soft); }
+  .novedades-fecha {
+    font-family: 'Barlow Condensed', sans-serif; font-size: 15px; text-transform: uppercase; letter-spacing: .04em;
+    color: var(--teal-texto); margin: 18px 0 6px; padding-bottom: 3px; border-bottom: 1px solid var(--border);
+  }
+  .novedades-fecha:first-child { margin-top: 0; }
+  .chip-sem { display: inline-block; padding: 1px 9px; border-radius: 4px; font-weight: 600; color: var(--ink); }
   #btn-cerrar-novedades { background: none; border: none; color: var(--on-teal); font-size: 15px; cursor: pointer; }
   .resumen-lectura {
     display: none;
@@ -600,7 +613,11 @@
 <body>
 <div class="wrap">
 
-  <button type="button" id="btn-tema" aria-pressed="false" title="Cambiar a tema oscuro" aria-label="Cambiar a tema oscuro">☾</button>
+  <div class="iconos-cabecera">
+    <button type="button" class="btn-icono" id="btn-novedades" title="Novedades" aria-label="Novedades"></button>
+    <button type="button" class="btn-icono" id="btn-tutorial" title="Tutorial" aria-label="Tutorial"></button>
+    <button type="button" class="btn-icono" id="btn-tema" aria-pressed="false" title="Cambiar a tema oscuro" aria-label="Cambiar a tema oscuro"></button>
+  </div>
   <p class="marca-cai">CAI Consultores</p>
 
   <div class="cajetin">
@@ -739,18 +756,7 @@
         <button type="button" class="ayuda-tab" data-ayuda="tutorial" role="tab">Tutorial</button>
       </div>
       <div class="modal-body">
-        <div id="ayuda-novedades">
-        <ul class="novedades-lista">
-          <li><strong>Nuevos filtros.</strong> <em>Arquitectura</em> (solo provincia de Málaga) y <em>Dirección de obra</em> (servicios y obras). Además, el visor arranca ahora en <em>Todos los filtros</em>, que reúne las licitaciones de todos sin duplicarlas (solo lectura).</li>
-          <li><strong>Acceso con token.</strong> Cada persona puede usar un token de GitHub desde las opciones de un filtro para marcar revisiones y editar filtros. Si varias personas comparten el token, cada una puede escribir su nombre en esas opciones: sus revisiones aparecerán con su inicial (por ejemplo, <strong>K</strong>) en lugar del check.</li>
-          <li><strong>La revisión IA ya no se genera sola.</strong> Pulsa <em>Solicitar Revisión IA</em> en la licitación que te interese (requiere el token). En unos minutos aparecerá <strong>Revisión IA</strong> en negrita, lista para abrir.</li>
-          <li><strong>Más fuentes y más información.</strong> Se leen también las plataformas agregadas (Junta de Andalucía) y los contratos menores. El estado se muestra como Publicada, Adjudicada, Desierta o Anulada, y se actualizan las ampliaciones de plazo.</li>
-          <li><strong>Licitaciones de la Junta de Andalucía.</strong> Ahora muestran el órgano, el importe, el PCAP y el PPT, y en la columna del título aparece la <em>descripción</em> del proyecto, que explica mejor el objeto que el título del expediente.</li>
-          <li><strong>Compartir la revisión IA.</strong> Dentro de una revisión, el botón <em>Compartir</em> permite copiar el texto, descargar un PDF o descargar un HTML. Las tablas del informe también se ven mejor.</li>
-          <li><strong>Tema oscuro.</strong> El botón de arriba a la derecha cambia entre el tema claro y el oscuro, y recuerda tu elección en ese navegador.</li>
-          <li><strong>Tutorial.</strong> En la pestaña <em>Tutorial</em> de esta ventana tienes una guía rápida de cómo usar el monitor.</li>
-        </ul>
-        </div>
+        <div id="ayuda-novedades"></div>
 
         <div id="ayuda-tutorial" hidden>
           <div class="tutorial">
@@ -785,6 +791,24 @@
               <li><strong>Check de revisado:</strong> marca que alguien del equipo ya ha mirado esa licitación. Si lo marca otra persona con su nombre configurado, en lugar del check aparece su inicial. Solo se puede marcar dentro de un filtro concreto, no en <em>Todos los filtros</em>.</li>
             </ul>
 
+            <h4>Semáforo de solvencia (color de la celda del expediente)</h4>
+            <ul>
+              <li>Cuando una licitación tiene <strong>Revisión IA</strong>, la celda del expediente se colorea según si CAI podría presentarse con su perfil de solvencia. Solo valora si nos podemos presentar: no tiene en cuenta el precio, el plazo ni la probabilidad de ganar.</li>
+              <li><span class="chip-sem sem-verde">Verde</span> cumplimos los requisitos y podemos presentarnos en solitario, o ya ganamos un contrato muy parecido.</li>
+              <li><span class="chip-sem sem-naranja">Naranja</span> podemos presentarnos, pero falta algún perfil o parte de la solvencia (no la mayoría) que el pliego permite subcontratar o cubrir con una UTE.</li>
+              <li><span class="chip-sem sem-rojo">Rojo</span> no cumplimos: falta la mayoría de los requisitos o algo imprescindible que no se puede subcontratar.</li>
+              <li><span class="chip-sem sem-gris">Gris</span> no se puede valorar porque falta información (por ejemplo, el informe no recoge los requisitos de solvencia). No significa que no cumplamos.</li>
+              <li>Sin color: todavía no hay Revisión IA, o es anterior al semáforo.</li>
+              <li><strong>Al pasar el ratón por encima de la celda</strong> sale una breve indicación con el significado del color y el motivo de la valoración; el mismo aviso aparece destacado al abrir la Revisión IA. Es una ayuda orientativa: conviene contrastarla con el pliego.</li>
+            </ul>
+
+            <h4>Botones de arriba a la derecha</h4>
+            <ul>
+              <li><strong>Campana:</strong> abre las novedades. Aparece rellena durante la primera semana después de cada actualización; además, la ventana se abre sola la primera vez que entras tras un cambio.</li>
+              <li><strong>Signo de interrogación:</strong> abre este tutorial.</li>
+              <li><strong>Luna / sol:</strong> cambia entre el tema oscuro y el claro; se recuerda en tu navegador.</li>
+            </ul>
+
             <div class="tutorial-aviso">
               <strong>Hace falta un token.</strong> Para solicitar una Revisión IA y para marcar el check de revisado hay que tener un token de acceso. <strong>Pídeselo al administrador, Carlos Lanzat.</strong>
               <br>Cuando lo tengas: elige un filtro concreto, pulsa <strong>⋯</strong>, pega el token en "Token de GitHub", escribe tu nombre en "Tu nombre" y pulsa <strong>Guardar token</strong>. Solo hay que hacerlo una vez en cada navegador.
@@ -799,7 +823,6 @@
     </div>
   </div>
 
-  <p class="pie-novedades"><a href="#" id="link-novedades">Ver novedades</a> · <a href="#" id="link-tutorial">Tutorial</a></p>
 
 </div>
 
@@ -2242,10 +2265,66 @@ document.getElementById('modal-revision-overlay').addEventListener('click', (e) 
   }
 });
 
-// Ventana de novedades: se abre sola la primera vez que se entra desde que cambió VERSION_NOVEDADES
-// (cámbiala al publicar cambios nuevos que merezca la pena anunciar).
-const VERSION_NOVEDADES = '2026-10-08';
+// --- Novedades, tutorial y botones de cabecera --------------------------------------------------
+// Para anunciar cambios basta con añadir UNA entrada nueva al principio de NOVEDADES (fecha ISO + lista
+// de frases con HTML sencillo): la ventana se abre sola la primera vez que se entra desde esa fecha
+// y la campana se muestra rellena durante la primera semana. Solo cambios que el usuario note.
+const NOVEDADES = [
+  { fecha: '2026-10-14', items: [
+    "<strong>Semáforo de solvencia.</strong> Las Revisiones IA nuevas colorean la celda del expediente: <em>verde</em> (podemos presentarnos), <em>naranja</em> (falta algo asumible, como un perfil subcontratable), <em>rojo</em> (no cumplimos) o <em>gris</em> (falta información para valorarlo). Al pasar el ratón por encima aparece una breve indicación con el motivo. Solo valora si nos podemos presentar, no el precio.",
+    "<strong>Buscador en la fila de pestañas.</strong> Ahora está a la derecha de las pestañas y busca siempre entre todas las licitaciones, sea cual sea su estado; se ha quitado el desplegable de estados.",
+    "<strong>Botones de novedades, tutorial y tema.</strong> Arriba a la derecha hay tres iconos: la campana (novedades, rellena durante la primera semana tras cada actualización), el signo de interrogación (tutorial) y la luna/sol (tema claro u oscuro). Sustituyen a los enlaces del final de la página.",
+    "<strong>Aspecto más limpio.</strong> Fondo liso, cabecera con esquinas redondeadas, columna del importe más ancha (los importes grandes ya no se montan sobre el estado) y letras más suaves en el tema oscuro.",
+    "<strong>Revisiones IA más completas.</strong> Se ha corregido un fallo por el que algunos pliegos se leían solo por sus primeras páginas y el informe salía sin las cláusulas de solvencia.",
+  ] },
+  { fecha: '2026-10-08', items: [
+    "<strong>Licitaciones de la Junta de Andalucía.</strong> Ahora muestran el órgano, el importe, el PCAP y el PPT, y en la columna del título aparece la <em>descripción</em> del proyecto, que explica mejor el objeto que el título del expediente.",
+    "<strong>Compartir la revisión IA.</strong> Dentro de una revisión, el botón <em>Compartir</em> permite copiar el texto, descargar un PDF o descargar un HTML. Las tablas del informe también se ven mejor.",
+    "<strong>Tema oscuro.</strong> Cambia entre el tema claro y el oscuro y recuerda tu elección en ese navegador.",
+    "<strong>Tutorial.</strong> Guía rápida de cómo usar el monitor, en la pestaña <em>Tutorial</em> de esta ventana.",
+  ] },
+  { fecha: '2026-10-07', items: [
+    "<strong>Nuevos filtros.</strong> <em>Arquitectura</em> (solo provincia de Málaga) y <em>Dirección de obra</em> (servicios y obras). Además, el visor arranca ahora en <em>Todos los filtros</em>, que reúne las licitaciones de todos sin duplicarlas (solo lectura).",
+    "<strong>Acceso con token.</strong> Cada persona puede usar un token de GitHub desde las opciones de un filtro para marcar revisiones y editar filtros. Si varias personas comparten el token, cada una puede escribir su nombre en esas opciones: sus revisiones aparecerán con su inicial (por ejemplo, <strong>K</strong>) en lugar del check.",
+    "<strong>La revisión IA ya no se genera sola.</strong> Pulsa <em>Solicitar Revisión IA</em> en la licitación que te interese (requiere el token). En unos minutos aparecerá <strong>Revisión IA</strong> en negrita, lista para abrir.",
+    "<strong>Más fuentes y más información.</strong> Se leen también las plataformas agregadas (Junta de Andalucía) y los contratos menores. El estado se muestra como Publicada, Adjudicada, Desierta o Anulada, y se actualizan las ampliaciones de plazo.",
+  ] },
+];
+const VERSION_NOVEDADES = NOVEDADES[0].fecha;
 const NOVEDADES_VISTAS_KEY = 'monitorLicitaciones.novedadesVistas';
+
+const ICONO_BASE = '<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">';
+const ICONOS = {
+  campana: ICONO_BASE + '<path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>',
+  ayuda: ICONO_BASE + '<circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>',
+  luna: ICONO_BASE + '<path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>',
+  sol: ICONO_BASE + '<circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>',
+};
+
+function fechaLarga(iso) {
+  const d = new Date(iso + 'T12:00:00');
+  return isNaN(d) ? iso : d.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+}
+
+function renderNovedades() {
+  document.getElementById('ayuda-novedades').innerHTML = NOVEDADES.map(n =>
+    '<h4 class="novedades-fecha">' + fechaLarga(n.fecha) + '</h4>' +
+    '<ul class="novedades-lista">' + n.items.map(t => '<li>' + t + '</li>').join('') + '</ul>'
+  ).join('');
+}
+
+// La campana va rellena durante la primera semana tras la última actualización.
+function novedadesRecientes() {
+  const t = Date.parse(VERSION_NOVEDADES + 'T00:00:00');
+  return !isNaN(t) && Date.now() - t < 8 * 24 * 3600 * 1000;
+}
+
+function pintarBotonNovedades() {
+  const boton = document.getElementById('btn-novedades');
+  boton.innerHTML = ICONOS.campana;
+  boton.classList.toggle('relleno', novedadesRecientes());
+  boton.title = boton.ariaLabel = 'Novedades (última actualización: ' + fechaLarga(VERSION_NOVEDADES) + ')';
+}
 
 function cerrarNovedades() {
   document.getElementById('modal-novedades-overlay').classList.remove('abierto');
@@ -2257,6 +2336,7 @@ document.getElementById('btn-entendido-novedades').addEventListener('click', cer
 document.getElementById('modal-novedades-overlay').addEventListener('click', (e) => {
   if (e.target.id === 'modal-novedades-overlay') cerrarNovedades();
 });
+
 function mostrarAyuda(seccion) {
   document.querySelectorAll('.ayuda-tab').forEach(b => b.classList.toggle('active', b.dataset.ayuda === seccion));
   document.getElementById('ayuda-novedades').hidden = seccion !== 'novedades';
@@ -2270,14 +2350,11 @@ function abrirAyuda(seccion) {
 }
 
 document.querySelectorAll('.ayuda-tab').forEach(b => b.addEventListener('click', () => mostrarAyuda(b.dataset.ayuda)));
-document.getElementById('link-novedades').addEventListener('click', (e) => {
-  e.preventDefault();
-  abrirAyuda('novedades');
-});
-document.getElementById('link-tutorial').addEventListener('click', (e) => {
-  e.preventDefault();
-  abrirAyuda('tutorial');
-});
+document.getElementById('btn-novedades').addEventListener('click', () => abrirAyuda('novedades'));
+document.getElementById('btn-tutorial').addEventListener('click', () => abrirAyuda('tutorial'));
+document.getElementById('btn-tutorial').innerHTML = ICONOS.ayuda;
+renderNovedades();
+pintarBotonNovedades();
 
 try {
   if (localStorage.getItem(NOVEDADES_VISTAS_KEY) !== VERSION_NOVEDADES) {
@@ -2291,7 +2368,7 @@ function aplicarTema(tema, guardar) {
   const oscuro = tema === 'oscuro';
   if (oscuro) document.documentElement.dataset.tema = 'oscuro'; else delete document.documentElement.dataset.tema;
   const boton = document.getElementById('btn-tema');
-  boton.textContent = oscuro ? '☀' : '☾';
+  boton.innerHTML = oscuro ? ICONOS.sol : ICONOS.luna;
   boton.title = boton.ariaLabel = oscuro ? 'Cambiar a tema claro' : 'Cambiar a tema oscuro';
   boton.setAttribute('aria-pressed', oscuro ? 'true' : 'false');
   if (guardar) { try { localStorage.setItem(TEMA_KEY, tema); } catch (e) { /* sin almacenamiento */ } }
