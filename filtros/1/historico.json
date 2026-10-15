@@ -343,7 +343,7 @@
   },
   {
     "folder_id": "SV33/2026",
-    "estado": "PUB",
+    "estado": "RES",
     "titulo": "Servicio para la redacción del proyecto básico y de ejecución y estudio básico de seguridad y salud para las obras de terminación de instalaciones deportivas en parcela con uso deportivo en calle Arroyo del Búho, Barriada Campoverde de Utrera (Sevilla), así como dirección facultativa y coordinación de seguridad y salud de las obras.",
     "updated": "2026-07-16T13:07:21.470+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=FigWFZaFMaE3vLk2DU2Ddg%3D%3D",
@@ -369,7 +369,11 @@
     "importe_match": true,
     "fecha_captura": "2026-07-17",
     "revisado_humano": false,
-    "revisado_fecha": null
+    "revisado_fecha": null,
+    "estado_anterior": "PUB",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-15T12:58:02.053+02:00"
   },
   {
     "folder_id": "2025/409350/006-302/00001",
@@ -429,7 +433,7 @@
   },
   {
     "folder_id": "160/2026",
-    "estado": "EV",
+    "estado": "PUB",
     "titulo": "Servicio de asistencia técnica al Ayuntamiento de Iznatoraf, para la redacción Plan Básico de Ordenación Municipal (PBOM) y el Plan Especial de Protección del Patrimonio Histórico (PEPPH).",
     "updated": "2026-07-21T18:24:04.681+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=CqCs6W%2BKVz%2Fs%2BnLj3vAg5A%3D%3D",
@@ -443,7 +447,7 @@
     "organo": "Alcaldía del Ayuntamiento de Iznatoraf",
     "importe": "120000",
     "importe_num": 120000,
-    "fecha_limite": "2026-09-16",
+    "fecha_limite": "2026-10-26",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -456,12 +460,12 @@
       "fecha_analisis": "2026-07-22T12:34:46.237172+00:00"
     },
     "fecha_captura": "2026-07-22",
-    "estado_anterior": "RES",
+    "estado_anterior": "EV",
     "resultado": null,
-    "estado_cambiado_el": "2026-10-14",
-    "estado_updated": "2026-10-13T18:01:52.095+02:00",
-    "fecha_limite_anterior": "2026-08-05",
-    "fecha_limite_cambiada_el": "2026-10-14"
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-15T12:35:04.735+02:00",
+    "fecha_limite_anterior": "2026-09-16",
+    "fecha_limite_cambiada_el": "2026-10-15"
   },
   {
     "folder_id": "2026/438",
@@ -558,7 +562,7 @@
     "organo": "Junta de Gobierno del Ayuntamiento de Alfacar",
     "importe": "83471.07",
     "importe_num": 83471.07,
-    "fecha_limite": "2026-08-12",
+    "fecha_limite": "2026-09-30",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -572,7 +576,9 @@
     "estado_anterior": "PUB",
     "resultado": "adjudicada",
     "estado_cambiado_el": "2026-10-09",
-    "estado_updated": "2026-10-08T13:27:59.112+02:00"
+    "estado_updated": "2026-10-14T10:05:11.668+02:00",
+    "fecha_limite_anterior": "2026-08-12",
+    "fecha_limite_cambiada_el": "2026-10-15"
   },
   {
     "folder_id": "GEX 2026 1519 PLAN ORDENACION",
@@ -638,7 +644,7 @@
   },
   {
     "folder_id": "SDA33/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "Servicio de asistencia, consultoría y asesoramiento técnico, redacción de proyectos, direcciones de obras y trabajos de apoyo técnico para el seguimiento de obras y servicios de EMACSA",
     "updated": "2026-08-03T20:07:13.947+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=OdtanW6p1rM%2B1TMyIiZmzw%3D%3D",
@@ -684,7 +690,11 @@
     "fecha_captura": "2026-08-04",
     "descartado": true,
     "descartado_fecha": "2026-10-14T13:40:33.272Z",
-    "descartado_por": "CarlosLCAI"
+    "descartado_por": "CarlosLCAI",
+    "estado_anterior": "PUB",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-15T13:35:48.957+02:00"
   },
   {
     "folder_id": "63-26 (5316)",
@@ -867,7 +877,7 @@
   },
   {
     "folder_id": "13094/2026",
-    "estado": "EV",
+    "estado": "ADJ",
     "titulo": "Asistencia técnica redacción del proyecto básico y de ejecución, estudio o estudio básico de seguridad y salud, estudio de gestión de residuos, dirección facultativa obras y coordinación de seguridad y salud de recuperación de espacios públicos, en concreto de parques Calahoyas y Atarazana y plaza de los Alcores para integrar dichos espacios dentro del proyecto Mairena Econectada",
     "updated": "2026-08-14T14:10:25.219+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=3nswTw97Cgr9pbnDwlaUlg%3D%3D",
@@ -911,10 +921,10 @@
       "fecha_analisis": "2026-08-15T03:53:15.800776+00:00"
     },
     "fecha_captura": "2026-08-15",
-    "estado_anterior": "PUB",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-14",
-    "estado_updated": "2026-10-14T14:31:10.564+02:00"
+    "estado_anterior": "EV",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-15T11:33:09.789+02:00"
   },
   {
     "folder_id": "4380/2026",
@@ -1028,7 +1038,7 @@
   },
   {
     "folder_id": "6491/2026",
-    "estado": "EV",
+    "estado": "RES",
     "titulo": "Redacción del Plan Básico de Ordenación Municipal del Ayuntamiento de Castro del Río. Financiado a través de subvención del Plan de Humanización de Entornos Urbanos y Agenda Rural 2024-2027 de la Excma. Diputación Provincial de Córdoba.",
     "updated": "2026-08-12T12:31:15.173+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fUECMGYuI5M3vLk2DU2Ddg%3D%3D",
@@ -1054,10 +1064,10 @@
       "fecha_analisis": "2026-08-15T03:56:12.751476+00:00"
     },
     "fecha_captura": "2026-08-15",
-    "estado_anterior": "PUB",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-02",
-    "estado_updated": "2026-10-14T09:03:49.095+02:00",
+    "estado_anterior": "EV",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-15T12:20:45.483+02:00",
     "fecha_limite_anterior": "2026-08-27",
     "fecha_limite_cambiada_el": "2026-10-14"
   },
@@ -1098,7 +1108,7 @@
   },
   {
     "folder_id": "P4107100B-2026/001234-PEA",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "Redacción proyecto reforma Casa Consistorial y Dirección Facultativa",
     "updated": "2026-08-17T13:34:05.266+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lOR%2BxjnAtpWS81gZFETWmA%3D%3D",
@@ -1122,7 +1132,11 @@
       "informe": "# Informe de análisis PCAP — Reforma Casa Consistorial de Paradas (Exp. 1151/26)\n\n## 1. Solvencia económico-financiera\n\n- **Medio exigido:** Disponer de un seguro de indemnización por riesgos profesionales vigente hasta el fin del plazo de presentación de ofertas, con cobertura mínima de **600.000 €**, junto con compromiso de renovación/prórroga que garantice su mantenimiento durante toda la ejecución del contrato.\n- **Forma de acreditación:**\n  - En fase de licitación: declaración responsable en el archivo electrónico A (o compromiso vinculante de suscripción del seguro si aún no se dispone de él).\n  - Previo a la adjudicación (si se es propuesto adjudicatario): certificado del asegurador indicando importes, riesgos cubiertos y fecha de vencimiento, más el documento de compromiso de suscripción/prórroga/renovación.\n\n> No se exige volumen de negocio ni cifra de negocios anual como criterio de solvencia económica en este PCAP — el único requisito es el seguro de responsabilidad civil profesional.\n\n---\n\n## 2. Solvencia técnica / Equipo mínimo\n\n* **Redactor del Proyecto Básico y de Ejecución y Director de Obra (1 o varios, puede coincidir en la misma persona)**: Arquitecto (o titulación equivalente/Plan Bolonia), habilitado según art. 10.2.a) y 12.3.a) LOE\n   * Acreditar, dentro de los 3 últimos años, al menos un trabajo de igual o similar naturaleza (redacción de proyecto, dirección facultativa o coordinación de S+S) con PEM ≥ 595.650,00 €\n\n* **Director de Ejecución de la Obra**: Arquitecto Técnico / Ingeniero de la Edificación (o equivalente Plan Bolonia), habilitado según art. 13.2.a) LOE\n   * Misma exigencia de solvencia técnica (trabajo similar con PEM ≥ 595.650,00 € en los últimos 3 años, en su función específica)\n\n* **Coordinador de Seguridad y Salud**: Titulación habilitante conforme a la Disposición Adicional 4ª de la LOE\n   * Misma exigencia de solvencia técnica (trabajo similar con PEM ≥ 595.650,00 € en los últimos 3 años, en su función específica)\n\n**Notas importantes sobre la solvencia técnica del equipo:**\n- La solvencia técnica de cada profesional del equipo se acredita **en función del servicio concreto que vaya a prestar** (no es intercambiable entre funciones).\n- Si algún miembro del equipo no está integrado en la empresa licitadora, debe aportarse documentación acreditativa de su relación laboral o mercantil con la misma, como requisito previo a la adjudicación.\n- Todos los intervinientes deben estar colegiados (certificado de colegiación vigente).\n- Para empresas de nueva creación, la solvencia técnica se sustituye por: relación de personal técnico adscrito, titulación académica/profesional y compromiso de adscripción de medios mínimos.\n- ⚠ El PCAP advierte expresamente: los trabajos usados para acreditar la solvencia técnica **NO** pueden reutilizarse para puntuar el criterio de adjudicación \"Experiencia adicional del equipo\".\n\n---\n\n## 3. Criterios de adjudicación\n\nPuntuación total: 100 puntos (Oferta económica 40 + resto criterios cualitativos 60, cumpliendo el mínimo del 51% para criterios de calidad en servicios de carácter intelectual)\n\n- **Criterio 1 — Oferta económica: 40 puntos**\n  - Fórmula proporcional inversa: PE = (PM x OV) / O, con la oferta más baja obteniendo la puntuación máxima.\n\n- **Criterio 2 — Experiencia adicional del equipo: 25 puntos**\n  - Se valoran trabajos similares (PEM ≥ 595.650,00 €) ejecutados en los últimos 10 años, 1 punto por trabajo, distribuidos por perfil:\n    - Redactor del Proyecto: máx. 8 puntos\n    - Director de Obra: máx. 7 puntos\n    - Director de Ejecución de Obra: máx. 5 puntos\n    - Coordinador de Seguridad y Salud: máx. 3 puntos\n    - Resto del equipo técnico adscrito: máx. 2 puntos\n  - Solo se valoran trabajos realizados en la **misma función** que se desempeñará en este contrato.\n  - ⚠ REVISAR — criterio de mejora de equipo, no confundir con el mínimo de solvencia.\n\n- **Criterio 3 — Mejora del equipo técnico: 20 puntos**\n  - Incorporación de técnicos especialistas adicionales (5 puntos cada uno, hasta 4 perfiles): experto en rehabilitación/restauración del patrimonio, especialista en BIM/infografía, diseñador de iluminación arquitectónica, especialista en eficiencia energética/sostenibilidad.\n  - ⚠ REVISAR — criterio de mejora de equipo, no confundir con el mínimo de solvencia.\n\n- **Criterio 4 — Mejora técnica del proyecto: 10 puntos**\n  - Aportación de imágenes fotorrealistas (mín. 4) y vídeos/recorridos virtuales interior y exterior: 5+5 puntos (todo o nada por cada bloque).\n\n- **Criterio 5 — Mejoras en las visitas de obra: 5 puntos**\n  - Mejora del mínimo de 2 visitas/semana a 3 visitas/semana:\n    - Director de Obra: 2 puntos\n    - Director de Ejecución de Obra: 1,5 puntos\n    - Coordinador de Seguridad y Salud: 1,5 puntos\n\n**Criterios de desempate** (por orden): 1º oferta económica, 2º experiencia adicional del equipo, 3º mejora del equipo técnico, 4º mejora técnica del proyecto, 5º mejoras en visitas de obra.\n\n---\n\n## 4. Valoración para CAI Consultores\n\n**Puntos a favor:**\n- La solvencia económica exigida (seguro RC profesional ≥ 600.000 €) es un requisito estándar y fácilmente asumible, sin exigencia de volumen de negocio mínimo, lo que **no supone barrera de entrada** pese a que CAI tiene cifras de negocio holgadas (1,1 M€/año).\n- El presupuesto es modesto (47.652 € + IVA) y el umbral de PEM para trabajos similares (≥ 595.650 €) es razonable para un equipo con trayectoria en proyectos urbanísticos/edificación pública de tamaño medio.\n- El peso de los criterios cualitativos (60%) favorece a equipos con buena trayectoria y capacidad de aportar perfiles especializados (BIM, patrimonio, eficiencia energética), lo cual puede ser un diferencial competitivo si CAI dispone de estos perfiles o puede incorporarlos.\n- La subcontratación de prestaciones accesorias está permitida, lo que facilita cubrir perfiles especializados de la \"Mejora del equipo técnico\" (Criterio 3) sin necesidad de tenerlos en plantilla.\n\n**Puntos a verificar internamente:**\n- ⚠ Confirmar que la experiencia LOUA/LISTA del equipo de CAI encaja como \"trabajo similar\" (redacción de proyecto, dirección facultativa o coordinación de S+S) con PEM ≥ 595.650,00 € — dado que el objeto es una reforma de edificio público (Casa Consistorial), conviene verificar que los referentes de CAI sean de **naturaleza edificatoria/rehabilitación**, no de planeamiento urbanístico puro, ya que este contrato es de redacción de proyecto y dirección de obra, no de instrumento de planeamiento.\n- Verificar que el equipo mínimo (Redactor/Director de Obra, Director de Ejecución, Coordinador de S+S) tenga cada uno **al menos un trabajo propio con PEM ≥ 595.650 €** en la función exacta que va a desempeñar en este contrato — dado que la acreditación es individualizada por función y no es intercambiable.\n- Comprobar la disponibilidad de perfiles especializados (rehabilitación/restauración del patrimonio, BIM, iluminación, eficiencia energética) dentro de CAI o mediante subcontratación, para maximizar el Criterio 3 (20 puntos) sin incurrir en la prohibición de subcontratar la prestación principal (redacción de proyecto/dirección de obra).\n- Revisar la disponibilidad real del equipo para ofertar mejoras en visitas de obra (Criterio 5) sin comprometer la viabilidad económica de la oferta, dado el reducido presupuesto del contrato.\n- Verificar que, si algún miembro del equipo no está en plantilla de CAI, se disponga de la documentación de vinculación laboral/mercantil exigida como condición previa a la adjudicación.\n- Dado que la prestación principal (redacción del proyecto y dirección de obra) **no puede subcontratarse**, confirmar que CAI cuenta internamente (o mediante vinculación contractual estable) con todos los perfiles del equipo mínimo exigido.",
       "fecha_analisis": "2026-08-18T03:53:36.357536+00:00"
     },
-    "fecha_captura": "2026-08-18"
+    "fecha_captura": "2026-08-18",
+    "estado_anterior": "PUB",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-15T13:19:39.457+02:00"
   },
   {
     "folder_id": "5456/2026",
@@ -1162,7 +1176,7 @@
   },
   {
     "folder_id": "55/2026",
-    "estado": "RES",
+    "estado": "EV",
     "titulo": "Servicio asistencia técnica destinado a disponer de un equipo técnico cualificado para redacción de Proyectos Básicos y de Ejecución, elaboración de Estudios Básicos de Seguridad y Salud, y realización de los trabajos, correspondientes a actuaciones de mejora de accesibilidad e instalación de ascensores en edificios residenciales de vivienda colectiva beneficiarios ayudas Municipal 2024.",
     "updated": "2026-08-24T12:35:29.309+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VVaCe715rqCAAM7L03kM8A%3D%3D",
@@ -1187,10 +1201,10 @@
       "fecha_analisis": "2026-08-25T03:55:52.711452+00:00"
     },
     "fecha_captura": "2026-08-25",
-    "estado_anterior": "EV",
-    "resultado": "formalizada",
-    "estado_cambiado_el": "2026-10-14",
-    "estado_updated": "2026-10-13T08:33:12.786+02:00",
+    "estado_anterior": "RES",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-14T10:35:32.168+02:00",
     "fecha_limite_anterior": "2026-07-23",
     "fecha_limite_cambiada_el": "2026-10-09"
   },
@@ -1359,7 +1373,7 @@
   },
   {
     "folder_id": "115/2026",
-    "estado": "ADJ",
+    "estado": "RES",
     "titulo": "El objeto del contrato lo constituye la redacción del proyecto de obras, dirección de obra y la coordinación y seguridad y salud de las obras necesarias para la mejora de la Pista Hípica “La Fuentecilla” de Puebla de Guzmán.",
     "updated": "2026-09-28T10:26:32.669+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Jy63I0UGvaoQyBAnWzHfCg%3D%3D",
@@ -1384,10 +1398,10 @@
       "fecha_analisis": "2026-09-29T09:51:40.791793+00:00"
     },
     "fecha_captura": "2026-09-29",
-    "estado_anterior": "RES",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-13",
-    "estado_updated": "2026-10-13T09:10:39.134+02:00",
+    "estado_anterior": "ADJ",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-15T14:42:38.606+02:00",
     "fecha_limite_anterior": "2026-06-04",
     "fecha_limite_cambiada_el": "2026-10-13"
   },
@@ -1463,7 +1477,7 @@
   },
   {
     "folder_id": "1275/2026",
-    "estado": "PUB",
+    "estado": "ADJ",
     "titulo": "Asistencia Técnica para la redacción y tramitación de la modificación puntual del Plan General de Ordenación Urbanística (PGOU) de Cádiz en el ámbito de la avenida de Astilleros (CA-102-26)",
     "updated": "2026-09-29T13:21:24.653+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ZncGsja8FVTua%2Fi14w%2FPLA%3D%3D",
@@ -1479,7 +1493,7 @@
     "organo": "Presidencia de la Autoridad Portuaria de la Bahía de Cádiz",
     "importe": "30000",
     "importe_num": 30000,
-    "fecha_limite": "2026-10-14",
+    "fecha_limite": "2026-09-17",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1490,12 +1504,14 @@
       "fecha_analisis": "2026-09-30T09:54:41.861942+00:00"
     },
     "fecha_captura": "2026-09-30",
-    "estado_anterior": "EV",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-13",
-    "estado_updated": "2026-10-13T12:46:55.761+02:00",
+    "estado_anterior": "PUB",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-15T08:47:11.459+02:00",
     "revisado_humano": true,
-    "revisado_fecha": "2026-10-02T11:06:39.077Z"
+    "revisado_fecha": "2026-10-02T11:06:39.077Z",
+    "fecha_limite_anterior": "2026-10-14",
+    "fecha_limite_cambiada_el": "2026-10-15"
   },
   {
     "folder_id": "SE-19/26",
@@ -1983,5 +1999,30 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-10-14"
+  },
+  {
+    "folder_id": "78/26",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de servicio para la redacción de proyectos eléctricos para ampliazión de la instalación eléctrica de baja tensión para el sistema de climatización en los centros de educación infantil y primaria del municipio de Los Barrios (Cádiz), responsable del contrato de obras y dirección facultativa. \r\n\r\n",
+    "updated": "2026-10-15T09:43:47.828+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=icZvKODnjthPpzdqOdhuWg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iJM4yKuImUAuEuCBJ0q9dQvoa2GmtOKLl7vJ9eSRLSLHUl4LrL7zPmHIpWOcmpcG4Fkl6h8dDtCvPYZXPr5FWvP5uGj97JVFiFi6u46hR4b3GVhXrFFqN7yFncy7YfRK",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=lhwsAJXMAzjBwiDZNiVnUU1Xd2VaIrqhQZZsxdVlFsHFCNmin2x7L3siKb1KSqw8d8oHsZ17rqxmNGJByVsYk8NGbDfJ7FZwlqOtA2ubavr3GVhXrFFqN7yFncy7YfRK",
+    "organo": "Alcaldía del Ayuntamiento de Los Barrios (Cádiz)",
+    "importe": "35700",
+    "importe_num": 35700.0,
+    "fecha_limite": "2026-10-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fecha_captura": "2026-10-15"
   }
 ]

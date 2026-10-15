@@ -656,7 +656,7 @@
   },
   {
     "folder_id": "2/2026",
-    "estado": "ADJ",
+    "estado": "PUB",
     "titulo": "Servicio redacción del proyecto obra, dirección facultativa y dirección de ejecución de la obra, así como de seguridad y salud para la obra de reformas asociadas a la mejora de la eficiencia energética en el edificio de la dirección provincial del sepe de Almería",
     "updated": "2026-08-13T10:01:57.398+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Sr02VDds9n2opEMYCmrbmw%3D%3D",
@@ -670,7 +670,7 @@
     "organo": "Dirección Provincial del Servicio Público de Empleo Estatal en Almería",
     "importe": "156030.58",
     "importe_num": 156030.58,
-    "fecha_limite": "2026-09-28",
+    "fecha_limite": "2026-10-29",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -681,16 +681,16 @@
       "fecha_analisis": "2026-08-15T03:59:34.666336+00:00"
     },
     "fecha_captura": "2026-08-15",
-    "estado_anterior": "PUB",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-13",
-    "estado_updated": "2026-10-13T11:12:07.556+02:00",
-    "fecha_limite_anterior": "2026-10-29",
-    "fecha_limite_cambiada_el": "2026-10-13"
+    "estado_anterior": "ADJ",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-14T14:03:55.827+02:00",
+    "fecha_limite_anterior": "2026-09-28",
+    "fecha_limite_cambiada_el": "2026-10-15"
   },
   {
     "folder_id": "6491/2026",
-    "estado": "EV",
+    "estado": "RES",
     "titulo": "Redacción del Plan Básico de Ordenación Municipal del Ayuntamiento de Castro del Río. Financiado a través de subvención del Plan de Humanización de Entornos Urbanos y Agenda Rural 2024-2027 de la Excma. Diputación Provincial de Córdoba.",
     "updated": "2026-08-12T12:31:15.173+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fUECMGYuI5M3vLk2DU2Ddg%3D%3D",
@@ -716,10 +716,10 @@
       "fecha_analisis": "2026-08-15T04:00:22.319862+00:00"
     },
     "fecha_captura": "2026-08-15",
-    "estado_anterior": "PUB",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-02",
-    "estado_updated": "2026-10-14T09:03:49.095+02:00",
+    "estado_anterior": "EV",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-15T12:20:45.483+02:00",
     "fecha_limite_anterior": "2026-08-27",
     "fecha_limite_cambiada_el": "2026-10-14"
   },
@@ -950,7 +950,7 @@
   },
   {
     "folder_id": "55/2026",
-    "estado": "RES",
+    "estado": "EV",
     "titulo": "Servicio asistencia técnica destinado a disponer de un equipo técnico cualificado para redacción de Proyectos Básicos y de Ejecución, elaboración de Estudios Básicos de Seguridad y Salud, y realización de los trabajos, correspondientes a actuaciones de mejora de accesibilidad e instalación de ascensores en edificios residenciales de vivienda colectiva beneficiarios ayudas Municipal 2024.",
     "updated": "2026-08-24T12:35:29.309+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VVaCe715rqCAAM7L03kM8A%3D%3D",
@@ -975,10 +975,10 @@
       "fecha_analisis": "2026-08-25T03:56:07.237398+00:00"
     },
     "fecha_captura": "2026-08-25",
-    "estado_anterior": "EV",
-    "resultado": "formalizada",
-    "estado_cambiado_el": "2026-10-14",
-    "estado_updated": "2026-10-13T08:33:12.786+02:00",
+    "estado_anterior": "RES",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-14T10:35:32.168+02:00",
     "fecha_limite_anterior": "2026-07-23",
     "fecha_limite_cambiada_el": "2026-10-09"
   },
@@ -1094,7 +1094,7 @@
   },
   {
     "folder_id": "26/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "Servicios de asistencia técnica necesaria para la redacción de los proyectos, documentos técnicos, estudios previos y, en su caso, estudios de alternativas, así como la dirección facultativa y la coordinación de seguridad y salud durante la ejecución de las obras correspondientes a las actuaciones solicitadas por el Ayuntamiento de Puente Genil ",
     "updated": "2026-08-26T11:22:52.512+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=oKIK9pWHxsr10HRJw8TEnQ%3D%3D",
@@ -1137,7 +1137,7 @@
     "organo": "Junta de Gobierno Local de Ayuntamiento de Puente Genil",
     "importe": "272075.73",
     "importe_num": 272075.73,
-    "fecha_limite": "2026-10-27",
+    "fecha_limite": "2026-10-13",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1148,12 +1148,12 @@
       "fecha_analisis": "2026-08-27T14:06:34.955500+00:00"
     },
     "fecha_captura": "2026-08-27",
-    "estado_anterior": "RES",
+    "estado_anterior": "PUB",
     "resultado": null,
-    "estado_cambiado_el": "2026-10-09",
-    "estado_updated": "2026-10-13T15:36:48.069+02:00",
-    "fecha_limite_anterior": "2026-11-06",
-    "fecha_limite_cambiada_el": "2026-10-13"
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-15T12:21:37.813+02:00",
+    "fecha_limite_anterior": "2026-10-27",
+    "fecha_limite_cambiada_el": "2026-10-15"
   },
   {
     "folder_id": "B30261826002",
@@ -1302,7 +1302,7 @@
     "organo": "Junta de Gobierno del Ayuntamiento de Málaga",
     "importe": "385194.5",
     "importe_num": 693350.1,
-    "fecha_limite": "2026-10-01",
+    "fecha_limite": "2026-07-27",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1316,7 +1316,9 @@
     "estado_anterior": "PUB",
     "resultado": null,
     "estado_cambiado_el": "2026-10-03",
-    "estado_updated": "2026-10-02T14:31:43.061+02:00"
+    "estado_updated": "2026-10-15T15:14:47.441+02:00",
+    "fecha_limite_anterior": "2026-10-01",
+    "fecha_limite_cambiada_el": "2026-10-15"
   },
   {
     "folder_id": "AYAL-2026000175",
@@ -1388,7 +1390,7 @@
   },
   {
     "folder_id": "2026/14875D",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "Prestación de los servicios de asistencia técnica necesarios para la redacción del proyecto de construcción y dirección facultativa de las obras (dirección de obras y coordinación de seguridad y salud, además de las asistencias técnicas complementarias necesarias) para la reurbanización integral y peatonalización de diversas calles del casco histórico de Arroyo de la Miel, Benalmádena",
     "updated": "2026-09-14T09:00:00.000+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=TitlkURaRwaAAM7L03kM8A%3D%3D",
@@ -1412,7 +1414,11 @@
       "informe": "# 1. Solvencia económico-financiera\n\n**Medio exigido:** Cifra de negocios (volumen anual de negocios referido al mejor ejercicio de los tres últimos disponibles).\n\n- Importe mínimo exigido: **283.343,48 €** (calculado como 1,5 x el valor anual medio del contrato: 566.686,96 € / 3 años = 188.895,65 € x 1,5)\n\n**Forma de acreditación:**\n- Sociedades inscritas en el Registro Mercantil: cuentas anuales aprobadas y depositadas (importe neto de la cifra de negocio).\n- Empresarios individuales no inscritos: libros de inventarios y cuentas anuales legalizados por el Registro Mercantil.\n- Alternativamente (ambos casos): declaración del modelo 390 ante la AEAT o certificado de la Agencia Tributaria sobre el importe neto de la cifra de negocios.\n\n---\n\n# 2. Solvencia técnica / Equipo mínimo\n\n**Solvencia técnica de la empresa (requisito previo, no equipo):**\n- Experiencia en servicios de igual o similar naturaleza (mismo CPV principal: 71311000) en los últimos 3 años, con un importe anual acumulado en el año de mayor ejecución de al menos **132.226,96 €** (70% del valor anual medio del contrato).\n\n**Equipo mínimo a adscribir (Anexo 5):**\n\n* Técnico redactor del proyecto (1 persona, de plantilla obligatoriamente): Ingeniero/a de Caminos, Canales y Puertos, Arquitecto/a, Ingeniero/a Civil, Ingeniero/a Industrial, o Técnico/a competente en la materia\n   * Sin experiencia mínima específica exigida como requisito de adscripción (la experiencia se valora aparte como criterio de adjudicación — ver sección 3)\n\n* Director/a de obras (1 persona, de plantilla obligatoriamente): Ingeniero/a de Caminos, Canales y Puertos, Arquitecto/a, Ingeniero/a Civil, Ingeniero/a Industrial, o Técnico/a competente en la materia\n   * Sin experiencia mínima específica exigida como requisito de adscripción\n\n* Técnico/a Superior en Prevención de Riesgos Laborales (1 persona, plantilla o medios externos): Titulación de Técnico Superior en PRL (distinto del director de obras, salvo que este último ya posea la titulación)\n   * Sin experiencia mínima específica exigida\n\n**Nota:** El personal redactor y el de dirección pueden coincidir en la misma persona. El resto de titulaciones puede acreditarse con personal de plantilla o mediante medios externos (compromiso de adscripción con terceros).\n\n---\n\n# 3. Criterios de adjudicación\n\n**A) Criterios de juicio de valor (Anexo 7) — Máximo 26 puntos**\n\n* Conocimiento del proyecto. Propuesta de adopción de soluciones a la movilidad durante la ejecución de las obras: **26 puntos**\n   * Propuesta Inicial de Ordenación de Tráfico durante la ejecución de la obra: 15 puntos\n   * Propuesta Inicial de Ordenación de Tráfico a la finalización del proyecto general: 11 puntos\n\n**B) Criterios evaluables mediante fórmulas (Anexo 8.1) — Máximo 74 puntos**\n\n* Precio: **49 puntos**\n   * Fórmula: PI = (PL – PE) x PM / (PL – PV)\n   * Ofertas iguales al presupuesto base de licitación: 0 puntos\n   * Ofertas superiores al PBL: exclusión\n\n* Experiencia del personal adscrito al contrato: **10 puntos**\n   * 5 puntos: técnico/s con experiencia en redacción de al menos 3 proyectos de urbanización/reurbanización/reordenación o regeneración\n   * 5 puntos: técnico/s con experiencia en dirección de obras de al menos 3 proyectos de urbanización/reurbanización/reordenación o regeneración\n   * ⚠ REVISAR — criterio de mejora de equipo, no confundir con el mínimo de solvencia\n\n* Asistencia técnica al contrato (adscripción de medios adicionales): **15 puntos**\n   * 5 puntos: Ingeniero/a Geodésico/Cartógrafo/Topógrafo a tiempo completo durante DO\n   * 5 puntos: Delineante a tiempo completo durante DO\n   * 5 puntos: Oficial Vigilante de Obra (adicional al Ingeniero Civil) a tiempo completo durante DO\n   * ⚠ REVISAR — criterio de mejora de equipo, no confundir con el mínimo de solvencia\n\n**TOTAL: 100 puntos** (26 juicio de valor + 74 fórmulas)\n\n---\n\n# 4. Valoración para CAI Consultores\n\n**Puntos a favor:**\n- El volumen de negocio de CAI (1.100.000 €/año) supera ampliamente el umbral exigido (283.343,48 €), sin riesgo en solvencia económica.\n- La experiencia mínima de empresa exigida (132.226,96 € acumulados en el mejor año, en CPV 71311000) es un umbral moderado y previsiblemente asumible según el perfil de la empresa.\n- El requisito de titulaciones para el equipo mínimo (Ingeniero de Caminos, Arquitecto, Ingeniero Civil o Industrial) es flexible y compatible con equipos multidisciplinares habituales en consultoras de arquitectura/ingeniería.\n- La subcontratación está permitida (máx. 10%) específicamente para topografía, geología/geotecnia y estudio de tráfico — perfiles que, si CAI no cubre internamente, pueden externalizarse sin penalización, ya que el pliego lo contempla expresamente como excepción a la prohibición general de subcontratar.\n- No se exige clasificación empresarial obligatoria (se admite como alternativa, pero no es requisito excluyente).\n- No hay exigencia de habilitación profesional específica adicional (apartado V del Anexo 1: NO).\n\n**Puntos a verificar internamente:**\n- Confirmar que el técnico redactor y el director de obras (obligatoriamente de plantilla) están efectivamente en nómina de CAI, dado que este requisito NO admite medios externos ni compromisos de adscripción con terceros.\n- Revisar si el equipo de CAI dispone de experiencia acreditable en **al menos 3 proyectos de urbanización/reurbanización/reordenación o regeneración** tanto en redacción como en dirección de obra, ya que esto otorga 10 puntos adicionales (criterio de mejora, no de solvencia mínima) — verificar si esta experiencia debe ser LOUA/urbanística o basta con proyectos de reurbanización general (el pliego no exige explícitamente experiencia LISTA/LOUA, sino en \"urbanización/reurbanización/reordenación o regeneración\").\n- Verificar disponibilidad interna (o necesidad de subcontratar/contratar) de: Técnico Superior en PRL, Ingeniero Topógrafo, Delineante y Oficial Vigilante de Obra a tiempo completo durante la fase de dirección de obra, ya que estos perfiles adicionales otorgan hasta 15 puntos en la oferta.\n- Comprobar la capacidad de CAI para desarrollar la propuesta de ordenación de tráfico y movilidad (criterio de juicio de valor de 26 puntos, el más peso individual), que requiere conocimientos específicos de movilidad urbana, posiblemente fuera del core habitual de arquitectura/ingeniería si no se dispone de especialista en tráfico — valorar si se subcontrata (el estudio de tráfico está entre las partidas subcontratables permitidas).\n- Revisar el ajuste de plazos parciales muy exigentes (anteproyecto en 120 días, proyecto general en 180 días) frente a la capacidad de producción actual del equipo de CAI, dado el carácter urgente del expediente.\n- Confirmar disponibilidad de seguro de responsabilidad civil profesional con cobertura adecuada al alcance del proyecto (redacción + dirección facultativa), aunque no se exige expresamente como medio de solvencia económica en este PCAP (a diferencia de otros pliegos tipo).",
       "fecha_analisis": "2026-09-15T08:42:34.358908+00:00"
     },
-    "fecha_captura": "2026-09-15"
+    "fecha_captura": "2026-09-15",
+    "estado_anterior": "PUB",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-15T11:56:35.348+02:00"
   },
   {
     "folder_id": "2026/13310",
@@ -1616,7 +1622,7 @@
   },
   {
     "folder_id": "115/2026",
-    "estado": "ADJ",
+    "estado": "RES",
     "titulo": "El objeto del contrato lo constituye la redacción del proyecto de obras, dirección de obra y la coordinación y seguridad y salud de las obras necesarias para la mejora de la Pista Hípica “La Fuentecilla” de Puebla de Guzmán.",
     "updated": "2026-09-28T10:26:32.669+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Jy63I0UGvaoQyBAnWzHfCg%3D%3D",
@@ -1641,10 +1647,10 @@
       "fecha_analisis": "2026-09-29T09:54:16.188776+00:00"
     },
     "fecha_captura": "2026-09-29",
-    "estado_anterior": "RES",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-13",
-    "estado_updated": "2026-10-13T09:10:39.134+02:00",
+    "estado_anterior": "ADJ",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-15T14:42:38.606+02:00",
     "fecha_limite_anterior": "2026-06-04",
     "fecha_limite_cambiada_el": "2026-10-13"
   },
@@ -1785,7 +1791,7 @@
   },
   {
     "folder_id": "1275/2026",
-    "estado": "PUB",
+    "estado": "ADJ",
     "titulo": "Asistencia Técnica para la redacción y tramitación de la modificación puntual del Plan General de Ordenación Urbanística (PGOU) de Cádiz en el ámbito de la avenida de Astilleros (CA-102-26)",
     "updated": "2026-09-29T13:21:24.653+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ZncGsja8FVTua%2Fi14w%2FPLA%3D%3D",
@@ -1801,7 +1807,7 @@
     "organo": "Presidencia de la Autoridad Portuaria de la Bahía de Cádiz",
     "importe": "30000",
     "importe_num": 30000,
-    "fecha_limite": "2026-10-14",
+    "fecha_limite": "2026-09-17",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1812,13 +1818,15 @@
       "fecha_analisis": "2026-09-30T09:57:02.360429+00:00"
     },
     "fecha_captura": "2026-09-30",
-    "estado_anterior": "EV",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-13",
-    "estado_updated": "2026-10-13T12:46:55.761+02:00",
+    "estado_anterior": "PUB",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-15T08:47:11.459+02:00",
     "revisado_humano": true,
     "revisado_fecha": "2026-10-02T11:06:39.077Z",
-    "revisado_por": null
+    "revisado_por": null,
+    "fecha_limite_anterior": "2026-10-14",
+    "fecha_limite_cambiada_el": "2026-10-15"
   },
   {
     "folder_id": "2026/CMY_03/000128",
@@ -3256,7 +3264,7 @@
   },
   {
     "folder_id": "CONTR 2025 0000711840",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "proy. encauzamiento arroyo villalta a granada bobadilla.",
     "updated": "2026-10-13T11:41:51.706+02:00",
@@ -3281,6 +3289,137 @@
     "importe_match": true,
     "descripcion": "REDACCIÓN DEL PROYECTO DE ENCAUZAMIENTO Y ADECUACIÓN DEL CAUCE DEL ARROYO VILLALTA, DESDE EL CRUCE DE LA L NEA DE FERROCARRIL GR-BOBADILLA HASTA SU DESEMB EN EL RÍO GUADALHORCE, PREVENIR INUNDACIONES EN NÚCLEO URBANO DE BOBADILLA-ESTACIÓN,ANTEQUERA -MA",
     "junta_consultado": "2026-10-14",
-    "fecha_captura": "2026-10-14"
+    "fecha_captura": "2026-10-14",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-14T15:41:38.506+02:00"
+  },
+  {
+    "folder_id": "28424/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de redacción de proyecto básico y de ejecución y redacción de estudio de seguridad y salud para ejecutar en el estadio municipal de atletismo enrique talavera de algeciras, una cubierta en la grada así como mejora de su estanqueidad y mobiliario.",
+    "updated": "2026-10-15T15:13:20.239+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VTuddWQjxQ310HRJw8TEnQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71356200"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=G0q5N7UN1JcSzbrWI9aDdhu1u/9kQ2r1pWFhwfZ55clrxoLAbh%2B1gXnsIHv2CFA2CW/ZGkOLx0inCPaqw78nqwcJNIB9v1I3/axD17i851vVTD3T98KC0nSgQFM0q%2B5s",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=5y1h88BfHMyQGoqMgPva%2By%2BjHd%2BGukxS8kG5ls5hZP0Bsujf2bXXBVpPscbd3ZGWkv6vcKS5ggJcSD15VNInbXjnlcitOMqNKc2iPC9IjlnVTD3T98KC0nSgQFM0q%2B5s",
+    "organo": "Alcaldía del Ayuntamiento de Algeciras",
+    "importe": "35944.41",
+    "importe_num": 35944.41,
+    "fecha_limite": "2026-10-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fecha_captura": "2026-10-15"
+  },
+  {
+    "folder_id": "SC 49/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de asistencia tecnica y auditoria externa para el mantenimiento y renovacion de las certificaciones Q de calidad y S de sostenibilidad de la Oficina de Turismo de San Fernando 2027-2029",
+    "updated": "2026-10-15T11:55:25.703+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=6DCRo%2FNn8yxxseVhcqrkhw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71356200"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=N1tHXN9fMsDHZ/GwGhkmTHvtpDwXpgd4XdIYOhgfwtDTywq/rxd0CsXJ6LWB4iF0LY5Qm9smmaS5yXXYsyYCVnBPbFaQj0xrSs4RF8AiFsRt/o8fNevwsujgRzaBbugn",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=fD5DXt9BRWkhCTIX1jJZ4oi2BLtiE5d6LGvF73jlIJ7Gn1HvNB0tSN1LcNC7rCaT/avEdVm2dgSc%2BKkKiu2t9vdt83TciOzz0egBcPc1q6yHAj0WEJrB5sP7amrh2jBD",
+    "organo": "Alcaldia del Ayuntamiento de San Fernando",
+    "importe": "13053.6",
+    "importe_num": 13053.6,
+    "fecha_limite": "2026-10-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fecha_captura": "2026-10-15"
+  },
+  {
+    "folder_id": "1638/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de servicios por procedimiento abierto simplificado Contrato de servicios de redacción del proyecto y dirección de obra para la rehabilitación integral del Parque de los Patos",
+    "updated": "2026-10-15T10:01:45.718+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=NAB52v%2FLP%2B1%2FP7lJ7Fu0SA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71220000",
+      "71322000",
+      "71317200",
+      "71520000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=PVGIVLDafY9AveQUdmcvlr%2BKMIGS5FIvmtKZCKjydP3kzroIE%2Bz2LLdxmA1kiIaZUU8uCh3oCrt2RFX/mSF5N%2B/dGgyiFRk9T5JXcpo8cYT3GVhXrFFqN7yFncy7YfRK",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=pDwzB2fYByYwSTGgMzR1uTd1GeLCFICwALhMpb3JPpwXA2%2BgI59IQx2T6nR2Ejq%2BPGoSn5vANjj/89fVIeBVTxA%2B76YAzXEyluEKV7G%2Bu1KCx2e6p7hqtlp2aFupgHMr",
+    "organo": "Alcaldía del Ayuntamiento de Huétor Tájar",
+    "importe": "44000",
+    "importe_num": 47500.0,
+    "fecha_limite": "2026-10-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fecha_captura": "2026-10-15"
+  },
+  {
+    "folder_id": "78/26",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de servicio para la redacción de proyectos eléctricos para ampliazión de la instalación eléctrica de baja tensión para el sistema de climatización en los centros de educación infantil y primaria del municipio de Los Barrios (Cádiz), responsable del contrato de obras y dirección facultativa. \r\n\r\n",
+    "updated": "2026-10-15T09:43:47.828+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=icZvKODnjthPpzdqOdhuWg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iJM4yKuImUAuEuCBJ0q9dQvoa2GmtOKLl7vJ9eSRLSLHUl4LrL7zPmHIpWOcmpcG4Fkl6h8dDtCvPYZXPr5FWvP5uGj97JVFiFi6u46hR4b3GVhXrFFqN7yFncy7YfRK",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=lhwsAJXMAzjBwiDZNiVnUU1Xd2VaIrqhQZZsxdVlFsHFCNmin2x7L3siKb1KSqw8d8oHsZ17rqxmNGJByVsYk8NGbDfJ7FZwlqOtA2ubavr3GVhXrFFqN7yFncy7YfRK",
+    "organo": "Alcaldía del Ayuntamiento de Los Barrios (Cádiz)",
+    "importe": "35700",
+    "importe_num": 35700.0,
+    "fecha_limite": "2026-10-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fecha_captura": "2026-10-15"
+  },
+  {
+    "folder_id": "3.26/23108.0118",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de redacción de los proyectos técnicos de iluminación LED en las instalaciones de servicios logísticos Zona Sur de Sevilla La Negrilla, Sevilla Majarabique Mercancías y Málaga Los Prados",
+    "updated": "2026-10-15T08:04:26.921+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=coxkODm98SdVYjgxA4nMUw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=EA9Ej0mj66cvIx96uj7IUlVOlQB3nUqjF1iNyWYXBD5uh8rTgxT77KveBL8mqVcKegdNXk6WoUWZBIZXZyhdVhSRAJy49dC%2B4U9BOBUcpCnDdQD9RyhUmzT4jZ2In4zL",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=K0pJLBpRv1%2Bb8oN6BQfTQySsZL5d77wgMHzO2V%2BqYhmgcimsPtJf4n08mNlAPbFKOKRmJlsGZmgUEFKC4F8sskUCwc4gDm4PbYddnTGXIkv3GVhXrFFqN7yFncy7YfRK",
+    "organo": "ADIF - Presidencia",
+    "importe": "31050",
+    "importe_num": 31050.0,
+    "fecha_limite": "2026-11-04",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fecha_captura": "2026-10-15"
   }
 ]

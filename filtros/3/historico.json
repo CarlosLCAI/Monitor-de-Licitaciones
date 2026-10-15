@@ -65,7 +65,7 @@
   },
   {
     "folder_id": "1854/2026",
-    "estado": "ADJ",
+    "estado": "EV",
     "titulo": "“Redacción proyecto básico y de ejecución, dirección facultativa de las obras y coordinación  de seguridad y salud para las obras de construcción de edificio para centro deportivo en Velilla de San Antonio.",
     "updated": "2026-08-05T10:07:19.087+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KXcmHtkgvJ19PLkba5eRog%3D%3D",
@@ -80,7 +80,7 @@
     "organo": "Alcaldía del Ayuntamiento de Velilla de San Antonio",
     "importe": "171531.5",
     "importe_num": 171531.5,
-    "fecha_limite": "2026-09-22",
+    "fecha_limite": "2026-08-05",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -91,12 +91,12 @@
       "fecha_analisis": "2026-08-06T06:12:16.242982+00:00"
     },
     "fecha_captura": "2026-08-06",
-    "estado_anterior": "EV",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-13",
-    "estado_updated": "2026-10-13T14:26:21.214+02:00",
-    "fecha_limite_anterior": "2026-08-05",
-    "fecha_limite_cambiada_el": "2026-10-10"
+    "estado_anterior": "ADJ",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-15T15:06:13.751+02:00",
+    "fecha_limite_anterior": "2026-09-22",
+    "fecha_limite_cambiada_el": "2026-10-15"
   },
   {
     "folder_id": "300/2026/00445",
@@ -217,7 +217,7 @@
     "organo": "Alcaldía del Ayuntamiento de Chinchón",
     "importe": "115702.48",
     "importe_num": 115702.48,
-    "fecha_limite": "2026-10-14",
+    "fecha_limite": "2026-11-04",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -229,7 +229,10 @@
     },
     "fecha_captura": "2026-09-30",
     "revisado_humano": true,
-    "revisado_fecha": "2026-10-02T11:31:32.844Z"
+    "revisado_fecha": "2026-10-02T11:31:32.844Z",
+    "fecha_limite_anterior": "2026-10-14",
+    "fecha_limite_cambiada_el": "2026-10-15",
+    "estado_updated": "2026-10-15T08:12:31.749+02:00"
   },
   {
     "folder_id": "PA-SER 103/26",
@@ -285,5 +288,34 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-10-10"
+  },
+  {
+    "folder_id": "300/2026/02200",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de servicios de redacción de estudios técnicos para la mejora del comportamiento energético de centros educativos adscritos o dependientes del Distrito de Centro",
+    "updated": "2026-10-15T15:09:43.289+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4bLzayNXqBSFlFRHfEzEaw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71241000",
+      "71240000",
+      "71310000",
+      "71530000",
+      "71210000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=25YP5eDq8pc8Kh%2B28wrnc7FQapAbnHfUtrr7YwWKNB6wapFKUHpvaVzm5m9foF8z1z2j%2BA18ffgUJwWxGceLpgDTfVO2KDcOHq3fdP7Tf//fdyQgZAdTm3EfcUAC7CJ6",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Chi5kps6td6sB5bOoDPnncYcMXeF8j%2BwAGk2%2BCX8ygoErraGdBTsEn2y6fqT2QSEY/iUUWuskRtvBxWujafWBW53i8IaeSssR8w/GiRrQWd45ClyWkoJ44mKM70IFcOu",
+    "organo": "Distrito Centro",
+    "importe": "107390.69",
+    "importe_num": 107390.69,
+    "fecha_limite": "2026-10-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fecha_captura": "2026-10-15"
   }
 ]

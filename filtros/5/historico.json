@@ -270,7 +270,7 @@
   },
   {
     "folder_id": "SERV-ABR/2026000355",
-    "estado": "EV",
+    "estado": "RES",
     "titulo": "Servicio de técnico de sonido, audiovisuales e iluminación y personal de sala del Enclave de la Muralla y otros espacios donde se realicen actividades de la Concejalía de Cultura con condiciones espec",
     "updated": "2026-09-16T13:16:00.626+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=qOd2cn%2BZPz8adbH3CysQuQ%3D%3D",
@@ -299,10 +299,10 @@
       "fecha_analisis": "2026-09-19T08:09:03.778453+00:00"
     },
     "fecha_captura": "2026-09-19",
-    "estado_anterior": "PUB",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-09",
-    "estado_updated": "2026-10-08T13:53:04.395+02:00"
+    "estado_anterior": "EV",
+    "resultado": "desierta",
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-15T10:26:20.632+02:00"
   },
   {
     "folder_id": "24/2026",
@@ -506,7 +506,7 @@
   },
   {
     "folder_id": "8775/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "Prestación del servicio de alumbrado ornamental e instalaciones complementarias para la Navidad de Tomares del año 2026",
     "updated": "2026-09-21T09:20:13.001+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=tA9nUOR%2B62pq1DdmE7eaXg%3D%3D",
@@ -532,7 +532,11 @@
       "informe": "Error al generar el informe con IA: 401 Client Error: Unauthorized for url: https://api.anthropic.com/v1/messages",
       "fecha_analisis": "2026-09-22T08:38:22.995657+00:00"
     },
-    "fecha_captura": "2026-09-22"
+    "fecha_captura": "2026-09-22",
+    "estado_anterior": "PUB",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-15T17:55:02.175+02:00"
   },
   {
     "folder_id": "78-26",
@@ -640,7 +644,7 @@
   },
   {
     "folder_id": "115/2026",
-    "estado": "ADJ",
+    "estado": "RES",
     "titulo": "El objeto del contrato lo constituye la redacción del proyecto de obras, dirección de obra y la coordinación y seguridad y salud de las obras necesarias para la mejora de la Pista Hípica “La Fuentecilla” de Puebla de Guzmán.",
     "updated": "2026-09-28T10:26:32.669+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Jy63I0UGvaoQyBAnWzHfCg%3D%3D",
@@ -665,10 +669,10 @@
       "fecha_analisis": "2026-09-29T09:59:56.459713+00:00"
     },
     "fecha_captura": "2026-09-29",
-    "estado_anterior": "RES",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-13",
-    "estado_updated": "2026-10-13T09:10:39.134+02:00",
+    "estado_anterior": "ADJ",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-15T14:42:38.606+02:00",
     "fecha_limite_anterior": "2026-06-04",
     "fecha_limite_cambiada_el": "2026-10-13"
   },
@@ -856,7 +860,7 @@
   },
   {
     "folder_id": "1275/2026",
-    "estado": "PUB",
+    "estado": "ADJ",
     "titulo": "Asistencia Técnica para la redacción y tramitación de la modificación puntual del Plan General de Ordenación Urbanística (PGOU) de Cádiz en el ámbito de la avenida de Astilleros (CA-102-26)",
     "updated": "2026-09-29T13:21:24.653+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ZncGsja8FVTua%2Fi14w%2FPLA%3D%3D",
@@ -872,7 +876,7 @@
     "organo": "Presidencia de la Autoridad Portuaria de la Bahía de Cádiz",
     "importe": "30000",
     "importe_num": 30000,
-    "fecha_limite": "2026-10-14",
+    "fecha_limite": "2026-09-17",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -883,13 +887,15 @@
       "fecha_analisis": "2026-09-30T10:00:41.390657+00:00"
     },
     "fecha_captura": "2026-09-30",
-    "estado_anterior": "EV",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-13",
-    "estado_updated": "2026-10-13T12:46:55.761+02:00",
+    "estado_anterior": "PUB",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-15T08:47:11.459+02:00",
     "revisado_humano": true,
     "revisado_fecha": "2026-10-02T11:06:39.077Z",
-    "revisado_por": null
+    "revisado_por": null,
+    "fecha_limite_anterior": "2026-10-14",
+    "fecha_limite_cambiada_el": "2026-10-15"
   },
   {
     "folder_id": "Servicios 3/2026",
@@ -985,7 +991,7 @@
   },
   {
     "folder_id": "SDA33/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "Servicio de asistencia, consultoría y asesoramiento técnico, redacción de proyectos, direcciones de obras y trabajos de apoyo técnico para el seguimiento de obras y servicios de EMACSA",
     "updated": "2026-09-29T08:20:49.988+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=OdtanW6p1rM%2B1TMyIiZmzw%3D%3D",
@@ -1031,11 +1037,15 @@
     "fecha_captura": "2026-09-30",
     "descartado": true,
     "descartado_fecha": "2026-10-14T13:40:33.272Z",
-    "descartado_por": "CarlosLCAI"
+    "descartado_por": "CarlosLCAI",
+    "estado_anterior": "PUB",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-15T13:35:48.957+02:00"
   },
   {
     "folder_id": "4071/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "El objeto del presente contrato es la redacción del proyecto básico y de ejecución; dirección de obra y coordinación de seguridad y salud durante la ejecución de las obras necesarias para la construcción de un comedor escolar en el Colegio de Tocón. ",
     "updated": "2026-09-29T07:30:17.544+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2F9lIgd%2BIcg7mnwcj%2BxbdTg%3D%3D",
@@ -1062,7 +1072,11 @@
       "informe": "# 1. Solvencia económico-financiera\n\n**Medios exigidos:**\n- Seguro de indemnización por riesgos profesionales vigente hasta el fin del plazo de presentación de ofertas, por importe **no inferior a 100.000 €**, junto con compromiso de renovación/prórroga que garantice su cobertura durante toda la ejecución del contrato.\n- Alternativamente: compromiso vinculante de suscripción de dicho seguro (mismo importe mínimo).\n\n**Forma de acreditación:**\n- Certificado de la compañía aseguradora indicando importes, riesgos cubiertos y fecha de vencimiento; o\n- Documento vinculante de suscripción/prórroga/renovación del seguro.\n\nNo se exige volumen de negocio anual ni acumulado como criterio de solvencia económica en este PCAP.\n\n---\n\n# 2. Solvencia técnica / Equipo mínimo\n\nEl PCAP **no exige experiencia mínima como requisito de solvencia técnica**, únicamente titulación académica del equipo propuesto:\n\n* Dirección de Obra (1 persona): Título de Arquitectura\n   * Sin experiencia mínima exigida como requisito de solvencia (la experiencia se valora únicamente como criterio de adjudicación, ver sección 3)\n* Dirección de Ejecución de Obra (1 persona): Título de Arquitecto/a Técnico/a o Aparejador/a\n   * Sin experiencia mínima exigida como requisito de solvencia\n* Coordinación de Seguridad y Salud (1 persona): Título de Arquitectura, Arquitecto/a Técnico/a/Aparejador/a o equivalente\n   * Sin experiencia mínima exigida como requisito de solvencia\n\nAcreditación: copia de los títulos académicos del equipo responsable de la ejecución del contrato.\n\n---\n\n# 3. Criterios de adjudicación\n\n**Criterios de calidad de valoración automática — 55 puntos**\n\nExperiencia profesional del personal adscrito al contrato en trabajos iguales al objeto del contrato en centros educativos, en los últimos 5 años:\n\n* 5 o más trabajos en centros educativos: 55 puntos\n* Hasta 4 trabajos en centros educativos: 40 puntos\n* Hasta 3 trabajos en centros educativos: 45 puntos\n* 1 trabajo en centros educativos: 15 puntos\n* Sin experiencia en centros educativos: 0 puntos\n\n*(Nota: la escala tal como figura en el pliego es internamente incoherente —\"hasta 4 trabajos\" puntúa menos que \"hasta 3 trabajos\"—, se transcribe literalmente tal como consta en el documento.)*\n\nAcreditación: memoria con relación de trabajos realizados por todos los integrantes del equipo (título del proyecto, presupuesto, identificación/localización del centro educativo y función desempeñada).\n\n⚠ REVISAR — criterio de mejora de equipo, no confundir con el mínimo de solvencia (en este PCAP la solvencia técnica solo exige titulación, sin experiencia mínima; toda la experiencia puntúa exclusivamente como criterio de adjudicación).\n\n**Oferta económica — 45 puntos**\n- A la oferta más baja: 45 puntos.\n- Resto de ofertas: proporcionalidad inversa según fórmula V = (Oferta más baja × 45) / Oferta valorada.\n\n**Total: 100 puntos** (55 calidad + 45 precio), cumpliendo el mínimo del 51% en criterios de calidad exigido por el art. 145.3 LCSP.\n\n---\n\n# 4. Valoración para CAI Consultores\n\n**Puntos a favor:**\n- No se exige experiencia mínima de solvencia técnica ni volumen de negocio mínimo: el acceso a la licitación es sencillo para CAI (solo titulación del equipo y seguro RC ≥ 100.000 €).\n- Presupuesto y plazos reducidos (contrato de un año, redacción de proyecto en 1 mes), compatible con la estructura de CAI.\n- El seguro de RC de CAI debe verificarse que cubre el importe mínimo exigido (100.000 €) y su vigencia hasta el fin del plazo de presentación de ofertas — dato a confirmar en el perfil de la empresa (no se ha proporcionado el importe asegurado).\n- El criterio de calidad (55 puntos) premia la experiencia en centros educativos: si CAI dispone de proyectos previos en colegios/centros escolares, puede maximizar la puntuación con una memoria bien documentada.\n\n**Puntos a verificar internamente:**\n- **Prohibición expresa de subcontratación** (Cláusula 23ª): \"La empresa adjudicataria no podrá concertar con otras empresas la realización parcial del contrato ni celebrar acuerdos de colaboración\". Esto implica que **CAI debe cubrir internamente los tres perfiles obligatorios** (Arquitecto/a, Arquitecto/a Técnico/a-Aparejador/a, Coordinador/a de SS) sin posibilidad de subcontratar perfiles no cubiertos — verificar disponibilidad interna de aparejador/a y coordinador/a de seguridad y salud.\n- Recopilar y documentar en memoria la experiencia específica del equipo en **centros educativos** (no genérica) en los últimos 5 años, ya que es el único criterio técnico puntuable (55/100 puntos) y determinante para la adjudicación.\n- La experiencia en instrumentos de planeamiento urbanístico (LISTA/LOUA) **no es relevante** para este contrato, ya que se trata de un proyecto de edificación (comedor escolar), no de redacción de instrumento urbanístico; no aporta valor en los criterios de adjudicación de esta licitación.\n- Confirmar disponibilidad de garantía definitiva (5%) y capacidad de asumir el contrato con margen ajustado (PBL de solo 10.303,15 € IVA incluido), dado el reducido importe económico frente a los costes de gestión de la licitación.",
       "fecha_analisis": "2026-09-30T10:04:03.019332+00:00"
     },
-    "fecha_captura": "2026-09-30"
+    "fecha_captura": "2026-09-30",
+    "estado_anterior": "PUB",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-15T12:17:02.446+02:00"
   },
   {
     "folder_id": "14926/2026",
@@ -1145,7 +1159,7 @@
     "organo": "Alcaldía del Ayuntamiento de la Línea de la Concepción",
     "importe": "14876.04",
     "importe_num": 14876.04,
-    "fecha_limite": "2026-07-17",
+    "fecha_limite": "2026-10-13",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -1159,9 +1173,9 @@
     "estado_anterior": "PUB",
     "resultado": null,
     "estado_cambiado_el": "2026-10-08",
-    "fecha_limite_anterior": "2026-10-07",
-    "fecha_limite_cambiada_el": "2026-10-10",
-    "estado_updated": "2026-10-09T16:05:57.145+02:00"
+    "fecha_limite_anterior": "2026-07-17",
+    "fecha_limite_cambiada_el": "2026-10-15",
+    "estado_updated": "2026-10-15T15:04:46.858+02:00"
   },
   {
     "folder_id": "SE-19/26",
@@ -2249,8 +2263,8 @@
   },
   {
     "folder_id": "3354/2026",
-    "estado": "RES",
-    "resultado": "adjudicada",
+    "estado": "PUB",
+    "resultado": null,
     "titulo": "Contrato de servicios para la iluminación extraordinario con motivo de la Navidad 2026",
     "updated": "2026-10-07T21:44:57.922+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ZB7Or%2BYwc7qGCFcHcNGIlQ%3D%3D",
@@ -2266,18 +2280,18 @@
     "organo": "Junta De Gobierno Local del Ayuntamiento de Huércal-Overa",
     "importe": "66135",
     "importe_num": 66135,
-    "fecha_limite": "2026-10-05",
+    "fecha_limite": "2026-11-03",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-10-09",
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-10-10",
-    "fecha_limite_anterior": "2026-10-22",
-    "fecha_limite_cambiada_el": "2026-10-10",
-    "estado_updated": "2026-10-09T09:25:55.905+02:00"
+    "estado_anterior": "RES",
+    "estado_cambiado_el": "2026-10-15",
+    "fecha_limite_anterior": "2026-10-05",
+    "fecha_limite_cambiada_el": "2026-10-15",
+    "estado_updated": "2026-10-15T13:56:42.332+02:00"
   },
   {
     "folder_id": "JF2027-LIMP",
@@ -2934,7 +2948,7 @@
   },
   {
     "folder_id": "3557/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "asesoramiento, consultoria y auditoria externa para mantenimiento de sistema de gestion de emergenckias del servicio de proteccion civil de torrox.",
     "updated": "2026-10-13T11:02:19.754+02:00",
@@ -2957,13 +2971,18 @@
     "organo": "Alcaldia del Ayuntamiento de Torrox",
     "importe": "28500",
     "importe_num": 28500,
-    "fecha_limite": "2026-10-26",
+    "fecha_limite": "2026-10-09",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-13"
+    "fecha_captura": "2026-10-13",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-15",
+    "fecha_limite_anterior": "2026-10-26",
+    "fecha_limite_cambiada_el": "2026-10-15",
+    "estado_updated": "2026-10-15T12:37:00.985+02:00"
   },
   {
     "folder_id": "4165/2026",
@@ -3290,7 +3309,7 @@
   },
   {
     "folder_id": "CONTR 2025 0000711840",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "proy. encauzamiento arroyo villalta a granada bobadilla.",
     "updated": "2026-10-13T11:41:51.706+02:00",
@@ -3315,6 +3334,151 @@
     "importe_match": true,
     "descripcion": "REDACCIÓN DEL PROYECTO DE ENCAUZAMIENTO Y ADECUACIÓN DEL CAUCE DEL ARROYO VILLALTA, DESDE EL CRUCE DE LA L NEA DE FERROCARRIL GR-BOBADILLA HASTA SU DESEMB EN EL RÍO GUADALHORCE, PREVENIR INUNDACIONES EN NÚCLEO URBANO DE BOBADILLA-ESTACIÓN,ANTEQUERA -MA",
     "junta_consultado": "2026-10-14",
-    "fecha_captura": "2026-10-14"
+    "fecha_captura": "2026-10-14",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-15",
+    "estado_updated": "2026-10-14T15:41:38.506+02:00"
+  },
+  {
+    "folder_id": "10911/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "servicio de elaboración del Plan Director del Arbolado del municipio de Alcalá de Guadaíra (C-2026/054)",
+    "updated": "2026-10-15T14:02:40.559+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=iRWA6pmhPMbgL1BHd3qjQA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71421000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=aMvaPiOF1IWloU6UxKjRn7x9GOXtj1GGzXRgb4FALeb/hz1DHZLwl%2BkXNSuTIrk2wI4fw8Ox069QPQ088niEAY/4QkMSVHBlkeOzvDlGNOHDdQD9RyhUmzT4jZ2In4zL",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=arAk9L4DqlFt63nb28JoXB11hLIa%2BDyryl8rH24Qylqol8Ah/Yot91xkpVx08%2BUa1YFljcF8yRocLw1NSe3YVOAonR14VUvs8DiZND0Tquy1aXEvq3KHa/AEHgtDrQw0",
+    "organo": "Junta de Gobierno Local del Ayuntamiento de Alcalá de Guadaíra",
+    "importe": "59950",
+    "importe_num": 59950.0,
+    "fecha_limite": "2026-10-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fecha_captura": "2026-10-15"
+  },
+  {
+    "folder_id": "2026/520042",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Evaluación de Riesgos de los centros de trabajo y revisión del Plan de Emergencias.",
+    "updated": "2026-10-15T13:28:20.694+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=c%2FHLaBKNBqNVq4S9zvaQpQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "90711100",
+      "90711100",
+      "90711100"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2dvGEfA8lEva0T3kxcIuHX1H9BAvUIr2VxcB6z%2BgVlRcFUwf77pDVEv8%2BpKwS4XJpxWcNUVDa8IU9ZVigr6BGiPuAn31i2c%2B2qLnSs4ZUmbVTD3T98KC0nSgQFM0q%2B5s",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=%2BtYRvtdIbcrxmycOnYoodIC%2BYuBvzgvt2c7GoptqF7zcfrKkj7DCanhR9PyDRhDuAzeLyPsD%2Be81eh1bGAyvbsP7u77eX%2Bt6KFsiMFDmcpu1aXEvq3KHa/AEHgtDrQw0",
+    "organo": "TGSS-Dirección provincial de Melilla",
+    "importe": "6192.31",
+    "importe_num": 6192.31,
+    "fecha_limite": "2026-10-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fecha_captura": "2026-10-15"
+  },
+  {
+    "folder_id": "1638/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de servicios por procedimiento abierto simplificado Contrato de servicios de redacción del proyecto y dirección de obra para la rehabilitación integral del Parque de los Patos",
+    "updated": "2026-10-15T10:01:45.718+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=NAB52v%2FLP%2B1%2FP7lJ7Fu0SA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71220000",
+      "71322000",
+      "71317200",
+      "71520000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=PVGIVLDafY9AveQUdmcvlr%2BKMIGS5FIvmtKZCKjydP3kzroIE%2Bz2LLdxmA1kiIaZUU8uCh3oCrt2RFX/mSF5N%2B/dGgyiFRk9T5JXcpo8cYT3GVhXrFFqN7yFncy7YfRK",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=pDwzB2fYByYwSTGgMzR1uTd1GeLCFICwALhMpb3JPpwXA2%2BgI59IQx2T6nR2Ejq%2BPGoSn5vANjj/89fVIeBVTxA%2B76YAzXEyluEKV7G%2Bu1KCx2e6p7hqtlp2aFupgHMr",
+    "organo": "Alcaldía del Ayuntamiento de Huétor Tájar",
+    "importe": "44000",
+    "importe_num": 47500.0,
+    "fecha_limite": "2026-10-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fecha_captura": "2026-10-15"
+  },
+  {
+    "folder_id": "78/26",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de servicio para la redacción de proyectos eléctricos para ampliazión de la instalación eléctrica de baja tensión para el sistema de climatización en los centros de educación infantil y primaria del municipio de Los Barrios (Cádiz), responsable del contrato de obras y dirección facultativa. \r\n\r\n",
+    "updated": "2026-10-15T09:43:47.828+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=icZvKODnjthPpzdqOdhuWg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iJM4yKuImUAuEuCBJ0q9dQvoa2GmtOKLl7vJ9eSRLSLHUl4LrL7zPmHIpWOcmpcG4Fkl6h8dDtCvPYZXPr5FWvP5uGj97JVFiFi6u46hR4b3GVhXrFFqN7yFncy7YfRK",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=lhwsAJXMAzjBwiDZNiVnUU1Xd2VaIrqhQZZsxdVlFsHFCNmin2x7L3siKb1KSqw8d8oHsZ17rqxmNGJByVsYk8NGbDfJ7FZwlqOtA2ubavr3GVhXrFFqN7yFncy7YfRK",
+    "organo": "Alcaldía del Ayuntamiento de Los Barrios (Cádiz)",
+    "importe": "35700",
+    "importe_num": 35700.0,
+    "fecha_limite": "2026-10-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fecha_captura": "2026-10-15"
+  },
+  {
+    "folder_id": "CONTR 2026 0000237603",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "gestión inteligente de las emergencias de andalucía (gie)",
+    "updated": "2026-10-14T13:41:58.807+02:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1009277",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "73300000",
+      "72224000",
+      "73200000",
+      "79411000",
+      "73100000",
+      "72000000",
+      "79140000",
+      "73220000",
+      "32571000",
+      "79111000",
+      "79311000"
+    ],
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/429935",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/429934",
+    "organo": "Agencia de Emergencias de Andalucía",
+    "importe": "2719008.26",
+    "importe_num": 3262809.91,
+    "fecha_limite": "2026-10-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "descripcion": "GESTIÓN INTELIGENTE DE LAS EMERGENCIAS DE ANDALUCÍA (GIE)",
+    "junta_consultado": "2026-10-15",
+    "fecha_captura": "2026-10-15"
   }
 ]

@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "folder_id": "482/2026",
+    "estado": "EV",
+    "resultado": null,
+    "titulo": "Concurso de proyectos con intervención de jurado para contrato de servicios de redacción de proyecto básico y de ejecución, dirección facultativa de las obras y coordinación de seguridad y salud para la construcción de edificio municipal polivalente para la juventud denominado \"Espacio Joven\".",
+    "updated": "2026-10-15T12:41:11.498+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SRKx9M0hhBydkQsA7ROvsg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000",
+      "71000000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=amuccgJWCtMXWqXXcPYU3PTkxHzJPud%2BiI5UpcSEQfofDKzzPm9zrj7AV/wFXcb3AW1MI%2BuCXt4DjiQ4eGtL/w%2Bq/PPsGyLVG7QKBfAih7bDdQD9RyhUmzT4jZ2In4zL",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=u9d80JdeUEAhDtwkeLNVkVbW%2B6l3dUSAjD7wQe62wV04D%2BlugRtTicsRUd%2B9OfswkH7FTzYJsSf2nq59FTz2GxhE6o/Td7ATU1drTZHzOeuCx2e6p7hqtlp2aFupgHMr",
+    "organo": "Alcaldía del Ayuntamiento de Yebes",
+    "importe": "76300",
+    "importe_num": 76300.0,
+    "fecha_limite": "2026-08-17",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "8",
+    "procedimiento_match": true,
+    "importe_match": true
+  }
+]
