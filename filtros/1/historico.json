@@ -1944,14 +1944,17 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=j5TYGXIBxB6lCVB/4tBuqVNegwdYKrEn02fAXQ%2BChrSyJgZo3FE9eRxawyVY4BIqG63l2gfYxyfJFCRZoaxyyojcEfgYWkzE/oZVwFJ7aU8C1/zDIE0Kw/PWNnLS0Z0z",
     "organo": "Comité Central de Compras de Navantia S.A., S.M.E.",
     "importe": "95000",
-    "importe_num": 95000.0,
+    "importe_num": 95000,
     "fecha_limite": "2026-11-17",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "100",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-14"
+    "fecha_captura": "2026-10-14",
+    "descartado": true,
+    "descartado_fecha": "2026-10-15T06:31:49.167Z",
+    "descartado_por": "CarlosLCAI"
   },
   {
     "folder_id": "4066/2026",
@@ -1972,7 +1975,7 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=b7BmOaFGAQE9UcogZaRjsex7f9uqpx%2BCLDKU02vx1wVccasajTzVuEHOdIBzOfhabtOSImHzlK8EAeG49CMdQUUmJWfRlA1Ba35uIFak9nmB0nvVKRzfe4rpHcnlPhSZ",
     "organo": "Junta de Gobierno Local del Ayuntamiento de Mojácar",
     "importe": "50000",
-    "importe_num": 100000.0,
+    "importe_num": 100000,
     "fecha_limite": "2026-10-29",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
