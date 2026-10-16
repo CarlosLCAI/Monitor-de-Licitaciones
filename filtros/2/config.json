@@ -17,6 +17,7 @@
     "90712100"
   ],
   "estados_permitidos": [
+    "PUB",
     "EV"
   ],
   "tipos_contrato_permitidos": [
