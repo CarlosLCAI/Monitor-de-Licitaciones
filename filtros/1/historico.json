@@ -146,14 +146,14 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ANfnasMvFMBfQEOKVFd%2BGwyXinMDV7f41l8ykcPj01uqYcTl%2B5Au6RKREO/ebjMTX4AnfT3oBVkIIPxV0wyxjAaBvQv608dECDP6hwCaquB7QB3HKyQaFUExmUVQCerk",
     "organo": "Pleno del Ayuntamiento de Gádor",
     "importe": "289256.2",
-    "fecha_limite": "2026-10-26",
+    "fecha_limite": "2026-07-29",
     "fecha_captura": "2026-07-14",
-    "estado_anterior": "PUB",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-14",
-    "estado_updated": "2026-10-13T14:23:22.252+02:00",
-    "fecha_limite_anterior": "2026-08-14",
-    "fecha_limite_cambiada_el": "2026-10-09"
+    "estado_anterior": "RES",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-10-16",
+    "estado_updated": "2026-10-16T08:38:06.292+02:00",
+    "fecha_limite_anterior": "2026-10-26",
+    "fecha_limite_cambiada_el": "2026-10-16"
   },
   {
     "folder_id": "24/26",
@@ -377,7 +377,7 @@
   },
   {
     "folder_id": "2025/409350/006-302/00001",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "Contrato de servicios para la redaccion del Plan Basico de Ordenacion Municipal",
     "updated": "2026-07-16T12:07:16.854+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=2fmtzst552mP66GS%2BONYvQ%3D%3D",
@@ -399,7 +399,11 @@
     "importe_match": true,
     "fecha_captura": "2026-07-17",
     "revisado_humano": false,
-    "revisado_fecha": null
+    "revisado_fecha": null,
+    "estado_anterior": "PUB",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-16",
+    "estado_updated": "2026-10-16T13:43:59.946+02:00"
   },
   {
     "folder_id": "6670/2026",
@@ -447,7 +451,7 @@
     "organo": "Alcaldía del Ayuntamiento de Iznatoraf",
     "importe": "120000",
     "importe_num": 120000,
-    "fecha_limite": "2026-10-26",
+    "fecha_limite": "2026-11-16",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -463,9 +467,9 @@
     "estado_anterior": "EV",
     "resultado": null,
     "estado_cambiado_el": "2026-10-15",
-    "estado_updated": "2026-10-15T12:35:04.735+02:00",
-    "fecha_limite_anterior": "2026-09-16",
-    "fecha_limite_cambiada_el": "2026-10-15"
+    "estado_updated": "2026-10-16T10:59:28.101+02:00",
+    "fecha_limite_anterior": "2026-10-26",
+    "fecha_limite_cambiada_el": "2026-10-16"
   },
   {
     "folder_id": "2026/438",
@@ -928,7 +932,7 @@
   },
   {
     "folder_id": "4380/2026",
-    "estado": "RES",
+    "estado": "PUB",
     "titulo": "servicio de redacción del proyecto básico y de ejecución y de dirección facultativa de las obras de nueva sede judicial de Alcalá de Guadaíra (C-2026/033)",
     "updated": "2026-08-14T13:38:11.644+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lBoZFj0MTgVQFSeKCRun4Q%3D%3D",
@@ -957,10 +961,10 @@
       "fecha_analisis": "2026-08-15T03:54:01.896880+00:00"
     },
     "fecha_captura": "2026-08-15",
-    "estado_anterior": "PUB",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-07",
-    "estado_updated": "2026-10-06T11:36:21.236+02:00"
+    "estado_anterior": "RES",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-16",
+    "estado_updated": "2026-10-16T14:30:24.938+02:00"
   },
   {
     "folder_id": "CONTRATO_361/2026",
@@ -1038,7 +1042,7 @@
   },
   {
     "folder_id": "6491/2026",
-    "estado": "RES",
+    "estado": "ADJ",
     "titulo": "Redacción del Plan Básico de Ordenación Municipal del Ayuntamiento de Castro del Río. Financiado a través de subvención del Plan de Humanización de Entornos Urbanos y Agenda Rural 2024-2027 de la Excma. Diputación Provincial de Córdoba.",
     "updated": "2026-08-12T12:31:15.173+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fUECMGYuI5M3vLk2DU2Ddg%3D%3D",
@@ -1053,7 +1057,7 @@
     "organo": "Alcaldia de Ayuntamiento de Castro del Río",
     "importe": "153817.36",
     "importe_num": 153817.36,
-    "fecha_limite": "2026-08-11",
+    "fecha_limite": "2026-09-03",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1064,12 +1068,12 @@
       "fecha_analisis": "2026-08-15T03:56:12.751476+00:00"
     },
     "fecha_captura": "2026-08-15",
-    "estado_anterior": "EV",
-    "resultado": "formalizada",
-    "estado_cambiado_el": "2026-10-15",
-    "estado_updated": "2026-10-15T12:20:45.483+02:00",
-    "fecha_limite_anterior": "2026-08-27",
-    "fecha_limite_cambiada_el": "2026-10-14"
+    "estado_anterior": "RES",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-10-16",
+    "estado_updated": "2026-10-16T12:29:39.680+02:00",
+    "fecha_limite_anterior": "2026-08-11",
+    "fecha_limite_cambiada_el": "2026-10-16"
   },
   {
     "folder_id": "34/2026",
@@ -1373,7 +1377,7 @@
   },
   {
     "folder_id": "115/2026",
-    "estado": "RES",
+    "estado": "EV",
     "titulo": "El objeto del contrato lo constituye la redacción del proyecto de obras, dirección de obra y la coordinación y seguridad y salud de las obras necesarias para la mejora de la Pista Hípica “La Fuentecilla” de Puebla de Guzmán.",
     "updated": "2026-09-28T10:26:32.669+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Jy63I0UGvaoQyBAnWzHfCg%3D%3D",
@@ -1387,7 +1391,7 @@
     "organo": "Presidencia de la Mancomunidad de Municipios Beturia",
     "importe": "64462.29",
     "importe_num": 64462.29,
-    "fecha_limite": "2026-07-10",
+    "fecha_limite": "2026-10-15",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -1398,12 +1402,12 @@
       "fecha_analisis": "2026-09-29T09:51:40.791793+00:00"
     },
     "fecha_captura": "2026-09-29",
-    "estado_anterior": "ADJ",
-    "resultado": "formalizada",
-    "estado_cambiado_el": "2026-10-15",
-    "estado_updated": "2026-10-15T14:42:38.606+02:00",
-    "fecha_limite_anterior": "2026-06-04",
-    "fecha_limite_cambiada_el": "2026-10-13"
+    "estado_anterior": "RES",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-16",
+    "estado_updated": "2026-10-16T13:35:25.537+02:00",
+    "fecha_limite_anterior": "2026-07-10",
+    "fecha_limite_cambiada_el": "2026-10-16"
   },
   {
     "folder_id": "25/26",
@@ -1910,13 +1914,16 @@
     "organo": "Alcaldia del Ayuntamiento de Santa Elena",
     "importe": "30467.5",
     "importe_num": 30467.5,
-    "fecha_limite": "2026-11-04",
+    "fecha_limite": "2026-11-06",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-13"
+    "fecha_captura": "2026-10-13",
+    "fecha_limite_anterior": "2026-11-04",
+    "fecha_limite_cambiada_el": "2026-10-16",
+    "estado_updated": "2026-10-16T12:34:23.641+02:00"
   },
   {
     "folder_id": "4165/2026",
@@ -1998,13 +2005,16 @@
     "organo": "Junta de Gobierno Local del Ayuntamiento de Mojácar",
     "importe": "50000",
     "importe_num": 100000,
-    "fecha_limite": "2026-10-29",
+    "fecha_limite": "2026-11-02",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-14"
+    "fecha_captura": "2026-10-14",
+    "fecha_limite_anterior": "2026-10-29",
+    "fecha_limite_cambiada_el": "2026-10-16",
+    "estado_updated": "2026-10-16T12:12:50.816+02:00"
   },
   {
     "folder_id": "78/26",

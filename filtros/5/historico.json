@@ -204,7 +204,7 @@
   },
   {
     "folder_id": "SE-16/2026",
-    "estado": "ADJ",
+    "estado": "EV",
     "titulo": "Servicio de redacción de proyecto básico y de ejecución de obras. Proyecto de interiorismo, dirección de obra, dirección de ejecución de obras y coordinación de seguridad y salud de las obras de la nueva sede de Aguas de Lorca",
     "updated": "2026-09-17T09:47:42.773+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=PJ1%2FobyL3AmS81gZFETWmA%3D%3D",
@@ -233,10 +233,10 @@
       "fecha_analisis": "2026-09-19T08:07:51.067203+00:00"
     },
     "fecha_captura": "2026-09-19",
-    "estado_anterior": "PUB",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-02",
-    "estado_updated": "2026-09-29T12:32:05.621+02:00"
+    "estado_anterior": "ADJ",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-16",
+    "estado_updated": "2026-10-16T12:34:14.286+02:00"
   },
   {
     "folder_id": "11217/2026",
@@ -322,7 +322,7 @@
     "organo": "Dirección General del Palacio de Ferias y Congresos de Málaga",
     "importe": "23681.7",
     "importe_num": 118408.5,
-    "fecha_limite": "2026-10-06",
+    "fecha_limite": "2026-09-14",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -336,9 +336,9 @@
     "estado_anterior": "ADJ",
     "resultado": null,
     "estado_cambiado_el": "2026-10-13",
-    "estado_updated": "2026-10-14T16:01:59.882+02:00",
-    "fecha_limite_anterior": "2026-07-31",
-    "fecha_limite_cambiada_el": "2026-10-14"
+    "estado_updated": "2026-10-16T14:07:41.635+02:00",
+    "fecha_limite_anterior": "2026-10-06",
+    "fecha_limite_cambiada_el": "2026-10-16"
   },
   {
     "folder_id": "11_LIMPIEZA 2026/2027",
@@ -644,7 +644,7 @@
   },
   {
     "folder_id": "115/2026",
-    "estado": "RES",
+    "estado": "EV",
     "titulo": "El objeto del contrato lo constituye la redacción del proyecto de obras, dirección de obra y la coordinación y seguridad y salud de las obras necesarias para la mejora de la Pista Hípica “La Fuentecilla” de Puebla de Guzmán.",
     "updated": "2026-09-28T10:26:32.669+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Jy63I0UGvaoQyBAnWzHfCg%3D%3D",
@@ -658,7 +658,7 @@
     "organo": "Presidencia de la Mancomunidad de Municipios Beturia",
     "importe": "64462.29",
     "importe_num": 64462.29,
-    "fecha_limite": "2026-07-10",
+    "fecha_limite": "2026-10-15",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -669,12 +669,12 @@
       "fecha_analisis": "2026-09-29T09:59:56.459713+00:00"
     },
     "fecha_captura": "2026-09-29",
-    "estado_anterior": "ADJ",
-    "resultado": "formalizada",
-    "estado_cambiado_el": "2026-10-15",
-    "estado_updated": "2026-10-15T14:42:38.606+02:00",
-    "fecha_limite_anterior": "2026-06-04",
-    "fecha_limite_cambiada_el": "2026-10-13"
+    "estado_anterior": "RES",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-16",
+    "estado_updated": "2026-10-16T13:35:25.537+02:00",
+    "fecha_limite_anterior": "2026-07-10",
+    "fecha_limite_cambiada_el": "2026-10-16"
   },
   {
     "folder_id": "25/26",
@@ -1159,7 +1159,7 @@
     "organo": "Alcaldía del Ayuntamiento de la Línea de la Concepción",
     "importe": "14876.04",
     "importe_num": 14876.04,
-    "fecha_limite": "2026-10-13",
+    "fecha_limite": "2026-10-15",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -1173,9 +1173,9 @@
     "estado_anterior": "PUB",
     "resultado": null,
     "estado_cambiado_el": "2026-10-08",
-    "fecha_limite_anterior": "2026-07-17",
-    "fecha_limite_cambiada_el": "2026-10-15",
-    "estado_updated": "2026-10-15T15:04:46.858+02:00"
+    "fecha_limite_anterior": "2026-10-13",
+    "fecha_limite_cambiada_el": "2026-10-16",
+    "estado_updated": "2026-10-16T13:23:39.721+02:00"
   },
   {
     "folder_id": "SE-19/26",
@@ -1374,7 +1374,7 @@
   },
   {
     "folder_id": "1154/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "Mantenimiento, conservación y labores de jardinería de espacios ajardinados y arbolado viario",
     "updated": "2026-09-30T10:18:17.792+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=2nX7a4SY%2Fz%2BExvMJXBMHHQ%3D%3D",
@@ -1399,10 +1399,10 @@
       "fecha_analisis": "2026-10-01T10:39:22.382510+00:00"
     },
     "fecha_captura": "2026-10-01",
-    "estado_anterior": "RES",
+    "estado_anterior": "PUB",
     "resultado": null,
-    "estado_cambiado_el": "2026-10-13",
-    "estado_updated": "2026-10-13T08:20:24.655+02:00"
+    "estado_cambiado_el": "2026-10-16",
+    "estado_updated": "2026-10-16T14:18:49.944+02:00"
   },
   {
     "folder_id": "P4108900D-2026/000011-PEA",
@@ -2938,13 +2938,16 @@
     "organo": "Alcaldia del Ayuntamiento de Santa Elena",
     "importe": "30467.5",
     "importe_num": 30467.5,
-    "fecha_limite": "2026-11-04",
+    "fecha_limite": "2026-11-06",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-13"
+    "fecha_captura": "2026-10-13",
+    "fecha_limite_anterior": "2026-11-04",
+    "fecha_limite_cambiada_el": "2026-10-16",
+    "estado_updated": "2026-10-16T12:34:23.641+02:00"
   },
   {
     "folder_id": "3557/2026",
@@ -3480,5 +3483,144 @@
     "descripcion": "GESTIÓN INTELIGENTE DE LAS EMERGENCIAS DE ANDALUCÍA (GIE)",
     "junta_consultado": "2026-10-15",
     "fecha_captura": "2026-10-15"
+  },
+  {
+    "folder_id": "4380/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "servicio de redacción del proyecto básico y de ejecución y de dirección facultativa de las obras de nueva sede judicial de Alcalá de Guadaíra (C-2026/033)",
+    "updated": "2026-10-16T14:30:24.938+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lBoZFj0MTgVQFSeKCRun4Q%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71200000",
+      "71520000",
+      "71317200",
+      "71245000",
+      "71220000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=nQfL3RlXbfBUX1ugD6fV47k8dijWOHjJegT%2BlcdioJn/qqt%2BRgAhRecgqzSW8wVMfdusL7JrLJCS7ZDBZj06Geyv%2Bp4bRLIhZ2qcAdj2ct33GVhXrFFqN7yFncy7YfRK",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wDGifka96D9aeWeKE/TcQQToHC%2BpAnfR/qWwa7GZk/AeAPMk%2BDYxlXRhuYxyIs6EZovN8cdczsESR8H6M0jmnZAI/Ih3qCqIHMJxjC1Wm5XfdyQgZAdTm3EfcUAC7CJ6",
+    "organo": "Junta de Gobierno Local del Ayuntamiento de Alcalá de Guadaíra",
+    "importe": "575616.78",
+    "importe_num": 575616.78,
+    "fecha_limite": "2026-10-16",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "revision_ia": {
+      "informe": "# Informe de Análisis PCAP — C-2026/033\n## Nueva Sede Judicial de Alcalá de Guadaíra\n\n---\n\n## 1. Solvencia económico-financiera\n\n**Medio exigido:** Seguro de indemnización por riesgos profesionales.\n\n- Importe mínimo asegurado: **1.000.000 €**\n- Compromiso de renovación o prórroga que garantice la cobertura durante toda la ejecución del contrato.\n\n**Forma de acreditación** (en fase de propuesta de adjudicatario, cláusula 14.3):\n- Certificado expedido por la aseguradora (importes, riesgos y fecha de vencimiento), o\n- Póliza definitivamente suscrita.\n- En todo caso, declaración responsable comprometiéndose a la suscripción/prórroga/renovación.\n- Alternativamente, cabe aportar una **propuesta de póliza** + declaración responsable de formalizarla antes del inicio de la ejecución.\n\n*(Nota: además, existe una solvencia profesional de empresa —no confundir con el equipo mínimo del apartado 2— consistente en acreditar experiencia en servicios similares en los últimos 3 años, con un importe anual acumulado en el año de mayor ejecución ≥ 25 % del presupuesto base de licitación IVA excluido, es decir, ≥ 143.904,20 €).*\n\n---\n\n## 2. Solvencia técnica / Equipo mínimo\n\n* **Redactor/a del proyecto y Director/a de obra (1 persona)**: Arquitecto/a Superior (o titulación equivalente y legalmente habilitante)\n   * Al menos 10 años de experiencia profesional, habiendo redactado y dirigido al menos 1 proyecto de edificio de cualquier uso, incluso residencial, con presupuesto de contrata (IVA excluido) superior a 2.500.000 €\n\n* **Colaborador/a en redacción de proyecto de ejecución y Dirección de obra (1 persona)**: Ingeniero/a Industrial o Ingeniero/a Técnico/a Industrial, especialista en instalaciones (o titulación equivalente)\n   * Al menos 10 años de experiencia profesional (no se exige experiencia específica en proyectos concretos)\n\n* **Director/a de ejecución de la obra (1 persona)**: Aparejador/a, Arquitecto/a Técnico/a o Ingeniero/a de la Edificación (o titulación equivalente)\n   * Al menos 10 años de experiencia profesional, habiendo dirigido la ejecución de al menos 2 proyectos de edificios de cualquier uso, incluso residencial, con presupuesto de contrata (IVA excluido) superior a 2.500.000 € cada uno\n\n* **Coordinador/a de Seguridad y Salud (1 persona)**: Arquitecto/a, Aparejador/a, Arquitecto/a Técnico/a o Ingeniero/a de la Edificación\n   * Al menos 10 años de experiencia profesional, habiendo coordinado la seguridad y salud de al menos 2 proyectos de obra de edificios de cualquier uso, incluso residencial, con presupuesto de contrata (IVA excluido) superior a 2.500.000 € cada uno\n\n*No se ofrecen alternativas de experiencia para ningún perfil (una única vía de acreditación por perfil).*\n\nTodos estos perfiles constituyen **obligación esencial del contrato** (Anexo I, apartado 14), cuyo incumplimiento es causa de resolución. La sustitución de personal durante la ejecución exige autorización previa municipal y perfil de igual o superior capacidad.\n\n---\n\n## 3. Criterios de adjudicación\n\n**A) Oferta técnica (juicio de valor) — 45 % — máx. 45 puntos**\n- A.1) Calidad general del diseño (urbanístico, arquitectónico, formal y patrimonial): **25 puntos**\n- A.2) Organización general, accesos, circulaciones y funcionalidad: **15 puntos**\n- A.3) Aspectos bioclimáticos y de sostenibilidad (incl. principios DNSH): **5 puntos**\n\n**B) Oferta económica (automática) — 55 % — máx. 35 puntos**\n- Fórmula: 35 puntos a la mayor baja; el resto mediante fórmula cuadrática de proporcionalidad respecto a la baja máxima.\n\n**C) Experiencia profesional del personal técnico designado director/a principal de los trabajos — máx. 20 puntos**\n- 2 puntos por cada redacción de proyecto adicional y 2 puntos por cada dirección de obra adicional (uso equipamiento/terciario/residencial colectivo, >2.500.000 € contrata), acumulables hasta 20 puntos.\n- Si un mismo encargo incluye proyecto + dirección de obra, se otorgan 4 puntos conjuntos.\n- Solo se valoran trabajos terminados y recepcionados de conformidad, y únicamente si se acredita documentalmente dentro del sobre C.\n\n⚠ **REVISAR — criterio de mejora de equipo, no confundir con el mínimo de solvencia.** Este criterio C valora experiencia *adicional* del director/a principal (arquitecto/a redactor + director de obra) más allá del único trabajo mínimo exigido como solvencia/obligación esencial (10 años + 1 proyecto >2,5M€). Puede ser determinante para la puntuación final (20 de 100 puntos posibles).\n\n---\n\n## 4. Valoración para CAI Consultores\n\n### Puntos a favor\n- El volumen de negocio de CAI (1.100.000 €/año) supera ampliamente el umbral estimado de solvencia profesional de empresa (≥ 143.904,20 € anuales en servicios similares en los últimos 3 años), siempre que se disponga de referencias de **redacción de proyectos y/o dirección de obra de edificación** (no urbanísticos) que puedan justificarse documentalmente ante el Ayuntamiento.\n- Procedimiento con criterio económico moderado (35 pts) y fuerte peso técnico/juicio de valor (45 pts) más experiencia de equipo (20 pts), lo que favorece a equipos con buena propuesta arquitectónica y trayectoria acreditada, más que a bajas agresivas.\n- Posibilidad de integrar solvencia con medios externos (DEUC de terceros) y de subcontratar partes no críticas, salvo que el PPT (Anexo VI, no incluido en el texto analizado) prohíba expresamente subcontratar algún perfil.\n\n### Puntos a verificar internamente\n- **Desajuste de perfil**: este contrato es de **redacción de proyecto de edificación y dirección facultativa de obra** (sede judicial), no de instrumento urban",
+      "fecha_analisis": "2026-08-15T03:54:01.896880+00:00"
+    },
+    "fecha_captura": "2026-10-16"
+  },
+  {
+    "folder_id": "11135/2026 ARROYO DE LA MIEL",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Prestación de los servicios de restauración ambiental y acondicionamiento integral mediante la eliminación de especies invasoras, pies muertos, realización de podas de formación y sanitarias y desbroce del terreno. ",
+    "updated": "2026-10-16T13:32:37.867+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=YCWdZ4FMs1lWhbmkna2nXQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "90700000",
+      "90722000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9agcZFFqcySablM4C8RZZDo5NgLdikZ2eMjl%2BPt0Dfry7%2BKbTxpzNNQ65XVJ0xmtK4w1up3MeVejJlAX3%2BINMSXCK6mca6kYxEiHXo4lSZsC1/zDIE0Kw/PWNnLS0Z0z",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9G0q/GYmbs33BF4H5kR5zEtubPVreEmS5b9FPT1P1hI%2B%2BjeAlhLPYohEPHzFiCQ76HFMikRs2OZ8qrIXYkRAmxFk36gPWio0hrjrCOASp6jVTD3T98KC0nSgQFM0q%2B5s",
+    "organo": "Alcaldía del Ayuntamiento de Moguer",
+    "importe": "26070",
+    "importe_num": 26070.0,
+    "fecha_limite": "2026-11-03",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fecha_captura": "2026-10-16"
+  },
+  {
+    "folder_id": "2026/AR46U/00000661E",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "AM para la digitalización e implantación de obras de modificación de buques apoyados por el Arsenal de Cádiz.",
+    "updated": "2026-10-16T11:12:25.673+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=8S0jJ%2FzTK7asNfRW6APEDw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71336000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iqCLe/PdtOOeeva5wmdkhUHw9e8rPFLonD1B56IKsJnj1WHXYJO2WCdvh2pPH06A20LF5hVx0f6IVLrygm3Zp88aB9OSV/TpafZYsgjL%2B7H3GVhXrFFqN7yFncy7YfRK",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=BK/VB8B8NF5Z6exPUM8The9x6GpJ6Hb2aegSzy5raSezGsOpNWNz8947xS5l%2BSciLIeop9Zid1XmKJ4Yz7FGG/CGJdVM%2BFaapaPE%2BODazGWB0nvVKRzfe4rpHcnlPhSZ",
+    "organo": "Intendente de Rota",
+    "importe": "300000",
+    "importe_num": 300000.0,
+    "fecha_limite": "2026-11-18",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fecha_captura": "2026-10-16"
+  },
+  {
+    "folder_id": "5963/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de maquinaria con operario para el Ayuntamiento de Isla Cristina.",
+    "updated": "2026-10-16T09:46:52.976+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=8vaOxPioWWUS7pcxhTeWOg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "60181000",
+      "45510000",
+      "45520000",
+      "90512000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4SkProNXk53BA0IkirQ7pen9/SKrMBHL5KRV9p9vH%2BOkzuRdCzEyuZD6u6/6IxfXk7kxA5TpoMRPbFJxXsbXwjJMD72fMhSnHH2yZTJtm5x45ClyWkoJ44mKM70IFcOu",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=rBt7dWmCyGUdiVy/n0DY/htuWxltyOKMsaCOmRSe8NJD/TMYM3jGsMUjIly53WrDOCdYp6rSWzWuXBajkNdTE19qEOhRw7EaYdlYgIOJhteCx2e6p7hqtlp2aFupgHMr",
+    "organo": "Alcaldía del Ayuntamiento de Isla Cristina",
+    "importe": "35123.97",
+    "importe_num": 35123.97,
+    "fecha_limite": "2026-10-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fecha_captura": "2026-10-16"
+  },
+  {
+    "folder_id": "3437/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de Redacción de Proyecto Completo, Dirección de Obra y Coordinación de Seguridad y Salud de las Obras de Reparación y Restitución de los Viales y Espacios Públicos de Pradollano en Sierra Nevada",
+    "updated": "2026-10-16T09:18:51.015+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=GGqaJ5QMiE9%2FP7lJ7Fu0SA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71210000",
+      "71520000",
+      "71242000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CQnuc7AsmucwztGxVsNWXFdgvvmvlGOMT8ORMGErvq0MR2usTX1bvtbTbSZ48YWE5gT%2BXzmKglHY%2BZgjPcan5f9U33xulIO7gkFCdwqyo%2B8ZyAJWGsSt0OzTSTyw9JAs",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=l32q9/1UzDRMa9MF8Me1gaLEeaoOaXOzinSbzv2NIJz7/HL5a2zG61gqC%2BBddTkMIZDmRv3lizgUmlpteL8C0bdmFO7KakRNI/F3ew1Zjd4//q7NB2iMZvNyf0xrJmjt",
+    "organo": "Junta de Gobierno del Ayuntamiento de Monachil",
+    "importe": "264462.81",
+    "importe_num": 264462.81,
+    "fecha_limite": "2026-11-19",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fecha_captura": "2026-10-16"
   }
 ]

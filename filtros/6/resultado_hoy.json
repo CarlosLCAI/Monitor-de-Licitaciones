@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "folder_id": "4372/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de servicios de dirección y coordinación de seguridad y salud de las obras de construcción de un Puente sobre el Río Pereilas T.M. Coín, financiado con cargo a las ayudas de la Administración General del Estado, a través del Ministerio de Política Territorial Y Memoria Democrática, Previstas en el artículo 7 del Real Decreto-Ley 5/2026, de 17 de febrero.",
+    "updated": "2026-10-16T12:50:56.931+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=uPJ2IyegGaFeKgd8LfVV9g%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=lSLCuEx9aRwzjUzw6RgOSQ%2BsAZhEeETqY/GCEPEo13fNH9Wp%2B7W3A7WiCRnOa%2Bqslbj7WhgPFN99CZRROPoN89ciWz0/A70uTEyW5Aq7AyIC1/zDIE0Kw/PWNnLS0Z0z",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=yjNJvNCIpaLjXfAAu4DhDIEO5lmjJ/dAeNWixIo9LazZkl4S2Jaend5VCldq7Od7PwMgrYFu1pcpcg44NyzMp4iiwNTIMOM/mvFT9J42EGn6CYyL7SIrUOBFfNf52ZqA",
+    "organo": "Alcaldía del Ayuntamiento de Coín",
+    "importe": "123966.94",
+    "importe_num": 123966.94,
+    "fecha_limite": "2026-10-31",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true
+  }
+]
