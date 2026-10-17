@@ -3396,8 +3396,8 @@
   },
   {
     "folder_id": "1638/2026",
-    "estado": "PUB",
-    "resultado": null,
+    "estado": "RES",
+    "resultado": "adjudicada",
     "titulo": "Contrato de servicios por procedimiento abierto simplificado Contrato de servicios de redacción del proyecto y dirección de obra para la rehabilitación integral del Parque de los Patos",
     "updated": "2026-10-15T10:01:45.718+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=NAB52v%2FLP%2B1%2FP7lJ7Fu0SA%3D%3D",
@@ -3420,7 +3420,10 @@
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-15"
+    "fecha_captura": "2026-10-15",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-17",
+    "estado_updated": "2026-10-16T09:25:09.280+02:00"
   },
   {
     "folder_id": "78/26",
@@ -3622,5 +3625,32 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-10-16"
+  },
+  {
+    "folder_id": "CONTR 2026 0000183803",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "gbio-recogida, transporte e incineración residuos crea almeria.",
+    "updated": "2026-10-16T14:41:33.477+02:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1015310",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "90513000"
+    ],
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/435254",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/435253",
+    "organo": "Agencia de Medio Ambiente y Agua de Andalucía",
+    "importe": "8343.60",
+    "importe_num": 16687.2,
+    "fecha_limite": "2026-10-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "descripcion": "GBIO-SERVICIO DE RECOGIDA, TRANSPORTE E INCINERACIÓN DE MATERIAL BIOLÓGICO (SANDACH) PROCEDENTE DEL CENTRO DE RECUPERACIÓN DE ESPECIES AMENAZADAS LAS ALMOHALLAS  Y RETIRADA DE MORTANDADES EVENTUALES DE ANIMALES SILVESTRES Y MARINOS AMAyA",
+    "junta_consultado": "2026-10-17",
+    "fecha_captura": "2026-10-17"
   }
 ]
