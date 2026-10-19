@@ -68,7 +68,7 @@
   },
   {
     "folder_id": "P4103700C-2026/000025-PEAB",
-    "estado": "EV",
+    "estado": "ANUL",
     "titulo": "Licitación servicio Redacción Proyecto de Ejecución de Ampliación de Pabellón Deportivo Municipal",
     "updated": "2026-07-10T13:52:11.844+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xj8qfTD2NUOdkQsA7ROvsg%3D%3D",
@@ -82,10 +82,13 @@
     "organo": "Alcaldía del Ayuntamiento de Los Corrales",
     "importe": "59624.14",
     "fecha_captura": "2026-07-11",
-    "estado_anterior": "PUB",
+    "estado_anterior": "EV",
     "resultado": null,
-    "estado_cambiado_el": "2026-10-02",
-    "estado_updated": "2026-09-30T08:49:39.985+02:00"
+    "estado_cambiado_el": "2026-10-19",
+    "estado_updated": "2026-10-19T10:06:38.942+02:00",
+    "fecha_limite_anterior": null,
+    "fecha_limite": "2026-07-20",
+    "fecha_limite_cambiada_el": "2026-10-19"
   },
   {
     "folder_id": "GEX 1093/2026",
@@ -258,7 +261,7 @@
   },
   {
     "folder_id": "2026-7625",
-    "estado": "PUB",
+    "estado": "RES",
     "titulo": "Obra con redacción de proyecto, estudio de seguridad y salud y estudio de gestión de residuos para la ejecución de estructura artificial de escala deportiva con colchonetas de autoprotección (Boulder) en el edificio Reina Sofía de Armilla.",
     "updated": "2026-07-15T13:51:56.740+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=gZB5%2BbIwFa%2FIGlsa0Wad%2Bw%3D%3D",
@@ -275,11 +278,15 @@
     "organo": "Alcaldía del Ayuntamiento de Armilla",
     "importe": "41322.31",
     "fecha_limite": "2026-08-04",
-    "fecha_captura": "2026-07-16"
+    "fecha_captura": "2026-07-16",
+    "estado_anterior": "PUB",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-10-19",
+    "estado_updated": "2026-10-19T13:53:55.367+02:00"
   },
   {
     "folder_id": "364/2026",
-    "estado": "RES",
+    "estado": "EV",
     "titulo": "Contrato de servicios para la redacción del Plan General de Ordenación Municipal (PGOM) de La Guardia de Jaén, incluyendo toda la documentación urbanística, ambiental y técnica necesaria hasta su aprobación definitiva, con estricta sujeción a las condiciones y requisitos expresados en el Pliego de Prescripciones Técnicas.",
     "updated": "2026-07-15T10:26:42.671+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=B%2BgNBb6ROCnIGlsa0Wad%2Bw%3D%3D",
@@ -296,14 +303,14 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QjPtX68LBtMDqJGLdqN%2B4LwSvQwjHrw3mUBLqv6t13bhb4Bx0tCEJ1ANzVOei1tzP0lCRzg3%2B7tjheRNKfvrM6BJ5w9nHm8RwFuZlJWPvcLDdQD9RyhUmzT4jZ2In4zL",
     "organo": "Alcaldia del Ayuntamiento de La Guardia de Jaén",
     "importe": "160000",
-    "fecha_limite": "2026-04-16",
+    "fecha_limite": "2026-10-08",
     "fecha_captura": "2026-07-16",
-    "estado_anterior": "PUB",
-    "resultado": "formalizada",
-    "estado_cambiado_el": "2026-10-10",
-    "fecha_limite_anterior": "2026-07-20",
-    "fecha_limite_cambiada_el": "2026-10-10",
-    "estado_updated": "2026-10-09T14:32:36.530+02:00"
+    "estado_anterior": "RES",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-19",
+    "fecha_limite_anterior": "2026-04-16",
+    "fecha_limite_cambiada_el": "2026-10-19",
+    "estado_updated": "2026-10-19T14:34:57.686+02:00"
   },
   {
     "folder_id": "3809/2026",
@@ -437,7 +444,7 @@
   },
   {
     "folder_id": "160/2026",
-    "estado": "PUB",
+    "estado": "RES",
     "titulo": "Servicio de asistencia técnica al Ayuntamiento de Iznatoraf, para la redacción Plan Básico de Ordenación Municipal (PBOM) y el Plan Especial de Protección del Patrimonio Histórico (PEPPH).",
     "updated": "2026-07-21T18:24:04.681+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=CqCs6W%2BKVz%2Fs%2BnLj3vAg5A%3D%3D",
@@ -451,7 +458,7 @@
     "organo": "Alcaldía del Ayuntamiento de Iznatoraf",
     "importe": "120000",
     "importe_num": 120000,
-    "fecha_limite": "2026-11-16",
+    "fecha_limite": "2026-09-17",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -464,12 +471,12 @@
       "fecha_analisis": "2026-07-22T12:34:46.237172+00:00"
     },
     "fecha_captura": "2026-07-22",
-    "estado_anterior": "EV",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-15",
-    "estado_updated": "2026-10-16T10:59:28.101+02:00",
-    "fecha_limite_anterior": "2026-10-26",
-    "fecha_limite_cambiada_el": "2026-10-16"
+    "estado_anterior": "PUB",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-10-19",
+    "estado_updated": "2026-10-19T19:25:02.573+02:00",
+    "fecha_limite_anterior": "2026-11-16",
+    "fecha_limite_cambiada_el": "2026-10-19"
   },
   {
     "folder_id": "2026/438",
@@ -552,7 +559,7 @@
   },
   {
     "folder_id": "1608/2026",
-    "estado": "ADJ",
+    "estado": "EV",
     "titulo": "Contrato de servicios para la redacción del proyecto de la obra de reparación del camino rural “Albojaira”, dirección de obra y coordinación en materia de seguridad y salud.",
     "updated": "2026-07-23T09:06:01.056+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=PLh0Jm9Tc8XN3k3tjedSGw%3D%3D",
@@ -566,7 +573,7 @@
     "organo": "Junta de Gobierno del Ayuntamiento de Alfacar",
     "importe": "83471.07",
     "importe_num": 83471.07,
-    "fecha_limite": "2026-09-30",
+    "fecha_limite": "2026-10-17",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -577,12 +584,12 @@
       "fecha_analisis": "2026-07-24T05:58:36.327247+00:00"
     },
     "fecha_captura": "2026-07-24",
-    "estado_anterior": "PUB",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-09",
-    "estado_updated": "2026-10-14T10:05:11.668+02:00",
-    "fecha_limite_anterior": "2026-08-12",
-    "fecha_limite_cambiada_el": "2026-10-15"
+    "estado_anterior": "ADJ",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-19",
+    "estado_updated": "2026-10-19T09:10:53.669+02:00",
+    "fecha_limite_anterior": "2026-09-30",
+    "fecha_limite_cambiada_el": "2026-10-19"
   },
   {
     "folder_id": "GEX 2026 1519 PLAN ORDENACION",
@@ -853,7 +860,7 @@
   },
   {
     "folder_id": "SE 20/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "Realización de trabajos de consultoría para el desarrollo de una estrategia integrada para la transición energética de la provincia de Granada, con especial atención a municipios de menos de 20.000 habitantes",
     "updated": "2026-08-07T10:38:19.514+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=M%2BG5tUj57mTgL1BHd3qjQA%3D%3D",
@@ -881,7 +888,11 @@
       "informe": "# Informe de Análisis PCAP — Estrategia de Transición Energética de la Provincia de Granada\n\n## 1. Solvencia económico-financiera\n\nMedios exigidos (uno o varios, a elección del licitador):\n\n- **Volumen anual de negocio**: referido al año de mayor volumen de negocio de los tres últimos ejercicios cerrados, deberá ser al menos de **61.075,35 €**.\n  - Acreditación: cuentas anuales depositadas en el Registro Mercantil (o registro oficial correspondiente); empresarios no inscritos, mediante libros de inventarios y cuentas anuales legalizados o modelo oficial ante la AEAT (modelo 100/130 IRPF, modelo 390 IVA, u otro).\n\n- **Seguro de responsabilidad civil profesional**, con las siguientes condiciones mínimas:\n  - Ámbito territorial adecuado al territorio de ejecución (incluye desplazamientos y trabajo presencial en municipios).\n  - Actividad asegurada coincidente con el objeto del contrato (asistencia técnica en energías renovables y eficiencia energética, trabajo de campo, entrevistas, talleres, jornadas, reuniones).\n  - Cobertura mínima: **1.500.000 €** por siniestro.\n  - Franquicia (si existe) asumida por el adjudicatario, sin minorar el límite mínimo exigido.\n  - Sublímite por víctima: **600.000 €**.\n  - Garantías mínimas: responsabilidad civil profesional, de explotación, defensa jurídica, patronal, subsidiaria, subcontratistas, y locativa/inmobiliaria según proceda.\n  - Vigencia durante toda la ejecución del contrato y prórrogas.\n  - Acreditación: certificado de la aseguradora (importes, riesgos, vencimiento) + compromiso de suscripción/prórroga/renovación + justificante de pago del último recibo.\n\n⚠ **Nota**: CAI Consultores no ha facilitado el importe asegurado ni la aseguradora de su seguro de RC profesional en el perfil proporcionado — se recomienda verificar que la póliza actual cumple los 1.500.000 €/600.000 € exigidos, o contratar ampliación/endoso específico para esta licitación.\n\n---\n\n## 2. Solvencia técnica / Equipo mínimo\n\nLa solvencia técnica general se acredita mediante relación de servicios similares (CPV 712, 713, 714, 907) en los últimos 3 años, con importe anual acumulado mínimo de **34.202,20 €** en el año de mayor ejecución.\n\n**Alternativa específica para empresas de nueva creación (antigüedad <5 años, en contratos NO SARA)** — acreditación mediante equipo técnico:\n\n* Personal técnico o unidades técnicas (integradas o no en la empresa): titulación de arquitecto, arquitecto técnico, ingeniero, ingeniero técnico o equivalente (licenciado/grado)\n   * Sin experiencia mínima específica indicada en el PCAP para este perfil general\n\n* Responsable del proyecto: titulación de Master específico en planificación del territorio, eficiencia energética y/o energías renovables, **emitido únicamente por universidad pública o centro de formación público**\n   * Sin experiencia mínima específica indicada; el requisito es exclusivamente de titulación (Master de universidad/centro público)\n\n⚠ **REVISAR** — El PCAP no detalla un equipo mínimo desglosado por perfiles con experiencia mínima en años (a diferencia de otros PCAP de urbanismo); la solvencia técnica principal se basa en el importe acumulado de trabajos similares (34.202,20 €), no en un equipo tipo. Solo aplica la vía alternativa de personal técnico si CAI se considera \"empresa de nueva creación\" (antigüedad <5 años), lo cual no es el caso de CAI Consultores según su perfil.\n\n---\n\n## 3. Criterios de adjudicación\n\n**a) Juicios de valor — Memoria (hasta 30 puntos)**\n- **CJV1 — Enfoque global del servicio**: hasta 10 puntos\n- **CJV2 — Metodología propuesta del trabajo**: hasta 10 puntos (grado de conocimiento general 0-3; procedimientos de solicitud de información 0-3; estudio de condicionantes/tareas críticas 0-4)\n- **CJV3 — Organización, planificación y coordinación**: hasta 10 puntos (descripción de fases y tareas 0-4; propuesta de entregas parciales 0-3; funciones y relaciones del equipo 0-3)\n\n**b) Criterios automáticos (fórmulas) — hasta 70 puntos**\n- **b.1) Propuesta económica**: hasta 30 puntos — Fórmula: 30 × OC(%baja) / MO(%baja)\n- **b.2) Otros criterios automáticos**:\n  - **Cualificación del personal adscrito**: hasta 10 puntos\n    - Publicaciones (energías renovables, eficiencia energética, planificación urbanística): 0,5 puntos/publicación, máx. 5 puntos\n    - Formación (mín. 300h en planificación estratégica, organismos públicos): 0,5 puntos/acción formativa, máx. 5 puntos\n    - ⚠ REVISAR — criterio de mejora de equipo, no confundir con el mínimo de solvencia\n  - **Jornadas de Codiseño Territorial \"Granada Transición Energética\"**: hasta 15 puntos (5 puntos por taller, máx. 3 talleres)\n  - **Entrevistas y encuestas**: hasta 15 puntos\n    - 50 encuestas + 10 entrevistas (fase diagnóstico) = 5 puntos\n    - 100 encuestas + 20 entrevistas (fase diagnóstico) = 10 puntos\n    - (no queda claro cómo se llega a 15, revisar redacción del pliego)\n\n**Total: 30 (JV) + 70 (automáticos) = 100 puntos**\n\n---\n\n## 4. Valoración para CAI Consultores\n\n### Puntos a favor\n- **Volumen de negocio**: 1.100.000 €/año supera ampliamente el umbral exigido (61.075,35 €) — sin problema de solvencia económica.\n- **Solvencia técnica**: el umbral de trabajos similares (34.202,20 €/año) es muy bajo comparado con la facturación de CAI; fácilmente acreditable con cualquier proyecto reciente de planificación energética, ambiental o urbanística.\n- **Presupuesto y plazo reducidos** (PBL 40.716,90 € / 10 meses): contrato de tamaño modesto, adecuado para reforzar cartera de referencias en transición energética sin gran dedicación de recursos.\n- **Peso de la oferta económica limitado** (30/100 puntos) y gran peso de memoria técnica y mejoras cualitativas (70/100) — favorable si CAI dispone de buen equipo redactor y capacidad de proponer metodología sólida.\n- Procedimiento **abierto simplificado**, con plazos de licitación cortos (15 días) pero tramitación más ágil.\n\n### Puntos a verificar internamente\n- **Seguro de RC profesional**: confirmar que la póliza vigente de CAI cumple los mínimos exigidos (1.500.000 €/siniestro, 600.000 €/víctima, ámbito territorial, garantías específicas: patronal, subsidiaria, subcontratistas, locativa). Si no los cumple, gestionar ampliación antes de presentar oferta.\n- **Ausencia de equipo mínimo detallado**: el PCAP no exige un equipo tipo con experiencia LISTA/LOUA o similar; sin embargo, dado el objeto (transición energética, no urbanismo puro), verificar que el equipo de CAI incluya perfiles con Master en planificación territorial/energías renovables o eficiencia energética de universidad/centro público (aplicable solo si CAI acreditase solvencia como empresa de nueva creación, lo que no aplica aquí, pero puede ser recomendable para el criterio de \"cualificación del personal\" en la fórmula de adjudicación).\n- **Criterio de publicaciones y formación (hasta 10 puntos)**: revisar si el equipo de CAI cuenta con publicaciones o títulos de formación (mín. 300h, organismos públicos) en energías renovables/eficiencia energética/planificación urbanística para maximizar esta puntuación — impacto competitivo relevante (10% del total).\n- **Compromiso de Jornadas de Codiseño y encuestas/entrevistas (hasta 30 puntos combinados)**: evaluar internamente la capacidad operativa y de costes de comprometerse a organizar talleres y realizar encuestas/entrevistas en municipios menores de 20.000 habitantes, ya que son criterios de alto peso relativo y requieren recursos de campo (posible subcontratación de personal de campo o empresas especializadas en participación ciudadana).\n- **CPV del contrato** (90712400, 71420000, 71313000, 71314300, 71200000) — confirmar que el objeto (transición energética, no redacción de instrumento urbanístico LISTA/LOUA stricto sensu) se ajusta al perfil de experiencia habitual de CAI o si se requiere reforzar el equipo con especialistas en energía (posible subcontratación de perfiles técnicos en eficiencia energética/energías renovables no cubiertos internamente).\n- **Ámbito territorial de ejecución**: dado que el trabajo se centra en municipios de Granada, valorar logística de desplazamientos y disponibilidad de equipo local o itinerante.",
       "fecha_analisis": "2026-08-08T04:23:23.857080+00:00"
     },
-    "fecha_captura": "2026-08-08"
+    "fecha_captura": "2026-08-08",
+    "estado_anterior": "PUB",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-19",
+    "estado_updated": "2026-10-19T12:09:43.850+02:00"
   },
   {
     "folder_id": "13094/2026",
@@ -1081,7 +1092,7 @@
   },
   {
     "folder_id": "34/2026",
-    "estado": "ADJ",
+    "estado": "RES",
     "titulo": "Servicio para la redacción de Proyecto Básico y de Ejecución, Estudio de Seguridad y Salud, de las obras de rehabilitación integral de las dos naves industriales de la antigua Algodonera Virgen de los Reyes, para su adaptación a Centro de Orientación, Acompañamiento e Innovación para el Empleo situado en el barrio Alcosa (Fase-1), así como a la asistencia técnica a la Dirección de Obra.",
     "updated": "2026-08-12T10:09:41.330+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=j08%2BBegnUWAwYTJJ03sHog%3D%3D",
@@ -1096,7 +1107,7 @@
     "organo": "Comisión Ejecutiva de la Gerencia de Urbanismo de Sevilla",
     "importe": "233606.57",
     "importe_num": 233606.57,
-    "fecha_limite": "2026-09-15",
+    "fecha_limite": "2026-08-24",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1107,12 +1118,12 @@
       "fecha_analisis": "2026-08-15T03:57:04.182693+00:00"
     },
     "fecha_captura": "2026-08-15",
-    "estado_anterior": "RES",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-17",
-    "estado_updated": "2026-10-16T11:11:23.301+02:00",
-    "fecha_limite_anterior": "2026-08-17",
-    "fecha_limite_cambiada_el": "2026-10-17"
+    "estado_anterior": "ADJ",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-10-19",
+    "estado_updated": "2026-10-19T08:48:04.479+02:00",
+    "fecha_limite_anterior": "2026-09-15",
+    "fecha_limite_cambiada_el": "2026-10-19"
   },
   {
     "folder_id": "P4107100B-2026/001234-PEA",
@@ -1415,7 +1426,7 @@
   },
   {
     "folder_id": "25/26",
-    "estado": "EV",
+    "estado": "PUB",
     "titulo": "Servicio de Consultoria - Oficina Tecnica Administrativa del Proyecto ECOCREM, cofinanciado por el Programa Plurirregional de España FEDER 2021-2027 en un 85% del gasto elegible, en el marco de la Línea FID-CPI del Ministerio de Ciencia, Innovación y Universidades para la empresa Parque Cementerio de Málaga S.A (PARCEMASA)",
     "updated": "2026-09-28T09:28:08.923+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XAO3D5uzCgmHCIsjvJ3rhQ%3D%3D",
@@ -1434,7 +1445,7 @@
     "organo": "Gerencia del Parque Cementerio de Málaga, S.A.",
     "importe": "481189.78",
     "importe_num": 481189.78,
-    "fecha_limite": "2026-09-07",
+    "fecha_limite": "2026-10-20",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1445,12 +1456,12 @@
       "fecha_analisis": "2026-09-29T09:52:38.339915+00:00"
     },
     "fecha_captura": "2026-09-29",
-    "estado_anterior": "ADJ",
+    "estado_anterior": "EV",
     "resultado": null,
-    "estado_cambiado_el": "2026-10-13",
-    "estado_updated": "2026-10-13T17:23:30.295+02:00",
-    "fecha_limite_anterior": "2026-08-14",
-    "fecha_limite_cambiada_el": "2026-10-13"
+    "estado_cambiado_el": "2026-10-19",
+    "estado_updated": "2026-10-19T12:43:20.971+02:00",
+    "fecha_limite_anterior": "2026-09-07",
+    "fecha_limite_cambiada_el": "2026-10-19"
   },
   {
     "folder_id": "12419/2026",

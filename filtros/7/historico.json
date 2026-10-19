@@ -1430,5 +1430,69 @@
     "descripcion": "00179/ISE/2026/JA - SERVICIO DE REDACCIÓN DE PROYECTO Y ESTUDIO DE SEGURIDAD Y SALUD, DIRECCIONES FACULTATIVAS (DO Y DEO) Y COORDINACIÓN DE SEGURIDAD Y SALUD PARA LA SUSTITUCION PARCIAL DE MURO EN EL IES FUENTE DE LA PEÑA DE JAÉN",
     "junta_consultado": "2026-10-17",
     "fecha_captura": "2026-10-17"
+  },
+  {
+    "folder_id": "35584/26",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de Dirección de Ejecución de Obra y emisión de informe favorable para la aprobación del Plan, Control y Seguimiento de la Seguridad y Salud de las obras de construcción de nuevo edificio del Instituto de Astrofísica de Andalucía",
+    "updated": "2026-10-19T14:07:15.119+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=wmBuLIRh5kSdkQsA7ROvsg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000",
+      "71317210",
+      "71247000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YoqQ9U4dHpLyKc39OPr%2BDOQhih3jcbdTG8J7O15/nopa2dXmklz9QmAqAwkNu6GSpAMiO6ku5dL/pd1AJDIYh67eIxZGDPJZh6atPG5pRKK1aXEvq3KHa/AEHgtDrQw0",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=XacZPtfYwu43vV3ab7yzXhEWZQQKao%2BisnfRhEsDVktltGlNy6N9PR4ypFs9zxC1rSorSZBIOjMfeSmJTXBWmlVzxbvOQXhiH2EgZVvYEJHVTD3T98KC0nSgQFM0q%2B5s",
+    "organo": "Secretaría General de la Agencia Estatal Consejo Superior de Investigaciones Científicas",
+    "importe": "40500",
+    "importe_num": 40500.0,
+    "fecha_limite": "2026-11-09",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fecha_captura": "2026-10-19"
+  },
+  {
+    "folder_id": "33/SE/A/AL26",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicios de Dirección facultativa, Coordinación de Seguridad y Salud, Consultoría, Asistencia Técnica y control de calidad para las obras de ejecución del proyecto de ampliación del Muelle de Pechina",
+    "updated": "2026-10-19T09:00:00.000+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=L%2FiZEEHLyhC8ebB%2FXTwy0A%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71356200",
+      "71313450",
+      "71356000",
+      "71356100",
+      "71541000",
+      "71520000",
+      "71351810",
+      "71317210",
+      "71310000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=KVYTyES7y8dFQjkyPZG0SYAnEf1D6HOXEKLorGq75lQJzLauloypTUo5e/24rigItEc7VkpUlf/AOrGWudnCCF5hOYrVTfTSnj43SKtt7Ldt/o8fNevwsujgRzaBbugn",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0XPE1eZtvQaNWeNsK8XThc11vRW/EcWrS2AZBK5I4U6JL1uf8mumDa%2BX39dWpWYAWtaShY994KzfCLnxyK7tOPhS2AKaRhypGtQr7D4DUvcC1/zDIE0Kw/PWNnLS0Z0z",
+    "organo": "Presidencia de la Autoridad Portuaria de Almería",
+    "importe": "1138723.1",
+    "importe_num": 1306742.7,
+    "fecha_limite": "2026-10-26",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "revision_ia": {
+      "informe": "# 1. Solvencia económico-financiera\n\nEl PCAP no detalla en su cuerpo los umbrales cuantitativos concretos de solvencia económico-financiera: remite sistemáticamente al **Cuadro de Características del Contrato** (\"las condiciones mínimas de solvencia económica y financiera... previstas en el Cuadro de Características del Contrato\", Cláusula 13).\n\nNo se ha aportado en el texto recibido el Cuadro de Características ni sus anexos, por lo que no es posible identificar:\n- El medio concreto de acreditación (volumen de negocio anual/acumulado, ratios financieros, seguro de RC exigido con importe mínimo, etc.).\n- Los años de referencia exigidos.\n\n⚠ **REVISAR — es imprescindible solicitar/localizar el Cuadro de Características del Contrato (CCC) y sus Anexos**, ya que en él se concretan los medios de solvencia económica exigidos (artículos 87 LCSP / normativa RDL 3/2020, según remisión de la Cláusula 13 y 28.3).\n\n---\n\n# 2. Solvencia técnica / Equipo mínimo\n\nEl pliego, en su Cláusula 13, establece el principio general aplicable a servicios de carácter intelectual (conocimientos técnicos, eficacia, experiencia y fiabilidad), pero **no contiene en el cuerpo del PCAP la relación de perfiles profesionales exigidos, sus titulaciones ni la experiencia mínima requerida**. Toda la concreción se remite igualmente al Cuadro de Características y, en su caso, al Pliego de Prescripciones Técnicas (PPT), documentos no incluidos en el texto facilitado.\n\nTampoco se ha localizado el detalle del compromiso de adscripción de medios personales (Cláusula 15), que el propio pliego indica que \"se establecerá en el Cuadro de Características\".\n\n⚠ **REVISAR — no es posible listar el equipo mínimo exigido (Director de Obra, Director de Ejecución, Coordinador de Seguridad y Salud, técnicos de control de calidad, etc.) sin acceder al Cuadro de Características y al Pliego de Prescripciones Técnicas (PPT).** Dado el objeto del contrato (Dirección Facultativa, Coordinación de SyS, Consultoría, AT y Control de Calidad de obra portuaria), es previsible que se exijan al menos: Director de Obra (Ingeniero de Caminos, Canales y Puertos), Director de Ejecución/Asistencia Técnica, Coordinador de Seguridad y Salud, y técnico de control de calidad — pero esto **debe confirmarse contra el CCC/PPT real** antes de preparar la oferta.\n\n---\n\n# 3. Criterios de adjudicación\n\nLa Cláusula 20 remite expresamente al **Anexo VIII del pliego** para la relación de criterios y su ponderación (\"Los criterios que han de servir de base para la adjudicación son los señalados en el anexo VIII del presente pliego, con la ponderación atribuida a cada uno de ellos\"). Dicho Anexo VIII no se incluye en el texto facilitado.\n\nSe puede extraer únicamente lo siguiente sobre el **procedimiento** de valoración:\n- Se prevén criterios evaluables mediante **juicio de valor** (Sobre/archivo nº 2) y criterios evaluables mediante **fórmulas** (Sobre/archivo nº 3), conforme a las Cláusulas 24 y 26.\n- Si el procedimiento se articula en fases, se exige un **umbral mínimo del 50% de la puntuación en los criterios cualitativos** para continuar en el proceso (Cláusula 20) — a confirmar si aplica en este expediente concreto.\n- La valoración de los criterios de juicio de valor la realizan los servicios técnicos del órgano de contratación en un plazo no superior a 7 días.\n- No puede utilizarse el precio como único factor determinante en servicios de carácter intelectual, salvo las excepciones legales.\n\n⚠ **REVISAR — no es posible desglosar la puntuación de los criterios automáticos y de juicio de valor sin el Anexo VIII del PCAP.** Es imprescindible obtener ese anexo para verificar si existe un criterio o subapartado de \"mejora/experiencia adicional del equipo\" distinto del mínimo de solvencia, y en tal caso **⚠ REVISAR — criterio de mejora de equipo, no confundir con el mínimo de solvencia** (pendiente de confirmar su existencia).\n\n---\n\n# 4. Valoración para CAI Consultores\n\n**Puntos a favor:**\n- El PCAP sigue el esquema estándar de la Ley de Contratos del Sector Público (vía RDL 3/2020 para sector portuario/SARA), sin cláusulas especialmente restrictivas o atípicas en el cuerpo general del pliego.\n- Se permite expresamente la integración de solvencia con medios externos (Cláusula 14) y la subcontratación parcial (Cláusulas 40 y 48), lo que da margen a CAI para cubrir mediante subcontratación aquellos perfiles muy especializados que no tenga en plantilla (p. ej. control de calidad específico o especialidades portuarias concretas), siempre que se identifique y justifique en la oferta.\n- Se admite la constitución de UTE, lo que permite a CAI concurrir asociada si el equipo/solvencia mínimos exigidos (una vez conocido el CCC) superasen su capacidad individual.\n- El objeto (ampliación de muelle portuario) es coherente con el perfil de arquitectura/ingeniería de CAI si dispone de experiencia previa en obra marítimo-portuaria; debe verificarse si esa experiencia entra dentro del ámbito exigido (más allá de LOUA/LISTA, que son normativa urbanística autonómica, no directamente aplicable a obra portuaria estatal, salvo en aspectos de planeamiento asociado).\n\n**Puntos a verificar internamente (críticos, dado que el PCAP remite todo a documentos no disponibles):**\n- **Obtener y analizar el Cuadro de Características del Contrato (CCC)** completo, con los importes de presupuesto, valor estimado, plazos y, sobre todo, los medios y umbrales de solvencia económica-financiera exigidos, para contrastarlos contra el volumen de negocio de CAI (1.100.000 €/año; 3.300.000 € acumulado).\n- **Obtener el Anexo VIII (criterios de adjudicación)** y el **PPT**, para conocer el equipo mínimo exigido, titulaciones y experiencia, y compararlo con la plantilla actual de CAI, identificando qué perfiles requerirían subcontratación o incorporación de colaboradores externos (especialmente si se exige experiencia específica en obra marítima/portuaria, distinta de la experiencia urbanística LISTA/LOUA habitual de CAI).\n- Confirmar si existe la exigencia de **sistema de gestión ambiental ISO 14001/EMAS** (mencionada como obligatoria para el adjudicatario en la Cláusula 28 y 38) y si CAI dispone de dicha certificación o debe tramitarla/subcontratarla.\n- Revisar si se exige **clasificación empresarial** específica (grupo/subgrupo/categoría) como alternativa o complemento a la solvencia, dado que el pliego lo contempla como opción (Cláusula 28.3).\n- Verificar el **seguro de responsabilidad civil profesional** exigido (importe mínimo) una vez conocido el CCC, y contrastarlo con la póliza actual de CAI.\n- Confirmar si el contrato exige **compromiso de adscripción de medios personales/materiales** como obligación contractual esencial (Cláusula 15), lo que obligaría a CAI a garantizar la disponibilidad efectiva del equipo nominado durante toda la ejecución, incluyendo procedimiento de sustitución con acreditación de experiencia equivalente.",
+      "fecha_analisis": "2026-09-29T09:56:51.077929+00:00"
+    },
+    "fecha_captura": "2026-10-19"
   }
 ]

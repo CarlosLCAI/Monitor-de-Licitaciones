@@ -306,7 +306,7 @@
   },
   {
     "folder_id": "24/2026",
-    "estado": "EV",
+    "estado": "RES",
     "titulo": "Constituye el objeto del contrato la prestación del servicio de redacción de proyectos, dirección técnica, tramitación y legalización de instalaciones eléctricas temporales y estructuras provisionales necesarias para la celebración de los certámenes organizados en FYCMA, conforme a las especificaciones del PPT.",
     "updated": "2026-09-16T11:12:22.478+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=DC%2Fm7JVt%2FLkUqXM96WStVA%3D%3D",
@@ -322,7 +322,7 @@
     "organo": "Dirección General del Palacio de Ferias y Congresos de Málaga",
     "importe": "23681.7",
     "importe_num": 118408.5,
-    "fecha_limite": "2026-09-14",
+    "fecha_limite": "2026-08-17",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -333,12 +333,12 @@
       "fecha_analisis": "2026-09-19T08:09:33.318103+00:00"
     },
     "fecha_captura": "2026-09-19",
-    "estado_anterior": "ADJ",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-13",
-    "estado_updated": "2026-10-16T14:07:41.635+02:00",
-    "fecha_limite_anterior": "2026-10-06",
-    "fecha_limite_cambiada_el": "2026-10-16"
+    "estado_anterior": "EV",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-10-19",
+    "estado_updated": "2026-10-19T08:05:25.391+02:00",
+    "fecha_limite_anterior": "2026-09-14",
+    "fecha_limite_cambiada_el": "2026-10-19"
   },
   {
     "folder_id": "11_LIMPIEZA 2026/2027",
@@ -678,7 +678,7 @@
   },
   {
     "folder_id": "25/26",
-    "estado": "EV",
+    "estado": "PUB",
     "titulo": "Servicio de Consultoria - Oficina Tecnica Administrativa del Proyecto ECOCREM, cofinanciado por el Programa Plurirregional de España FEDER 2021-2027 en un 85% del gasto elegible, en el marco de la Línea FID-CPI del Ministerio de Ciencia, Innovación y Universidades para la empresa Parque Cementerio de Málaga S.A (PARCEMASA)",
     "updated": "2026-09-28T09:28:08.923+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XAO3D5uzCgmHCIsjvJ3rhQ%3D%3D",
@@ -697,7 +697,7 @@
     "organo": "Gerencia del Parque Cementerio de Málaga, S.A.",
     "importe": "481189.78",
     "importe_num": 481189.78,
-    "fecha_limite": "2026-09-07",
+    "fecha_limite": "2026-10-20",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -708,12 +708,12 @@
       "fecha_analisis": "2026-09-29T10:01:00.232842+00:00"
     },
     "fecha_captura": "2026-09-29",
-    "estado_anterior": "ADJ",
+    "estado_anterior": "EV",
     "resultado": null,
-    "estado_cambiado_el": "2026-10-13",
-    "estado_updated": "2026-10-13T17:23:30.295+02:00",
-    "fecha_limite_anterior": "2026-08-14",
-    "fecha_limite_cambiada_el": "2026-10-13"
+    "estado_cambiado_el": "2026-10-19",
+    "estado_updated": "2026-10-19T12:43:20.971+02:00",
+    "fecha_limite_anterior": "2026-09-07",
+    "fecha_limite_cambiada_el": "2026-10-19"
   },
   {
     "folder_id": "117/2024",
@@ -828,7 +828,7 @@
   },
   {
     "folder_id": "2026-48",
-    "estado": "PUB",
+    "estado": "RES",
     "titulo": "Servicio de retirada, transporte y gestión de los residuos resultantes de los procesos de depuración en las instalaciones gestionadas por la Empresa Municipal de Aguas de Córdoba",
     "updated": "2026-09-28T08:19:45.039+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=6C3%2BRMUAKl3%2B3JAijKO%2Bkg%3D%3D",
@@ -856,7 +856,11 @@
       "informe": "# 1. Solvencia económico-financiera\n\n**Medios exigidos:**\n- **Certificado de inscripción en el ROLECE** (Registro Oficial de Licitadores y Empresas Clasificadas del Sector Público) o registro autonómico equivalente.\n- Si dicho certificado no recoge información sobre solvencia económica, deberá acreditarse adicionalmente el **volumen anual de negocios**, referido al mejor ejercicio de los tres últimos concluidos, que deberá ser **al menos 1,5 veces el valor anual medio del contrato**, es decir, un mínimo de **43.259,24 €**.\n\n**Forma de acreditación:**\n- Cuentas anuales aprobadas y depositadas en el Registro Mercantil (o registro oficial correspondiente).\n- Empresarios individuales no inscritos: libros de inventarios y cuentas anuales legalizados por el Registro Mercantil.\n\n**Adicionalmente (encuadrado por el PCAP dentro del apartado de solvencia técnica, pero de naturaleza económico-financiera):**\n- Certificado de la aseguradora acreditativo de póliza de responsabilidad civil vigente, con capital mínimo asegurado de **600.000 € por siniestro y anualidad**, con sublímite de **150.000 € por víctima** en RC patronal. Debe cubrir explotación, RC patronal, RC cruzada, daños a bienes de EMACSA, daños durante carga/descarga, daños medioambientales accidentales (derrames, vertidos, fugas), gastos de descontaminación/limpieza y daños por vehículos/maquinaria adscritos al contrato.\n\n⚠ No se exige clasificación empresarial (no aplica a contratos de servicios de esta naturaleza).\n\n---\n\n# 2. Solvencia técnica / Equipo mínimo\n\nEl PCAP **no exige personal técnico titulado tipo arquitecto/ingeniero urbanista**, ya que el objeto es un servicio operativo de recogida, transporte y gestión de residuos de depuración (no redacción de instrumentos urbanísticos). El equipo mínimo remite al apartado 4.2 del PPT (no incluido en el documento aportado), pero el Anexo I (apartado CC) concreta los perfiles y documentación exigible:\n\n* Responsable o delegado/a del servicio (nº no especificado): titulación oficial (no se detalla cuál en el PCAP; remite al PPT)\n   * Experiencia no cuantificada en el PCAP — se acredita mediante CV y certificado de formación\n* Conductores/as y personal de transporte: permiso de conducción + cualificación profesional para transporte de mercancías por carretera\n   * Certificado de Aptitud Profesional (CAP) en vigor, cuando resulte obligatorio\n* Personal de gestión administrativa y documental: sin titulación específica exigida\n   * Formación acreditada mediante CV y certificado\n\n**Solvencia técnica de la empresa (no del equipo individual):**\n- Relación de servicios de igual o similar naturaleza ejecutados en los últimos 3 años, debiendo al menos uno de ellos alcanzar un importe igual o superior a **20.187,64 €** (70% de la anualidad media del contrato).\n- Acreditación mediante certificados de destinatarios públicos o privados.\n\n**Habilitaciones específicas (condición de aptitud, no de solvencia técnica clásica):**\n- Autorización administrativa como gestor/transportista de residuos no peligrosos, inscrito en el registro correspondiente para los códigos LER 19 08 01, 19 08 02, 19 08 09 y 20 03 07.\n- Relación jurídica vigente (contrato de tratamiento, carta de aceptación, convenio, etc.) con una entidad gestora final autorizada para el tratamiento de dichos residuos.\n\n⚠ No se detectan titulaciones universitarias ni experiencia mínima de personal técnico exigibles conforme al perfil habitual de contratos de redacción urbanística; este PCAP corresponde a un contrato de servicios ambientales/logísticos.\n\n---\n\n# 3. Criterios de adjudicación\n\nPuntuación total: **100 puntos**, todos automáticos/objetivos (no existe sobre nº 2 de juicio de valor — \"No procede\").\n\n* **Criterio 1 – Proposición económica: hasta 75 puntos**\n   * Fórmula: Vi = (Omin/Oi) × 75\n\n* **Criterio 2 – Puesta a disposición de aplicativo de gestión: hasta 11 puntos**\n   * 0 puntos si no se compromete\n   * 11 puntos si se compromete a un aplicativo conforme a especificaciones mínimas del PPT, sin coste adicional\n\n* **Criterio 3 – Bolsa de horas de formación para personal de EMACSA: hasta 6 puntos**\n   * 0,5 puntos por hora ofertada (máximo 6 puntos; sesiones de máx. 2h)\n\n* **Criterio 4 – Bolsa de horas de asistencia técnica: hasta 8 puntos**\n   * 0,10 puntos por hora ofertada (máximo 8 puntos)\n\nNo existe criterio de \"mejora de experiencia del equipo\" distinto del mínimo de solvencia; los criterios 2 a 4 son mejoras operativas (",
       "fecha_analisis": "2026-09-29T10:04:18.527751+00:00"
     },
-    "fecha_captura": "2026-09-29"
+    "fecha_captura": "2026-09-29",
+    "estado_anterior": "PUB",
+    "resultado": "desierta",
+    "estado_cambiado_el": "2026-10-19",
+    "estado_updated": "2026-10-19T13:35:17.147+02:00"
   },
   {
     "folder_id": "1275/2026",
@@ -1736,7 +1740,7 @@
     "organo": "Alcaldía del Ayuntamiento de Benahadux",
     "importe": "155546.7",
     "importe_num": 155546.7,
-    "fecha_limite": "2026-09-21",
+    "fecha_limite": "2026-10-09",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1749,9 +1753,9 @@
     "fecha_captura": "2026-10-03",
     "estado_anterior": "ADJ",
     "estado_cambiado_el": "2026-10-09",
-    "estado_updated": "2026-10-14T19:23:55.796+02:00",
-    "fecha_limite_anterior": "2026-09-07",
-    "fecha_limite_cambiada_el": "2026-10-14"
+    "estado_updated": "2026-10-19T15:00:00.747+02:00",
+    "fecha_limite_anterior": "2026-09-21",
+    "fecha_limite_cambiada_el": "2026-10-19"
   },
   {
     "folder_id": "2026/AR46U/00001241E",
@@ -2592,7 +2596,7 @@
   },
   {
     "folder_id": "SC 118/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Servicio integral de producción técnica de sonido, iluminación y medios auxiliares para los eventos de Navidad 2026-2027.",
     "updated": "2026-10-09T12:31:19.883+02:00",
@@ -2614,7 +2618,10 @@
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-10"
+    "fecha_captura": "2026-10-10",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-19",
+    "estado_updated": "2026-10-19T11:23:41.992+02:00"
   },
   {
     "folder_id": "SE-19/2026",

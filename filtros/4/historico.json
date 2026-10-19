@@ -729,7 +729,7 @@
   },
   {
     "folder_id": "34/2026",
-    "estado": "ADJ",
+    "estado": "RES",
     "titulo": "Servicio para la redacción de Proyecto Básico y de Ejecución, Estudio de Seguridad y Salud, de las obras de rehabilitación integral de las dos naves industriales de la antigua Algodonera Virgen de los Reyes, para su adaptación a Centro de Orientación, Acompañamiento e Innovación para el Empleo situado en el barrio Alcosa (Fase-1), así como a la asistencia técnica a la Dirección de Obra.",
     "updated": "2026-08-12T10:09:41.330+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=j08%2BBegnUWAwYTJJ03sHog%3D%3D",
@@ -744,7 +744,7 @@
     "organo": "Comisión Ejecutiva de la Gerencia de Urbanismo de Sevilla",
     "importe": "233606.57",
     "importe_num": 233606.57,
-    "fecha_limite": "2026-09-15",
+    "fecha_limite": "2026-08-24",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -755,12 +755,12 @@
       "fecha_analisis": "2026-08-15T04:01:37.325989+00:00"
     },
     "fecha_captura": "2026-08-15",
-    "estado_anterior": "RES",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-17",
-    "estado_updated": "2026-10-16T11:11:23.301+02:00",
-    "fecha_limite_anterior": "2026-08-17",
-    "fecha_limite_cambiada_el": "2026-10-17"
+    "estado_anterior": "ADJ",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-10-19",
+    "estado_updated": "2026-10-19T08:48:04.479+02:00",
+    "fecha_limite_anterior": "2026-09-15",
+    "fecha_limite_cambiada_el": "2026-10-19"
   },
   {
     "folder_id": "26-752",
@@ -1460,7 +1460,7 @@
   },
   {
     "folder_id": "24/2026",
-    "estado": "EV",
+    "estado": "RES",
     "titulo": "Constituye el objeto del contrato la prestación del servicio de redacción de proyectos, dirección técnica, tramitación y legalización de instalaciones eléctricas temporales y estructuras provisionales necesarias para la celebración de los certámenes organizados en FYCMA, conforme a las especificaciones del PPT.",
     "updated": "2026-09-16T11:12:22.478+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=DC%2Fm7JVt%2FLkUqXM96WStVA%3D%3D",
@@ -1476,7 +1476,7 @@
     "organo": "Dirección General del Palacio de Ferias y Congresos de Málaga",
     "importe": "23681.7",
     "importe_num": 118408.5,
-    "fecha_limite": "2026-09-14",
+    "fecha_limite": "2026-08-17",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1487,12 +1487,12 @@
       "fecha_analisis": "2026-09-17T08:54:05.326723+00:00"
     },
     "fecha_captura": "2026-09-17",
-    "estado_anterior": "ADJ",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-13",
-    "estado_updated": "2026-10-16T14:07:41.635+02:00",
-    "fecha_limite_anterior": "2026-10-06",
-    "fecha_limite_cambiada_el": "2026-10-16"
+    "estado_anterior": "EV",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-10-19",
+    "estado_updated": "2026-10-19T08:05:25.391+02:00",
+    "fecha_limite_anterior": "2026-09-14",
+    "fecha_limite_cambiada_el": "2026-10-19"
   },
   {
     "folder_id": "20261056-V",
@@ -1660,7 +1660,7 @@
   },
   {
     "folder_id": "25/26",
-    "estado": "EV",
+    "estado": "PUB",
     "titulo": "Servicio de Consultoria - Oficina Tecnica Administrativa del Proyecto ECOCREM, cofinanciado por el Programa Plurirregional de España FEDER 2021-2027 en un 85% del gasto elegible, en el marco de la Línea FID-CPI del Ministerio de Ciencia, Innovación y Universidades para la empresa Parque Cementerio de Málaga S.A (PARCEMASA)",
     "updated": "2026-09-28T09:28:08.923+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XAO3D5uzCgmHCIsjvJ3rhQ%3D%3D",
@@ -1679,7 +1679,7 @@
     "organo": "Gerencia del Parque Cementerio de Málaga, S.A.",
     "importe": "481189.78",
     "importe_num": 481189.78,
-    "fecha_limite": "2026-09-07",
+    "fecha_limite": "2026-10-20",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1690,12 +1690,12 @@
       "fecha_analisis": "2026-09-29T09:55:15.794402+00:00"
     },
     "fecha_captura": "2026-09-29",
-    "estado_anterior": "ADJ",
+    "estado_anterior": "EV",
     "resultado": null,
-    "estado_cambiado_el": "2026-10-13",
-    "estado_updated": "2026-10-13T17:23:30.295+02:00",
-    "fecha_limite_anterior": "2026-08-14",
-    "fecha_limite_cambiada_el": "2026-10-13"
+    "estado_cambiado_el": "2026-10-19",
+    "estado_updated": "2026-10-19T12:43:20.971+02:00",
+    "fecha_limite_anterior": "2026-09-07",
+    "fecha_limite_cambiada_el": "2026-10-19"
   },
   {
     "folder_id": "12419/2026",
@@ -2316,7 +2316,7 @@
     "organo": "Alcaldía del Ayuntamiento de Benahadux",
     "importe": "155546.7",
     "importe_num": 155546.7,
-    "fecha_limite": "2026-09-21",
+    "fecha_limite": "2026-10-09",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -2329,9 +2329,9 @@
     "fecha_captura": "2026-10-03",
     "estado_anterior": "ADJ",
     "estado_cambiado_el": "2026-10-09",
-    "estado_updated": "2026-10-14T19:23:55.796+02:00",
-    "fecha_limite_anterior": "2026-09-07",
-    "fecha_limite_cambiada_el": "2026-10-14"
+    "estado_updated": "2026-10-19T15:00:00.747+02:00",
+    "fecha_limite_anterior": "2026-09-21",
+    "fecha_limite_cambiada_el": "2026-10-19"
   },
   {
     "folder_id": "2026CONTRA000092",
@@ -3572,5 +3572,32 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-10-16"
+  },
+  {
+    "folder_id": "35584/26",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de Dirección de Ejecución de Obra y emisión de informe favorable para la aprobación del Plan, Control y Seguimiento de la Seguridad y Salud de las obras de construcción de nuevo edificio del Instituto de Astrofísica de Andalucía",
+    "updated": "2026-10-19T14:07:15.119+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=wmBuLIRh5kSdkQsA7ROvsg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000",
+      "71317210",
+      "71247000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YoqQ9U4dHpLyKc39OPr%2BDOQhih3jcbdTG8J7O15/nopa2dXmklz9QmAqAwkNu6GSpAMiO6ku5dL/pd1AJDIYh67eIxZGDPJZh6atPG5pRKK1aXEvq3KHa/AEHgtDrQw0",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=XacZPtfYwu43vV3ab7yzXhEWZQQKao%2BisnfRhEsDVktltGlNy6N9PR4ypFs9zxC1rSorSZBIOjMfeSmJTXBWmlVzxbvOQXhiH2EgZVvYEJHVTD3T98KC0nSgQFM0q%2B5s",
+    "organo": "Secretaría General de la Agencia Estatal Consejo Superior de Investigaciones Científicas",
+    "importe": "40500",
+    "importe_num": 40500.0,
+    "fecha_limite": "2026-11-09",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fecha_captura": "2026-10-19"
   }
 ]
