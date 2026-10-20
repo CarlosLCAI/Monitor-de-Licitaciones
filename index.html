@@ -372,54 +372,43 @@
     padding-bottom: 6px;
     margin: 26px 0 12px;
   }
-  .stats-section-title:first-child { margin-top: 0; }
-  .stats-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 12px;
+  .st-cab { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
+  .st-titulo { font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 17px; color: var(--antracita); margin: 0; }
+  .st-periodo { display: flex; }
+  .st-periodo button {
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 12.5px; letter-spacing: .04em; text-transform: uppercase;
+    padding: 5px 12px; cursor: pointer; background: var(--surface); color: var(--ink-soft); border: 1px solid var(--border);
   }
-  .stats-card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    padding: 14px 16px;
+  .st-periodo button:first-child { border-radius: 6px 0 0 6px; }
+  .st-periodo button:last-child { border-radius: 0 6px 6px 0; border-left: none; }
+  .st-periodo button.activo { background: var(--teal); border-color: var(--teal); color: var(--on-teal); }
+  .st-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(118px, 1fr)); gap: 10px; }
+  .st-kpi { background: var(--surface); border-radius: 10px; padding: 12px 14px; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10); }
+  .st-kpi b { display: block; font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 28px; line-height: 1.1; color: var(--antracita); }
+  .st-kpi span { font-size: 11px; letter-spacing: .05em; text-transform: uppercase; color: var(--ink-soft); font-family: 'Barlow Condensed', sans-serif; }
+  .st-grid { display: grid; gap: 12px; }
+  .st-card { background: var(--surface); border-radius: 12px; padding: 14px 16px; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.10); min-width: 0; }
+  .st-card h4 {
+    font-family: 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 12.5px; letter-spacing: .05em;
+    text-transform: uppercase; color: var(--ink-soft); margin: 0 0 10px;
   }
-  .stats-card .label {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 11px;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--ink-soft);
-    margin: 0 0 4px;
-  }
-  .stats-card .value {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    color: var(--antracita);
-    margin: 0;
-  }
-  .stats-columnas {
-    display: grid;
-    grid-template-columns: minmax(0, 340px);
-    gap: 24px;
-    margin-top: 20px;
-  }
-  .stats-columna h4 {
-    font-family: 'Barlow Condensed', sans-serif;
-    font-size: 12px;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: var(--ink-soft);
-    margin: 0 0 4px;
-  }
-  .stats-fila {
-    display: flex;
-    justify-content: space-between;
-    padding: 7px 0;
-    border-top: 1px solid var(--border);
-    font-size: 13.5px;
-  }
-  .stats-fila:first-of-type { border-top: none; }
+  .st-donut { display: flex; align-items: center; gap: 16px; }
+  .st-donut svg { flex: none; }
+  .st-leyenda { flex: 1; min-width: 0; font-size: 12.5px; }
+  .st-leyenda div { display: flex; align-items: center; gap: 7px; padding: 2px 0; }
+  .st-leyenda i { width: 10px; height: 10px; border-radius: 2px; flex: none; }
+  .st-leyenda em { font-style: normal; margin-left: auto; padding-left: 8px; white-space: nowrap; color: var(--ink-soft); font-family: 'JetBrains Mono', monospace; font-size: 11.5px; }
+  .st-nota { font-size: 11.5px; color: var(--etiqueta-suave); margin: 10px 0 0; line-height: 1.45; }
+  .st-vacio { font-size: 13px; color: var(--ink-soft); margin: 6px 0; line-height: 1.5; }
+  .st-tabla { width: 100%; border-collapse: collapse; font-size: 12.5px; table-layout: auto; border: none; background: none; }
+  .st-tabla td { padding: 5px 6px 5px 0; border: none; border-top: 1px solid var(--border); width: auto; }
+  .st-tabla tr:first-child td { border-top: none; }
+  .st-ok { color: var(--teal-texto); }
+  .st-alerta { color: var(--descarte); font-weight: 600; }
+  .st-persona { font-size: 12.5px; margin: 8px 0; }
+  .st-persona > div:first-child { display: flex; justify-content: space-between; }
+  .st-barra { display: flex; height: 10px; gap: 2px; margin-top: 4px; }
+  .st-barra i { border-radius: 3px; }
   .filtro-selector-row { display: flex; align-items: center; gap: 6px; }
   #selector-filtro {
     font-family: 'Barlow Condensed', sans-serif;
@@ -800,7 +789,7 @@
               <li><strong>Última lectura:</strong> las licitaciones nuevas que ha encontrado el monitor en su última ejecución (se lanza cada madrugada). Es lo primero que conviene mirar cada día.</li>
               <li><strong>En plazo:</strong> las licitaciones a las que todavía se puede presentar oferta, es decir, cuya fecha límite no ha vencido, da igual cuándo se captaron. No incluye las descartadas.</li>
               <li><strong>Todas:</strong> el histórico completo de todo lo que ha captado el filtro seleccionado, también lo que ya venció y las descartadas (atenuadas).</li>
-              <li><strong>Estadísticas:</strong> un resumen con los datos de la última lectura, cuántas licitaciones hay en plazo y vencidas, cuántas ha revisado el equipo, cuántos informes IA se han generado y el reparto por estado.</li>
+              <li><strong>Estadísticas:</strong> cifras clave y gráficos de anillo. Muestran dónde está cada licitación en plazo (por filtro, sumando el total de «Todos los filtros»), qué se ha hecho con las vencidas y con las que siguen en plazo (sin tratar, revisadas, presentadas, descartadas), cuántas presentadas estaban revisadas, cuántas tienen revisión IA y de qué color es su semáforo. Abajo: captadas por semana, marcas por persona, coste de las revisiones IA, salud de las fuentes y datos de la última lectura. Arriba a la derecha se elige entre todo el histórico y los últimos 30 días.</li>
             </ul>
 
             <h4>Los filtros</h4>
@@ -1315,10 +1304,11 @@ async function solicitarRevisionIA(folderId) {
 
   solicitandoIA.add(folderId);
   try {
+    const solicitante = await obtenerNombreRevisor(token).catch(() => '');
     const resp = await fetch(`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/actions/workflows/${WORKFLOW_REVISION_IA}/dispatches`, {
       method: 'POST',
       headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github+json' },
-      body: JSON.stringify({ ref: GH_BRANCH, inputs: { folder_id: folderId } }),
+      body: JSON.stringify({ ref: GH_BRANCH, inputs: { folder_id: folderId, solicitante: solicitante || '' } }),
     });
     if (resp.status !== 204) {
       const err = await resp.json().catch(() => ({}));
@@ -1651,12 +1641,197 @@ function aplicarFiltros() {
   renderResumenLectura();
 }
 
-function statTile(etiqueta, valor) {
-  return '<div class="stats-card"><p class="label">' + escapeHtml(etiqueta) + '</p><p class="value">' + valor + '</p></div>';
+// --- Estadísticas ---------------------------------------------------------------------------------
+// Todo se cuenta sobre licitaciones únicas (en "Todos los filtros" ya vienen unidas). Las marcas se
+// reparten con prioridad descartada > presentada > revisada > sin tratar, para que cada licitación
+// caiga en un solo trozo de cada anillo. Los gráficos son SVG propio, sin librerías.
+let periodoStats = 'todo'; // 'todo' | '30' (últimos 30 días, por fecha de captura)
+const PALETA_FILTROS = ['#2a78d6', '#eb6834', '#1baf7a', '#eda100', '#e87ba4', '#6250d6', '#e34948', '#008300'];
+const COLOR_GRIS_STATS = '#C9CDD1';
+const ALIAS_PERSONAS = { carloslcai: 'Carlos', '(sin nombre)': 'Carlos', '': 'Carlos' };
+const NOMBRES_FEED = {
+  perfiles: 'Perfiles del Estado',
+  agregadas: 'Plataformas agregadas (Junta y otras)',
+  menores: 'Contratos menores',
+};
+const COLORES_FEED = { perfiles: '#2a78d6', agregadas: '#eb6834', menores: '#1baf7a' };
+
+function nombrePersona(p) {
+  const texto = String(p || '').trim();
+  const alias = ALIAS_PERSONAS[texto.toLowerCase()];
+  if (alias) return alias;
+  // "kike" y "Kike" son la misma persona: si se escribió todo en minúsculas se pone la inicial en mayúscula
+  return texto === texto.toLowerCase() ? texto.replace(/(^|\s)\S/g, c => c.toUpperCase()) : texto;
 }
 
-function filaEstadistica(etiqueta, valor) {
-  return '<div class="stats-fila"><span>' + escapeHtml(etiqueta) + '</span><span class="mono">' + valor + '</span></div>';
+function numES(n) { return Number(n).toLocaleString('es-ES'); }
+
+function donutSVG(items, centro, etiqueta, titulo) {
+  const total = items.reduce((a, i) => a + i.v, 0);
+  const radio = 44, C = 2 * Math.PI * radio;
+  const conDatos = items.filter(i => i.v > 0);
+  const hueco = conDatos.length > 1 ? 1.6 : 0;
+  let desplazamiento = 0;
+  let svg = '<svg width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="' + escapeHtml(titulo) + '">';
+  for (const i of conDatos) {
+    const largo = i.v / total * C;
+    svg += '<circle cx="60" cy="60" r="' + radio + '" fill="none" stroke="' + i.c + '" stroke-width="16"' +
+      ' stroke-dasharray="' + Math.max(largo - hueco, 0.5).toFixed(2) + ' ' + C.toFixed(2) + '"' +
+      ' stroke-dashoffset="' + (-desplazamiento).toFixed(2) + '" transform="rotate(-90 60 60)">' +
+      '<title>' + escapeHtml(i.n) + ': ' + numES(i.v) + '</title></circle>';
+    desplazamiento += largo;
+  }
+  svg += '<text x="60" y="59" text-anchor="middle" style="font-size:20px;font-weight:600;fill:var(--ink)">' + numES(centro) + '</text>' +
+    '<text x="60" y="75" text-anchor="middle" style="font-size:10.5px;fill:var(--etiqueta-suave)">' + escapeHtml(etiqueta) + '</text></svg>';
+  return svg;
+}
+
+function tarjetaDonut(titulo, items, etiqueta, nota, vacio) {
+  const total = items.reduce((a, i) => a + i.v, 0);
+  let html = '<div class="st-card"><h4>' + escapeHtml(titulo) + '</h4>';
+  if (!total) {
+    return html + '<p class="st-vacio">' + escapeHtml(vacio || 'Aún no hay datos.') + '</p></div>';
+  }
+  const leyenda = items.filter(i => i.v > 0 || i.siempre).map(i =>
+    '<div><i style="background:' + i.c + '"></i>' + escapeHtml(i.n) +
+    '<em>' + numES(i.v) + ' · ' + Math.round(i.v / total * 100) + '%' + (i.extra ? ' · ' + escapeHtml(i.extra) : '') + '</em></div>'
+  ).join('');
+  html += '<div class="st-donut">' + donutSVG(items, total, etiqueta, titulo) + '<div class="st-leyenda">' + leyenda + '</div></div>';
+  if (nota) html += '<p class="st-nota">' + escapeHtml(nota) + '</p>';
+  return html + '</div>';
+}
+
+function semanaISO(d) {
+  const t = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+  t.setUTCDate(t.getUTCDate() + 4 - (t.getUTCDay() || 7));
+  const inicio = new Date(Date.UTC(t.getUTCFullYear(), 0, 1));
+  return Math.ceil(((t - inicio) / 86400000 + 1) / 7);
+}
+
+function lunesDe(iso) {
+  const d = new Date(iso + 'T12:00:00');
+  d.setDate(d.getDate() - ((d.getDay() + 6) % 7));
+  return d;
+}
+
+function tarjetaSemanas(lista) {
+  const cuenta = new Map();
+  for (const d of lista) {
+    if (!d.fecha_captura) continue;
+    const clave = lunesDe(d.fecha_captura).toISOString().slice(0, 10);
+    cuenta.set(clave, (cuenta.get(clave) || 0) + 1);
+  }
+  let html = '<div class="st-card"><h4>Licitaciones captadas por semana</h4>';
+  if (!cuenta.size) return html + '<p class="st-vacio">Aún no hay datos.</p></div>';
+  const ultima = [...cuenta.keys()].sort().pop();
+  const semanas = [];
+  const cursor = new Date(ultima + 'T12:00:00');
+  for (let k = 0; k < 16; k++) {
+    semanas.unshift(new Date(cursor));
+    cursor.setDate(cursor.getDate() - 7);
+  }
+  const datosSem = semanas.map(f => ({ e: 'S' + semanaISO(f), v: cuenta.get(f.toISOString().slice(0, 10)) || 0 }));
+  const maximo = Math.max(...datosSem.map(x => x.v), 1);
+  const ancho = 320 / datosSem.length;
+  let svg = '<svg viewBox="0 0 320 124" width="100%" role="img" aria-label="Licitaciones captadas por semana">';
+  datosSem.forEach((x, i) => {
+    const alto = x.v / maximo * 82, px = i * ancho + 3, esUltima = i === datosSem.length - 1;
+    svg += '<rect x="' + px.toFixed(1) + '" y="' + (96 - alto).toFixed(1) + '" width="' + (ancho - 6).toFixed(1) + '" height="' + alto.toFixed(1) +
+      '" rx="3" fill="' + (esUltima ? '#9FDADA' : '#07AAAA') + '"><title>' + x.e + ': ' + x.v + (esUltima ? ' (semana en curso)' : '') + '</title></rect>' +
+      '<text x="' + (px + (ancho - 6) / 2).toFixed(1) + '" y="110" text-anchor="middle" style="font-size:9.5px;fill:var(--etiqueta-suave)">' + x.e + '</text>' +
+      (x.v ? '<text x="' + (px + (ancho - 6) / 2).toFixed(1) + '" y="' + (92 - alto).toFixed(1) + '" text-anchor="middle" style="font-size:9.5px;fill:var(--ink)">' + x.v + '</text>' : '');
+  });
+  return html + svg + '</svg><p class="st-nota">Semana de captura (la primera vez que el monitor vio la licitación). La barra clara es la semana en curso.</p></div>';
+}
+
+function tarjetaPersonas(lista) {
+  const personas = new Map();
+  for (const d of lista) {
+    for (const tipo of ['revisado', 'presentado', 'descartado']) {
+      const c = CAMPOS_MARCA[tipo];
+      if (!d[c.valor]) continue;
+      const nombre = nombrePersona(d[c.por]);
+      if (!personas.has(nombre)) personas.set(nombre, { revisado: 0, presentado: 0, descartado: 0 });
+      personas.get(nombre)[tipo]++;
+    }
+  }
+  let html = '<div class="st-card"><h4>Marcas por persona</h4>';
+  if (!personas.size) return html + '<p class="st-vacio">Aún no hay marcas.</p></div>';
+  const filas = [...personas.entries()].map(([n, m]) => [n, m, m.revisado + m.presentado + m.descartado]).sort((a, b) => b[2] - a[2]);
+  const maximo = filas[0][2];
+  html += filas.map(([nombre, m, t]) =>
+    '<div class="st-persona"><div><span>' + escapeHtml(nombre) + '</span><span class="mono">' + t + '</span></div>' +
+    '<div class="st-barra" style="width:' + Math.max(t / maximo * 100, 4) + '%">' +
+    (m.revisado ? '<i style="flex:' + m.revisado + ';background:#07AAAA" title="Revisadas: ' + m.revisado + '"></i>' : '') +
+    (m.presentado ? '<i style="flex:' + m.presentado + ';background:var(--presentado)" title="Presentadas: ' + m.presentado + '"></i>' : '') +
+    (m.descartado ? '<i style="flex:' + m.descartado + ';background:var(--descarte)" title="Descartadas: ' + m.descartado + '"></i>' : '') +
+    '</div></div>').join('');
+  return html + '<p class="st-nota">Turquesa: revisadas · verde: presentadas · rojo: descartadas.</p></div>';
+}
+
+function tarjetaCosteIA(lista) {
+  const porPersona = new Map();
+  let total = 0, conDato = 0;
+  for (const d of lista) {
+    const rev = d.revision_ia;
+    if (!revisionIaValida(rev) || !rev.solicitada_por) continue;
+    const nombre = nombrePersona(rev.solicitada_por);
+    if (!porPersona.has(nombre)) porPersona.set(nombre, { n: 0, coste: 0 });
+    const p = porPersona.get(nombre);
+    p.n++;
+    p.coste += Number(rev.coste_estimado_usd) || 0;
+    total += Number(rev.coste_estimado_usd) || 0;
+    conDato++;
+  }
+  let html = '<div class="st-card"><h4>Revisiones IA pedidas y coste</h4>';
+  if (!conDato) {
+    return html + '<p class="st-vacio">Se empezará a mostrar con las próximas revisiones: se guarda quién la pide y lo que consume.</p></div>';
+  }
+  const usd = n => 'US$ ' + n.toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  html += '<table class="st-tabla">' + [...porPersona.entries()].sort((a, b) => b[1].n - a[1].n).map(([n, p]) =>
+    '<tr><td>' + escapeHtml(n) + '</td><td class="mono">' + p.n + ' revisión' + (p.n === 1 ? '' : 'es') + '</td><td class="mono" style="text-align:right">' + usd(p.coste) + '</td></tr>'
+  ).join('') + '<tr><td><strong>Total</strong></td><td class="mono">' + conDato + '</td><td class="mono" style="text-align:right"><strong>' + usd(total) + '</strong></td></tr></table>';
+  return html + '<p class="st-nota">Coste estimado de la llamada principal a la IA (sin el localizador de páginas, que son céntimos). Solo revisiones pedidas desde el 20/10.</p></div>';
+}
+
+function tarjetaFuentes() {
+  let html = '<div class="st-card"><h4>Salud de las fuentes</h4>';
+  const feeds = metaLectura && metaLectura.feeds;
+  if (!feeds || !feeds.length) {
+    return html + '<p class="st-vacio">Aparecerá tras la próxima lectura del monitor.</p></div>';
+  }
+  const referencia = new Date(metaLectura.fecha_hora);
+  const filas = feeds.map(f => {
+    const nombre = NOMBRES_FEED[f.nombre] || f.nombre;
+    if (f.estado === 'error') {
+      return '<tr><td>' + escapeHtml(nombre) + '</td><td>—</td><td class="st-alerta">error de lectura</td></tr>';
+    }
+    const ultima = f.ultima_entrada ? new Date(f.ultima_entrada) : null;
+    const horas = ultima && !isNaN(ultima) ? (referencia - ultima) / 3600000 : null;
+    const fechaTxt = ultima && !isNaN(ultima)
+      ? ultima.toLocaleString('es-ES', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }) : '—';
+    const estado = horas !== null && horas > 24
+      ? '<td class="st-alerta">sin entradas desde hace ' + Math.round(horas) + ' h</td>'
+      : '<td class="st-ok">al día</td>';
+    return '<tr><td>' + escapeHtml(nombre) + '</td><td class="mono">' + fechaTxt + '</td>' + estado + '</tr>';
+  }).join('');
+  html += '<table class="st-tabla"><tr style="color:var(--etiqueta-suave)"><td>Fuente</td><td>Última entrada</td><td></td></tr>' + filas + '</table>';
+  const detalle = feeds.filter(f => f.estado !== 'error').map(f => (NOMBRES_FEED[f.nombre] || f.nombre) + ': ' + numES(f.entradas) + ' entradas en ' + f.paginas + ' pág.').join(' · ');
+  return html + '<p class="st-nota">Aviso en rojo si un feed lleva más de 24 h sin entradas (como el del Estado el 5 de octubre). Última lectura: ' + escapeHtml(detalle) + '.</p></div>';
+}
+
+function tarjetaUltimaLectura() {
+  let html = '<div class="st-card"><h4>Última lectura</h4>';
+  if (!metaLectura) return html + '<p class="st-vacio">Sin datos de lectura todavía.</p></div>';
+  const fecha = new Date(metaLectura.fecha_hora);
+  const horaStr = isNaN(fecha) ? metaLectura.fecha_hora
+    : fecha.toLocaleString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) + ' UTC';
+  const acumuladas = metaLectura.total_entries_acumulado != null ? metaLectura.total_entries_acumulado : metaLectura.total_entries_leidas;
+  const fila = (a, b) => '<tr><td>' + a + '</td><td class="mono" style="text-align:right">' + b + '</td></tr>';
+  return html + '<table class="st-tabla">' +
+    fila('Fecha de la lectura', horaStr) + fila('Páginas leídas', numES(metaLectura.paginas)) +
+    fila('Entradas totales leídas', numES(metaLectura.total_entries_leidas)) + fila('Nuevas filtradas', numES(metaLectura.nuevas_filtradas)) +
+    fila('Entradas leídas (acumulado)', acumuladas != null ? numES(acumuladas) : '—') + '</table></div>';
 }
 
 function renderEstadisticas() {
@@ -1664,63 +1839,100 @@ function renderEstadisticas() {
   document.getElementById('total-count').textContent = '—';
   document.getElementById('resumen-lectura').style.display = 'none';
 
-  const total = datos.length;
-  const enPlazo = datos.filter(d => !d.descartado && esVigente(d)).length;
-  const vencidas = datos.filter(d => !esVigente(d)).length;
-  const descartadas = datos.filter(d => d.descartado).length;
-  const presentadas = datos.filter(d => d.presentado).length;
-
-  const porEstado = {};
-  datos.forEach(d => {
-    const k = d.estado ? infoEstado(d).texto : 'Sin estado';
-    porEstado[k] = (porEstado[k] || 0) + 1;
-  });
-
-  const conInformeIA = datos.filter(d => revisionIaValida(d.revision_ia)).length;
-
-  const revisadas = datos.filter(d => d.revisado_humano).length;
-  const pctRevisadas = total ? Math.round((revisadas / total) * 100) : 0;
-
-  let html = '<div class="stats-wrap">';
-
-  html += '<h3 class="stats-section-title">Última lectura (parcial)</h3><div class="stats-grid">';
-  if (metaLectura) {
-    const fecha = new Date(metaLectura.fecha_hora);
-    const horaStr = isNaN(fecha)
-      ? metaLectura.fecha_hora
-      : fecha.toLocaleString('es-ES', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }) + ' UTC';
-    html +=
-      statTile('Fecha de la última lectura', horaStr) +
-      statTile('Páginas leídas', metaLectura.paginas) +
-      statTile('Entradas totales leídas', metaLectura.total_entries_leidas) +
-      statTile('Nuevas filtradas', metaLectura.nuevas_filtradas);
-  } else {
-    html += '<p class="ayuda">Sin datos de lectura todavía.</p>';
+  let lista = datos;
+  if (periodoStats === '30') {
+    const limite = new Date();
+    limite.setDate(limite.getDate() - 30);
+    const iso = limite.toISOString().slice(0, 10);
+    lista = datos.filter(d => (d.fecha_captura || '') >= iso);
   }
-  html += '</div>';
 
-  html += '<h3 class="stats-section-title">Histórico global — ' + escapeHtml((filtroConfigActual && filtroConfigActual.nombre) || '') + '</h3>';
-  const entriesAcumuladas = metaLectura
-    ? (metaLectura.total_entries_acumulado != null ? metaLectura.total_entries_acumulado : metaLectura.total_entries_leidas)
-    : null;
-  html += '<div class="stats-grid">' +
-    statTile('Entradas totales leídas (acumulado)', entriesAcumuladas != null ? entriesAcumuladas : '—') +
-    statTile('Total licitaciones filtradas (acumulado)', total) +
-    statTile('En plazo ahora mismo', enPlazo) +
-    statTile('Plazo vencido', vencidas) +
-    statTile('Revisadas por el equipo', revisadas + ' / ' + total + ' (' + pctRevisadas + '%)') +
-    statTile('Presentadas', presentadas + ' / ' + total) +
-    statTile('Descartadas', descartadas + ' / ' + total) +
-    statTile('Informes IA generados', conInformeIA + ' / ' + total) +
-    '</div>';
+  const total = lista.length;
+  const vencidas = lista.filter(d => !esVigente(d));
+  const enPlazo = lista.filter(d => esVigente(d) && !d.descartado);
+  const revisadas = lista.filter(d => d.revisado_humano).length;
+  const presentadas = lista.filter(d => d.presentado);
+  const descartadas = lista.filter(d => d.descartado).length;
+  const conIA = lista.filter(d => revisionIaValida(d.revision_ia));
 
-  html += '<div class="stats-columnas">';
-  html += '<div class="stats-columna"><h4>Por estado</h4>' +
-    Object.entries(porEstado).sort((a, b) => b[1] - a[1]).map(([k, v]) => filaEstadistica(k, v)).join('') +
-    '</div>';
-  html += '</div></div>';
+  // Prioridad descartada > presentada > revisada > sin tratar
+  const reparto = arr => ({
+    sin: arr.filter(d => !d.descartado && !d.presentado && !d.revisado_humano).length,
+    rev: arr.filter(d => !d.descartado && !d.presentado && d.revisado_humano).length,
+    pres: arr.filter(d => !d.descartado && d.presentado).length,
+    desc: arr.filter(d => d.descartado).length,
+  });
+  const rv = reparto(vencidas), rp = reparto(enPlazo);
+
+  const periodoBtn = (v, txt) => '<button type="button" data-periodo="' + v + '" class="' + (periodoStats === v ? 'activo' : '') + '">' + txt + '</button>';
+  let html = '<div class="stats-wrap">' +
+    '<div class="st-cab"><p class="st-titulo">Estadísticas — ' + escapeHtml((filtroConfigActual && filtroConfigActual.nombre) || '') + '</p>' +
+    '<div class="st-periodo">' + periodoBtn('todo', 'Todo el histórico') + periodoBtn('30', 'Últimos 30 días') + '</div></div>';
+
+  const kpi = (n, t) => '<div class="st-kpi"><b>' + numES(n) + '</b><span>' + t + '</span></div>';
+  html += '<div class="st-kpis">' + kpi(total, 'Licitaciones') + kpi(enPlazo.length, 'En plazo') + kpi(vencidas.length, 'Plazo vencido') +
+    kpi(revisadas, 'Revisadas') + kpi(presentadas.length, 'Presentadas') + kpi(descartadas, 'Descartadas') + kpi(conIA.length, 'Con revisión IA') + '</div>';
+
+  // Dónde está cada licitación en plazo (solo en la vista de todos los filtros)
+  html += '<h3 class="stats-section-title">Dónde está cada licitación en plazo</h3>';
+  if (filtroActivoId === ID_VISTA_TODOS) {
+    const nombres = filtrosManifest.map(f => (cacheFiltros[f.id] && cacheFiltros[f.id].cfg && cacheFiltros[f.id].cfg.nombre) || f.nombre || ('Filtro ' + f.id));
+    const exclusivas = new Map(), totales = new Map();
+    let varios = 0;
+    for (const d of enPlazo) {
+      const fs = d.filtros_origen || [];
+      for (const n of fs) totales.set(n, (totales.get(n) || 0) + 1);
+      if (fs.length === 1) exclusivas.set(fs[0], (exclusivas.get(fs[0]) || 0) + 1); else varios++;
+    }
+    const items = nombres.map((n, i) => ({ n, v: exclusivas.get(n) || 0, c: PALETA_FILTROS[i % PALETA_FILTROS.length], extra: (totales.get(n) || 0) ? 'en total ' + totales.get(n) : '', siempre: (totales.get(n) || 0) > 0 }));
+    items.push({ n: 'Varios filtros', v: varios, c: '#8A8F94' });
+    html += '<div class="st-grid" style="grid-template-columns:1fr">' + tarjetaDonut('En plazo por filtro: suman las ' + enPlazo.length + ' de «Todos los filtros»', items, 'en plazo',
+      'Cada licitación cuenta una sola vez: en su filtro si solo está en uno, o en «Varios filtros». A la derecha, el total de cada filtro contando las que comparte.') + '</div>';
+  } else {
+    html += '<div class="st-grid" style="grid-template-columns:1fr"><div class="st-card"><p class="st-vacio">Este reparto se ve en «Todos los filtros»: aquí solo hay un filtro.</p></div></div>';
+  }
+
+  html += '<h3 class="stats-section-title">Qué hemos hecho con ellas</h3><div class="st-grid" style="grid-template-columns:repeat(auto-fit,minmax(290px,1fr))">' +
+    tarjetaDonut('Plazo vencido: qué pasó', [
+      { n: 'Sin tratar', v: rv.sin, c: COLOR_GRIS_STATS }, { n: 'Revisadas', v: rv.rev, c: '#07AAAA' },
+      { n: 'Presentadas', v: rv.pres, c: 'var(--presentado)' }, { n: 'Descartadas', v: rv.desc, c: 'var(--descarte)' }], 'vencidas',
+      'Revisadas = revisadas y no presentadas.') +
+    tarjetaDonut('En plazo: cómo van', [
+      { n: 'Pendientes de tratar', v: rp.sin, c: COLOR_GRIS_STATS }, { n: 'Revisadas', v: rp.rev, c: '#07AAAA' },
+      { n: 'Presentadas', v: rp.pres, c: 'var(--presentado)' }], 'en plazo', 'Las descartadas no cuentan aquí.') +
+    tarjetaDonut('Presentadas: ¿estaban revisadas?', [
+      { n: 'Presentadas y revisadas', v: presentadas.filter(d => d.revisado_humano).length, c: 'var(--presentado)' },
+      { n: 'Presentadas sin revisar', v: presentadas.filter(d => !d.revisado_humano).length, c: '#9ED6B8' }], 'presentadas', '',
+      'Se activa en cuanto se marque la primera como presentada.') + '</div>';
+
+  const sem = { verde: 0, naranja: 0, rojo: 0, gris: 0, sin: 0 };
+  for (const d of conIA) sem[SEMAFOROS[d.revision_ia.semaforo] ? d.revision_ia.semaforo : 'sin']++;
+  html += '<h3 class="stats-section-title">Revisión IA</h3><div class="st-grid" style="grid-template-columns:repeat(auto-fit,minmax(290px,1fr))">' +
+    tarjetaDonut('Revisión IA', [{ n: 'Con revisión IA', v: conIA.length, c: '#07AAAA' }, { n: 'Sin revisión IA', v: total - conIA.length, c: COLOR_GRIS_STATS }], 'licitaciones') +
+    tarjetaDonut('Semáforo de las revisiones IA', [
+      { n: 'Verde', v: sem.verde, c: '#4FA477' }, { n: 'Naranja', v: sem.naranja, c: '#E39A4F' }, { n: 'Rojo', v: sem.rojo, c: '#D9626A' },
+      { n: 'Gris', v: sem.gris, c: '#A5ABB0' }, { n: 'Sin semáforo (anteriores al 14/10)', v: sem.sin, c: '#D9DCDF' }], 'revisiones') +
+    tarjetaCosteIA(lista) + '</div>';
+
+  // Origen por feed
+  const origen = {};
+  for (const d of lista) { const k = d.fuente || 'sin'; origen[k] = (origen[k] || 0) + 1; }
+  const itemsFeed = Object.keys(NOMBRES_FEED).map(k => ({ n: NOMBRES_FEED[k], v: origen[k] || 0, c: COLORES_FEED[k] }));
+  itemsFeed.push({ n: 'Origen sin determinar', v: origen.sin || 0, c: COLOR_GRIS_STATS });
+  const hayFuente = lista.some(d => d.fuente);
+
+  html += '<h3 class="stats-section-title">Actividad y fuentes</h3><div class="st-grid" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr))">' +
+    tarjetaSemanas(lista) + tarjetaPersonas(lista) + tarjetaFuentes() + tarjetaUltimaLectura() +
+    (hayFuente
+      ? tarjetaDonut('De qué feed salen las licitaciones', itemsFeed, 'licitaciones', 'Las anteriores al 20/10 quedan como «origen sin determinar»: antes no se guardaba.')
+      : '<div class="st-card"><h4>De qué feed salen las licitaciones</h4><p class="st-vacio">Se mostrará desde la próxima lectura del monitor: antes no se guardaba el feed de origen.</p></div>') +
+    '</div></div>';
 
   cont.innerHTML = html;
+  cont.querySelectorAll('[data-periodo]').forEach(b => b.addEventListener('click', () => {
+    periodoStats = b.dataset.periodo;
+    renderEstadisticas();
+  }));
 }
 
 function renderVista() {
@@ -2267,6 +2479,8 @@ async function construirVistaTodos() {
     base.descartado = descartadas.length > 0;
     base.descartado_por = descartadas.length ? descartadas[0].r.descartado_por || null : null;
     base.descartado_fecha = descartadas.length ? descartadas[0].r.descartado_fecha || null : null;
+    const conFuente = items.map(x => x.r).filter(r => r.fuente).sort((a, b) => String(a.fecha_captura || '').localeCompare(String(b.fecha_captura || '')))[0];
+    base.fuente = conFuente ? conFuente.fuente : null;
     const capturas = items.map(x => x.r.fecha_captura).filter(Boolean).sort();
     base.fecha_captura = capturas.length ? capturas[0] : base.fecha_captura;
     base.filtros_origen = [...new Set(items.map(x => x.nombre))];
@@ -2411,6 +2625,7 @@ document.getElementById('modal-revision-overlay').addEventListener('click', (e) 
 // y la campana se muestra rellena durante la primera semana. Solo cambios que el usuario note.
 const NOVEDADES = [
   { fecha: '2026-10-14', items: [
+    "<strong>Estadísticas renovadas.</strong> La pestaña ahora tiene cifras clave y gráficos de anillo: dónde está cada licitación en plazo (por filtro, sumando el total), qué hemos hecho con las vencidas y las que siguen en plazo, cuántas presentadas estaban revisadas, la cobertura de la revisión IA y los colores del semáforo. Además, licitaciones captadas por semana, marcas por persona, salud de las fuentes y un selector entre todo el histórico y los últimos 30 días.",
     "<strong>Presentado.</strong> Tercera casilla en la columna <em>Revisión</em>, que se rellena de verde con un check blanco: sirve para saber a qué licitaciones nos hemos presentado. Se aplica a todos los filtros y no afecta a las pestañas: la licitación sigue donde estaba.",
     "<strong>Revisado y Descartado.</strong> La columna <em>Revisión</em> tiene ahora dos casillas. <em>Descartado</em> quita la licitación de «Última lectura» y «En plazo» (solo se ve, atenuada, en «Todas», donde se puede volver a activar). Las dos marcas se aplican a todos los filtros en los que aparezca la licitación, y el check de Revisado ya se puede marcar también desde «Todos los filtros».",
     "<strong>Semáforo de solvencia.</strong> Las Revisiones IA nuevas colorean la celda del expediente: <em>verde</em> (podemos presentarnos), <em>naranja</em> (falta algo asumible, como un perfil subcontratable), <em>rojo</em> (no cumplimos) o <em>gris</em> (falta información para valorarlo). Al pasar el ratón por encima aparece una breve indicación con el motivo. Solo valora si nos podemos presentar, no el precio.",

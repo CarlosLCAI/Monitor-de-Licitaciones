@@ -427,6 +427,21 @@ def obtener_pcap(url, api_key=None, min_chars_por_pagina=100, max_chars_texto=35
     return "documento", base64.b64encode(contenido_bytes).decode("ascii")
 
 
+# Precios de ANTHROPIC_MODEL (Sonnet 5.5) en USD por millón de tokens, para estimar lo que cuesta
+# cada informe. Si se cambia de modelo o de precios, actualizarlos aquí.
+PRECIO_USD_M = {"entrada": 2.0, "salida": 10.0, "cache_leida": 0.20, "cache_escrita": 2.5}
+
+
+def estimar_coste_usd(uso):
+    total = (
+        (uso.get("input_tokens") or 0) * PRECIO_USD_M["entrada"]
+        + (uso.get("output_tokens") or 0) * PRECIO_USD_M["salida"]
+        + (uso.get("cache_read_input_tokens") or 0) * PRECIO_USD_M["cache_leida"]
+        + (uso.get("cache_creation_input_tokens") or 0) * PRECIO_USD_M["cache_escrita"]
+    ) / 1_000_000
+    return round(total, 4)
+
+
 # El informe termina con una línea "SEMAFORO: color | motivo" (ver PROMPT_SISTEMA_INFORME): se separa
 # del texto y se guarda aparte para que el visor pinte la celda del expediente. Tolera negritas,
 # viñetas o comillas que el modelo añada por su cuenta.
@@ -531,6 +546,15 @@ def generar_informe_licitacion_ia(perfil_empresa, pcap_tipo, pcap_contenido, tit
         if stop_reason == "max_tokens":
             texto += "\n\n" + MARCA_INFORME_CORTADO
         resultado = {"informe": texto}
+        # Consumo de la llamada principal (sin el localizador, que cuesta céntimos): permite al visor
+        # mostrar cuánto se gasta en revisiones, por persona y por mes.
+        resultado["uso"] = {
+            "entrada": uso.get("input_tokens"),
+            "salida": uso.get("output_tokens"),
+            "cache_leida": uso.get("cache_read_input_tokens"),
+            "cache_escrita": uso.get("cache_creation_input_tokens"),
+        }
+        resultado["coste_estimado_usd"] = estimar_coste_usd(uso)
         if semaforo:
             resultado["semaforo"] = semaforo
             resultado["semaforo_motivo"] = motivo
@@ -937,6 +961,7 @@ def leer_feed(nombre, url_inicial, contextos, limite_fecha, fecha_captura_hoy):
     pagina = 0
     entradas_leidas = 0
     versiones_vistas = set()
+    ultima_entrada = None  # fecha de la entrada más reciente del feed: sirve para detectar feeds congelados
 
     while url_actual and pagina < MAX_PAGINAS:
         pagina += 1
@@ -953,6 +978,8 @@ def leer_feed(nombre, url_inicial, contextos, limite_fecha, fecha_captura_hoy):
             if updated_el is None or not updated_el.text:
                 continue
             fecha_entry = datetime.fromisoformat(updated_el.text)
+            if ultima_entrada is None or fecha_entry > ultima_entrada:
+                ultima_entrada = fecha_entry
             if fecha_entry < limite_fecha:
                 parar = True
                 break
@@ -999,6 +1026,7 @@ def leer_feed(nombre, url_inicial, contextos, limite_fecha, fecha_captura_hoy):
                     and data["procedimiento_match"]
                     and data["importe_match"]
                     and data["folder_id"] not in ctx["ids_vistos"]):
+                    data["fuente"] = nombre  # feed del que sale (perfiles / agregadas / menores)
                     ctx["resultados"].append(data)
                     ctx["ids_vistos"].add(data["folder_id"])
 
@@ -1009,7 +1037,7 @@ def leer_feed(nombre, url_inicial, contextos, limite_fecha, fecha_captura_hoy):
         if url_actual:
             time.sleep(2)  # pausa entre páginas para no parecer scraping automático agresivo
 
-    return pagina, entradas_leidas
+    return pagina, entradas_leidas, (ultima_entrada.isoformat() if ultima_entrada else None)
 
 
 # Marcas que pone el equipo desde el visor: "revisado", "presentado" y "descartado". Valen para la licitación en
@@ -1079,18 +1107,22 @@ def main():
     pagina = 0
     total_entries_leidas = 0
     feeds_con_error = []
+    info_feeds = []  # por feed: páginas, entradas y fecha de su entrada más reciente (para el visor)
 
     for nombre_feed, url_feed, obligatorio in FEEDS:
         print(f"== Feed {nombre_feed}")
         try:
-            paginas_feed, entradas_feed = leer_feed(nombre_feed, url_feed, contextos, limite_fecha, fecha_captura_hoy)
+            paginas_feed, entradas_feed, ultima_entrada_feed = leer_feed(nombre_feed, url_feed, contextos, limite_fecha, fecha_captura_hoy)
         except Exception as e:
             if obligatorio:
                 raise
             print(f"Aviso: no se pudo leer el feed '{nombre_feed}' ({e}); se continúa con el resto.")
             feeds_con_error.append(f"{nombre_feed}: {e}")
+            info_feeds.append({"nombre": nombre_feed, "estado": "error", "error": str(e)[:200]})
             continue
-        print(f"   páginas: {paginas_feed}, entradas: {entradas_feed}")
+        print(f"   páginas: {paginas_feed}, entradas: {entradas_feed}, última entrada: {ultima_entrada_feed}")
+        info_feeds.append({"nombre": nombre_feed, "estado": "ok", "paginas": paginas_feed,
+                           "entradas": entradas_feed, "ultima_entrada": ultima_entrada_feed})
         pagina += paginas_feed
         total_entries_leidas += entradas_feed
 
@@ -1155,6 +1187,7 @@ def main():
             "total_entries_leidas": total_entries_leidas,
             "nuevas_filtradas": len(resultados),
             "total_entries_acumulado": total_entries_acumulado,
+            "feeds": info_feeds,
         }
         with open(ruta_filtro(desc, NOMBRE_ULTIMA_LECTURA), "w", encoding="utf-8") as f:
             json.dump(metadata_lectura, f, ensure_ascii=False, indent=2)
@@ -1228,7 +1261,7 @@ def _historicos_con_licitacion(folder_id):
     return encontrados
 
 
-def generar_revision_bajo_demanda(folder_id, salida, forzar=False):
+def generar_revision_bajo_demanda(folder_id, salida, forzar=False, solicitante=None):
     """Genera (o reutiliza, si ya existe uno válido) el informe IA de una licitación y lo deja en
     un archivo temporal. Separado de aplicar_revision_bajo_demanda para que, si el push falla
     porque otro proceso escribió antes, se pueda reaplicar sin volver a pagar la llamada a la IA."""
@@ -1255,6 +1288,8 @@ def generar_revision_bajo_demanda(folder_id, salida, forzar=False):
             base = next((r for r in registros if r.get("pcap_url")), registros[0])
             resultado = analizar_licitacion_ia(base, perfil_empresa)
         print(f"Informe de {folder_id}: {len(resultado['informe'])} caracteres")
+        if solicitante:
+            resultado["solicitada_por"] = solicitante[:60]
 
         # Al regenerar a la fuerza, un fallo (clave caducada, PCAP no descargable...) no debe
         # machacar un informe que ya era válido, aunque fuera incompleto.
@@ -1291,10 +1326,11 @@ if __name__ == "__main__":
     parser.add_argument("--salida", help="archivo donde dejar el informe generado")
     parser.add_argument("--entrada", help="archivo con el informe a guardar")
     parser.add_argument("--forzar", action="store_true", help="regenera aunque ya exista un informe válido")
+    parser.add_argument("--solicitante", default=None, help="nombre de quien pide la revisión (se guarda en el informe)")
     args = parser.parse_args()
 
     if args.generar_revision:
-        generar_revision_bajo_demanda(args.generar_revision, args.salida, args.forzar)
+        generar_revision_bajo_demanda(args.generar_revision, args.salida, args.forzar, args.solicitante)
     elif args.aplicar_revision:
         aplicar_revision_bajo_demanda(args.aplicar_revision, args.entrada)
     else:

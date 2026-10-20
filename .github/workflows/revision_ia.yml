@@ -9,6 +9,11 @@ on:
         description: "Expediente (folder_id) de la licitación a analizar"
         required: true
         type: string
+      solicitante:
+        description: "Nombre de quien pide la revisión (lo rellena el visor; opcional)"
+        required: false
+        default: ""
+        type: string
       forzar:
         description: "Regenerar aunque ya exista un informe válido (solo al lanzarlo a mano desde Actions)"
         required: false
@@ -40,10 +45,11 @@ jobs:
           SOLVENCIA_EMPRESA: ${{ secrets.SOLVENCIA_EMPRESA }}
           FOLDER_ID: ${{ inputs.folder_id }}
           FORZAR: ${{ inputs.forzar }}
+          SOLICITANTE: ${{ inputs.solicitante }}
         run: |
           OPCIONES=""
           if [ "$FORZAR" = "true" ]; then OPCIONES="--forzar"; fi
-          python fetch_licitaciones.py --generar-revision "$FOLDER_ID" --salida "$RUNNER_TEMP/revision.json" $OPCIONES
+          python fetch_licitaciones.py --generar-revision "$FOLDER_ID" --salida "$RUNNER_TEMP/revision.json" --solicitante "$SOLICITANTE" $OPCIONES
 
       # El informe ya está generado; si el push falla porque otro proceso (el monitor diario, una
       # revisión marcada desde el visor...) escribió antes, se reaplica sobre la última versión del
