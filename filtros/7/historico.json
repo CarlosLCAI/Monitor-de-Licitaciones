@@ -1469,9 +1469,9 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-10-19",
-    "presentado": true,
-    "presentado_fecha": "2026-10-20T16:19:52.135Z",
-    "presentado_por": "CarlosLCAI"
+    "presentado": false,
+    "presentado_fecha": null,
+    "presentado_por": null
   },
   {
     "folder_id": "33/SE/A/AL26",
