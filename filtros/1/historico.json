@@ -2047,13 +2047,16 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=lhwsAJXMAzjBwiDZNiVnUU1Xd2VaIrqhQZZsxdVlFsHFCNmin2x7L3siKb1KSqw8d8oHsZ17rqxmNGJByVsYk8NGbDfJ7FZwlqOtA2ubavr3GVhXrFFqN7yFncy7YfRK",
     "organo": "Alcaldía del Ayuntamiento de Los Barrios (Cádiz)",
     "importe": "35700",
-    "importe_num": 35700.0,
+    "importe_num": 35700,
     "fecha_limite": "2026-10-30",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-15"
+    "fecha_captura": "2026-10-15",
+    "revisado_humano": true,
+    "revisado_fecha": "2026-10-20T09:52:09.348Z",
+    "revisado_por": "Belén Fernández"
   }
 ]
