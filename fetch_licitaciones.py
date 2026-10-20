@@ -1012,12 +1012,13 @@ def leer_feed(nombre, url_inicial, contextos, limite_fecha, fecha_captura_hoy):
     return pagina, entradas_leidas
 
 
-# Marcas que pone el equipo desde el visor: "revisado" y "descartado". Valen para la licitación en
+# Marcas que pone el equipo desde el visor: "revisado", "presentado" y "descartado". Valen para la licitación en
 # todos los filtros donde aparece; el visor las escribe en todos, y aquí se deja igual lo que haya
 # quedado desigual (datos anteriores, un guardado a medias) y las licitaciones que entran nuevas
 # en otro filtro heredan la marca. Si hay varias, manda la más reciente.
 CAMPOS_MARCA_REVISION = (
     ("revisado_humano", "revisado_fecha", "revisado_por"),
+    ("presentado", "presentado_fecha", "presentado_por"),
     ("descartado", "descartado_fecha", "descartado_por"),
 )
 

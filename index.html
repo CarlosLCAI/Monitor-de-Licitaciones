@@ -28,6 +28,7 @@
     --on-teal: #fff; /* letra sobre fondo turquesa */
     --etiqueta-suave: #9AA0A5;
     --descarte: #D64550; /* rojo de la casilla Descartado */
+    --presentado: #2E9E6A; /* verde de la casilla Presentado */
     --borde-casilla: #8A9096;
     /* Semáforo de la revisión IA: tonos pastel de poco contraste */
     --sem-verde: #DCEEE2;
@@ -53,6 +54,7 @@
     --on-teal: #E1E6E6;
     --etiqueta-suave: #8B9196;
     --descarte: #E0565F;
+    --presentado: #3BAE79;
     --borde-casilla: #7C8288;
     --sem-verde: #2B3F34;
     --sem-naranja: #4A3C2B;
@@ -207,6 +209,16 @@
     border-color: var(--descarte);
   }
   button.marca-por[data-tipo="descartado"] { background: var(--descarte); }
+  /* Presentado: recuadro que al marcarse se rellena de verde con un check blanco */
+  .check-marca[data-tipo="presentado"] {
+    -webkit-appearance: none; appearance: none;
+    border: 1.5px solid var(--borde-casilla); border-radius: 3px; background-color: var(--surface);
+  }
+  .check-marca[data-tipo="presentado"]:checked {
+    background: var(--presentado) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M2 5.3l2.2 2.2L8 3.2' fill='none' stroke='white' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / 11px 11px no-repeat;
+    border-color: var(--presentado);
+  }
+  button.marca-por[data-tipo="presentado"] { background: var(--presentado); }
   /* Licitación descartada: solo se ve en "Todas", atenuada */
   tr.descartada td:not(:last-child) { opacity: 0.5; }
   tr.descartada:hover td:not(:last-child) { opacity: 0.85; }
@@ -800,7 +812,7 @@
 
             <h4>Ordenar las columnas</h4>
             <ul>
-              <li>Pulsa el encabezado de una columna (Exp, Título, Órgano, Importe, Estado, fechas o Revisión) para ordenar por ella. Si vuelves a pulsarla, se invierte el orden. En Revisión el orden es: sin revisar, revisadas y descartadas. Por defecto salen primero las más recientes.</li>
+              <li>Pulsa el encabezado de una columna (Exp, Título, Órgano, Importe, Estado, fechas o Revisión) para ordenar por ella. Si vuelves a pulsarla, se invierte el orden. En Revisión el orden es: sin tratar, revisadas, presentadas y descartadas. Por defecto salen primero las más recientes.</li>
             </ul>
 
             <h4>Documentos</h4>
@@ -812,7 +824,8 @@
             <ul>
               <li><strong>Solicitar Revisión IA:</strong> la revisión no se genera sola, se pide en la licitación que interese. En unos minutos el enlace pasa a <strong>Revisión IA</strong> en negrita; al abrirlo se ve el informe, que se puede compartir con el botón <em>Compartir</em> (copiar, PDF o HTML). Cada revisión tiene un pequeño coste.</li>
               <li><strong>Revisado:</strong> marca que alguien del equipo ya ha mirado esa licitación. Si lo marca otra persona con su nombre configurado, en lugar del check aparece su inicial (al pulsarla se desmarca). Vale para todos los filtros en los que aparezca la licitación y se puede marcar también desde <em>Todos los filtros</em>.</li>
-              <li><strong>Descartado:</strong> marca las licitaciones que no interesan. Al descartarla desaparece de <em>Última lectura</em> y de <em>En plazo</em> y solo se ve en <em>Todas</em>, atenuada. Desde ahí puedes desmarcarla si cambias de idea. Igual que Revisado, se aplica a todos los filtros y se ve con la inicial de quien la descartó. Son dos marcas independientes: descartar no marca revisado, ni al revés.</li>
+              <li><strong>Presentado:</strong> marca (en verde) las licitaciones a las que nos hemos presentado, para poder seguirlas después. Se aplica a todos los filtros y la licitación sigue en su pestaña.</li>
+              <li><strong>Descartado:</strong> marca las licitaciones que no interesan. Al descartarla desaparece de <em>Última lectura</em> y de <em>En plazo</em> y solo se ve en <em>Todas</em>, atenuada. Desde ahí puedes desmarcarla si cambias de idea. Igual que Revisado, se aplica a todos los filtros y se ve con la inicial de quien la descartó. Son marcas independientes: ninguna activa o desactiva las otras.</li>
             </ul>
 
             <h4>Semáforo de solvencia (color de la celda del expediente)</h4>
@@ -1407,7 +1420,7 @@ function bloqueMarca(r, tipo) {
   } else {
     const titulo = marcado
       ? ETIQUETAS_MARCA[tipo] + (fecha ? ' el ' + formatearFecha(fecha) : '')
-      : (tipo === 'revisado' ? 'Marcar como revisado' : 'Descartar: sale de «Última lectura» y «En plazo» y solo se ve en «Todas»');
+      : TEXTO_MARCAR[tipo];
     control = '<input type="checkbox" class="check-marca" data-folder-id="' + id + '" data-tipo="' + tipo +
       '" title="' + escapeHtml(titulo) + '"' + (marcado ? ' checked' : '') + '>';
   }
@@ -1415,7 +1428,7 @@ function bloqueMarca(r, tipo) {
 }
 
 function celdaRevision(r) {
-  return '<td>' + bloqueMarca(r, 'revisado') + bloqueMarca(r, 'descartado') + '</td>';
+  return '<td>' + bloqueMarca(r, 'revisado') + bloqueMarca(r, 'presentado') + bloqueMarca(r, 'descartado') + '</td>';
 }
 
 // Las licitaciones de la Junta traen una descripción que explica el objeto mejor que su título
@@ -1623,9 +1636,10 @@ function aplicarFiltros() {
       va = parseFloat(va) || 0;
       vb = parseFloat(vb) || 0;
     }
-    if (ordenColumna === 'revision') { // sin revisar < revisado < descartado
-      va = a.descartado ? 2 : (a.revisado_humano ? 1 : 0);
-      vb = b.descartado ? 2 : (b.revisado_humano ? 1 : 0);
+    if (ordenColumna === 'revision') { // sin tratar < revisado < presentado < descartado
+      const rango = r => r.descartado ? 3 : (r.presentado ? 2 : (r.revisado_humano ? 1 : 0));
+      va = rango(a);
+      vb = rango(b);
     }
     if (va < vb) return ordenAsc ? -1 : 1;
     if (va > vb) return ordenAsc ? 1 : -1;
@@ -1654,6 +1668,7 @@ function renderEstadisticas() {
   const enPlazo = datos.filter(d => !d.descartado && esVigente(d)).length;
   const vencidas = datos.filter(d => !esVigente(d)).length;
   const descartadas = datos.filter(d => d.descartado).length;
+  const presentadas = datos.filter(d => d.presentado).length;
 
   const porEstado = {};
   datos.forEach(d => {
@@ -1694,6 +1709,7 @@ function renderEstadisticas() {
     statTile('En plazo ahora mismo', enPlazo) +
     statTile('Plazo vencido', vencidas) +
     statTile('Revisadas por el equipo', revisadas + ' / ' + total + ' (' + pctRevisadas + '%)') +
+    statTile('Presentadas', presentadas + ' / ' + total) +
     statTile('Descartadas', descartadas + ' / ' + total) +
     statTile('Informes IA generados', conInformeIA + ' / ' + total) +
     '</div>';
@@ -1983,9 +1999,16 @@ function base64ToUtf8(b64) {
 // filtros donde aparece. Los campos viven en cada registro del histórico de cada filtro.
 const CAMPOS_MARCA = {
   revisado: { valor: 'revisado_humano', fecha: 'revisado_fecha', por: 'revisado_por' },
+  presentado: { valor: 'presentado', fecha: 'presentado_fecha', por: 'presentado_por' },
   descartado: { valor: 'descartado', fecha: 'descartado_fecha', por: 'descartado_por' },
 };
-const ETIQUETAS_MARCA = { revisado: 'Revisado', descartado: 'Descartado' };
+const ETIQUETAS_MARCA = { revisado: 'Revisado', presentado: 'Presentado', descartado: 'Descartado' };
+const TEXTO_MARCAR = {
+  revisado: 'Marcar como revisado',
+  presentado: 'Marcar como presentado: nos hemos presentado a esta licitación',
+  descartado: 'Descartar: sale de «Última lectura» y «En plazo» y solo se ve en «Todas»',
+};
+const TEXTO_GUARDADO = { revisado: 'revisión humana', presentado: 'presentación', descartado: 'descarte' };
 
 async function guardarCamposEnFiltro(filtroId, folderId, campos, mensaje, intentosMax = 3) {
   const token = obtenerTokenGuardado();
@@ -2079,7 +2102,7 @@ async function guardarMarca(folderId, tipo, valor) {
   const por = valor ? await obtenerNombreRevisor(token).catch(() => null) : null;
   const fecha = valor ? new Date().toISOString() : null;
   const campos = { [c.valor]: valor, [c.fecha]: fecha, [c.por]: por };
-  const mensaje = `${valor ? 'Marca' : 'Desmarca'} ${tipo === 'revisado' ? 'revisión humana' : 'descarte'} de ${folderId}`;
+  const mensaje = `${valor ? 'Marca' : 'Desmarca'} ${TEXTO_GUARDADO[tipo]} de ${folderId}`;
 
   const errores = [];
   for (const f of objetivos) {
@@ -2388,6 +2411,7 @@ document.getElementById('modal-revision-overlay').addEventListener('click', (e) 
 // y la campana se muestra rellena durante la primera semana. Solo cambios que el usuario note.
 const NOVEDADES = [
   { fecha: '2026-10-14', items: [
+    "<strong>Presentado.</strong> Tercera casilla en la columna <em>Revisión</em>, que se rellena de verde con un check blanco: sirve para saber a qué licitaciones nos hemos presentado. Se aplica a todos los filtros y no afecta a las pestañas: la licitación sigue donde estaba.",
     "<strong>Revisado y Descartado.</strong> La columna <em>Revisión</em> tiene ahora dos casillas. <em>Descartado</em> quita la licitación de «Última lectura» y «En plazo» (solo se ve, atenuada, en «Todas», donde se puede volver a activar). Las dos marcas se aplican a todos los filtros en los que aparezca la licitación, y el check de Revisado ya se puede marcar también desde «Todos los filtros».",
     "<strong>Semáforo de solvencia.</strong> Las Revisiones IA nuevas colorean la celda del expediente: <em>verde</em> (podemos presentarnos), <em>naranja</em> (falta algo asumible, como un perfil subcontratable), <em>rojo</em> (no cumplimos) o <em>gris</em> (falta información para valorarlo). Al pasar el ratón por encima aparece una breve indicación con el motivo. Solo valora si nos podemos presentar, no el precio.",
     "<strong>Buscador en la fila de pestañas.</strong> Ahora está a la derecha de las pestañas y busca siempre entre todas las licitaciones, sea cual sea su estado; se ha quitado el desplegable de estados.",
