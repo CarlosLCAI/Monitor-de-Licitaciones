@@ -3417,7 +3417,10 @@
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-15"
+    "fecha_captura": "2026-10-15",
+    "revisado_humano": true,
+    "revisado_fecha": "2026-10-20T09:52:09.348Z",
+    "revisado_por": "Belén Fernández"
   },
   {
     "folder_id": "3.26/23108.0118",
