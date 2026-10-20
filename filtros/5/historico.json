@@ -825,9 +825,9 @@
       "fecha_analisis": "2026-09-29T10:03:24.445948+00:00"
     },
     "fecha_captura": "2026-09-29",
-    "revisado_humano": true,
-    "revisado_fecha": "2026-10-20T09:50:35.190Z",
-    "revisado_por": "Belén Fernández"
+    "revisado_humano": false,
+    "revisado_fecha": null,
+    "revisado_por": null
   },
   {
     "folder_id": "2026-48",
