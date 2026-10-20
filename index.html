@@ -789,7 +789,7 @@
               <li><strong>Última lectura:</strong> las licitaciones nuevas que ha encontrado el monitor en su última ejecución (se lanza cada madrugada). Es lo primero que conviene mirar cada día.</li>
               <li><strong>En plazo:</strong> las licitaciones a las que todavía se puede presentar oferta, es decir, cuya fecha límite no ha vencido, da igual cuándo se captaron. No incluye las descartadas.</li>
               <li><strong>Todas:</strong> el histórico completo de todo lo que ha captado el filtro seleccionado, también lo que ya venció y las descartadas (atenuadas).</li>
-              <li><strong>Estadísticas:</strong> cifras clave y gráficos de anillo. Muestran dónde está cada licitación en plazo (por filtro, sumando el total de «Todos los filtros»), qué se ha hecho con las vencidas y con las que siguen en plazo (sin tratar, revisadas, presentadas, descartadas), cuántas presentadas estaban revisadas, cuántas tienen revisión IA y de qué color es su semáforo. Abajo: captadas por semana, marcas por persona, coste de las revisiones IA, salud de las fuentes y datos de la última lectura. Arriba a la derecha se elige entre todo el histórico y los últimos 30 días.</li>
+              <li><strong>Estadísticas:</strong> cifras clave y gráficos de anillo. Muestran dónde está cada licitación en plazo (por filtro, sumando el total de «Todos los filtros»), qué se ha hecho con las vencidas y con las que siguen en plazo (sin tratar, revisadas, presentadas, descartadas), cuántas presentadas estaban revisadas, cuántas tienen revisión IA y de qué color es su semáforo. Abajo: captadas por semana, marcas por persona, coste de las revisiones IA, salud de las fuentes y datos de la última lectura, y al final la historia del monitor (desde cuándo funciona, lecturas y versiones, y un resumen de todo lo captado). Arriba a la derecha se elige entre todo el histórico y los últimos 30 días.</li>
             </ul>
 
             <h4>Los filtros</h4>
@@ -1834,6 +1834,135 @@ function tarjetaUltimaLectura() {
     fila('Entradas leídas (acumulado)', acumuladas != null ? numES(acumuladas) : '—') + '</table></div>';
 }
 
+// --- Historia del monitor -------------------------------------------------------------------------
+// Parte de los datos del visor (todo el histórico de la vista actual) y parte de la API pública de
+// GitHub (ejecuciones del monitor y versiones del código), que se guarda 12 h en este navegador para
+// no gastar el límite de peticiones. Si GitHub no responde, esas filas dicen "no disponible".
+const HISTORIA_API_KEY = 'monitorLicitaciones.historiaApi';
+const HISTORIA_API_TTL_MS = 12 * 3600 * 1000;
+
+function fechaCompleta(iso) {
+  const d = new Date(iso);
+  return isNaN(d) ? '—' : d.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+}
+
+function formatoDinero(n) {
+  if (n >= 1e6) return (n / 1e6).toLocaleString('es-ES', { maximumFractionDigits: 1 }) + ' M€';
+  return numES(Math.round(n)) + ' €';
+}
+
+async function obtenerHistoriaApi() {
+  try {
+    const guardada = JSON.parse(localStorage.getItem(HISTORIA_API_KEY));
+    if (guardada && Date.now() - guardada.t < HISTORIA_API_TTL_MS) return guardada.d;
+  } catch (e) { /* sin caché */ }
+
+  const token = obtenerTokenGuardado();
+  const cabeceras = { Accept: 'application/vnd.github+json' };
+  if (token) cabeceras.Authorization = 'token ' + token;
+  const repo = 'https://api.github.com/repos/' + GH_OWNER + '/' + GH_REPO;
+  const pedir = async url => {
+    const r = await fetch(url, { headers: cabeceras });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r;
+  };
+  // Nº de elementos = número de la última página con per_page=1; la primera subida es esa misma página.
+  const contarCommits = async ruta => {
+    const r = await pedir(repo + '/commits?path=' + ruta + '&per_page=1');
+    const m = (r.headers.get('Link') || '').match(/[?&]page=(\d+)>; rel="last"/);
+    const n = m ? Number(m[1]) : (await r.json()).length;
+    const primero = (await (await pedir(repo + '/commits?path=' + ruta + '&per_page=1&page=' + n)).json())[0];
+    return { n, primera: primero && primero.commit.committer.date };
+  };
+  const flujo = 'monitor_licitaciones.yml';
+  const [script, visor, todas, exitosas, revisiones] = await Promise.all([
+    contarCommits('fetch_licitaciones.py'),
+    contarCommits('index.html'),
+    pedir(repo + '/actions/workflows/' + flujo + '/runs?per_page=1').then(r => r.json()),
+    pedir(repo + '/actions/workflows/' + flujo + '/runs?per_page=1&status=success').then(r => r.json()),
+    pedir(repo + '/actions/workflows/revision_ia.yml/runs?per_page=1&status=success').then(r => r.json()),
+  ]);
+  const primeraEjecucion = (await (await pedir(repo + '/actions/workflows/' + flujo + '/runs?per_page=1&page=' + todas.total_count)).json()).workflow_runs[0];
+  const d = {
+    script, visor,
+    ejecuciones: todas.total_count, lecturas: exitosas.total_count,
+    primeraEjecucion: primeraEjecucion && primeraEjecucion.created_at,
+    revisionesIA: revisiones.total_count,
+  };
+  try { localStorage.setItem(HISTORIA_API_KEY, JSON.stringify({ t: Date.now(), d })); } catch (e) { /* sin caché */ }
+  return d;
+}
+
+function tarjetasHistoria(lista) {
+  const caps = lista.map(d => d.fecha_captura).filter(Boolean).sort();
+  const fila = (a, b) => '<tr><td>' + a + '</td><td class="mono" style="text-align:right">' + b + '</td></tr>';
+  const api = k => '<span data-hist="' + k + '">…</span>';
+  const acumuladas = metaLectura && (metaLectura.total_entries_acumulado != null ? metaLectura.total_entries_acumulado : metaLectura.total_entries_leidas);
+
+  let a = '<div class="st-card"><h4>El monitor en cifras</h4><table class="st-tabla">';
+  a += fila('En marcha desde', api('enmarcha'));
+  if (caps.length) {
+    const primera = caps[0];
+    a += fila('Primera lectura con resultados', fechaCompleta(primera + 'T12:00:00') + ' · ' + numES(caps.filter(x => x === primera).length) + ' licitaciones');
+  }
+  a += fila('Lecturas completadas', api('lecturas'));
+  a += fila('Versiones del script del monitor', api('script'));
+  a += fila('Versiones del visor', api('visor'));
+  a += fila('Revisiones IA pedidas (ejecuciones)', api('ia'));
+  if (acumuladas != null) {
+    a += fila('Entradas leídas en total', numES(acumuladas));
+    if (lista.length) a += fila('Entradas leídas por cada licitación captada', numES(Math.round(acumuladas / lista.length)));
+  }
+  a += '</table><p class="st-nota">Versión = cada cambio guardado en GitHub que toca ese archivo. Lecturas = ejecuciones del monitor terminadas con éxito.</p></div>';
+
+  let b = '<div class="st-card"><h4>Lo captado desde el inicio</h4>';
+  if (!lista.length) return a + b + '<p class="st-vacio">Aún no hay datos.</p></div>';
+  const porDia = new Map();
+  for (const c of caps) porDia.set(c, (porDia.get(c) || 0) + 1);
+  const record = [...porDia.entries()].sort((x, y) => y[1] - x[1])[0];
+  const importes = lista.map(d => parseFloat(d.importe)).filter(n => !isNaN(n) && n > 0).sort((x, y) => x - y);
+  const mediana = importes.length ? importes[Math.floor(importes.length / 2)] : null;
+  const mayor = lista.filter(d => parseFloat(d.importe) > 0).sort((x, y) => parseFloat(y.importe) - parseFloat(x.importe))[0];
+  const organos = new Map();
+  for (const d of lista) { const o = (d.organo || '').trim(); if (o) organos.set(o, (organos.get(o) || 0) + 1); }
+  const topOrganos = [...organos.entries()].sort((x, y) => y[1] - x[1]).slice(0, 5);
+  const diasTotales = caps.length ? Math.max(1, Math.round((new Date(caps[caps.length - 1]) - new Date(caps[0])) / 86400000) + 1) : 1;
+
+  b += '<table class="st-tabla">';
+  b += fila('Licitaciones captadas', numES(lista.length));
+  b += fila('Días con capturas', numES(porDia.size) + ' de ' + numES(diasTotales));
+  b += fila('Media por día con capturas', (lista.length / porDia.size).toLocaleString('es-ES', { maximumFractionDigits: 1 }));
+  b += fila('Día con más capturas', record ? fechaCompleta(record[0] + 'T12:00:00') + ' · ' + record[1] : '—');
+  if (mediana !== null) b += fila('Importe mediano', formatoDinero(mediana));
+  if (mayor) b += fila('La mayor', '<span title="' + escapeHtml(mayor.organo || '') + '">' + formatoDinero(parseFloat(mayor.importe)) + '</span>');
+  b += fila('Con ampliación de plazo', numES(lista.filter(d => d.fecha_limite_cambiada_el).length));
+  b += fila('Con cambio de estado', numES(lista.filter(d => d.estado_cambiado_el).length));
+  b += '</table>';
+  if (topOrganos.length) {
+    b += '<h4 style="margin:12px 0 4px">Órganos que más repiten</h4><table class="st-tabla">' +
+      topOrganos.map(([o, n]) => '<tr><td style="max-width:230px">' + escapeHtml(o) + '</td><td class="mono" style="text-align:right">' + n + '</td></tr>').join('') + '</table>';
+  }
+  return a + b + '<p class="st-nota">Importe mediano en vez de media: una sola licitación enorme descuadraría la media.</p></div>';
+}
+
+async function completarHistoriaApi() {
+  const poner = (k, txt) => document.querySelectorAll('[data-hist="' + k + '"]').forEach(e => { e.textContent = txt; });
+  try {
+    const h = await obtenerHistoriaApi();
+    const versiones = v => numES(v.n) + (v.primera ? ' · la primera, el ' + new Date(v.primera).toLocaleDateString('es-ES', { day: 'numeric', month: 'long' }) : '');
+    if (h.primeraEjecucion) {
+      const dias = Math.max(0, Math.floor((Date.now() - new Date(h.primeraEjecucion)) / 86400000));
+      poner('enmarcha', fechaCompleta(h.primeraEjecucion) + ' · hace ' + numES(dias) + ' días');
+    } else poner('enmarcha', 'no disponible');
+    poner('lecturas', numES(h.lecturas) + ' de ' + numES(h.ejecuciones) + ' ejecuciones');
+    poner('script', versiones(h.script));
+    poner('visor', versiones(h.visor));
+    poner('ia', numES(h.revisionesIA));
+  } catch (e) {
+    ['enmarcha', 'lecturas', 'script', 'visor', 'ia'].forEach(k => poner(k, 'no disponible ahora'));
+  }
+}
+
 function renderEstadisticas() {
   const cont = document.getElementById('contenido');
   document.getElementById('total-count').textContent = '—';
@@ -1926,9 +2055,12 @@ function renderEstadisticas() {
     (hayFuente
       ? tarjetaDonut('De qué feed salen las licitaciones', itemsFeed, 'licitaciones', 'Las anteriores al 20/10 quedan como «origen sin determinar»: antes no se guardaba.')
       : '<div class="st-card"><h4>De qué feed salen las licitaciones</h4><p class="st-vacio">Se mostrará desde la próxima lectura del monitor: antes no se guardaba el feed de origen.</p></div>') +
-    '</div></div>';
+    '</div>' +
+    '<h3 class="stats-section-title">Historia del monitor</h3><div class="st-grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr))">' +
+    tarjetasHistoria(datos) + '</div></div>';
 
   cont.innerHTML = html;
+  completarHistoriaApi();
   cont.querySelectorAll('[data-periodo]').forEach(b => b.addEventListener('click', () => {
     periodoStats = b.dataset.periodo;
     renderEstadisticas();
@@ -2624,9 +2756,12 @@ document.getElementById('modal-revision-overlay').addEventListener('click', (e) 
 // de frases con HTML sencillo): la ventana se abre sola la primera vez que se entra desde esa fecha
 // y la campana se muestra rellena durante la primera semana. Solo cambios que el usuario note.
 const NOVEDADES = [
-  { fecha: '2026-10-14', items: [
+  { fecha: '2026-10-20', items: [
+    "<strong>Historia del monitor.</strong> Al final de Estadísticas hay una sección nueva: desde cuándo funciona el monitor, cuántas lecturas y versiones lleva, la primera lectura, cuánto se ha leído y captado, el día con más capturas, importes, ampliaciones de plazo y los órganos que más repiten.",
     "<strong>Estadísticas renovadas.</strong> La pestaña ahora tiene cifras clave y gráficos de anillo: dónde está cada licitación en plazo (por filtro, sumando el total), qué hemos hecho con las vencidas y las que siguen en plazo, cuántas presentadas estaban revisadas, la cobertura de la revisión IA y los colores del semáforo. Además, licitaciones captadas por semana, marcas por persona, salud de las fuentes y un selector entre todo el histórico y los últimos 30 días.",
     "<strong>Presentado.</strong> Tercera casilla en la columna <em>Revisión</em>, que se rellena de verde con un check blanco: sirve para saber a qué licitaciones nos hemos presentado. Se aplica a todos los filtros y no afecta a las pestañas: la licitación sigue donde estaba.",
+  ] },
+  { fecha: '2026-10-14', items: [
     "<strong>Revisado y Descartado.</strong> La columna <em>Revisión</em> tiene ahora dos casillas. <em>Descartado</em> quita la licitación de «Última lectura» y «En plazo» (solo se ve, atenuada, en «Todas», donde se puede volver a activar). Las dos marcas se aplican a todos los filtros en los que aparezca la licitación, y el check de Revisado ya se puede marcar también desde «Todos los filtros».",
     "<strong>Semáforo de solvencia.</strong> Las Revisiones IA nuevas colorean la celda del expediente: <em>verde</em> (podemos presentarnos), <em>naranja</em> (falta algo asumible, como un perfil subcontratable), <em>rojo</em> (no cumplimos) o <em>gris</em> (falta información para valorarlo). Al pasar el ratón por encima aparece una breve indicación con el motivo. Solo valora si nos podemos presentar, no el precio.",
     "<strong>Buscador en la fila de pestañas.</strong> Ahora está a la derecha de las pestañas y busca siempre entre todas las licitaciones, sea cual sea su estado; se ha quitado el desplegable de estados.",
