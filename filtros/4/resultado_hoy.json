@@ -1,28 +1,33 @@
 [
   {
-    "folder_id": "35584/26",
+    "folder_id": "CONTR 2026 0000105137",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicio de Dirección de Ejecución de Obra y emisión de informe favorable para la aprobación del Plan, Control y Seguimiento de la Seguridad y Salud de las obras de construcción de nuevo edificio del Instituto de Astrofísica de Andalucía",
-    "updated": "2026-10-19T14:07:15.119+02:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=wmBuLIRh5kSdkQsA7ROvsg%3D%3D",
+    "titulo": "dir. obra y coord. seguridad y salud proyecto vertidos obra edar de posadas",
+    "updated": "2026-10-19T14:42:13.504+02:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1019853",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
       "71000000",
-      "71317210",
-      "71247000"
+      "71520000",
+      "71310000",
+      "90492000",
+      "71317210"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YoqQ9U4dHpLyKc39OPr%2BDOQhih3jcbdTG8J7O15/nopa2dXmklz9QmAqAwkNu6GSpAMiO6ku5dL/pd1AJDIYh67eIxZGDPJZh6atPG5pRKK1aXEvq3KHa/AEHgtDrQw0",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=XacZPtfYwu43vV3ab7yzXhEWZQQKao%2BisnfRhEsDVktltGlNy6N9PR4ypFs9zxC1rSorSZBIOjMfeSmJTXBWmlVzxbvOQXhiH2EgZVvYEJHVTD3T98KC0nSgQFM0q%2B5s",
-    "organo": "Secretaría General de la Agencia Estatal Consejo Superior de Investigaciones Científicas",
-    "importe": "40500",
-    "importe_num": 40500.0,
-    "fecha_limite": "2026-11-09",
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/435507",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/435506",
+    "organo": "Consejería de Agricultura, Pesca, Agua y Desarrollo Rural. D.G. de Infraestructuras del Agua (En Transición)",
+    "importe": "314530.71",
+    "importe_num": 377436.85,
+    "fecha_limite": "2026-12-09",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
-    "procedimiento": "9",
+    "procedimiento": "1",
     "procedimiento_match": true,
-    "importe_match": true
+    "importe_match": true,
+    "fuente": "agregadas",
+    "descripcion": "DIRECCIÓN DE OBRA Y COORDINACIÓN DE SEGURIDAD Y SALUD DE PROYECTO Y OBRA AGRUPACIÓN DE VERTIDOS Y PROYECTO BÁSICO DE LA EDAR DE POSADAS",
+    "junta_consultado": "2026-10-20"
   }
 ]

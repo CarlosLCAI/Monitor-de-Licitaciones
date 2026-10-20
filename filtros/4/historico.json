@@ -954,7 +954,7 @@
   },
   {
     "folder_id": "55/2026",
-    "estado": "EV",
+    "estado": "RES",
     "titulo": "Servicio asistencia técnica destinado a disponer de un equipo técnico cualificado para redacción de Proyectos Básicos y de Ejecución, elaboración de Estudios Básicos de Seguridad y Salud, y realización de los trabajos, correspondientes a actuaciones de mejora de accesibilidad e instalación de ascensores en edificios residenciales de vivienda colectiva beneficiarios ayudas Municipal 2024.",
     "updated": "2026-08-24T12:35:29.309+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VVaCe715rqCAAM7L03kM8A%3D%3D",
@@ -979,10 +979,10 @@
       "fecha_analisis": "2026-08-25T03:56:07.237398+00:00"
     },
     "fecha_captura": "2026-08-25",
-    "estado_anterior": "RES",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-15",
-    "estado_updated": "2026-10-14T10:35:32.168+02:00",
+    "estado_anterior": "EV",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-10-20",
+    "estado_updated": "2026-10-19T10:28:46.658+02:00",
     "fecha_limite_anterior": "2026-07-23",
     "fecha_limite_cambiada_el": "2026-10-09"
   },
@@ -3626,5 +3626,37 @@
     "presentado": false,
     "presentado_fecha": null,
     "presentado_por": null
+  },
+  {
+    "folder_id": "CONTR 2026 0000105137",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "dir. obra y coord. seguridad y salud proyecto vertidos obra edar de posadas",
+    "updated": "2026-10-19T14:42:13.504+02:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1019853",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000",
+      "71520000",
+      "71310000",
+      "90492000",
+      "71317210"
+    ],
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/435507",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/435506",
+    "organo": "Consejería de Agricultura, Pesca, Agua y Desarrollo Rural. D.G. de Infraestructuras del Agua (En Transición)",
+    "importe": "314530.71",
+    "importe_num": 377436.85,
+    "fecha_limite": "2026-12-09",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas",
+    "descripcion": "DIRECCIÓN DE OBRA Y COORDINACIÓN DE SEGURIDAD Y SALUD DE PROYECTO Y OBRA AGRUPACIÓN DE VERTIDOS Y PROYECTO BÁSICO DE LA EDAR DE POSADAS",
+    "junta_consultado": "2026-10-20",
+    "fecha_captura": "2026-10-20"
   }
 ]

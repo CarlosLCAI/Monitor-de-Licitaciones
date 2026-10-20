@@ -938,7 +938,7 @@
   },
   {
     "folder_id": "1549/2026",
-    "estado": "PUB",
+    "estado": "RES",
     "titulo": "Servicio de recogida, transporte y tratamiento de residuos de construcción y demolición en el TM de El Ejido",
     "updated": "2026-09-29T10:53:54.752+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ut4aSh0daHhVYjgxA4nMUw%3D%3D",
@@ -966,7 +966,10 @@
     "fecha_captura": "2026-09-30",
     "fecha_limite_anterior": "2026-11-03",
     "fecha_limite_cambiada_el": "2026-10-10",
-    "estado_updated": "2026-10-09T14:47:44.819+02:00"
+    "estado_updated": "2026-10-19T14:56:33.130+02:00",
+    "estado_anterior": "PUB",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-10-20"
   },
   {
     "folder_id": "P4104500F-2026/000369-PEA",
@@ -1855,8 +1858,8 @@
   },
   {
     "folder_id": "334/2026",
-    "estado": "PUB",
-    "resultado": null,
+    "estado": "RES",
+    "resultado": "adjudicada",
     "titulo": "Servicio iluminación artística extraordinaria para los Festejos de San Martin del Tesorillo",
     "updated": "2026-10-05T14:30:16.089+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=LVpUI5nvQBycTfjQf3USOg%3D%3D",
@@ -1873,7 +1876,7 @@
     "organo": "Alcaldía del Ayuntamiento de San Martín del Tesorillo",
     "importe": "35547",
     "importe_num": 71094,
-    "fecha_limite": "2026-10-20",
+    "fecha_limite": "2026-10-19",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -1883,7 +1886,12 @@
       "informe": "## Bloque 1 – Características Principales del Contrato\n\n### Objeto de la licitación\nContrato administrativo de servicios de **iluminación artística extraordinaria** para los festejos de San Martín del Tesorillo (Cádiz), tramitado por **procedimiento abierto simplificado** y tramitación ordinaria. Los servicios se prestarán conforme al PCAP, al Pliego de Prescripciones Técnicas (**no incluido en el texto recibido**) y a la normativa aplicable. CPV: **71318100** (servicio de iluminotecnia y de iluminación natural).\n\nObjetivos:\n- Dotar de iluminación ornamental extraordinaria a los distintos festejos municipales.\n- Cubrir tres eventos diferenciados (Carnavales, Feria del Corpus Christi, Navidad y fin de año).\n- Ampliar el catálogo de decoración ornamental mediante mejoras (hasta 4 variedades por lote).\n\n### División en lotes\n1. **Lote 1** – Carnavales\n2. **Lote 2** – Feria Corpus Christi\n3. **Lote 3** – Navidad y fin de año\n\nCada lote constituye un contrato independiente (art. 99.7 LCSP), salvo ofertas integradoras. Garantía definitiva calculada por lote.\n\n### Características del contrato\n\n**Presupuesto base de licitación**\n\n| Lote | Base (sin IVA) | IVA 21% | Total |\n|---|---|---|---|\n| 1 – Carnavales | **2.200,00 €** | 462,00 € | 2.662,00 € |\n| 2 – Corpus Christi | **15.947,00 €** | 3.348,87 € | 19.295,87 € |\n| 3 – Navidad y fin de año | **17.400,00 €** | 3.654,00 € | 21.054,00 € |\n| **Suma lotes** | **35.547,00 €** | 7.464,87 € | 43.011,87 € |\n\n- **Valor estimado:** **71.094,00 €** (IVA excluido), es decir, 2 × 35.547 € (un año + una prórroga de un año).\n- **Crédito presupuestario:** anualidad 2027-2028, aplicación 338.22100, **43.011,87 €** (coincide con el total con IVA de un año).\n- **Duración:** **1 año por lote**, prorrogable **1 año más**. La prórroga es obligatoria para la empresa si el preaviso se da con al menos 2 meses de antelación. Cómputo desde el día siguiente a la formalización. Sujeta a consignación presupuestaria.\n- **Revisión de precios:** no procede.\n- **Variantes:** no se admiten.\n- **Presentación de ofertas:** exclusivamente electrónica, vía Plataforma de Contratación del Sector Público, en **15 días** desde el día siguiente a la publicación del anuncio en el perfil de contratante. Firma electrónica (art. 10 Ley 39/2015). Fecha límite concreta: no localizada (depende del anuncio).\n- **Apertura:** Mesa de Contratación el **cuarto día hábil** tras el fin del plazo, a las 09:00.\n- **Garantía definitiva:** **5%** del precio final ofertado de cada lote, IVA excluido. Plazo de 7 días hábiles tras el requerimiento.\n- **Trabajos específicos obligatorios** (arqueología, topografía, geotecnia, trámites ambientales): no aparecen en el PCAP. El detalle de montaje y festejos remite al pliego técnico, no localizado.\n\n### Puntos a revisar en el PCAP\n- ⚠ Posible incoherencia: la cláusula 4 habla de \"Feria Corpus Cristi\" y la cláusula 1.2 de \"Feria Corpus Christi\" (solo ortografía).\n- ⚠ El crédito (anualidad 2027-2028, 43.011,87 €) solo cubre un año con IVA, mientras que el valor estimado incluye la prórroga. Revisar cómo se financia la segunda anualidad.\n- ⚠ Las páginas 15 y 16 no están en el texto recibido (cláusulas de subcontratación, adscripción de medios, etc.).\n\n---\n\n## Bloque 2 – Solvencia\n\n### Económica y financiera\n- **Medio de acreditación:** declaración del volumen anual de negocios en el ámbito del contrato, referido al **año de mayor volumen de los tres últimos concluidos**, acompañada de las cuentas anuales (con memoria e informe de auditoría) depositadas en el Registro Mercantil.\n- **Importe mínimo:** igual o superior al **\"precio del presente contrato\"**. ⚠ REVISAR: no se aclara si es el de cada lote, el de un año o el valor estimado total (**71.094 €**). Interpretación más prudente: valor estimado.\n- Empresarios individuales no obligados a depositar cuentas: libros de inventarios y cuentas anuales legalizados.\n- **Seguro de responsabilidad civil u otra acreditación:** no localizado en las páginas recibidas.\n- Se puede acreditar mediante inscripción en el ROLECSP.\n\n### Técnica y profesional\n- **Medio de acreditación:** relación de los principales servicios de igual o similar naturaleza de **como máximo los tres últimos años**, con importe, fechas y destinatario (público o privado).\n  - Destinatario público: certificados expedidos o visados por el órgano competente.\n  - Destinatario privado: certificado del cliente o, en su defecto, declaración del empresario con documentos acreditativos.\n- **Importe mínimo / número mínimo de servicios de referencia:** no localizado.\n- **Titulación por perfil, experiencia mínima del personal, equipo mínimo por lote y puestos subcontratables:** no localizados en las páginas disponibles. El PCAP menciona adscripción de medios (arts. 75.2 y 76.2 LCSP) y subcontratación, pero sin detalle en el texto recibido (posible contenido en las páginas 15-16).\n- **Criterio de mejora de equipo por experiencia adicional:** no existe. Las únicas mejoras son de catálogo de productos.\n\n---\n\n## Bloque 3 – Criterios de Adjudicación\n\n### Automáticos (fórmulas)\nTotal **100 puntos**, todos cuantificables automáticamente.\n\n| Criterio | Puntuación máxima |\n|---|---|\n| Precio | **80** |\n| Mejoras (catálogo ornamental) | **20** |\n\n**Precio (por lote):** `Pt = (Ofx / Oft) × Pmax`\n- Pt = puntuación de la oferta valorada\n- Ofx = oferta más baja\n- Oft = oferta que se valora\n- Pmax = 80 puntos\n\n**Mejoras:** ampliar el catálogo de productos a instalar en tipo de decoración ornamental para los festejos del pliego técnico: **5 puntos por variedad extra, máximo 4 variedades (20 puntos)**, en cada lote.\n\n**Ofertas anormalmente bajas** (art. 85 RD 1098/2001):\n- 1 licitador: baja superior a **25 puntos porcentuales** sobre el presupuesto base.\n- 2 licitadores: inferior en más de **20 puntos** a la otra oferta.\n- 3 licitadores: inferior en más de **10 puntos** a la media (baja superior a 25 puntos siempre desproporcionada).\n- 4 o más: inferior en más de **10 puntos** a la media (con recálculo de la media excluyendo las superiores a ella en más de 10 puntos).\n- Justificación en **5 días hábiles**.\n\n**Desempate:** art. 147.2 LCSP.\n\n### Juicio de valor\n**No existen** criterios sujetos a juicio de valor. No hay memoria técnica ni metodología puntuable.\n\n### Umbrales mínimos de puntuación\n**No se establecen** umbrales mínimos.\n\n---\n\n## Bloque 4 – Forma de Pago\n\n- **Valoración y facturación:** pago a la realización del servicio, previa factura conformada y Acta de Recepción cuando proceda. La factura debe incluir los códigos DIR3 (**L01119034** para entidad, órgano de tramitación, oficina contable y órgano proponente). Facturación electrónica según Ley 25/2013.\n- **Plazo para presentar factura:** **30 días** desde la prestación (servicios de tracto sucesivo: **10 días**).\n- **Plazo de pago:** **30 días** desde la aprobación de la conformidad; la Administración aprueba la conformidad dentro de los **30 días** siguientes a la prestación. Intereses de demora conforme a la Ley 3/2004.\n- **Revisión de precios:** no cabe.\n- **Penalidades:**\n  - Demora: **0,60 € por cada 1.000 €** del precio (IVA excluido) por día. Al alcanzar múltiplos del 5% del precio, el órgano puede resolver.\n  - Incumplimiento de condiciones especiales de ejecución (muy grave): **8%** del precio de adjudicación sin IVA por infracción o día.\n  - Incumplimiento de subcontratación: **5%** del importe subcontratado.\n  - Otros incumplimientos o cumplimiento defectuoso: multa de hasta el **3%** del precio. ⚠ El texto dice \"entre el 3 %\", que parece incompleto; revisar.\n  - Falta de formalización por causa del adjudicatario: **3%** del presupuesto base sin IVA.\n  - Se descuentan de los pagos pendientes o de la garantía.\n- **Condición especial de ejecución:** seguridad y salud laboral, cumplimiento de convenios colectivos y prevención de siniestralidad.\n- **Cesión:** posible bajo los requisitos del art. 214 LCSP (autorización previa, 20% ejecutado, escritura pública).\n- ⚠ La cláusula 21.1 cita \"certificaciones de obras\", lo que parece un resto de plantilla; revisar.\n\n---\n\n## Bloque 5 – Documentación a Presentar\n\nEl PCAP prevé **un único archivo electrónico «A»**, denominado \"Documentación administrativa, proposición económica y documentación cuantificable de forma automática\", con la leyenda: «Proposición para licitar a la contratación del servicio de ILUMINACIÓN ARTÍSTICA EXTRAORDINARIA PARA LOS FESTEJOS DE SAN MARTÍN DEL TESORILLO».\n\n### Sobre 1 – Archivo electrónico «A»\n- **Declaración responsable** conforme al Anexo I (art. 140 LCSP):\n  - Una por cada lote o grupo de lotes con los mismos requisitos de solvencia.\n  - Si se usan medios externos para la adscripción, una declaración adicional por cada medio.\n  - En UTE, una por cada empresa integrante.\n- **Proposición económica** según el modelo del pliego: precio por lote (sin IVA, IVA y total), valorado con 80 puntos.\n- **Mejoras** por lote (hasta 4 variedades, 5 puntos cada una), valoradas con 20 puntos.\n- Todo firmado electrónicamente.\n\n### Sobre 2\nNo existe un segundo sobre en el texto recibido.\n\n### Documentación posterior (al licitador con mejor oferta)\n- **Garantía definitiva** (5% por lote) en 7 días hábiles.\n- Compromiso de adscripción de medios (art. 75.2 LCSP) y justificación de medios (art. 76.2 LCSP).\n- Declaración de ubicación de servidores antes de la formalización.\n- Acreditación de solvencia (cuentas anuales y relación de servicios) si no consta en el ROLECSP.\n\nLos licitadores deben indicar en la oferta si prevén subcontratar los servidores o servicios asociados (cl. 30).\n\n---\n\n## Bloque 6 – Conclusiones / Análisis Preliminar\n\n### Precio frente a duración\n- Presupuesto anual sin IVA: **35.547 €** (los tres lotes), **71.094 €** con la prórroga.\n- Cada lote es un evento puntual: **2.200 €** (Carnavales), **15.947 €** (Corpus), **17.400 €** (Navidad).\n- Es una licitación de **muy baja cuantía**, con precio fuertemente ajustado y sin revisión de precios durante dos años.\n- El precio pesa **80%** y las mejoras son gratuitas, por lo que es probable una competencia agresiva en precio y en variedades extra.\n- Con las penalidades del 3-8% y la garantía del 5%, el margen del Lote 1 es mínimo.\n- El perfil es de empresa instaladora o de montaje de alumbrado ornamental, no de consultoría de arquitectura o ingeniería de proyecto.\n\n### Solvencia económica\n| Concepto | Exigido | CAI Consultores |\n|---|---|---|\n| Volumen anual (año de mayor volumen) | ≥ precio del contrato (**≤ 71.094 €**) | **1.100.000 €** (2023, 2024 y 2025) |\n\n- **Cumple con holgura**, con cualquier interpretación del importe (lote, anualidad o valor estimado).\n- ⚠ Debe acreditarse \"en el ámbito al que se refiere el contrato\": si la cifra de negocio de CAI procede de proyecto o consultoría y no de servicios de iluminación, la Mesa podría considerar que no cumple.\n- Se exigen cuentas depositadas en el Registro Mercantil, con informe de auditoría. Verificar que CAI cuenta con ello.\n- Seguro de responsabilidad civil: el perfil no indica importe ni aseguradora (dato en blanco). El PCAP recibido no lo exige.\n- ⚠ El último ejercicio cerrado indicado es 2025 y la fecha de hoy es 2026-10-06. Es coherente, pero conviene confirmar que las cuentas de 2025 están ya depositadas.\n\n### Solvencia técnica\n- **Faltaría acreditar:** servicios de igual o similar naturaleza (iluminación ornamental o festiva, alumbrado extraordinario) en los **últimos 3 años**, con certificados.\n- El perfil facilitado **no incluye** datos de equipo ni de experiencia, por lo que **no puede valorarse** el cumplimiento.\n- No se localizan titulaciones, equipo mínimo ni importe mínimo de referencia. Esto debe confirmarse en las páginas 15-16 y en el PPT.\n- Es previsible que se requieran medios materiales (stock de luminarias, camiones cesta, personal instalador) que una consultora de arquitectura e ingeniería normalmente no posee. Habría que valorar **subcontratar** o concurrir en **UTE**, siempre cumpliendo las condiciones de subcontratación (penalización del 5% por incumplimiento).\n\n### Valoración y recomendaciones\n1. Económicamente **CAI cumple** el mínimo.\n2. Técnicamente **no puede confirmarse**; se necesita acreditar servicios similares.\n3. El encaje estratégico es dudoso: baja cuantía, precio con peso del 80%, objeto alejado del núcleo de arquitectura e ingeniería.\n4. Antes de decidir, obtener el PPT, las páginas 15-16 del PCAP y la fecha del anuncio (plazo de solo **15 días**).\n5. Puntos a aclarar con el órgano de contratación: importe de referencia de la solvencia económica, crédito de la anualidad de prórroga y texto de la penalidad del 3%.",
       "fecha_analisis": "2026-10-06T10:27:14.692388+00:00"
     },
-    "fecha_captura": "2026-10-06"
+    "fecha_captura": "2026-10-06",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-20",
+    "fecha_limite_anterior": "2026-10-20",
+    "fecha_limite_cambiada_el": "2026-10-20",
+    "estado_updated": "2026-10-19T11:22:26.210+02:00"
   },
   {
     "folder_id": "MMUR/042026",
@@ -3671,5 +3679,37 @@
     "descripcion": "GBIO-SERVICIO DE RECOGIDA, TRANSPORTE E INCINERACIÓN DE MATERIAL BIOLÓGICO (SANDACH) PROCEDENTE DEL CENTRO DE RECUPERACIÓN DE ESPECIES AMENAZADAS LAS ALMOHALLAS  Y RETIRADA DE MORTANDADES EVENTUALES DE ANIMALES SILVESTRES Y MARINOS AMAyA",
     "junta_consultado": "2026-10-17",
     "fecha_captura": "2026-10-17"
+  },
+  {
+    "folder_id": "CONTR 2026 0000105137",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "dir. obra y coord. seguridad y salud proyecto vertidos obra edar de posadas",
+    "updated": "2026-10-19T14:42:13.504+02:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1019853",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000",
+      "71520000",
+      "71310000",
+      "90492000",
+      "71317210"
+    ],
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/435507",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/435506",
+    "organo": "Consejería de Agricultura, Pesca, Agua y Desarrollo Rural. D.G. de Infraestructuras del Agua (En Transición)",
+    "importe": "314530.71",
+    "importe_num": 377436.85,
+    "fecha_limite": "2026-12-09",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas",
+    "descripcion": "DIRECCIÓN DE OBRA Y COORDINACIÓN DE SEGURIDAD Y SALUD DE PROYECTO Y OBRA AGRUPACIÓN DE VERTIDOS Y PROYECTO BÁSICO DE LA EDAR DE POSADAS",
+    "junta_consultado": "2026-10-20",
+    "fecha_captura": "2026-10-20"
   }
 ]

@@ -35,7 +35,7 @@
   },
   {
     "folder_id": "1005/2026",
-    "estado": "EV",
+    "estado": "RES",
     "titulo": "Redacción del Proyecto de Ejecución de las obras del Parque Urbano Barranco de El Pueblo, en el T.M. de Tijarafe. Isla de La Palma",
     "updated": "2026-07-16T13:36:08.527+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2BKT0PU7WZgU4NavIWzMcHA%3D%3D",
@@ -59,12 +59,12 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-07-17",
-    "estado_anterior": "PUB",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-14",
+    "estado_anterior": "EV",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-10-20",
     "fecha_limite_anterior": "2026-07-28",
     "fecha_limite_cambiada_el": "2026-10-14",
-    "estado_updated": "2026-10-14T14:16:44.260+02:00"
+    "estado_updated": "2026-10-19T08:56:42.193+02:00"
   },
   {
     "folder_id": "SV33/2026",
