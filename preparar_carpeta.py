@@ -5,6 +5,7 @@ Contenido del ZIP:
   Presentacion Plataforma/      una carpeta VACÍA por sobre (Sobre A, Sobre B...), para dejar lo que se sube
   Sobres para preparar/         los mismos sobres, con un .txt por cada documento que pide el Bloque 5
   Posterior adjudicatario/      un .txt por cada documento que solo se pide al propuesto como adjudicatario
+  <expediente>.xlsx             Excel de trabajo: Info, Solvencia, C.Adjudicación y Sobres (si la revisión trae datos_excel)
   LEEME.txt                     qué hay en la carpeta y avisos
 
 Los nombres de los sobres son los que da cada pliego (los recoge la IA en el Bloque 5).
@@ -28,6 +29,7 @@ from pathlib import Path
 
 import requests
 
+import excel_licitacion
 import fetch_licitaciones as f
 
 AQUI = Path(__file__).resolve().parent
@@ -431,6 +433,19 @@ def construir_carpeta(folder_id, directorio):
             zf.writestr(f"{raiz}/Pliegos/Revisión IA - {exp}.html", documento_html)
         if registro.get("link"):
             zf.writestr(f"{raiz}/Pliegos/Ficha de la licitación.url", f"[InternetShortcut]\r\nURL={registro['link']}\r\n")
+        # Excel de trabajo (solo las revisiones nuevas traen los datos estructurados de la IA)
+        if rev.get("datos_excel"):
+            try:
+                with tempfile.TemporaryDirectory() as tmp_excel:
+                    ruta_excel = excel_licitacion.crear_excel(registro, rev, bloque5, Path(tmp_excel) / "ficha.xlsx")
+                    zf.write(ruta_excel, f"{raiz}/{raiz}.xlsx")
+                excel_ok = True
+            except Exception as e:  # el Excel nunca debe impedir la carpeta
+                excel_ok = False
+                avisos.append(f"No se pudo crear el Excel ({e!r}).")
+        else:
+            excel_ok = False
+            avisos.append("Esta revisión es anterior al Excel de la carpeta: pide una Revisión IA nueva si lo quieres.")
         for sobre in bloque5["sobres"]:
             carpeta = sobre["nombre"].replace("–", "-").replace("—", "-")
             # «Presentacion Plataforma»: una carpeta vacía por sobre, donde se dejará lo que se suba a la plataforma
@@ -460,6 +475,8 @@ def construir_carpeta(folder_id, directorio):
             "CONTENIDO",
             "- Pliegos: PCAP, PPT, Revisión IA y acceso a la ficha.",
         ]
+        if excel_ok:
+            leeme.append(f"- {raiz}.xlsx: Excel de trabajo (Info, Solvencia, C.Adjudicación y Sobres). Las casillas se marcan al avanzar.")
         leeme.append(f"- {CARPETA_PLATAFORMA}: una carpeta vacía por sobre ({len(bloque5['sobres'])}), para dejar lo que se sube a la plataforma.")
         leeme.append(f"- {CARPETA_PREPARAR}: los mismos sobres, con un .txt por cada documento que hay que presentar:")
         leeme += [f"    {s_['nombre']}: {len(s_['documentos'])} documento(s)." for s_ in bloque5["sobres"]]

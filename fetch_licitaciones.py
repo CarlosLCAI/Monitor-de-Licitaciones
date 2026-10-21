@@ -185,6 +185,41 @@ PROMPT_SISTEMA_INFORME = (
     "consten son carencia por acreditar, no incumplimiento definitivo. Si el pliego exige "
     "clasificación empresarial y el perfil no consta que la tengamos, señálalo con \"⚠ REVISAR — "
     "criterio pendiente de decidir\" y no des rojo solo por esto.\n\n"
+    "DATOS PARA EL EXCEL (obligatorio): justo ANTES de la línea final, añade un único bloque con "
+    "este formato exacto (JSON válido: comillas dobles, sin comas finales, sin comentarios; usa null "
+    "o \"\" cuando el dato no conste en los pliegos; textos breves y literales, sin repetir el informe; "
+    "los saltos de línea dentro de un texto, como \\n):\n"
+    "<<<DATOS_EXCEL\n"
+    "{\"info\": {\"valor_estimado\": <número sin IVA o null>, \"iva_pct\": <número, p. ej. 21, o null>, "
+    "\"fecha_presentacion\": \"AAAA-MM-DD\" o null, \"plazo_ejecucion\": \"\", \"consultas\": \"\", "
+    "\"garantia_provisional\": \"\", \"garantia_definitiva\": \"\", \"seguro_rc\": \"\", \"lotes\": \"\", "
+    "\"revision_precios\": \"\", \"plazo_garantia\": \"\", \"ute\": \"\", \"subcontratacion\": \"\", "
+    "\"umbral_tecnico\": \"\"},\n"
+    "\"solvencia\": {\"nota\": \"\", \"economica\": [ITEM], \"tecnica\": [ITEM], \"equipo\": [ITEM]},\n"
+    "\"juicio_valor\": [{\"nombre\": \"\", \"puntos\": <número o null>, \"paginas_a4\": <número o null>, "
+    "\"paginas_a3\": <número o null>, \"formato\": \"\", \"acreditacion\": \"\", \"apartados\": "
+    "[{\"nombre\": \"\", \"puntos\": <número o null>}]}],\n"
+    "\"formulas\": [{\"nombre\": \"\", \"puntos\": <número o null>, \"formula\": \"\", \"acreditacion\": \"\"}],\n"
+    "\"otros\": [{\"nombre\": \"\", \"puntos\": <número o null>, \"acreditacion\": \"\", \"apartados\": "
+    "[{\"nombre\": \"\", \"puntos\": <número o null>, \"regla\": \"\"}]}],\n"
+    "\"umbral\": \"\"}\n"
+    "DATOS_EXCEL>>>\n"
+    "donde ITEM = {\"nombre\": \"requisito en pocas palabras\", \"valor\": \"cifra o exigencia\", "
+    "\"acreditacion\": \"cómo se acredita\", \"cai\": \"cumple|parcial|no|no_consta\", \"cai_nota\": "
+    "\"motivo en pocas palabras\"} (omite \"cai\" y \"cai_nota\" si no se puede comparar con el perfil; "
+    "usa \"cai\" según tu comparación del Bloque 6). Criterios: solvencia.economica = volumen de "
+    "negocio, seguros y similares; solvencia.tecnica = trabajos similares, certificaciones (ISO) y "
+    "demás exigencias de la empresa; solvencia.equipo = un ITEM por puesto del equipo mínimo (nombre = "
+    "el puesto, valor = titulación y experiencia, acreditacion = cómo se justifica); solvencia.nota = "
+    "reglas generales (UTE, puestos no acumulables…). juicio_valor = un elemento por memoria o "
+    "documento que se valora por juicio de valor, con su tope de puntos, el máximo de páginas A4 y A3 "
+    "que fija el pliego, el formato exigido (letra, interlineado…) y un apartado por cada "
+    "subcriterio con sus puntos; si el pliego no desglosa subcriterios, deja apartados vacío. "
+    "formulas = criterios que se puntúan con una fórmula (precio, plazos…): escribe la fórmula en "
+    "texto plano con sus variables definidas (por ejemplo \"PO = (PM × MO) / OV; PO = puntuación "
+    "obtenida; PM = puntuación máxima…\"). otros = criterios automáticos que no son una fórmula "
+    "(experiencia de perfiles, mejoras del equipo, compromisos…): un apartado por perfil o concepto, "
+    "con su tope y la regla de puntuación (\"2 puntos/plan, hasta 4\").\n\n"
     "LÍNEA FINAL (obligatoria): termina tu respuesta con una última línea, sola, exactamente con "
     "este formato (sin negritas ni comillas): SEMAFORO: <verde|naranja|rojo|gris> | <motivo en una "
     "sola frase de 25 palabras como máximo>\n\n"
@@ -477,6 +512,34 @@ def extraer_semaforo(texto):
     return limpio, color, motivo
 
 
+# Entre el informe y la línea del semáforo la IA añade un bloque JSON con los datos para el Excel de la
+# carpeta (ver PROMPT_SISTEMA_INFORME). Se separa del texto del informe y se guarda en datos_excel.
+RE_DATOS_EXCEL = re.compile(r"<<<\s*DATOS_EXCEL\s*(.*?)\s*DATOS_EXCEL\s*>>>", re.DOTALL)
+
+
+def extraer_datos_excel(texto):
+    """Devuelve (texto sin el bloque, datos o None). Si el JSON no es válido (o el bloque quedó cortado)
+    el informe sigue siendo válido: simplemente no habrá Excel para esa licitación."""
+    coincidencias = list(RE_DATOS_EXCEL.finditer(texto))
+    if not coincidencias:
+        return RE_DATOS_EXCEL_ABIERTO.sub("", texto).rstrip(), None
+    crudo = coincidencias[-1].group(1).strip()
+    crudo = re.sub(r"^```(?:json)?\s*|\s*```$", "", crudo).strip()
+    limpio = RE_DATOS_EXCEL.sub("", texto).rstrip()
+    try:
+        datos = json.loads(crudo)
+    except ValueError as e:
+        print(f"    Aviso: el bloque de datos del Excel no es JSON válido ({e}); no se guarda.")
+        return limpio, None
+    if not isinstance(datos, dict) or not any(k in datos for k in ("info", "solvencia", "juicio_valor", "formulas", "otros")):
+        return limpio, None
+    return limpio, datos
+
+
+# Bloque abierto y nunca cerrado (respuesta cortada): se quita igualmente para no ensuciar el informe.
+RE_DATOS_EXCEL_ABIERTO = re.compile(r"<<<\s*DATOS_EXCEL.*", re.DOTALL)
+
+
 def obtener_ppt(url, max_chars=90000, min_chars=500):
     """Texto del PPT (pliego de prescripciones técnicas) para mandarlo a la IA junto al PCAP. Es un
     documento corto, así que va entero (con tope de seguridad). Devuelve None si no hay enlace, si no
@@ -578,6 +641,7 @@ def generar_informe_licitacion_ia(perfil_empresa, pcap_tipo, pcap_contenido, tit
         texto = "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text").strip()
         if not texto:
             return {"informe": f"Error al generar el informe con IA: la respuesta no contiene texto (stop_reason={stop_reason})."}
+        texto, datos_excel = extraer_datos_excel(texto)
         texto, semaforo, motivo = extraer_semaforo(texto)
         if stop_reason == "max_tokens":
             texto += "\n\n" + MARCA_INFORME_CORTADO
@@ -594,6 +658,8 @@ def generar_informe_licitacion_ia(perfil_empresa, pcap_tipo, pcap_contenido, tit
         if semaforo:
             resultado["semaforo"] = semaforo
             resultado["semaforo_motivo"] = motivo
+        if datos_excel:
+            resultado["datos_excel"] = datos_excel
         return resultado
     except Exception as e:
         return {"informe": f"Error al generar el informe con IA: {e!r}"}
