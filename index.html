@@ -315,6 +315,10 @@
   .links a:hover { color: var(--teal); border-color: var(--teal); }
   .links a.link-revision-ia { font-weight: 700; }
   .links a.link-solicitar-ia { color: var(--ink-soft); border-bottom-color: var(--ink-soft); }
+  .links a.link-descargar-carpeta { font-weight: 700; }
+  .links a.link-rehacer-carpeta { color: var(--ink-soft); border-bottom-color: var(--ink-soft); font-size: 10.5px; }
+  .links .carpeta-pendiente { font-size: 11.5px; color: var(--ink-soft); font-style: italic; white-space: nowrap; }
+  .links .carpeta-bloqueada { font-size: 11.5px; color: var(--etiqueta-suave); white-space: nowrap; cursor: not-allowed; border-bottom: 1px dotted var(--border); width: fit-content; }
   .links .revision-pendiente { font-size: 11.5px; color: var(--ink-soft); font-style: italic; white-space: nowrap; }
   .empty {
     text-align: center;
@@ -835,6 +839,14 @@
               <li><strong>Al pasar el ratón por encima de la celda</strong> sale una breve indicación con el significado del color y el motivo de la valoración; el mismo aviso aparece destacado al abrir la Revisión IA. Es una ayuda orientativa: conviene contrastarla con el pliego.</li>
             </ul>
 
+            <h4>Preparar la carpeta de una licitación</h4>
+            <ul>
+              <li>En una licitación con <strong>Revisión IA</strong> aparece <strong>Preparar carpeta</strong>. Al pulsarla se genera en un par de minutos (necesita el token, igual que pedir la revisión) y el enlace pasa a <strong>Descargar carpeta</strong>, que baja un ZIP a tu carpeta de Descargas. <em>Rehacer</em> la vuelve a preparar.</li>
+              <li>Dentro del ZIP: <strong>Pliegos</strong> (PCAP, PPT, la revisión IA en PDF y un acceso a la ficha), una carpeta por cada <strong>sobre</strong> (con el nombre que le da el pliego) con un .txt por documento que hay que presentar, y <strong>Posterior adjudicatario</strong> con lo que solo se exige al propuesto como adjudicatario. Por ahora los .txt son marcadores con el nombre de cada documento.</li>
+              <li>Si el botón sale en gris, la revisión no detalla bien los sobres (Bloque 5) y no se puede preparar. Las revisiones más antiguas suelen estar en ese caso: pide una nueva.</li>
+              <li>El ZIP se guarda en el repositorio público, así que cualquiera con el enlace podría descargarlo: contiene solo documentos públicos.</li>
+            </ul>
+
             <h4>Botones de arriba a la derecha</h4>
             <ul>
               <li><strong>Campana:</strong> abre las novedades. Aparece rellena durante la primera semana después de cada actualización; además, la ventana se abre sola la primera vez que entras tras un cambio.</li>
@@ -1295,6 +1307,206 @@ function enlaceRevisionIA(r) {
   return '<a href="#" class="link-solicitar-ia" data-folder-id="' + id + '"' + fallo + '>Solicitar Revisión IA</a>';
 }
 
+// --- Preparar carpeta ---------------------------------------------------------------------------
+// El botón lanza el flujo "preparar_carpeta.yml", que genera un ZIP (pliegos + una carpeta por sobre) y
+// lo publica en la release "carpetas" del repositorio. El visor lo detecta consultando esa release y
+// ofrece "Descargar carpeta". Solo se ofrece si el Bloque 5 de la revisión detalla bien los sobres.
+const WORKFLOW_CARPETA = 'preparar_carpeta.yml';
+const CARPETAS_PENDIENTES_KEY = 'monitorLicitaciones.carpetasPendientes';
+const CARPETA_PENDIENTE_TTL_MS = 15 * 60 * 1000;
+const INTERVALO_VIGILANCIA_CARPETAS_MS = 15 * 1000;
+let carpetasPreparadas = new Map(); // nombre del ZIP -> { actualizado (ms), url }
+let temporizadorVigilanciaCarpetas = null;
+const preparandoCarpeta = new Set();
+
+// Mismo criterio que preparar_carpeta.py (parsear_bloque5): ¿el Bloque 5 detalla algún sobre con documentos?
+const RE_B5_POSTERIOR = /posterior|propuesto como adjudicatari|tras el requerimiento|requerid[oa]|una vez adjudicad/i;
+const RE_B5_NOTA = /^(sin |no |la falta|los? .{0,40} no se |la documentación acreditativa|dentro de|cualquier|se admite|solo |el incumplimiento|la oferta no|todos los|la presentación)/i;
+
+function limpiarMd(t) { return String(t).replace(/\*\*|__|`/g, '').replace(/\s+/g, ' ').trim(); }
+
+function nuevoDocumentoB5(texto) {
+  const m = texto.match(/^\*\*(.+?)\*\*\s*(.*)$/);
+  let nombre, resto;
+  if (m) {
+    nombre = m[1]; resto = m[2];
+    if (limpiarMd(nombre).replace(/[:. ]+$/, '').length <= 3 && resto) {
+      const limpio = limpiarMd(resto).replace(/^[ ,;:.\-–—]+/, '');
+      const corte = limpio.search(/[.;]/);
+      nombre = limpiarMd(nombre).replace(/[:. ]+$/, '') + ' - ' + (corte >= 0 ? limpio.slice(0, corte) : limpio).slice(0, 60).trim();
+    }
+  } else {
+    const dosPuntos = texto.search(/:\s/);
+    nombre = dosPuntos >= 0 ? texto.slice(0, dosPuntos) : texto;
+    const coma = nombre.search(/,\s/);
+    if (coma >= 0 && limpiarMd(nombre.slice(0, coma)).length >= 8) nombre = nombre.slice(0, coma);
+  }
+  nombre = limpiarMd(nombre).replace(/[:.,; ]+$/, '');
+  if (nombre.length > 85) nombre = nombre.slice(0, 85).replace(/\s+\S*$/, '') + '…';
+  return { nombre: nombre || 'Documento', negrita: !!m };
+}
+
+function separarNotasB5(docs) {
+  const conNegrita = docs.filter(d => d.negrita).length;
+  return docs.length && conNegrita / docs.length >= 0.6 ? docs.filter(d => d.negrita) : docs.filter(d => !RE_B5_NOTA.test(d.nombre));
+}
+
+// Devuelve { sobres: [{ nombre, documentos: n }], posterior: n } o null si el Bloque 5 no sirve.
+function parsearBloque5(informe) {
+  const lineas = String(informe || '').split(/\r?\n/);
+  const inicio = lineas.findIndex(l => /^##\s+Bloque\s*5\b/i.test(l));
+  if (inicio < 0) return null;
+  let fin = lineas.length;
+  for (let i = inicio + 1; i < lineas.length; i++) { if (/^##\s+\S/.test(lineas[i])) { fin = i; break; } }
+  const elementos = [];
+  for (const linea of lineas.slice(inicio + 1, fin)) {
+    const h3 = linea.match(/^###\s+(.*\S)\s*$/);
+    if (h3) { elementos.push(['h3', 0, h3[1]]); continue; }
+    const it = linea.match(/^(\s*)(?:[-*•]|\d+[.)])\s+(.*\S)\s*$/);
+    if (it) elementos.push(['item', it[1].replace(/\t/g, '    ').length, it[2]]);
+  }
+  const sangrias = elementos.filter(e => e[0] === 'item').map(e => e[1]);
+  const base = sangrias.length ? Math.min(...sangrias) : 0;
+
+  const sobres = [];
+  let posterior = [], sobre = null, posteriorGlobal = false, contenedor = false, sangriaHijos = null, hayUltimo = false;
+  elementos.forEach(([tipo, sangria, texto], idx) => {
+    if (tipo === 'h3') {
+      const titulo = limpiarMd(texto);
+      contenedor = false; hayUltimo = false;
+      if (RE_B5_POSTERIOR.test(titulo)) { sobre = null; posteriorGlobal = true; }
+      else { sobre = { nombre: titulo, docs: [] }; sobres.push(sobre); posteriorGlobal = false; }
+      return;
+    }
+    if (sangria <= base) {
+      contenedor = false;
+      const limpio = limpiarMd(texto);
+      const sig = elementos[idx + 1];
+      const siguienteMasProfunda = !!sig && sig[0] === 'item' && sig[1] > base;
+      if (RE_B5_POSTERIOR.test(limpio) && (siguienteMasProfunda || /:\s*$/.test(limpio))) { contenedor = true; sangriaHijos = null; hayUltimo = false; return; }
+      let destino;
+      if (posteriorGlobal) destino = posterior;
+      else {
+        if (!sobre) { sobre = { nombre: 'Documentación a presentar', docs: [] }; sobres.push(sobre); }
+        destino = sobre.docs;
+      }
+      destino.push(nuevoDocumentoB5(texto)); hayUltimo = true;
+    } else if (contenedor) {
+      if (sangriaHijos === null) sangriaHijos = sangria;
+      if (sangria <= sangriaHijos) { posterior.push(nuevoDocumentoB5(texto)); hayUltimo = true; }
+    }
+  });
+  const conDocs = sobres.map(sb => ({ nombre: sb.nombre, documentos: separarNotasB5(sb.docs).length })).filter(sb => sb.documentos > 0);
+  posterior = separarNotasB5(posterior);
+  const todos = sobres.flatMap(sb => separarNotasB5(sb.docs));
+  if (!todos.length || todos.every(d => /no localizad/i.test(d.nombre))) return null;
+  return { sobres: conDocs, posterior: posterior.length };
+}
+
+function bloque5Valido(informe) { return parsearBloque5(informe) !== null; }
+
+function nombreZipCarpeta(folderId) {
+  return 'carpeta_' + String(folderId).replace(/[^A-Za-z0-9._-]+/g, '-').replace(/^-+|-+$/g, '') + '.zip';
+}
+
+function leerCarpetasPendientes() {
+  try { return JSON.parse(localStorage.getItem(CARPETAS_PENDIENTES_KEY)) || {}; } catch (e) { return {}; }
+}
+
+function escribirCarpetasPendientes(todas) {
+  try { localStorage.setItem(CARPETAS_PENDIENTES_KEY, JSON.stringify(todas)); } catch (e) { /* sin almacenamiento */ }
+}
+
+function carpetaPendiente(folderId) {
+  const p = leerCarpetasPendientes()[folderId];
+  return p && Date.now() - p.solicitadaEn <= CARPETA_PENDIENTE_TTL_MS ? p : null;
+}
+
+async function cargarCarpetasPreparadas() {
+  const token = obtenerTokenGuardado();
+  const cabeceras = { Accept: 'application/vnd.github+json' };
+  if (token) cabeceras.Authorization = 'token ' + token;
+  try {
+    const resp = await fetch(`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/releases/tags/carpetas`, { headers: cabeceras, cache: 'no-store' });
+    if (!resp.ok) { carpetasPreparadas = new Map(); return; } // 404: todavía no se ha preparado ninguna
+    const release = await resp.json();
+    carpetasPreparadas = new Map((release.assets || []).map(a => [a.name, { actualizado: Date.parse(a.updated_at), url: a.browser_download_url }]));
+  } catch (e) { /* sin conexión: se conserva lo que había */ }
+}
+
+function enlaceCarpeta(r) {
+  if (!revisionIaValida(r.revision_ia) || !r.revision_ia.informe) return '';
+  const id = escapeHtml(r.folder_id || '');
+  if (!bloque5Valido(r.revision_ia.informe)) {
+    return '<span class="carpeta-bloqueada" title="La revisión IA no detalla bien los sobres y documentos (Bloque 5): no se puede preparar la carpeta. Solicita una revisión nueva si hace falta.">Preparar carpeta</span>';
+  }
+  if (carpetaPendiente(r.folder_id)) {
+    return '<span class="carpeta-pendiente" title="Se está preparando; tarda un par de minutos">Preparando carpeta…</span>';
+  }
+  const hecha = carpetasPreparadas.get(nombreZipCarpeta(r.folder_id));
+  if (hecha) {
+    const fecha = isNaN(hecha.actualizado) ? '' : ' (preparada el ' + new Date(hecha.actualizado).toLocaleDateString('es-ES') + ')';
+    return '<a href="' + escapeHtml(hecha.url) + '" class="link-descargar-carpeta" rel="noopener" title="' + escapeHtml('Descargar el ZIP con los pliegos y los sobres' + fecha) + '">Descargar carpeta</a>' +
+      '<a href="#" class="link-rehacer-carpeta" data-folder-id="' + id + '" title="Volver a prepararla (por ejemplo, tras una revisión IA nueva)">Rehacer</a>';
+  }
+  return '<a href="#" class="link-preparar-carpeta" data-folder-id="' + id + '" title="Prepara un ZIP con los pliegos y una carpeta por sobre">Preparar carpeta</a>';
+}
+
+async function prepararCarpeta(folderId) {
+  const token = obtenerTokenGuardado();
+  if (!token) {
+    alert('Para preparar la carpeta primero configura el token de GitHub (en las opciones de cualquier filtro).');
+    return;
+  }
+  if (preparandoCarpeta.has(folderId) || carpetaPendiente(folderId)) return;
+  preparandoCarpeta.add(folderId);
+  try {
+    const resp = await fetch(`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/actions/workflows/${WORKFLOW_CARPETA}/dispatches`, {
+      method: 'POST',
+      headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github+json' },
+      body: JSON.stringify({ ref: GH_BRANCH, inputs: { folder_id: folderId } }),
+    });
+    if (resp.status !== 204) {
+      const err = await resp.json().catch(() => ({}));
+      let ayuda = '';
+      if (resp.status === 403) ayuda = '\n\nEl token necesita el permiso "Actions: lectura y escritura" (token fine-grained) o el alcance "workflow" (token clásico).';
+      if (resp.status === 404) ayuda = '\n\nNo se encuentra el flujo "' + WORKFLOW_CARPETA + '" en el repositorio (¿se ha subido?) o el token no tiene acceso a Actions.';
+      if (resp.status === 422) ayuda = '\n\nEl flujo no admite lanzamiento manual (workflow_dispatch).';
+      throw new Error(`HTTP ${resp.status}: ${err.message || 'sin detalle'}${ayuda}`);
+    }
+    const todas = leerCarpetasPendientes();
+    todas[folderId] = { solicitadaEn: Date.now() };
+    escribirCarpetasPendientes(todas);
+    renderVista();
+    iniciarVigilanciaCarpetas();
+  } catch (e) {
+    alert('No se pudo preparar la carpeta: ' + e.message);
+  } finally {
+    preparandoCarpeta.delete(folderId);
+  }
+}
+
+function iniciarVigilanciaCarpetas() {
+  if (temporizadorVigilanciaCarpetas) return;
+  temporizadorVigilanciaCarpetas = setInterval(comprobarCarpetas, INTERVALO_VIGILANCIA_CARPETAS_MS);
+}
+
+async function comprobarCarpetas() {
+  const pendientes = leerCarpetasPendientes();
+  const ids = Object.keys(pendientes);
+  if (ids.length) await cargarCarpetasPreparadas();
+  let cambio = false;
+  for (const id of ids) {
+    const p = pendientes[id];
+    const hecha = carpetasPreparadas.get(nombreZipCarpeta(id));
+    if (hecha && hecha.actualizado >= p.solicitadaEn - 120000) { delete pendientes[id]; cambio = true; }
+    else if (Date.now() - p.solicitadaEn > CARPETA_PENDIENTE_TTL_MS) { delete pendientes[id]; cambio = true; }
+  }
+  escribirCarpetasPendientes(pendientes);
+  if (cambio) renderVista();
+  if (!Object.keys(pendientes).length) { clearInterval(temporizadorVigilanciaCarpetas); temporizadorVigilanciaCarpetas = null; }
+}
+
 function filtroQueContiene(folderId) {
   const f = filtrosManifest.find(f => cacheFiltros[f.id] && (cacheFiltros[f.id].historico || []).some(r => r.folder_id === folderId));
   return f ? f.id : null;
@@ -1563,6 +1775,7 @@ function renderTabla(lista) {
         (r.pcap_url ? '<a href="' + r.pcap_url + '" target="_blank" rel="noopener">PCAP</a>' : '') +
         (r.ppt_url ? '<a href="' + r.ppt_url + '" target="_blank" rel="noopener">PPT</a>' : '') +
         enlaceRevisionIA(r) +
+        enlaceCarpeta(r) +
       '</td>' +
       celdaRevision(r) +
     '</tr>';
@@ -1598,6 +1811,13 @@ function renderTabla(lista) {
     a.addEventListener('click', (e) => {
       e.preventDefault();
       solicitarRevisionIA(a.dataset.folderId);
+    });
+  });
+
+  cont.querySelectorAll('.link-preparar-carpeta, .link-rehacer-carpeta').forEach(a => {
+    a.addEventListener('click', (e) => {
+      e.preventDefault();
+      prepararCarpeta(a.dataset.folderId);
     });
   });
 }
@@ -2723,6 +2943,8 @@ async function iniciarVisor() {
   poblarSelectorFiltros();
   await cambiarFiltroActivo(ID_VISTA_TODOS);
   if (Object.keys(leerRevisionesIaPendientes()).length) iniciarVigilanciaIA();
+  cargarCarpetasPreparadas().then(() => { if (pestanaActiva !== 'estadisticas') renderVista(); });
+  if (Object.keys(leerCarpetasPendientes()).length) iniciarVigilanciaCarpetas();
 }
 
 iniciarVisor().catch(() => {
@@ -2805,6 +3027,10 @@ document.getElementById('modal-revision-overlay').addEventListener('click', (e) 
 // de frases con HTML sencillo): la ventana se abre sola la primera vez que se entra desde esa fecha
 // y la campana se muestra rellena durante la primera semana. Solo cambios que el usuario note.
 const NOVEDADES = [
+  { fecha: '2026-10-21', items: [
+    "<strong>Preparar carpeta.</strong> Cuando una licitación tiene Revisión IA, aparece el enlace <em>Preparar carpeta</em>. En un par de minutos genera un ZIP, que se descarga de una vez con <em>Descargar carpeta</em>, con: la carpeta <em>Pliegos</em> (PCAP, PPT, la revisión IA en PDF y un acceso a la ficha), una carpeta por cada sobre (con el nombre que le da el pliego) con un .txt por documento que hay que presentar, y otra <em>Posterior adjudicatario</em>. Si el Bloque 5 de la revisión no detalla bien los sobres, el botón queda desactivado.",
+    "<strong>La revisión IA también lee el PPT.</strong> Las revisiones nuevas analizan el pliego de prescripciones técnicas junto con el PCAP (equipo, entregables, plazos), y el Bloque 5 detalla los sobres con el nombre de cada documento. Las revisiones anteriores no se han rehecho.",
+  ] },
   { fecha: '2026-10-20', items: [
     "<strong>Licitaciones que caen en varios filtros.</strong> En Estadísticas, junto al anillo «En plazo por filtro», dos gráficos nuevos: en cuántos filtros cae cada licitación y qué combinaciones de filtros forman (por ejemplo, Dirección de obra + Ingeniería + Medio Ambiente), con cuántas licitaciones tiene cada una.",
     "<strong>Historia del monitor.</strong> Al final de Estadísticas hay una sección nueva: desde cuándo funciona el monitor, cuántas lecturas y versiones lleva, la primera lectura, cuánto se ha leído y captado, el día con más capturas, importes, ampliaciones de plazo y los órganos que más repiten.",

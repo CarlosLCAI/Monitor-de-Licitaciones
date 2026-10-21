@@ -1,0 +1,52 @@
+name: Preparar carpeta
+
+# Lo lanza el visor (botón "Preparar carpeta" de una licitación con Revisión IA). Genera un ZIP con los
+# pliegos (PCAP, PPT, revisión en PDF, acceso a la ficha) y una carpeta por sobre con un .txt por cada
+# documento que pide el Bloque 5 de la revisión. El ZIP se publica como archivo de la release "carpetas",
+# de donde lo descarga el visor. OJO: la release es pública (cualquiera con el enlace puede bajarlo).
+on:
+  workflow_dispatch:
+    inputs:
+      folder_id:
+        description: "Expediente (folder_id) de la licitación"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  carpeta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Preparar la carpeta
+        env:
+          FOLDER_ID: ${{ inputs.folder_id }}
+        run: |
+          google-chrome --version || true
+          python preparar_carpeta.py "$FOLDER_ID" --directorio "$RUNNER_TEMP/carpetas"
+          ls -la "$RUNNER_TEMP/carpetas"
+
+      - name: Publicar el ZIP en la release "carpetas"
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ! gh release view carpetas >/dev/null 2>&1; then
+            # Si otra ejecución la crea a la vez, no pasa nada: basta con que exista
+            gh release create carpetas --title "Carpetas preparadas" \
+              --notes "ZIP de cada licitación preparado desde el visor. Se regeneran al pulsar «Preparar carpeta»." --latest=false \
+              || gh release view carpetas >/dev/null
+          fi
+          gh release upload carpetas "$RUNNER_TEMP"/carpetas/*.zip --clobber

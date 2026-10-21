@@ -94,13 +94,19 @@ MARCA_INFORME_CORTADO = "⚠ REVISAR — informe cortado por límite de longitud
 PROMPT_SISTEMA_INFORME = (
     "Eres un asistente técnico especializado en licitaciones públicas españolas de obra civil, "
     "edificación e infraestructuras, para el equipo de CAI Consultores (arquitectura/ingeniería). "
-    "Analizas el PCAP (pliego de cláusulas administrativas particulares) de una licitación y "
+    "Analizas el PCAP (pliego de cláusulas administrativas particulares) de una licitación y, si se "
+    "incluye, su PPT (pliego de prescripciones técnicas), y "
     "extraes la información clave en un informe estructurado en 6 bloques, en este orden. Genera "
     "los 6 bloques completos en una sola respuesta: esto se ejecuta de forma automática, sin "
     "nadie revisando ni validando entre bloques.\n\n"
     "El texto del PCAP que recibes puede venir recortado a las páginas más relevantes (verás "
     "marcas \"--- Página N ---\"); si no encuentras algo, no asumas que no existe en el documento "
     "completo — indícalo como no localizado en vez de darlo por ausente.\n\n"
+    "Si recibes también el texto del PPT (aparece como «TEXTO DEL PPT»), úsalo junto con el PCAP: "
+    "aporta el detalle técnico (trabajos y entregables, equipo mínimo y titulaciones, plazos "
+    "parciales, medios, normativa). Intégralo en los bloques que correspondan indicando «(según el "
+    "PPT)» cuando un dato proceda solo de él, y señala con \"⚠ REVISAR\" cualquier discrepancia entre "
+    "PCAP y PPT. Si no se incluye PPT, di en el Bloque 1 que su detalle técnico no se ha analizado.\n\n"
     "Si el PCAP incluye un Cuadro de Características del Contrato (o cuadro resumen / anexo de "
     "características), úsalo como fuente principal: suele resumir casi todo el contrato. "
     "Contrástalo con las cláusulas del cuerpo del pliego y, si hay alguna discrepancia, "
@@ -141,9 +147,16 @@ PROMPT_SISTEMA_INFORME = (
     "Valoración de trabajos, certificaciones y facturación, y condiciones adicionales "
     "(penalizaciones, revisión de precios, etc.).\n\n"
     "## Bloque 5 – Documentación a Presentar\n"
-    "Desglosa en lista el número de sobres y, dentro de cada uno ('### Sobre 1', '### Sobre 2', "
-    "etc.), qué información debe presentarse (también en lista). Si el PCAP no detalla esto, "
-    "indícalo como no localizado en vez de inventarlo.\n\n"
+    "Desglosa un sobre (o archivo electrónico) por cada uno que haya que entregar, con un subtítulo "
+    "'### <nombre exacto que le da el pliego> – <qué contiene>' (por ejemplo '### Sobre A – "
+    "Documentación administrativa', '### Sobre 2 – Proposición técnica' o '### Archivo electrónico "
+    "nº 1 – Documentación administrativa'). Dentro de cada uno, una viñeta '- ' por cada documento "
+    "que hay que presentar, con el nombre del documento en **negrita** (por ejemplo **DEUC**, "
+    "**Anexo 2 – Modelo de oferta**, **Memoria técnica**) y, tras él, una breve descripción de lo "
+    "que debe contener; si necesitas detallar, usa subviñetas. La documentación que solo se exige "
+    "al licitador propuesto como adjudicatario (tras el requerimiento) va en un subtítulo aparte "
+    "'### Documentación posterior (solo el propuesto como adjudicatario)', también en viñetas. Si el "
+    "pliego no detalla los sobres, indícalo como no localizado en vez de inventarlo.\n\n"
     "## Bloque 6 – Conclusiones / Análisis Preliminar\n"
     "Analiza el precio de licitación en relación con la duración del contrato. Compara los "
     "requisitos de solvencia económica y técnica de los Bloques 2 y 3 contra el perfil de la "
@@ -175,7 +188,7 @@ PROMPT_SISTEMA_INFORME = (
     "LÍNEA FINAL (obligatoria): termina tu respuesta con una última línea, sola, exactamente con "
     "este formato (sin negritas ni comillas): SEMAFORO: <verde|naranja|rojo|gris> | <motivo en una "
     "sola frase de 25 palabras como máximo>\n\n"
-    "Reglas generales: responde en español técnico, basándote solo en el PCAP proporcionado "
+    "Reglas generales: responde en español técnico, basándote solo en el PCAP y el PPT proporcionados "
     "(nunca extrapoles de otros pliegos), sé riguroso con baremos y limitaciones de formato, y "
     "ante cualquier duda o incoherencia en el documento, no la inventes — indícalo y sugiere "
     "revisar ese punto concreto del PCAP."
@@ -464,7 +477,27 @@ def extraer_semaforo(texto):
     return limpio, color, motivo
 
 
-def generar_informe_licitacion_ia(perfil_empresa, pcap_tipo, pcap_contenido, titulo, organo, api_key):
+def obtener_ppt(url, max_chars=90000, min_chars=500):
+    """Texto del PPT (pliego de prescripciones técnicas) para mandarlo a la IA junto al PCAP. Es un
+    documento corto, así que va entero (con tope de seguridad). Devuelve None si no hay enlace, si no
+    se puede descargar o si es un escaneo sin texto: el informe se genera igualmente, sin PPT."""
+    if not url:
+        return None
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=60)
+        resp.raise_for_status()
+        paginas = [(p.extract_text() or "") for p in PdfReader(BytesIO(resp.content)).pages]
+    except Exception as e:
+        print(f"    Aviso: no se pudo leer el PPT ({e}); se analiza solo el PCAP.")
+        return None
+    texto = "\n\n".join(f"--- Página {i + 1} ---\n{t}" for i, t in enumerate(paginas))
+    if len(texto.strip()) < min_chars:
+        print("    Aviso: el PPT no tiene texto legible (¿escaneado?); se analiza solo el PCAP.")
+        return None
+    return texto[:max_chars]
+
+
+def generar_informe_licitacion_ia(perfil_empresa, pcap_tipo, pcap_contenido, titulo, organo, api_key, ppt_texto=None):
     if not api_key:
         return {"informe": "No hay ANTHROPIC_API_KEY configurada para llamar a Claude."}
     if not pcap_tipo:
@@ -485,7 +518,8 @@ def generar_informe_licitacion_ia(perfil_empresa, pcap_tipo, pcap_contenido, tit
         f"LICITACIÓN: {titulo}\n"
         f"ÓRGANO: {organo}\n\n"
         f"A continuación se adjunta el PCAP (o el fragmento relevante ya localizado) de esta "
-        f"licitación. Genera el informe según las instrucciones del sistema."
+        f"licitación" + (" y el texto de su PPT" if ppt_texto else " (sin PPT)") +
+        f". Genera el informe según las instrucciones del sistema."
     )
 
     if pcap_tipo == "documento":
@@ -497,6 +531,8 @@ def generar_informe_licitacion_ia(perfil_empresa, pcap_tipo, pcap_contenido, tit
         bloque_pcap = {"type": "text", "text": f"TEXTO DEL PCAP:\n{pcap_contenido}"}
 
     contenido_mensaje = [bloque_perfil, {"type": "text", "text": texto_variable}, bloque_pcap]
+    if ppt_texto:
+        contenido_mensaje.append({"type": "text", "text": f"TEXTO DEL PPT:\n{ppt_texto}"})
 
     # Un informe de 6 bloques con tablas ronda los 6.000-9.000 tokens de salida. Con el tope
     # anterior (4.096) se cortaba a mitad de frase. Además, el razonamiento de Sonnet cuenta
@@ -545,7 +581,7 @@ def generar_informe_licitacion_ia(perfil_empresa, pcap_tipo, pcap_contenido, tit
         texto, semaforo, motivo = extraer_semaforo(texto)
         if stop_reason == "max_tokens":
             texto += "\n\n" + MARCA_INFORME_CORTADO
-        resultado = {"informe": texto}
+        resultado = {"informe": texto, "usa_ppt": bool(ppt_texto)}
         # Consumo de la llamada principal (sin el localizador, que cuesta céntimos): permite al visor
         # mostrar cuánto se gasta en revisiones, por persona y por mes.
         resultado["uso"] = {
@@ -570,8 +606,9 @@ def analizar_licitacion_ia(r, perfil_empresa):
     except Exception:
         pcap_tipo, pcap_contenido = None, None
 
+    ppt_texto = obtener_ppt(r.get("ppt_url")) if pcap_tipo else None
     resultado = generar_informe_licitacion_ia(
-        perfil_empresa, pcap_tipo, pcap_contenido, r.get("descripcion") or r.get("titulo"), r.get("organo"), api_key
+        perfil_empresa, pcap_tipo, pcap_contenido, r.get("descripcion") or r.get("titulo"), r.get("organo"), api_key, ppt_texto
     )
     resultado["fecha_analisis"] = datetime.now(timezone.utc).isoformat()
     return resultado
