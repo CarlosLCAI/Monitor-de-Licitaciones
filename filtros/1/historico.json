@@ -1909,7 +1909,10 @@
     },
     "revisado_humano": true,
     "revisado_fecha": "2026-10-21T10:50:17.830Z",
-    "revisado_por": "CarlosLCAI"
+    "revisado_por": "CarlosLCAI",
+    "carpeta_descargada": true,
+    "carpeta_descargada_fecha": "2026-10-21T14:42:01.493Z",
+    "carpeta_descargada_por": "CarlosLCAI"
   },
   {
     "folder_id": "290/2026",
