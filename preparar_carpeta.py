@@ -3,7 +3,8 @@
 Contenido del ZIP:
   Pliegos/                      PCAP y PPT en PDF, la Revisión IA en PDF y un acceso a la ficha
   Presentacion Plataforma/      una carpeta VACÍA por sobre (Sobre A, Sobre B...), para dejar lo que se sube
-  Sobres para preparar/         los mismos sobres, con un .txt por cada documento que pide el Bloque 5
+  Sobres para preparar/         los mismos sobres: cada documento como anexo listo para rellenar (el archivo que
+                                publicó el órgano o las páginas del PCAP) o, si no se encuentra, un .txt marcador
   Posterior adjudicatario/      un .txt por cada documento que solo se pide al propuesto como adjudicatario
   <expediente>.xlsx             Excel de trabajo: Info, Solvencia, C.Adjudicación y Sobres (si la revisión trae datos_excel)
   LEEME.txt                     qué hay en la carpeta y avisos
@@ -29,6 +30,7 @@ from pathlib import Path
 
 import requests
 
+import anexos_licitacion
 import excel_licitacion
 import fetch_licitaciones as f
 
@@ -382,11 +384,38 @@ def _txt_documento(registro, ambito, doc, ya_aviso):
     return "\r\n".join(lineas) + "\r\n"
 
 
-def _escribir_documentos(zf, raiz, carpeta, registro, ambito, documentos, padre=""):
+def _archivo_seguro(nombre, maximo=80):
+    """Nombre de archivo sin caracteres que Windows no admite, conservando la extensión."""
+    base, punto, ext = str(nombre).rpartition(".")
+    if not punto or len(ext) > 5:
+        base, ext = str(nombre), ""
+    return sanear_nombre(base, maximo) + (f".{ext}" if ext else "")
+
+
+def _nombre_unico(usados, nombre):
+    base, punto, ext = nombre.rpartition(".")
+    candidato, n = nombre, 1
+    while candidato.lower() in usados:
+        n += 1
+        candidato = f"{base} ({n}).{ext}" if punto else f"{nombre} ({n})"
+    usados.add(candidato.lower())
+    return candidato
+
+
+def _escribir_documentos(zf, raiz, carpeta, registro, ambito, documentos, padre="", anexos=None, origenes=None):
+    """Un archivo por documento: el anexo listo para rellenar si se encontró, o un .txt marcador."""
     ancho = max(2, len(str(len(documentos))))
+    ruta = f"{raiz}/{padre}{sanear_nombre(carpeta, 50)}/"
     for i, doc in enumerate(documentos, 1):
-        nombre = f"{str(i).zfill(ancho)} - {sanear_nombre(doc['nombre'], 75)}.txt"
-        zf.writestr(f"{raiz}/{padre}{sanear_nombre(carpeta, 50)}/{nombre}", _txt_documento(registro, ambito, doc, False))
+        base = f"{str(i).zfill(ancho)} - {sanear_nombre(doc['nombre'], 75)}"
+        items = (anexos or {}).get(id(doc))
+        if not items:
+            zf.writestr(f"{ruta}{base}.txt", _txt_documento(registro, ambito, doc, False))
+            continue
+        for k, it in enumerate(items, 1):
+            zf.writestr(f"{ruta}{base}{f' ({k})' if len(items) > 1 else ''}{it['ext']}", it["datos"])
+            if origenes is not None:
+                origenes.append(f"{carpeta} / {doc['nombre']}: {it['origen']}")
 
 
 def construir_carpeta(folder_id, directorio):
@@ -422,6 +451,16 @@ def construir_carpeta(folder_id, directorio):
     if pdf_revision is None:
         avisos.append("No había navegador para convertir la revisión a PDF: se incluye en HTML (ábrela en el navegador).")
 
+    # Anexos listos para rellenar: archivos que el órgano publicó aparte y páginas de anexos del PCAP
+    docs_sobres = [d for s_ in bloque5["sobres"] for d in s_["documentos"]] + list(bloque5["posterior"])
+    registro_anexos = {"docs_adicionales": next((r["docs_adicionales"] for r in [registro] + registros if r.get("docs_adicionales")), [])}
+    try:
+        anexos, otros_anexos, otros_documentos, enlaces = anexos_licitacion.preparar_anexos(registro_anexos, docs_sobres, pcap, avisos)
+    except Exception as e:  # los anexos nunca deben impedir la carpeta
+        anexos, otros_anexos, otros_documentos, enlaces = {}, [], [], []
+        avisos.append(f"No se pudieron preparar los anexos ({e!r}); los documentos quedan como .txt.")
+    origenes = []
+
     with zipfile.ZipFile(destino, "w", zipfile.ZIP_DEFLATED) as zf:
         if pcap:
             zf.writestr(f"{raiz}/Pliegos/PCAP - {exp}.pdf", pcap)
@@ -451,16 +490,27 @@ def construir_carpeta(folder_id, directorio):
             # «Presentacion Plataforma»: una carpeta vacía por sobre, donde se dejará lo que se suba a la plataforma
             zf.writestr(f"{raiz}/{CARPETA_PLATAFORMA}/{sanear_nombre(carpeta, 50)}/", "")
             # «Sobres para preparar»: la misma carpeta, con un .txt por documento y las notas del pliego
-            _escribir_documentos(zf, raiz, carpeta, registro, sobre["nombre"], sobre["documentos"], padre=f"{CARPETA_PREPARAR}/")
+            _escribir_documentos(zf, raiz, carpeta, registro, sobre["nombre"], sobre["documentos"], padre=f"{CARPETA_PREPARAR}/",
+                                 anexos=anexos, origenes=origenes)
             if sobre["notas"]:
                 cabecera = f"Condiciones y avisos de este sobre según la revisión IA ({sobre['nombre']}):"
                 zf.writestr(f"{raiz}/{CARPETA_PREPARAR}/{sanear_nombre(carpeta, 50)}/Notas del pliego.txt",
                             "\r\n".join([cabecera, ""] + [f"- {n}" for n in sobre["notas"]]) + "\r\n")
         if bloque5["posterior"]:
-            _escribir_documentos(zf, raiz, "Posterior adjudicatario", registro, "solo si eres el propuesto como adjudicatario (tras el requerimiento)", bloque5["posterior"])
+            _escribir_documentos(zf, raiz, "Posterior adjudicatario", registro, "solo si eres el propuesto como adjudicatario (tras el requerimiento)",
+                                 bloque5["posterior"], anexos=anexos, origenes=origenes)
             if bloque5["notas_posterior"]:
                 zf.writestr(f"{raiz}/Posterior adjudicatario/Notas del pliego.txt",
                             "\r\n".join(["Condiciones y avisos de la documentación posterior:", ""] + [f"- {n}" for n in bloque5["notas_posterior"]]) + "\r\n")
+
+        usados_a, usados_d = set(), set()
+        for nombre_a, datos_a in otros_anexos:
+            zf.writestr(f"{raiz}/{CARPETA_PREPARAR}/Otros anexos del pliego/{_nombre_unico(usados_a, _archivo_seguro(nombre_a))}", datos_a)
+        for nombre_d, datos_d in otros_documentos:
+            zf.writestr(f"{raiz}/Pliegos/Otros documentos/{_nombre_unico(usados_d, _archivo_seguro(nombre_d))}", datos_d)
+        for nombre_e, url_e in enlaces:
+            zf.writestr(f"{raiz}/Pliegos/Otros documentos/{_nombre_unico(usados_d, _archivo_seguro(nombre_e) + '.url')}",
+                        f"[InternetShortcut]\r\nURL={url_e}\r\n")
 
         leeme = [
             f"CARPETA DE LA LICITACIÓN {folder_id}",
@@ -478,12 +528,22 @@ def construir_carpeta(folder_id, directorio):
         if excel_ok:
             leeme.append(f"- {raiz}.xlsx: Excel de trabajo (Info, Solvencia, C.Adjudicación y Sobres). Las casillas se marcan al avanzar.")
         leeme.append(f"- {CARPETA_PLATAFORMA}: una carpeta vacía por sobre ({len(bloque5['sobres'])}), para dejar lo que se sube a la plataforma.")
-        leeme.append(f"- {CARPETA_PREPARAR}: los mismos sobres, con un .txt por cada documento que hay que presentar:")
+        con_anexo = sum(1 for d in docs_sobres if id(d) in anexos)
+        leeme.append(f"- {CARPETA_PREPARAR}: los mismos sobres. Cada documento va como anexo listo para rellenar cuando se ha "
+                     f"encontrado ({con_anexo} de {len(docs_sobres)}) y, si no, como un .txt marcador:")
         leeme += [f"    {s_['nombre']}: {len(s_['documentos'])} documento(s)." for s_ in bloque5["sobres"]]
+        if otros_anexos:
+            leeme.append(f"- {CARPETA_PREPARAR}/Otros anexos del pliego: {len(otros_anexos)} archivo(s) publicados con el pliego "
+                         "que no se han podido asignar a ningún documento.")
+        if otros_documentos or enlaces:
+            leeme.append(f"- Pliegos/Otros documentos: {len(otros_documentos) + len(enlaces)} documento(s) publicados con el pliego.")
         if bloque5["posterior"]:
             leeme.append(f"- Posterior adjudicatario: {len(bloque5['posterior'])} documento(s).")
-        leeme += ["", "Los .txt son marcadores: un archivo por cada documento que hay que presentar, según la Revisión IA. "
-                      "El nombre de cada sobre es el que usa el pliego."]
+        if origenes:
+            leeme += ["", "ANEXOS INCLUIDOS (de dónde sale cada uno)"] + [f"- {o}" for o in origenes]
+        leeme += ["", "Los .txt son marcadores: un archivo por cada documento que hay que presentar y no se ha encontrado como anexo, "
+                      "según la Revisión IA. Los anexos en PDF sacados del PCAP son las páginas del propio pliego; los publicados "
+                      "aparte (Word, etc.) se copian tal cual. El nombre de cada sobre es el que usa el pliego."]
         if avisos:
             leeme += ["", "AVISOS"] + [f"- {a}" for a in avisos]
         leeme += ["", "La Revisión IA es una ayuda: contrástala siempre con los pliegos oficiales."]

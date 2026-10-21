@@ -837,6 +837,20 @@ def documento_junta(documentos, prefijo):
     return max(activos, key=lambda d: d.get("fechaPublicacion") or "")["descarga"]
 
 
+def documentos_adicionales_junta(documentos):
+    """Documentos activos de un expediente de la Junta que no son pliegos ni anuncios (modelos, anexos,
+    información adicional): [{"nombre", "url"}]. Sirven para montar la carpeta de la licitación."""
+    salida = []
+    for d in documentos:
+        categoria = (d.get("categoria") or "").strip()
+        if d.get("estado") != "Activo" or not d.get("descarga"):
+            continue
+        if categoria.upper().startswith(("PCAP", "PPT", "MODIFICACI", "ANUNCIO", "RESOLUCI", "ADJUDICACI", "FORMALIZACI")):
+            continue
+        salida.append({"nombre": (d.get("nombre") or categoria or "documento").strip(), "url": d["descarga"]})
+    return salida
+
+
 def enriquecer_registro_junta(registro, cache, hoy):
     """Completa órgano, importe y URL de PCAP/PPT de una licitación de la Junta (solo huecos).
     cache: {id_expediente: detalle o None} compartido entre filtros para consultar cada
@@ -874,10 +888,28 @@ def enriquecer_registro_junta(registro, cache, hoy):
     documentos = detalle.get("documentos") or []
     poner("pcap_url", documento_junta(documentos, "PCAP"))
     poner("ppt_url", documento_junta(documentos, "PPT"))
+    adicionales = documentos_adicionales_junta(documentos)
+    if adicionales and adicionales != registro.get("docs_adicionales"):
+        registro["docs_adicionales"] = adicionales
+        cambios = True
     if registro.get("junta_consultado") != hoy:
         registro["junta_consultado"] = hoy
         cambios = True
     return cambios
+
+
+def docs_adicionales_entry(entry):
+    """Documentos adicionales de la licitación en el feed (Anexo II.docx, deuc.xml, anexos.zip...):
+    [{"nombre", "url"}]. Son los modelos que el órgano publica aparte del PCAP y el PPT."""
+    docs, vistas = [], set()
+    for ref in entry.findall('.//cac:AdditionalDocumentReference', NS):
+        nombre = (ref.findtext('cbc:ID', namespaces=NS) or "").strip()
+        uri = ref.find('.//cbc:URI', NS)
+        url = uri.text.strip() if uri is not None and uri.text else None
+        if nombre and url and url not in vistas:
+            vistas.add(url)
+            docs.append({"nombre": nombre, "url": url})
+    return docs
 
 
 def parse_entry(entry, filtro_cfg):
@@ -962,6 +994,7 @@ def parse_entry(entry, filtro_cfg):
         "cpv_codes": cpv_codes,
         "pcap_url": pcap_url,
         "ppt_url": ppt_url,
+        "docs_adicionales": docs_adicionales_entry(entry),
         "organo": organo,
         "importe": importe,
         "importe_num": importe_num,
@@ -1105,6 +1138,9 @@ def leer_feed(nombre, url_inicial, contextos, limite_fecha, fecha_captura_hoy):
                 # permitidos del filtro.
                 existente = ctx["historico_idx"].get(data["folder_id"])
                 if existente is not None:
+                    # El órgano puede publicar más modelos con la licitación ya en curso
+                    if data.get("docs_adicionales") and data["docs_adicionales"] != existente.get("docs_adicionales"):
+                        existente["docs_adicionales"] = data["docs_adicionales"]
                     estado_previo = existente.get("estado")
                     limite_previo = existente.get("fecha_limite")
                     cambios = aplicar_cambio_estado(existente, data, fecha_captura_hoy)
