@@ -1390,7 +1390,121 @@
     "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-16"
+    "fecha_captura": "2026-10-16",
+    "revision_ia": {
+      "informe": "## Bloque 1 – Características Principales del Contrato\n\n### Objeto de la licitación\nContrato de servicios (expte. **3437/2026**, Ayuntamiento de Monachil, procedimiento abierto) que agrupa tres prestaciones sobre las obras de reparación y restitución de los viales y espacios públicos de Pradollano (Sierra Nevada): redacción del proyecto completo, dirección técnica de las obras y coordinación de seguridad y salud en ejecución. Las calles afectadas son Virgen de las Nieves, Fuente del Tesoro, Los Copos, Los Pinos y San Bernardo. Se financia con una ayuda estatal de 5.689.000 € (RDL 5/2026).\n\nObjetivos:\n- Redactar el proyecto de obras que restituya los elementos dañados por los temporales y mejore la resiliencia frente a nuevos episodios.\n- Ejercer la dirección de obra (DO) y la coordinación de seguridad y salud (CSS) durante la ejecución.\n- Prestar asistencia técnica al órgano de contratación en todas las fases.\n\nCPV: 71210000-3, 71242000-6 y 71520000-9.\n\nSe ha analizado el PPT (8 págs.). En el PCAP faltan las págs. 7, 19, 29-35, 45-52 y 66-72, y el texto de la fórmula de precio no es legible (aparece como imagen).\n\n### División en lotes\nNo hay división en lotes (cláusula 1.7 y cuadro resumen).\n\n### Características del contrato\n- **Presupuesto base de licitación:** **264.462,81 €** sin IVA, más 55.537,19 € de IVA, es decir **320.000 €** con IVA. Se calcula como un 8 % de una actuación de 4.000.000 €.\n- **Valor estimado:** **264.462,81 €**. Las ofertas que superen el presupuesto quedan desestimadas.\n- ⚠ REVISAR — incoherencias de redacción en el PCAP: habla de \"264.462,81 €/anual\" y de \"125.637,22 €/bianuales\", y el Anexo IV pide el precio en \"Euros/anuales\". El contrato es de precio global, sin prórrogas ni anualidades claras.\n- **Duración:** estimada en **3 años**: 6 meses de redacción del proyecto, 6 meses de licitación de la obra y 2 años de obra. El plazo de garantía es de 2 meses desde el abono de la última factura. El servicio se inicia 5 días después de formalizar el contrato.\n- **Presentación de ofertas:** exclusivamente electrónica, en la Plataforma de Contratación del Sector Público, en 3 archivos (A, B y C). El plazo es de **35 días naturales** desde la publicación del anuncio. La fecha concreta no consta en los textos recibidos. Las consultas deben hacerse al menos 6 días antes del fin del plazo.\n- **Regulación armonizada:** ⚠ REVISAR. La cláusula 1.2 y 1.5 dice que el contrato no está sujeto a regulación armonizada, pero el cuadro resumen marca \"Sujeto a regulación armonizada: SÍ\".\n- **Subcontratación:** NO (cuadro, apartado L). Tampoco hay cesión, revisión de precios, modificaciones previstas ni subrogación.\n- **Trabajos específicos (según el PPT):**\n  - El proyecto incluye memoria, anejo topográfico, anejo geotécnico \"cuando sea necesario\", estudio de tráfico si procede, accesibilidad, normativa urbanística, residuos, estudio de seguridad y salud, plan de control de calidad, mediciones, cuadro de precios, presupuesto, planos, PPT de obra y programa de trabajos.\n  - También incluye los documentos necesarios para las autorizaciones sectoriales.\n  - La DO comprende replanteo, control de plazo y coste, certificaciones, liquidación, proyectos modificados si procede y plan de RCD.\n  - La CSS se rige por el RD 1627/97.\n  - No hay arqueología ni trámite ambiental expresos.\n- **Adscripción de medios:** obligatoria (obligación esencial). Las sustituciones deben ser por técnicos de perfil análogo y aprobadas por el responsable del contrato.\n- **Responsable del contrato:** D. Daniel F. García del Pozo, arquitecto municipal.\n- **Seguro RC:** cláusula 9.7 y Anexo III (ver Bloque 2).\n\n## Bloque 2 – Solvencia\n\n### Económica y financiera\n- **Volumen de negocio:** la suma de los tres últimos años debe ser **≥ 150 % del valor estimado**, es decir **≥ 396.694,22 €**. (El PPT dice \"150 % del precio del contrato\"; el resultado es equivalente).\n- **Acreditación:** copia de los modelos anuales que acrediten el volumen de negocio de los tres últimos años (cuentas anuales o similar).\n- **Seguro de RC** con capital asegurado **superior al doble del valor estimado sin IVA**, es decir **> 528.925,62 €**. Se acredita con el certificado de la póliza en vigor, y se aplica a la persona física o jurídica licitadora.\n- **Clasificación empresarial:** no se exige en los textos recibidos.\n\n### Técnica y profesional\nLos requisitos se aplican a la persona física, o al administrador o socio si el licitador es persona jurídica:\n- **Titulación:** Arquitecto o Ingeniero de Caminos, Canales y Puertos.\n- **Colegiación:** antigüedad de colegiación obligatoria de **10 años**.\n- **Experiencia:** haber sido redactor o formar parte de la dirección facultativa de alguna obra, pública o privada, de su competencia, con **PEM igual o superior al de la presente obra**.\n  - ⚠ REVISAR: el PEM de la obra no se indica en los textos. Solo consta una actuación de 4.000.000 € y una ayuda de 5.689.000 €.\n\nForma de acreditación:\n- Copia del título.\n- Certificado del colegio profesional.\n- Certificado del promotor de la obra con su presupuesto.\n- Certificado de la póliza de RC.\n\nReglas sobre equipo y medios:\n- **Persona jurídica:** su objeto social debe incluir servicios técnicos de arquitectura o ingeniería. Su administrador o algún socio debe tener la titulación exigida y ser quien redacte el proyecto y ejerza la DO y la CSS.\n- **Subcontratación:** no está permitida. Sí caben UTE (cada miembro presenta su DEUC) y la integración de solvencia con medios externos (art. 75 LCSP, Anexo V). Sin embargo, la exigencia de que el administrador o socio sea el redactor, el director de obra y el coordinador limita la utilidad práctica de estas vías.\n- **Criterio de mejora de equipo:** no hay ninguno. Los criterios automáticos son solo precio y plazo.\n- **Anexo X:** el PCAP incluye un modelo de relación de trabajos de los tres últimos años. No se aprecia en los textos recibidos que el pliego lo exija expresamente como requisito de solvencia.\n\n## Bloque 3 – Criterios de Adjudicación\n\nTotal: **100 puntos**, de los cuales **69** son automáticos y **31** de juicio de valor.\n\n### Automáticos (fórmulas)\n| Criterio | Puntos | Regla |\n|---|---|---|\n| Oferta económica | **49** | Máximo de puntos a la oferta más baja. Una oferta igual al tipo obtiene 0 puntos. No hay umbral de saciedad. |\n| Plazo de entrega del proyecto | **20** | Plazo base de 6 meses. **5 puntos por cada mes de reducción**, hasta 20 (reducción máxima de 4 meses). |\n\n- **Fórmula del precio:** variables Pi (puntos de la oferta i), Pmáx = 49, PL (precio base de licitación), Pof (precio ofertado) y Pmo (precio de la mejor oferta). La expresión matemática no es legible en el texto. Por la justificación del pliego, cabe suponer que es lineal: Pi = Pmáx × (PL − Pof)/(PL − Pmo). ⚠ REVISAR en el PCAP original.\n- **Ofertas anormalmente bajas:** las que excedan en más de 10 unidades la media aritmética de las bajas, o en un 15 % el precio base. Se aplica el art. 149 LCSP, con 5 días hábiles para justificar.\n- **Plazo (PCAP):** no se aclara el tratamiento de fracciones de mes.\n- **Desempate:** criterios sociales del art. 147.2 LCSP (discapacidad, temporalidad, mujeres) y, en último término, sorteo.\n\n### Juicio de valor\nSe presenta un **anteproyecto** (Archivo B) por un total de **31 puntos**:\n\n| Apartado | Puntos | Bandas |\n|---|---|---|\n| 1. Análisis y diagnóstico del estado de la urbanización | 8 | 7-8 / 3-5 / 1-2 / 0 |\n| 2. Calidad técnica de las soluciones propuestas | 8 | 7-8 / 5-6 / 2-4 / 0-1 |\n| 3. Viabilidad económica y coherencia del presupuesto | 8 | 6-8 / 3-5 / 1-3 / 0 |\n| 4. Definición gráfica y georreferenciación | 7 | 6-7 / 3-5 / 1-2 / 0 |\n\nFormato exigido:\n- **Memoria:** 10 páginas a 1 cara en PDF (11 si se incluye portada).\n  - Solo se admiten fotografías propias.\n  - No se puede usar IA ni fuentes ajenas (Google Earth, internet). Si se detecta, no se valora el anteproyecto.\n- **Planos:** 5 planos a escala 1:500 en PDF.\n  - ⚠ REVISAR: el PPT indica tamaño **A1**, que el PCAP no menciona.\n  - ⚠ REVISAR: el PCAP exige además **3 ficheros .shp** (puntos, líneas y superficies), y menciona el archivo BC3 en el apartado 3. El PPT no lo cita (según el PPT, el apartado 4 se titula \"Definición gráfica\" sin georreferenciación).\n- **Mediciones y presupuesto:** PDF sin límite de extensión.\n- **Banda de puntuación:** hay bandas con huecos o solapes (en el apartado 1 no figura el 6; en el 3 se solapan 3-5 y 1-3). Se aconseja consultarlo.\n\n### Umbrales mínimos de puntuación\nNo localizados en los textos recibidos, que están incompletos (falta la pág. 19 del PCAP, sobre la apertura del Archivo B, y otras). Conviene revisar el PCAP completo.\n\n## Bloque 4 – Forma de Pago\n\nPlan de pagos (iguales en PCAP cláusula 3.3 y PPT cláusula 7), sobre el importe de adjudicación:\n\n| Hito | % |\n|---|---|\n| 1. Entrega de documentación previa (planos y mediciones con precios justificados) para validación municipal | 10 % |\n| 2. Entrega del proyecto completo | 30 % |\n| 3. Firma del acta de inicio de la obra | 20 % |\n| 4. Ejecución y certificación del 50 % de la obra | 20 % |\n| 5. Finalización, liquidación y certificación final de la obra | 20 % |\n\n- **Facturación:** requiere factura conformada por el responsable del contrato (Oficina contable: Intervención; DIR3 L01181345).\n- **Impacto en caja:** el 60 % del precio depende de hitos de la obra. Esta tiene unos 2 años de ejecución, más un periodo de licitación, así que el cobro se alarga hasta unos 3 años.\n- **Revisión de precios:** no.\n- **Garantía definitiva:** 5 % del importe de adjudicación sin IVA. No se exige garantía complementaria. Se devuelve tras el fin del contrato (abono de la última factura) y el informe favorable.\n- **Penalidades por demora:** **0,60 € por cada 1.000 €** del precio sin IVA, por día de retraso. Al alcanzar múltiplos del 5 % del precio, el órgano puede resolver el contrato.\n- **Incumplimientos:** leves 0,1-0,5 %, graves 0,5-0,9 % y muy graves 0,9-1,5 % del precio de adjudicación. Es muy grave incumplir los compromisos ofertados, como la reducción de plazo.\n- **Penalidad por no atender el requerimiento previo a la adjudicación:** 3 % del presupuesto base sin IVA.\n- **Modificaciones:** no hay previstas. Las no previstas son obligatorias hasta el 20 % del precio inicial.\n- **Seguro:** el contratista debe mantener un seguro de RC a su costa hasta la recepción del objeto del contrato.\n\n## Bloque 5 – Documentación a Presentar\n\n### Archivo electrónico A – Documentación administrativa\n- **Índice y datos del licitador:** datos de contacto y de notificación electrónica (NIF, correo y teléfono).\n- **Documentos de personalidad:** DNI o escrituras y estatutos inscritos. Debe constar la habilitación profesional que corresponda.\n- **Documentos de representación:** poder bastante, si se actúa en nombre de otro.\n- **Anexo I – Declaración responsable:** incluye grupo empresarial, PYME, adscripción de medios y datos de UTE.\n- **DEUC:** firmado según las instrucciones del Anexo II.\n  - Si se recurre a medios externos, cada uno presenta su propio DEUC.\n  - ⚠ REVISAR: el Anexo II indica que el DEUC se presentará \"en formato papel firmado\", lo que contradice la presentación exclusivamente electrónica.\n- **Compromiso de constitución de UTE** (si procede): firmado por todos los miembros, con la participación de cada uno. Cada miembro presenta su DEUC.\n- **Documentación de empresas extranjeras:** declaración de sometimiento a los tribunales españoles y, si no son de la UE o del EEE, informe de la misión diplomática y de reciprocidad.\n\n### Archivo electrónico B – Criterios valorables mediante juicio de valor\n- **Anteproyecto:** memoria descriptiva y justificativa (10 págs. a 1 cara), 5 planos a escala 1:500 y 3 ficheros .shp, y mediciones y presupuesto en PDF (con archivo BC3, según el PCAP).\n- **Sin datos del Archivo C:** incluir cualquier dato del Archivo C aquí supone la exclusión de la oferta.\n\n### Archivo electrónico C – Criterios cuantificables automáticamente\n- **Anexo IV – Proposición económica:** precio sin IVA y con IVA, con el IVA como partida independiente.\n- **Reducción del plazo de entrega:** el mismo anexo recoge la reducción del plazo del proyecto, en meses.\n\n### Documentación posterior (solo el propuesto como adjudicatario)\nSe requiere por vía electrónica y debe presentarse en **10 días hábiles**:\n- **Habilitación profesional**, si es legalmente exigible.\n- **Alta en el IAE** (o último recibo y declaración de no baja, o exención).\n- **Certificados** de la AEAT, de la Agencia Tributaria de Andalucía y de la Seguridad Social. El Ayuntamiento comprueba de oficio el cumplimiento con él mismo.\n- **Garantía definitiva** del 5 %.\n- **Plan de igualdad**, si la empresa tiene 50 o más trabajadores. ⚠ REVISAR: el Anexo I habla de más de 250 trabajadores.\n- **Documentación de solvencia (Anexo III y PPT):** título profesional, certificado del colegio, certificado del promotor con el presupuesto de obra, póliza de RC en vigor y modelos anuales de volumen de negocio.\n- **Anexo V – Compromiso de integración de solvencia con medios externos**, en su caso.\n- **Penalidad por incumplimiento:** no atender el requerimiento supone retirar la oferta y una penalidad del 3 % del presupuesto base sin IVA.\n\n## Bloque 6 – Conclusiones / Análisis Preliminar\n\n### Precio y duración\nEl presupuesto de **264.462,81 €** sin IVA cubre un plazo de unos 3 años (6 meses de proyecto, unos 6 de licitación y 2 años de obra con DO y CSS). Equivale a unos 88.000 € por año, o al 6,6 % de la actuación de 4 M€ sin IVA. Está dentro del rango habitual de contratos de CAI (hasta unos 356.000 €).\n\nDos puntos de atención:\n- El 60 % del cobro depende de hitos de la obra, que dura 2 años y empieza después de la licitación.\n- El plazo base de 6 meses para el proyecto es ajustado, y se premia reducirlo.\n\n### Comparación con el perfil de CAI\n\n| Requisito | Exigido | Perfil CAI | Resultado |\n|---|---|---|---|\n| Volumen de negocio (3 últimos años) | ≥ 396.694,22 € | 2025: 1.860.115 € (sin verificar), 2024: 1.876.061 €, 2023: 1.298.075 €; suma ≈ **5,03 M€** | Cumple con amplio margen |\n| Seguro de RC | > 528.925,62 € | 2,5 M€ (Caser); certificado 2026 pendiente de aportar | Cumple, falta acreditar el certificado vigente |\n| Titulación del administrador o socio | Arquitecto o ICCP | Enrique de la Torre Lara, ICCP y administrador (CICCP nº 16917, verificado) | Cumple |\n| Colegiación de 10 años | 10 años | Colegiado; visados desde 2006 (B-060) | Cumple en principio. Confirmar la fecha de alta con el certificado colegial |\n| Experiencia en obra con PEM ≥ la de la obra | PEM de la obra no indicado | DO y proyectos de urbanización con PEM de 3 a 53 M€ (B-021, B-007, B-008, B-011, B-027, entre otros) | Cumple holgadamente, aunque el PEM exigido es ⚠ REVISAR |\n| Redactor, DO y CSS en la persona del administrador o socio | Mismo profesional | Enrique de la Torre ha sido redactor y director de obra de forma recurrente | Cumple. Ya figura como proyectista en SE-017/23 (Huelin-Ayala, CPV 71242000) |\n| Clasificación | No exigida | — | Sin requisito |\n| Subcontratación | No permitida | No necesaria | Sin carencia |\n\nEl perfil ya incluye contratos ganados en solitario de objeto muy similar: redacción de proyectos de urbanización y espacio público (Huelin-Ayala, Torremolinos, La Línea), y DO y CSS de obras. Los certificados de buena ejecución del perfil cubren redacción y DO de urbanización. No hay datos del PEM de la obra, lo que obliga a revisarlo.\n\nPuntos a confirmar antes de presentar:\n- Certificado de RC de 2026.\n- Fecha de colegiación de Enrique de la Torre.\n- Certificados de promotor con PEM de al menos una obra suficiente.\n- Cifra de 2025 sin certificado oficial. El requisito se cumple igualmente sin ella (2023 + 2024 ≈ 3,17 M€).\n\n### Semáforo de presentación\n**Color: VERDE.** Se cumplen **5 de 5** requisitos de admisibilidad (solvencia económica, seguro de RC, titulación, colegiación de 10 años y experiencia en obras), sin necesidad de subcontratar ni de UTE.\n\nCarencias por acreditar, no incumplimientos:\n- Certificado de RC de 2026.\n- Fecha de colegiación de Enrique de la Torre.\n- Certificado de la obra de referencia con su PEM.\n\nEl pliego no permite subcontratar, pero CAI no lo necesita, porque el administrador cubre redacción, DO y CSS. No hay clasificación empresarial exigida.",
+      "usa_ppt": true,
+      "uso": {
+        "entrada": 69398,
+        "salida": 12196,
+        "cache_leida": 0,
+        "cache_escrita": 21273
+      },
+      "coste_estimado_usd": 0.3139,
+      "semaforo": "verde",
+      "semaforo_motivo": "Cumplimos los 5 requisitos de admisibilidad en solitario (volumen de negocio, seguro de RC, titulación, colegiación y obra de referencia); falta solo aportar certificados.",
+      "datos_excel": {
+        "info": {
+          "valor_estimado": 264462.81,
+          "iva_pct": 21,
+          "fecha_presentacion": null,
+          "plazo_ejecucion": "3 años (proyecto 6 meses; licitación obra 6 meses; obra 2 años); garantía 2 meses",
+          "consultas": "Al menos 6 días antes del fin del plazo de presentación",
+          "garantia_provisional": "No consta",
+          "garantia_definitiva": "5% del importe de adjudicación sin IVA",
+          "seguro_rc": "Capital > doble del valor estimado sin IVA (> 528.925,62 €)",
+          "lotes": "No hay lotes",
+          "revision_precios": "No",
+          "plazo_garantia": "2 meses desde el abono de la última factura",
+          "ute": "Sí, con compromiso de constitución y DEUC de cada miembro",
+          "subcontratacion": "No (cuadro resumen, apartado L)",
+          "umbral_tecnico": "No localizado"
+        },
+        "solvencia": {
+          "nota": "Requisitos aplicables a la persona física o al administrador/socio de la persona jurídica, que debe ser redactor, director de obra y coordinador de SS. Subcontratación prohibida; UTE y medios externos (art. 75 LCSP) admitidos. No se exige clasificación.",
+          "economica": [
+            {
+              "nombre": "Volumen de negocio (3 últimos años)",
+              "valor": "Suma ≥ 150% del valor estimado = 396.694,22 €",
+              "acreditacion": "Copia de los modelos anuales de volumen de negocio",
+              "cai": "cumple",
+              "cai_nota": "Suma 2023-2025 ≈ 5,03 M€ (2025 sin verificar)"
+            },
+            {
+              "nombre": "Seguro de RC",
+              "valor": "Capital > doble del valor estimado sin IVA (> 528.925,62 €)",
+              "acreditacion": "Certificado de póliza en vigor",
+              "cai": "cumple",
+              "cai_nota": "2,5 M€; certificado 2026 pendiente de aportar"
+            }
+          ],
+          "tecnica": [
+            {
+              "nombre": "Obra de referencia con PEM ≥ al de la presente obra",
+              "valor": "Redactor o dirección facultativa de una obra pública o privada de su competencia",
+              "acreditacion": "Certificado del promotor con el presupuesto de la obra",
+              "cai": "cumple",
+              "cai_nota": "DO y proyectos de urbanización de 3 a 53 M€ PEM; PEM exigido no indicado"
+            }
+          ],
+          "equipo": [
+            {
+              "nombre": "Administrador/socio persona física o jurídica: redactor, DO y CSS",
+              "valor": "Arquitecto o ICCP; colegiación de 10 años",
+              "acreditacion": "Copia del título y certificado del colegio oficial",
+              "cai": "cumple",
+              "cai_nota": "Enrique de la Torre Lara, ICCP, administrador, colegiado nº 16917; confirmar antigüedad de colegiación"
+            }
+          ]
+        },
+        "juicio_valor": [
+          {
+            "nombre": "Anteproyecto (Archivo B)",
+            "puntos": 31,
+            "paginas_a4": 10,
+            "paginas_a3": null,
+            "formato": "Memoria de 10 págs. a 1 cara en PDF (11 con portada); 5 planos 1:500 en PDF (A1 según el PPT); 3 ficheros .shp (según el PCAP); mediciones y presupuesto en PDF sin límite. Solo fotos propias, sin IA ni fuentes ajenas",
+            "acreditacion": "Archivo electrónico B",
+            "apartados": [
+              {
+                "nombre": "Análisis y diagnóstico del estado de la urbanización",
+                "puntos": 8
+              },
+              {
+                "nombre": "Calidad técnica de las soluciones propuestas",
+                "puntos": 8
+              },
+              {
+                "nombre": "Viabilidad económica y coherencia del presupuesto",
+                "puntos": 8
+              },
+              {
+                "nombre": "Definición gráfica y georreferenciación de la propuesta",
+                "puntos": 7
+              }
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "nombre": "Oferta económica",
+            "puntos": 49,
+            "formula": "Fórmula no legible en el texto; por la justificación del pliego, probable Pi = Pmáx × (PL − Pof)/(PL − Pmo); Pi = puntos de la oferta i; Pmáx = 49; PL = precio base de licitación; Pof = precio ofertado; Pmo = precio de la mejor oferta. Revisar PCAP original. Anormalidad: > 10 unidades sobre la media de bajas o 15% del precio base",
+            "acreditacion": "Anexo IV (Archivo C)"
+          },
+          {
+            "nombre": "Plazo de entrega del proyecto",
+            "puntos": 20,
+            "formula": "5 puntos por cada mes de reducción sobre 6 meses, máximo 20 (4 meses)",
+            "acreditacion": "Anexo IV (Archivo C)"
+          }
+        ],
+        "otros": [],
+        "umbral": "No localizado en los textos recibidos"
+      },
+      "fecha_analisis": "2026-10-21T16:09:29.506534+00:00",
+      "solicitada_por": "CarlosLCAI"
+    }
   },
   {
     "folder_id": "CONTR 2026 0000321256",
