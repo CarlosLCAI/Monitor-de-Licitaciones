@@ -50,3 +50,6 @@ jobs:
               || gh release view carpetas >/dev/null
           fi
           gh release upload carpetas "$RUNNER_TEMP"/carpetas/*.zip --clobber
+          # Limpieza única: los ZIP con el nombre antiguo («carpeta_<expediente>.zip») ya no se usan
+          gh release view carpetas --json assets --jq '.assets[].name | select(startswith("carpeta_"))' \
+            | while read -r antiguo; do gh release delete-asset carpetas "$antiguo" --yes; done || true

@@ -346,8 +346,13 @@ def sanear_nombre(texto, maximo=80):
 
 
 def nombre_archivo_zip(folder_id):
-    """Nombre del ZIP en la release «carpetas». El visor calcula el mismo para enlazarlo."""
-    return "carpeta_" + re.sub(r"[^A-Za-z0-9._-]+", "-", folder_id).strip("-") + ".zip"
+    """Nombre del ZIP en la release «carpetas»: el número de expediente. El visor calcula el mismo para enlazarlo."""
+    return re.sub(r"[^A-Za-z0-9._-]+", "-", folder_id).strip("-") + ".zip"
+
+
+def nombre_carpeta_expediente(folder_id):
+    """La carpeta se llama como el expediente; los caracteres que Windows no admite (como la «/») pasan a «-»."""
+    return re.sub(r'\s+', " ", re.sub(r'[<>:"/\\|?*\x00-\x1f]+', "-", str(folder_id))).strip(" .-")[:80] or "expediente"
 
 
 def descargar_pdf(url):
@@ -392,7 +397,7 @@ def construir_carpeta(folder_id, directorio):
         raise SystemExit(f"{folder_id}: el Bloque 5 de la revisión no detalla los sobres y documentos; no se prepara la carpeta.")
 
     exp = sanear_nombre(folder_id, 40)
-    raiz = sanear_nombre(f"{exp} - {registro.get('descripcion') or registro.get('titulo') or ''}", 60)
+    raiz = nombre_carpeta_expediente(folder_id)
     avisos = []
     os.makedirs(directorio, exist_ok=True)
     destino = Path(directorio) / nombre_archivo_zip(folder_id)

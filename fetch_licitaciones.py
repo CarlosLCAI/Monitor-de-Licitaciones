@@ -1084,6 +1084,7 @@ def leer_feed(nombre, url_inicial, contextos, limite_fecha, fecha_captura_hoy):
 CAMPOS_MARCA_REVISION = (
     ("revisado_humano", "revisado_fecha", "revisado_por"),
     ("presentado", "presentado_fecha", "presentado_por"),
+    ("carpeta_descargada", "carpeta_descargada_fecha", "carpeta_descargada_por"),
     ("descartado", "descartado_fecha", "descartado_por"),
 )
 

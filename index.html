@@ -316,7 +316,8 @@
   .links a.link-revision-ia { font-weight: 700; }
   .links a.link-solicitar-ia { color: var(--ink-soft); border-bottom-color: var(--ink-soft); }
   .links a.link-descargar-carpeta { font-weight: 700; }
-  .links a.link-rehacer-carpeta { color: var(--ink-soft); border-bottom-color: var(--ink-soft); font-size: 10.5px; }
+  .links a.link-rebajar-carpeta { font-size: 10.5px; color: var(--etiqueta-suave); border-bottom-color: var(--etiqueta-suave); }
+  .links .carpeta-lista { font-size: 11.5px; color: var(--ink-soft); border-bottom: 1px dotted var(--ink-soft); width: fit-content; white-space: nowrap; cursor: default; }
   .links .carpeta-pendiente { font-size: 11.5px; color: var(--ink-soft); font-style: italic; white-space: nowrap; }
   .links .carpeta-bloqueada { font-size: 11.5px; color: var(--etiqueta-suave); white-space: nowrap; cursor: not-allowed; border-bottom: 1px dotted var(--border); width: fit-content; }
   .links .revision-pendiente { font-size: 11.5px; color: var(--ink-soft); font-style: italic; white-space: nowrap; }
@@ -841,8 +842,8 @@
 
             <h4>Preparar la carpeta de una licitación</h4>
             <ul>
-              <li>En una licitación con <strong>Revisión IA</strong> aparece <strong>Preparar carpeta</strong>. Al pulsarla se genera en un par de minutos (necesita el token, igual que pedir la revisión) y el enlace pasa a <strong>Descargar carpeta</strong>, que baja un ZIP a tu carpeta de Descargas. <em>Rehacer</em> la vuelve a preparar.</li>
-              <li>Dentro del ZIP: <strong>Pliegos</strong> (PCAP, PPT, la revisión IA en PDF y un acceso a la ficha), una carpeta por cada <strong>sobre</strong> (con el nombre que le da el pliego) con un .txt por documento que hay que presentar, y <strong>Posterior adjudicatario</strong> con lo que solo se exige al propuesto como adjudicatario. Por ahora los .txt son marcadores con el nombre de cada documento.</li>
+              <li>En una licitación con <strong>Revisión IA</strong> aparece <strong>Preparar carpeta</strong>. Al pulsarla se genera en un par de minutos (necesita el token, igual que pedir la revisión) y el ZIP se baja solo a tu carpeta de Descargas (mantén la pestaña abierta; si la cierras, se descarga al volver a entrar, o con <strong>Descargar carpeta</strong>). En cuanto se descarga, solo, en tu navegador, el enlace pasa a <strong>Carpeta preparada</strong> en gris para todo el equipo (con quién la descargó y cuándo) y no se puede volver a pedir: quien la descargue debe subirla al servidor común (NAS) para que el resto la tenga.</li>
+              <li>El ZIP y su carpeta se llaman como el número de expediente. Dentro: <strong>Pliegos</strong> (PCAP, PPT, la revisión IA en PDF y un acceso a la ficha), una carpeta por cada <strong>sobre</strong> (con el nombre que le da el pliego) con un .txt por documento que hay que presentar, y <strong>Posterior adjudicatario</strong> con lo que solo se exige al propuesto como adjudicatario. Por ahora los .txt son marcadores con el nombre de cada documento.</li>
               <li>Si el botón sale en gris, la revisión no detalla bien los sobres (Bloque 5) y no se puede preparar. Las revisiones más antiguas suelen estar en ese caso: pide una nueva.</li>
               <li>El ZIP se guarda en el repositorio público, así que cualquiera con el enlace podría descargarlo: contiene solo documentos públicos.</li>
             </ul>
@@ -1406,7 +1407,7 @@ function parsearBloque5(informe) {
 function bloque5Valido(informe) { return parsearBloque5(informe) !== null; }
 
 function nombreZipCarpeta(folderId) {
-  return 'carpeta_' + String(folderId).replace(/[^A-Za-z0-9._-]+/g, '-').replace(/^-+|-+$/g, '') + '.zip';
+  return String(folderId).replace(/[^A-Za-z0-9._-]+/g, '-').replace(/^-+|-+$/g, '') + '.zip';
 }
 
 function leerCarpetasPendientes() {
@@ -1440,16 +1441,50 @@ function enlaceCarpeta(r) {
   if (!bloque5Valido(r.revision_ia.informe)) {
     return '<span class="carpeta-bloqueada" title="La revisión IA no detalla bien los sobres y documentos (Bloque 5): no se puede preparar la carpeta. Solicita una revisión nueva si hace falta.">Preparar carpeta</span>';
   }
+  // Ya descargada por alguien (marca compartida): queda en gris y no se puede volver a pedir.
+  if (r.carpeta_descargada) {
+    const quien = r.carpeta_descargada_por ? ' por ' + nombrePersona(r.carpeta_descargada_por) : '';
+    const cuando = r.carpeta_descargada_fecha ? ' el ' + formatearFecha(r.carpeta_descargada_fecha) : '';
+    const zip = carpetasPreparadas.get(nombreZipCarpeta(r.folder_id));
+    return '<span class="carpeta-lista" title="' + escapeHtml('Carpeta descargada' + quien + cuando + '. Debería estar ya en el servidor común.') + '">Carpeta preparada</span>' +
+      (zip ? '<a href="' + escapeHtml(zip.url) + '" class="link-rebajar-carpeta" rel="noopener" title="Volver a bajar el mismo ZIP (no genera nada nuevo)">Volver a bajar</a>' : '');
+  }
   if (carpetaPendiente(r.folder_id)) {
-    return '<span class="carpeta-pendiente" title="Se está preparando; tarda un par de minutos">Preparando carpeta…</span>';
+    return '<span class="carpeta-pendiente" title="Se está preparando; cuando termine se descargará sola en este navegador">Preparando carpeta…</span>';
   }
   const hecha = carpetasPreparadas.get(nombreZipCarpeta(r.folder_id));
   if (hecha) {
     const fecha = isNaN(hecha.actualizado) ? '' : ' (preparada el ' + new Date(hecha.actualizado).toLocaleDateString('es-ES') + ')';
-    return '<a href="' + escapeHtml(hecha.url) + '" class="link-descargar-carpeta" rel="noopener" title="' + escapeHtml('Descargar el ZIP con los pliegos y los sobres' + fecha) + '">Descargar carpeta</a>' +
-      '<a href="#" class="link-rehacer-carpeta" data-folder-id="' + id + '" title="Volver a prepararla (por ejemplo, tras una revisión IA nueva)">Rehacer</a>';
+    return '<a href="' + escapeHtml(hecha.url) + '" class="link-descargar-carpeta" data-folder-id="' + id + '" rel="noopener" title="' +
+      escapeHtml('Descargar el ZIP con los pliegos y los sobres' + fecha + '. Al descargarla queda marcada para todos y no se podrá volver a pedir.') + '">Descargar carpeta</a>';
   }
-  return '<a href="#" class="link-preparar-carpeta" data-folder-id="' + id + '" title="Prepara un ZIP con los pliegos y una carpeta por sobre">Preparar carpeta</a>';
+  return '<a href="#" class="link-preparar-carpeta" data-folder-id="' + id + '" title="Prepara un ZIP con los pliegos y una carpeta por sobre; al terminar se descarga solo">Preparar carpeta</a>';
+}
+
+// Cuando el ZIP está listo, se baja solo en el navegador de quien lo pidió (a su carpeta de Descargas) y se
+// deja constancia. Si el navegador bloqueara una descarga automática, queda el enlace «Volver a bajar».
+function descargarCarpetaSola(folderId, url) {
+  const a = document.createElement('a');
+  a.href = url;
+  a.rel = 'noopener';
+  a.style.display = 'none';
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  registrarDescargaCarpeta(folderId);
+}
+
+// La descarga la hace el propio enlace. Aquí solo se deja constancia (para todos los filtros) de que la
+// carpeta ya se ha descargado: el navegador no dice si el archivo llegó a guardarse, solo que se inició.
+async function registrarDescargaCarpeta(folderId) {
+  if (!obtenerTokenGuardado()) return; // sin token se puede descargar, pero no dejar constancia
+  try {
+    await guardarMarca(folderId, 'carpeta', true);
+    await refrescarDatosActuales();
+  } catch (e) {
+    await refrescarDatosActuales().catch(() => {});
+    alert('La descarga ha empezado, pero no se pudo dejar constancia de que la carpeta está descargada: ' + e.message);
+  }
 }
 
 async function prepararCarpeta(folderId) {
@@ -1499,7 +1534,12 @@ async function comprobarCarpetas() {
   for (const id of ids) {
     const p = pendientes[id];
     const hecha = carpetasPreparadas.get(nombreZipCarpeta(id));
-    if (hecha && hecha.actualizado >= p.solicitadaEn - 120000) { delete pendientes[id]; cambio = true; }
+    if (hecha && hecha.actualizado >= p.solicitadaEn - 120000) {
+      delete pendientes[id];
+      cambio = true;
+      escribirCarpetasPendientes(pendientes); // antes de descargar, para no repetirlo si falla algo después
+      descargarCarpetaSola(id, hecha.url);
+    }
     else if (Date.now() - p.solicitadaEn > CARPETA_PENDIENTE_TTL_MS) { delete pendientes[id]; cambio = true; }
   }
   escribirCarpetasPendientes(pendientes);
@@ -1814,11 +1854,14 @@ function renderTabla(lista) {
     });
   });
 
-  cont.querySelectorAll('.link-preparar-carpeta, .link-rehacer-carpeta').forEach(a => {
+  cont.querySelectorAll('.link-preparar-carpeta').forEach(a => {
     a.addEventListener('click', (e) => {
       e.preventDefault();
       prepararCarpeta(a.dataset.folderId);
     });
+  });
+  cont.querySelectorAll('.link-descargar-carpeta').forEach(a => {
+    a.addEventListener('click', () => registrarDescargaCarpeta(a.dataset.folderId)); // la descarga sigue su curso
   });
 }
 
@@ -2614,6 +2657,7 @@ const CAMPOS_MARCA = {
   revisado: { valor: 'revisado_humano', fecha: 'revisado_fecha', por: 'revisado_por' },
   presentado: { valor: 'presentado', fecha: 'presentado_fecha', por: 'presentado_por' },
   descartado: { valor: 'descartado', fecha: 'descartado_fecha', por: 'descartado_por' },
+  carpeta: { valor: 'carpeta_descargada', fecha: 'carpeta_descargada_fecha', por: 'carpeta_descargada_por' },
 };
 const ETIQUETAS_MARCA = { revisado: 'Revisado', presentado: 'Presentado', descartado: 'Descartado' };
 const TEXTO_MARCAR = {
@@ -2621,7 +2665,7 @@ const TEXTO_MARCAR = {
   presentado: 'Marcar como presentado: nos hemos presentado a esta licitación',
   descartado: 'Descartar: sale de «Última lectura» y «En plazo» y solo se ve en «Todas»',
 };
-const TEXTO_GUARDADO = { revisado: 'revisión humana', presentado: 'presentación', descartado: 'descarte' };
+const TEXTO_GUARDADO = { revisado: 'revisión humana', presentado: 'presentación', descartado: 'descarte', carpeta: 'descarga de la carpeta' };
 
 async function guardarCamposEnFiltro(filtroId, folderId, campos, mensaje, intentosMax = 3) {
   const token = obtenerTokenGuardado();
@@ -3028,6 +3072,7 @@ document.getElementById('modal-revision-overlay').addEventListener('click', (e) 
 // y la campana se muestra rellena durante la primera semana. Solo cambios que el usuario note.
 const NOVEDADES = [
   { fecha: '2026-10-21', items: [
+    "<strong>Carpeta preparada.</strong> Al pulsar <em>Preparar carpeta</em>, en un par de minutos el ZIP se descarga solo en tu carpeta de Descargas y el enlace pasa a <em>Carpeta preparada</em> en gris para todos, con quién la descargó y cuándo, y ya no se puede volver a pedir. Quien la descargue debe subirla al servidor común.",
     "<strong>Preparar carpeta.</strong> Cuando una licitación tiene Revisión IA, aparece el enlace <em>Preparar carpeta</em>. En un par de minutos genera un ZIP, que se descarga de una vez con <em>Descargar carpeta</em>, con: la carpeta <em>Pliegos</em> (PCAP, PPT, la revisión IA en PDF y un acceso a la ficha), una carpeta por cada sobre (con el nombre que le da el pliego) con un .txt por documento que hay que presentar, y otra <em>Posterior adjudicatario</em>. Si el Bloque 5 de la revisión no detalla bien los sobres, el botón queda desactivado.",
     "<strong>La revisión IA también lee el PPT.</strong> Las revisiones nuevas analizan el pliego de prescripciones técnicas junto con el PCAP (equipo, entregables, plazos), y el Bloque 5 detalla los sobres con el nombre de cada documento. Las revisiones anteriores no se han rehecho.",
   ] },
