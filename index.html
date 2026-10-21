@@ -398,6 +398,13 @@
   .st-leyenda div { display: flex; align-items: center; gap: 7px; padding: 2px 0; }
   .st-leyenda i { width: 10px; height: 10px; border-radius: 2px; flex: none; }
   .st-leyenda em { font-style: normal; margin-left: auto; padding-left: 8px; white-space: nowrap; color: var(--ink-soft); font-family: 'JetBrains Mono', monospace; font-size: 11.5px; }
+  .st-comb { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); gap: 10px; align-items: center; padding: 6px 0; border-top: 1px solid var(--border); font-size: 12.5px; }
+  .st-comb:first-of-type { border-top: none; }
+  .st-chip { display: inline-flex; align-items: center; gap: 4px; margin: 1.5px 9px 1.5px 0; white-space: nowrap; font-size: 12px; }
+  .st-chip i { width: 9px; height: 9px; border-radius: 2px; flex: none; }
+  .st-comb-barra { display: flex; align-items: center; gap: 7px; }
+  .st-comb-barra span { display: block; height: 12px; border-radius: 3px; background: #07AAAA; }
+  .st-comb-barra b { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 400; }
   .st-nota { font-size: 11.5px; color: var(--etiqueta-suave); margin: 10px 0 0; line-height: 1.45; }
   .st-vacio { font-size: 13px; color: var(--ink-soft); margin: 6px 0; line-height: 1.5; }
   .st-tabla { width: 100%; border-collapse: collapse; font-size: 12.5px; table-layout: auto; border: none; background: none; }
@@ -789,7 +796,7 @@
               <li><strong>Última lectura:</strong> las licitaciones nuevas que ha encontrado el monitor en su última ejecución (se lanza cada madrugada). Es lo primero que conviene mirar cada día.</li>
               <li><strong>En plazo:</strong> las licitaciones a las que todavía se puede presentar oferta, es decir, cuya fecha límite no ha vencido, da igual cuándo se captaron. No incluye las descartadas.</li>
               <li><strong>Todas:</strong> el histórico completo de todo lo que ha captado el filtro seleccionado, también lo que ya venció y las descartadas (atenuadas).</li>
-              <li><strong>Estadísticas:</strong> cifras clave y gráficos de anillo. Muestran dónde está cada licitación en plazo (por filtro, sumando el total de «Todos los filtros»), qué se ha hecho con las vencidas y con las que siguen en plazo (sin tratar, revisadas, presentadas, descartadas), cuántas presentadas estaban revisadas, cuántas tienen revisión IA y de qué color es su semáforo. Abajo: captadas por semana, marcas por persona, coste de las revisiones IA, salud de las fuentes y datos de la última lectura, y al final la historia del monitor (desde cuándo funciona, lecturas y versiones, y un resumen de todo lo captado). Arriba a la derecha se elige entre todo el histórico y los últimos 30 días.</li>
+              <li><strong>Estadísticas:</strong> cifras clave y gráficos de anillo. Muestran dónde está cada licitación en plazo (por filtro, sumando el total de «Todos los filtros», y qué combinaciones de filtros comparten las que caen en varios), qué se ha hecho con las vencidas y con las que siguen en plazo (sin tratar, revisadas, presentadas, descartadas), cuántas presentadas estaban revisadas, cuántas tienen revisión IA y de qué color es su semáforo. Abajo: captadas por semana, marcas por persona, coste de las revisiones IA, salud de las fuentes y datos de la última lectura, y al final la historia del monitor (desde cuándo funciona, lecturas y versiones, y un resumen de todo lo captado). Arriba a la derecha se elige entre todo el histórico y los últimos 30 días.</li>
             </ul>
 
             <h4>Los filtros</h4>
@@ -1963,6 +1970,43 @@ async function completarHistoriaApi() {
   }
 }
 
+// Las licitaciones en plazo que caen en varios filtros (la porción "Varios filtros" del primer anillo):
+// qué grupos de filtros forman y en cuántos filtros cae cada una.
+function tarjetaNumFiltros(multi) {
+  const porTamano = new Map();
+  for (const d of multi) {
+    const t = Math.min((d.filtros_origen || []).length, 5);
+    porTamano.set(t, (porTamano.get(t) || 0) + 1);
+  }
+  const colores = { 2: '#9FDADA', 3: '#5DBFBF', 4: '#1D8A8A', 5: '#0B5C5C' };
+  const items = [2, 3, 4, 5].map(t => ({ n: t === 5 ? 'En 5 o más filtros' : 'En ' + t + ' filtros', v: porTamano.get(t) || 0, c: colores[t] }));
+  return tarjetaDonut('En cuántos filtros cae cada una', items, 'en varios',
+    'Solo las licitaciones en plazo que están en más de un filtro.', 'Ninguna licitación en plazo cae en varios filtros.');
+}
+
+function tarjetaCombinaciones(multi, nombres, colorDe) {
+  let html = '<div class="st-card"><h4>Combinaciones de filtros: las ' + multi.length + ' que caen en varios</h4>';
+  if (!multi.length) return html + '<p class="st-vacio">Ninguna licitación en plazo cae en varios filtros.</p></div>';
+  const combos = new Map();
+  for (const d of multi) {
+    const fs = [...d.filtros_origen].sort((a, b) => nombres.indexOf(a) - nombres.indexOf(b));
+    const clave = fs.join('|');
+    combos.set(clave, (combos.get(clave) || 0) + 1);
+  }
+  const filas = [...combos.entries()].map(([k, n]) => ({ filtros: k.split('|'), n })).sort((a, b) => b.n - a.n || a.filtros.length - b.filtros.length);
+  const maximo = filas[0].n;
+  const chips = fs => fs.map(n => '<span class="st-chip"><i style="background:' + colorDe(n) + '"></i>' + escapeHtml(n) + '</span>').join('');
+  const fila = (contenido, n, color) =>
+    '<div class="st-comb"><div>' + contenido + '</div><div class="st-comb-barra"><span style="width:' + Math.max(n / maximo * 75, 4) + '%' + (color ? ';background:' + color : '') + '"></span><b>' + n + '</b></div></div>';
+  const visibles = filas.slice(0, 8), resto = filas.slice(8);
+  html += visibles.map(f => fila(chips(f.filtros), f.n)).join('');
+  if (resto.length) {
+    const otras = resto.reduce((a, f) => a + f.n, 0);
+    html += fila('<span style="color:var(--ink-soft)">Otras ' + resto.length + ' combinaciones (' + otras + ' licitaciones)</span>', otras, '#A5ABB0');
+  }
+  return html + '<p class="st-nota">Cada fila es un grupo de filtros; la barra, cuántas licitaciones en plazo están justo en esos filtros.</p></div>';
+}
+
 function renderEstadisticas() {
   const cont = document.getElementById('contenido');
   document.getElementById('total-count').textContent = '—';
@@ -2015,8 +2059,13 @@ function renderEstadisticas() {
     }
     const items = nombres.map((n, i) => ({ n, v: exclusivas.get(n) || 0, c: PALETA_FILTROS[i % PALETA_FILTROS.length], extra: (totales.get(n) || 0) ? 'en total ' + totales.get(n) : '', siempre: (totales.get(n) || 0) > 0 }));
     items.push({ n: 'Varios filtros', v: varios, c: '#8A8F94' });
-    html += '<div class="st-grid" style="grid-template-columns:1fr">' + tarjetaDonut('En plazo por filtro: suman las ' + enPlazo.length + ' de «Todos los filtros»', items, 'en plazo',
-      'Cada licitación cuenta una sola vez: en su filtro si solo está en uno, o en «Varios filtros». A la derecha, el total de cada filtro contando las que comparte.') + '</div>';
+    const multi = enPlazo.filter(d => (d.filtros_origen || []).length > 1);
+    const colorDe = n => PALETA_FILTROS[Math.max(nombres.indexOf(n), 0) % PALETA_FILTROS.length];
+    html += '<div class="st-grid" style="grid-template-columns:repeat(auto-fit,minmax(330px,1fr))">' +
+      tarjetaDonut('En plazo por filtro: suman las ' + enPlazo.length + ' de «Todos los filtros»', items, 'en plazo',
+        'Cada licitación cuenta una sola vez: en su filtro si solo está en uno, o en «Varios filtros». A la derecha, el total de cada filtro contando las que comparte.') +
+      tarjetaNumFiltros(multi) + '</div>' +
+      '<div class="st-grid" style="grid-template-columns:1fr;margin-top:12px">' + tarjetaCombinaciones(multi, nombres, colorDe) + '</div>';
   } else {
     html += '<div class="st-grid" style="grid-template-columns:1fr"><div class="st-card"><p class="st-vacio">Este reparto se ve en «Todos los filtros»: aquí solo hay un filtro.</p></div></div>';
   }
@@ -2757,6 +2806,7 @@ document.getElementById('modal-revision-overlay').addEventListener('click', (e) 
 // y la campana se muestra rellena durante la primera semana. Solo cambios que el usuario note.
 const NOVEDADES = [
   { fecha: '2026-10-20', items: [
+    "<strong>Licitaciones que caen en varios filtros.</strong> En Estadísticas, junto al anillo «En plazo por filtro», dos gráficos nuevos: en cuántos filtros cae cada licitación y qué combinaciones de filtros forman (por ejemplo, Dirección de obra + Ingeniería + Medio Ambiente), con cuántas licitaciones tiene cada una.",
     "<strong>Historia del monitor.</strong> Al final de Estadísticas hay una sección nueva: desde cuándo funciona el monitor, cuántas lecturas y versiones lleva, la primera lectura, cuánto se ha leído y captado, el día con más capturas, importes, ampliaciones de plazo y los órganos que más repiten.",
     "<strong>Estadísticas renovadas.</strong> La pestaña ahora tiene cifras clave y gráficos de anillo: dónde está cada licitación en plazo (por filtro, sumando el total), qué hemos hecho con las vencidas y las que siguen en plazo, cuántas presentadas estaban revisadas, la cobertura de la revisión IA y los colores del semáforo. Además, licitaciones captadas por semana, marcas por persona, salud de las fuentes y un selector entre todo el histórico y los últimos 30 días.",
     "<strong>Presentado.</strong> Tercera casilla en la columna <em>Revisión</em>, que se rellena de verde con un check blanco: sirve para saber a qué licitaciones nos hemos presentado. Se aplica a todos los filtros y no afecta a las pestañas: la licitación sigue donde estaba.",
