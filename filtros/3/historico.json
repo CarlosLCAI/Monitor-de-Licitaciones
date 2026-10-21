@@ -31,7 +31,13 @@
     "estado_anterior": "PUB",
     "resultado": null,
     "estado_cambiado_el": "2026-10-02",
-    "estado_updated": "2026-09-29T14:03:30.515+02:00"
+    "estado_updated": "2026-09-29T14:03:30.515+02:00",
+    "docs_adicionales": [
+      {
+        "nombre": "DEUC DIGENIN.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=zedYSIbbYwUkH0pBSY7xFPsmFK3VBXDn3cR1It7jUNxTRWfq4LSd32LtDfB6Pd90fS6/AJck2Eb7Bc%2BiJ1zVBfKVjpxx84dD8uea4MYbbPXfdyQgZAdTm3EfcUAC7CJ6"
+      }
+    ]
   },
   {
     "folder_id": "2025Cd800397",
