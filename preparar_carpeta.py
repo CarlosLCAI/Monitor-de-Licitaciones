@@ -3,8 +3,9 @@
 Contenido del ZIP:
   Pliegos/                      PCAP y PPT en PDF, la Revisión IA en PDF y un acceso a la ficha
   Presentacion Plataforma/      una carpeta VACÍA por sobre (Sobre A, Sobre B...), para dejar lo que se sube
+  Sobres para preparar/         los mismos sobres, con un .txt por cada documento que pide el Bloque 5
   Posterior adjudicatario/      un .txt por cada documento que solo se pide al propuesto como adjudicatario
-  LEEME.txt                     qué hay en la carpeta, qué pide cada sobre y avisos
+  LEEME.txt                     qué hay en la carpeta y avisos
 
 Los nombres de los sobres son los que da cada pliego (los recoge la IA en el Bloque 5).
 
@@ -346,6 +347,7 @@ def sanear_nombre(texto, maximo=80):
 
 
 CARPETA_PLATAFORMA = "Presentacion Plataforma"
+CARPETA_PREPARAR = "Sobres para preparar"
 
 
 def nombre_archivo_zip(folder_id):
@@ -378,11 +380,11 @@ def _txt_documento(registro, ambito, doc, ya_aviso):
     return "\r\n".join(lineas) + "\r\n"
 
 
-def _escribir_documentos(zf, raiz, carpeta, registro, ambito, documentos):
+def _escribir_documentos(zf, raiz, carpeta, registro, ambito, documentos, padre=""):
     ancho = max(2, len(str(len(documentos))))
     for i, doc in enumerate(documentos, 1):
         nombre = f"{str(i).zfill(ancho)} - {sanear_nombre(doc['nombre'], 75)}.txt"
-        zf.writestr(f"{raiz}/{sanear_nombre(carpeta, 50)}/{nombre}", _txt_documento(registro, ambito, doc, False))
+        zf.writestr(f"{raiz}/{padre}{sanear_nombre(carpeta, 50)}/{nombre}", _txt_documento(registro, ambito, doc, False))
 
 
 def construir_carpeta(folder_id, directorio):
@@ -429,10 +431,16 @@ def construir_carpeta(folder_id, directorio):
             zf.writestr(f"{raiz}/Pliegos/Revisión IA - {exp}.html", documento_html)
         if registro.get("link"):
             zf.writestr(f"{raiz}/Pliegos/Ficha de la licitación.url", f"[InternetShortcut]\r\nURL={registro['link']}\r\n")
-        # «Presentacion Plataforma»: una carpeta vacía por sobre, donde se dejará lo que se suba a la plataforma
         for sobre in bloque5["sobres"]:
             carpeta = sobre["nombre"].replace("–", "-").replace("—", "-")
+            # «Presentacion Plataforma»: una carpeta vacía por sobre, donde se dejará lo que se suba a la plataforma
             zf.writestr(f"{raiz}/{CARPETA_PLATAFORMA}/{sanear_nombre(carpeta, 50)}/", "")
+            # «Sobres para preparar»: la misma carpeta, con un .txt por documento y las notas del pliego
+            _escribir_documentos(zf, raiz, carpeta, registro, sobre["nombre"], sobre["documentos"], padre=f"{CARPETA_PREPARAR}/")
+            if sobre["notas"]:
+                cabecera = f"Condiciones y avisos de este sobre según la revisión IA ({sobre['nombre']}):"
+                zf.writestr(f"{raiz}/{CARPETA_PREPARAR}/{sanear_nombre(carpeta, 50)}/Notas del pliego.txt",
+                            "\r\n".join([cabecera, ""] + [f"- {n}" for n in sobre["notas"]]) + "\r\n")
         if bloque5["posterior"]:
             _escribir_documentos(zf, raiz, "Posterior adjudicatario", registro, "solo si eres el propuesto como adjudicatario (tras el requerimiento)", bloque5["posterior"])
             if bloque5["notas_posterior"]:
@@ -452,13 +460,13 @@ def construir_carpeta(folder_id, directorio):
             "CONTENIDO",
             "- Pliegos: PCAP, PPT, Revisión IA y acceso a la ficha.",
         ]
-        leeme.append(f"- {CARPETA_PLATAFORMA}: una carpeta vacía por sobre ({len(bloque5['sobres'])}), con el nombre que usa el pliego.")
+        leeme.append(f"- {CARPETA_PLATAFORMA}: una carpeta vacía por sobre ({len(bloque5['sobres'])}), para dejar lo que se sube a la plataforma.")
+        leeme.append(f"- {CARPETA_PREPARAR}: los mismos sobres, con un .txt por cada documento que hay que presentar:")
+        leeme += [f"    {s_['nombre']}: {len(s_['documentos'])} documento(s)." for s_ in bloque5["sobres"]]
         if bloque5["posterior"]:
             leeme.append(f"- Posterior adjudicatario: {len(bloque5['posterior'])} documento(s).")
-        leeme += ["", "DOCUMENTOS QUE PIDE CADA SOBRE (según la Revisión IA)"]
-        for s in bloque5["sobres"]:
-            leeme += ["", f"{s['nombre']}:"] + [f"  - {d['nombre']}" for d in s["documentos"]]
-            leeme += [f"  * {n}" for n in s["notas"]]
+        leeme += ["", "Los .txt son marcadores: un archivo por cada documento que hay que presentar, según la Revisión IA. "
+                      "El nombre de cada sobre es el que usa el pliego."]
         if avisos:
             leeme += ["", "AVISOS"] + [f"- {a}" for a in avisos]
         leeme += ["", "La Revisión IA es una ayuda: contrástala siempre con los pliegos oficiales."]
