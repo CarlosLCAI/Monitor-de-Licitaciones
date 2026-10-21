@@ -311,7 +311,6 @@ def _hoja_adjudicacion(wb, datos, exp):
     ws.row_dimensions[2].height = 32
     ws.freeze_panes = "A3"
     rojo = Font(name=FUENTE, color="C00000", bold=True)
-    cabeceras_puntos = []   # filas de cabecera de criterio: suman el total del pliego
     r = 3
 
     def titulo_bloque(texto):
@@ -330,7 +329,6 @@ def _hoja_adjudicacion(wb, datos, exp):
         for col in "FGHIJK":
             _escribe(ws, f"{col}{r}", None, relleno=AZUL_SUAVE)
         ws.row_dimensions[r].height = _alto((nombre, anch["A"] + anch["B"]), minimo=22)
-        cabeceras_puntos.append(r)
         r += 1
         return r - 1
 
@@ -388,7 +386,6 @@ def _hoja_adjudicacion(wb, datos, exp):
     # --- Juicio de valor
     fila_bloque_jv = titulo_bloque("CRITERIOS POR JUICIO DE VALOR")
     jv = _lista(datos.get("juicio_valor"))
-    primera_cab = len(cabeceras_puntos)
     if not jv:
         _revisar(ws, f"A{r}:K{r}")
         r += 1
@@ -447,11 +444,6 @@ def _hoja_adjudicacion(wb, datos, exp):
         ws.row_dimensions[r].height = _alto((umbral, ancho_total - anch["A"]), minimo=22)
         r += 1
 
-    # Total de puntos del pliego (suma de los límites de cada criterio)
-    if cabeceras_puntos:
-        _escribe(ws, "C1", "=" + "+".join(f"N(C{f})" for f in cabeceras_puntos), negrita=True, h="center",
-                 num='0" ptos"', relleno=AZUL_SUAVE)
-    ws["C1"].border = BORDE
 
 
 # ------------------------------------------------------------------ Sobres
