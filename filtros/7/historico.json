@@ -1507,7 +1507,10 @@
     },
     "carpeta_descargada": true,
     "carpeta_descargada_fecha": "2026-10-21T16:10:49.461Z",
-    "carpeta_descargada_por": "CarlosLCAI"
+    "carpeta_descargada_por": "CarlosLCAI",
+    "revisado_humano": true,
+    "revisado_fecha": "2026-10-21T16:32:19.744Z",
+    "revisado_por": "CarlosLCAI"
   },
   {
     "folder_id": "CONTR 2026 0000321256",
