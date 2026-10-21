@@ -2879,7 +2879,10 @@
       "semaforo": "naranja",
       "semaforo_motivo": "Cumple volumen de negocio, ICCP en plantilla, ISO y seguro; faltan Responsable BIM y acreditar trabajos similares por importe, cubribles con UTE o medios externos.",
       "fecha_analisis": "2026-10-13T16:15:33.975390+00:00"
-    }
+    },
+    "revisado_humano": true,
+    "revisado_fecha": "2026-10-21T10:50:17.830Z",
+    "revisado_por": "CarlosLCAI"
   },
   {
     "folder_id": "T26034801",
