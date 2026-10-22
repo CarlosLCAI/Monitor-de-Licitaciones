@@ -1981,7 +1981,7 @@
     ],
     "organo": "Alcaldía del Ayuntamiento de Illora",
     "importe": "50300",
-    "importe_num": 50300.0,
+    "importe_num": 50300,
     "fecha_limite": "2026-11-05",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -2022,7 +2022,7 @@
     ],
     "organo": "Junta de Gobierno del Ayuntamiento de Granada",
     "importe": "169268.33",
-    "importe_num": 507805.0,
+    "importe_num": 507805,
     "fecha_limite": "2026-11-19",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -2195,7 +2195,7 @@
     ],
     "organo": "Alcaldía del Ayuntamiento de Bailén",
     "importe": "250000",
-    "importe_num": 250000.0,
+    "importe_num": 250000,
     "fecha_limite": "2026-11-20",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -2455,7 +2455,10 @@
       },
       "fecha_analisis": "2026-10-22T07:53:54.476750+00:00",
       "solicitada_por": "CarlosLCAI"
-    }
+    },
+    "carpeta_descargada": true,
+    "carpeta_descargada_fecha": "2026-10-22T08:03:19.501Z",
+    "carpeta_descargada_por": "CarlosLCAI"
   },
   {
     "folder_id": "2152/2026",
@@ -2490,7 +2493,7 @@
     ],
     "organo": "Alcaldía del Ayuntamiento de Ubrique",
     "importe": "63000",
-    "importe_num": 76230.0,
+    "importe_num": 76230,
     "fecha_limite": "2026-11-04",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
