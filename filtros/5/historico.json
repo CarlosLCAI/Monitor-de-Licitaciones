@@ -4536,7 +4536,7 @@
     ],
     "organo": "Alcaldía del Ayuntamiento de Bailén",
     "importe": "250000",
-    "importe_num": 250000.0,
+    "importe_num": 250000,
     "fecha_limite": "2026-11-20",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -4796,7 +4796,10 @@
       },
       "fecha_analisis": "2026-10-22T07:53:54.476750+00:00",
       "solicitada_por": "CarlosLCAI"
-    }
+    },
+    "carpeta_descargada": true,
+    "carpeta_descargada_fecha": "2026-10-22T08:03:19.501Z",
+    "carpeta_descargada_por": "CarlosLCAI"
   },
   {
     "folder_id": "2026-69",
@@ -4938,7 +4941,7 @@
     ],
     "organo": "Fundación para la Investigación Biosanitaria de Andalucía Oriental - Alejandro Otero (FIBAO)",
     "importe": "181250",
-    "importe_num": 181250.0,
+    "importe_num": 181250,
     "fecha_limite": "2026-11-04",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
