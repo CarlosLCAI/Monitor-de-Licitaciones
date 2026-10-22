@@ -1,326 +1,42 @@
 [
   {
-    "folder_id": "243/2026",
+    "folder_id": "5187/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicios de gestión, seguimiento y justificación de las actuaciones promovidas por el Ayuntamiento de Larva en el marco del Real Decreto Ley 5/2026, de 17 de febrero, financiados por la Administración General del Estado, a través del Ministerio de Política Territorial y Memoria Democrática",
-    "updated": "2026-10-21T15:59:52.754+02:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=QMHbHJy6XUvua%2Fi14w%2FPLA%3D%3D",
+    "titulo": "Servicios técnicos necesarios para la redacción de los proyectos, dirección de las obras y coordinación de seguridad y salud de diversas actuaciones del Ayuntamiento de Huétor Vega.",
+    "updated": "2026-10-22T13:01:26.491+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SGrN0LV6pTAmMOlAXxDEjw%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "71356200",
-      "72224000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=O1ztHKLXSJngMFMKpgAy5myxjI73wMRGXqugAP4zSfK2RR6Zr8yD07oaNAmzGpXSQZthj/MCysXYEII0FTVyqC5ad%2BklNCIuvUwF6GBmEbfDdQD9RyhUmzT4jZ2In4zL",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=KoI/PGsCtGN1%2BIvbIypwRto3riRTnDPbKLkqTQklKt6yAkbhmjkZhO5vKHw4gJvs1UEMMAyS00OlG6bmpe0g0MVrEjxfeVIeKOBhE8%2BG81IZyAJWGsSt0OzTSTyw9JAs",
-    "docs_adicionales": [
-      {
-        "nombre": "9 Anexos.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=f2ciZ%2BeiqW/00CP4LHyJKp%2BhQJlRq8WdLCgWhOQc%2B3mxuse17T0m8H/tr6bKeZs4COiM9gZ4cinzsKlEt94LeKcpYt6pOuoAbbUK7l8BlO0C1/zDIE0Kw/PWNnLS0Z0z"
-      }
-    ],
-    "organo": "Alcaldía del Ayuntamiento de Larva",
-    "importe": "31000",
-    "importe_num": 31000.0,
-    "fecha_limite": "2026-11-05",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "9",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "2026/3627",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Redacción de 15 proyectos técnicos independientes, la Dirección Facultativa de sus respectivas obras y la Coordinación de Seguridad y Salud.\r\nCONTRATO FINANCIADO por la Administración General del Estado, a través del Ministerio de Política Territorial y Memoria Democrática, previstas en el Art. 7 del Real Decreto-Ley 5/2026, de 17 de febrero.",
-    "updated": "2026-10-21T13:56:12.324+02:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=eCo7Hw4dOoxWhbmkna2nXQ%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71318000",
-      "71317200",
-      "71318000",
-      "71317200",
-      "71318000",
-      "71317200",
-      "71318000",
-      "71317200",
-      "71318000",
-      "71317200"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Hh%2BdEFaWGJJ7lEqmxYwXr6Gzi%2BogJgOcsSi2cfdwN2NoTQgrBpjG7vVY19yZXpl%2B3ZXyW%2Be65p%2BRNBi64MTqMcFJc/qSv24UugLOA%2Bp/X4Jt/o8fNevwsujgRzaBbugn",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=GQ26z8BMhezIBnvghsELwGdMDK95w2XMwmZMppbC4gBGlqcI64YEJtlJ2qsE/1ONzFuRO9S3GBimyUpz7WgCIkmqLFEWI3Q4Q5mnLBs26aSCx2e6p7hqtlp2aFupgHMr",
-    "docs_adicionales": [
-      {
-        "nombre": "ANEXO II PROPOSICION ECONOMICA Y CRITERIOS CUANTIFICABLES DE FORMA AUTOMATICA.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=qeImqF7Jk4vIkKerF6erDv9nUXEGPVGGQI8jRJgToXCy9xk5LpRWVmdETNJFoWpa/6V4DqXXswuQHMGeGj2R48uGvjLt4DBEcRufsknM%2BGdJOVDbGCDM%2BMigrvuVS7Rv"
-      },
-      {
-        "nombre": "ANEXO IV DECLARACION TRIBUNALES ESPANOLES.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=EDa9R9mucoWcbMP%2BGOZO5fiUXM1JoZ2FZmpU4PSP/peVbmZqjr/XFwMYvlQBOmW9iWsbLW%2Bze3c9ZM/dyh/P1tDKr8NjTgilVPErs%2Bco9dh45ClyWkoJ44mKM70IFcOu"
-      },
-      {
-        "nombre": "ANEXO VII DECLARACION COMPROMISO DE ADSCRIPCION DE MEDIOS.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=tIpzzNDql23rPOFPTI%2Bf8o3EAqwsFnNcITdz9j%2BRt6H3prmZ7YmkQl%2BdsFy70/F3%2BhWQnsdAsE%2Bk4aiDVOM5NoK/udYMdig1eaicoswJtwHfdyQgZAdTm3EfcUAC7CJ6"
-      },
-      {
-        "nombre": "ANEXO III UTE.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/m5X4G8tTz7DbrcPevLIn2fd6L3/8iPp29fwfbfs%2BCxMjJ7zlckOw2ESHiTwOm2hTxqUdsa317yBFC4a1ur45RGExdIwM9VtC40F8SUSy%2Bht/o8fNevwsujgRzaBbugn"
-      },
-      {
-        "nombre": "ANEXO VI DECLARACION COMPROMISO SOLVENCIA MEDIOS EXTERNOS.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=mQHTkvJ28q6Wa2cYDRh4kmxRw7cwVxbHIPnSJt1h/ayuNAiECshhoStSXm3oDNGxVOwsaP9d/F0XB%2BpwENt5GTL3mRwHFrdk9X96I0Sa9BjfdyQgZAdTm3EfcUAC7CJ6"
-      },
-      {
-        "nombre": "ANEXO V DECLARACION SOBRE SUBCONTRATISTAS.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/i8EJMkUlwtj05M/Q16z7c33UtDzKebLtVftKfiiAW4gYkJkP%2BeeBHeE8n0vugU84VNWkuUO9trYAHYWn55ZZey5uxJM3MvVmN3xYJO0i%2BU//q7NB2iMZvNyf0xrJmjt"
-      },
-      {
-        "nombre": "ANEXO VIII DACI.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=6xJIIiKk8M20egnT%2BG%2B1JgVgusYyJduPHWJTzoX0%2BbLsmeBS2T0Whku2NJxEVkAb8iJyQtve7H/kdXQ1KNeCntJG4yHIAJqg8QZq7aWcDfSHAj0WEJrB5sP7amrh2jBD"
-      },
-      {
-        "nombre": "ANEXO I DEUC.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=w%2BGw4E%2BqtRJsxUmxOvkPRNRF2Ch0uayDUice4gkGat6xxvUir3g0qHkDNr65gir3JcrugZFEVYTqlvlS3EoLrn9o0lLwvABSk10gofi702545ClyWkoJ44mKM70IFcOu"
-      }
-    ],
-    "organo": "Alcaldía del Ayuntamiento de Loja",
-    "importe": "143655.17",
-    "importe_num": 143655.17,
-    "fecha_limite": "2026-11-10",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "1",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "3513/2026",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Prestacion del servicio de asistencia tecnica integral para la planificacion contractual, el seguimiento tecnico, economico, contractual, documental y la posterior preparacion de la justificacion y cierre de las actuaciones financiadas bajo el regimen de ayudas regulado en el Real Decreto ley 5 de 2026 y la Resolucion de 31 de marzo de 2026 de la Secretaria de Estado de Politica Territorial.",
-    "updated": "2026-10-21T12:20:43.832+02:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=wwun7gwgBic3vLk2DU2Ddg%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "79411000",
-      "71300000",
-      "71200000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=FKGbTjd8jHlIVxO%2BrrR9XaKMW4B6cXAFde%2Bxg4beGUT796VpvDiM0Li%2B6QNhARAUIRQ1qA83/jOQDXOlHH%2BJaTKM3TOdrxYMqZnpTBD0IH%2B1aXEvq3KHa/AEHgtDrQw0",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=7n3sfd80O2S5ytH%2BNg71MbAHKFh39tQ9co3msYv7bqExPzJZI0WVqvjWMlAYQzmE0BU3ADOMFBNcENxQDjZ0Fu4foO%2BKwS%2B4Dc2s6eugi8/3GVhXrFFqN7yFncy7YfRK",
-    "docs_adicionales": [
-      {
-        "nombre": "ANEXO I.odt",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YleSUNoyPguoXw/wAdA3oO6UtwMsN6cp207blsbXsLIdX51VB6rBCDBvfSbJTuSEVaLzuEl8g9WBbVb%2BIWbsDywwg2L/G31RNIxWQz/0uprfdyQgZAdTm3EfcUAC7CJ6"
-      },
-      {
-        "nombre": "ANEXO II.odt",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Cb/EEdhqWrF6N68mFQn0udnE3kJkyQ9fQ98nGjuhqbo/sPQDGCSOqIarN5XdnJgICOEtckS40MZ0lAPwo8fuvrKx7X3%2B3icRooiDI4NOoxJJOVDbGCDM%2BMigrvuVS7Rv"
-      }
-    ],
-    "organo": "Alcaldía del Ayuntamiento de Illora",
-    "importe": "50300",
-    "importe_num": 50300.0,
-    "fecha_limite": "2026-11-05",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "9",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "SERV-2026000118",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Contrato de servicios de asistencia técnica en aquellas obras que deban ser realizadas en régimen de ejecución subsidiaria o actuación urgente por el Ayuntamiento de Granada",
-    "updated": "2026-10-21T10:06:24.918+02:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=FK1QSINFgaIZDGvgaZEVxQ%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71000000",
-      "71310000",
-      "71210000",
-      "71242000",
-      "71317200",
-      "71200000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=NyCUiGjjJvI/9aW6a4NWZBm2EsFftVsEb3UNDxTNDGsPaQBJ/vhB/7d3SbnSbo94O9SkX4acsCaDQ9%2BfA/oax9kkpHzx9Ar1bqjo71Q/6C2HAj0WEJrB5sP7amrh2jBD",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=XSQYOP0nFk4nBLoQeuXDqMdvkJ5c2WIhdmVd8hjmp7NJTBXVAwJWEfcWAsggOtH9fC%2Bt%2BMMvSDKv3ejp2FlR8kU8f4Ec%2BercCrQRLD%2BLwteCx2e6p7hqtlp2aFupgHMr",
-    "docs_adicionales": [
-      {
-        "nombre": "Plantilla DEUC.xml",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=8RrcM1FxpGvOR4Q4lBRqiI9XdaxDlF%2BaBAtXdoEwgF93/0r/7jMu47S%2BwaOpyoebUMceV/fXbsP3JeEPf%2BVmYHP%2BnKC6k26YM9Ty8rRDuySB0nvVKRzfe4rpHcnlPhSZ"
-      },
-      {
-        "nombre": "Informe de evaluacion de costes.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=eujh4jha7a3KLwvdA3mYoymD562ilEGsMn1si019RzHPjQ0YjOr9L1K%2BjGCJ//FYBcLxicHDELkPYpq1BuQW0Ag61idMyYmq5L19jqAzr9i1aXEvq3KHa/AEHgtDrQw0"
-      }
-    ],
-    "organo": "Junta de Gobierno del Ayuntamiento de Granada",
-    "importe": "169268.33",
-    "importe_num": 507805.0,
-    "fecha_limite": "2026-11-19",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "1",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "3008/2026",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Dirección de obra y coordinación de seguridad y salud de los proyectos acogidos al Real Decreto-Ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos adversos, de especial afectación en las comunidades autónomas de Andalucía y Extremadura",
-    "updated": "2026-10-20T14:18:48.128+02:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=jRDQuE4afiXN3k3tjedSGw%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71000000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=bVlPeWPwuTTCHRp9j2ERTNUtcWkkf9eitJr782nSXMsKgO0g96xThhMKyqOyF0Y69bU/JtYAm/Icbt0%2BKF6Zut7cC36u9QpLdVnnpOM5O7J45ClyWkoJ44mKM70IFcOu",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=jYBN/4uXRrEJWSU%2B%2B8rCYv2WF%2BygmKr%2BuUwk/6d11HzoQCoy03F15pZ3GxwperZbQX1CjX8I4by3peNDtndzMmexej93E2tY0KC0oB2kvDXDdQD9RyhUmzT4jZ2In4zL",
-    "docs_adicionales": [],
-    "organo": "Alcaldía del Ayuntamiento de Vilches",
-    "importe": "72689.22",
-    "importe_num": 72689.22,
-    "fecha_limite": "2026-11-04",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "9",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "8/2026 (652/2026)",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Redaccion proyectos, direccion facultativa y coordinacion seguridad y salud obras  Consolidacion muro contencion C/ Cuesta de Santo Domingo, reconstruccion muro BIC Castillo La Iruela y sendero cañamares.\r\nContrato financiado por la Administracion General del Estado, a traves  Ministerio de Política Territorial y Memoria Democrática, con las ayudas articulo 7 RDLey 5/2026, de 17 de febrero. ",
-    "updated": "2026-10-20T13:05:00.644+02:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=r2Kag9iwuSN6nTs9LZ9RhQ%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71240000",
-      "71317200",
-      "71242000",
-      "71247000",
-      "71240000",
-      "71247000",
-      "71242000",
-      "71317200",
-      "71240000",
-      "71317200",
-      "71242000",
-      "71247000",
-      "71240000",
-      "71247000",
-      "71317200",
-      "71242000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=qTQM4Nn1ZVBdvcR6%2BoYXU4878mk3Gm9K1g95mt4uYpUtZkHS6CTFxFrFk8BQOjXW3Io7Qdmzx%2BImVJMtmAh/K0PSv4D6Z5Mu2ZYNFGJM007VTD3T98KC0nSgQFM0q%2B5s",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=rOk84s0MBsdgXXGfUjytVLe6CJHf6Y5Xyv6saQ9gUqq26sOQdNTg8g2dvfA8DRLyJjFODDDw0Un1XiK70FaH0kFBRLDmoqoFysNDLCB2ELMZyAJWGsSt0OzTSTyw9JAs",
-    "docs_adicionales": [
-      {
-        "nombre": "Anexo I.doc",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=6xJIIiKk8M20egnT%2BG%2B1JmnxbvARk82mUBgBWkLIZLP%2BC1wq2CLbtg9mgbdP5zYOBPzWvTXe3xL8s/BHmKotpax3ErcLknNukTl/qC%2B7T5kZyAJWGsSt0OzTSTyw9JAs"
-      },
-      {
-        "nombre": "Anexo II.doc",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=BKlhPx4otA1uOKXX/Jg5kuCw1VPGRqzfURQn7l9fNNiKa6AFVR02D/2oDgI4u4zQr4MIabz3u27EsJ8TF9gCM0MXTy6Oq4DB/J/HMjTavkuCx2e6p7hqtlp2aFupgHMr"
-      }
-    ],
-    "organo": "Alcaldia del Ayuntamiento de la Iruela",
-    "importe": "42148.76",
-    "importe_num": 42148.76,
-    "fecha_limite": "2026-11-04",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "9",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "EXPTE. 85/2026",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Redacción del plan de ordenación urbana y del catálogo urbanístico de bienes y espacios protegidos del término municipal de Bailén",
-    "updated": "2026-10-20T12:30:59.354+02:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=1S8Lh7E2grYzjChw4z%2FXvw%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71200000",
-      "71240000",
-      "71400000",
-      "71410000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Z14wO%2BbcMSOHphBL3BQ72DyAqWNpPYspp2yCm5Ahie4Qvr3VYAZC0Cnd3k5gRrbPnVgmUwOqLBi1jf7hoNtOjCkjDBqJunUI8Tp/gm9/CV57QB3HKyQaFUExmUVQCerk",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=SVFKKaOLLMz2vV%2Bj0VNUfoJ/baNp4%2BKD5NKnZkJ23ggtz1hVX1wCORP9UXWxj7RJZ5IBa4PkMSeUkslGp7gATC1xom60Hl4fGcybbQ8Ju%2BaHAj0WEJrB5sP7amrh2jBD",
-    "docs_adicionales": [
-      {
-        "nombre": "PROGRAMACION DE LOS TRABAJOS POU.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YAbC5AbxXxjsiC2k7HCc%2BUjqzDEKFjV4lkolZPABQbG4W2PCU7PAgaCUa6fsC6A%2BXyxo3QulDGjsNfjljEArumEWyJUohVp//Y%2Bz%2Bzc%2BNC%2B1aXEvq3KHa/AEHgtDrQw0"
-      }
-    ],
-    "organo": "Alcaldía del Ayuntamiento de Bailén",
-    "importe": "250000",
-    "importe_num": 250000.0,
-    "fecha_limite": "2026-11-20",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "1",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "2152/2026",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Servicio de Prevención de Riesgos Laborales y Vigilancia de la Salud para el Ayuntamiento de Ubrique.",
-    "updated": "2026-10-20T08:08:14.634+02:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=H3HyDWjRwFqopEMYCmrbmw%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
+      "71322000",
       "71317210",
-      "80560000",
-      "85100000",
-      "71317200"
+      "71322300",
+      "71300000",
+      "71520000",
+      "71322000",
+      "71300000",
+      "71322300",
+      "71317210",
+      "71520000",
+      "71322000",
+      "71317210",
+      "71520000",
+      "71300000",
+      "71322300",
+      "71322000",
+      "71317210",
+      "71520000",
+      "71322300",
+      "71300000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=rNRlRXursFiP1ySsDCHuc0FwRbcQv6aWwtfXGF5vLi2pddaP1LrTpan3DHh6/in8hxwJ3lZzwQ1aJuvXVqGlEDQ3tGyhH5Lx1AcjtSBr2B7fdyQgZAdTm3EfcUAC7CJ6",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=if0lA/MWhKrhEJPC6rRHfI/kPaJxziPLRvE7CqhVT8Gf3ZLZaVX6XenU1XfcfqkHZLKbRFoRvRqg5n6r08527Y7wOX0kxkSQ9yRq/F9obtEC1/zDIE0Kw/PWNnLS0Z0z",
-    "docs_adicionales": [
-      {
-        "nombre": "ANEXO II.doc",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=T02sHW8YnFYgjCEBH1mFa9lgIW2%2BLEyLeiX9K9hMBe93cq0%2BUtv0veUVZIiLCyVACtqgKhc0iKwkERRVmTy%2BX2GUs683oB9oFECmq38HY2%2B1aXEvq3KHa/AEHgtDrQw0"
-      },
-      {
-        "nombre": "ANEXO I.doc",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=op/KdTCf1zUyafLusjPKuUQr04kKudRZO1WFNL0NtwFGRYKoMCya9cfGFZwZyrBnAdmviQntmwXgd3396tKtK8b8NrRKf6mFBEYNuZU3/Oj6CYyL7SIrUOBFfNf52ZqA"
-      },
-      {
-        "nombre": "ANEXO III.doc",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YbS7XdCvqr9xYeL59qta5jJ8xqZ1VRMnFNQVEY4t0RvRf4%2B7SMjJvC8US3hRF2nIrdKuKaj0m5wgDbOvWYvxxKVhoNODcom98vhnSor%2BGJEC1/zDIE0Kw/PWNnLS0Z0z"
-      }
-    ],
-    "organo": "Alcaldía del Ayuntamiento de Ubrique",
-    "importe": "63000",
-    "importe_num": 76230.0,
-    "fecha_limite": "2026-11-04",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=MceKKWOz/mct8UWIC18BwInJC8iPyjpU1ktYpIb1GKm5c1L4HrufhuJcUlDICkHx5fg5pKbQD7HaTEfPJsJZO9WAPoVxFD2tue%2BQ55KB/qJ7QB3HKyQaFUExmUVQCerk",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=IPQrQrhJ28//ZS%2BS%2BX8AISJVzEvzrfBdbr7cb8y7VZc%2BhslGcStSemy4RJCLJOqQV61B8Uqc%2BKupuFGhAk0A8JidqRV1NicZH1cOBQSSz7IC1/zDIE0Kw/PWNnLS0Z0z",
+    "docs_adicionales": [],
+    "organo": "Junta de Gobierno del Ayuntamiento de Huétor Vega",
+    "importe": "55000",
+    "importe_num": 55000.0,
+    "fecha_limite": "2026-11-06",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -329,53 +45,47 @@
     "fuente": "perfiles"
   },
   {
-    "folder_id": "CONTR 2025 0000416567",
+    "folder_id": "008/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "oficina tecnica en la compra publica precomercial \"electromove\"",
-    "updated": "2026-10-20T13:46:39.706+02:00",
-    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1008465",
+    "titulo": "El presente contrato tiene por objeto la Redacción del Proyecto Constructivo, Dirección de las obras y coordinación de Seguridad y Salud, para la instalación de colectores que recojan las aguas pluviales de las cuencas norte y sur en Puebla de Guzmán (Huelva). Financiado con cargo a las ayudas de la Administración General del Estado.",
+    "updated": "2026-10-22T10:09:13.525+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=z7rhSklQfME36J9Lctlsuw%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "73210000",
-      "71311300",
-      "79421100",
-      "73220000",
-      "71311200",
-      "79421000"
+      "71240000",
+      "71520000"
     ],
-    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/428124",
-    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/428123",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=tNqkbjjxtSjKFjr8L9nfnfzcpKiWZbwv1XR55uJM/bRczoQthxtfsG01lMV0oWIpGvyUwqWiVthLt6FGpGd6J8qVoGXoKzNCuL2ETWwrWSt45ClyWkoJ44mKM70IFcOu",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Rm69whR3%2BTAMOjtbV5wkuPOPd8AkRgDyAaZhm%2Bi9i/5Vik8ZQOaEoHN4CkQtYAqVHethZQ1kKPppnTGk2sy91JB%2BvDxlhVR7f3e9sfq1cnLfdyQgZAdTm3EfcUAC7CJ6",
     "docs_adicionales": [
       {
-        "nombre": "Respuesta a consulta.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/436075"
+        "nombre": "5 RESOLUCION ALCALDIA INICIO firmado.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9w%2BAI1Qo1BzXCIA8v2CaMQDAGTsYvvKNwmrafinbijG8LdOp0t09L9btoMKBD9OfMyAtX/bPUMzOBP2UwseXdhPjS3WeGYw%2Bbh2VG2T8iAGB0nvVKRzfe4rpHcnlPhSZ"
       },
       {
-        "nombre": "Informe de insuficiencia de medios.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/428155"
+        "nombre": "ANEXO I.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ywx2dD84Kz%2BRNktqmTmmzA1pHtzAqFiPM57xEV%2B%2BCbdViBj%2BxbOz8SbSHSykkqAfPnW6LkGX%2BWvEU5b8yHvZBVa6pRBj0N/OB90Y9VZsKooZyAJWGsSt0OzTSTyw9JAs"
       },
       {
-        "nombre": "Memoria justificativa de la contratación.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/428156"
+        "nombre": "1_Memoria_justificativa firmado.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=guo35tXpFCYTh5gpSeU1rLO/lZ6pT2t272/CN/XDgf59%2BDMiSIKpltlLNg9gBHgghDBd2/JLRmvSeNSsJJJQ4p0bjDV8odfKSfti9VOGD5uHAj0WEJrB5sP7amrh2jBD"
       },
       {
-        "nombre": "DEUC.XML",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/428158"
+        "nombre": "ANEXO II.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=TMbz%2BqnZ3h3TRgqDkiOPT/9ptL256BVP7lN06MiLtIGPXaLL0mJFoFYDM5M66POnshmZU8vBIGldb/JINibp7ynTkUHMnINxRNY%2BI3r6TSPDdQD9RyhUmzT4jZ2In4zL"
       }
     ],
-    "organo": "Consejería de Fomento, Articulación del Territorio y Vivienda. Secretaría General Técnica (En Transición)",
-    "importe": "444192.22",
-    "importe_num": 444192.22,
-    "fecha_limite": "2026-10-23",
+    "organo": "Alcaldía del Ayuntamiento de Puebla de Guzmán",
+    "importe": "327320.3",
+    "importe_num": 327320.3,
+    "fecha_limite": "2026-11-23",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
-    "fuente": "agregadas",
-    "descripcion": "OFICINA TÉCNICA EN EL PROYECTO DE COMPRA PÚBLICA PRECOMERCIAL DE INNOVACIÓN: PLATAFORMA RESERVADA DE ELECTROMOVILIDAD POR INDUCCIÓN EN MOVIMIENTO (PROYECTO ¿ELECTROMOVE¿)",
-    "junta_consultado": "2026-10-21"
+    "fuente": "perfiles"
   }
 ]

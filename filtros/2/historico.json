@@ -35,7 +35,7 @@
   },
   {
     "folder_id": "1005/2026",
-    "estado": "ADJ",
+    "estado": "RES",
     "titulo": "Redacción del Proyecto de Ejecución de las obras del Parque Urbano Barranco de El Pueblo, en el T.M. de Tijarafe. Isla de La Palma",
     "updated": "2026-07-16T13:36:08.527+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2BKT0PU7WZgU4NavIWzMcHA%3D%3D",
@@ -59,12 +59,12 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-07-17",
-    "estado_anterior": "RES",
+    "estado_anterior": "ADJ",
     "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-21",
+    "estado_cambiado_el": "2026-10-22",
     "fecha_limite_anterior": "2026-07-28",
     "fecha_limite_cambiada_el": "2026-10-14",
-    "estado_updated": "2026-10-21T12:23:38.843+02:00",
+    "estado_updated": "2026-10-21T18:28:57.656+02:00",
     "docs_adicionales": [
       {
         "nombre": "ANEXO I.pdf",
@@ -297,8 +297,8 @@
   },
   {
     "folder_id": "482/2026",
-    "estado": "RES",
-    "resultado": "adjudicada",
+    "estado": "EV",
+    "resultado": null,
     "titulo": "Concurso de proyectos con intervención de jurado para contrato de servicios de redacción de proyecto básico y de ejecución, dirección facultativa de las obras y coordinación de seguridad y salud para la construcción de edificio municipal polivalente para la juventud denominado \"Espacio Joven\".",
     "updated": "2026-10-15T12:41:11.498+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SRKx9M0hhBydkQsA7ROvsg%3D%3D",
@@ -313,18 +313,56 @@
     "organo": "Alcaldía del Ayuntamiento de Yebes",
     "importe": "76300",
     "importe_num": 76300.0,
-    "fecha_limite": "2026-10-02",
+    "fecha_limite": "2026-08-17",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "8",
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-10-15",
-    "estado_anterior": "EV",
-    "estado_cambiado_el": "2026-10-17",
-    "fecha_limite_anterior": "2026-08-17",
-    "fecha_limite_cambiada_el": "2026-10-17",
-    "estado_updated": "2026-10-16T14:03:20.300+02:00"
+    "estado_anterior": "RES",
+    "estado_cambiado_el": "2026-10-22",
+    "fecha_limite_anterior": "2026-10-02",
+    "fecha_limite_cambiada_el": "2026-10-22",
+    "estado_updated": "2026-10-22T15:26:21.358+02:00",
+    "docs_adicionales": [
+      {
+        "nombre": "Estudio topografico parcela 1 23.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/A6SY%2BY9LI/RvhxDhLTz6GC94tcdDNHhPJGnVbQtpKPW69Oz7TyToRAGVz1aHpr%2B5x3g2Kms9oBUS8lnNYcy3arny1Gpi0p9HvOiUbMOxNq1aXEvq3KHa/AEHgtDrQw0"
+      },
+      {
+        "nombre": "Esquema  Propuesta Situacion.dwg",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YX4Pak5WDPkJgMDwyXiNmkc%2BOhz7Q7PJhwRjsVK8V8ODA7FIxa1lFZaUbBfCZN7faYop%2BIusWWeUStXksoVxqONLLwgmJShVGbZv8oX8FNR45ClyWkoJ44mKM70IFcOu"
+      },
+      {
+        "nombre": "Det volumetricas I S1.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Do/wPESu7wVQYZ1uJ1dE551igbtW/wQzV7m/tokDA6EYDpX6DTp5Be2YsrYgnPPTn8N9TSj%2Bo6VFP66JwTyaSQlNapcJ1xfkc1ome5L17PnVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "Red de saneamiento parcela.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Zh4n6M/OZofoBb1Frmz0AFJkF5LqE0lYLWQZ%2BZtXYMxFhfvkeG%2BHqb7qey95ZC9z50I3IlfudeVK8ZInLf79VrBxo8JV5IHDKBmutNPsc97VTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "Ampliacion estudio geotecnico edificio municipal.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/DDRi/Bzx0peYPGO6ysLvD5avDVeVsY4Ak/bVxeZPHIxFlY9kMuD6hKlfBboleVamLM3Muok9z1t9JeqCvr8emjriR1zEfdoQ0PHlRvrDzgC1/zDIE0Kw/PWNnLS0Z0z"
+      },
+      {
+        "nombre": "Estudio Geotecnico y Geofisico edificio municipal.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=x7lNejRAgkXr5GBN0zqooOUvUWoSCk2gVwuYxX%2BzH0sLHD9nqruZsAQ2hTXSEYosYR67tONw%2BQhaYW7qnYL6TMdU5U1R6/3%2BhIvKABH30ZTVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "Det volumetricas II S1.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=C%2BNhDGGjeQ6tkQu%2Bf%2BwUsBT6S9YNz2tiTa/etslFRni2u590jKmFS7hwwnCyJmSFH4BkvU2iQbuU%2BC5GjhZhLnwizYUb509onaAoEqDyODsC1/zDIE0Kw/PWNnLS0Z0z"
+      },
+      {
+        "nombre": "Calificacion del suelo S1.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=chRqdY%2BeEFGK6SjkSam8IanzTForBMN4TznqxKCG2JUXKixr0DnA4YkA6mMQFbzewzmto3Y22u2cYLrhq57x%2BEjxYcHVa26zDYSm5W3mCFN45ClyWkoJ44mKM70IFcOu"
+      },
+      {
+        "nombre": "PL Saneamiento EDIFICIO.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=XknMl0kuZI18VgUSqiGqblSK1dCDINFoH/itHqzIYKNGuzALpu6Ur3lwccgkN18ObPA8O6oMw7ZKBZCl7P6B7y3rfTRXRnXMfR7NqBHZdKfVTD3T98KC0nSgQFM0q%2B5s"
+      }
+    ]
   },
   {
     "folder_id": "033/2022",
@@ -402,7 +440,17 @@
     "procedimiento": "8",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-16"
+    "fecha_captura": "2026-10-16",
+    "docs_adicionales": [
+      {
+        "nombre": "PPT CAST.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=t698HFBw4o7mp8YO2mjevFCkgHtm1%2BH98utxJuxG1C6S6/wb/djQ5TooFsT2PSOApJXokShaBgi7pEeXZzJkkgzoSdJ4r98dURtzbAMNpqffdyQgZAdTm3EfcUAC7CJ6"
+      },
+      {
+        "nombre": "PCAP CAST.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=R4qebMyFQ%2Bxu%2BKx026mloj5QlHEp4GZco1RpX6ajM5McKnDuY59IwjphEGkNX/UdxSiIdNVnMt1fxW1O12FUoOWyhIUvMZlYndJjGm4yC636CYyL7SIrUOBFfNf52ZqA"
+      }
+    ]
   },
   {
     "folder_id": "CONC2026000055",

@@ -149,14 +149,14 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ANfnasMvFMBfQEOKVFd%2BGwyXinMDV7f41l8ykcPj01uqYcTl%2B5Au6RKREO/ebjMTX4AnfT3oBVkIIPxV0wyxjAaBvQv608dECDP6hwCaquB7QB3HKyQaFUExmUVQCerk",
     "organo": "Pleno del Ayuntamiento de Gádor",
     "importe": "289256.2",
-    "fecha_limite": "2026-07-29",
+    "fecha_limite": "2026-05-07",
     "fecha_captura": "2026-07-14",
     "estado_anterior": "RES",
     "resultado": "adjudicada",
     "estado_cambiado_el": "2026-10-20",
-    "estado_updated": "2026-10-19T10:50:50.742+02:00",
-    "fecha_limite_anterior": "2026-10-26",
-    "fecha_limite_cambiada_el": "2026-10-16"
+    "estado_updated": "2026-10-22T13:01:35.050+02:00",
+    "fecha_limite_anterior": "2026-07-29",
+    "fecha_limite_cambiada_el": "2026-10-22"
   },
   {
     "folder_id": "24/26",
@@ -326,7 +326,7 @@
   },
   {
     "folder_id": "3809/2026",
-    "estado": "EV",
+    "estado": "RES",
     "titulo": "Contrato mixto de obras y servicios para la ejecución de obras de Reformado conservación, reparación y refuerzo de estructura de madera de cubierta sobre aulas 4A, 4B y 4C en CEIP San Roque de Arahal. Este proyecto está financiado por la Administración General del Estado, a través del Ministerio de Política Territorial y Memoria Democrática, con una aportación de 147.707,48 €.\r\n",
     "updated": "2026-07-15T10:21:53.202+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=CV4dyWQi64gQyBAnWzHfCg%3D%3D",
@@ -353,10 +353,10 @@
     "importe": "127438.11",
     "fecha_limite": "2026-10-01",
     "fecha_captura": "2026-07-16",
-    "estado_anterior": "RES",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-09",
-    "estado_updated": "2026-10-08T13:43:25.283+02:00",
+    "estado_anterior": "EV",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-10-22",
+    "estado_updated": "2026-10-21T12:16:21.712+02:00",
     "fecha_limite_anterior": "2026-07-16",
     "fecha_limite_cambiada_el": "2026-10-09"
   },
@@ -456,7 +456,7 @@
   },
   {
     "folder_id": "160/2026",
-    "estado": "RES",
+    "estado": "PUB",
     "titulo": "Servicio de asistencia técnica al Ayuntamiento de Iznatoraf, para la redacción Plan Básico de Ordenación Municipal (PBOM) y el Plan Especial de Protección del Patrimonio Histórico (PEPPH).",
     "updated": "2026-07-21T18:24:04.681+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=CqCs6W%2BKVz%2Fs%2BnLj3vAg5A%3D%3D",
@@ -470,7 +470,7 @@
     "organo": "Alcaldía del Ayuntamiento de Iznatoraf",
     "importe": "120000",
     "importe_num": 120000,
-    "fecha_limite": "2026-09-17",
+    "fecha_limite": "2026-10-26",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -483,16 +483,32 @@
       "fecha_analisis": "2026-07-22T12:34:46.237172+00:00"
     },
     "fecha_captura": "2026-07-22",
-    "estado_anterior": "PUB",
-    "resultado": "formalizada",
-    "estado_cambiado_el": "2026-10-19",
-    "estado_updated": "2026-10-19T19:25:02.573+02:00",
-    "fecha_limite_anterior": "2026-11-16",
-    "fecha_limite_cambiada_el": "2026-10-19",
+    "estado_anterior": "RES",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-22",
+    "estado_updated": "2026-10-22T12:55:37.151+02:00",
+    "fecha_limite_anterior": "2026-09-17",
+    "fecha_limite_cambiada_el": "2026-10-22",
     "docs_adicionales": [
       {
-        "nombre": "ANEXOS.doc",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=MuE3or2Du9fkzsM5XAVk27m2CaU2%2B6Oo9RkizIcf3/BB4ElWoBOI8LqbaAYjNxnjp%2BURQ9j5zP%2BTT5DhhTevFRiG/cAkEhGJbV6uT8EmW2LVTD3T98KC0nSgQFM0q%2B5s"
+        "nombre": "160-2026_ANEXO III_MODELO DE PROPOSICION ECONOMICA Y CRITERIOS AUTIMATICOS AZAFATAS.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9kELR3FHX4XUo47J6d%2Blc0GIfNZRZn5cI%2BnX3kccHLaTTtcks9nAStLHJ2KTSRDqZmgqG8YtlO5kih7w%2Brdf68AkKRlRmala3jTpLuGn4MO1aXEvq3KHa/AEHgtDrQw0"
+      },
+      {
+        "nombre": "160-2026_ANEXO I_ MODELO DE DECLARACION RESPONSABLE_ AZAFATAS.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=IUA3fBmJIeBNqDnfmFNRSNT0bB8Lip7EZmHTV8ISuQ8WJPqJKoDNl6AwrW7jIKs6d%2BZmwwwqFq2L8cBLWYGw6zVAk7NALLoQOnnM9Nww74vfdyQgZAdTm3EfcUAC7CJ6"
+      },
+      {
+        "nombre": "160-2026_ANEXO II_MODELO DE PRESENTACION DEL PROYECTO TECNICO_ AZAFATAS.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=G50VAHxpygDh/5oZlvbpDftlASUMn3t74bZmbZ%2BRBTejHn85KpuUxPe%2BZ0nnnOhJWWyLKythIDhv1WiLnelRTCD1HHXgAsIa28EzsjBQTUaB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "160-2026_ANEXO IV_MODELO DE PRESENTACION DE CV AZAFATAS.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=akjXLCKlffyOOp7hfEuJNVxZunYnTqKRNBwkK3Jn0d7E4zDF6xl%2BpTWr3fyrPzvXy/eSLQ6Bjln7P9FLKlChqdU467W4uKVOr1LEGE3eN2H3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "160-2026_ANEXO V_ DECLARACION DE SUBCONTRATACION_AZAFATAS.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=VArgmGloiQfi/A7vv7rr90FQGMq6Dn7FlR4Y4voM4vu9wgTIfLyZEH6YIyVwCBp79rY0E2XmwLlt/oFB0kupjnp5bsjS5rCpfB9dPSiOw4F7QB3HKyQaFUExmUVQCerk"
       }
     ]
   },
@@ -607,7 +623,7 @@
   },
   {
     "folder_id": "1608/2026",
-    "estado": "EV",
+    "estado": "RES",
     "titulo": "Contrato de servicios para la redacción del proyecto de la obra de reparación del camino rural “Albojaira”, dirección de obra y coordinación en materia de seguridad y salud.",
     "updated": "2026-07-23T09:06:01.056+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=PLh0Jm9Tc8XN3k3tjedSGw%3D%3D",
@@ -621,7 +637,7 @@
     "organo": "Junta de Gobierno del Ayuntamiento de Alfacar",
     "importe": "83471.07",
     "importe_num": 83471.07,
-    "fecha_limite": "2026-10-17",
+    "fecha_limite": "2026-08-12",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -632,12 +648,22 @@
       "fecha_analisis": "2026-07-24T05:58:36.327247+00:00"
     },
     "fecha_captura": "2026-07-24",
-    "estado_anterior": "ADJ",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-19",
-    "estado_updated": "2026-10-19T09:10:53.669+02:00",
-    "fecha_limite_anterior": "2026-09-30",
-    "fecha_limite_cambiada_el": "2026-10-19"
+    "estado_anterior": "EV",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-10-22",
+    "estado_updated": "2026-10-22T09:02:31.749+02:00",
+    "fecha_limite_anterior": "2026-10-17",
+    "fecha_limite_cambiada_el": "2026-10-22",
+    "docs_adicionales": [
+      {
+        "nombre": "plano situacion tramos afectados.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=c8Grbklo69pRF2nMoXXkVLXvLd6pdq14rSZOfh60Uphc8nx9N1K2xrkNmseOyXifntzZoxvyUS5wCAbpGsSY6meY6251NeXpt8Xcxs6NYNi1aXEvq3KHa/AEHgtDrQw0"
+      },
+      {
+        "nombre": "FOTOGRAFIAS.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1vbWOTheeVCYCdcSH1MEew49mvnCbE8WCcRCsVPAjXTlJttwHVigQgFvyoe/jLxYA283MzhjVH%2BgM6k49N/A%2BLpXX9pF6LYRIkza/Q1Ms5PDdQD9RyhUmzT4jZ2In4zL"
+      }
+    ]
   },
   {
     "folder_id": "GEX 2026 1519 PLAN ORDENACION",
@@ -753,7 +779,21 @@
     "estado_anterior": "PUB",
     "resultado": null,
     "estado_cambiado_el": "2026-10-15",
-    "estado_updated": "2026-10-15T13:35:48.957+02:00"
+    "estado_updated": "2026-10-15T13:35:48.957+02:00",
+    "docs_adicionales": [
+      {
+        "nombre": "SDA33 MODELO SOLVENCIA TECNICA.xlsx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4tTUjAXi8RcClL6aKoq5tPDEluAyy%2B7L/r6U6N5rVbu2bv930eAms3Dp3ELL15B3FqEQhT1Fd4pwU7GZ7V2bXbyAuF29/usInwW5VIYsqF8C1/zDIE0Kw/PWNnLS0Z0z"
+      },
+      {
+        "nombre": "SDA33 MODELO DECLARACION RESPONSABLE.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=FCrXDTHwO6aoopCoHZZBRY379yqy2Jdoso74NcfGA57wft1RhgvNMrXFssxyBYyEpZaxBGJNrb4GDSNpP1OYyG8XW4EyIM4eUWtV/tsrUW6Cx2e6p7hqtlp2aFupgHMr"
+      },
+      {
+        "nombre": "SDA33 INFORMACION ADICIONAL.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=koBTm4K8e1/7l4u0U7xECi8XJYc6YLiGyiFKdh6nam7EKn5LvwVWV1i%2B8w8QJiAlZ9bRynuJTWFOC4BKR5rhWDkq8RF9k1F5yaf52H2A5MffdyQgZAdTm3EfcUAC7CJ6"
+      }
+    ]
   },
   {
     "folder_id": "63-26 (5316)",
@@ -948,7 +988,7 @@
   },
   {
     "folder_id": "13094/2026",
-    "estado": "ADJ",
+    "estado": "RES",
     "titulo": "Asistencia técnica redacción del proyecto básico y de ejecución, estudio o estudio básico de seguridad y salud, estudio de gestión de residuos, dirección facultativa obras y coordinación de seguridad y salud de recuperación de espacios públicos, en concreto de parques Calahoyas y Atarazana y plaza de los Alcores para integrar dichos espacios dentro del proyecto Mairena Econectada",
     "updated": "2026-08-14T14:10:25.219+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=3nswTw97Cgr9pbnDwlaUlg%3D%3D",
@@ -992,10 +1032,48 @@
       "fecha_analisis": "2026-08-15T03:53:15.800776+00:00"
     },
     "fecha_captura": "2026-08-15",
-    "estado_anterior": "EV",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-15",
-    "estado_updated": "2026-10-15T11:33:09.789+02:00"
+    "estado_anterior": "ADJ",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-10-22",
+    "estado_updated": "2026-10-22T10:24:56.990+02:00",
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXO II Declaracion responsable.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=WBFyDAZ6NklQstfQEP64lniRrq6TNisLXyEgW3r1cc0qKPjU7NaMKZx3PO4vQn2flyFmAoVsygovVRInhMn97s27f7kT2k9T7AJGH/NXVUTVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "ANEXO III Compromiso medios.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=t7s5PHGzsbzmSWgjw0c7pMQt7C8UKd%2B1TQK7caPDYvtQzUJOsTZzwMrSiyrPeKEwxdiRj6SESAHlqrxztTYxVjGkYyfeqUB1bjPeTvrhSVTVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "anexos pcap expte 13094 2026.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=f8p2J8SBg1AUCIAjve20v7miVij51/E62Lz9UHo0EMD4qGH2AVEG0bbDF/lchcmlvCfVqZPyPV9iJcOlvVda3woj/o1vkfKvMXFzdE61aY145ClyWkoJ44mKM70IFcOu"
+      },
+      {
+        "nombre": "Providencia inicio 13094 2026.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Vmk2waGCw3AnQbLeIwfzL4cZY2wLToKllip2aMFRGpoRenFzPIR4MfIz4MSH9wWYYSco3SL/xuroqaq0ex/VEdxM3R4CYY/1E83XdhEWzj4ZyAJWGsSt0OzTSTyw9JAs"
+      },
+      {
+        "nombre": "PLIEGO TIPO 13094 2026.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=GSpgfLtFv9gUO22Gy2L32VJerz/6tzk1VIc15ce4jfypZndhMUGTB1aLpU5CEFdgNLF1oNiGf0kie%2BylxNsHtmn3LqMRNOx04rPRuhguyuS1aXEvq3KHa/AEHgtDrQw0"
+      },
+      {
+        "nombre": "memoria tecnica 13094 2026.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QO8a5IHiLPzfqLPLloCGp45pTzPboHALw2JOButPgDSUCcd0njOCGjlICqSEZFoDVLTUGoAABwT3EmXTIPE%2BVIrAG4gW7BemXN4C%2BFeSxYeHAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "Resolucion Aprobacion expediente y gasto 13094 2026.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=E8%2Bii1w475/OcJCbnskQaKjE5uA97nCXBlQgHhWkNK8AYpX6zdUS5Itif5PfpVc4mWPrAkw7tE5o8/0Q8YclGgIVHvKtV8LotDasBWxPPRBt/o8fNevwsujgRzaBbugn"
+      },
+      {
+        "nombre": "PPT  13094 2026.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=hfY/6xdrukxdNh2YDrpBZ93vBXq2IGXXQ5pUUTes1DgSE6B9pGjP3k%2BC0nj3tT9GQ1YAqKQvkcCf9tbPUb4wnYgC1Uvrhf7L0iYmIdjs1R7DdQD9RyhUmzT4jZ2In4zL"
+      },
+      {
+        "nombre": "ANEXO IV Proposicion Economica.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=gY2RF%2BtBqCFNj4UMEWzq3IpQiBqe/3ks3NwnN4NfDBnoeP0DpEkCvQR35D84rJW25Z6oxfqWYL8DZ8dzrRR882U3iUjbA7u32l2/vKmU97Bt/o8fNevwsujgRzaBbugn"
+      }
+    ]
   },
   {
     "folder_id": "4380/2026",
@@ -1544,7 +1622,7 @@
   },
   {
     "folder_id": "25/26",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "Servicio de Consultoria - Oficina Tecnica Administrativa del Proyecto ECOCREM, cofinanciado por el Programa Plurirregional de España FEDER 2021-2027 en un 85% del gasto elegible, en el marco de la Línea FID-CPI del Ministerio de Ciencia, Innovación y Universidades para la empresa Parque Cementerio de Málaga S.A (PARCEMASA)",
     "updated": "2026-09-28T09:28:08.923+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XAO3D5uzCgmHCIsjvJ3rhQ%3D%3D",
@@ -1574,10 +1652,10 @@
       "fecha_analisis": "2026-09-29T09:52:38.339915+00:00"
     },
     "fecha_captura": "2026-09-29",
-    "estado_anterior": "EV",
+    "estado_anterior": "PUB",
     "resultado": null,
-    "estado_cambiado_el": "2026-10-19",
-    "estado_updated": "2026-10-19T12:43:20.971+02:00",
+    "estado_cambiado_el": "2026-10-22",
+    "estado_updated": "2026-10-22T08:18:34.081+02:00",
     "fecha_limite_anterior": "2026-09-07",
     "fecha_limite_cambiada_el": "2026-10-19"
   },
@@ -1614,7 +1692,7 @@
   },
   {
     "folder_id": "1275/2026",
-    "estado": "ADJ",
+    "estado": "EV",
     "titulo": "Asistencia Técnica para la redacción y tramitación de la modificación puntual del Plan General de Ordenación Urbanística (PGOU) de Cádiz en el ámbito de la avenida de Astilleros (CA-102-26)",
     "updated": "2026-09-29T13:21:24.653+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ZncGsja8FVTua%2Fi14w%2FPLA%3D%3D",
@@ -1630,7 +1708,7 @@
     "organo": "Presidencia de la Autoridad Portuaria de la Bahía de Cádiz",
     "importe": "30000",
     "importe_num": 30000,
-    "fecha_limite": "2026-09-17",
+    "fecha_limite": "2026-10-14",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1641,14 +1719,14 @@
       "fecha_analisis": "2026-09-30T09:54:41.861942+00:00"
     },
     "fecha_captura": "2026-09-30",
-    "estado_anterior": "PUB",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-15",
-    "estado_updated": "2026-10-15T08:47:11.459+02:00",
+    "estado_anterior": "ADJ",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-22",
+    "estado_updated": "2026-10-22T10:37:41.283+02:00",
     "revisado_humano": true,
     "revisado_fecha": "2026-10-02T11:06:39.077Z",
-    "fecha_limite_anterior": "2026-10-14",
-    "fecha_limite_cambiada_el": "2026-10-15"
+    "fecha_limite_anterior": "2026-09-17",
+    "fecha_limite_cambiada_el": "2026-10-22"
   },
   {
     "folder_id": "SE-19/26",
@@ -2307,8 +2385,8 @@
   },
   {
     "folder_id": "4066/2026",
-    "estado": "PUB",
-    "resultado": null,
+    "estado": "RES",
+    "resultado": "desistida",
     "titulo": "Contrato de servicios técnicos de redacción de proyectos y dirección de obra del Ayuntamiento de Mojácar",
     "updated": "2026-10-14T13:20:01.987+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=0EWUwqcQYS%2FgL1BHd3qjQA%3D%3D",
@@ -2334,11 +2412,13 @@
     "fecha_captura": "2026-10-14",
     "fecha_limite_anterior": "2026-10-29",
     "fecha_limite_cambiada_el": "2026-10-16",
-    "estado_updated": "2026-10-16T12:12:50.816+02:00"
+    "estado_updated": "2026-10-22T12:36:44.891+02:00",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-22"
   },
   {
     "folder_id": "78/26",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Contrato de servicio para la redacción de proyectos eléctricos para ampliazión de la instalación eléctrica de baja tensión para el sistema de climatización en los centros de educación infantil y primaria del municipio de Los Barrios (Cádiz), responsable del contrato de obras y dirección facultativa. \r\n\r\n",
     "updated": "2026-10-15T09:43:47.828+02:00",
@@ -2353,7 +2433,7 @@
     "organo": "Alcaldía del Ayuntamiento de Los Barrios (Cádiz)",
     "importe": "35700",
     "importe_num": 35700,
-    "fecha_limite": "2026-10-30",
+    "fecha_limite": "2026-10-21",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -2362,7 +2442,12 @@
     "fecha_captura": "2026-10-15",
     "revisado_humano": true,
     "revisado_fecha": "2026-10-20T09:52:09.348Z",
-    "revisado_por": "Belén Fernández"
+    "revisado_por": "Belén Fernández",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-22",
+    "fecha_limite_anterior": "2026-10-30",
+    "fecha_limite_cambiada_el": "2026-10-22",
+    "estado_updated": "2026-10-21T19:11:37.318+02:00"
   },
   {
     "folder_id": "8/2026 (652/2026)",
@@ -2736,5 +2821,50 @@
     "carpeta_descargada": true,
     "carpeta_descargada_fecha": "2026-10-22T08:03:19.501Z",
     "carpeta_descargada_por": "CarlosLCAI"
+  },
+  {
+    "folder_id": "008/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "El presente contrato tiene por objeto la Redacción del Proyecto Constructivo, Dirección de las obras y coordinación de Seguridad y Salud, para la instalación de colectores que recojan las aguas pluviales de las cuencas norte y sur en Puebla de Guzmán (Huelva). Financiado con cargo a las ayudas de la Administración General del Estado.",
+    "updated": "2026-10-22T10:09:13.525+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=z7rhSklQfME36J9Lctlsuw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000",
+      "71520000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=tNqkbjjxtSjKFjr8L9nfnfzcpKiWZbwv1XR55uJM/bRczoQthxtfsG01lMV0oWIpGvyUwqWiVthLt6FGpGd6J8qVoGXoKzNCuL2ETWwrWSt45ClyWkoJ44mKM70IFcOu",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Rm69whR3%2BTAMOjtbV5wkuPOPd8AkRgDyAaZhm%2Bi9i/5Vik8ZQOaEoHN4CkQtYAqVHethZQ1kKPppnTGk2sy91JB%2BvDxlhVR7f3e9sfq1cnLfdyQgZAdTm3EfcUAC7CJ6",
+    "docs_adicionales": [
+      {
+        "nombre": "5 RESOLUCION ALCALDIA INICIO firmado.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9w%2BAI1Qo1BzXCIA8v2CaMQDAGTsYvvKNwmrafinbijG8LdOp0t09L9btoMKBD9OfMyAtX/bPUMzOBP2UwseXdhPjS3WeGYw%2Bbh2VG2T8iAGB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "ANEXO I.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ywx2dD84Kz%2BRNktqmTmmzA1pHtzAqFiPM57xEV%2B%2BCbdViBj%2BxbOz8SbSHSykkqAfPnW6LkGX%2BWvEU5b8yHvZBVa6pRBj0N/OB90Y9VZsKooZyAJWGsSt0OzTSTyw9JAs"
+      },
+      {
+        "nombre": "1_Memoria_justificativa firmado.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=guo35tXpFCYTh5gpSeU1rLO/lZ6pT2t272/CN/XDgf59%2BDMiSIKpltlLNg9gBHgghDBd2/JLRmvSeNSsJJJQ4p0bjDV8odfKSfti9VOGD5uHAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "ANEXO II.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=TMbz%2BqnZ3h3TRgqDkiOPT/9ptL256BVP7lN06MiLtIGPXaLL0mJFoFYDM5M66POnshmZU8vBIGldb/JINibp7ynTkUHMnINxRNY%2BI3r6TSPDdQD9RyhUmzT4jZ2In4zL"
+      }
+    ],
+    "organo": "Alcaldía del Ayuntamiento de Puebla de Guzmán",
+    "importe": "327320.3",
+    "importe_num": 327320.3,
+    "fecha_limite": "2026-11-23",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-10-22"
   }
 ]
