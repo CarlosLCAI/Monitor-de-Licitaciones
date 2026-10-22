@@ -337,8 +337,29 @@
     font-size: 14px;
   }
   .empty strong { display: block; font-size: 16px; color: var(--antracita); margin-bottom: 6px; }
-  .novedades-lista { margin: 0 0 6px; padding-left: 20px; font-size: 13.5px; line-height: 1.55; }
-  .novedades-lista li { margin-bottom: 10px; }
+  /* Novedades como línea de tiempo: línea vertical con un punto por novedad; cada una aparece al bajar */
+  .timeline { list-style: none; margin: 4px 0 6px 7px; padding: 0 0 0 26px; border-left: 2px solid var(--border); font-size: 13.5px; line-height: 1.55; }
+  .timeline li { position: relative; }
+  .tl-fecha {
+    font-family: 'Barlow Condensed', sans-serif; font-size: 15px; text-transform: uppercase; letter-spacing: .04em;
+    color: var(--teal-texto); margin: 20px 0 8px;
+  }
+  .tl-fecha:first-child { margin-top: 0; }
+  .tl-item { margin-bottom: 14px; }
+  .tl-item::before, .tl-fecha::before {
+    content: ''; position: absolute; left: -34px; width: 10px; height: 10px; border-radius: 50%;
+    background: var(--teal); box-shadow: 0 0 0 4px var(--surface);
+  }
+  .tl-item::before { top: 6px; }
+  .tl-fecha::before { top: 5px; background: var(--surface); border: 2px solid var(--teal); box-sizing: border-box; }
+  .tl-nuevo {
+    display: inline-block; margin-right: 8px; padding: 0 7px; border-radius: 4px; vertical-align: 1px;
+    font-family: 'Barlow', sans-serif; font-size: 11.5px; font-weight: 600; line-height: 1.6;
+    background: var(--teal-suave); color: var(--teal-texto);
+  }
+  .tl-aparece { opacity: 0; transform: translateY(12px); transition: opacity .4s ease, transform .4s ease; }
+  .tl-aparece.visible { opacity: 1; transform: none; }
+  @media (prefers-reduced-motion: reduce) { .tl-aparece { opacity: 1; transform: none; transition: none; } }
   .ayuda-tabs { display: flex; border-bottom: 1px solid var(--border); background: var(--surface-3); }
   .ayuda-tab {
     font-family: 'Barlow Condensed', sans-serif; font-size: 14px; font-weight: 600; letter-spacing: .04em;
@@ -357,11 +378,6 @@
     margin-top: 16px; padding: 10px 14px; background: var(--teal-suave); border-left: 4px solid var(--teal);
     font-size: 13.5px; line-height: 1.55;
   }
-  .novedades-fecha {
-    font-family: 'Barlow Condensed', sans-serif; font-size: 15px; text-transform: uppercase; letter-spacing: .04em;
-    color: var(--teal-texto); margin: 18px 0 6px; padding-bottom: 3px; border-bottom: 1px solid var(--border);
-  }
-  .novedades-fecha:first-child { margin-top: 0; }
   .chip-sem { display: inline-block; padding: 1px 9px; border-radius: 4px; font-weight: 600; color: var(--ink); }
   #btn-cerrar-novedades { background: none; border: none; color: var(--on-teal); font-size: 15px; cursor: pointer; }
   .resumen-lectura {
@@ -3138,17 +3154,46 @@ function fechaLarga(iso) {
   return isNaN(d) ? iso : d.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
 }
 
+// Las novedades de la última semana llevan la etiqueta «Nuevo».
+function esReciente(fecha) {
+  const t = Date.parse(fecha + 'T00:00:00');
+  return !isNaN(t) && Date.now() - t < 8 * 24 * 3600 * 1000;
+}
+
 function renderNovedades() {
-  document.getElementById('ayuda-novedades').innerHTML = NOVEDADES.map(n =>
-    '<h4 class="novedades-fecha">' + fechaLarga(n.fecha) + '</h4>' +
-    '<ul class="novedades-lista">' + n.items.map(t => '<li>' + t + '</li>').join('') + '</ul>'
-  ).join('');
+  document.getElementById('ayuda-novedades').innerHTML = '<ul class="timeline">' + NOVEDADES.map(n => {
+    const etiqueta = esReciente(n.fecha) ? '<span class="tl-nuevo">Nuevo</span>' : '';
+    return '<li class="tl-fecha tl-aparece">' + fechaLarga(n.fecha) + '</li>' +
+      n.items.map(t => '<li class="tl-item tl-aparece">' + etiqueta + t + '</li>').join('');
+  }).join('') + '</ul>';
+  animarNovedades();
+}
+
+// Cada novedad aparece (con un pequeño desplazamiento) cuando llega a la zona visible de la ventana al bajar.
+// Se revela todo lo que quede por encima del borde inferior, así un salto con la barra o con «Fin» no deja
+// entradas sin mostrar. Se repite cada vez que se abre la pestaña (con «reducir movimiento» no hay animación).
+function revelarNovedades() {
+  const raiz = document.querySelector('#modal-novedades-overlay .modal-body');
+  const limite = raiz.getBoundingClientRect().bottom - 24;
+  let orden = 0;
+  document.querySelectorAll('#ayuda-novedades .tl-aparece:not(.visible)').forEach(e => {
+    if (e.getBoundingClientRect().top < limite) {
+      e.style.transitionDelay = (orden++ * 80) + 'ms'; // las que entran a la vez, en cascada
+      e.classList.add('visible');
+    }
+  });
+}
+
+function animarNovedades() {
+  const raiz = document.querySelector('#modal-novedades-overlay .modal-body');
+  document.querySelectorAll('#ayuda-novedades .tl-aparece').forEach(e => { e.classList.remove('visible'); e.style.transitionDelay = ''; });
+  raiz.onscroll = revelarNovedades;
+  requestAnimationFrame(revelarNovedades); // con la ventana oculta no revela nada: lo hace al abrirse
 }
 
 // La campana va rellena durante la primera semana tras la última actualización.
 function novedadesRecientes() {
-  const t = Date.parse(NOVEDADES[0].fecha + 'T00:00:00');
-  return !isNaN(t) && Date.now() - t < 8 * 24 * 3600 * 1000;
+  return esReciente(NOVEDADES[0].fecha);
 }
 
 function pintarBotonNovedades() {
@@ -3174,11 +3219,13 @@ function mostrarAyuda(seccion) {
   document.getElementById('ayuda-novedades').hidden = seccion !== 'novedades';
   document.getElementById('ayuda-tutorial').hidden = seccion !== 'tutorial';
   document.querySelector('#modal-novedades-overlay .modal-body').scrollTop = 0;
+  if (seccion === 'novedades') animarNovedades();
 }
 
 function abrirAyuda(seccion) {
   mostrarAyuda(seccion);
   document.getElementById('modal-novedades-overlay').classList.add('abierto');
+  if (seccion === 'novedades') animarNovedades();
 }
 
 document.querySelectorAll('.ayuda-tab').forEach(b => b.addEventListener('click', () => mostrarAyuda(b.dataset.ayuda)));
@@ -3191,6 +3238,7 @@ pintarBotonNovedades();
 try {
   if (localStorage.getItem(NOVEDADES_VISTAS_KEY) !== VERSION_NOVEDADES) {
     document.getElementById('modal-novedades-overlay').classList.add('abierto');
+    animarNovedades();
   }
 } catch (e) { /* si no hay almacenamiento no se insiste en cada visita */ }
 
