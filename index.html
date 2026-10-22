@@ -172,6 +172,11 @@
     color: var(--ink);
   }
   .controls input { flex: 1; min-width: 0; }
+  .filtro-revisadas {
+    display: flex; align-items: center; gap: 6px; flex: none;
+    margin-left: 12px; font-size: 13px; color: var(--ink-soft); white-space: nowrap; cursor: pointer; user-select: none;
+  }
+  .controls .filtro-revisadas input { flex: none; width: 16px; height: 16px; margin: 0; padding: 0; cursor: pointer; accent-color: var(--teal); }
   table {
     width: 100%;
     table-layout: fixed;
@@ -682,6 +687,7 @@
     <div class="tabs" id="tabs"></div>
     <div class="controls">
       <input type="text" id="buscar" placeholder="Buscar por título, órgano o expediente">
+      <label class="filtro-revisadas" title="Muestra solo las licitaciones marcadas como revisadas"><input type="checkbox" id="solo-revisadas"> Solo revisadas</label>
     </div>
   </div>
 
@@ -1875,8 +1881,10 @@ function celdaEstado(r) {
 
 function aplicarFiltros() {
   const texto = document.getElementById('buscar').value.toLowerCase();
+  const soloRevisadas = document.getElementById('solo-revisadas').checked;
 
   let filtrados = datosPorPestana().filter(d => {
+    if (soloRevisadas && !d.revisado_humano) return false;
     const coincideTexto = !texto ||
       (d.titulo && d.titulo.toLowerCase().includes(texto)) ||
       (d.descripcion && d.descripcion.toLowerCase().includes(texto)) ||
@@ -3002,6 +3010,7 @@ document.getElementById('selector-filtro').addEventListener('change', (e) => {
 });
 
 document.getElementById('buscar').addEventListener('input', aplicarFiltros);
+document.getElementById('solo-revisadas').addEventListener('change', aplicarFiltros);
 
 document.getElementById('btn-detalle-filtro').addEventListener('click', () => {
   if (filtroActivoId === ID_VISTA_TODOS) return;
@@ -3071,6 +3080,9 @@ document.getElementById('modal-revision-overlay').addEventListener('click', (e) 
 // de frases con HTML sencillo): la ventana se abre sola la primera vez que se entra desde esa fecha
 // y la campana se muestra rellena durante la primera semana. Solo cambios que el usuario note.
 const NOVEDADES = [
+  { fecha: '2026-10-22', items: [
+    "<strong>Filtro «Solo revisadas».</strong> A la derecha del buscador hay una casilla que, al marcarla, muestra solo las licitaciones con la marca de revisada. Funciona en todas las pestañas y se combina con el texto del buscador.",
+  ] },
   { fecha: '2026-10-21', items: [
     "<strong>Carpeta preparada.</strong> Al pulsar <em>Preparar carpeta</em>, en un par de minutos el ZIP se descarga solo en tu carpeta de Descargas y el enlace pasa a <em>Carpeta preparada</em> en gris para todos, con quién la descargó y cuándo, y ya no se puede volver a pedir. Quien la descargue debe subirla al servidor común.",
     "<strong>Preparar carpeta.</strong> Cuando una licitación tiene Revisión IA, aparece el enlace <em>Preparar carpeta</em>. En un par de minutos genera un ZIP que se descarga solo, con: la carpeta <em>Pliegos</em> (PCAP, PPT, la revisión IA en PDF y un acceso a la ficha), <em>Presentacion Plataforma</em> (una carpeta vacía por sobre), <em>Sobres para preparar</em> (los mismos sobres, con un .txt por documento) y <em>Posterior adjudicatario</em>. Si el Bloque 5 de la revisión no detalla bien los sobres, el botón queda desactivado.",
