@@ -172,9 +172,13 @@
     color: var(--ink);
   }
   .controls input { flex: 1; min-width: 0; }
+  /* Mismo recuadro que el buscador: fondo blanco (el de las tarjetas en tema oscuro) y borde gris */
   .filtro-revisadas {
-    display: flex; align-items: center; gap: 6px; flex: none;
-    margin-left: 12px; font-size: 13px; color: var(--ink-soft); white-space: nowrap; cursor: pointer; user-select: none;
+    display: flex; align-items: center; gap: 8px; flex: none;
+    margin-left: 8px; padding: 8px 12px;
+    font-family: 'Barlow', sans-serif; font-size: 14px; color: var(--ink);
+    border: 1px solid var(--border); background: var(--surface);
+    white-space: nowrap; cursor: pointer; user-select: none;
   }
   .controls .filtro-revisadas input { flex: none; width: 16px; height: 16px; margin: 0; padding: 0; cursor: pointer; accent-color: var(--teal); }
   table {
