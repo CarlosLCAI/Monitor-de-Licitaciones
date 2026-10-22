@@ -604,10 +604,12 @@ def generar_informe_licitacion_ia(perfil_empresa, pcap_tipo, pcap_contenido, tit
     # anterior (4.096) se cortaba a mitad de frase. Además, el razonamiento de Sonnet cuenta
     # contra max_tokens, así que con poco margen podía comerse casi todo el cupo (incluso dejar la
     # respuesta sin texto). Por eso: tope amplio, razonamiento adaptativo y esfuerzo medio para
-    # acotar cuánto razona sin renunciar a que cruce cláusulas y revise cifras.
+    # acotar cuánto razona sin renunciar a que cruce cláusulas y revise cifras. Con el bloque de datos
+    # del Excel (~2.000 tokens más) los pliegos complejos rozaban los 16.000: el tope sube a 24.000
+    # (solo se paga lo que se usa) y la espera máxima de la petición a 15 minutos.
     payload = {
         "model": ANTHROPIC_MODEL,
-        "max_tokens": 16000,
+        "max_tokens": 24000,
         "thinking": {"type": "adaptive"},
         "output_config": {"effort": "medium"},
         "system": [{
@@ -629,7 +631,7 @@ def generar_informe_licitacion_ia(perfil_empresa, pcap_tipo, pcap_contenido, tit
     )
 
     try:
-        resp = requests.post(ANTHROPIC_API_ENDPOINT, headers=headers, json=payload, timeout=600)
+        resp = requests.post(ANTHROPIC_API_ENDPOINT, headers=headers, json=payload, timeout=900)
         if not resp.ok:
             print(f"    Respuesta de error de Anthropic (HTTP {resp.status_code}): {resp.text[:2000]}")
         resp.raise_for_status()
