@@ -2445,6 +2445,258 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-10-21"
+    "fecha_captura": "2026-10-21",
+    "revision_ia": {
+      "informe": "## Bloque 1 – Características Principales del Contrato\n\n### Objeto de la licitación\nContrato de servicios para la redacción del **Plan de Ordenación Urbana (POU)** de Bailén, instrumento de ordenación urbanística detallada del suelo urbano, y de su **Catálogo urbanístico de bienes y espacios protegidos**. Incluye la tramitación hasta la aprobación definitiva, la Evaluación Ambiental Estratégica ordinaria, la evaluación de impacto en salud (si procede), la participación ciudadana y la documentación electrónica conforme a la Orden de 18/02/2026.\n\nObjetivos:\n- Definir el trazado pormenorizado de la trama urbana, los espacios públicos y las dotaciones.\n- Identificar y proteger los bienes del patrimonio, fijando su régimen jurídico.\n- Tramitar de forma simultánea el POU y el Catálogo hasta la aprobación definitiva.\n- Entregar los datos espaciales normalizados (gpkg/shp, ETRS89 UTM30).\n\nPPT: se ha analizado el PPT. Su apartado 8 (equipo redactor) está cortado en el texto recibido, por lo que **no se ha podido contrastar con la cláusula 6.2.2 del PCAP**.\n\n### División en lotes\nNo hay división en lotes: el pliego justifica la unidad funcional de las prestaciones (cláusula 3ª).\n\n### Características del contrato\n- **Procedimiento:** abierto, SARA (regulación armonizada), tramitación ordinaria y electrónica. Órgano de contratación: Alcaldía del Ayuntamiento de Bailén.\n- **CPV:** 71200000, 71240000, 71400000, 71410000.\n- **Presupuesto base de licitación:** **250.000 € sin IVA** (302.000 € con IVA 21 %). Valor estimado: **250.000 €**.\n- **Anualidades (sin IVA):**\n\n| Ejercicio | Sin IVA | Total con IVA |\n|---|---|---|\n| 2026 | 49.586,78 € | 60.000 € |\n| 2027 | 123.966,94 € | 150.000 € |\n| 2028 | 76.446,28 € | 92.500 € |\n\n- **Duración:** máximo **36 meses** para la tramitación y aprobación definitiva (improrrogable), de los que **20 meses** corresponden a la elaboración por el adjudicatario.\n- **Plazos parciales (según el PPT):**\n\n| Fase | Plazo máximo |\n|---|---|\n| I. Programa de trabajo y Plan de Participación Ciudadana | 1 mes |\n| II. Diagnóstico previo | 2 meses |\n| III. Avance, Documento Inicial Estratégico y borrador de Catálogo | 4 meses |\n| IV. Aprobación inicial | 6 meses |\n| V. Información pública, alegaciones y propuesta final | 4 meses |\n| VI. Declaración Ambiental Estratégica y aprobación definitiva | 2 meses |\n| VII. Publicación | 1 mes |\n\n  Estos plazos suman 20 meses.\n- **Presentación de ofertas:** plataforma de contratación, 30 días naturales desde el envío del anuncio al DOUE. **Fecha exacta no localizada** en el texto recibido.\n- **Garantía provisional:** no se exige. **Garantía definitiva:** 5 % del importe de adjudicación, sin IVA.\n- **Revisión de precios:** no aplica.\n- **Trabajos obligatorios incluidos (según el PPT):**\n  - EAE ordinaria: Documento Inicial Estratégico y Estudio Ambiental Estratégico con resumen no técnico.\n  - Memoria resumen y, en su caso, Documento de valoración de impacto en salud.\n  - Resumen ejecutivo.\n  - Sesiones públicas: al menos una en la fase II, una en la fase III y una en la fase V.\n  - Estudios complementarios exigibles (aguas, arqueología, movilidad, infraestructuras).\n  - Cartografía propia si la oficial no está actualizada.\n  - Cesión de derechos al Ayuntamiento.\n- **Penalidades (resumen):** 0,60 € por cada 1.000 € de precio al día por demora; 1 % del precio por incumplir compromisos de la oferta (hasta el 5 % o el 10 % si la gravedad lo justifica).\n- **Subcontratación y UTE:** se admiten UTE y recurso a medios de otras empresas. **La cláusula específica de subcontratación no figura en las páginas recibidas** (⚠ REVISAR).\n\n## Bloque 2 – Solvencia\n\n### Económica y financiera\n- **Seguro de responsabilidad civil profesional** vigente por importe no inferior al valor estimado: **250.000 €**.\n- **Acreditación:** certificado del asegurador con importes, riesgos y vencimiento (vigente hasta el fin del plazo de ofertas), más el compromiso de renovación durante la ejecución.\n- **Cifra de negocio:** no se exige.\n- **Clasificación:** no exigible ni admisible como medio de acreditación.\n\n### Técnica y profesional\nNo se pide experiencia de la empresa. Se exige la **adscripción de un equipo mínimo** con titulación y experiencia.\n\n| Puesto | Titulación | Experiencia mínima |\n|---|---|---|\n| Director/a-coordinador/a | Arquitectura o Ing. Caminos, Canales y Puertos | Como director responsable, en los últimos 15 años: 1 PGOU, PGOM o POU aprobado definitivamente, o 2 de esas figuras aprobadas al menos inicialmente. **Alternativa:** en los últimos 5 años, 3 planes de sectorización o modificaciones estructurales de planeamiento general, aprobados al menos inicialmente |\n| 1 técnico/a medioambiental | Capacidad técnica conforme al art. 27 de la Ley 2/2026 | En los últimos 10 años, los documentos ambientales de 1 instrumento sujeto a EAE ordinaria |\n| 1 arquitecto/a | Arquitectura | En los últimos 10 años, haber formado parte del equipo de 1 PGOU, PGOM o POU aprobado inicialmente. No es exigible si el director es arquitecto |\n| 1 asesor/a jurídico/a | Grado o Licenciatura en Derecho | Igual que el arquitecto: 1 PGOU, PGOM o POU aprobado inicialmente, en los últimos 10 años |\n| 1 técnico/a experto en patrimonio | Grado en Arqueología o Historia | En los últimos 10 años, 1 Catálogo aprobado definitivamente, o 1 PGOU, PGOM o POU aprobado inicialmente |\n\n- **Acreditación:** relación nominal de profesionales, títulos originales o copia autenticada, certificados de entidades públicas o declaración del cliente privado con vida laboral, y compromiso firmado de participación hasta el final. Si el personal no es de la empresa, compromiso de contratación (laboral o mercantil).\n- **Medios externos:** se admite recurrir a la solvencia de otras empresas (art. 75 LCSP), con compromiso escrito, y a UTE. Los puestos pueden cubrirse con personal externo mediante compromiso. La composición del equipo es condición esencial, y cualquier cambio exige que el sustituto acredite méritos equivalentes.\n- **Colegiación:** no se exige expresamente.\n\n⚠ REVISAR — criterio de mejora de equipo, no confundir con el mínimo de solvencia: el Sobre C puntúa la experiencia adicional de los perfiles y la mejora del equipo (ver Bloque 3).\n\n## Bloque 3 – Criterios de Adjudicación\n\nTotal: 100 puntos (65 % calidad, 35 % precio). Hay dos fases (sobre B y sobre C).\n\n### Automáticos (fórmulas)\n**Sobre C – Oferta económica y experiencia del licitador (65 puntos)**\n\n- **Precio (35 puntos):** P = 35 × (OM / OF), donde P es la puntuación, OF la oferta del licitador y OM la oferta más baja. Se excluyen las ofertas que superen el presupuesto máximo. Las ofertas anormales se tratan conforme al art. 149 LCSP (el pliego no fija umbral específico en las páginas recibidas).\n- **Experiencia complementaria del equipo (hasta 15 puntos).** Solo cuenta la experiencia superior a la mínima exigida:\n\n| Apartado | Máx. | Regla |\n|---|---|---|\n| A.1 Director/a | 8 | Como responsable: 2 puntos por PGOM/POU/PGOU (hasta 8); 1 punto por revisión de PGOU o plan de sectorización (hasta 3); 2 puntos por catálogo independiente (hasta 4). Como miembro: 1 punto por plan (hasta 4); 0,5 por revisión (hasta 2); 0,5 por catálogo (hasta 4) |\n| A.2 Técnico/a medioambiental | 4 | 1 punto por Estudio Ambiental Estratégico (hasta 4) |\n| A.3 Arquitecto/a | 2 | 1 punto por plan (hasta 2); 1 punto por catálogo (hasta 2) |\n| A.4 Experto/a en patrimonio | 4 | 1 punto por plan (hasta 2); 1 punto por catálogo (hasta 4) |\n| A.5 Asesor/a jurídico/a | 4 | 1 punto por plan (hasta 2); 1 punto por catálogo (hasta 2) |\n\n  Los trabajos usados para la solvencia mínima no puntúan. Un catálogo tramitado junto con otro instrumento ya valorado no se puntúa doblemente.\n\n- **B. Mejora del equipo mínimo (hasta 5 puntos):** 1 punto por cada miembro extra, con un máximo de 1 persona por categoría: derecho; arquitectura, caminos o geografía; arqueología o historia; perfil técnico o sociología; igualdad, discapacidad o participación. Exige títulos, compromiso y justificación en la Memoria Técnica.\n- **C. Otros técnicos (hasta 5 puntos):**\n  - C.1 Planeamiento de otros técnicos (hasta 2).\n  - C.2 Experiencia de otros técnicos (hasta 2): 1 punto por asesoramiento jurídico, 0,25 por colaboración.\n  - C.3 Máster o título de especialización (hasta 1): 0,5 puntos por título.\n- **D. Prestaciones complementarias (hasta 10 puntos):**\n  - Compromiso de documentación para el Plan municipal de vivienda y suelo: 5 puntos.\n  - Asistencia técnica posterior a la publicación: 3 puntos.\n  - Jornada de difusión: 2 puntos.\n\n  Se exigen anexos con los compromisos firmados.\n\n### Juicio de valor\n**Sobre B – Oferta técnica (35 puntos)**\n\n| Documento | Puntos | Límite de extensión |\n|---|---|---|\n| Memoria técnica | 10 | 20 págs. A4 + 2 A3 |\n| Memoria de diagnóstico previo | 25 | 30 págs. A4 + 5 A3 |\n\nFormato: Arial 10 como mínimo, interlineado 1,5. Lo que exceda del máximo no se valora.\n\nMemoria técnica:\n- A. Metodología y modelo de datos SIG: 3\n- B. Programación: 2\n- C. Medios técnicos: 3\n- D. Programa de participación ciudadana: 1 + 1 (organización general y colectivos). El pliego señala \"1 / 1\" sin aclarar si el total es 2 o 1; su suma excede los 10 puntos (3+2+3+1+1 = 10). ⚠ REVISAR\n\nMemoria de diagnóstico (A a H):\n- A. Descripción general del municipio: 2\n- B. Modelo de ordenación vigente: 2\n- C. Condicionantes medioambientales: 3\n- D. Malla urbana: 4\n- E. Nivel dotacional: 4\n- F. Elementos a proteger: 4\n- G. Estructura urbana y actuaciones de transformación: 4\n- H. Líneas de trabajo y perspectiva de género: 1 + 1\n\nSuma: 2+2+3+4+4+4+4+2 = 25.\n\nEscala de valoración: Óptimo 100 %, Satisfactorio 75 %, Suficiente 50 %, Insuficiente 0 %.\n\n### Umbrales mínimos de puntuación\nNo localizados en las páginas recibidas.\n\n## Bloque 4 – Forma de Pago\n- Pagos parciales por fases completadas, con los porcentajes fijados en el PPT, o un pago único (art. 198 LCSP). **El porcentaje por fase no figura en el texto recibido.** El PPT remite al PCAP para las certificaciones parciales (⚠ REVISAR).\n- Pago contra factura electrónica conformada por el responsable del contrato. La factura debe presentarse en 30 días desde la prestación.\n- La Administración abona en 30 días desde la conformidad. Si se demora, el contratista cobra intereses de mora (Ley 3/2004). Con más de 4 meses de retraso puede suspender el contrato, y con más de 6 meses puede resolverlo.\n- Facturación a la Intervención Municipal (DIR3 L01230102).\n- Revisión de precios: no aplica.\n- Penalidades: ver Bloque 1. Cada vez que se alcance un múltiplo del 5 % del precio, la Administración puede resolver. Las penalidades por incumplir la oferta no pueden superar el 50 % del precio.\n- Modificaciones: previstas conforme a los arts. 203-205 LCSP; son obligatorias hasta el 20 %.\n- Un nuevo trámite de información pública o de informes no supone modificación del precio.\n- Resolución: indemnización del 3 % o del 6 % según el supuesto.\n- Plazo de garantía: no concretado. Se reduce a 6 meses si el valor estimado es inferior a 100.000 € o si el licitador es pyme.\n\n## Bloque 5 – Documentación a Presentar\n\n### Sobre A – Documentación administrativa\n- **DEUC:** declaración responsable firmada que acredita capacidad, representación, solvencia y ausencia de prohibiciones de contratar. Incluye correo electrónico habilitado y, para empresas extranjeras, sometimiento al fuero español.\n- **DEUC de las empresas a cuya solvencia se recurra, o de cada integrante de UTE.**\n- **Compromiso de constitución de UTE**, si procede.\n\nEl texto no detalla que en el sobre A se aporten ni la relación del equipo ni los títulos. Según la cláusula 6.2.2 se exigen para acreditar la solvencia, pero el pliego no especifica en qué sobre se presentan (⚠ REVISAR). Lo más probable es que se requieran en el sobre A o tras el requerimiento.\n\n### Sobre B – Oferta técnica (juicio de valor)\n- **Memoria técnica:** metodología, programación, medios y organigrama, y programa de participación ciudadana (máximo 20 págs. A4 + 2 A3).\n- **Memoria de diagnóstico previo:** apartados A a H (máximo 30 págs. A4 + 5 A3).\n\n### Sobre C – Oferta económica y experiencia del licitador\n- **Oferta económica:** importe a la baja, sin superar el máximo.\n- **Experiencia complementaria del equipo:** identificación de los componentes, certificados y declaraciones de experiencia superior a la mínima.\n- **Mejora del equipo:** títulos originales o copia autenticada, y compromisos firmados de participación.\n- **Títulos de máster y especialización** (C.3), con copia autenticada.\n- **Anexos de compromisos complementarios:** Plan de vivienda, asistencia posterior y jornada de difusión.\n\n### Documentación posterior (solo el propuesto como adjudicatario)\nPlazo de 7 días hábiles desde el requerimiento:\n- **Documentación de capacidad y solvencia** (cláusula 6ª, art. 140.1 a-c LCSP), incluidos el certificado del seguro de RC y el compromiso de renovación.\n- **Relación laboral o mercantil de los miembros del equipo redactor** con la empresa.\n- **Compromiso de las entidades a cuya solvencia se recurre**, con responsabilidad solidaria.\n- **Certificados de estar al corriente con Hacienda, Seguridad Social y Hacienda local**, alta en el IAE o exención.\n- **Garantía definitiva** del 5 %.\n- Si no se cumple el requerimiento, se entiende retirada la oferta y se impone una penalidad del 3 % del presupuesto base sin IVA.\n\n## Bloque 6 – Conclusiones / Análisis Preliminar\n\n### Precio y duración\nEl presupuesto de **250.000 €** cubre **36 meses** de contrato, con 20 meses de trabajo efectivo del adjudicatario. Equivale a unos 12.500 €/mes de trabajo efectivo. Eso incluye el POU, el Catálogo, la EAE completa, la evaluación de impacto en salud, tres sesiones públicas y un equipo mínimo de 5 perfiles. Además, el 35 % de la nota es precio y el 10 % son compromisos adicionales gratuitos (plan de vivienda, asistencia posterior, jornada), lo que presiona los márgenes. Pesa también la incertidumbre de tramitación: la fase de aprobación depende de terceros y puede ampliar el compromiso del equipo sin precio adicional. Se trata de un contrato de tamaño habitual para CAI (30.000-250.000 € en redacción), pero en el tramo alto del rango.\n\n### Comparación con el perfil de CAI\n**Solvencia económica**\n- Seguro RC: se exigen 250.000 € frente a los **2.500.000 € de CAI Ingeniería** (Caser). Cumple. El certificado 2026 está pendiente de aportar [SIN VERIFICAR]; es una carencia por acreditar. Hay que obtener el certificado antes del fin del plazo de ofertas, con importes, riesgos y vencimiento.\n- No hay requisito de cifra de negocio.\n\n**Solvencia técnica (equipo)**\n- **Director/a-coordinador/a:** Enrique de la Torre (Ing. de Caminos) cumple la titulación. Su experiencia como director responsable de un PGOU, PGOM o POU aprobado, o de 2 aprobados inicialmente, **no consta** en el perfil. Los planeamientos generales de CAI son todos \"EN UTE\" redactados por García de los Reyes. En solitario solo constan la innovación de adaptación parcial del PGOU de Estepona (SURO-R12) y la modificación estructural SUP-13/SUP-14 de Arcos (certificado 03/07/2026). La alternativa de 3 modificaciones estructurales o planes de sectorización en los últimos 5 años, con aprobación inicial, **no se alcanza con lo acreditado en solitario** (como mucho una, la de Arcos, pendiente de comprobar su aprobación y su rol de director). Falta acreditar.\n- **Técnico/a medioambiental:** Águeda Romeo (Ciencias Ambientales, UMA 2022) tiene la titulación, pero no consta que haya redactado documentos ambientales de un instrumento sujeto a EAE ordinaria. CAI tiene documentos ambientales estratégicos de 2016 para Estepona, Marbella y Málaga, fuera de la ventana de 10 años, y no consta quién los firmó. También figura la técnica externa Natalia Palomares (EAE del PGOM de Málaga), probablemente subcontratada. Falta acreditar; el pliego permite medios externos con compromiso.\n- **Arquitecto/a:** Carmen Torralba o Ángela Trueba cumplen la titulación, pero no consta que formen parte de un equipo redactor de un PGOU/PGOM/POU aprobado inicialmente. No es exigible si el director es arquitecto, lo que no es el caso de De la Torre. Falta acreditar.\n- **Asesor/a jurídico/a:** no consta ningún jurista en el perfil. Es un puesto no acreditado, cubrible mediante compromiso externo.\n- **Experto/a en patrimonio** (Arqueología o Historia): no consta en el perfil. Se subcontratan arqueología y similares según el proyecto. Cubrible externamente.\n- **Colegiación:** no exigida expresamente.\n- **Clasificación:** no exigible ni admisible.\n\n**Conclusión de solvencia:** se cumple 1 de 5 requisitos del equipo mínimo con certeza (el seguro cumple como requisito económico, pero el equipo no está cubierto). Faltan los perfiles de jurista y de patrimonio, y la experiencia de director, técnico ambiental y arquitecto. El pliego **permite incorporar medios externos** con compromiso de contratación y UTE. El socio natural es **García de los Reyes**, con quien CAI ha ido en UTE en casi todo el planeamiento general (Alquife, Antas, Baza, Bornos, etc.). Con ellos se cubrirían la dirección y el arquitecto con experiencia en planeamiento general, y con colaboradores externos se cubrirían los puestos de derecho, patrimonio y medioambiente. En ese caso la experiencia de planeamiento acreditable es la de la UTE, no la propia.\n\n**Criterios de adjudicación:** los puntos por experiencia complementaria (15) y por mejora del equipo (5) dependen de que se identifique al personal con historial en planeamiento. Con los perfiles propios, la puntuación sería baja.\n\n### Semáforo de presentación\n**Color: NARANJA.**\n\n- **Requisitos cumplidos:** 1 de 6 de forma segura (seguro de RC, con el certificado 2026 por aportar). La titulación del director (Caminos) y del arquitecto, y la ambiental de Águeda Romeo, son adecuadas, pero sin la experiencia exigida acreditada.\n- **Falta:**\n  - Director con experiencia de PGOU, POU o PGOM aprobado, o alternativa de 3 instrumentos en 5 años.\n  - Técnico ambiental con experiencia en EAE ordinaria.\n  - Arquitecto con experiencia en planeamiento general.\n  - Jurista.\n  - Experto en patrimonio.\n- **¿Subcontratable?** Sí. El pliego permite recurrir a medios de otras empresas (art. 75 LCSP) y a UTE, y acepta compromisos de contratación laboral o mercantil de personal no integrado en la empresa. Si el pliego exige que ciertas partes las ejecute directamente el licitador, no se localizó la cláusula de subcontratación (⚠ REVISAR).\n- El precedente en planeamiento general es en UTE con García de los Reyes, de modo que solo cabe naranja, no verde.\n- No es rojo, porque lo que falta se puede cubrir con UTE o medios externos.\n\n⚠ REVISAR — criterio pendiente de decidir: no hay clasificación exigible, así que no aplica.",
+      "usa_ppt": true,
+      "uso": {
+        "entrada": 77460,
+        "salida": 11697,
+        "cache_leida": 0,
+        "cache_escrita": 23084
+      },
+      "coste_estimado_usd": 0.3296,
+      "semaforo": "naranja",
+      "semaforo_motivo": "Seguro RC cubierto, pero faltan jurista, patrimonio y experiencia del director, ambiental y arquitecto en planeamiento general; cubrible mediante UTE con García de los Reyes y medios externos.",
+      "datos_excel": {
+        "info": {
+          "valor_estimado": 250000,
+          "iva_pct": 21,
+          "fecha_presentacion": null,
+          "plazo_ejecucion": "36 meses de tramitación, de los que 20 meses de elaboración por el adjudicatario",
+          "consultas": "Información adicional al menos 12 días naturales antes del fin del plazo; respuestas 6 días antes",
+          "garantia_provisional": "No se exige",
+          "garantia_definitiva": "5% del importe de adjudicación sin IVA",
+          "seguro_rc": "RC profesional vigente no inferior al valor estimado (250.000 €)",
+          "lotes": "Sin lotes",
+          "revision_precios": "No aplica",
+          "plazo_garantia": "No concretado en las páginas recibidas; se reduce a 6 meses si VEC<100.000 € o pyme",
+          "ute": "Admitida; compromiso de constitución y DEUC por cada empresa",
+          "subcontratacion": "Cláusula de subcontratación no localizada; se admite recurrir a medios externos (art. 75 LCSP)",
+          "umbral_tecnico": "No localizado"
+        },
+        "solvencia": {
+          "nota": "No se exige cifra de negocio ni clasificación. Se exige equipo mínimo de 5 perfiles (el arquitecto no es exigible si el director es arquitecto), condición esencial del contrato. Se admite recurrir a medios externos con compromiso y UTE.",
+          "economica": [
+            {
+              "nombre": "Seguro de responsabilidad civil profesional",
+              "valor": "No inferior al valor estimado (250.000 €)",
+              "acreditacion": "Certificado del asegurador con importes, riesgos y vencimiento, y compromiso de renovación",
+              "cai": "cumple",
+              "cai_nota": "2,5 M€ (Caser); certificado 2026 pendiente de aportar"
+            }
+          ],
+          "tecnica": [],
+          "equipo": [
+            {
+              "nombre": "Director/a-coordinador/a",
+              "valor": "Arquitectura o Ing. Caminos. Últimos 15 años: 1 PGOU/PGOM/POU aprobado definitivamente o 2 aprobados inicialmente. Alternativa: 3 planes de sectorización o modificaciones estructurales en 5 años, aprobados al menos inicialmente",
+              "acreditacion": "Título y certificados de entidades públicas, o declaración del cliente privado con vida laboral",
+              "cai": "parcial",
+              "cai_nota": "Titulación cumple (De la Torre); experiencia como director de planeamiento general no consta; PGOU solo en UTE con García de los Reyes"
+            },
+            {
+              "nombre": "Técnico/a medioambiental",
+              "valor": "Capacidad técnica conforme al art. 27 Ley 2/2026; en 10 años, documentos ambientales de 1 instrumento sujeto a EAE ordinaria",
+              "acreditacion": "Título y certificados de experiencia",
+              "cai": "parcial",
+              "cai_nota": "Águeda Romeo con titulación ambiental; experiencia en EAE ordinaria no acreditada"
+            },
+            {
+              "nombre": "Arquitecto/a",
+              "valor": "Arquitectura; en 10 años, equipo redactor de 1 PGOU/PGOM/POU aprobado inicialmente (no exigible si el director es arquitecto)",
+              "acreditacion": "Título y certificados de experiencia",
+              "cai": "parcial",
+              "cai_nota": "Titulación cumple; experiencia en planeamiento general no consta"
+            },
+            {
+              "nombre": "Asesor/a jurídico/a",
+              "valor": "Grado o Licenciatura en Derecho; en 10 años, equipo redactor de 1 PGOU/PGOM/POU aprobado inicialmente",
+              "acreditacion": "Título y certificados de experiencia",
+              "cai": "no",
+              "cai_nota": "No consta jurista en el perfil; cubrir con externo o UTE"
+            },
+            {
+              "nombre": "Técnico/a experto en patrimonio",
+              "valor": "Grado en Arqueología o Historia; en 10 años, 1 Catálogo aprobado definitivamente o 1 PGOU/PGOM/POU aprobado inicialmente",
+              "acreditacion": "Título y certificados de experiencia",
+              "cai": "no",
+              "cai_nota": "No consta en el perfil; se subcontrata arqueología"
+            }
+          ]
+        },
+        "juicio_valor": [
+          {
+            "nombre": "Memoria técnica",
+            "puntos": 10,
+            "paginas_a4": 20,
+            "paginas_a3": 2,
+            "formato": "Arial 10 mínimo, interlineado 1,5",
+            "acreditacion": "Sobre B",
+            "apartados": [
+              {
+                "nombre": "A. Metodología general y modelo de datos SIG",
+                "puntos": 3
+              },
+              {
+                "nombre": "B. Programación",
+                "puntos": 2
+              },
+              {
+                "nombre": "C. Medios técnicos",
+                "puntos": 3
+              },
+              {
+                "nombre": "D. Programa de participación ciudadana",
+                "puntos": 2
+              }
+            ]
+          },
+          {
+            "nombre": "Memoria de diagnóstico previo",
+            "puntos": 25,
+            "paginas_a4": 30,
+            "paginas_a3": 5,
+            "formato": "Arial 10 mínimo, interlineado 1,5",
+            "acreditacion": "Sobre B",
+            "apartados": [
+              {
+                "nombre": "A. Descripción general del municipio",
+                "puntos": 2
+              },
+              {
+                "nombre": "B. Modelo de ordenación vigente y ejecución",
+                "puntos": 2
+              },
+              {
+                "nombre": "C. Condicionantes medioambientales",
+                "puntos": 3
+              },
+              {
+                "nombre": "D. Malla urbana",
+                "puntos": 4
+              },
+              {
+                "nombre": "E. Nivel dotacional",
+                "puntos": 4
+              },
+              {
+                "nombre": "F. Elementos a proteger",
+                "puntos": 4
+              },
+              {
+                "nombre": "G. Estructura urbana y actuaciones de transformación",
+                "puntos": 4
+              },
+              {
+                "nombre": "H. Líneas de trabajo y perspectiva de género",
+                "puntos": 2
+              }
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "nombre": "Oferta económica",
+            "puntos": 35,
+            "formula": "P = 35 × (OM / OF); P = puntuación obtenida; OF = oferta del licitador; OM = oferta más baja presentada",
+            "acreditacion": "Sobre C; se excluyen ofertas por encima del precio máximo"
+          }
+        ],
+        "otros": [
+          {
+            "nombre": "A. Experiencia complementaria del equipo mínimo",
+            "puntos": 15,
+            "acreditacion": "Sobre C; identificar componentes y certificados, separados de la experiencia de solvencia",
+            "apartados": [
+              {
+                "nombre": "A.1 Director/a",
+                "puntos": 8,
+                "regla": "Como responsable: 2 pt/PGOM-POU-PGOU (hasta 8), 1 pt/revisión o sectorización (hasta 3), 2 pt/catálogo (hasta 4); como miembro: 1 pt (hasta 4), 0,5 (hasta 2), 0,5 (hasta 4)"
+              },
+              {
+                "nombre": "A.2 Técnico/a medioambiental",
+                "puntos": 4,
+                "regla": "1 pt por Estudio Ambiental Estratégico, hasta 4"
+              },
+              {
+                "nombre": "A.3 Arquitecto/a",
+                "puntos": 2,
+                "regla": "1 pt/plan (hasta 2); 1 pt/catálogo (hasta 2)"
+              },
+              {
+                "nombre": "A.4 Experto/a en patrimonio",
+                "puntos": 4,
+                "regla": "1 pt/plan (hasta 2); 1 pt/catálogo (hasta 4)"
+              },
+              {
+                "nombre": "A.5 Asesor/a jurídico/a",
+                "puntos": 4,
+                "regla": "1 pt/plan (hasta 2); 1 pt/catálogo (hasta 2)"
+              }
+            ]
+          },
+          {
+            "nombre": "B. Mejora del equipo mínimo",
+            "puntos": 5,
+            "acreditacion": "Títulos originales o autenticados, compromiso firmado y justificación en la Memoria Técnica",
+            "apartados": [
+              {
+                "nombre": "Miembro extra por categoría (derecho; arquitectura/caminos/geografía; arqueología/historia; perfil técnico/sociología; igualdad/discapacidad/participación)",
+                "puntos": 5,
+                "regla": "1 punto por persona, máximo 1 persona por categoría"
+              }
+            ]
+          },
+          {
+            "nombre": "C. Otros técnicos del equipo",
+            "puntos": 5,
+            "acreditacion": "Identificar componentes y acreditar según cláusula 6.2.2; copia autenticada de títulos",
+            "apartados": [
+              {
+                "nombre": "C.1 Redacción de planeamiento",
+                "puntos": 2,
+                "regla": "Responsable: 1 pt/plan (hasta 2); miembro: 0,5 pt/plan (hasta 2); revisión/sectorización y catálogo según tabla"
+              },
+              {
+                "nombre": "C.2 Experiencia",
+                "puntos": 2,
+                "regla": "1 pt/asesoramiento jurídico (hasta 2); 0,25 pt/colaboración (hasta 2)"
+              },
+              {
+                "nombre": "C.3 Especialización académica",
+                "puntos": 1,
+                "regla": "0,5 pt por título de máster/experto, hasta 1"
+              }
+            ]
+          },
+          {
+            "nombre": "D. Prestaciones complementarias",
+            "puntos": 10,
+            "acreditacion": "Anexos con compromisos firmados (condición esencial)",
+            "apartados": [
+              {
+                "nombre": "Documentación para el Plan municipal de vivienda y suelo",
+                "puntos": 5,
+                "regla": "Compromiso con el contenido mínimo exigido"
+              },
+              {
+                "nombre": "Asistencia técnica posterior a la publicación",
+                "puntos": 3,
+                "regla": "Compromiso"
+              },
+              {
+                "nombre": "Jornada de difusión tras la publicación",
+                "puntos": 2,
+                "regla": "Compromiso"
+              }
+            ]
+          }
+        ],
+        "umbral": "No localizado en las páginas recibidas"
+      },
+      "fecha_analisis": "2026-10-22T07:53:54.476750+00:00",
+      "solicitada_por": "CarlosLCAI"
+    }
   }
 ]
