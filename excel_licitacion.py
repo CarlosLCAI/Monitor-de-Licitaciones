@@ -40,6 +40,7 @@ PROCEDIMIENTOS = {"1": "Abierto", "9": "Abierto simplificado", "2": "Restringido
                   "4": "Negociado con publicidad", "5": "Diálogo competitivo", "6": "Contrato menor",
                   "7": "Derivado de acuerdo marco", "8": "Concurso de proyectos", "10": "Asociación para la innovación",
                   "13": "Licitación con negociación", "100": "Normas internas", "999": "Otros"}
+MAX_FILAS = 8                  # filas por apartado (perfiles, planes… a presentar)
 ETIQUETA_CAI = {"cumple": "Cumple", "parcial": "Parcial", "no": "No cumple", "no_consta": "Sin datos"}
 
 
@@ -341,30 +342,34 @@ def _hoja_adjudicacion(wb, datos, exp):
         r += 1
 
     def apartados(cab, filas, paginas, extra_vacias=0):
-        """filas: lista de (nombre, puntos). Devuelve la fila de suma."""
+        """filas: lista de (nombre, puntos, n). Cada apartado ocupa n filas, una por cada perfil, plan o unidad que
+        haya que presentar: el texto, el límite y las páginas se combinan a la izquierda y cada fila de la derecha
+        (responsable, puntos, casillas y proyectos/perfiles de CAI y de la UTE) es una unidad. Devuelve la fila de suma."""
         nonlocal r
-        filas = list(filas) + [("", None)] * extra_vacias
-        primera, ultima = r, r + len(filas) - 1
-        for nombre, puntos in filas:
-            _escribe(ws, f"A{r}")
-            _escribe(ws, f"B{r}", nombre or "")
-            _escribe(ws, f"C{r}", puntos, h="center")
-            if paginas:
-                # reparto sugerido de las páginas A4 según los puntos de cada apartado (en medias páginas);
-                # se puede sobrescribir
-                _escribe(ws, f"D{r}", f'=IF(OR($D${cab}="",C{r}="",SUM($C${primera}:$C${ultima})=0),"",'
-                                      f'ROUND($D${cab}*C{r}/SUM($C${primera}:$C${ultima})*2,0)/2)', h="center")
-            else:
-                _escribe(ws, f"D{r}")
-            _escribe(ws, f"E{r}", h="center")
-            _escribe(ws, f"F{r}")
-            _escribe(ws, f"G{r}", h="center")
-            _casilla(ws, f"H{r}")
-            _escribe(ws, f"I{r}", tam=10)
-            _casilla(ws, f"J{r}")
-            _escribe(ws, f"K{r}", tam=10)
-            ws.row_dimensions[r].height = _alto((nombre, anch["B"]), minimo=22)
-            r += 1
+        filas = [(nom, pts, max(1, min(int(n or 1), MAX_FILAS))) for nom, pts, n in filas] + [("", None, 1)] * extra_vacias
+        primera = r
+        ultima = r + sum(n for _, _, n in filas) - 1
+        for nombre, puntos, n in filas:
+            top, bottom = r, r + n - 1
+            # reparto sugerido de las páginas A4 según los puntos de cada apartado (en medias páginas); se puede sobrescribir
+            formula = (f'=IF(OR($D${cab}="",C{top}="",SUM($C${primera}:$C${ultima})=0),"",'
+                       f'ROUND($D${cab}*C{top}/SUM($C${primera}:$C${ultima})*2,0)/2)') if paginas else None
+            for col, valor, kw in (("A", None, {}), ("B", nombre or "", {}), ("C", puntos, {"h": "center"}),
+                                   ("D", formula, {"h": "center"}), ("E", None, {"h": "center"})):
+                if n > 1:
+                    _combina(ws, f"{col}{top}:{col}{bottom}", valor, **kw)
+                else:
+                    _escribe(ws, f"{col}{top}", valor, **kw)
+            alto = max(22.0, _alto((nombre, anch["B"]), minimo=22) / n)
+            for rr in range(top, bottom + 1):
+                _escribe(ws, f"F{rr}")
+                _escribe(ws, f"G{rr}", h="center")
+                _casilla(ws, f"H{rr}")
+                _escribe(ws, f"I{rr}", tam=10)
+                _casilla(ws, f"J{rr}")
+                _escribe(ws, f"K{rr}", tam=10)
+                ws.row_dimensions[rr].height = alto
+            r += n
         suma = r
         _escribe(ws, f"A{suma}", relleno=GRIS)
         _escribe(ws, f"B{suma}", "Suma de apartados", cursiva=True, h="right", relleno=GRIS, tam=10)
@@ -397,7 +402,7 @@ def _hoja_adjudicacion(wb, datos, exp):
         if _txt(crit.get("acreditacion")):
             partes.append(f"Acreditación: {_txt(crit.get('acreditacion'))}")
         nota("\n".join(partes))
-        subs = [(_txt(a.get("nombre")), _num(a.get("puntos"))) for a in _lista(crit.get("apartados"))]
+        subs = [(_txt(a.get("nombre")), _num(a.get("puntos")), _num(a.get("filas"))) for a in _lista(crit.get("apartados"))]
         apartados(cab, subs, paginas=True, extra_vacias=0 if subs else 3)
     r += 1
 
@@ -433,7 +438,7 @@ def _hoja_adjudicacion(wb, datos, exp):
         subs = []
         for a in _lista(crit.get("apartados")):
             nombre, regla = _txt(a.get("nombre")) or "", _txt(a.get("regla"))
-            subs.append((f"{nombre}\n{regla}" if regla else nombre, _num(a.get("puntos"))))
+            subs.append((f"{nombre}\n{regla}" if regla else nombre, _num(a.get("puntos")), _num(a.get("filas"))))
         apartados(cab, subs, paginas=False, extra_vacias=0 if subs else 1)
     r += 1
 
