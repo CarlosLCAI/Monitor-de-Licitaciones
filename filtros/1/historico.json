@@ -42,10 +42,13 @@
     "organo": "Alcaldía del Ayuntamiento de Montemayor",
     "importe": "141534.71",
     "fecha_captura": "2026-07-10",
-    "estado_anterior": "EV",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-09",
-    "estado_updated": "2026-10-08T13:46:39.648+02:00"
+    "estado_anterior": "RES",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-10-23",
+    "estado_updated": "2026-10-23T15:44:35.462+02:00",
+    "fecha_limite_anterior": null,
+    "fecha_limite": "2026-07-13",
+    "fecha_limite_cambiada_el": "2026-10-23"
   },
   {
     "folder_id": "DIR260603",
@@ -305,22 +308,18 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QjPtX68LBtMDqJGLdqN%2B4LwSvQwjHrw3mUBLqv6t13bhb4Bx0tCEJ1ANzVOei1tzP0lCRzg3%2B7tjheRNKfvrM6BJ5w9nHm8RwFuZlJWPvcLDdQD9RyhUmzT4jZ2In4zL",
     "organo": "Alcaldia del Ayuntamiento de La Guardia de Jaén",
     "importe": "160000",
-    "fecha_limite": "2026-10-08",
+    "fecha_limite": "2026-10-22",
     "fecha_captura": "2026-07-16",
     "estado_anterior": "RES",
     "resultado": null,
     "estado_cambiado_el": "2026-10-21",
-    "fecha_limite_anterior": "2026-04-16",
-    "fecha_limite_cambiada_el": "2026-10-19",
-    "estado_updated": "2026-10-20T12:58:25.059+02:00",
+    "fecha_limite_anterior": "2026-10-08",
+    "fecha_limite_cambiada_el": "2026-10-23",
+    "estado_updated": "2026-10-23T13:43:11.539+02:00",
     "docs_adicionales": [
       {
-        "nombre": "20260619_Outros_00 Proxecto San Amaro Anllo.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=lbwAjBwgmZTl6AY0vPyLYGhpBux6qIqBLVla/XhpHZHLBA7CkCQ9X3IE42QIGPbaM53%2BkktzkieEVAGm4qVQrWWzPItdZlaOu1nI3Y6d0rTfdyQgZAdTm3EfcUAC7CJ6"
-      },
-      {
-        "nombre": "20260721_Outros_20250710_Outros_ANEXOS.doc",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=KOwqFrP2Sd8szywjYMCJ6Xt5bzh3135QhZdw2Iukb7SRYQy/SIkSclLTjv51ix/2Hzh57Q7vgMYIXiwJYsUKlR0mV2cKCdeOeuK2qqoJ0YM//q7NB2iMZvNyf0xrJmjt"
+        "nombre": "ANEXO I y II.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=xDmAJYmCcDpH3z/8iUmSV8dngEFoEbd1/DpHUuDLIMzBHv5qIoLq4Yhz6rqJNyi%2BMVy%2B/1soKdC/R7CKn7o/jTvJUsuFWpPPgoDQVERTlF1t/o8fNevwsujgRzaBbugn"
       }
     ]
   },
@@ -1222,7 +1221,7 @@
   },
   {
     "folder_id": "34/2026",
-    "estado": "PUB",
+    "estado": "RES",
     "titulo": "Servicio para la redacción de Proyecto Básico y de Ejecución, Estudio de Seguridad y Salud, de las obras de rehabilitación integral de las dos naves industriales de la antigua Algodonera Virgen de los Reyes, para su adaptación a Centro de Orientación, Acompañamiento e Innovación para el Empleo situado en el barrio Alcosa (Fase-1), así como a la asistencia técnica a la Dirección de Obra.",
     "updated": "2026-08-12T10:09:41.330+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=j08%2BBegnUWAwYTJJ03sHog%3D%3D",
@@ -1248,10 +1247,10 @@
       "fecha_analisis": "2026-08-15T03:57:04.182693+00:00"
     },
     "fecha_captura": "2026-08-15",
-    "estado_anterior": "RES",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-21",
-    "estado_updated": "2026-10-20T13:17:10.738+02:00",
+    "estado_anterior": "PUB",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-10-23",
+    "estado_updated": "2026-10-22T12:50:10.768+02:00",
     "fecha_limite_anterior": "2026-08-24",
     "fecha_limite_cambiada_el": "2026-10-21",
     "docs_adicionales": [
@@ -1451,7 +1450,7 @@
     "organo": "Presidencia de la Autoridad Portuaria de la Bahía de Algeciras",
     "importe": "279650",
     "importe_num": 279650,
-    "fecha_limite": "2026-09-22",
+    "fecha_limite": "2026-09-29",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1465,7 +1464,9 @@
     "estado_anterior": "ADJ",
     "resultado": null,
     "estado_cambiado_el": "2026-10-06",
-    "estado_updated": "2026-10-05T13:02:59.670+02:00"
+    "estado_updated": "2026-10-23T14:39:01.564+02:00",
+    "fecha_limite_anterior": "2026-09-22",
+    "fecha_limite_cambiada_el": "2026-10-23"
   },
   {
     "folder_id": "P4103400J-2026/000307-PEAS",
@@ -1641,7 +1642,7 @@
     "organo": "Gerencia del Parque Cementerio de Málaga, S.A.",
     "importe": "481189.78",
     "importe_num": 481189.78,
-    "fecha_limite": "2026-10-20",
+    "fecha_limite": "2026-10-21",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1655,9 +1656,9 @@
     "estado_anterior": "PUB",
     "resultado": null,
     "estado_cambiado_el": "2026-10-22",
-    "estado_updated": "2026-10-22T08:18:34.081+02:00",
-    "fecha_limite_anterior": "2026-09-07",
-    "fecha_limite_cambiada_el": "2026-10-19"
+    "estado_updated": "2026-10-22T09:11:38.094+02:00",
+    "fecha_limite_anterior": "2026-10-20",
+    "fecha_limite_cambiada_el": "2026-10-23"
   },
   {
     "folder_id": "12419/2026",
@@ -1730,7 +1731,7 @@
   },
   {
     "folder_id": "SE-19/26",
-    "estado": "PUB",
+    "estado": "RES",
     "titulo": "Servicio de redacción de la actualización del Proyecto de Ejecución y Estudio de Seguridad y Salud, Dirección de Obra, Dirección de la Ejecución Material y Coordinación en materia de Seguridad y Salud del proyecto -Auditorio en evolución: Ampliación de espacios y optimización técnica-. ",
     "updated": "2026-09-30T13:26:44.017+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=g1xSoPIZKSO2gkLQ8TeYKA%3D%3D",
@@ -1759,7 +1760,11 @@
     },
     "fecha_captura": "2026-10-01",
     "revisado_humano": true,
-    "revisado_fecha": "2026-10-02T11:12:08.050Z"
+    "revisado_fecha": "2026-10-02T11:12:08.050Z",
+    "estado_anterior": "PUB",
+    "resultado": "desierta",
+    "estado_cambiado_el": "2026-10-23",
+    "estado_updated": "2026-10-23T14:09:12.896+02:00"
   },
   {
     "folder_id": "15665/2026",
@@ -1833,7 +1838,7 @@
   },
   {
     "folder_id": "CE181960054/26",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Contratación de la segunda fase del plan director de Cetursa Sierra Nevada S.A.: Actualización del máster plan y estudios de capacidad, remontes e integración urbana del dominio esquiable de Sierra Nevada",
     "updated": "2026-10-06T13:42:20.331+02:00",
@@ -1862,7 +1867,10 @@
       "fecha_analisis": "2026-10-08T10:49:01.928191+00:00"
     },
     "junta_consultado": "2026-10-09",
-    "descripcion": "Contratación de la segunda fase del plan director de Cetursa Sierra Nevada S.A.: Actualización del máster plan y estudios de capacidad, remontes e integración urbana del dominio esquiable de Sierra Nevada"
+    "descripcion": "Contratación de la segunda fase del plan director de Cetursa Sierra Nevada S.A.: Actualización del máster plan y estudios de capacidad, remontes e integración urbana del dominio esquiable de Sierra Nevada",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-23",
+    "estado_updated": "2026-10-22T10:42:29.123+02:00"
   },
   {
     "folder_id": "20809/2026",

@@ -1,72 +1,54 @@
 [
   {
-    "folder_id": "376/2026",
+    "folder_id": "31/26",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicio de redacción de proyectos, dirección facultativa de las obras y coordinación de seguridad y salud, dividido en siete lotes, mediante procedimiento abierto, tramitación urgente, financiación FMA 2026, Ayuntamiento de Beas de Granada.",
-    "updated": "2026-10-22T16:45:35.365+02:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=nSOpC5sxSLqsNfRW6APEDw%3D%3D",
+    "titulo": "Redacción del proyecto constructivo y ejecución de las obras del soterramiento de la Avenida de Valle-Inclán en la intersección con el Camino de Suárez, la Calle Martínez de la Rosa y el acceso a las barriadas de Carlinda, La Corta y San Alberto, en la ciudad de Málaga",
+    "updated": "2026-10-23T16:20:27.338+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=m3kRQyjsvG65HQrHoP3G5A%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "71322000",
-      "71320000",
-      "71317200",
-      "71300000",
-      "71520000",
-      "71520000",
-      "71320000",
-      "71317200",
-      "71300000",
-      "71322000",
-      "71520000",
-      "71300000",
-      "71317200",
-      "71322000",
-      "71320000",
-      "71520000",
-      "71300000",
-      "71320000",
-      "71317200",
-      "71322000",
-      "71520000",
-      "71317200",
-      "71320000",
-      "71300000",
-      "71322000",
-      "71520000",
-      "71317200",
-      "71300000",
-      "71320000",
-      "71322000",
-      "71520000",
-      "71317200",
-      "71322000",
-      "71300000",
-      "71320000",
-      "71520000",
-      "71320000",
-      "71300000",
-      "71317200",
-      "71322000"
+      "45221000",
+      "71300000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Kxn7XWR5rgTXqYF06%2BV8iiaYU/ViMkcegkxEbwgnl2tkXuAa5dMJaoW8abJEW2g2MoeB9OfgkXT7eFjc6PyH%2Br%2BU0OZJ9NyJHjmj20C40pKB0nvVKRzfe4rpHcnlPhSZ",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=hazpoJfWY4uv7JBm9RX4Cu1wMNKMqJOuuWHdFlb7XiDWM8fK9n8qzV4sXETUHTAlg9jF2h4z1dVF2DZWvw8DDzBPFDw1Mg2OItyYme28psBt/o8fNevwsujgRzaBbugn",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YyWdjUpYZX6YXQGm2OZiA7/eW%2B67Or01cOUrBlXTzZ0iYLe5ueWQuoqA/SHh6YjgfKR39NvXCDXtbpO8sr2wkRI46j0jPYCpdPTN/20UqSxt/o8fNevwsujgRzaBbugn",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=G87FfKnWWsclTdL/G/ndgGx3Qq4vkEYYArYZc8nUQROGti7qctYkBwZbExwMzkKRRRqTrb4PrLmOoIyy1DHxJigJrUTw/nXQvQXIVJFwOf9JOVDbGCDM%2BMigrvuVS7Rv",
     "docs_adicionales": [
       {
-        "nombre": "DEUC.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=BYnUQHAgPfr93Ahpbuz3QmVfDGVvTatcjikQqws8kNfPTcTzHmQM77cVoh69rGdyrlW91vJiDU2z0yj/pXsSX6MS/Y%2ByiWMDPVEhV5UwfOEC1/zDIE0Kw/PWNnLS0Z0z"
+        "nombre": "Anexo_2_4.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=hu7GImdozjfIO9v%2B2rNoePmIL41Y5psO693fFO4zIXJmv3XjlqHUJnIEuCfzZt9BmghDQgMNDiytFexgLWJTTLQgvvKzCHZY/dLt5rVpD56B0nvVKRzfe4rpHcnlPhSZ"
       },
       {
-        "nombre": "DEUC .xml",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YT6JPBSl4vzEdmckXX0fDFnn00xcBxZkYbL5PBbFiXCK%2Bdg45lzUhWMPyyG58W7kpAZnUzNcTUc2gcMN9Ao7eBTQ3mWBctiWmxSF5s8nal/DdQD9RyhUmzT4jZ2In4zL"
+        "nombre": "ANEXO_1.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=L/8lYKqp8sUMyNYrbQeQnsEHKffok4vnVg%2BWRUntTD3agchUCeDL/36ztenksRgDMevzaCjyUOUeK%2ByPr8BQxoRlS7EZqqQSzUwWmalz4Rt7QB3HKyQaFUExmUVQCerk"
+      },
+      {
+        "nombre": "Anexos_2_a_5.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=8Ur%2BBoNYWKyQttow86G%2BQegZ8VCcmXu61OWzIxpKe1DxgqWa9ctzZ%2BhCgY7k6P3BMnHyCN8IFsC8piCLI9kCiPVQGJQT18eUFQL3EdH6FA%2BB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "Informe de titularidad de terrenos.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Jrg42IC5X003712IBU5J5X4rC7a1WOs24mqilynbuWGANHHI5zKoaeYGZGk0XiKBy7mbuo/2VoGBsze74bUJvx4hNvif79k%2BoOZk02nOWCF45ClyWkoJ44mKM70IFcOu"
+      },
+      {
+        "nombre": "Informe_de_Inicio.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wnRP6UlwwlFbglhcwe7y1EzN9AuscXncvrkybOntz7Ld3N9tdyzhEbv3ZPcjTERQ48mR4bXYdtv3sXa%2B/PWeVO1/FflaEolPi0xpeidlhxPDdQD9RyhUmzT4jZ2In4zL"
+      },
+      {
+        "nombre": "Informe_de_Replanteo_Previo_del_Proyecto.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=OTzjd%2BPIb8bi59r34GoE7LRgSGH1El0pSm0fUF3Gw9JlKySarO9kI7NeHiBhjac6XPoPaqnjUwfwCy8mHHO9L47fjfSjH1cfuvKJFVpzBuFJOVDbGCDM%2BMigrvuVS7Rv"
+      },
+      {
+        "nombre": "ENLACE DOC TECNICA.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1NP4M3KX%2Bh2jbpyeTs0Y76UKIc%2Bp4/pW81WLzn17Jo9gaUjEp%2B61ytm4WPQFpm1NEaWtvuFCg%2BdOGgmSCQVLhVWuDITlPPgU6Qu28uDUcTJ7QB3HKyQaFUExmUVQCerk"
       }
     ],
-    "organo": "Alcaldia del Ayuntamiento de Beas de Granada",
-    "importe": "127300",
-    "importe_num": 127300.0,
-    "fecha_limite": "2026-11-03",
-    "tipo_contrato": "2",
+    "organo": "Junta de Gobierno del Ayuntamiento de Málaga",
+    "importe": "22148578.97",
+    "importe_num": 26338628.76,
+    "fecha_limite": "2026-11-24",
+    "tipo_contrato": "3",
     "tipo_contrato_match": true,
     "procedimiento": "1",
     "procedimiento_match": true,
@@ -74,43 +56,34 @@
     "fuente": "perfiles"
   },
   {
-    "folder_id": "5187/2026",
+    "folder_id": "582/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicios técnicos necesarios para la redacción de los proyectos, dirección de las obras y coordinación de seguridad y salud de diversas actuaciones del Ayuntamiento de Huétor Vega.",
-    "updated": "2026-10-22T13:01:26.491+02:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SGrN0LV6pTAmMOlAXxDEjw%3D%3D",
+    "titulo": "Redaccion de los Proyectos Tecnicos de Ejecución y Memorias Valoradas para las obras de pavimentación, infraestructuras viarias y obras de prevencion en las calles dañadas del Municipio de Orcera (incluido Direccion Facultativa y coordinacion de Seguridad y Salud)\r\n",
+    "updated": "2026-10-23T12:45:52.174+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=T8Z2vz8xDze5HQrHoP3G5A%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
+      "71000000",
       "71322000",
-      "71317210",
-      "71322300",
-      "71300000",
-      "71520000",
+      "71000000",
       "71322000",
-      "71300000",
-      "71322300",
-      "71317210",
-      "71520000",
-      "71322000",
-      "71317210",
-      "71520000",
-      "71300000",
-      "71322300",
-      "71322000",
-      "71317210",
-      "71520000",
-      "71322300",
-      "71300000"
+      "71000000",
+      "71322000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=MceKKWOz/mct8UWIC18BwInJC8iPyjpU1ktYpIb1GKm5c1L4HrufhuJcUlDICkHx5fg5pKbQD7HaTEfPJsJZO9WAPoVxFD2tue%2BQ55KB/qJ7QB3HKyQaFUExmUVQCerk",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=IPQrQrhJ28//ZS%2BS%2BX8AISJVzEvzrfBdbr7cb8y7VZc%2BhslGcStSemy4RJCLJOqQV61B8Uqc%2BKupuFGhAk0A8JidqRV1NicZH1cOBQSSz7IC1/zDIE0Kw/PWNnLS0Z0z",
-    "docs_adicionales": [],
-    "organo": "Junta de Gobierno del Ayuntamiento de Huétor Vega",
-    "importe": "55000",
-    "importe_num": 55000.0,
-    "fecha_limite": "2026-11-06",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=DzYWkEIvAsT9Wa6nl08WO1chcsato2NrSUZWElg4XmHcT9g7oHXyYOneQKMgDDVoOqwMA5aMgRxoVxlx4S1TnMl2eu6YaNQNOpClaKlrl2b6CYyL7SIrUOBFfNf52ZqA",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=LOO14XLcBlSqMv71iQDTr6uSN8kgYMWwATIrsBRahr6eith02cZGycEbmCg5Ea354C//5ZGw%2BYUu%2BoT2%2Bhbp7Y%2B36EwM0m%2B7y4GYk9G0dQF7QB3HKyQaFUExmUVQCerk",
+    "docs_adicionales": [
+      {
+        "nombre": "Anexos a cumplimentar 582.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CtItqoSLLP%2BM9jf7UDgcXpTMFDCQBJJgbJceNDFiZxgWmp/YNUPUZWt76DPz67Nfiueoyx9IrWGVArPFd1Ow4lJeNuDyXUoWvtQZ5rHpsayHAj0WEJrB5sP7amrh2jBD"
+      }
+    ],
+    "organo": "Alcaldía del Ayuntamiento de Orcera",
+    "importe": "39125.25",
+    "importe_num": 39125.25,
+    "fecha_limite": "2026-10-30",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -119,169 +92,42 @@
     "fuente": "perfiles"
   },
   {
-    "folder_id": "008/2026",
+    "folder_id": "2026/408340/006-302/00010",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "El presente contrato tiene por objeto la Redacción del Proyecto Constructivo, Dirección de las obras y coordinación de Seguridad y Salud, para la instalación de colectores que recojan las aguas pluviales de las cuencas norte y sur en Puebla de Guzmán (Huelva). Financiado con cargo a las ayudas de la Administración General del Estado.",
-    "updated": "2026-10-22T10:09:13.525+02:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=z7rhSklQfME36J9Lctlsuw%3D%3D",
+    "titulo": "Servicio de prevención ajeno de riesgos laborales y vigilancia de la salud para el Ayuntamiento de Serón",
+    "updated": "2026-10-23T10:32:25.728+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4pvSaQx0zp1%2BF6L2uCfUWg%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "71240000",
-      "71520000"
+      "71317200",
+      "80560000",
+      "85147000",
+      "71317210",
+      "85140000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=tNqkbjjxtSjKFjr8L9nfnfzcpKiWZbwv1XR55uJM/bRczoQthxtfsG01lMV0oWIpGvyUwqWiVthLt6FGpGd6J8qVoGXoKzNCuL2ETWwrWSt45ClyWkoJ44mKM70IFcOu",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Rm69whR3%2BTAMOjtbV5wkuPOPd8AkRgDyAaZhm%2Bi9i/5Vik8ZQOaEoHN4CkQtYAqVHethZQ1kKPppnTGk2sy91JB%2BvDxlhVR7f3e9sfq1cnLfdyQgZAdTm3EfcUAC7CJ6",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=PtbDiZQ2pn7hDIYX6Yy7oMqVvFex6FgWrqAOUl%2BpXXjsrjVq1D8LLIjm4GW2PSxnQpvWB58VGmzGp09Yl5m%2BKhnGzYw1I0ltYttZ0qbhUQn3GVhXrFFqN7yFncy7YfRK",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iXeISGMSiVOjk1zMScdlx2Pc7yRGcRDn%2Bt%2BaBQSDzNY1c814MdVh6B4ycqdXgIcP/dMJMoGVvZQeLmG6SpaiL8d9NgrPBwsAnjn9SUS8/4aCx2e6p7hqtlp2aFupgHMr",
     "docs_adicionales": [
       {
-        "nombre": "5 RESOLUCION ALCALDIA INICIO firmado.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9w%2BAI1Qo1BzXCIA8v2CaMQDAGTsYvvKNwmrafinbijG8LdOp0t09L9btoMKBD9OfMyAtX/bPUMzOBP2UwseXdhPjS3WeGYw%2Bbh2VG2T8iAGB0nvVKRzfe4rpHcnlPhSZ"
+        "nombre": "modelos.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=SO5BQzmWAVnQzUMgjzAB2%2BQGrWnK8BgPgNfLKRN6hiuaSNreu4pcdnrmH3SOcHsUkYkj6PhucqFBpx8UkWGBtdsjnnpHTCOaei8DuwDuO3v3GVhXrFFqN7yFncy7YfRK"
       },
       {
-        "nombre": "ANEXO I.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ywx2dD84Kz%2BRNktqmTmmzA1pHtzAqFiPM57xEV%2B%2BCbdViBj%2BxbOz8SbSHSykkqAfPnW6LkGX%2BWvEU5b8yHvZBVa6pRBj0N/OB90Y9VZsKooZyAJWGsSt0OzTSTyw9JAs"
-      },
-      {
-        "nombre": "1_Memoria_justificativa firmado.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=guo35tXpFCYTh5gpSeU1rLO/lZ6pT2t272/CN/XDgf59%2BDMiSIKpltlLNg9gBHgghDBd2/JLRmvSeNSsJJJQ4p0bjDV8odfKSfti9VOGD5uHAj0WEJrB5sP7amrh2jBD"
-      },
-      {
-        "nombre": "ANEXO II.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=TMbz%2BqnZ3h3TRgqDkiOPT/9ptL256BVP7lN06MiLtIGPXaLL0mJFoFYDM5M66POnshmZU8vBIGldb/JINibp7ynTkUHMnINxRNY%2BI3r6TSPDdQD9RyhUmzT4jZ2In4zL"
+        "nombre": "MemoriaJustificativa.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=k24ryjRDwsyInFp2GzdFxZHyEyaKEBpI1bV03kVMIg4FxFhWUqSKHAOpYFUWac3gJCISVMxdSVWM3ct1nDkyGZer87wgtFq4COp7L4n4p/y1aXEvq3KHa/AEHgtDrQw0"
       }
     ],
-    "organo": "Alcaldía del Ayuntamiento de Puebla de Guzmán",
-    "importe": "327320.3",
-    "importe_num": 327320.3,
-    "fecha_limite": "2026-11-23",
+    "organo": "Junta de Gobierno del Ayuntamiento de Serón",
+    "importe": "10661.16",
+    "importe_num": 10661.16,
+    "fecha_limite": "2026-11-07",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
-    "procedimiento": "1",
+    "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles"
-  },
-  {
-    "folder_id": "CONTR 2026 0000352283",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "dirección obra rehabilitación 88 vvdas pgno. puerta madrid, andújar",
-    "updated": "2026-10-21T10:42:37.185+02:00",
-    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1024648",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71520000"
-    ],
-    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/436386",
-    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/436385",
-    "docs_adicionales": [
-      {
-        "nombre": "Proyecto de obras.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/436459"
-      },
-      {
-        "nombre": "Anexos editables.ODT",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/436460"
-      },
-      {
-        "nombre": "Memoria justificativa de la contratación.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/436453"
-      }
-    ],
-    "organo": "Agencia de Vivienda y Rehabilitación de Andalucía (AVRA)",
-    "importe": "13266.38",
-    "importe_num": 15919.65,
-    "fecha_limite": "2026-11-06",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "999",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "agregadas",
-    "descripcion": "DIRECCIÓN DE LAS OBRAS DE REHABILITACIÓN DE 88 VVDAS EN SECTOR ALMERIA DEL PGNO. PUERTA MADRID Y AVDA. SANTO REINO DE ANDÚJAR",
-    "junta_consultado": "2026-10-22"
-  },
-  {
-    "folder_id": "CONTR 2026 0000286170",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "0000621/2026 contrato de servicios de redaccion del proyecto basico y de ejecucion, coordinacion en materia de seguridad y salud durante la elaboracion del proyecto, estudio de ordenacion, direccion de obra, direccion de ejecucion de obra y coordinacion en materia de seguridad y salud durante la ejecucion de las obras de construccion del nuevo hospital de cadiz. cc 5007/2026",
-    "updated": "2026-10-21T10:42:33.765+02:00",
-    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1011672",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71200000"
-    ],
-    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430646",
-    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430636",
-    "docs_adicionales": [
-      {
-        "nombre": "18. APROBACIÓN EXPTE _F_ CC 5007.2026(F).pdf",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430631"
-      },
-      {
-        "nombre": "DEUC",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430865"
-      },
-      {
-        "nombre": "Resolución sobre Mesas de Contratación",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430867"
-      },
-      {
-        "nombre": "Resolución corrección de errores",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/436441"
-      },
-      {
-        "nombre": "CORRECCION ERRORES ACUERDO DE INICIO 5007.2026(F).pdf",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430652"
-      },
-      {
-        "nombre": "ANEXOS TECNICOS",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430682"
-      },
-      {
-        "nombre": "MEMORIA 31.07.2026.pdf",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430650"
-      },
-      {
-        "nombre": "19. MEM_JUSTIF_-_CORRECCIÓN_ERRORES 29.09.2026.pdf",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430656"
-      },
-      {
-        "nombre": "MEMORIA JUSTIF NO USO PCAP HACIENDA JA.pdf",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430648"
-      },
-      {
-        "nombre": "3. ACUERDO DE INICIO CC 5007.2026.(F) 18.06.2026.pdf",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430658"
-      },
-      {
-        "nombre": "17. CERTIFICACIÓN SELLO CDG 22.09.2026.pdf",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430660"
-      },
-      {
-        "nombre": "INFORME APM 31.07.2026.pdf",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430641"
-      },
-      {
-        "nombre": "20. 2ª CORRECCION ERRORES ACUERDO DE INICIO 5007.2026 ..(F).pdf",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430634"
-      }
-    ],
-    "organo": "Servicio Andaluz de Salud",
-    "importe": "41034792.89",
-    "importe_num": 41034792.89,
-    "fecha_limite": "2026-12-01",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "1",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "agregadas",
-    "descripcion": "CONTRATO DE SERVICIOS DE REDACCION DEL PROYECTO BASICO Y DE EJECUCION, COORDINACION EN MATERIA DE SEGURIDAD Y SALUD DURANTE LA ELABORACION DEL PROYECTO, ESTUDIO DE ORDENACION, DIRECCION DE OBRA, DIRECCION DE EJECUCION DE OBRA Y COORDINACION EN MATERIA DE SEGURIDAD Y SALUD DURANTE LA EJECUCION DE LAS OBRAS DE CONSTRUCCION DEL NUEVO HOSPITAL DE CADIZ. CC 5007/2026",
-    "junta_consultado": "2026-10-22"
   }
 ]

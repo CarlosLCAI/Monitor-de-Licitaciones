@@ -31,8 +31,8 @@
   },
   {
     "folder_id": "SE-19/26",
-    "estado": "PUB",
-    "resultado": null,
+    "estado": "RES",
+    "resultado": "desierta",
     "titulo": "Servicio de redacción de la actualización del Proyecto de Ejecución y Estudio de Seguridad y Salud, Dirección de Obra, Dirección de la Ejecución Material y Coordinación en materia de Seguridad y Salud del proyecto -Auditorio en evolución: Ampliación de espacios y optimización técnica-. ",
     "updated": "2026-10-05T13:54:59.839+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=g1xSoPIZKSO2gkLQ8TeYKA%3D%3D",
@@ -62,7 +62,10 @@
     "fecha_captura": "2026-10-07",
     "revisado_humano": true,
     "revisado_fecha": "2026-10-02T11:12:08.050Z",
-    "revisado_por": null
+    "revisado_por": null,
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-23",
+    "estado_updated": "2026-10-23T14:09:12.896+02:00"
   },
   {
     "folder_id": "ACE/318.50/26/ATDO/01",
@@ -387,7 +390,7 @@
   },
   {
     "folder_id": "CONTR 2026 0000297632",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "369/ise/2026/ja rp+ddff bioclima+fotov en ies la pandera de los villares",
     "updated": "2026-10-07T19:41:04.428+02:00",
@@ -410,7 +413,10 @@
     "importe_match": true,
     "junta_consultado": "2026-10-09",
     "fecha_captura": "2026-10-08",
-    "descripcion": "00369/ISE/2026/JA - SERVICIO DE REDACCIÓN DE PROYECTO Y ESTUDIO DE SEGURIDAD Y SALUD, DIRECCIONES FACULTATIVAS (DO Y DEO) Y COORDINACIÓN DE SEGURIDAD Y SALUD PARA LA INSTALACIÓN DE PRODUCCIÓN FOTOVOLTAICA Y BIOCLIMATIZACIÓN EN EL IES LA PANDERA EN LOS VIL"
+    "descripcion": "00369/ISE/2026/JA - SERVICIO DE REDACCIÓN DE PROYECTO Y ESTUDIO DE SEGURIDAD Y SALUD, DIRECCIONES FACULTATIVAS (DO Y DEO) Y COORDINACIÓN DE SEGURIDAD Y SALUD PARA LA INSTALACIÓN DE PRODUCCIÓN FOTOVOLTAICA Y BIOCLIMATIZACIÓN EN EL IES LA PANDERA EN LOS VIL",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-23",
+    "estado_updated": "2026-10-22T19:41:44.308+02:00"
   },
   {
     "folder_id": "CONTR 2026 0000048958",
@@ -1283,7 +1289,7 @@
   },
   {
     "folder_id": "2098/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Contratación de la asistencia técnica para la redacción del Proyecto Básico y de Ejecución, redacción del Estudio de Seguridad y Salud, Dirección Facultativa y Coordinación de Seguridad y Salud de las obras de rehabilitación energética y reparación de la cubierta y envolvente afectadas por fenómenos meteorológicos adversos en la FEVE de Valverde.",
     "updated": "2026-10-14T09:56:43.491+02:00",
@@ -1298,13 +1304,24 @@
     "organo": "Alcaldia del Ayuntamiento de Valverde del Camino",
     "importe": "72727.27",
     "importe_num": 72727.27,
-    "fecha_limite": "2026-11-13",
+    "fecha_limite": "2026-08-06",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-14"
+    "fecha_captura": "2026-10-14",
+    "docs_adicionales": [
+      {
+        "nombre": "Cuadro de Caracteristicas Caja de Musica.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=vzr0l8Mfb%2BzQNIaRYG8v5ZL7PlSji7yJhLZT8gV04sVFpE15CccwgCFC0TXLalLWvJl/hovP6GTKMS2kcjtTftcWjTGXehagx/v/fs/5mt21aXEvq3KHa/AEHgtDrQw0"
+      }
+    ],
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-23",
+    "fecha_limite_anterior": "2026-11-13",
+    "fecha_limite_cambiada_el": "2026-10-23",
+    "estado_updated": "2026-10-23T16:04:52.577+02:00"
   },
   {
     "folder_id": "A41420191-2026/000089-PeAS",
@@ -3078,5 +3095,139 @@
     "descripcion": "CONTRATO DE SERVICIOS DE REDACCION DEL PROYECTO BASICO Y DE EJECUCION, COORDINACION EN MATERIA DE SEGURIDAD Y SALUD DURANTE LA ELABORACION DEL PROYECTO, ESTUDIO DE ORDENACION, DIRECCION DE OBRA, DIRECCION DE EJECUCION DE OBRA Y COORDINACION EN MATERIA DE SEGURIDAD Y SALUD DURANTE LA EJECUCION DE LAS OBRAS DE CONSTRUCCION DEL NUEVO HOSPITAL DE CADIZ. CC 5007/2026",
     "junta_consultado": "2026-10-22",
     "fecha_captura": "2026-10-22"
+  },
+  {
+    "folder_id": "31/26",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Redacción del proyecto constructivo y ejecución de las obras del soterramiento de la Avenida de Valle-Inclán en la intersección con el Camino de Suárez, la Calle Martínez de la Rosa y el acceso a las barriadas de Carlinda, La Corta y San Alberto, en la ciudad de Málaga",
+    "updated": "2026-10-23T16:20:27.338+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=m3kRQyjsvG65HQrHoP3G5A%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "45221000",
+      "71300000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YyWdjUpYZX6YXQGm2OZiA7/eW%2B67Or01cOUrBlXTzZ0iYLe5ueWQuoqA/SHh6YjgfKR39NvXCDXtbpO8sr2wkRI46j0jPYCpdPTN/20UqSxt/o8fNevwsujgRzaBbugn",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=G87FfKnWWsclTdL/G/ndgGx3Qq4vkEYYArYZc8nUQROGti7qctYkBwZbExwMzkKRRRqTrb4PrLmOoIyy1DHxJigJrUTw/nXQvQXIVJFwOf9JOVDbGCDM%2BMigrvuVS7Rv",
+    "docs_adicionales": [
+      {
+        "nombre": "Anexo_2_4.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=hu7GImdozjfIO9v%2B2rNoePmIL41Y5psO693fFO4zIXJmv3XjlqHUJnIEuCfzZt9BmghDQgMNDiytFexgLWJTTLQgvvKzCHZY/dLt5rVpD56B0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "ANEXO_1.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=L/8lYKqp8sUMyNYrbQeQnsEHKffok4vnVg%2BWRUntTD3agchUCeDL/36ztenksRgDMevzaCjyUOUeK%2ByPr8BQxoRlS7EZqqQSzUwWmalz4Rt7QB3HKyQaFUExmUVQCerk"
+      },
+      {
+        "nombre": "Anexos_2_a_5.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=8Ur%2BBoNYWKyQttow86G%2BQegZ8VCcmXu61OWzIxpKe1DxgqWa9ctzZ%2BhCgY7k6P3BMnHyCN8IFsC8piCLI9kCiPVQGJQT18eUFQL3EdH6FA%2BB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "Informe de titularidad de terrenos.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Jrg42IC5X003712IBU5J5X4rC7a1WOs24mqilynbuWGANHHI5zKoaeYGZGk0XiKBy7mbuo/2VoGBsze74bUJvx4hNvif79k%2BoOZk02nOWCF45ClyWkoJ44mKM70IFcOu"
+      },
+      {
+        "nombre": "Informe_de_Inicio.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wnRP6UlwwlFbglhcwe7y1EzN9AuscXncvrkybOntz7Ld3N9tdyzhEbv3ZPcjTERQ48mR4bXYdtv3sXa%2B/PWeVO1/FflaEolPi0xpeidlhxPDdQD9RyhUmzT4jZ2In4zL"
+      },
+      {
+        "nombre": "Informe_de_Replanteo_Previo_del_Proyecto.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=OTzjd%2BPIb8bi59r34GoE7LRgSGH1El0pSm0fUF3Gw9JlKySarO9kI7NeHiBhjac6XPoPaqnjUwfwCy8mHHO9L47fjfSjH1cfuvKJFVpzBuFJOVDbGCDM%2BMigrvuVS7Rv"
+      },
+      {
+        "nombre": "ENLACE DOC TECNICA.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1NP4M3KX%2Bh2jbpyeTs0Y76UKIc%2Bp4/pW81WLzn17Jo9gaUjEp%2B61ytm4WPQFpm1NEaWtvuFCg%2BdOGgmSCQVLhVWuDITlPPgU6Qu28uDUcTJ7QB3HKyQaFUExmUVQCerk"
+      }
+    ],
+    "organo": "Junta de Gobierno del Ayuntamiento de Málaga",
+    "importe": "22148578.97",
+    "importe_num": 26338628.76,
+    "fecha_limite": "2026-11-24",
+    "tipo_contrato": "3",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-10-23"
+  },
+  {
+    "folder_id": "582/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Redaccion de los Proyectos Tecnicos de Ejecución y Memorias Valoradas para las obras de pavimentación, infraestructuras viarias y obras de prevencion en las calles dañadas del Municipio de Orcera (incluido Direccion Facultativa y coordinacion de Seguridad y Salud)\r\n",
+    "updated": "2026-10-23T12:45:52.174+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=T8Z2vz8xDze5HQrHoP3G5A%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000",
+      "71322000",
+      "71000000",
+      "71322000",
+      "71000000",
+      "71322000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=DzYWkEIvAsT9Wa6nl08WO1chcsato2NrSUZWElg4XmHcT9g7oHXyYOneQKMgDDVoOqwMA5aMgRxoVxlx4S1TnMl2eu6YaNQNOpClaKlrl2b6CYyL7SIrUOBFfNf52ZqA",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=LOO14XLcBlSqMv71iQDTr6uSN8kgYMWwATIrsBRahr6eith02cZGycEbmCg5Ea354C//5ZGw%2BYUu%2BoT2%2Bhbp7Y%2B36EwM0m%2B7y4GYk9G0dQF7QB3HKyQaFUExmUVQCerk",
+    "docs_adicionales": [
+      {
+        "nombre": "Anexos a cumplimentar 582.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CtItqoSLLP%2BM9jf7UDgcXpTMFDCQBJJgbJceNDFiZxgWmp/YNUPUZWt76DPz67Nfiueoyx9IrWGVArPFd1Ow4lJeNuDyXUoWvtQZ5rHpsayHAj0WEJrB5sP7amrh2jBD"
+      }
+    ],
+    "organo": "Alcaldía del Ayuntamiento de Orcera",
+    "importe": "39125.25",
+    "importe_num": 39125.25,
+    "fecha_limite": "2026-10-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-10-23"
+  },
+  {
+    "folder_id": "2026/408340/006-302/00010",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de prevención ajeno de riesgos laborales y vigilancia de la salud para el Ayuntamiento de Serón",
+    "updated": "2026-10-23T10:32:25.728+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4pvSaQx0zp1%2BF6L2uCfUWg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71317200",
+      "80560000",
+      "85147000",
+      "71317210",
+      "85140000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=PtbDiZQ2pn7hDIYX6Yy7oMqVvFex6FgWrqAOUl%2BpXXjsrjVq1D8LLIjm4GW2PSxnQpvWB58VGmzGp09Yl5m%2BKhnGzYw1I0ltYttZ0qbhUQn3GVhXrFFqN7yFncy7YfRK",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iXeISGMSiVOjk1zMScdlx2Pc7yRGcRDn%2Bt%2BaBQSDzNY1c814MdVh6B4ycqdXgIcP/dMJMoGVvZQeLmG6SpaiL8d9NgrPBwsAnjn9SUS8/4aCx2e6p7hqtlp2aFupgHMr",
+    "docs_adicionales": [
+      {
+        "nombre": "modelos.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=SO5BQzmWAVnQzUMgjzAB2%2BQGrWnK8BgPgNfLKRN6hiuaSNreu4pcdnrmH3SOcHsUkYkj6PhucqFBpx8UkWGBtdsjnnpHTCOaei8DuwDuO3v3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "MemoriaJustificativa.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=k24ryjRDwsyInFp2GzdFxZHyEyaKEBpI1bV03kVMIg4FxFhWUqSKHAOpYFUWac3gJCISVMxdSVWM3ct1nDkyGZer87wgtFq4COp7L4n4p/y1aXEvq3KHa/AEHgtDrQw0"
+      }
+    ],
+    "organo": "Junta de Gobierno del Ayuntamiento de Serón",
+    "importe": "10661.16",
+    "importe_num": 10661.16,
+    "fecha_limite": "2026-11-07",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-10-23"
   }
 ]

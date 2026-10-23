@@ -1,171 +1,37 @@
 [
   {
-    "folder_id": "5187/2026",
+    "folder_id": "AGP-159/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicios técnicos necesarios para la redacción de los proyectos, dirección de las obras y coordinación de seguridad y salud de diversas actuaciones del Ayuntamiento de Huétor Vega.",
-    "updated": "2026-10-22T13:01:26.491+02:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SGrN0LV6pTAmMOlAXxDEjw%3D%3D",
+    "titulo": "Servicio De Mantenimiento Del Sistema De Gestión Ambiental Del Aeropuerto De Málaga-Costa Del Sol",
+    "updated": "2026-10-23T11:01:37.285+02:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=iS%2BOFxM%2B51LE6P%2FuLemXRw%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "71322000",
-      "71317210",
-      "71322300",
-      "71300000",
-      "71520000",
-      "71322000",
-      "71300000",
-      "71322300",
-      "71317210",
-      "71520000",
-      "71322000",
-      "71317210",
-      "71520000",
-      "71300000",
-      "71322300",
-      "71322000",
-      "71317210",
-      "71520000",
-      "71322300",
-      "71300000"
+      "90700000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=MceKKWOz/mct8UWIC18BwInJC8iPyjpU1ktYpIb1GKm5c1L4HrufhuJcUlDICkHx5fg5pKbQD7HaTEfPJsJZO9WAPoVxFD2tue%2BQ55KB/qJ7QB3HKyQaFUExmUVQCerk",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=IPQrQrhJ28//ZS%2BS%2BX8AISJVzEvzrfBdbr7cb8y7VZc%2BhslGcStSemy4RJCLJOqQV61B8Uqc%2BKupuFGhAk0A8JidqRV1NicZH1cOBQSSz7IC1/zDIE0Kw/PWNnLS0Z0z",
-    "docs_adicionales": [],
-    "organo": "Junta de Gobierno del Ayuntamiento de Huétor Vega",
-    "importe": "55000",
-    "importe_num": 55000.0,
-    "fecha_limite": "2026-11-06",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=psKtnRMixVHB4LOxzoJbylcgAbhJILxHXDSefG6gzUBKk/ycySsRIYLscIiBjwvAB7SszrkgSSMMJPdNhTgqobOpl1%2B1j7ejCR0Zv1I%2B%2BlkZyAJWGsSt0OzTSTyw9JAs",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ZzC%2B7F1pXl//qVYf7jMdv9%2B9nGPWt2VP8U%2Bc%2Bsrm6BEqakrZpaomIjs0EUTTM4W2LUxL9CxraR4v4CIYQs6kP6ew2yHwddR88v9JI095qVv6CYyL7SIrUOBFfNf52ZqA",
+    "docs_adicionales": [
+      {
+        "nombre": "DEUC MODELO FORMULARIO 159-26.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wpLsuPhvZIaEgF0Oj4DPknZskdF65mkuDrVAqxmE9s6xqkwGOHbKMaR6Ou4rwomIrk5z%2BodizE8u99oS6HtKcxsLl0PygU4BCByA43%2BCWqf6CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "Memoria Justificativa de Inicio de Expediente.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=bLPV4Unj2bx1uUByrXlat88nOXRqIyq9zzf6OoXj5b4QRi%2BRfsm57WlFuNlT3Eh1pOyfmSDNkhTn9iQDt0jhjXK7xV7r7T98pQ8IN9c5tZs//q7NB2iMZvNyf0xrJmjt"
+      }
+    ],
+    "organo": "Aena. Dirección del Aeropuerto de Málaga-Costa del Sol",
+    "importe": "80000",
+    "importe_num": 240000.0,
+    "fecha_limite": "2026-11-09",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
-    "procedimiento": "9",
+    "procedimiento": "100",
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles"
-  },
-  {
-    "folder_id": "SERV/ABR_SMPL-2026000036",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Retirada y gestión de restos de podas del Término Municipal de Mazarrón",
-    "updated": "2026-10-22T10:24:09.658+02:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=QDohBVEGpSOExvMJXBMHHQ%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "90512000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=eujh4jha7a3KLwvdA3mYoz%2BGXQq2bsPFkHrZmJPgkt9jggNAiJmsU6d1FrLdyzHYBQIMNj6vQMy%2BBCUyMTNbYXOkY%2ByGsnIcxpwIZbqVlgN7QB3HKyQaFUExmUVQCerk",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QNdTt/U1P2exyaJNVeKvgV%2BtptqWeHAPrT3zaty/WbtWyTlLHF6kWEF/e9T/I2CobYw%2BqFWa7hAe4Haa5ejFnWI29%2B6BE3%2BG6ey4CosMg7fVTD3T98KC0nSgQFM0q%2B5s",
-    "docs_adicionales": [
-      {
-        "nombre": "Providencia inicio Contratacion.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=A8R1Un2bE8%2BtIBP9DEd9ZyeDb9fTFsAg5%2BvTvFK07g0/bTs2dRvfgHCSDyVrRbQdtRaOSsliA4xSEwmnUMqzxRMSAKLKplO/V1e1OA2lXXtJOVDbGCDM%2BMigrvuVS7Rv"
-      },
-      {
-        "nombre": "MEMORIA JUSTIFICATIVA CONTRATO.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=UCvpG73g5LkzBH1TdBBMSjkSAL%2BUvzeXWDltE2GgtMHYEj46FaxlTGWcOP6fj50b6e9J4Qch9tVXQ5cZGidEDxsRp8qU96inPgn4Rdns5%2BPVTD3T98KC0nSgQFM0q%2B5s"
-      },
-      {
-        "nombre": "Resolucion aprobacion expediente PODAS.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=OvqHMvLU3rGRzA6%2BxotdxM%2B52xLwLkJmgOr3sxG03LEug7wAMBC/RtWF3T7elSCDu8B0GEpiXKAzJCvpbUVdd7Pv%2BM%2Bxjp3ZhiEV8QiG5JX6CYyL7SIrUOBFfNf52ZqA"
-      }
-    ],
-    "organo": "Junta de Gobierno del Ayuntamiento de Mazarrón",
-    "importe": "76500",
-    "importe_num": 153000.0,
-    "fecha_limite": "2026-11-06",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "1",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "008/2026",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "El presente contrato tiene por objeto la Redacción del Proyecto Constructivo, Dirección de las obras y coordinación de Seguridad y Salud, para la instalación de colectores que recojan las aguas pluviales de las cuencas norte y sur en Puebla de Guzmán (Huelva). Financiado con cargo a las ayudas de la Administración General del Estado.",
-    "updated": "2026-10-22T10:09:13.525+02:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=z7rhSklQfME36J9Lctlsuw%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71240000",
-      "71520000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=tNqkbjjxtSjKFjr8L9nfnfzcpKiWZbwv1XR55uJM/bRczoQthxtfsG01lMV0oWIpGvyUwqWiVthLt6FGpGd6J8qVoGXoKzNCuL2ETWwrWSt45ClyWkoJ44mKM70IFcOu",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Rm69whR3%2BTAMOjtbV5wkuPOPd8AkRgDyAaZhm%2Bi9i/5Vik8ZQOaEoHN4CkQtYAqVHethZQ1kKPppnTGk2sy91JB%2BvDxlhVR7f3e9sfq1cnLfdyQgZAdTm3EfcUAC7CJ6",
-    "docs_adicionales": [
-      {
-        "nombre": "5 RESOLUCION ALCALDIA INICIO firmado.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9w%2BAI1Qo1BzXCIA8v2CaMQDAGTsYvvKNwmrafinbijG8LdOp0t09L9btoMKBD9OfMyAtX/bPUMzOBP2UwseXdhPjS3WeGYw%2Bbh2VG2T8iAGB0nvVKRzfe4rpHcnlPhSZ"
-      },
-      {
-        "nombre": "ANEXO I.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ywx2dD84Kz%2BRNktqmTmmzA1pHtzAqFiPM57xEV%2B%2BCbdViBj%2BxbOz8SbSHSykkqAfPnW6LkGX%2BWvEU5b8yHvZBVa6pRBj0N/OB90Y9VZsKooZyAJWGsSt0OzTSTyw9JAs"
-      },
-      {
-        "nombre": "1_Memoria_justificativa firmado.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=guo35tXpFCYTh5gpSeU1rLO/lZ6pT2t272/CN/XDgf59%2BDMiSIKpltlLNg9gBHgghDBd2/JLRmvSeNSsJJJQ4p0bjDV8odfKSfti9VOGD5uHAj0WEJrB5sP7amrh2jBD"
-      },
-      {
-        "nombre": "ANEXO II.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=TMbz%2BqnZ3h3TRgqDkiOPT/9ptL256BVP7lN06MiLtIGPXaLL0mJFoFYDM5M66POnshmZU8vBIGldb/JINibp7ynTkUHMnINxRNY%2BI3r6TSPDdQD9RyhUmzT4jZ2In4zL"
-      }
-    ],
-    "organo": "Alcaldía del Ayuntamiento de Puebla de Guzmán",
-    "importe": "327320.3",
-    "importe_num": 327320.3,
-    "fecha_limite": "2026-11-23",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "1",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "CONTR 2026 0000352283",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "dirección obra rehabilitación 88 vvdas pgno. puerta madrid, andújar",
-    "updated": "2026-10-21T10:42:37.185+02:00",
-    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1024648",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71520000"
-    ],
-    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/436386",
-    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/436385",
-    "docs_adicionales": [
-      {
-        "nombre": "Proyecto de obras.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/436459"
-      },
-      {
-        "nombre": "Anexos editables.ODT",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/436460"
-      },
-      {
-        "nombre": "Memoria justificativa de la contratación.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/436453"
-      }
-    ],
-    "organo": "Agencia de Vivienda y Rehabilitación de Andalucía (AVRA)",
-    "importe": "13266.38",
-    "importe_num": 15919.65,
-    "fecha_limite": "2026-11-06",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "999",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "agregadas",
-    "descripcion": "DIRECCIÓN DE LAS OBRAS DE REHABILITACIÓN DE 88 VVDAS EN SECTOR ALMERIA DEL PGNO. PUERTA MADRID Y AVDA. SANTO REINO DE ANDÚJAR",
-    "junta_consultado": "2026-10-22"
   }
 ]
