@@ -245,7 +245,7 @@
   },
   {
     "folder_id": "PA-SER 103/26",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Servicio de redacción del proyecto básico y de ejecución, Dirección de Obra, Dirección de Ejecución, Coordinación de Seguridad y Salud de las Obras de Reforma del área de tratamiento renal sustitutivo y enfermedad renal crónica avanzada, incluida la renovación de la instalación de tratamiento de agua de hemodiálisis.",
     "updated": "2026-10-08T14:11:06.610+02:00",
@@ -268,7 +268,10 @@
     "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-09"
+    "fecha_captura": "2026-10-09",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-24",
+    "estado_updated": "2026-10-24T00:10:56.376+02:00"
   },
   {
     "folder_id": "02.07.01.01 2026/78-SS_REYES",

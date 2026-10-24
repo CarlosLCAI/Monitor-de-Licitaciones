@@ -1,37 +1,43 @@
 [
   {
-    "folder_id": "AGP-159/2026",
+    "folder_id": "CONTR 2026 0000019143",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicio De Mantenimiento Del Sistema De Gestión Ambiental Del Aeropuerto De Málaga-Costa Del Sol",
-    "updated": "2026-10-23T11:01:37.285+02:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=iS%2BOFxM%2B51LE6P%2FuLemXRw%3D%3D",
+    "titulo": "estudio geotécnico en edificio de módulos tecnológicos en el pta malaga",
+    "updated": "2026-10-23T14:43:16.014+02:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1029388",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "90700000"
+      "71332000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=psKtnRMixVHB4LOxzoJbylcgAbhJILxHXDSefG6gzUBKk/ycySsRIYLscIiBjwvAB7SszrkgSSMMJPdNhTgqobOpl1%2B1j7ejCR0Zv1I%2B%2BlkZyAJWGsSt0OzTSTyw9JAs",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ZzC%2B7F1pXl//qVYf7jMdv9%2B9nGPWt2VP8U%2Bc%2Bsrm6BEqakrZpaomIjs0EUTTM4W2LUxL9CxraR4v4CIYQs6kP6ew2yHwddR88v9JI095qVv6CYyL7SIrUOBFfNf52ZqA",
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/437482",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/437481",
     "docs_adicionales": [
       {
-        "nombre": "DEUC MODELO FORMULARIO 159-26.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wpLsuPhvZIaEgF0Oj4DPknZskdF65mkuDrVAqxmE9s6xqkwGOHbKMaR6Ou4rwomIrk5z%2BodizE8u99oS6HtKcxsLl0PygU4BCByA43%2BCWqf6CYyL7SIrUOBFfNf52ZqA"
+        "nombre": "Memoria justificativa de la contratación.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/437501"
       },
       {
-        "nombre": "Memoria Justificativa de Inicio de Expediente.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=bLPV4Unj2bx1uUByrXlat88nOXRqIyq9zzf6OoXj5b4QRi%2BRfsm57WlFuNlT3Eh1pOyfmSDNkhTn9iQDt0jhjXK7xV7r7T98pQ8IN9c5tZs//q7NB2iMZvNyf0xrJmjt"
+        "nombre": "Acuerdo de iniciación del expediente de contratación por el órgano de contratación.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/437502"
+      },
+      {
+        "nombre": "Informe Justificativo.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/437503"
       }
     ],
-    "organo": "Aena. Dirección del Aeropuerto de Málaga-Costa del Sol",
-    "importe": "80000",
-    "importe_num": 240000.0,
+    "organo": "Agencia de Innovación y Desarrollo de Andalucía",
+    "importe": "50838.27",
+    "importe_num": 50838.27,
     "fecha_limite": "2026-11-09",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
-    "procedimiento": "100",
+    "procedimiento": "999",
     "procedimiento_match": true,
     "importe_match": true,
-    "fuente": "perfiles"
+    "fuente": "agregadas",
+    "descripcion": "TÍTULO: ESTUDIO GEOTÉCNICO PARA IDENTIFICAR Y EVALUAR LOS DAÑOS ESTRUCTURALES SOBRE EL EDIFICIO DE MÓDULOS TECNOLÓGICOS Y SU URBANIZACION EN EL PARQUE TECNOLÓGICO DE ANDALUCÍA EN MÁLAGA",
+    "junta_consultado": "2026-10-24"
   }
 ]

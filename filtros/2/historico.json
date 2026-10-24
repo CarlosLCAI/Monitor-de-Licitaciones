@@ -52,7 +52,7 @@
     "organo": "Alcaldía del Ayuntamiento de Tijarafe",
     "importe": "138162.77",
     "importe_num": 138162.77,
-    "fecha_limite": "2026-10-05",
+    "fecha_limite": "2026-10-19",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -62,9 +62,9 @@
     "estado_anterior": "ADJ",
     "resultado": "adjudicada",
     "estado_cambiado_el": "2026-10-22",
-    "fecha_limite_anterior": "2026-07-28",
-    "fecha_limite_cambiada_el": "2026-10-14",
-    "estado_updated": "2026-10-21T18:28:57.656+02:00",
+    "fecha_limite_anterior": "2026-10-05",
+    "fecha_limite_cambiada_el": "2026-10-24",
+    "estado_updated": "2026-10-23T13:23:40.197+02:00",
     "docs_adicionales": [
       {
         "nombre": "ANEXO I.pdf",
