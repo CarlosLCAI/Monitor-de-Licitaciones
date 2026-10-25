@@ -686,7 +686,7 @@
   },
   {
     "folder_id": "2/2026",
-    "estado": "ADJ",
+    "estado": "EV",
     "titulo": "Servicio redacción del proyecto obra, dirección facultativa y dirección de ejecución de la obra, así como de seguridad y salud para la obra de reformas asociadas a la mejora de la eficiencia energética en el edificio de la dirección provincial del sepe de Almería",
     "updated": "2026-08-13T10:01:57.398+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Sr02VDds9n2opEMYCmrbmw%3D%3D",
@@ -700,7 +700,7 @@
     "organo": "Dirección Provincial del Servicio Público de Empleo Estatal en Almería",
     "importe": "156030.58",
     "importe_num": 156030.58,
-    "fecha_limite": "2026-10-05",
+    "fecha_limite": "2026-10-23",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -711,12 +711,12 @@
       "fecha_analisis": "2026-08-15T03:59:34.666336+00:00"
     },
     "fecha_captura": "2026-08-15",
-    "estado_anterior": "PUB",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-23",
-    "estado_updated": "2026-10-22T20:35:08.549+02:00",
-    "fecha_limite_anterior": "2026-11-04",
-    "fecha_limite_cambiada_el": "2026-10-23",
+    "estado_anterior": "ADJ",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-25",
+    "estado_updated": "2026-10-24T09:11:18.999+02:00",
+    "fecha_limite_anterior": "2026-10-05",
+    "fecha_limite_cambiada_el": "2026-10-25",
     "docs_adicionales": [
       {
         "nombre": "2 2026 Annex I Declaracion Responsable.doc",
