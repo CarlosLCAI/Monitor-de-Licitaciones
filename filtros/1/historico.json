@@ -181,14 +181,44 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=zp5eD6eWRxhOIVlpuwyE1k4R9uZNkJoHd27aLbND1mxFAZdLp5uwwNuWbeWYaqhgpMH2HVJVk6K6YcbhRWC4iEmcSHkMBZ3Xh2/1gEJzGfcC1/zDIE0Kw/PWNnLS0Z0z",
     "organo": "Gerencia del Parque Cementerio de Málaga, S.A.",
     "importe": "481470.91",
-    "fecha_limite": "2026-11-04",
+    "fecha_limite": "2026-11-10",
     "fecha_captura": "2026-07-14",
     "estado_anterior": "ADJ",
     "resultado": null,
     "estado_cambiado_el": "2026-10-14",
-    "estado_updated": "2026-10-20T07:51:38.204+02:00",
-    "fecha_limite_anterior": "2026-10-27",
-    "fecha_limite_cambiada_el": "2026-10-21"
+    "estado_updated": "2026-10-26T08:58:22.563+01:00",
+    "fecha_limite_anterior": "2026-11-04",
+    "fecha_limite_cambiada_el": "2026-10-26",
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXO 1.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ED0j/DVvaECfBWfYCAEBBEpeSQ9ZZoBQgGIh/frNMWtB91Eh7WYMYeb0PslJOdlatE6tvhNXAyExhm9apZc0FQ5l04zx%2BlJOL2JDhnitrult/o8fNevwsujgRzaBbugn"
+      },
+      {
+        "nombre": "ANEXO 4.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=VAUOLtdhppifGIM83Y8aV8SGJv6Em%2BvWxwqmquMpVXSZyJmXoYuBcSLdTZ6P4YUYI8/8hOErvjgo712xrFo0SjkgVmJjmJ1x6ynn2AVIKKyHAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "ANEXO 8.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=xiLWC3FAVMApL6/IciHDGmnOxa1Dk72SJ9S2y/qB7y9/1hx%2B%2Bjm%2BuFVkl9pIrv9yC2flnklbqnDzz9oUgcRmmrY6F28JRx2/3Faxzyohw6YC1/zDIE0Kw/PWNnLS0Z0z"
+      },
+      {
+        "nombre": "ANEXO 6.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=aQZYQ/wKtS5LJfMCEJx5ojqrDm8UTOB02X5nvm/zFY9OJl9vy5L9DRZNOITbGcXXGEDvRYhHQepPsPDF7Q3hsDbsMK7QXL2iGdmtbNAYImnfdyQgZAdTm3EfcUAC7CJ6"
+      },
+      {
+        "nombre": "ANEXO 3.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=T02sHW8YnFYgjCEBH1mFa5GUck1W0Tkt59JKsFdJOOZ8n2JNDM8s%2BUXwcC40%2BChA3/ceU5KmZ9auIal6OlkLKSQj8hhlw7McahvKfxgrvNB45ClyWkoJ44mKM70IFcOu"
+      },
+      {
+        "nombre": "ANEXO 7.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=lygCXqwNANCYAYChvmfjT/4mbgg1eHPc%2BEBS0L0YfpocBPWfVGEucG6INRQJ53hzIu7i48bPyKYjW5OWYw8LRLfdF8855IZD3YBFGcbLBkn3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "ANEXO 5.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=48XPMJxmAeOiAZrm5F1dFtsKVaeKRPGGtfxCyGtU5TnyHfaBo7x9k%2Bdi38VwWvi%2By5EMylhnFn4NIX4PBipe2HizqbMrn0ZU5ygXT%2BZx%2BcGHAj0WEJrB5sP7amrh2jBD"
+      }
+    ]
   },
   {
     "folder_id": "06/2026-Servicios_ABI_Simplificado",
@@ -1338,7 +1368,7 @@
   },
   {
     "folder_id": "55/2026",
-    "estado": "EV",
+    "estado": "ADJ",
     "titulo": "Servicio asistencia técnica destinado a disponer de un equipo técnico cualificado para redacción de Proyectos Básicos y de Ejecución, elaboración de Estudios Básicos de Seguridad y Salud, y realización de los trabajos, correspondientes a actuaciones de mejora de accesibilidad e instalación de ascensores en edificios residenciales de vivienda colectiva beneficiarios ayudas Municipal 2024.",
     "updated": "2026-08-24T12:35:29.309+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VVaCe715rqCAAM7L03kM8A%3D%3D",
@@ -1352,7 +1382,7 @@
     "organo": "Comisión Ejecutiva de la Gerencia de Urbanismo de Sevilla",
     "importe": "198347.11",
     "importe_num": 198347.11,
-    "fecha_limite": "2026-09-08",
+    "fecha_limite": "2026-09-15",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1363,20 +1393,16 @@
       "fecha_analisis": "2026-08-25T03:55:52.711452+00:00"
     },
     "fecha_captura": "2026-08-25",
-    "estado_anterior": "RES",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-21",
-    "estado_updated": "2026-10-21T13:52:13.616+02:00",
-    "fecha_limite_anterior": "2026-09-15",
-    "fecha_limite_cambiada_el": "2026-10-21",
+    "estado_anterior": "EV",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-10-26",
+    "estado_updated": "2026-10-26T16:20:47.218+01:00",
+    "fecha_limite_anterior": "2026-09-08",
+    "fecha_limite_cambiada_el": "2026-10-26",
     "docs_adicionales": [
       {
-        "nombre": "espd-request.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=rjfl9pcVcWMcjgwTAicxuPxYSrXc7cF94yZ2KVsCl0AcGLohyLt3b2HWP%2B2KFRpGxUZ%2BUcSLRCOoea/I0NqRuSs9GkWqA/IFToHKBGT/pNF7QB3HKyQaFUExmUVQCerk"
-      },
-      {
-        "nombre": "espd-request.xml",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=lrcqFC85QxmRtdmDdbeNd9ZctXPzxOPS1agsC9oWn8VGYBDvU74zJuhg0/CDLx7CfFSz%2Bh8eY7emn4MZ4EYLzY/2DD8mmWk2i0f7yZ96XiuB0nvVKRzfe4rpHcnlPhSZ"
+        "nombre": "ANEXOS.zip",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=5KS4iyXhACZeSmm56hAkqi/fCOF%2BrM5I2Mpvmm3Q0aVFygNAddJKkvN65ccSW0HAy3DHsVUURTaqvpZXB5jzwLV0nkjDGNy%2BulXWGX/n9d97QB3HKyQaFUExmUVQCerk"
       }
     ]
   },
@@ -2013,7 +2039,7 @@
   },
   {
     "folder_id": "REPARACION TORRE NOROESTE DEL CASTILLO  ZAGRA",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Contrato de Servicio de Redacción de Proyecto, Dirección de Obra, Dirección de ejecución de Obra y Coordinación de Seguridad y Salud para las Obras de Reparación de la Torre Noroeste del Castillo de Zagra, mediante Procedimiento Abierto y Licitación Electrónica.",
     "updated": "2026-10-06T14:55:27.194+02:00",
@@ -2081,7 +2107,10 @@
         "nombre": "ANEXO VI MODELO DECLARACION RESPONSABLE CUMPLIMIENTO DE REQUISITOS.doc",
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1FD61jYkNNS6p7HJ1TGHQTy/0tC0jlshvlBKm4J1aLMeam3liiVk%2BSwADQPq%2BvlFqH/JOJm0krKEKbHutCQaJ9IVFrEuKl/Zc7vzPv7VyJQ//q7NB2iMZvNyf0xrJmjt"
       }
-    ]
+    ],
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-26",
+    "estado_updated": "2026-10-26T11:21:26.303+01:00"
   },
   {
     "folder_id": "P4102900J-2026/000099-PEAS",
@@ -2874,5 +2903,33 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-22"
+  },
+  {
+    "folder_id": "428/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Redacción de proyecto técnico de ingeniería, dirección de obra y coordinación de seguridad y salud.",
+    "updated": "2026-10-26T12:43:43.209+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WactHvC3a2jL1rX3q%2FMAPA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000",
+      "71240000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=t698HFBw4o7mp8YO2mjevNXPLxP999bEw3T2Yx2PmWMEXhAM/DAIvJ0eqwzaU%2BuYvjIhLfTf4Qfh0sAYhT95810lxjYyf4/lB9S0HHTnfGDDdQD9RyhUmzT4jZ2In4zL",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=t5Om9SxHvD0ZeR6ONmiNVbsf/xHP/xL8Q3%2BcNznea/xV2FLii5ym6xnSldnTTl3fqHV2Z8HSpAfMbdesVV4WumpYvYQZmBNFka4zkptITVeB0nvVKRzfe4rpHcnlPhSZ",
+    "docs_adicionales": [],
+    "organo": "Alcaldía del Ayuntamiento de Jete",
+    "importe": "40000",
+    "importe_num": 48400.0,
+    "fecha_limite": "2026-11-10",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-10-26"
   }
 ]

@@ -1,1 +1,60 @@
-[]
+[
+  {
+    "folder_id": "26.092.NGC3029.AT.01",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicios consistentes en la Asistencia Técnica a la Dirección Facultativa de la Obra de primer establecimiento del Acuartelamiento de la Guardia Civil en Alhaurín de la Torre (Málaga) (26.092.NGC3029.AT.01)",
+    "updated": "2026-10-26T14:19:54.333+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=kjxUeTNJGw3IGlsa0Wad%2Bw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71247000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=jxCgo4OuDbp/kJY5lmZybIbJKQGJXyekwgTS8UqW3YhBxA16wI3HCyYVL5Dl3g9ekdaGq87LKPocAXXyy6JCcNVanpTCrafcfnJcG%2BG4QJWB0nvVKRzfe4rpHcnlPhSZ",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=dIygRIgy/M%2BvEDBU8AjUKQW3vdXjZh4Ipan7ZKB97KmG9ZwhkNQnSgxsRacEb8nOsV68FwQvEiuef%2BpAMzaEiIFyxq5EIfYv6laAgfV3ciVt/o8fNevwsujgRzaBbugn",
+    "docs_adicionales": [
+      {
+        "nombre": "DEUC.xml",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=t21uqRHnVEiFyUB0Jrx7Qw0B4oBqld3wthib86A5LIOjxbWOkKh6kGf3cDLCLZS9lDEqKSuBkEOVhg38BP0wCcaZSsyWaArwvGVhx2hRGov3GVhXrFFqN7yFncy7YfRK"
+      }
+    ],
+    "organo": "Presidencia de la Sociedad de Infraestructuras y Equipamientos Penitenciarios y de la Seguridad del Estado, S.M.E., S.A",
+    "importe": "166266.08",
+    "importe_num": 199519.3,
+    "fecha_limite": "2026-11-12",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "428/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Redacción de proyecto técnico de ingeniería, dirección de obra y coordinación de seguridad y salud.",
+    "updated": "2026-10-26T12:43:43.209+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WactHvC3a2jL1rX3q%2FMAPA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000",
+      "71240000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=t698HFBw4o7mp8YO2mjevNXPLxP999bEw3T2Yx2PmWMEXhAM/DAIvJ0eqwzaU%2BuYvjIhLfTf4Qfh0sAYhT95810lxjYyf4/lB9S0HHTnfGDDdQD9RyhUmzT4jZ2In4zL",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=t5Om9SxHvD0ZeR6ONmiNVbsf/xHP/xL8Q3%2BcNznea/xV2FLii5ym6xnSldnTTl3fqHV2Z8HSpAfMbdesVV4WumpYvYQZmBNFka4zkptITVeB0nvVKRzfe4rpHcnlPhSZ",
+    "docs_adicionales": [],
+    "organo": "Alcaldía del Ayuntamiento de Jete",
+    "importe": "40000",
+    "importe_num": 48400.0,
+    "fecha_limite": "2026-11-10",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  }
+]

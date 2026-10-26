@@ -267,8 +267,8 @@
   },
   {
     "folder_id": "46/26",
-    "estado": "ADJ",
-    "resultado": "adjudicada",
+    "estado": "EV",
+    "resultado": null,
     "titulo": "El concurs té per objecte escollir les propostes més idònies, a judici del jurat, que han de servir de base per a la prestació de serveis per a la redacció del projecte (i posterior direcció de les obres, si s’escau) de diversos edificis d’habitatges amb protecció oficial.",
     "updated": "2026-10-08T12:06:01.255+02:00",
     "link": "https://contractaciopublica.cat/ca/detall-publicacio/7b8f392a-f3af-400e-a156-c961d74abd60/300903784",
@@ -282,18 +282,32 @@
     "organo": "Institut Metropolità de Promoció de Sòl i Gestió Patrimonial (IMPSOL)",
     "importe": "2007673.11",
     "importe_num": 2103673.11,
-    "fecha_limite": "2026-08-24",
+    "fecha_limite": "2026-09-16",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "8",
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-10-09",
-    "estado_anterior": "RES",
-    "estado_cambiado_el": "2026-10-19",
-    "fecha_limite_anterior": "2026-07-16",
-    "fecha_limite_cambiada_el": "2026-10-19",
-    "estado_updated": "2026-10-19T14:21:55.137+02:00"
+    "estado_anterior": "ADJ",
+    "estado_cambiado_el": "2026-10-26",
+    "fecha_limite_anterior": "2026-08-24",
+    "fecha_limite_cambiada_el": "2026-10-26",
+    "estado_updated": "2026-10-26T16:47:52.628+01:00",
+    "docs_adicionales": [
+      {
+        "nombre": "Informe_de_inicio_Servicio_limpieza_techos_y_perimetral docx report.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=MIyu3Jz7BS1gDdMTOLpeAdZiQgdp2SjTk7vHNdvyzmCAfFz5mC4EzuhMgOVFTXhCWuir8Szy27opH2DhKKeXEbzwPdPaoOa6UzElN4NNU0H6CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "Anexo 1 Servicio_limpieza_techos_y_perimetral docx report.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2utqsTmOcbCznFfPxXSMLkS2s9JDvd83cWva7vjy68r6IoPNvbezAPlsXH1B2Xip2bl46z%2BUuiR2mytmfHt7hG%2BYKRJJ1cwDYs3DHmYiqxF7QB3HKyQaFUExmUVQCerk"
+      },
+      {
+        "nombre": "46 26_SERVICIOS_ANEXOS_2_A_5_ABIERTOS RESTRINGIDO report.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CzsUPTqb5lkU7lajMg5lPXKziXslq33JjYenXXNPXV5XaIW7J1clGTQhub5TsdXMCeZZjkde9dH2eCzKkUS6KRdcydOcWYtjOyTcNwA8CTCCx2e6p7hqtlp2aFupgHMr"
+      }
+    ]
   },
   {
     "folder_id": "482/2026",

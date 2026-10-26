@@ -230,7 +230,37 @@
     "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-10"
+    "fecha_captura": "2026-10-10",
+    "docs_adicionales": [
+      {
+        "nombre": "09 DEUC CONTR 2026000086.xml",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=FYTEtGMWats/yrokVb5oVIC8ns3b6vZ7ujYdOM0zZS3vXvInGwUkiUXqTnozCu7WNE0dSRPtWfy3d8KHML7YRLIG0Ig2MUl0oEFlkHf2XoCHAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "05 ANEXO III EXPTE CONTR-2026000086.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=gPF9nAq1Wtp83YIgYqFYptCtE3ZcitD4SVmZrjo03hhhZ6BsBPuO5XTeGZsqr7uv1MyP8IKjzdnhmiQ2f3Q%2BwctwlJy792uSC0ePFte7vlht/o8fNevwsujgRzaBbugn"
+      },
+      {
+        "nombre": "09 DEUC CONTR 2026000086.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=VGAgVLk8r61QiU5no7HyXMmT%2BXnUnWC9Sf9fbzUCex/AfP/z%2BRrIGi3ZZB5Ce0UiGC17bFBrsDN9xwP4LDR0P3kOLYzaOVqAhPG1uLMcWYFJOVDbGCDM%2BMigrvuVS7Rv"
+      },
+      {
+        "nombre": "06 ANEXO IV EXPTE CONTR-2026000086.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=jIJ3sRONTEb7ahT5ofDEBrzYnbi2G7cZKz4YLe7ttPpcfE7n7qMFZ0BNUCqsJTeeBR%2BWll%2By3L3j%2BNqH4OnqJcIK%2Bjl0mRioYhcVKq6pfrtJOVDbGCDM%2BMigrvuVS7Rv"
+      },
+      {
+        "nombre": "08 ANEXO VI EXPTE CONTR-2026000086.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=WvTO4hwo%2Bv3v3LG%2BKe6WRFHokD5pMRLB9ovcIL/HLWuKq0MmuJM5igmxAdsZfxY8TBK%2BQwrZHDeIjkESC0TzjdwJsu75GvxvB/hFLi3X/MrDdQD9RyhUmzT4jZ2In4zL"
+      },
+      {
+        "nombre": "04 ANEXO II EXPTE CONTR-2026000086.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=taN%2BgoeLJ6yy6rdkcheDoX7%2BnW4qwn6f4tdWO4OvAIPYAW8COFrWHCxDxWSyc1Rkw/gTwBYmgI5WPWaLrR6eQkaq5xSRnpH7AJpFxiqviyWB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "07 ANEXO V EXPTE CONTR-2026000086.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=NR2GOlx21UU7trKyuquBKZ8GHrTq4C3J5sSSbN%2BuTDSqhwBEoZaT%2BPvDLw8o%2BaLKZjNY8RWIMbN0eyPAYGewY7SdsUlv7bWiq71p3RIa22f3GVhXrFFqN7yFncy7YfRK"
+      }
+    ]
   },
   {
     "folder_id": "12419/2026",
