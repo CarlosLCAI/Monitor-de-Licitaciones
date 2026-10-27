@@ -1,63 +1,32 @@
 [
   {
-    "folder_id": "714/2026",
+    "folder_id": "SERV-ABR_SP_SMPL/2026000423",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicio de prevención ajeno del Patronato Provincial de Turismo de Córdoba durante 2 años completos (prorrogables por otros 2 más)",
-    "updated": "2026-10-26T12:59:04.072+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xcIAnLOzG15%2BF6L2uCfUWg%3D%3D",
+    "titulo": "Servicio de recogida de restos de poda, incluyendo condiciones especiales de ejecución.",
+    "updated": "2026-10-27T15:06:47.262+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Nv4AOjFXzsG9Hd5zqvq9cg%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "71317200",
-      "85100000",
-      "80550000",
-      "80560000",
-      "85140000",
-      "71317000"
+      "90511000",
+      "90512000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=LPXZNhhN6qCCpGG%2BJuFDximYmk8wPBEwYpSBhS0S7XUP28C6HtYUu7pdfje%2BzvTRjWkJw0%2B4wIhWIlPldgqWgNzp9yoFZbcHmhPE3rtMZ4qHAj0WEJrB5sP7amrh2jBD",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=f84wnrH1eWNVStJk8amW4g9RG%2BijXdTJVqaV4epNIyvpP6Q01DncsBTN2U4tbCr2whJLuFHH%2BevjwaaJ6Y1MnDfjeNVikFN7VTPDfLQpfEXVTD3T98KC0nSgQFM0q%2B5s",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=uLHwqWh%2BxGz0ANesnb3kf5qtYrwqoDeL3xC7p368xcpOXVURUnJoFkqs0ieiCYpQfx3ktu288yjZMQqBcMFk0NthoAVUu4edPO4xAALO7K%2BHAj0WEJrB5sP7amrh2jBD",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=SApIXx7KdsW0Y9yOMgxw47EomhAxQmC/dd78DXei0IAt3WG6NbO7xdf1EdBKfBkljx3KlZG4GpH7eTFEW/kfWOyvOeVdZ37FTFS3Kg3T5Ke1aXEvq3KHa/AEHgtDrQw0",
     "docs_adicionales": [
       {
-        "nombre": "ANEXO 4.odt",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=xvxK6/YpkEeklaA9fYZQeqmwmzH7C3kQ9Wwi0XDVnsNQj3jPUU0LGzaYRKnYXvTsUt/5aHk53cneS0cAI7QzYo/sdoXfmbqBj5dtVTvelG/3GVhXrFFqN7yFncy7YfRK"
+        "nombre": "RCC 423 ACUERDO INICIO.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=24vnleX5Y/rlzGAW5ITSsb5YZjYkXg6S/fMHPiNq4HycjwXPYFwabYZpn30FADma5W9pruspGm4xWLnOmDon8z/I4RmcnMGmDnHmIWlxKyY//q7NB2iMZvNyf0xrJmjt"
       },
       {
-        "nombre": "ANEXO 6.odt",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Wl11XKgWz7ezyftFiX42anFsURaEzWE1d05rEVGXUr4cDWDsyjJH3p6Z7m057Aia%2By/i%2BO7ydOXEf8/ouoUM1XouWw2bC7jf8%2BvfKF7%2Bz5HfdyQgZAdTm3EfcUAC7CJ6"
+        "nombre": "RCC 423 ISI.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ZxYGPq1VtUedUU%2BavVqlI%2B%2B16k6mpF2xTyL4Fi6HMLalD7GraR562vYr%2BdpV7cFmEyO%2BlrxbUqEGCu5v6T/dtw%2BZm2IPSyZUUFZ8PuXEsXJJOVDbGCDM%2BMigrvuVS7Rv"
       }
     ],
-    "organo": "Vicepresidencia del Patronato Provincial de Turismo de Córdoba",
-    "importe": "2206.08",
-    "importe_num": 4412.16,
-    "fecha_limite": "2026-11-09",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "9",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "428/2026",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Redacción de proyecto técnico de ingeniería, dirección de obra y coordinación de seguridad y salud.",
-    "updated": "2026-10-26T12:43:43.209+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WactHvC3a2jL1rX3q%2FMAPA%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71000000",
-      "71240000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=t698HFBw4o7mp8YO2mjevNXPLxP999bEw3T2Yx2PmWMEXhAM/DAIvJ0eqwzaU%2BuYvjIhLfTf4Qfh0sAYhT95810lxjYyf4/lB9S0HHTnfGDDdQD9RyhUmzT4jZ2In4zL",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=t5Om9SxHvD0ZeR6ONmiNVbsf/xHP/xL8Q3%2BcNznea/xV2FLii5ym6xnSldnTTl3fqHV2Z8HSpAfMbdesVV4WumpYvYQZmBNFka4zkptITVeB0nvVKRzfe4rpHcnlPhSZ",
-    "docs_adicionales": [],
-    "organo": "Alcaldía del Ayuntamiento de Jete",
-    "importe": "40000",
-    "importe_num": 48400.0,
+    "organo": "Junta de Gobierno del Ayuntamiento de Molina de Segura",
+    "importe": "32700",
+    "importe_num": 32700.0,
     "fecha_limite": "2026-11-10",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -67,67 +36,38 @@
     "fuente": "perfiles"
   },
   {
-    "folder_id": "35721/27",
+    "folder_id": "1303/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicio de gestión de residuos del Centro de Investigaciones Científicas Isla de la Cartuja de la Agencia Estatal Consejo Superior de Investigaciones Científicas.",
-    "updated": "2026-10-26T12:40:43.376+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=vi7n6f5cxm43vLk2DU2Ddg%3D%3D",
+    "titulo": "Mantenimiento, conservación y labores de jardinería de espacios ajardinados y arbolado viario",
+    "updated": "2026-10-27T14:27:16.451+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WhSZ83HRXndSYrkJkLlFdw%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "90520000"
+      "71421000",
+      "77312000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ssvW7z9u0U4i5EjZYKkvK6I57g59Pmqsop%2BfnF1I8NNErmTmGDBtmZ1Q4SQFTXN7gGXSS1eyED1Ghi029fdOJwZk/hpJ4qTmJRxdg11ou4bfdyQgZAdTm3EfcUAC7CJ6",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=BUhG5eIk9Ko8sxsLL7bVU6fLwZa4dETVZRekCRARnmCLEnXeGmp6O9J0Zx7TDD4VL/qDzlP9p43envAZYpVsv1EFFuMWxcvyPXT0xdukfMzVTD3T98KC0nSgQFM0q%2B5s",
-    "docs_adicionales": [],
-    "organo": "Secretaría General de la Agencia Estatal Consejo Superior de Investigaciones Científicas",
-    "importe": "56459.91",
-    "importe_num": 203255.68,
-    "fecha_limite": "2026-11-16",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "1",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "2026/02",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Prestación de los servicios técnicos de iluminación, sonorización y sistemas audiovisuales para los espectáculos programados durante la XXXI edición del Festival de Jerez de 2027, así como para determinados espectáculos de la programación anual del Teatro Villamarta, organizados por la Fundación Cultural Universitaria de las Artes de Jerez, Fundación Pública Local (FUNDARTE)",
-    "updated": "2026-10-26T10:41:33.101+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=0mY8SB%2F9tNKAAM7L03kM8A%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71318100",
-      "51314000",
-      "51313000",
-      "71318100",
-      "51313000",
-      "51314000",
-      "71318100",
-      "51314000",
-      "51313000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=yniJP/%2BTlkwLSuAj3vWySPiCFfT/pNBhnQip1AXEmAdB3wo2NqK9u1wcurKHaW/SCzMZr%2BGrvZs22YAblDaZHb6jl37Lif6coQDf7HWnec7VTD3T98KC0nSgQFM0q%2B5s",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=W5nj2ZVjQgNcnAzv%2BnwsY6FhEhoXOScU1F/ozRtPMe2Ny4vWLcgK4d2xKsn/3d7B3gYz%2BQRWk/lDkD6L/FsJtG3XQL6pQJNbTJRrLypkRXz3GVhXrFFqN7yFncy7YfRK",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/Brt4uPO9POEkPOh1S7xVoeacWoHNmoAwCPVf0hd6MpZdus7dJOT5LKTjRh8ZYqXpb3wYqXFOFzx0CYc0Hr/VrO8UsHsjRYvMeLf/F837Ok//q7NB2iMZvNyf0xrJmjt",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1NP4M3KX%2Bh2jbpyeTs0Y76ZbUx0UUfbbJ2G%2BUq51R8q0a%2BhfqfgYcxl%2BldHd7bn2J9yTjU2zojpObtIRlXSKNR8P0sfgCX5SPDep2ilBxcSB0nvVKRzfe4rpHcnlPhSZ",
     "docs_adicionales": [
       {
-        "nombre": "Anexo C Lote 1.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=o45v/vZNx91sLlZ1%2BVkuQfnfUBVMs%2Bsu6HDQA7pzH7INSV4UVvX0PwU3VNoeG1xcOIRwvncnrZu7Xrq8Xu0qGWJR3WsI3pduCZYAhGpC4T4ZyAJWGsSt0OzTSTyw9JAs"
+        "nombre": "INSUFICIENCIA MEDIOS.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=x%2BKpeafYxn3miFbRFu14mhm0u6HOJGVD%2BQGUPuuiHN9ruDzHZLRec4/2FRwGjdZGBRAruUX2A8FoK/hDSZJSh2qqnuYwf%2BqoF8bVeTYsq/KHAj0WEJrB5sP7amrh2jBD"
       },
       {
-        "nombre": "Anexo C Lote 2.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=xIIAygr86TcmPD11STS49lgrb83oiFOLaj5gNVrUDD9EeQKKPl3XGYWtJguExhS48gijAftMLJR6PysKVBhlVW9aED8ffmI%2Bhs3AD1pa8J%2BCx2e6p7hqtlp2aFupgHMr"
+        "nombre": "MEMORIA JUSTIFICATIVA.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=KbEB4q2rCoxVY53nDRg3EX9QmfPhesv37H0KAlup0rwGTTSJtGehWwt8uxjmVM5xvzW9w4HyiyB3tQuUsieBIJGnIBbac9AT8pMVcRUDhP1JOVDbGCDM%2BMigrvuVS7Rv"
+      },
+      {
+        "nombre": "RESOLUCION DE ALCALDIA.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1DeiwT3CtDqMFO67Z37Z07huTKtRHlBQAwerrTMqQgLCj20sqN72NCrr35yI7r86ApiYqP/YH8tkVo1bVdMcJFBf6G0zSWV7lhK19kggBV3DdQD9RyhUmzT4jZ2In4zL"
       }
     ],
-    "organo": "Presidencia de la Fundación Cultural Universitaria de las Artes de Jerez. Fundación Pública Local (FUNDARTE)",
-    "importe": "203905",
-    "importe_num": 203905.0,
-    "fecha_limite": "2026-11-10",
+    "organo": "Alcaldía del Ayuntamiento de Cantoria",
+    "importe": "123966.94",
+    "importe_num": 123966.94,
+    "fecha_limite": "2026-11-11",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",

@@ -521,5 +521,32 @@
     "importe_match": true,
     "fuente": "agregadas",
     "fecha_captura": "2026-10-21"
+  },
+  {
+    "folder_id": "2025-23b",
+    "estado": "EV",
+    "resultado": null,
+    "titulo": "Concurs d’idees per a la redacció de l’avant projecte, projecte bàsic, projecte executiu, projecte de mobiliari i direcció facultativa, de l’edifici i de l’entorn de la nova comissaria de la Policia Local de Valls",
+    "updated": "2026-10-26T16:04:30.311+01:00",
+    "link": "https://contractaciopublica.cat/ca/detall-publicacio/2d2e40c0-767c-45c1-9488-b81b471185a4/300919435",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000"
+    ],
+    "pcap_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302721042/2DD793A06A8851E5EA9F5D76B96DDE02",
+    "ppt_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302721043/2804A7C3BF3A6BB0D11CB4095CB11F3E",
+    "docs_adicionales": [],
+    "organo": "Ajuntament de Valls",
+    "importe": "28556.00",
+    "importe_num": 132600.0,
+    "fecha_limite": "2026-09-15",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "8",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas",
+    "fecha_captura": "2026-10-27"
   }
 ]

@@ -492,7 +492,7 @@
   },
   {
     "folder_id": "2203/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Contratación de la redacción del proyecto, estudio de seguridad y salud, dirección facultativa y coordinación de seguridad y salud del aliviadero del emisario del CEIP BENAFELIX",
     "updated": "2026-10-08T13:38:54.111+02:00",
@@ -516,7 +516,56 @@
     "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-09"
+    "fecha_captura": "2026-10-09",
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXO II A.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=RaT7W0D/Xo7K9lWSEXVhF6PyUrd8l0FiefiHokDyt%2BS3sNhTEyE3MuZKBYflXhGHR/dPwVZeTVpS4IUGcchGbOB4XhuocT5k7X2PSif6vb61aXEvq3KHa/AEHgtDrQw0"
+      },
+      {
+        "nombre": "ANEXO I.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=E5qqZgtYFfMiI//U7zUZtOp5TdOqiI8DSrQY71WkrZWV9SC%2Bo3bODeaARQd9xyDVn3uHYmV196xFqb8pjYp2QKyMpvtmM7Xy6xQoI%2BWLvol45ClyWkoJ44mKM70IFcOu"
+      },
+      {
+        "nombre": "ANEXO X.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=rJWtL9eh9r5MXLkxZV7MD3RpRYIX4Thx%2BsRq788o0MJNvoC2tMA4vxLqFM6a/6mkG2MbEX987Wq4%2BvwyPgiRK0qeqgsoqp0XkyabywXmWu/VTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "ANEXO IX.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=uHXCa1vI6qpshPEh32H7l2ZY4NzVSVIrAwqYxMuBPEKtYzk0CkTfkQGXpr5kriu8BQkhqZjRFoJPi1SONXsayGmuozIe6kn2ji2W1WqvaMcZyAJWGsSt0OzTSTyw9JAs"
+      },
+      {
+        "nombre": "ANEXO VIII.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=I13aph92AaekniOl1UUuSOTRrT2UhjGSpi9Er8gT8nARYfAEcbm2Sqw1VAfohfE6zhZrJv7VTAVPNxF2cy24sOhUwkcu4qAHcY243EUpEn1JOVDbGCDM%2BMigrvuVS7Rv"
+      },
+      {
+        "nombre": "ANEXO V.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=AEs1ngstqYLZNMQBJj2rOeSmqY1jTr2Xteg0K8UgcMbP4XMAI5Ah8%2Bmgk0DBW4/mG7YNNGdNlAUIfX3WZZ8ehTcLq6ZM5Jcqc7UayPLCezL3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "ANEXO VII.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=57TmaF3w9kL0Ke8hY4jTGYNuJA36c7cpASEQw94S4/qQDJ/Yd1IpsAMbKTlRRTJLykvWEwOYWhrSgOmkPktW8WQImrUicuMZCSzykQ4c7dzDdQD9RyhUmzT4jZ2In4zL"
+      },
+      {
+        "nombre": "ANEXO IV.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=BAgmsciVN%2BHCGodZ6FBY03FCvKC4NNTfp96qnCBy9z8Y7gDQj9/VF9f2lZGDGplIib8kPVS2uXVJz26v0/3oo%2B3u92itSYuplwhQf4hZNnQC1/zDIE0Kw/PWNnLS0Z0z"
+      },
+      {
+        "nombre": "ANEXO III.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=s%2BaI/xjvXTSHzlxLJgVnk96LAoCwhhsQBiqXo0gLw3DaFYUmBvdQp78s8nHiJNGlcYre6yrGAj9ft7dIU53MXlnqEbVAUTPhX8k8LkR0M5B45ClyWkoJ44mKM70IFcOu"
+      },
+      {
+        "nombre": "ANEXO VI.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wpLc9SSSLyzLnzynwsvBTv0USIp9Z2WDk4s%2BVAY5g1A%2BtbcAsInwZNHCr4EQ7Gwp7uQFiTBivBJU9/A2fZRpk0w0p57GD%2BC4EBC42sQ5ljRJOVDbGCDM%2BMigrvuVS7Rv"
+      },
+      {
+        "nombre": "ANEXO II B.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=OM1AbQfJDwiP6o5A2vxXH/u%2B7UDgY3N5Qtqx960kfC804G/lpHYqlcMlG6BU6E9C%2BivHyEoWCCJ3sBgd9iC9w0JzTjRes4wNgcAfamQOL/Z7QB3HKyQaFUExmUVQCerk"
+      }
+    ],
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-27",
+    "estado_updated": "2026-10-27T11:36:18.728+01:00"
   },
   {
     "folder_id": "26449 PROYECTO AQUILLA DEL AGUA",
@@ -888,8 +937,8 @@
   },
   {
     "folder_id": "2204/2026",
-    "estado": "PUB",
-    "resultado": null,
+    "estado": "RES",
+    "resultado": "desierta",
     "titulo": "Contratación de la redacción del proyecto, estudio de seguridad y salud, dirección facultativa y coordinación de seguridad y salud del CEIP FERNÁNDO GAVILÁN, CEIP VICTOR DE LA SERNA Y CEIP REINA SOFIA",
     "updated": "2026-10-09T12:57:20.748+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=qwUQYWD5bkht5r0ngvMetA%3D%3D",
@@ -906,13 +955,18 @@
     "organo": "Alcaldía del Ayuntamiento de Ubrique",
     "importe": "41074.38",
     "importe_num": 41074.38,
-    "fecha_limite": "2026-10-26",
+    "fecha_limite": "2026-10-16",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-10"
+    "fecha_captura": "2026-10-10",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-27",
+    "fecha_limite_anterior": "2026-10-26",
+    "fecha_limite_cambiada_el": "2026-10-27",
+    "estado_updated": "2026-10-26T14:02:44.124+01:00"
   },
   {
     "folder_id": "CONTR-2026000086",
@@ -1255,7 +1309,7 @@
     "organo": "Comité Central de Compras de Navantia S.A., S.M.E.",
     "importe": "95000",
     "importe_num": 95000,
-    "fecha_limite": "2026-11-17",
+    "fecha_limite": "2026-11-24",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "100",
@@ -1264,7 +1318,10 @@
     "fecha_captura": "2026-10-14",
     "descartado": true,
     "descartado_fecha": "2026-10-15T06:31:57.565Z",
-    "descartado_por": "CarlosLCAI"
+    "descartado_por": "CarlosLCAI",
+    "fecha_limite_anterior": "2026-11-17",
+    "fecha_limite_cambiada_el": "2026-10-27",
+    "estado_updated": "2026-10-27T11:49:29.992+01:00"
   },
   {
     "folder_id": "4066/2026",
@@ -2055,8 +2112,8 @@
   },
   {
     "folder_id": "3513/2026",
-    "estado": "PUB",
-    "resultado": null,
+    "estado": "ADJ",
+    "resultado": "adjudicada",
     "titulo": "Prestacion del servicio de asistencia tecnica integral para la planificacion contractual, el seguimiento tecnico, economico, contractual, documental y la posterior preparacion de la justificacion y cierre de las actuaciones financiadas bajo el regimen de ayudas regulado en el Real Decreto ley 5 de 2026 y la Resolucion de 31 de marzo de 2026 de la Secretaria de Estado de Politica Territorial.",
     "updated": "2026-10-21T12:20:43.832+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=wwun7gwgBic3vLk2DU2Ddg%3D%3D",
@@ -2082,14 +2139,19 @@
     "organo": "Alcaldía del Ayuntamiento de Illora",
     "importe": "50300",
     "importe_num": 50300,
-    "fecha_limite": "2026-11-05",
+    "fecha_limite": "2026-09-02",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-10-21"
+    "fecha_captura": "2026-10-21",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-27",
+    "fecha_limite_anterior": "2026-11-05",
+    "fecha_limite_cambiada_el": "2026-10-27",
+    "estado_updated": "2026-10-26T12:03:45.770+01:00"
   },
   {
     "folder_id": "SERV-2026000118",
@@ -2968,7 +3030,7 @@
   },
   {
     "folder_id": "008/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "El presente contrato tiene por objeto la Redacción del Proyecto Constructivo, Dirección de las obras y coordinación de Seguridad y Salud, para la instalación de colectores que recojan las aguas pluviales de las cuencas norte y sur en Puebla de Guzmán (Huelva). Financiado con cargo a las ayudas de la Administración General del Estado.",
     "updated": "2026-10-22T10:09:13.525+02:00",
@@ -3002,14 +3064,19 @@
     "organo": "Alcaldía del Ayuntamiento de Puebla de Guzmán",
     "importe": "327320.3",
     "importe_num": 327320.3,
-    "fecha_limite": "2026-11-23",
+    "fecha_limite": "2026-10-12",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-10-22"
+    "fecha_captura": "2026-10-22",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-27",
+    "fecha_limite_anterior": "2026-11-23",
+    "fecha_limite_cambiada_el": "2026-10-27",
+    "estado_updated": "2026-10-27T11:53:48.161+01:00"
   },
   {
     "folder_id": "CONTR 2026 0000352283",
@@ -3303,8 +3370,8 @@
   },
   {
     "folder_id": "428/2026",
-    "estado": "PUB",
-    "resultado": null,
+    "estado": "RES",
+    "resultado": "adjudicada",
     "titulo": "Redacción de proyecto técnico de ingeniería, dirección de obra y coordinación de seguridad y salud.",
     "updated": "2026-10-26T12:43:43.209+01:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WactHvC3a2jL1rX3q%2FMAPA%3D%3D",
@@ -3327,6 +3394,36 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-10-26"
+    "fecha_captura": "2026-10-26",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-27",
+    "estado_updated": "2026-10-26T14:20:30.119+01:00"
+  },
+  {
+    "folder_id": "SE28/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de dirección de la obra refundido final. Urbanización del plan especial  La Aurora en Ogíjares. \r\n",
+    "updated": "2026-10-27T14:18:12.850+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=X1N8Bt3fSA5%2FR5QFTlaM4A%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71300000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1VR3hOvsmzk2BkeZftdMtBAiKs0o1nPLASwKM3Sat5nPzREOQVikfFR9S46EOEFIjaHjn2z%2BNw/bv3lrAioO06t0lE877dUHmQBE7Hzrzw945ClyWkoJ44mKM70IFcOu",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=SoHAb6jy1XstgZ2qXEg/w1yJxGiG1zUenZySKsgQI5Qu/omvPKjOCtAI01Z4L8Lc0Tl%2BtgV6I1Uf6R7jQ5wWsrX%2B8/IgHGM744RP0GJoUHR45ClyWkoJ44mKM70IFcOu",
+    "docs_adicionales": [],
+    "organo": "Presidencia de la Diputación Provincial de Granada",
+    "importe": "100163.14",
+    "importe_num": 100163.14,
+    "fecha_limite": "2026-11-11",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-10-27"
   }
 ]
