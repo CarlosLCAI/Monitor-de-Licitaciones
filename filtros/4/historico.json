@@ -3169,7 +3169,10 @@
     ],
     "carpeta_descargada": true,
     "carpeta_descargada_fecha": "2026-10-28T12:11:46.678Z",
-    "carpeta_descargada_por": "CarlosLCAI"
+    "carpeta_descargada_por": "CarlosLCAI",
+    "presentado": true,
+    "presentado_fecha": "2026-10-28T12:26:51.591Z",
+    "presentado_por": "CarlosLCAI"
   },
   {
     "folder_id": "86-26",
