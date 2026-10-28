@@ -611,7 +611,10 @@
     "carpeta_descargada_por": "CarlosLCAI",
     "presentado": true,
     "presentado_fecha": "2026-10-28T12:26:51.591Z",
-    "presentado_por": "CarlosLCAI"
+    "presentado_por": "CarlosLCAI",
+    "revisado_humano": true,
+    "revisado_fecha": "2026-10-28T12:27:00.083Z",
+    "revisado_por": "CarlosLCAI"
   },
   {
     "folder_id": "86-26",
