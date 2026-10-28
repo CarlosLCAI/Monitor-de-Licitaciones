@@ -3166,7 +3166,10 @@
         "nombre": "RESPUESTA N 1 planimetria Modelo.pdf",
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4pYo5DanJKVp8%2BIkhOTqNKd0ltUGYUqmYroncMdDwoxdVVCebvn9DKh/CusN2IHSLKQw7KEAcgHAC7%2Bnm2eMSOT1HeBbtRhh9GJ6kRFr%2BpnfdyQgZAdTm3EfcUAC7CJ6"
       }
-    ]
+    ],
+    "carpeta_descargada": true,
+    "carpeta_descargada_fecha": "2026-10-28T12:11:46.678Z",
+    "carpeta_descargada_por": "CarlosLCAI"
   },
   {
     "folder_id": "86-26",
@@ -5264,7 +5267,7 @@
     "docs_adicionales": [],
     "organo": "Junta de Gobierno del Ayuntamiento de Huétor Vega",
     "importe": "55000",
-    "importe_num": 55000.0,
+    "importe_num": 55000,
     "fecha_limite": "2026-11-06",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -5435,7 +5438,7 @@
     ],
     "organo": "Consejo de Administración de la Agencia de Régimen Especial Ciclo Integral Aguas del Retortillo",
     "importe": "58560",
-    "importe_num": 175680.0,
+    "importe_num": 175680,
     "fecha_limite": "2026-11-11",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -5463,7 +5466,7 @@
     "docs_adicionales": [],
     "organo": "Alcaldía del Ayuntamiento de Jete",
     "importe": "40000",
-    "importe_num": 48400.0,
+    "importe_num": 48400,
     "fecha_limite": "2026-11-10",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -5522,7 +5525,7 @@
     "docs_adicionales": [],
     "organo": "Autoridad Portuaria de Sevilla",
     "importe": "131650",
-    "importe_num": 131650.0,
+    "importe_num": 131650,
     "fecha_limite": "2026-11-16",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
