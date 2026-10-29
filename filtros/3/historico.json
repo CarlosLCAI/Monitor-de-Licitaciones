@@ -275,7 +275,7 @@
   },
   {
     "folder_id": "02.07.01.01 2026/78-SS_REYES",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Servicio para la redacción y ejecución del Plan de medición y seguimiento de los indicadores del proyecto Impulso de la Infraestructura verde de San Sebastián de los Reyes. ",
     "updated": "2026-10-09T12:52:21.379+02:00",
@@ -299,7 +299,10 @@
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-10"
+    "fecha_captura": "2026-10-10",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-28",
+    "estado_updated": "2026-10-28T11:06:24.493+01:00"
   },
   {
     "folder_id": "300/2026/02200",

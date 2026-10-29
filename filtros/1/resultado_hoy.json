@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "folder_id": "CONT26088",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio temporal de limpieza de muelles públicos, limpieza de superficies de depósito y almacenaje, recogida de residuos sólidos no peligrosos, desratizazción, desinsectación, desinfección, control de plagas y poblaciones de animales y mantenimiento de jardinería y riego de la zona de servicio del Puerto de Sevilla. ",
+    "updated": "2026-10-28T09:12:08.683+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=MZdqo2hXY9W8ebB%2FXTwy0A%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "90600000",
+      "71420000",
+      "90920000",
+      "90511100"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=%2ByMTVARa/9UF3nvMGPE8Z/sQVlrHygEatU98TN6aEJBPaPdh0cqQVQjjFM1nKgft5U4gMVAEQgJ5KoSBPYHoNrBFN2wQemQbeY8wEr2LBQ73GVhXrFFqN7yFncy7YfRK",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=B2vli8OCFDF0p/nccWXKY43YM6p9FIxKy9x/8R2I7zUqN0QeIWUf8EG4DR1lN6LmbPET9swlTtiUUT/Sxx2h3I3OO/HjIG1C7o1LUIEXVBpJOVDbGCDM%2BMigrvuVS7Rv",
+    "docs_adicionales": [],
+    "organo": "Autoridad Portuaria de Sevilla",
+    "importe": "504000",
+    "importe_num": 1008000.0,
+    "fecha_limite": "2026-11-11",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  }
+]

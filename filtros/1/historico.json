@@ -45,14 +45,28 @@
     "estado_anterior": "RES",
     "resultado": "adjudicada",
     "estado_cambiado_el": "2026-10-27",
-    "estado_updated": "2026-10-26T09:54:52.529+01:00",
-    "fecha_limite_anterior": null,
-    "fecha_limite": "2026-07-13",
-    "fecha_limite_cambiada_el": "2026-10-23"
+    "estado_updated": "2026-10-27T13:30:25.445+01:00",
+    "fecha_limite_anterior": "2026-07-13",
+    "fecha_limite": "2026-10-22",
+    "fecha_limite_cambiada_el": "2026-10-28",
+    "docs_adicionales": [
+      {
+        "nombre": "Oferta economica.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=n/HkGZifc31ScVq6mTjsQbH4Vf3hbhT9T9L57y9CRqERdngQ8kAD%2BpgKMXczvfVZl5IfrZwgH/I9/5i40zaNqSSBjc81QpfgAYA4fFoz4FR45ClyWkoJ44mKM70IFcOu"
+      },
+      {
+        "nombre": "Resolucion Contrato Menor Aprobacion.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=TjhDF/IOBW6fTv3sykNHtH5WwwfvYUmDTOW0TEtgaK00PKsY58eON0iDR2Kvb6EQ2ZAHdbfPT4uhQ7kTShvmC4dLto16RctguYR0nktu1Jf3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "Declaracion responsable.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=uEfUPZOD0SsUyh%2BV%2BR/6GxEOLn6qYpI77eyWh2A0h1mIBRXTqbY/BmFMZA%2BiangZHuVALYzjO1PmtZ7KT5lEab6V6xo7OJCyM51BnBk3hk8ZyAJWGsSt0OzTSTyw9JAs"
+      }
+    ]
   },
   {
     "folder_id": "DIR260603",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "Obras de mejora de infraestructuras hidráulicas en el municipio de Huercal-Overa con financiación del contratista y pago aplazado",
     "updated": "2026-07-08T09:00:00.000+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hEUEaBQ91x5LAIVZdUs8KA%3D%3D",
@@ -67,7 +81,32 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=V8i8T6uBTJVbqP27cwZFPYJu6Yzs7cR91c3xr3zwfSt74L28Asg7Z1FsEcVkXRCm9Xut9cdzIBf89CxZso1tR15HrZ5Odm1I4EXFfJQq2xZ45ClyWkoJ44mKM70IFcOu",
     "organo": "Consejería Delegada de Gestión de Aguas del Levante Almeriense, S.A. (GALASA)",
     "importe": "11333914.79",
-    "fecha_captura": "2026-07-10"
+    "fecha_captura": "2026-07-10",
+    "docs_adicionales": [
+      {
+        "nombre": "DEUC DIR 260603.xml",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=vpMvbkgKHPDiwBIlANuFC1A/eV/2XvWf1CliDYOs24c1U3L7i1bZ2ig1mpo1qW%2BpirVGAaHcCYXGLd2W5mlkYiU1QK9VWjUzKbOopzkqWCr6CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "DEUC DIR260603.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=UJrG7u8HTuWctZbqyHtelJNBejGpipeIIjaryHxsFNEo9eDunMp0/6QfEn2/eawi/BhD3XI%2BWNlRfkElsJQ1beTNvX21ob3WteaKUmbkSr33GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "Enlace a Memoria de calculo para un canon de infraestructuras hidraulicas.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=d%2B5cBof%2BbH0IwTs6FboZAclX44hs5prlDBiZpSn4AYYks6XeNDs3tTjfiwBZukQLzRwI/1C9Fw7wy%2BOEyC2TeCYNDjQc%2BLmWOaF66Vb6eNVJOVDbGCDM%2BMigrvuVS7Rv"
+      },
+      {
+        "nombre": "Documento de correcion errores del PCAP.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=40oTrrMeZLN3T7f7bwayJqES7clJON0xPCf5/OLLhcqU9og/IIRTi2g4RosxG0yYV5cbvmyM3Y2yJXe1gzSEQ6jXHDdDGOugqp6BJRo/10DfdyQgZAdTm3EfcUAC7CJ6"
+      }
+    ],
+    "estado_anterior": "PUB",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-28",
+    "fecha_limite_anterior": null,
+    "fecha_limite": "2026-09-14",
+    "fecha_limite_cambiada_el": "2026-10-28",
+    "estado_updated": "2026-10-28T18:43:48.725+01:00"
   },
   {
     "folder_id": "P4103700C-2026/000025-PEAB",
@@ -163,7 +202,7 @@
   },
   {
     "folder_id": "24/26",
-    "estado": "PUB",
+    "estado": "RES",
     "titulo": "Servicio de Consultoría – Oficina Técnica Administrativa del Proyecto ECOCREM, cofinanciado por el Programa Plurirregional de España FEDER 2021-2027 en un 85% del gasto elegible, en el marco de la Línea FID-CPI del Ministerio de Ciencia, Innovación y Universidades para la empresa Parque Cementerio de Málaga S.A (PARCEMASA).",
     "updated": "2026-07-13T09:00:00.000+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7j7HaCQg2c9eKgd8LfVV9g%3D%3D",
@@ -181,42 +220,34 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=zp5eD6eWRxhOIVlpuwyE1k4R9uZNkJoHd27aLbND1mxFAZdLp5uwwNuWbeWYaqhgpMH2HVJVk6K6YcbhRWC4iEmcSHkMBZ3Xh2/1gEJzGfcC1/zDIE0Kw/PWNnLS0Z0z",
     "organo": "Gerencia del Parque Cementerio de Málaga, S.A.",
     "importe": "481470.91",
-    "fecha_limite": "2026-11-10",
+    "fecha_limite": "2026-08-14",
     "fecha_captura": "2026-07-14",
-    "estado_anterior": "ADJ",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-14",
-    "estado_updated": "2026-10-26T08:58:22.563+01:00",
-    "fecha_limite_anterior": "2026-11-04",
-    "fecha_limite_cambiada_el": "2026-10-26",
+    "estado_anterior": "PUB",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-10-28",
+    "estado_updated": "2026-10-28T08:22:31.357+01:00",
+    "fecha_limite_anterior": "2026-11-10",
+    "fecha_limite_cambiada_el": "2026-10-28",
     "docs_adicionales": [
       {
-        "nombre": "ANEXO 1.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ED0j/DVvaECfBWfYCAEBBEpeSQ9ZZoBQgGIh/frNMWtB91Eh7WYMYeb0PslJOdlatE6tvhNXAyExhm9apZc0FQ5l04zx%2BlJOL2JDhnitrult/o8fNevwsujgRzaBbugn"
+        "nombre": "Carta de derechos y deberes de los alumnos_OK.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=BTE7/B6LiS2lpbGEqtJxjvqpOVS1NvwLB%2BxmOk3xsgrm7/oOrOPwxnu2hBkP0pbQCOEaYymg2L6/PG193fKbRLbXlbyK/PaNA2IJp85VUhF7QB3HKyQaFUExmUVQCerk"
       },
       {
-        "nombre": "ANEXO 4.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=VAUOLtdhppifGIM83Y8aV8SGJv6Em%2BvWxwqmquMpVXSZyJmXoYuBcSLdTZ6P4YUYI8/8hOErvjgo712xrFo0SjkgVmJjmJ1x6ynn2AVIKKyHAj0WEJrB5sP7amrh2jBD"
+        "nombre": "02Anexo_IG26001.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=yh3yDuIAniutON0tvfKI44kuekINEu21NXVhSNg3Wx8jAhcJPp2sodOdBttBI64fHg2MksQ9%2B08fGrm%2BsnJQB3ENEJUTlp4AXUWnfPbKEuH3GVhXrFFqN7yFncy7YfRK"
       },
       {
-        "nombre": "ANEXO 8.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=xiLWC3FAVMApL6/IciHDGmnOxa1Dk72SJ9S2y/qB7y9/1hx%2B%2Bjm%2BuFVkl9pIrv9yC2flnklbqnDzz9oUgcRmmrY6F28JRx2/3Faxzyohw6YC1/zDIE0Kw/PWNnLS0Z0z"
+        "nombre": "MODELOSCMA_FORMACION.zip",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=SO5BQzmWAVnQzUMgjzAB25Vi5HZf4VZBBKZ5h6CXYRurC79t7KrKIEWlm1UwXl9KfoQyaFnsycTjK1tezD4%2BaZZdm7DYC58IjS8mu5B0kXW1aXEvq3KHa/AEHgtDrQw0"
       },
       {
-        "nombre": "ANEXO 6.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=aQZYQ/wKtS5LJfMCEJx5ojqrDm8UTOB02X5nvm/zFY9OJl9vy5L9DRZNOITbGcXXGEDvRYhHQepPsPDF7Q3hsDbsMK7QXL2iGdmtbNAYImnfdyQgZAdTm3EfcUAC7CJ6"
+        "nombre": "COMPROMISO de practicas ok.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wOZ1Fte3FPJpvjKH/q3ZsPZY0U3JKowEx4dbDVmuI8cU3xxXbTiJjvlREvUd59XgRFrZQHHUOHzgMzH8PZ4khiqstsPoRW7RWQBlnqvzJvzDdQD9RyhUmzT4jZ2In4zL"
       },
       {
-        "nombre": "ANEXO 3.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=T02sHW8YnFYgjCEBH1mFa5GUck1W0Tkt59JKsFdJOOZ8n2JNDM8s%2BUXwcC40%2BChA3/ceU5KmZ9auIal6OlkLKSQj8hhlw7McahvKfxgrvNB45ClyWkoJ44mKM70IFcOu"
-      },
-      {
-        "nombre": "ANEXO 7.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=lygCXqwNANCYAYChvmfjT/4mbgg1eHPc%2BEBS0L0YfpocBPWfVGEucG6INRQJ53hzIu7i48bPyKYjW5OWYw8LRLfdF8855IZD3YBFGcbLBkn3GVhXrFFqN7yFncy7YfRK"
-      },
-      {
-        "nombre": "ANEXO 5.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=48XPMJxmAeOiAZrm5F1dFtsKVaeKRPGGtfxCyGtU5TnyHfaBo7x9k%2Bdi38VwWvi%2By5EMylhnFn4NIX4PBipe2HizqbMrn0ZU5ygXT%2BZx%2BcGHAj0WEJrB5sP7amrh2jBD"
+        "nombre": "DEUC_IG26001.zip",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=e4ca3WBdXHqZsqp7HWdeWAKEMjYJ7ov7%2B/Za604ji9R/psV7YhmlHQPz46/Sqhm3Vywg1QpgLY8mgqlGoZQh5ISmAKKuekSoN5aHmhrC%2B%2B6Cx2e6p7hqtlp2aFupgHMr"
       }
     ]
   },
@@ -261,7 +292,7 @@
   },
   {
     "folder_id": "871/2026",
-    "estado": "PUB",
+    "estado": "RES",
     "titulo": "El presente contrato tiene por objeto la prestación conjunta de la Redacción del Proyecto de Ejecución y la posterior ejecución material de las obras de mejora y ornato del Cementerio Municipal 'Santiago Apóstol'.",
     "updated": "2026-07-15T20:00:10.040+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=wjBIH2KnF7y8ebB%2FXTwy0A%3D%3D",
@@ -279,10 +310,10 @@
     "importe": "96639.7",
     "fecha_limite": "2026-10-29",
     "fecha_captura": "2026-07-16",
-    "estado_anterior": "RES",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-21",
-    "estado_updated": "2026-10-21T10:53:24.583+02:00",
+    "estado_anterior": "PUB",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-10-28",
+    "estado_updated": "2026-10-27T12:13:56.902+01:00",
     "fecha_limite_anterior": "2026-07-30",
     "fecha_limite_cambiada_el": "2026-10-21"
   },
@@ -1280,7 +1311,7 @@
     "organo": "Comisión Ejecutiva de la Gerencia de Urbanismo de Sevilla",
     "importe": "233606.57",
     "importe_num": 233606.57,
-    "fecha_limite": "2026-02-03",
+    "fecha_limite": "2026-10-22",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1292,23 +1323,27 @@
     },
     "fecha_captura": "2026-08-15",
     "estado_anterior": "RES",
-    "resultado": "formalizada",
-    "estado_cambiado_el": "2026-10-27",
-    "estado_updated": "2026-10-26T12:09:22.322+01:00",
-    "fecha_limite_anterior": "2026-11-04",
-    "fecha_limite_cambiada_el": "2026-10-27",
+    "resultado": "desierta",
+    "estado_cambiado_el": "2026-10-28",
+    "estado_updated": "2026-10-28T11:05:25.625+01:00",
+    "fecha_limite_anterior": "2026-02-03",
+    "fecha_limite_cambiada_el": "2026-10-28",
     "docs_adicionales": [
       {
-        "nombre": "Annex II.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=BfLmcCzMcy7q4XwOUaBz7Apm/09I92GriZrgNyE5ITAL0425%2BlCUOl%2Bg6U2WwWRyAhi8boe1CDIsaNS0Ss2/Bj9iSQXTaIOoJ7g2lpQdYSkC1/zDIE0Kw/PWNnLS0Z0z"
+        "nombre": "Informe de intervencion 34 de 2026.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=gLNAPBzJzoPPNXWO4c4E7l3pCpgIYBVEloxyAGFiYLzxEkYEDhsu7EulhANAQGpmuETVtaKjwK3A0GCQy7ojWBEitjbUPyf1aY74JJ0CDKm1aXEvq3KHa/AEHgtDrQw0"
       },
       {
-        "nombre": "Annex III.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=XrZNRS%2Bpb9%2Bhk4YEfiXZdhDz0gMRh/JMm/Ixx51LcmshD0F9O1Fexbgwv8Jeu5bs%2B2uyw6%2BGoTWsDT6yLCiPzQPXxRjJ5QI1PckuuWxhTW/fdyQgZAdTm3EfcUAC7CJ6"
+        "nombre": "Decreto de alcaldia licitacion luces de navidad 34 de 2026.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2DYAnFfDtlgPrd3VUf8eWe4%2BJ3PvMPAOephA%2BlmgzozdyUWHnv53vhwFz7mTwBBrwqH2h7qiw9qfRWsGROWaPWt05YGhMl1i82o4e8NEkpjfdyQgZAdTm3EfcUAC7CJ6"
       },
       {
-        "nombre": "Annex I.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=KwixiVkKqCW0QtFoSNXDMF9j03EBCls6qAbRpprA8uL/DIWeN1iAyt%2B82eYlp%2BNc%2B72qfjcGyZzbr55NtgCaEF3AgqrkhlSF40qhlHt/x69JOVDbGCDM%2BMigrvuVS7Rv"
+        "nombre": "Memoria justificativa contrato lueces de navidad 34 de 2026.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=HZtzec53Z%2BZkg5UdG78%2BrQU59qcrEDqTwhB/3h6FvUltrs%2BIKy5Uez2/32OoVvy0yemuRGFjK8f%2BLuDck%2BjtEK19v232G%2BgeI7DoTeS0hTlJOVDbGCDM%2BMigrvuVS7Rv"
+      },
+      {
+        "nombre": "A N E X O S.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=pBAIGA40Zb8udZ7fEcbhIfVoPvVYmAVj7mpOkak6dTsUqv33hQ0Nib8K9y3oXFC5/gHdC6/omlNzfuOixgzffhFv/bXuMwOl9yhTo4GLg2T3GVhXrFFqN7yFncy7YfRK"
       }
     ]
   },
@@ -1382,7 +1417,7 @@
   },
   {
     "folder_id": "55/2026",
-    "estado": "ADJ",
+    "estado": "EV",
     "titulo": "Servicio asistencia técnica destinado a disponer de un equipo técnico cualificado para redacción de Proyectos Básicos y de Ejecución, elaboración de Estudios Básicos de Seguridad y Salud, y realización de los trabajos, correspondientes a actuaciones de mejora de accesibilidad e instalación de ascensores en edificios residenciales de vivienda colectiva beneficiarios ayudas Municipal 2024.",
     "updated": "2026-08-24T12:35:29.309+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VVaCe715rqCAAM7L03kM8A%3D%3D",
@@ -1396,7 +1431,7 @@
     "organo": "Comisión Ejecutiva de la Gerencia de Urbanismo de Sevilla",
     "importe": "198347.11",
     "importe_num": 198347.11,
-    "fecha_limite": "2026-07-23",
+    "fecha_limite": "2026-09-08",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1407,16 +1442,20 @@
       "fecha_analisis": "2026-08-25T03:55:52.711452+00:00"
     },
     "fecha_captura": "2026-08-25",
-    "estado_anterior": "EV",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-26",
-    "estado_updated": "2026-10-27T14:57:54.387+01:00",
-    "fecha_limite_anterior": "2026-09-15",
-    "fecha_limite_cambiada_el": "2026-10-27",
+    "estado_anterior": "ADJ",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-28",
+    "estado_updated": "2026-10-28T14:01:39.786+01:00",
+    "fecha_limite_anterior": "2026-07-23",
+    "fecha_limite_cambiada_el": "2026-10-28",
     "docs_adicionales": [
       {
-        "nombre": "ANEXOS.zip",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=5KS4iyXhACZeSmm56hAkqi/fCOF%2BrM5I2Mpvmm3Q0aVFygNAddJKkvN65ccSW0HAy3DHsVUURTaqvpZXB5jzwLV0nkjDGNy%2BulXWGX/n9d97QB3HKyQaFUExmUVQCerk"
+        "nombre": "espd-request.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=rjfl9pcVcWMcjgwTAicxuPxYSrXc7cF94yZ2KVsCl0AcGLohyLt3b2HWP%2B2KFRpGxUZ%2BUcSLRCOoea/I0NqRuSs9GkWqA/IFToHKBGT/pNF7QB3HKyQaFUExmUVQCerk"
+      },
+      {
+        "nombre": "espd-request.xml",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=lrcqFC85QxmRtdmDdbeNd9ZctXPzxOPS1agsC9oWn8VGYBDvU74zJuhg0/CDLx7CfFSz%2Bh8eY7emn4MZ4EYLzY/2DD8mmWk2i0f7yZ96XiuB0nvVKRzfe4rpHcnlPhSZ"
       }
     ]
   },
@@ -1653,7 +1692,7 @@
   },
   {
     "folder_id": "115/2026",
-    "estado": "RES",
+    "estado": "EV",
     "titulo": "El objeto del contrato lo constituye la redacción del proyecto de obras, dirección de obra y la coordinación y seguridad y salud de las obras necesarias para la mejora de la Pista Hípica “La Fuentecilla” de Puebla de Guzmán.",
     "updated": "2026-09-28T10:26:32.669+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Jy63I0UGvaoQyBAnWzHfCg%3D%3D",
@@ -1667,7 +1706,7 @@
     "organo": "Presidencia de la Mancomunidad de Municipios Beturia",
     "importe": "64462.29",
     "importe_num": 64462.29,
-    "fecha_limite": "2026-11-19",
+    "fecha_limite": "2026-10-15",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -1678,12 +1717,12 @@
       "fecha_analisis": "2026-09-29T09:51:40.791793+00:00"
     },
     "fecha_captura": "2026-09-29",
-    "estado_anterior": "PUB",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-24",
-    "estado_updated": "2026-10-23T08:57:03.690+02:00",
-    "fecha_limite_anterior": "2026-10-15",
-    "fecha_limite_cambiada_el": "2026-10-21"
+    "estado_anterior": "RES",
+    "resultado": null,
+    "estado_cambiado_el": "2026-10-28",
+    "estado_updated": "2026-10-28T14:46:21.927+01:00",
+    "fecha_limite_anterior": "2026-11-19",
+    "fecha_limite_cambiada_el": "2026-10-28"
   },
   {
     "folder_id": "25/26",
@@ -2258,8 +2297,8 @@
   },
   {
     "folder_id": "2204/2026",
-    "estado": "RES",
-    "resultado": "desierta",
+    "estado": "EV",
+    "resultado": null,
     "titulo": "Contratación de la redacción del proyecto, estudio de seguridad y salud, dirección facultativa y coordinación de seguridad y salud del CEIP FERNÁNDO GAVILÁN, CEIP VICTOR DE LA SERNA Y CEIP REINA SOFIA",
     "updated": "2026-10-09T12:57:20.748+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=qwUQYWD5bkht5r0ngvMetA%3D%3D",
@@ -2276,18 +2315,18 @@
     "organo": "Alcaldía del Ayuntamiento de Ubrique",
     "importe": "41074.38",
     "importe_num": 41074.38,
-    "fecha_limite": "2026-10-16",
+    "fecha_limite": "2026-10-26",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-10-10",
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-10-27",
-    "fecha_limite_anterior": "2026-10-26",
-    "fecha_limite_cambiada_el": "2026-10-27",
-    "estado_updated": "2026-10-26T14:02:44.124+01:00"
+    "estado_anterior": "RES",
+    "estado_cambiado_el": "2026-10-28",
+    "fecha_limite_anterior": "2026-10-16",
+    "fecha_limite_cambiada_el": "2026-10-28",
+    "estado_updated": "2026-10-28T12:28:20.150+01:00"
   },
   {
     "folder_id": "CONT26064",
@@ -2452,8 +2491,8 @@
   },
   {
     "folder_id": "290/2026",
-    "estado": "PUB",
-    "resultado": null,
+    "estado": "RES",
+    "resultado": "adjudicada",
     "titulo": "Contrato de servicios, por lotes, para la redacción de proyectos básicos y de ejecución de obras, dirección de obras, estudios y coordinación de la seguridad y salud, y asistencia t écnica de las actuaciones rehabilitación del colector municipal; pavimentación camino de la Rumbrosa, pavimentación camino acceso al Parque Natural; pavimentación en calles de servicio.",
     "updated": "2026-10-13T13:02:41.585+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=kz57MNmeribECtSnloz%2BZQ%3D%3D",
@@ -2471,16 +2510,18 @@
     "organo": "Alcaldia del Ayuntamiento de Santa Elena",
     "importe": "30467.5",
     "importe_num": 30467.5,
-    "fecha_limite": "2026-11-06",
+    "fecha_limite": "2026-08-10",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-10-13",
-    "fecha_limite_anterior": "2026-11-04",
-    "fecha_limite_cambiada_el": "2026-10-16",
-    "estado_updated": "2026-10-16T12:34:23.641+02:00"
+    "fecha_limite_anterior": "2026-11-06",
+    "fecha_limite_cambiada_el": "2026-10-28",
+    "estado_updated": "2026-10-27T11:11:00.803+01:00",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-28"
   },
   {
     "folder_id": "4165/2026",
@@ -3064,5 +3105,35 @@
     "estado_anterior": "PUB",
     "estado_cambiado_el": "2026-10-27",
     "estado_updated": "2026-10-26T14:20:30.119+01:00"
+  },
+  {
+    "folder_id": "CONT26088",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio temporal de limpieza de muelles públicos, limpieza de superficies de depósito y almacenaje, recogida de residuos sólidos no peligrosos, desratizazción, desinsectación, desinfección, control de plagas y poblaciones de animales y mantenimiento de jardinería y riego de la zona de servicio del Puerto de Sevilla. ",
+    "updated": "2026-10-28T09:12:08.683+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=MZdqo2hXY9W8ebB%2FXTwy0A%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "90600000",
+      "71420000",
+      "90920000",
+      "90511100"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=%2ByMTVARa/9UF3nvMGPE8Z/sQVlrHygEatU98TN6aEJBPaPdh0cqQVQjjFM1nKgft5U4gMVAEQgJ5KoSBPYHoNrBFN2wQemQbeY8wEr2LBQ73GVhXrFFqN7yFncy7YfRK",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=B2vli8OCFDF0p/nccWXKY43YM6p9FIxKy9x/8R2I7zUqN0QeIWUf8EG4DR1lN6LmbPET9swlTtiUUT/Sxx2h3I3OO/HjIG1C7o1LUIEXVBpJOVDbGCDM%2BMigrvuVS7Rv",
+    "docs_adicionales": [],
+    "organo": "Autoridad Portuaria de Sevilla",
+    "importe": "504000",
+    "importe_num": 1008000.0,
+    "fecha_limite": "2026-11-11",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-10-28"
   }
 ]
