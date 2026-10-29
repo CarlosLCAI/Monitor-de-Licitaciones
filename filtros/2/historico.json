@@ -580,8 +580,239 @@
     "revisado_fecha": "2026-10-29T08:39:52.732Z",
     "revisado_por": "Belén Fernández",
     "revision_ia": {
-      "informe": "Error al generar el informe con IA: HTTPError('529 Server Error: <none> for url: https://api.anthropic.com/v1/messages')",
-      "fecha_analisis": "2026-10-29T08:40:49.861840+00:00",
+      "informe": "## Bloque 1 – Características Principales del Contrato\n\n### Objeto de la licitación\nConcurso de proyectos con jurado y dos fases (art. 183.2.a LCSP), seguido de un contrato de servicios de consultoría para el **diseño global del Sistema de Parques Metropolitanos de Valencia** (≈1.500 ha, 18 sectores y ciclovía anular). Incluye la redacción de los proyectos de construcción de los tramos **Paiporta-Alfafar** y **Valencia-Quart de Poblet**. El contrato se adjudica al ganador del concurso. El segundo al quinto clasificado reciben premio.\n\nObjetivos:\n- Esquema Director del Sistema de Parques.\n- Criterios de armonización paisajística, territorial, ambiental y funcional.\n- Dos proyectos de construcción como actuaciones piloto, con protección frente a inundaciones, paisaje cultural de l'Horta, biodiversidad y diseño para todos.\n\n**Detalle técnico (según el PPT):** el PPT recibido está cortado en la pág. 28 de 135. No se han podido analizar el apartado 4 (fases, plazos parciales y abono), las tareas del consultor ni el Anexo I. ⚠ REVISAR los plazos parciales en el PPT completo.\n\n### División en lotes\nNo hay división en lotes (art. 99.3.b LCSP: prestaciones indivisibles).\n\n### Características del contrato\n- **Órgano:** Vicepresidente tercero y conseller de Medio Ambiente, Infraestructuras, Territorio y de la Recuperación. Unidad tramitadora: DG Calidad y Educación Ambiental.\n- **Expediente:** CMAYOR/2026/44Y03/0036. Sujeto a regulación armonizada.\n- **CPV:** 71240000-2 y 71242000-6.\n- **Presupuesto base de licitación:** **5.186.056,20 €** sin IVA (**6.275.128,00 €** con IVA al 21 %).\n- **Valor estimado del concurso:** **5.486.056,20 €**, que incluye 300.000 € de premios.\n- **Anualidades (sin IVA):** 2027 = 1.357.200 €; 2028 = 2.657.200 €; 2029 = 1.171.656,20 €.\n- **Precio:** a tanto alzado por honorarios del equipo (2.274.000 €) más precios unitarios de estudios (2.084.030,42 €). Se suman un 13 % de gastos generales y un 6 % de beneficio industrial.\n- **Duración:** **30 meses**, desde el día siguiente a la formalización. Sin prórroga ni modificaciones previstas. Plazos parciales según el apartado 4 del PPT, no analizado.\n- **Presentación:** exclusivamente electrónica, por la PCSP, con anonimato por LEMA. Fase 1 (Sobre 1 y Sobre 3): **80 días naturales** desde el envío del anuncio a la OPUE. Fase 2 (Sobre 2): **50 días naturales** desde la publicación del acta de finalistas. La fecha exacta no consta en el texto recibido.\n- **Consultas:** hay que pedirlas al menos 12 días antes del fin del plazo. Se responden al menos 6 días antes y las respuestas son vinculantes.\n- **Estudios obligatorios incluidos en el precio** (subcontratables):\n  - desarrollo arquitectónico natural;\n  - integración técnica y paisajística;\n  - hidrológicos (Sistema de Parques y proyectos);\n  - movilidad ciclovial;\n  - patrimonial;\n  - biodiversidad (avifauna);\n  - topográfico;\n  - geotécnico con campaña de ensayos.\n- **Otras exigencias:**\n  - Oficina a ≤50 km de la sede del órgano contratante.\n  - Plan de Calidad en 15 días.\n  - Declaración de conformidad ENS categoría BAJA antes del inicio.\n  - Formación ambiental e igualdad de 20 h cada una.\n  - Hasta 10 comparecencias presenciales.\n  - Garantía definitiva del 5 %. No hay garantía provisional.\n\n## Bloque 2 – Solvencia\n\n### Económica y financiera\n- **Volumen anual de negocios** del mejor de los tres últimos ejercicios ≥ 1,5 × valor anual medio = **3.111.633,72 €** (sin IVA).\n- **Alternativa:** seguro de indemnización por riesgos profesionales por importe **no inferior al valor estimado**, con compromiso de renovación. El texto dice «valor estimado del contrato»: 5.186.056,20 € o 5.486.056,20 € si se incluyen los premios. ⚠ REVISAR cuál se aplica.\n- **Acreditación:** cuentas anuales depositadas en el Registro Mercantil, o certificado del asegurador más compromiso de renovación.\n- **UTE:** solvencia acumulable. Cada integrante debe tener una participación mínima del 20 % y una cifra de negocio proporcional a su porcentaje.\n- **Medios externos (art. 75):** permitidos, con responsabilidad solidaria.\n\n### Técnica y profesional\n- **Trabajos en los últimos 15 años** (CPV con los 4 primeros dígitos iguales a 7124). Hay que cumplir ambos requisitos, que pueden ser actuaciones distintas, y no se pueden sumar actuaciones:\n  - **A.** Proyecto de construcción de parque o espacio público similar de ≥30 ha, o con PEM ≥1.500.000 €, en entorno urbano o metropolitano.\n  - **B.** Proyecto de construcción con PEM ≥3.000.000 € que haya requerido estudio hidrológico.\n  - Valores referidos a 2025, actualizables por IPC.\n- **Acreditación:** relación de trabajos con certificados del órgano público, o del sujeto privado.\n- **Calidad y medio ambiente:** **ISO 9001 e ISO 14001** (ENAC o equivalente), exigibles también a cada empresa con ≥20 % en la UTE.\n- **Clasificación:** no procede. No se exige habilitación empresarial.\n- **Equipo mínimo** (compromiso de adscripción en el Anexo II; no se pueden dar nombres en la oferta):\n\n| Puesto | Titulación | Experiencia |\n|---|---|---|\n| Dirección (3) | Arquitecto, ICCP e Ingeniero agrónomo o de montes | 15 años cada uno, con certificado de buena ejecución. Al menos uno debe haber sido autor de un parque de ≥30 ha o PEM ≥2 M€ |\n| Coordinador de equipo | Titulación habilitante para redactar proyectos | 10 años; proyectos de parques o espacios libres con PEM ≥1 M€ |\n| Hidrología | ICCP o equivalente | 10 años |\n| Paisajismo | No especificada | 5 años |\n| Planificación urbanística y ordenación del territorio | No especificada | 10 años |\n| Medio forestal | Ing. de montes o forestal | 10 años |\n| Agricultura | Ing. agrónomo, de montes o técnico agrícola | 10 años |\n| Energía, iluminación e instalaciones | Ing. industrial o técnico industrial (electricidad) | 10 años |\n| Diseño gráfico (2) | No especificada | 10 años |\n\n- **Acreditación del equipo:** CV, vida laboral y certificados de empresas. Los especialistas deben haber suscrito proyectos o informes con PEM ≥1 M€ en los últimos 10 años, salvo energía y diseño gráfico.\n- **Subcontratación:** no pueden subcontratarse el Esquema Director, los Criterios de Armonización ni los dos proyectos de construcción. Sí pueden subcontratarse los estudios e informes del apartado E.\n- **Medios externos:** para titulaciones y experiencia, solo si la entidad externa presta esos servicios. Se necesita compromiso escrito.\n\n⚠ REVISAR — criterio de mejora de equipo, no confundir con el mínimo de solvencia: no localizado. El apartado LL indica que no hay mejoras como criterio de adjudicación.\n\n## Bloque 3 – Criterios de Adjudicación\n\n### Automáticos (fórmulas)\nNo hay criterios automáticos ni fórmula económica en el texto recibido. Todo se valora por el Jurado y el precio parece fijado por el presupuesto base: no se localiza oferta económica. ⚠ REVISAR en el PCAP completo la cláusula 10.3 («el precio resultará de la adjudicación»).\n\n### Juicio de valor\nSe valora en las dos fases, de 0 a 100 puntos:\n\n| Criterio | Puntos | Contenido |\n|---|---|---|\n| A. Diseño global del Sistema de Parques | 20 | Esquema director, armonización, paisaje cultural, metodología |\n| B. Diseño de los tramos | 35 | Identidad propia de cada tramo, uso ciudadano, hidráulica, integración |\n| C. Adecuación al marco territorial | 20 | Conocimiento del ámbito, integración, diversidad botánica y agroforestal |\n| D. Innovación | 10 | Materiales, digitalización, calidad ambiental, resiliencia |\n| E. Racionalidad económica | 15 | Solución, mantenimiento y gestión |\n\n**Formato:**\n- **Sobre 1 (SPM.01_LEMA):** PDF DIN A3, máx. **15 caras** (sin portada ni índice), Arial ≥11, interlineado ≥1. Más 3 paneles A1 verticales y 3D opcional.\n- **Sobre 2 (SPM.02_LEMA):** PDF A3, máx. **50 caras**, mismo formato. Más 4 paneles A0, soporte 3D, maqueta virtual navegable y vídeo ≤5 min, con locución por terceros.\n\n### Umbrales mínimos de puntuación\nSí hay umbrales, en ambas fases:\n- A ≥ 6.\n- B ≥ 11.\n- C ≥ 6.\n- D ≥ 3.\n- E ≥ 5.\n- Total ≥ **50** puntos.\n\nSi no se alcanza el mínimo en un apartado, no se suman sus puntos. Por debajo de 50 la calidad es inaceptable.\n\n## Bloque 4 – Forma de Pago\n\n- **Estudios específicos:** 80 % al aceptarse la documentación y 20 % con la versión final.\n- **Resto del precio** (sin estudios):\n  - 25 % al aceptar el Esquema Director.\n  - 25 % al aceptar los Criterios de Armonización.\n  - 35 % por los proyectos de construcción (50 % cada tramo, con hitos del 10 % pliego, 20 % presupuesto, 30 % planos y resto).\n  - 10 % tras la supervisión de cada proyecto.\n  - 5 % tras la recepción.\n- **Sin abonos a cuenta.** Facturación electrónica por FACe. Plazo de pago de 30 días desde la conformidad.\n- **Premios** (sin IVA):\n\n| Puesto | Importe |\n|---|---|\n| 2.º | 90.000 € |\n| 3.º | 82.500 € |\n| 4.º | 67.500 € |\n| 5.º | 60.000 € |\n\n  - Total 300.000 €. El ganador recibe el contrato.\n  - Si el finalista concurrió en UTE, cada miembro factura su porcentaje.\n- **Revisión de precios:** no hay. **Plazo de garantía:** no procede.\n- **Penalidades:**\n  - Demora: 0,60 € por cada 1.000 € del precio al día.\n  - Incumplimiento de medios u obligaciones: 5 % por incumplimiento.\n  - Incumplimiento de condiciones de la oferta o de pagos a subcontratistas: 1 %.\n  - ENS: 5 %, 10 % o 15 % de la facturación según el nivel del ciberincidente.\n  - Tope: 10 % por penalidad y 50 % en total.\n- **Garantía definitiva:** 5 % del precio sin IVA, a constituir en 10 días hábiles.\n\n## Bloque 5 – Documentación a Presentar\n\n### Sobre nº 1 – Propuesta conceptual, fase 1 (anónimo, bajo LEMA)\n- **Documento SPM.01_LEMA:** memoria justificativa del diseño global, elementos de los criterios de armonización, presupuesto indicativo por módulos diferenciando los tramos, y planos con plantas y secciones tipo.\n- **Tres paneles DIN A1** verticales, con título, LEMA y correo anónimo.\n- **Soporte 3D** (opcional).\n- Debe incluir escala gráfica y norte.\n\n### Sobre nº 2 – Propuesta técnica finalista, fase 2 (anónimo)\n- **Documento SPM.02_LEMA:** desarrollo de la fase 1 con más detalle, con énfasis en la protección frente a inundaciones y la compatibilidad de usos. Atiende las sugerencias del Jurado.\n- **Cuatro paneles DIN A0.**\n- **Soporte 3D** de los tramos y **maqueta virtual** (enlace en PDF si supera 5 MB).\n- **Vídeo** de ≤5 min.\n\n### Sobre nº 3 – Documentación administrativa (se abre al final)\n- **DEUC**, uno por cada empresa de la UTE o entidad de medios externos.\n- **Anexo II – Declaración responsable:**\n  - constitución de la sociedad y representación;\n  - solvencia, sin prohibición de contratar;\n  - compromiso de adscripción de medios;\n  - cuota de discapacidad y plan de igualdad;\n  - no participación en la preparación del contrato.\n- **Anexo III – Compromiso de UTE**, con porcentajes (≥20 %) y apoderado único.\n- **Preferencia de anonimato** si no se resulta premiado. Si no se indica, se pierde el anonimato.\n- **Consentimiento de cesión de propiedad intelectual.** El Anexo IX es opcional.\n- **Declaración de sometimiento a tribunales españoles**, solo para empresas extranjeras.\n\n### Documentación posterior (solo el propuesto como adjudicatario)\nSe exige al ganador y a los finalistas con premio, previo requerimiento:\n- Escrituras, NIF, IAE, poderes y DNI.\n- Certificados de estar al corriente con la AEAT y la Seguridad Social.\n- Justificación de solvencia económica y técnica: cuentas anuales o seguro, relación de trabajos con certificados, ISO 9001 e ISO 14001.\n- Habilitaciones.\n- Compromiso de medios externos (art. 75).\n- Autorización de compatibilidad si hay funcionarios.\n\nSolo para el ganador:\n- Resguardo de la garantía definitiva (5 %).\n- Equipo mínimo: declaración jurada, titulaciones, cartas de compromiso, CV, vida laboral y certificados.\n- Disponibilidad de oficina a ≤50 km.\n- Declaración o certificación ENS y designación del punto de contacto (POC).\n- Escritura de UTE, en su caso.\n\nNo se ha localizado el resto de anexos (VII–X) ni algunas páginas del pliego (28–30, 38–39, 48–49, 79–80).\n\n## Bloque 6 – Conclusiones / Análisis Preliminar\n\n**Precio y duración:** 5,19 M€ sin IVA en 30 meses equivalen a ≈172.900 €/mes. De ese importe, 2,08 M€ son estudios subcontratables. Los honorarios del equipo suman 2,27 M€, con un equipo de 20 personas en el cálculo del pliego. El reparto en anualidades (2027–2029) y la ausencia de revisión de precios obligan a asumir el riesgo de costes.\n\n**Comparación con el perfil de CAI** (cifra de negocio de referencia: 1.876.061 €):\n\n| Requisito | Exigido | CAI | Resultado |\n|---|---|---|---|\n| Solvencia económica | ≥3.111.633,72 € | 1,88 M€ (CAI Arquitectura no se suma) | No cumple en solitario; sí con UTE o medios externos. Insuficiente |\n| Seguro RC (alternativa) | ≥ valor estimado (5,19–5,49 M€) | 2,5 M€ | No cumple |\n| Experiencia A | Parque o espacio público, PEM ≥1,5 M€ | Huelin-Ayala (10,7 M€ PEM, CPV 71242000) y zonas verdes SUNP-G.2 (3,2 M€) | Probable cumplimiento. ⚠ REVISAR CPV 7124 y que el certificado lo acredite |\n| Experiencia B | Proyecto con PEM ≥3 M€ con estudio hidrológico | Varios proyectos de urbanización de más de 3 M€ | Falta acreditar que incluyeran estudio hidrológico |\n| ISO 9001 e ISO 14001 | Exigidas | Vigentes, vencimiento sin verificar | Por acreditar (ENAC) |\n| Clasificación | No procede | — | Sin incidencia |\n\n**Equipo mínimo** (6–7 de 14 puestos no cubiertos):\n- **Dirección:** el ICCP lo cubre (Enrique de la Torre, desde 1995).\n  - El arquitecto con 15 años no consta: Carmen Torralba tiene menos y Ángela Trueba tiene su inicio sin verificar.\n  - El agrónomo o de montes no consta.\n- **Coordinador:** posible con Juanjo Piñero, pero su inicio de actividad está sin verificar.\n- **Hidrología:** Juanjo Piñero (hidráulica), con la misma salvedad.\n- **Planificación urbanística:** Ángela Trueba, sin verificar.\n- **Paisajismo:** no consta perfil claro.\n- **Forestal, agricultura, diseño gráfico (2):** no constan.\n- **Energía e instalaciones:** solo hay un colaborador externo, Enrique de Vega.\n\n**Subcontratación:** no es posible para las partes críticas. Solo los estudios son subcontratables. Los perfiles que faltan solo podrían cubrirse con medios externos (art. 75, con compromiso de prestar el servicio) o con UTE.\n\n⚠ REVISAR: la oficina a ≤50 km de Valencia no consta en el perfil (sedes en Estepona y Málaga).\n\n### Semáforo de presentación\n**ROJO.** Como licitador único, CAI no cumple la solvencia económica (1,88 M€ frente a 3,11 M€) ni el equipo mínimo. De 14 puestos faltan unos 7: arquitecto de 15 años, agrónomo o de montes, forestal, agricultura, energía y dos de diseño gráfico. Además, no consta la oficina a ≤50 km.\n\nEl pliego permite UTE y medios externos (art. 75), pero las partes críticas no son subcontratables. Solo una UTE con socios multidisciplinares y mayor cifra de negocio podría cambiar la valoración. Sin esa UTE, el resultado es rojo.",
+      "usa_ppt": true,
+      "uso": {
+        "entrada": 140136,
+        "salida": 13291,
+        "cache_leida": 23206,
+        "cache_escrita": 0
+      },
+      "coste_estimado_usd": 0.4178,
+      "semaforo": "rojo",
+      "semaforo_motivo": "En solitario no cumple la solvencia económica (1,88 M€ frente a 3,11 M€) ni la mayoría del equipo mínimo; solo una UTE multidisciplinar podría cambiarlo.",
+      "datos_excel": {
+        "info": {
+          "valor_estimado": 5486056.2,
+          "iva_pct": 21,
+          "fecha_presentacion": null,
+          "plazo_ejecucion": "30 meses desde la formalización; plazos parciales según apartado 4 del PPT (no analizado)",
+          "consultas": "Solicitar ≥12 días antes del fin de plazo; respuesta ≥6 días antes; vinculantes",
+          "garantia_provisional": "No se exige",
+          "garantia_definitiva": "5 % del precio sin IVA",
+          "seguro_rc": "Alternativa a la cifra de negocio: seguro de riesgos profesionales ≥ valor estimado (5.186.056,20 o 5.486.056,20 €; a revisar)",
+          "lotes": "No hay división en lotes",
+          "revision_precios": "No",
+          "plazo_garantia": "No procede",
+          "ute": "Sí; participación mínima 20 % por empresa; solvencia acumulable; ISO exigidas a cada empresa ≥20 %",
+          "subcontratacion": "No subcontratables: Esquema Director, Criterios de Armonización y los 2 proyectos; sí los estudios e informes",
+          "umbral_tecnico": "Mínimos A 6, B 11, C 6, D 3, E 5 y total ≥50 puntos, en ambas fases"
+        },
+        "solvencia": {
+          "nota": "UTE: solvencia acumulable con mínimo del 20 % por empresa y cifra de negocio proporcional. Medios externos (art. 75) permitidos, con compromiso escrito. No hay clasificación. Cada puesto debe estar adscrito con compromiso (Anexo II).",
+          "economica": [
+            {
+              "nombre": "Volumen anual de negocios",
+              "valor": "≥3.111.633,72 € (1,5 × valor anual medio) en el mejor de los últimos 3 ejercicios",
+              "acreditacion": "Cuentas anuales depositadas en el Registro Mercantil",
+              "cai": "no",
+              "cai_nota": "CAI declara 1,88 M€; hace falta UTE o medios externos"
+            },
+            {
+              "nombre": "Seguro de riesgos profesionales (alternativa)",
+              "valor": "≥ valor estimado del contrato (5,19–5,49 M€)",
+              "acreditacion": "Certificado del asegurador más compromiso de renovación",
+              "cai": "no",
+              "cai_nota": "Seguro de 2,5 M€"
+            }
+          ],
+          "tecnica": [
+            {
+              "nombre": "Experiencia A: proyecto de parque o espacio público",
+              "valor": "≥30 ha o PEM ≥1,5 M€, entorno urbano o metropolitano, últimos 15 años",
+              "acreditacion": "Relación de trabajos con certificados",
+              "cai": "parcial",
+              "cai_nota": "Huelin-Ayala y SUNP-G.2; confirmar CPV 7124"
+            },
+            {
+              "nombre": "Experiencia B: proyecto con estudio hidrológico",
+              "valor": "PEM ≥3 M€ con estudio hidrológico, últimos 15 años",
+              "acreditacion": "Relación de trabajos con certificados",
+              "cai": "no_consta",
+              "cai_nota": "Falta acreditar el estudio hidrológico"
+            },
+            {
+              "nombre": "ISO 9001 e ISO 14001",
+              "valor": "Certificados ENAC o equivalentes",
+              "acreditacion": "Certificados vigentes",
+              "cai": "parcial",
+              "cai_nota": "Vigentes; vencimiento sin verificar"
+            },
+            {
+              "nombre": "Oficina a ≤50 km de la sede del órgano contratante",
+              "valor": "Oficina y personal a ≤50 km",
+              "acreditacion": "Al requerimiento de adjudicación",
+              "cai": "no",
+              "cai_nota": "Sedes en Estepona y Málaga"
+            }
+          ],
+          "equipo": [
+            {
+              "nombre": "Dirección: Arquitecto/a",
+              "valor": "Arquitecto; 15 años; certificado de buena ejecución",
+              "acreditacion": "Certificado, CV y vida laboral",
+              "cai": "parcial",
+              "cai_nota": "Ángela Trueba, inicio sin verificar"
+            },
+            {
+              "nombre": "Dirección: Ingeniero/a de Caminos",
+              "valor": "ICCP; 15 años; autor de parque ≥30 ha o PEM ≥2 M€ (al menos uno)",
+              "acreditacion": "Certificado, CV y vida laboral",
+              "cai": "cumple",
+              "cai_nota": "Enrique de la Torre, activo desde 1995"
+            },
+            {
+              "nombre": "Dirección: Ingeniero/a Agrónomo o de Montes",
+              "valor": "Agrónomo o de montes; 15 años",
+              "acreditacion": "Certificado, CV y vida laboral",
+              "cai": "no",
+              "cai_nota": "No consta en el perfil"
+            },
+            {
+              "nombre": "Coordinador de equipo",
+              "valor": "Titulación habilitante; 10 años; proyectos de parques o equipamientos PEM ≥1 M€",
+              "acreditacion": "Certificado de buena ejecución",
+              "cai": "parcial",
+              "cai_nota": "Juanjo Piñero, inicio sin verificar"
+            },
+            {
+              "nombre": "Especialista en hidrología",
+              "valor": "ICCP; 10 años",
+              "acreditacion": "CV y certificados; proyectos con PEM ≥1 M€",
+              "cai": "parcial",
+              "cai_nota": "Juanjo Piñero, inicio sin verificar"
+            },
+            {
+              "nombre": "Especialista en paisajismo",
+              "valor": "5 años",
+              "acreditacion": "CV y certificados",
+              "cai": "no_consta",
+              "cai_nota": "Sin perfil de paisajismo"
+            },
+            {
+              "nombre": "Especialista en planificación urbanística y ordenación del territorio",
+              "valor": "10 años",
+              "acreditacion": "CV y certificados",
+              "cai": "parcial",
+              "cai_nota": "Ángela Trueba, inicio sin verificar"
+            },
+            {
+              "nombre": "Especialista en medio forestal",
+              "valor": "Ing. de montes o forestal; 10 años",
+              "acreditacion": "CV y certificados",
+              "cai": "no",
+              "cai_nota": "No consta"
+            },
+            {
+              "nombre": "Especialista en agricultura",
+              "valor": "Ing. agrónomo, de montes o técnico agrícola; 10 años",
+              "acreditacion": "CV y certificados",
+              "cai": "no",
+              "cai_nota": "No consta"
+            },
+            {
+              "nombre": "Especialista en energía, iluminación e instalaciones",
+              "valor": "Ing. industrial o técnico industrial; 10 años",
+              "acreditacion": "CV y certificados",
+              "cai": "parcial",
+              "cai_nota": "Colaborador externo Enrique de Vega"
+            },
+            {
+              "nombre": "Especialistas en diseño gráfico (2)",
+              "valor": "10 años de experiencia",
+              "acreditacion": "CV y certificados",
+              "cai": "no",
+              "cai_nota": "No constan"
+            }
+          ]
+        },
+        "juicio_valor": [
+          {
+            "nombre": "Propuesta inicial fase 1 (Sobre 1, SPM.01_LEMA)",
+            "puntos": 100,
+            "paginas_a4": null,
+            "paginas_a3": 15,
+            "formato": "DIN A3, Arial ≥11, interlineado ≥1; 3 paneles A1; 3D opcional; anónimo",
+            "acreditacion": "Valoración del Jurado",
+            "apartados": [
+              {
+                "nombre": "A. Diseño global del Sistema de Parques",
+                "puntos": 20,
+                "filas": 1
+              },
+              {
+                "nombre": "B. Diseño de los tramos",
+                "puntos": 35,
+                "filas": 1
+              },
+              {
+                "nombre": "C. Adecuación al marco territorial",
+                "puntos": 20,
+                "filas": 1
+              },
+              {
+                "nombre": "D. Innovación",
+                "puntos": 10,
+                "filas": 1
+              },
+              {
+                "nombre": "E. Racionalidad económica",
+                "puntos": 15,
+                "filas": 1
+              }
+            ]
+          },
+          {
+            "nombre": "Propuesta finalista fase 2 (Sobre 2, SPM.02_LEMA)",
+            "puntos": 100,
+            "paginas_a4": null,
+            "paginas_a3": 50,
+            "formato": "DIN A3, Arial ≥11, interlineado ≥1; 4 paneles A0; 3D, maqueta virtual y vídeo ≤5 min; anónimo",
+            "acreditacion": "Valoración del Jurado",
+            "apartados": [
+              {
+                "nombre": "A. Diseño global del Sistema de Parques",
+                "puntos": 20,
+                "filas": 1
+              },
+              {
+                "nombre": "B. Diseño de los tramos",
+                "puntos": 35,
+                "filas": 1
+              },
+              {
+                "nombre": "C. Adecuación al marco territorial",
+                "puntos": 20,
+                "filas": 1
+              },
+              {
+                "nombre": "D. Innovación",
+                "puntos": 10,
+                "filas": 1
+              },
+              {
+                "nombre": "E. Racionalidad económica",
+                "puntos": 15,
+                "filas": 1
+              }
+            ]
+          }
+        ],
+        "formulas": [],
+        "otros": [],
+        "umbral": "Mínimos por criterio: A 6, B 11, C 6, D 3, E 5; total ≥50 puntos en cada fase"
+      },
+      "fecha_analisis": "2026-10-29T08:45:11.754070+00:00",
       "solicitada_por": "Belén Fernández"
     }
   }
