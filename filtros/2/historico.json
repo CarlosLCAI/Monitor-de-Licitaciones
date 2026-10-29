@@ -123,7 +123,7 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Pnc3X%2BoOvCe8WLTEPcVDjXbciH0xDve9%2BY8bsaiZYpHlMF0yH251WTL1tyKDaPNaPWX0aIyfDTNN4JdLYTsVtFSDoE7BUfFYvaK7cn4hSLZ7QB3HKyQaFUExmUVQCerk",
     "organo": "Junta de Gobierno del Ayuntamiento de Turre",
     "importe": "172315",
-    "importe_num": 172315.0,
+    "importe_num": 172315,
     "fecha_limite": "2026-07-31",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -326,7 +326,7 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=u9d80JdeUEAhDtwkeLNVkVbW%2B6l3dUSAjD7wQe62wV04D%2BlugRtTicsRUd%2B9OfswkH7FTzYJsSf2nq59FTz2GxhE6o/Td7ATU1drTZHzOeuCx2e6p7hqtlp2aFupgHMr",
     "organo": "Alcaldía del Ayuntamiento de Yebes",
     "importe": "76300",
-    "importe_num": 76300.0,
+    "importe_num": 76300,
     "fecha_limite": "2026-08-17",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -420,7 +420,7 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=hHcsSLRz8qYcGDcgnwj67NHvuWfdqHq5qi8y1CVLY%2BApGGB2KtYgFNzXmldPYZvlqkh94iH18mcL7V5leQmQcCh5TyRpNFcYmkf0ZciX46MC1/zDIE0Kw/PWNnLS0Z0z",
     "organo": "Consello de Xerencia Municipal de Urbanismo del Ayuntamiento de Vigo",
     "importe": "85000",
-    "importe_num": 85000.0,
+    "importe_num": 85000,
     "fecha_limite": "2026-12-14",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -539,7 +539,7 @@
     "docs_adicionales": [],
     "organo": "Ajuntament de Valls",
     "importe": "28556.00",
-    "importe_num": 132600.0,
+    "importe_num": 132600,
     "fecha_limite": "2026-09-15",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -575,6 +575,9 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-10-28"
+    "fecha_captura": "2026-10-28",
+    "revisado_humano": true,
+    "revisado_fecha": "2026-10-29T08:39:52.732Z",
+    "revisado_por": "Belén Fernández"
   }
 ]
