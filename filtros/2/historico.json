@@ -578,6 +578,11 @@
     "fecha_captura": "2026-10-28",
     "revisado_humano": true,
     "revisado_fecha": "2026-10-29T08:39:52.732Z",
-    "revisado_por": "Belén Fernández"
+    "revisado_por": "Belén Fernández",
+    "revision_ia": {
+      "informe": "Error al generar el informe con IA: HTTPError('529 Server Error: <none> for url: https://api.anthropic.com/v1/messages')",
+      "fecha_analisis": "2026-10-29T08:40:49.861840+00:00",
+      "solicitada_por": "Belén Fernández"
+    }
   }
 ]
