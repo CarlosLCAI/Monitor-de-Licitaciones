@@ -267,8 +267,8 @@
   },
   {
     "folder_id": "46/26",
-    "estado": "EV",
-    "resultado": null,
+    "estado": "ADJ",
+    "resultado": "adjudicada",
     "titulo": "El concurs té per objecte escollir les propostes més idònies, a judici del jurat, que han de servir de base per a la prestació de serveis per a la redacció del projecte (i posterior direcció de les obres, si s’escau) de diversos edificis d’habitatges amb protecció oficial.",
     "updated": "2026-10-08T12:06:01.255+02:00",
     "link": "https://contractaciopublica.cat/ca/detall-publicacio/7b8f392a-f3af-400e-a156-c961d74abd60/300903784",
@@ -282,18 +282,18 @@
     "organo": "Institut Metropolità de Promoció de Sòl i Gestió Patrimonial (IMPSOL)",
     "importe": "2007673.11",
     "importe_num": 2103673.11,
-    "fecha_limite": "2026-09-16",
+    "fecha_limite": "2026-07-22",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "8",
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-10-09",
-    "estado_anterior": "ADJ",
-    "estado_cambiado_el": "2026-10-26",
-    "fecha_limite_anterior": "2026-08-24",
-    "fecha_limite_cambiada_el": "2026-10-26",
-    "estado_updated": "2026-10-26T16:47:52.628+01:00",
+    "estado_anterior": "EV",
+    "estado_cambiado_el": "2026-10-30",
+    "fecha_limite_anterior": "2026-09-16",
+    "fecha_limite_cambiada_el": "2026-10-30",
+    "estado_updated": "2026-10-29T17:11:24.910+01:00",
     "docs_adicionales": [
       {
         "nombre": "Informe_de_inicio_Servicio_limpieza_techos_y_perimetral docx report.pdf",
@@ -311,8 +311,8 @@
   },
   {
     "folder_id": "482/2026",
-    "estado": "EV",
-    "resultado": null,
+    "estado": "RES",
+    "resultado": "formalizada",
     "titulo": "Concurso de proyectos con intervención de jurado para contrato de servicios de redacción de proyecto básico y de ejecución, dirección facultativa de las obras y coordinación de seguridad y salud para la construcción de edificio municipal polivalente para la juventud denominado \"Espacio Joven\".",
     "updated": "2026-10-15T12:41:11.498+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SRKx9M0hhBydkQsA7ROvsg%3D%3D",
@@ -327,26 +327,26 @@
     "organo": "Alcaldía del Ayuntamiento de Yebes",
     "importe": "76300",
     "importe_num": 76300,
-    "fecha_limite": "2026-10-22",
+    "fecha_limite": "2026-09-15",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "8",
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-10-15",
-    "estado_anterior": "RES",
-    "estado_cambiado_el": "2026-10-29",
-    "fecha_limite_anterior": "2026-08-17",
-    "fecha_limite_cambiada_el": "2026-10-29",
-    "estado_updated": "2026-10-29T09:45:59.647+01:00",
+    "estado_anterior": "EV",
+    "estado_cambiado_el": "2026-10-30",
+    "fecha_limite_anterior": "2026-10-22",
+    "fecha_limite_cambiada_el": "2026-10-30",
+    "estado_updated": "2026-10-30T11:12:51.403+01:00",
     "docs_adicionales": [
       {
-        "nombre": "Annex II.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=NCDZhC5RtRNKrhJWlb05PgNNVD32wM1Z3CiLx2Ole2c5dL6n0nhHZM%2BtIRy8QPiUiv5togD8tXXc4fpITPEX3q9MBl0stkc0SNVa4yYH3kNt/o8fNevwsujgRzaBbugn"
+        "nombre": "2026 Anexo I.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=3amqfAdMPQJPqn%2BOLc8rI2zPRA2fzFDmDQ5mPvgpDvvXDQnYjqcqoUCYZf1Vmi4CiWsFrtCpoLt7gpJhYd1cwjxLdriH2vGPsnmMFPqdfQTDdQD9RyhUmzT4jZ2In4zL"
       },
       {
-        "nombre": "Annex I.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1wXyvQvMp3nZ%2ByfuMG3shhIWTyaCJOYbeZTYj55HV51bEYLmHYAGo7OJf8cID/kAL1W5c24AolVBuGicwE10RPmEcK9sNwPp99onS5FPCiMC1/zDIE0Kw/PWNnLS0Z0z"
+        "nombre": "2026 Archivo electronico B.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=MB/EzzKrey/7yi8Kcs45g3g4bd1QIXZG7jq54HF%2BH3/8KczRzQXY9agAszrjMLM0gxVQO7P9S5Yqwlif1NotJCAIDpohM8Hbynv11apw3mSHAj0WEJrB5sP7amrh2jBD"
       }
     ]
   },
@@ -790,5 +790,32 @@
     "carpeta_descargada": true,
     "carpeta_descargada_fecha": "2026-10-30T10:34:07.027Z",
     "carpeta_descargada_por": "CarlosLCAI"
+  },
+  {
+    "folder_id": "2026/000037687-Fase1",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "El present concurs de projectes té per objecte la selecció, mitjançant jurat, d’una proposta per a la realització dels serveis relatius a la redacció del projecte bàsic amb definició constructiva per a les obres de reforma de l’antic recinte industrial “La Farinera” destinat a Arxiu Comarcal del Maresme i Espais Culturals, en base a la seva qualitat arquitectònica, eficiència energètica i cicle de vida dels materials, la coherència constructiva i el cost de l’obra i manteniment.",
+    "updated": "2026-10-29T14:02:44.856+01:00",
+    "link": "https://contractaciopublica.cat/ca/detall-publicacio/0c384ff8-214e-4595-870b-ddefd198a5f6/300922777",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000"
+    ],
+    "pcap_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302735098/8A2DCDA0EF4871A543B552C53C7F9587",
+    "ppt_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302735193/FE4C277C62803DC98791F770EEC483EC",
+    "docs_adicionales": [],
+    "organo": "Ajuntament de Mataró",
+    "importe": "230031.29",
+    "importe_num": 759535.84,
+    "fecha_limite": "2026-11-27",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "8",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas",
+    "fecha_captura": "2026-10-30"
   }
 ]

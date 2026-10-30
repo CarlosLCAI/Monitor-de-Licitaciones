@@ -1,218 +1,44 @@
 [
   {
-    "folder_id": "1/2026",
+    "folder_id": "27/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicios de Actualización del Proyecto de Urbanización, Dirección Facultativa y Coordinador de Seguridad y Salud, así como seguimiento y asesoramiento técnico durante el proceso de licitación de las obras de Urbanización del ámbito del Sector SUP-O1 EL RODEO del PGOU de Estepona.",
-    "updated": "2026-10-29T14:22:21.451+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lO21u2TbovJLAIVZdUs8KA%3D%3D",
+    "titulo": "Sistema Dinámico de Adquisición de servicios de asesoramiento y consultoría",
+    "updated": "2026-10-30T09:57:59.058+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=OwrXVPrv8sq7JOCXkOhcDg%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "71242000",
+      "79410000",
+      "79111000",
+      "79140000",
       "71300000",
+      "71356200",
+      "72220000",
+      "72600000",
+      "71318000",
       "71310000",
-      "71317210",
-      "71317200",
-      "71520000",
-      "71000000",
-      "71200000",
-      "71240000",
-      "71317000",
-      "71500000"
+      "71300000",
+      "72220000",
+      "79140000",
+      "72600000",
+      "71356200",
+      "79111000",
+      "71310000",
+      "71318000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=G1nPO2cjFUaf477WhWbTt9guf2C4VHEyV8WfDj6uyc1OUh9wP5T5ZPORPWshpQaUrQ6dLxPMT3KrEizz3/7ukcw1Pwc6MsT696MfJWRxeL17QB3HKyQaFUExmUVQCerk",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YT6JPBSl4vzEdmckXX0fDOoSNl4i/UHKLub2bttzQGr1PT7k3dEFPFvc3lmpw3mlSb3ERR9UABw78u%2BsVyo/kf7Sn9ZiV29OEVzRlIIfmtLVTD3T98KC0nSgQFM0q%2B5s",
-    "docs_adicionales": [
-      {
-        "nombre": "PPT DIREC FACULTA.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Pn6oaWHrU/GqblQcSi2WCsuovx443IjU6FbkMfjEUt%2Bmm5AIvYCclBweaG6oW2k%2BuAHWp9ubYq3/mkqN%2BQmfUg2tuIdfvjpwZPPnJopwTgLDdQD9RyhUmzT4jZ2In4zL"
-      },
-      {
-        "nombre": "PPT SEG Y SALUD.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=%2BBejYnhOzNKip38kwym0qZjlNfTXectYw%2Bc3Q/mXV2OXXIk46uBn12OpDYHw53ARmrrYpIRkWyp7hwfMjo1OqJ8g/TbO%2B0i/WYVpNk9S0Y57QB3HKyQaFUExmUVQCerk"
-      }
-    ],
-    "organo": "Junta de Compensación Sector Sup-01 El Rodeo",
-    "importe": "254930",
-    "importe_num": 254930.0,
-    "fecha_limite": "2026-12-04",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "1",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "SE 34/2026",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Contrato de servicios para la redacción del proyecto de ejecución y dirección de obra de la actuación 2026/2/edils-2-13  Centro de\r\nServicios Avanzados para la Industria del Espárrago verde de Huetor Tájar\r\n",
-    "updated": "2026-10-29T13:52:46.429+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7Phig4FCHVh6nTs9LZ9RhQ%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71300000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1iMXbpLlRfpr4pGP6wYtuW/UOuDmOwbqeLkj6Rgnifcs%2BpzjR7%2BYQiB8eA2MAp02sBSgYVty1hF2TucwxKTWxggJa25PTv%2BghsPWxtXN4AffdyQgZAdTm3EfcUAC7CJ6",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ZVCGsDoQh0q4lOu3LYtwcqyPN6120%2BDLvbqlg30hTyt7FfOIKYY8pWSr5k4yIxLP3oqJJVyhlduDn10BAoxl6z366aJwRr06xu7k9Ff5AgX3GVhXrFFqN7yFncy7YfRK",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4TRkIoob/FeQ3bPbSguLqRBXcYm%2Bk1LJ6NRnuf8lvATYytiwrJ9Z2HKXfA9hOagh3MV3B0puThU8GPzzP82G//o2JQ3MUowSe3tn%2BtdmySR45ClyWkoJ44mKM70IFcOu",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/IHwvzevUfMsv5fWfDjAe82Suhgb72HQwvRz0AHiWmtmYlRns/dAe0ImWPHCYrLAPz9U/AZa92RzJl2NRaUkuudLKSci1beATMWEUWwhE5OHAj0WEJrB5sP7amrh2jBD",
     "docs_adicionales": [],
-    "organo": "Presidencia de la Diputación Provincial de Granada",
-    "importe": "94149.51",
-    "importe_num": 94149.51,
-    "fecha_limite": "2026-11-13",
+    "organo": "Asamblea General del Consorcio Sierra Nevada Vega Sur",
+    "importe": "0",
+    "importe_num": 600000.0,
+    "fecha_limite": "2030-10-30",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
-    "procedimiento": "9",
+    "procedimiento": "2",
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles"
-  },
-  {
-    "folder_id": "4818/2026",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Servicio para la redacción de proyecto y dirección de obras de mejora de la eficiencia energética y condiciones de habitabilidad del CEIP Medina Elvira, encuadrado en el Plan de Actuación Integrado (PAI) de Atarfe, cofinanciado en un 85% por el Fondo Europeo de Desarrollo Regional (FEDER), en el marco del Programa Plurirregional de España 2021-2027",
-    "updated": "2026-10-29T12:21:55.340+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=RPP4REA8cWsXhk1FZxEyvw%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71200000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=F17/uRjt0tIKX7V/XkBuqkYA7pg6csBzqBk9jZKHv%2BUkfKXxw9uvqSsJeOTw1GtnUxYSNVWe8Lt3RukOM54zXpa4hRAYfVSFcKb6qUCb8JuCx2e6p7hqtlp2aFupgHMr",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=X3IPVsVYVJyLyLChyRt97c4a%2BXtKuJs4%2BkDzwRaEXHQ61h8jlXEYIb6bGRSCWxHTTw3Cwx1MHxgyZrHptWltrOFPPNXCy5bOh4g7yq4etljVTD3T98KC0nSgQFM0q%2B5s",
-    "docs_adicionales": [
-      {
-        "nombre": "PLANIMETRIA_MEDINA-ELVIRA.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ZQ/VHP7Tptmpc2My/UY41MuC3DXqIfbgKeBhZ1hounXE2eso%2BKwUaCS/HWpAG%2BUiyH00KTaoK/kT6AwD%2BHlsgq%2Blb3PB2okhP%2BcQ1bUxHmzVTD3T98KC0nSgQFM0q%2B5s"
-      }
-    ],
-    "organo": "Alcaldía del Ayuntamiento de Atarfe",
-    "importe": "8621.9",
-    "importe_num": 8621.9,
-    "fecha_limite": "2026-11-13",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "9",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "3013/2026",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Servicios de Redacción de Proyecto Básico y Ejecución, Dirección Facultativa y Coordinación de Seguridad y Salud para las Obras de Mejoras del Saneamiento en C/ Canal, mediante Procedimiento Abierto Simplificado.",
-    "updated": "2026-10-29T10:27:09.872+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=jagQw97MLAb5Rey58Yagpg%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71240000",
-      "71242000",
-      "71317200",
-      "71247000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CkuWkX0F54K1E/Rc0V1kijOeT%2BfmxgZZMdn8NsypChOrfxIcXq%2BdHdYF6o7aGysbPyoanGTmHCsL23fLvJlzyw8Up1Xugsvv98uvqkdYbdgC1/zDIE0Kw/PWNnLS0Z0z",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=b4suPgHPsyEJ1TmBvMtHhDwZBg9yFAVzwbIHbNEc8FYNHOToAXxABJDMGsKMdIXKDLJLbGf83vgaHPM1LCnNgf/0sZ3Cfl2hFfKpQu3nBdY//q7NB2iMZvNyf0xrJmjt",
-    "docs_adicionales": [
-      {
-        "nombre": "INFORME DE INSUFICIENCIA DE MEDIOS.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=roM8MPTjYlWUde%2B0A/v7N3WrmzPaVLwimmlKotCS9YdYyo8VP340pkEY9uqmlBTa8U1DfCLZkcYxcqLOk2IMetTBxhQ0GPkUbkktk89a0k/fdyQgZAdTm3EfcUAC7CJ6"
-      },
-      {
-        "nombre": "MEMORIA JUSTIFICATIVA.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=XEhBc%2Bovx%2Bh9lcx1OToxZBthdmZ3nI131kUCq7Mf2immoKK5iLYlbiwd5VzLihb%2B/UaRWhekjqPXAFw1rHnRKrYJg3XjixfdIzCtE3L%2BdfRt/o8fNevwsujgRzaBbugn"
-      },
-      {
-        "nombre": "DECRETO APROBACION EXPEDIENTE.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Xnm6Bpt25R1sKtarcKIkYqXHMSYErNb5kZfvKcqqa4aZwR0kA5ck5a94VQ%2BHvssqY4l8k6qd0hzZlGOLr42xpY8XhiiEHAAWp874LXAScgyHAj0WEJrB5sP7amrh2jBD"
-      }
-    ],
-    "organo": "Alcaldía del Ayuntamiento de Villaverde del Río",
-    "importe": "64645.22",
-    "importe_num": 64645.22,
-    "fecha_limite": "2026-11-13",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "9",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "3.26/27507.0250",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Servicios de asistencia técnica para el control y vigilancia de las obras del proyecto de construcción línea-400. Tratamiento terraplenes inestables entre los ppkk 323+050 al 323+500 y del proyecto de construcción para la mejora de terraplenes trayecto Vilches - Vadollano.",
-    "updated": "2026-10-29T09:05:19.659+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=vtPiEvQL2ty7JOCXkOhcDg%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71300000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=5IqVZp0lyHjIIMqHdBfeLXAkF5fxR1o/lkhaotnxdbUrcGwkstv/avM6rjyptbQNKW/QE2E9A7I9gERF8X%2B3KgGssEguXiNO%2BVtouAqA4oLVTD3T98KC0nSgQFM0q%2B5s",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1w8q2Mujk8JvA3XU1ViFUEW6dOrePz8HnIMbDrbmt%2BBsYZvMzgFwQF2dlgsdH6//skW362%2B0ZlOvPGDBk5lVS6B%2BGy1Rc43GKABrcCmqoKc//q7NB2iMZvNyf0xrJmjt",
-    "docs_adicionales": [
-      {
-        "nombre": "AccesoDocTecnica.PDF",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ytX%2BrL7pPXhbxK7cnb6UDZ9VDt2gBIb1Vi5DT/rj8fMsFZET6OdXfUkc9FcZDiWaZA9LTm6Hedy%2B4LLFWLtOMtEUGm67sZGXxSZdxBgvT7OCx2e6p7hqtlp2aFupgHMr"
-      }
-    ],
-    "organo": "ADIF - Presidencia",
-    "importe": "425395.26",
-    "importe_num": 610981.8,
-    "fecha_limite": "2026-11-30",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "1",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "CONTR 2026 0000340864",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "594/ise/2026/ja rp+ddff amplaición 1 aula, cpr sierra sur, santa ana",
-    "updated": "2026-10-28T14:41:52.074+01:00",
-    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1035171",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71000000"
-    ],
-    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/438755",
-    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/438754",
-    "docs_adicionales": [
-      {
-        "nombre": "Resolución de designación de miembros de la Mesa de Contratación.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/438846"
-      },
-      {
-        "nombre": "Memoria justificativa de la contratación.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/438774"
-      },
-      {
-        "nombre": "Acuerdo de iniciación del expediente de contratación por el órgano de contratación.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/438775"
-      }
-    ],
-    "organo": "Agencia Pública Andaluza de Educación",
-    "importe": "20580.00",
-    "importe_num": 20580.0,
-    "fecha_limite": "2026-11-23",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "999",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "agregadas",
-    "descripcion": "00594/ISE/2026/JA - SERVICIO DE REDACCIÓN DE PROYECTO Y ESTUDIO DE SEGURIDAD Y SALUD, DIRECCIÓN DE OBRA (DO Y DEO) Y COORDINACIÓN DE SEGURIDAD Y SALUD PARA LA CONSTRUCCIÓN DE EDIFICIO DE USOS MÚLTIPLES. AMPLIACIÓN DE UN ESPACIO PARA AULA ORDINARIA EN EL C",
-    "junta_consultado": "2026-10-29"
   }
 ]

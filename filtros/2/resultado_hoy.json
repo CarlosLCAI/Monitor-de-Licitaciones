@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "folder_id": "2026/000037687-Fase1",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "El present concurs de projectes té per objecte la selecció, mitjançant jurat, d’una proposta per a la realització dels serveis relatius a la redacció del projecte bàsic amb definició constructiva per a les obres de reforma de l’antic recinte industrial “La Farinera” destinat a Arxiu Comarcal del Maresme i Espais Culturals, en base a la seva qualitat arquitectònica, eficiència energètica i cicle de vida dels materials, la coherència constructiva i el cost de l’obra i manteniment.",
+    "updated": "2026-10-29T14:02:44.856+01:00",
+    "link": "https://contractaciopublica.cat/ca/detall-publicacio/0c384ff8-214e-4595-870b-ddefd198a5f6/300922777",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000"
+    ],
+    "pcap_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302735098/8A2DCDA0EF4871A543B552C53C7F9587",
+    "ppt_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302735193/FE4C277C62803DC98791F770EEC483EC",
+    "docs_adicionales": [],
+    "organo": "Ajuntament de Mataró",
+    "importe": "230031.29",
+    "importe_num": 759535.84,
+    "fecha_limite": "2026-11-27",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "8",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas"
+  }
+]

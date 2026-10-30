@@ -66,7 +66,7 @@
   },
   {
     "folder_id": "DIR260603",
-    "estado": "EV",
+    "estado": "RES",
     "titulo": "Obras de mejora de infraestructuras hidráulicas en el municipio de Huercal-Overa con financiación del contratista y pago aplazado",
     "updated": "2026-07-08T09:00:00.000+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hEUEaBQ91x5LAIVZdUs8KA%3D%3D",
@@ -100,13 +100,13 @@
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=40oTrrMeZLN3T7f7bwayJqES7clJON0xPCf5/OLLhcqU9og/IIRTi2g4RosxG0yYV5cbvmyM3Y2yJXe1gzSEQ6jXHDdDGOugqp6BJRo/10DfdyQgZAdTm3EfcUAC7CJ6"
       }
     ],
-    "estado_anterior": "PUB",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-28",
+    "estado_anterior": "EV",
+    "resultado": "desierta",
+    "estado_cambiado_el": "2026-10-30",
     "fecha_limite_anterior": null,
     "fecha_limite": "2026-09-14",
     "fecha_limite_cambiada_el": "2026-10-28",
-    "estado_updated": "2026-10-28T18:43:48.725+01:00"
+    "estado_updated": "2026-10-30T09:57:48.473+01:00"
   },
   {
     "folder_id": "P4103700C-2026/000025-PEAB",
@@ -366,7 +366,7 @@
   },
   {
     "folder_id": "364/2026",
-    "estado": "EV",
+    "estado": "RES",
     "titulo": "Contrato de servicios para la redacción del Plan General de Ordenación Municipal (PGOM) de La Guardia de Jaén, incluyendo toda la documentación urbanística, ambiental y técnica necesaria hasta su aprobación definitiva, con estricta sujeción a las condiciones y requisitos expresados en el Pliego de Prescripciones Técnicas.",
     "updated": "2026-07-15T10:26:42.671+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=B%2BgNBb6ROCnIGlsa0Wad%2Bw%3D%3D",
@@ -385,12 +385,12 @@
     "importe": "160000",
     "fecha_limite": "2026-10-22",
     "fecha_captura": "2026-07-16",
-    "estado_anterior": "RES",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-21",
+    "estado_anterior": "EV",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-10-30",
     "fecha_limite_anterior": "2026-10-08",
     "fecha_limite_cambiada_el": "2026-10-23",
-    "estado_updated": "2026-10-23T13:43:11.539+02:00",
+    "estado_updated": "2026-10-29T14:18:05.292+01:00",
     "docs_adicionales": [
       {
         "nombre": "ANEXO I y II.doc",
@@ -530,7 +530,7 @@
   },
   {
     "folder_id": "160/2026",
-    "estado": "PUB",
+    "estado": "RES",
     "titulo": "Servicio de asistencia técnica al Ayuntamiento de Iznatoraf, para la redacción Plan Básico de Ordenación Municipal (PBOM) y el Plan Especial de Protección del Patrimonio Histórico (PEPPH).",
     "updated": "2026-07-21T18:24:04.681+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=CqCs6W%2BKVz%2Fs%2BnLj3vAg5A%3D%3D",
@@ -544,7 +544,7 @@
     "organo": "Alcaldía del Ayuntamiento de Iznatoraf",
     "importe": "120000",
     "importe_num": 120000,
-    "fecha_limite": "2026-10-26",
+    "fecha_limite": "2026-09-28",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -557,12 +557,12 @@
       "fecha_analisis": "2026-07-22T12:34:46.237172+00:00"
     },
     "fecha_captura": "2026-07-22",
-    "estado_anterior": "RES",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-22",
-    "estado_updated": "2026-10-22T12:55:37.151+02:00",
-    "fecha_limite_anterior": "2026-09-17",
-    "fecha_limite_cambiada_el": "2026-10-22",
+    "estado_anterior": "PUB",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-10-30",
+    "estado_updated": "2026-10-29T13:06:53.681+01:00",
+    "fecha_limite_anterior": "2026-10-26",
+    "fecha_limite_cambiada_el": "2026-10-30",
     "docs_adicionales": [
       {
         "nombre": "160-2026_ANEXO III_MODELO DE PROPOSICION ECONOMICA Y CRITERIOS AUTIMATICOS AZAFATAS.docx",
@@ -1261,7 +1261,7 @@
   },
   {
     "folder_id": "6491/2026",
-    "estado": "ADJ",
+    "estado": "RES",
     "titulo": "Redacción del Plan Básico de Ordenación Municipal del Ayuntamiento de Castro del Río. Financiado a través de subvención del Plan de Humanización de Entornos Urbanos y Agenda Rural 2024-2027 de la Excma. Diputación Provincial de Córdoba.",
     "updated": "2026-08-12T12:31:15.173+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fUECMGYuI5M3vLk2DU2Ddg%3D%3D",
@@ -1287,16 +1287,16 @@
       "fecha_analisis": "2026-08-15T03:56:12.751476+00:00"
     },
     "fecha_captura": "2026-08-15",
-    "estado_anterior": "RES",
+    "estado_anterior": "ADJ",
     "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-16",
-    "estado_updated": "2026-10-16T12:29:39.680+02:00",
+    "estado_cambiado_el": "2026-10-30",
+    "estado_updated": "2026-10-29T11:52:26.450+01:00",
     "fecha_limite_anterior": "2026-08-11",
     "fecha_limite_cambiada_el": "2026-10-16"
   },
   {
     "folder_id": "34/2026",
-    "estado": "EV",
+    "estado": "RES",
     "titulo": "Servicio para la redacción de Proyecto Básico y de Ejecución, Estudio de Seguridad y Salud, de las obras de rehabilitación integral de las dos naves industriales de la antigua Algodonera Virgen de los Reyes, para su adaptación a Centro de Orientación, Acompañamiento e Innovación para el Empleo situado en el barrio Alcosa (Fase-1), así como a la asistencia técnica a la Dirección de Obra.",
     "updated": "2026-08-12T10:09:41.330+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=j08%2BBegnUWAwYTJJ03sHog%3D%3D",
@@ -1322,10 +1322,10 @@
       "fecha_analisis": "2026-08-15T03:57:04.182693+00:00"
     },
     "fecha_captura": "2026-08-15",
-    "estado_anterior": "RES",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-29",
-    "estado_updated": "2026-10-28T14:02:35.188+01:00",
+    "estado_anterior": "EV",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-10-30",
+    "estado_updated": "2026-10-29T10:06:39.623+01:00",
     "fecha_limite_anterior": "2026-10-22",
     "fecha_limite_cambiada_el": "2026-10-29",
     "docs_adicionales": [
@@ -3157,8 +3157,8 @@
   },
   {
     "folder_id": "1/2026",
-    "estado": "PUB",
-    "resultado": null,
+    "estado": "ADJ",
+    "resultado": "adjudicada",
     "titulo": "Servicios de Actualización del Proyecto de Urbanización, Dirección Facultativa y Coordinador de Seguridad y Salud, así como seguimiento y asesoramiento técnico durante el proceso de licitación de las obras de Urbanización del ámbito del Sector SUP-O1 EL RODEO del PGOU de Estepona.",
     "updated": "2026-10-29T14:22:21.451+01:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lO21u2TbovJLAIVZdUs8KA%3D%3D",
@@ -3181,25 +3181,26 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YT6JPBSl4vzEdmckXX0fDOoSNl4i/UHKLub2bttzQGr1PT7k3dEFPFvc3lmpw3mlSb3ERR9UABw78u%2BsVyo/kf7Sn9ZiV29OEVzRlIIfmtLVTD3T98KC0nSgQFM0q%2B5s",
     "docs_adicionales": [
       {
-        "nombre": "PPT DIREC FACULTA.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Pn6oaWHrU/GqblQcSi2WCsuovx443IjU6FbkMfjEUt%2Bmm5AIvYCclBweaG6oW2k%2BuAHWp9ubYq3/mkqN%2BQmfUg2tuIdfvjpwZPPnJopwTgLDdQD9RyhUmzT4jZ2In4zL"
-      },
-      {
-        "nombre": "PPT SEG Y SALUD.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=%2BBejYnhOzNKip38kwym0qZjlNfTXectYw%2Bc3Q/mXV2OXXIk46uBn12OpDYHw53ARmrrYpIRkWyp7hwfMjo1OqJ8g/TbO%2B0i/WYVpNk9S0Y57QB3HKyQaFUExmUVQCerk"
+        "nombre": "PCAP_clausulas_generales.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=cc44YZfFDlUv8MiiklnusrS/Dof0zTMUtRwX1Q2MkjSWMmUjQ%2BhLlcKU1Izc3VlmOxBQCZgFCcd95gkAbssbzTZnUkpLp5k7agBdWToXcAkZyAJWGsSt0OzTSTyw9JAs"
       }
     ],
     "organo": "Junta de Compensación Sector Sup-01 El Rodeo",
     "importe": "254930",
     "importe_num": 254930.0,
-    "fecha_limite": "2026-12-04",
+    "fecha_limite": "2026-10-15",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-10-29"
+    "fecha_captura": "2026-10-29",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-30",
+    "fecha_limite_anterior": "2026-12-04",
+    "fecha_limite_cambiada_el": "2026-10-30",
+    "estado_updated": "2026-10-30T13:09:13.837+01:00"
   },
   {
     "folder_id": "3013/2026",
@@ -3243,5 +3244,122 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-29"
+  },
+  {
+    "folder_id": "12194/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de Servicios para la Redacción de Avance de POU.",
+    "updated": "2026-10-30T11:17:11.455+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=vN8C%2F2tthFFVkTabT%2FRM8A%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71400000",
+      "71410000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=XiPJcRTTTfjfzemrW9qZkwumbRnePs0xs6BNubzbhrOzAWH4NfZUOc65PMgGKZs6uX94H1Q8nLi3d3BgeCozyJYYUEwIhfB41jbTiqHWFZOHAj0WEJrB5sP7amrh2jBD",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=sD020d5pmdrxmEjUOQGOniXEXWPUDy5aJGQjIupVzCVYA65drUyCrPvp0F4pX48u0NX1hrwkKLp/f75ovzjydvUYe82ihA6sMY6tdQ7K4dzfdyQgZAdTm3EfcUAC7CJ6",
+    "docs_adicionales": [
+      {
+        "nombre": "Anexo III__B Avance POU.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=uusj21cmfVvLRKvyr8fFcxyWjSrjlA%2BRH4bBuv2ahQY4anFsApEZVlHDVcJ7z4CuLc2g%2B4wgNRvVZs6TxoZsHzkt5bWq7PX2kTIUIck0%2BAIC1/zDIE0Kw/PWNnLS0Z0z"
+      },
+      {
+        "nombre": "Anexo Medios Personales y Materiales.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=btXSpFC1oiInmetBzPx4c0ZRRx8aOrV3TsruijZhlMuIVBnYtWf9F/z8xvlDt/RaGKHXoKDDH2FriHaHUYexeK0JBi/rZnTkmotpVQb3nPp7QB3HKyQaFUExmUVQCerk"
+      },
+      {
+        "nombre": "PCAP Tipo Contrato de Servicios.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=zfBo3rnxJAroT8Ida4dnCjxtZgojgFhpbylQQ61CsT6LV22/dzbqd2voOWm%2B3wSQD9DKF%2B73gjbIUrbaUPl54fWOHHM4mr2JabBI3LC6ysp7QB3HKyQaFUExmUVQCerk"
+      },
+      {
+        "nombre": "Anexo II A y B Modelo Declaracion Responsable Complementaria al DEUC.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=3gL9RjUyhvEQt%2BDyycIjcBzXFQCAMy8wa1EfpvxJrpoh2SwfYxYyxgV68UAh%2BbQfiMH/oN4cAwD5xs%2BTBuv3x6wxiR20t59jjiZzh4zbQ8H6CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "DEUC.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=a9NWWF/zwuDV6SpX41naQ5HVWL%2B5nU6j49SnEojSitwVQaL866bVafjTWo3GsYBFtjbfRnS7lkWlZayh%2BccEbkUoOM/bqXhKKU8PMOhDSYy1aXEvq3KHa/AEHgtDrQw0"
+      },
+      {
+        "nombre": "Anexo XII Ficha de Terceros.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=vUMKT9XnXqy1lcIoSmYaVHX5Ml9VTT1bfMbeHv3oQTGjotrGx%2BjBpMkte9bh6xfjk0UHw/Z%2BNdA6F1qhacDFi74p6g%2B2SnBoN%2BOi3WixCenDdQD9RyhUmzT4jZ2In4zL"
+      }
+    ],
+    "organo": "Junta de Gobierno del Ayuntamiento de Camas",
+    "importe": "70247.93",
+    "importe_num": 70247.93,
+    "fecha_limite": "2026-11-19",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-10-30"
+  },
+  {
+    "folder_id": "15847/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicios de Redacción del Proyecto Básico y de Ejecución, Estudio de Seguridad y Salud, Dirección de Obra, Dirección de Ejecución de Obra y Coordinación en materia de Seguridad y Salud durante la Ejecución de las Obras de COMPLEJO DEPORTIVO CIUDAD DE LA RAQUETA.",
+    "updated": "2026-10-30T08:35:25.626+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ntYW9f8DaohQFSeKCRun4Q%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=UAhM8ugp1FIvkVZqNvg9UTGmYR8tBbQLAnrvkAIEpykoM4Ecl70EakQgmWap/HlN8lZxLCG4UW30O58rpR5/hPcCizPzWPqgoNfk6G/KbQn6CYyL7SIrUOBFfNf52ZqA",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=45hMBlzkn75f5HVPeLpmUnTzxsRqIrwdqFixWdRF66ZHgj5hR4QXjJFdFVA4GnmrhuuG1Uv5PV4gErB98buco5ZudryZ/YZqbrVQPeJggP97QB3HKyQaFUExmUVQCerk",
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXOS PLIEGO EXPTTE 15847.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Q1fESHH2ZgwXzvUaVPTC5yxc98n3qgOBk33cJiWu53fBB12u8YMSnKwe74OXAMSLKZnHcUKVPMMXEO9cNURbqRnN/NgF/MesYlRXbNwM3vH6CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "ANEXO A.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=mdkO2NqCFP5XiZ%2BUpwA3nnKuZ/eUvfD83x0Q9OYPP2WlXD6gBecnZXcJI/sl9xkLD5Pseut4WFtcN31Ow32xmQ0Ob2WySb7I%2B2TleKcG6m145ClyWkoJ44mKM70IFcOu"
+      },
+      {
+        "nombre": "ANEXO F.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=nn/aXGQaJJERcoQi/K3gJOn%2BTx/%2B/z8imLFjQ6qxUADLflv6cbOWi2WBCZp4r5GPG92mGKICo%2BZ2ttJuNtD4T96GWejegeYmBCOQZhEcw3Z7QB3HKyQaFUExmUVQCerk"
+      },
+      {
+        "nombre": "ANEXO E.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YyhbqFIakT7ao1ccPa2y%2BDwVjiz5WrySNJ9pJwx%2BuznQ0KXAOEij3T3Aygn%2BLvNlydCOEoTYUzlxKYc3E9Qbez555jwtZiHDvb77qBw4RMbVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "ANEXO B.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=WrywmLq1vaXXIzNOQWSLoe3qBIJrFJay3T5KYwjyYlo5GrtyAZqEp%2BNtwlDhTBrOSzYzCNwaRassMOwdh5zkNjxF4VlwnIFre6xJDVgaOOr3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "MODELO DE DATOS BANCARIOS MOD TES 001.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=79vMjxttSp4kGZRrm8rw3OyDW9zUXggNYuBPQ0ZFGYoHCtMfDeKv16/ClbLQ1BawU/CCVQP75DPyMAdM96UzKq/S1z1UtPScKVNLwj%2BUKUyB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "ANEXO C.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=mEbvUnbT4h/3qWnaaPumV7FUQz9jVr/KH1jhXrAiSswm%2Br%2Bp2LGH7d%2BJgmhBJ47aX/kJj2GX80vtfj2pC524%2BIEbjoQWLLGJ0DxvUcdq3RjVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "ANEXO H.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=pDGVJBqAo3fvRjmbNgXuvsDppquQ0GP6Sn250hXxmagklULMNGTBsLYx7oyDjCpHQDrDNRvMCs05lq4UsUVsOEtTQPafIhxe%2B6mjVemXfExt/o8fNevwsujgRzaBbugn"
+      },
+      {
+        "nombre": "ANEXO G.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QQxTx8bB6PcJq362FBJqxvZeiK2RIFdXaujZ710XggAjY1N1d6dkHMcV7opQJX5FnIHoFU3BjQQ4XoYxKh6vQ4ESsYSKhkiWlJ1gSAR/pPeCx2e6p7hqtlp2aFupgHMr"
+      }
+    ],
+    "organo": "Junta de Gobierno del Ayuntamiento de La Rinconada",
+    "importe": "208170",
+    "importe_num": 208170.0,
+    "fecha_limite": "2026-11-16",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-10-30"
   }
 ]

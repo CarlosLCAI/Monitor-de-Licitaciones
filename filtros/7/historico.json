@@ -366,7 +366,7 @@
   },
   {
     "folder_id": "CONTR 2026 0000297638",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "370/ise/2026/ja rp+ddff bioclima cpr ntra sra de lorite, lupión",
     "updated": "2026-10-07T19:41:04.509+02:00",
@@ -399,7 +399,9 @@
     "descripcion": "00370/ISE/2026/JA - SERVICIO DE REDACCIÓN DE PROYECTO Y ESTUDIO DE SEGURIDAD Y SALUD, DIRECCIONES FACULTATIVAS (DO Y DEO) Y COORDINACIÓN DE SEGURIDAD Y SALUD PARA LA BIOCLIMATIZACIÓN CON APOYO DE ENERGÍA FOTOVOLTAICA EN EL CPR NTRA SRA DE LORITE DE LUPIÓN",
     "fecha_limite_anterior": "2026-10-22",
     "fecha_limite_cambiada_el": "2026-10-15",
-    "estado_updated": "2026-10-14T15:41:39.913+02:00"
+    "estado_updated": "2026-10-29T19:41:53.289+01:00",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-30"
   },
   {
     "folder_id": "CONTR 2026 0000297632",
@@ -3773,8 +3775,8 @@
   },
   {
     "folder_id": "1/2026",
-    "estado": "PUB",
-    "resultado": null,
+    "estado": "ADJ",
+    "resultado": "adjudicada",
     "titulo": "Servicios de Actualización del Proyecto de Urbanización, Dirección Facultativa y Coordinador de Seguridad y Salud, así como seguimiento y asesoramiento técnico durante el proceso de licitación de las obras de Urbanización del ámbito del Sector SUP-O1 EL RODEO del PGOU de Estepona.",
     "updated": "2026-10-29T14:22:21.451+01:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lO21u2TbovJLAIVZdUs8KA%3D%3D",
@@ -3797,25 +3799,26 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YT6JPBSl4vzEdmckXX0fDOoSNl4i/UHKLub2bttzQGr1PT7k3dEFPFvc3lmpw3mlSb3ERR9UABw78u%2BsVyo/kf7Sn9ZiV29OEVzRlIIfmtLVTD3T98KC0nSgQFM0q%2B5s",
     "docs_adicionales": [
       {
-        "nombre": "PPT DIREC FACULTA.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Pn6oaWHrU/GqblQcSi2WCsuovx443IjU6FbkMfjEUt%2Bmm5AIvYCclBweaG6oW2k%2BuAHWp9ubYq3/mkqN%2BQmfUg2tuIdfvjpwZPPnJopwTgLDdQD9RyhUmzT4jZ2In4zL"
-      },
-      {
-        "nombre": "PPT SEG Y SALUD.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=%2BBejYnhOzNKip38kwym0qZjlNfTXectYw%2Bc3Q/mXV2OXXIk46uBn12OpDYHw53ARmrrYpIRkWyp7hwfMjo1OqJ8g/TbO%2B0i/WYVpNk9S0Y57QB3HKyQaFUExmUVQCerk"
+        "nombre": "PCAP_clausulas_generales.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=cc44YZfFDlUv8MiiklnusrS/Dof0zTMUtRwX1Q2MkjSWMmUjQ%2BhLlcKU1Izc3VlmOxBQCZgFCcd95gkAbssbzTZnUkpLp5k7agBdWToXcAkZyAJWGsSt0OzTSTyw9JAs"
       }
     ],
     "organo": "Junta de Compensación Sector Sup-01 El Rodeo",
     "importe": "254930",
     "importe_num": 254930.0,
-    "fecha_limite": "2026-12-04",
+    "fecha_limite": "2026-10-15",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-10-29"
+    "fecha_captura": "2026-10-29",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-30",
+    "fecha_limite_anterior": "2026-12-04",
+    "fecha_limite_cambiada_el": "2026-10-30",
+    "estado_updated": "2026-10-30T13:09:13.837+01:00"
   },
   {
     "folder_id": "SE 34/2026",
@@ -3992,5 +3995,48 @@
     "descripcion": "00594/ISE/2026/JA - SERVICIO DE REDACCIÓN DE PROYECTO Y ESTUDIO DE SEGURIDAD Y SALUD, DIRECCIÓN DE OBRA (DO Y DEO) Y COORDINACIÓN DE SEGURIDAD Y SALUD PARA LA CONSTRUCCIÓN DE EDIFICIO DE USOS MÚLTIPLES. AMPLIACIÓN DE UN ESPACIO PARA AULA ORDINARIA EN EL C",
     "junta_consultado": "2026-10-29",
     "fecha_captura": "2026-10-29"
+  },
+  {
+    "folder_id": "27/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Sistema Dinámico de Adquisición de servicios de asesoramiento y consultoría",
+    "updated": "2026-10-30T09:57:59.058+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=OwrXVPrv8sq7JOCXkOhcDg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "79410000",
+      "79111000",
+      "79140000",
+      "71300000",
+      "71356200",
+      "72220000",
+      "72600000",
+      "71318000",
+      "71310000",
+      "71300000",
+      "72220000",
+      "79140000",
+      "72600000",
+      "71356200",
+      "79111000",
+      "71310000",
+      "71318000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4TRkIoob/FeQ3bPbSguLqRBXcYm%2Bk1LJ6NRnuf8lvATYytiwrJ9Z2HKXfA9hOagh3MV3B0puThU8GPzzP82G//o2JQ3MUowSe3tn%2BtdmySR45ClyWkoJ44mKM70IFcOu",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/IHwvzevUfMsv5fWfDjAe82Suhgb72HQwvRz0AHiWmtmYlRns/dAe0ImWPHCYrLAPz9U/AZa92RzJl2NRaUkuudLKSci1beATMWEUWwhE5OHAj0WEJrB5sP7amrh2jBD",
+    "docs_adicionales": [],
+    "organo": "Asamblea General del Consorcio Sierra Nevada Vega Sur",
+    "importe": "0",
+    "importe_num": 600000.0,
+    "fecha_limite": "2030-10-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "2",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-10-30"
   }
 ]
