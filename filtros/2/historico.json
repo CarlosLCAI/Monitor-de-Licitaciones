@@ -817,5 +817,32 @@
     "importe_match": true,
     "fuente": "agregadas",
     "fecha_captura": "2026-10-30"
+  },
+  {
+    "folder_id": "LGN_2026_CS_02",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contratación de servicios de urbanismo mediante concurso de proyectos con intervención de jurado para la obtención de propuestas urbanísticas de ordenación sostenible e innovadora de unos terrenos a incluir en el ámbito de actuación del Consorcio Urbanístico Leganés Norte, «Puerta de Madrid»",
+    "updated": "2026-10-30T13:56:09.250+01:00",
+    "link": "https://contratos-publicos.comunidad.madrid/contrato-publico/contratacion-servicios-urbanismo-concurso-proyectos-intervencion-jurado-obtencion",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71410000"
+    ],
+    "pcap_url": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/lgn_2026_cs_02-20260817-pliego_aprobado_anonimizado.pdf",
+    "ppt_url": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-08/lgn_2026_cs_02-20260817-pptp_aprobado_anonimizado_0.pdf",
+    "docs_adicionales": [],
+    "organo": "Consorcio Urbanístico Leganés Norte",
+    "importe": "536618.07",
+    "importe_num": 536618.07,
+    "fecha_limite": "2026-11-06",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "8",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas",
+    "fecha_captura": "2026-10-31"
   }
 ]

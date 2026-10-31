@@ -452,7 +452,7 @@
     "organo": "Junta de Compensación Sector Sup-01 El Rodeo",
     "importe": "254930",
     "importe_num": 254930.0,
-    "fecha_limite": "2026-10-15",
+    "fecha_limite": "2026-08-03",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -462,9 +462,9 @@
     "fecha_captura": "2026-10-29",
     "estado_anterior": "PUB",
     "estado_cambiado_el": "2026-10-30",
-    "fecha_limite_anterior": "2026-12-04",
-    "fecha_limite_cambiada_el": "2026-10-30",
-    "estado_updated": "2026-10-30T13:09:13.837+01:00"
+    "fecha_limite_anterior": "2026-10-15",
+    "fecha_limite_cambiada_el": "2026-10-31",
+    "estado_updated": "2026-10-30T16:05:45.087+01:00"
   },
   {
     "folder_id": "CONTR 2026 0000337362",

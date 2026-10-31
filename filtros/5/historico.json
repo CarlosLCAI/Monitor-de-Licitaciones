@@ -2643,8 +2643,8 @@
   },
   {
     "folder_id": "2203/2026",
-    "estado": "EV",
-    "resultado": null,
+    "estado": "RES",
+    "resultado": "adjudicada",
     "titulo": "Contratación de la redacción del proyecto, estudio de seguridad y salud, dirección facultativa y coordinación de seguridad y salud del aliviadero del emisario del CEIP BENAFELIX",
     "updated": "2026-10-08T13:38:54.111+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=1sKuvLqRo5w%2Bk2oCbDosIw%3D%3D",
@@ -2714,9 +2714,9 @@
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=OM1AbQfJDwiP6o5A2vxXH/u%2B7UDgY3N5Qtqx960kfC804G/lpHYqlcMlG6BU6E9C%2BivHyEoWCCJ3sBgd9iC9w0JzTjRes4wNgcAfamQOL/Z7QB3HKyQaFUExmUVQCerk"
       }
     ],
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-10-27",
-    "estado_updated": "2026-10-27T11:36:18.728+01:00"
+    "estado_anterior": "EV",
+    "estado_cambiado_el": "2026-10-31",
+    "estado_updated": "2026-10-30T09:45:08.828+01:00"
   },
   {
     "folder_id": "26449 PROYECTO AQUILLA DEL AGUA",
@@ -4357,8 +4357,8 @@
   },
   {
     "folder_id": "78/26",
-    "estado": "ADJ",
-    "resultado": "adjudicada",
+    "estado": "EV",
+    "resultado": null,
     "titulo": "Contrato de servicio para la redacción de proyectos eléctricos para ampliazión de la instalación eléctrica de baja tensión para el sistema de climatización en los centros de educación infantil y primaria del municipio de Los Barrios (Cádiz), responsable del contrato de obras y dirección facultativa. \r\n\r\n",
     "updated": "2026-10-15T09:43:47.828+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=icZvKODnjthPpzdqOdhuWg%3D%3D",
@@ -4372,7 +4372,7 @@
     "organo": "Alcaldía del Ayuntamiento de Los Barrios (Cádiz)",
     "importe": "35700",
     "importe_num": 35700,
-    "fecha_limite": "2026-08-06",
+    "fecha_limite": "2026-10-21",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -4382,11 +4382,11 @@
     "revisado_humano": true,
     "revisado_fecha": "2026-10-20T09:52:09.348Z",
     "revisado_por": "Belén Fernández",
-    "estado_anterior": "EV",
-    "estado_cambiado_el": "2026-10-29",
-    "fecha_limite_anterior": "2026-10-21",
-    "fecha_limite_cambiada_el": "2026-10-29",
-    "estado_updated": "2026-10-29T13:37:37.195+01:00"
+    "estado_anterior": "ADJ",
+    "estado_cambiado_el": "2026-10-31",
+    "fecha_limite_anterior": "2026-08-06",
+    "fecha_limite_cambiada_el": "2026-10-31",
+    "estado_updated": "2026-10-30T15:11:34.880+01:00"
   },
   {
     "folder_id": "CONTR 2026 0000237603",
@@ -4692,7 +4692,7 @@
   },
   {
     "folder_id": "CONTR 2026 0000183803",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "gbio-recogida, transporte e incineración residuos crea almeria.",
     "updated": "2026-10-16T14:41:33.477+02:00",
@@ -4715,7 +4715,10 @@
     "importe_match": true,
     "descripcion": "GBIO-SERVICIO DE RECOGIDA, TRANSPORTE E INCINERACIÓN DE MATERIAL BIOLÓGICO (SANDACH) PROCEDENTE DEL CENTRO DE RECUPERACIÓN DE ESPECIES AMENAZADAS LAS ALMOHALLAS  Y RETIRADA DE MORTANDADES EVENTUALES DE ANIMALES SILVESTRES Y MARINOS AMAyA",
     "junta_consultado": "2026-10-17",
-    "fecha_captura": "2026-10-17"
+    "fecha_captura": "2026-10-17",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-31",
+    "estado_updated": "2026-10-30T13:41:54.890+01:00"
   },
   {
     "folder_id": "CONTR 2026 0000105137",
@@ -6121,7 +6124,7 @@
     "organo": "Junta de Compensación Sector Sup-01 El Rodeo",
     "importe": "254930",
     "importe_num": 254930.0,
-    "fecha_limite": "2026-10-15",
+    "fecha_limite": "2026-08-03",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -6131,9 +6134,9 @@
     "fecha_captura": "2026-10-29",
     "estado_anterior": "PUB",
     "estado_cambiado_el": "2026-10-30",
-    "fecha_limite_anterior": "2026-12-04",
-    "fecha_limite_cambiada_el": "2026-10-30",
-    "estado_updated": "2026-10-30T13:09:13.837+01:00"
+    "fecha_limite_anterior": "2026-10-15",
+    "fecha_limite_cambiada_el": "2026-10-31",
+    "estado_updated": "2026-10-30T16:05:45.087+01:00"
   },
   {
     "folder_id": "3013/2026",
@@ -6447,8 +6450,8 @@
   },
   {
     "folder_id": "27/2026",
-    "estado": "PUB",
-    "resultado": null,
+    "estado": "RES",
+    "resultado": "adjudicada",
     "titulo": "Sistema Dinámico de Adquisición de servicios de asesoramiento y consultoría",
     "updated": "2026-10-30T09:57:59.058+01:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=OwrXVPrv8sq7JOCXkOhcDg%3D%3D",
@@ -6486,7 +6489,10 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-10-30"
+    "fecha_captura": "2026-10-30",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-10-31",
+    "estado_updated": "2026-10-30T13:35:18.354+01:00"
   },
   {
     "folder_id": "15847/2026",
@@ -6593,5 +6599,64 @@
     "descripcion": "REDACCIÓN PROYECTO BÁSICO Y EJECUCIÓN, ESTUDIO DE SEGURIDAD Y SALUD, DIRECCIÓN DE OBRA Y COORDINACIÓN DE SEGURIDAD Y SALUD DE OBRAS ACCESO, CENTRO DE INTERPRETACIÓN Y ACTUACIONES COMPLEMENTARIAS DE REH EN LA TORRE CAMARÍN INTEGRADA EN GRUPO PPV M7179AY",
     "junta_consultado": "2026-10-30",
     "fecha_captura": "2026-10-30"
+  },
+  {
+    "folder_id": "CONTR 2026 0000256565",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "0000452/2026 servicio de redacción de proyecto, estudio básico de seguridad y salud, dirección facultativa y coordinación de seguridad y salud para la instalación de energía solar fotovoltaica en distintos centros sanitarios y hospitales del servicio andaluz de salud de la provincia de jaén. financiado 85% fondos feder del marco 21-27",
+    "updated": "2026-10-30T13:42:07.964+01:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1011656",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71500000",
+      "71300000"
+    ],
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430558",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430555",
+    "docs_adicionales": [
+      {
+        "nombre": "01_3ª_MEMORIA_SUSTITUTIVA_FOTOVOLTA_3(F) (1).pdf",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430564"
+      },
+      {
+        "nombre": "RESOLUCIÓN AMPLIACIÓN PLAZO PA 452",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/439344"
+      },
+      {
+        "nombre": "2. RESOLUCIÓN INICIO(F) (2).pdf",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430559"
+      },
+      {
+        "nombre": "3. CERTIFICADO EXISTENCIA DE CRÉDITO R(F).PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430560"
+      },
+      {
+        "nombre": "Resolución sobre Mesas de Contratación",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430973"
+      },
+      {
+        "nombre": "00_ INSUFICIENCIA DE MEDIOS PA452_2026(F).PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430556"
+      },
+      {
+        "nombre": "DEUC",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430971"
+      }
+    ],
+    "organo": "Servicio Andaluz de Salud",
+    "importe": "392147.16",
+    "importe_num": 392147.16,
+    "fecha_limite": "2026-11-13",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas",
+    "descripcion": "SERVICIO DE REDACCIÓN DE PROYECTO, ESTUDIO BÁSICO DE SEGURIDAD Y SALUD, DIRECCIÓN FACULTATIVA Y COORDINACIÓN DE SEGURIDAD Y SALUD PARA LA INSTALACIÓN DE ENERGÍA SOLAR FOTOVOLTAICA EN DISTINTOS CENTROS SANITARIOS Y HOSPITALES DEL SERVICIO ANDALUZ DE SALUD DE LA PROVINCIA DE JAÉN. FINANCIADO 85% FONDOS FEDER DEL MARCO 21-27",
+    "junta_consultado": "2026-10-31",
+    "fecha_captura": "2026-10-31"
   }
 ]

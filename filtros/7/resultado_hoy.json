@@ -1,44 +1,60 @@
 [
   {
-    "folder_id": "27/2026",
+    "folder_id": "CONTR 2026 0000256565",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Sistema Dinámico de Adquisición de servicios de asesoramiento y consultoría",
-    "updated": "2026-10-30T09:57:59.058+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=OwrXVPrv8sq7JOCXkOhcDg%3D%3D",
+    "titulo": "0000452/2026 servicio de redacción de proyecto, estudio básico de seguridad y salud, dirección facultativa y coordinación de seguridad y salud para la instalación de energía solar fotovoltaica en distintos centros sanitarios y hospitales del servicio andaluz de salud de la provincia de jaén. financiado 85% fondos feder del marco 21-27",
+    "updated": "2026-10-30T13:42:07.964+01:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1011656",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "79410000",
-      "79111000",
-      "79140000",
-      "71300000",
-      "71356200",
-      "72220000",
-      "72600000",
-      "71318000",
-      "71310000",
-      "71300000",
-      "72220000",
-      "79140000",
-      "72600000",
-      "71356200",
-      "79111000",
-      "71310000",
-      "71318000"
+      "71500000",
+      "71300000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4TRkIoob/FeQ3bPbSguLqRBXcYm%2Bk1LJ6NRnuf8lvATYytiwrJ9Z2HKXfA9hOagh3MV3B0puThU8GPzzP82G//o2JQ3MUowSe3tn%2BtdmySR45ClyWkoJ44mKM70IFcOu",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/IHwvzevUfMsv5fWfDjAe82Suhgb72HQwvRz0AHiWmtmYlRns/dAe0ImWPHCYrLAPz9U/AZa92RzJl2NRaUkuudLKSci1beATMWEUWwhE5OHAj0WEJrB5sP7amrh2jBD",
-    "docs_adicionales": [],
-    "organo": "Asamblea General del Consorcio Sierra Nevada Vega Sur",
-    "importe": "0",
-    "importe_num": 600000.0,
-    "fecha_limite": "2030-10-30",
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430558",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430555",
+    "docs_adicionales": [
+      {
+        "nombre": "01_3ª_MEMORIA_SUSTITUTIVA_FOTOVOLTA_3(F) (1).pdf",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430564"
+      },
+      {
+        "nombre": "RESOLUCIÓN AMPLIACIÓN PLAZO PA 452",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/439344"
+      },
+      {
+        "nombre": "2. RESOLUCIÓN INICIO(F) (2).pdf",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430559"
+      },
+      {
+        "nombre": "3. CERTIFICADO EXISTENCIA DE CRÉDITO R(F).PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430560"
+      },
+      {
+        "nombre": "Resolución sobre Mesas de Contratación",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430973"
+      },
+      {
+        "nombre": "00_ INSUFICIENCIA DE MEDIOS PA452_2026(F).PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430556"
+      },
+      {
+        "nombre": "DEUC",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430971"
+      }
+    ],
+    "organo": "Servicio Andaluz de Salud",
+    "importe": "392147.16",
+    "importe_num": 392147.16,
+    "fecha_limite": "2026-11-13",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
-    "procedimiento": "2",
+    "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
-    "fuente": "perfiles"
+    "fuente": "agregadas",
+    "descripcion": "SERVICIO DE REDACCIÓN DE PROYECTO, ESTUDIO BÁSICO DE SEGURIDAD Y SALUD, DIRECCIÓN FACULTATIVA Y COORDINACIÓN DE SEGURIDAD Y SALUD PARA LA INSTALACIÓN DE ENERGÍA SOLAR FOTOVOLTAICA EN DISTINTOS CENTROS SANITARIOS Y HOSPITALES DEL SERVICIO ANDALUZ DE SALUD DE LA PROVINCIA DE JAÉN. FINANCIADO 85% FONDOS FEDER DEL MARCO 21-27",
+    "junta_consultado": "2026-10-31"
   }
 ]

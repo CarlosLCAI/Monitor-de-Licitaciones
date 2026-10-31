@@ -2044,8 +2044,8 @@
   },
   {
     "folder_id": "2203/2026",
-    "estado": "EV",
-    "resultado": null,
+    "estado": "RES",
+    "resultado": "adjudicada",
     "titulo": "Contratación de la redacción del proyecto, estudio de seguridad y salud, dirección facultativa y coordinación de seguridad y salud del aliviadero del emisario del CEIP BENAFELIX",
     "updated": "2026-10-08T13:38:54.111+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=1sKuvLqRo5w%2Bk2oCbDosIw%3D%3D",
@@ -2115,9 +2115,9 @@
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=OM1AbQfJDwiP6o5A2vxXH/u%2B7UDgY3N5Qtqx960kfC804G/lpHYqlcMlG6BU6E9C%2BivHyEoWCCJ3sBgd9iC9w0JzTjRes4wNgcAfamQOL/Z7QB3HKyQaFUExmUVQCerk"
       }
     ],
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-10-27",
-    "estado_updated": "2026-10-27T11:36:18.728+01:00"
+    "estado_anterior": "EV",
+    "estado_cambiado_el": "2026-10-31",
+    "estado_updated": "2026-10-30T09:45:08.828+01:00"
   },
   {
     "folder_id": "26449 PROYECTO AQUILLA DEL AGUA",
@@ -2633,8 +2633,8 @@
   },
   {
     "folder_id": "78/26",
-    "estado": "ADJ",
-    "resultado": "adjudicada",
+    "estado": "EV",
+    "resultado": null,
     "titulo": "Contrato de servicio para la redacción de proyectos eléctricos para ampliazión de la instalación eléctrica de baja tensión para el sistema de climatización en los centros de educación infantil y primaria del municipio de Los Barrios (Cádiz), responsable del contrato de obras y dirección facultativa. \r\n\r\n",
     "updated": "2026-10-15T09:43:47.828+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=icZvKODnjthPpzdqOdhuWg%3D%3D",
@@ -2648,7 +2648,7 @@
     "organo": "Alcaldía del Ayuntamiento de Los Barrios (Cádiz)",
     "importe": "35700",
     "importe_num": 35700,
-    "fecha_limite": "2026-08-06",
+    "fecha_limite": "2026-10-21",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -2658,11 +2658,11 @@
     "revisado_humano": true,
     "revisado_fecha": "2026-10-20T09:52:09.348Z",
     "revisado_por": "Belén Fernández",
-    "estado_anterior": "EV",
-    "estado_cambiado_el": "2026-10-29",
-    "fecha_limite_anterior": "2026-10-21",
-    "fecha_limite_cambiada_el": "2026-10-29",
-    "estado_updated": "2026-10-29T13:37:37.195+01:00"
+    "estado_anterior": "ADJ",
+    "estado_cambiado_el": "2026-10-31",
+    "fecha_limite_anterior": "2026-08-06",
+    "fecha_limite_cambiada_el": "2026-10-31",
+    "estado_updated": "2026-10-30T15:11:34.880+01:00"
   },
   {
     "folder_id": "8/2026 (652/2026)",
@@ -3188,7 +3188,7 @@
     "organo": "Junta de Compensación Sector Sup-01 El Rodeo",
     "importe": "254930",
     "importe_num": 254930.0,
-    "fecha_limite": "2026-10-15",
+    "fecha_limite": "2026-08-03",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -3198,9 +3198,9 @@
     "fecha_captura": "2026-10-29",
     "estado_anterior": "PUB",
     "estado_cambiado_el": "2026-10-30",
-    "fecha_limite_anterior": "2026-12-04",
-    "fecha_limite_cambiada_el": "2026-10-30",
-    "estado_updated": "2026-10-30T13:09:13.837+01:00"
+    "fecha_limite_anterior": "2026-10-15",
+    "fecha_limite_cambiada_el": "2026-10-31",
+    "estado_updated": "2026-10-30T16:05:45.087+01:00"
   },
   {
     "folder_id": "3013/2026",
