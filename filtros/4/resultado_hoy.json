@@ -1,60 +1,69 @@
 [
   {
-    "folder_id": "CONTR 2026 0000256565",
+    "folder_id": "L83 2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "0000452/2026 servicio de redacción de proyecto, estudio básico de seguridad y salud, dirección facultativa y coordinación de seguridad y salud para la instalación de energía solar fotovoltaica en distintos centros sanitarios y hospitales del servicio andaluz de salud de la provincia de jaén. financiado 85% fondos feder del marco 21-27",
-    "updated": "2026-10-30T13:42:07.964+01:00",
-    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1011656",
+    "titulo": "Servicio de asistencia y apoyo en tareas técnicas auxiliares al Área de Infraestructuras de PROMÁLAGA",
+    "updated": "2026-11-01T18:36:55.488+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=CIHPBGJQdvLI8aL3PRS10Q%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "71500000",
-      "71300000"
+      "71356200",
+      "71356300"
     ],
-    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430558",
-    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430555",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Iat3DNOSOPIUuViVEJDDAZ7gcqkbG%2BNyeFKP8iD9eWLOTHwAt8VCSd/FCbWarrAibwB5Svzr8%2BtvIV47dVHx5OrubrPutqOkuR9SicaUgWr6CYyL7SIrUOBFfNf52ZqA",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=moF1zauscMtPkpM9yiFqjHchYFO8ae9uEEjUsuNAFnqYaBEqs8sxE/vIjd7KvZzgallOJ7DkwF8B2HIX/yHFb7yyRaGnyEW334r3AxzycnJJOVDbGCDM%2BMigrvuVS7Rv",
     "docs_adicionales": [
       {
-        "nombre": "01_3ª_MEMORIA_SUSTITUTIVA_FOTOVOLTA_3(F) (1).pdf",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430564"
+        "nombre": "Formulario_DEUC_L83_2026.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9WxUcY4Tn8yMRMzqGuQ0roKh0RHEK6y42VjFVcaJROZKsEjMg%2Biwm0oSQCobvxl4Xi%2BnKkyFT6tRfDbb3l8mCKO0neBt%2Bg%2BOkM32SCeaYXZJOVDbGCDM%2BMigrvuVS7Rv"
       },
       {
-        "nombre": "RESOLUCIÓN AMPLIACIÓN PLAZO PA 452",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/439344"
-      },
-      {
-        "nombre": "2. RESOLUCIÓN INICIO(F) (2).pdf",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430559"
-      },
-      {
-        "nombre": "3. CERTIFICADO EXISTENCIA DE CRÉDITO R(F).PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430560"
-      },
-      {
-        "nombre": "Resolución sobre Mesas de Contratación",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430973"
-      },
-      {
-        "nombre": "00_ INSUFICIENCIA DE MEDIOS PA452_2026(F).PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430556"
-      },
-      {
-        "nombre": "DEUC",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/430971"
+        "nombre": "Anexos PCA L83 2026.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ofq0LRn9ZIaLQySYqfNv7PN5TVChDKI6oH//e4S90SIDfhv%2BvN%2BL1/JW7U0NLyplrD8HTIIKVmdyuByyYIzhdvDLBU39Z6%2BLwBIib%2BK8/7CHAj0WEJrB5sP7amrh2jBD"
       }
     ],
-    "organo": "Servicio Andaluz de Salud",
-    "importe": "392147.16",
-    "importe_num": 392147.16,
-    "fecha_limite": "2026-11-13",
+    "organo": "Dirección Gerencia de la Empresa Municipal de Iniciativas y Actividades Empresariales de Málaga S.A.",
+    "importe": "119698.3",
+    "importe_num": 359094.9,
+    "fecha_limite": "2026-12-02",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
-    "fuente": "agregadas",
-    "descripcion": "SERVICIO DE REDACCIÓN DE PROYECTO, ESTUDIO BÁSICO DE SEGURIDAD Y SALUD, DIRECCIÓN FACULTATIVA Y COORDINACIÓN DE SEGURIDAD Y SALUD PARA LA INSTALACIÓN DE ENERGÍA SOLAR FOTOVOLTAICA EN DISTINTOS CENTROS SANITARIOS Y HOSPITALES DEL SERVICIO ANDALUZ DE SALUD DE LA PROVINCIA DE JAÉN. FINANCIADO 85% FONDOS FEDER DEL MARCO 21-27",
-    "junta_consultado": "2026-10-31"
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "32/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato administrativo de Servicios de redacción del proyecto básico y de ejecución y dirección facultativa de las obras del nuevo parque central de bomberos de Córdoba en la parcela situada en la avenida de Menéndez Pidal, paraje Alameda del Obispo, parcela 91 del polígono 109 (subparcela A).",
+    "updated": "2026-11-01T11:56:43.738+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=cJE8rNfqma%2BP%2Bo96UAV7cQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=54V/7BcbIUhnQ6DZCJtbhBXxkTszxSnTCoo1UMOM5mWtc1ZyBildVZVS1kNueTk9FhOlkuFWZLzjtyolrRfSoQa2wS88bo6FxNF8JB46S4OHAj0WEJrB5sP7amrh2jBD",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9IRIUcwyGR3M/drZskxv0h6JPHnCsqrAPSQPtAsQNBXaTjmAhwUWU/eMU%2BV8cBUpSAS7XHvuAj3t7q1ryc8VI2U5QY91aPG%2BnMZo33n5dzr6CYyL7SIrUOBFfNf52ZqA",
+    "docs_adicionales": [
+      {
+        "nombre": "PLIEGO TECNICO ANEJOS.zip",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=jQlL/i6Ght2WLyY4YkhDS%2B9LfZQd5Dlsi4hhYjanAiSsOPTSKErAznIamLifDZMvArJyGlqwzM9x1m%2BZJIWC7M/499Emb1GTNatbBtJAvA545ClyWkoJ44mKM70IFcOu"
+      }
+    ],
+    "organo": "Presidencia del Consejo Rector de la Gerencia Municipal de Urbanismo del Ayuntamiento de Córdoba",
+    "importe": "572876.6",
+    "importe_num": 682876.6,
+    "fecha_limite": "2027-01-31",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "8",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
   }
 ]
