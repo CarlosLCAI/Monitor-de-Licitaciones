@@ -2935,7 +2935,7 @@
   },
   {
     "folder_id": "SERV-ABR_SMPL/2026000296",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Contrato de servicios para la redacción de proyecto de demolición, dirección facultativa y coordinación de seguridad y salud de la obra destinada al cumplimiento de la ejecución subsidiaria decretada ",
     "updated": "2026-10-07T09:55:05.130+02:00",
@@ -2967,7 +2967,36 @@
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-09"
+    "fecha_captura": "2026-10-09",
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXO XI.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2L%2B45V9AMM7bkIjR8hM%2BkSuPrrdws/XC0NSzaX0s5YO7OrEd4FkXwGxvZaF%2BF4qMVzgxmWBRHw9Yr1LiAsmIq7h1gf/Z2KjaU1Ai6I9t4yb3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "RCC 296 ISI.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1OrJvAqX81FnrZqGn0AJF4xUa2hopDo9agKjO0kH3A6AT5WnaZp4RrLnrjmhvWz9zp6HNl/LH%2BgzhibV9M7Lgzz%2BNEcJ/TrVfU3XIIqZLzUZyAJWGsSt0OzTSTyw9JAs"
+      },
+      {
+        "nombre": "RCC 296 ACUERDO INICIO.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=bQfNGUrnFsZVxsCTWY%2Bbw9VdvaSc61WqQHxzABK7lAKWoJLW7hztjzUm//G1Xf4Ryn%2Bx5ziFzT1VZrlLJ4C1JpNtCfX/cA5tyrYui0ZFGHiB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "ANEXO II.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=aKgziW5JPwb9cOHNZLpt9j4Dxa4mzOOqZVGaCVVGaqT52DODeGwnBcpNqoaDwZWd23Izui%2BJZlrQspDjQGLFqS3ZNxLRQ9WyYZ%2BSt6zyHiS1aXEvq3KHa/AEHgtDrQw0"
+      },
+      {
+        "nombre": "ANEXO VIII.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0JOWeIB07tSw5nhnTOKfkB3bXz6X/0FixmHw61TzHmBmUx4sq/gjd7Kl7NFyQk3WYrqzPf2G2ODzxYFZ0lqu%2B9q0mibdwJmk4u0o9Kc8IbuB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "ANEXO X.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=eAziiYspsPdqSLBdSOFpF5xSutyQi%2BpcH0czVKuBVHrWZ1F7CGtiyXzfyhET/59TfEECXKnfpkZtx4XIl1AObjDkszp8DnadoU0LpkVC/ak//q7NB2iMZvNyf0xrJmjt"
+      }
+    ],
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-03",
+    "estado_updated": "2026-11-02T11:27:22.045+01:00"
   },
   {
     "folder_id": "REPARACION TORRE HOMENAJE CASTILLO ZAGRA",
@@ -6658,5 +6687,37 @@
     "descripcion": "SERVICIO DE REDACCIÓN DE PROYECTO, ESTUDIO BÁSICO DE SEGURIDAD Y SALUD, DIRECCIÓN FACULTATIVA Y COORDINACIÓN DE SEGURIDAD Y SALUD PARA LA INSTALACIÓN DE ENERGÍA SOLAR FOTOVOLTAICA EN DISTINTOS CENTROS SANITARIOS Y HOSPITALES DEL SERVICIO ANDALUZ DE SALUD DE LA PROVINCIA DE JAÉN. FINANCIADO 85% FONDOS FEDER DEL MARCO 21-27",
     "junta_consultado": "2026-10-31",
     "fecha_captura": "2026-10-31"
+  },
+  {
+    "folder_id": "2026/AR44U/00004632E",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "EN PORTO PI.-T/A. Servicio de jardinería en Porto Pi- Palma de Mallorca, desde el 01.12.2026 hasta el 30.04.2027, o agotamiento del recurso.",
+    "updated": "2026-11-02T10:47:19.985+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lc%2F3dmm9idzs%2BnLj3vAg5A%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71421000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Ha%2Bs%2Byb/pvFMzAevkqFiqw7ePYejZjbDDMjzhauj%2Bu8YPZXjDtqFxS5YiQxcMf2xoSC/OFClbbAqASONjmtV26MK8Y4OxlSqlOfTwdW8rXZt/o8fNevwsujgRzaBbugn",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=b0V/tq5de4ArDY6MfipfOnBpXXv71QG/q%2B73MAxPm8%2BFIlh7r%2By8kMa%2BpNAoljJu6qpV/VhvUGTf/cVJeyNP8Qb8jRCpR0iRP8weKAOsmt6HAj0WEJrB5sP7amrh2jBD",
+    "docs_adicionales": [
+      {
+        "nombre": "1 PROCEDIMIENTO CAE v2024.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=dRojvCdeTgsImlneYNbVl7Fo/%2B3sdPe0dSfcEdddz323pQiuclvCl8tC8EyZWJv90O6D5TOFdkTcnmgsM/D%2BQxJHrSkqxHXcc%2BB5jaGQODL3GVhXrFFqN7yFncy7YfRK"
+      }
+    ],
+    "organo": "Intendente de Cartagena",
+    "importe": "15495.85",
+    "importe_num": 58884.23,
+    "fecha_limite": "2026-11-17",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-03"
   }
 ]

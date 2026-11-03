@@ -801,7 +801,7 @@
   },
   {
     "folder_id": "34/2026",
-    "estado": "RES",
+    "estado": "PUB",
     "titulo": "Servicio para la redacción de Proyecto Básico y de Ejecución, Estudio de Seguridad y Salud, de las obras de rehabilitación integral de las dos naves industriales de la antigua Algodonera Virgen de los Reyes, para su adaptación a Centro de Orientación, Acompañamiento e Innovación para el Empleo situado en el barrio Alcosa (Fase-1), así como a la asistencia técnica a la Dirección de Obra.",
     "updated": "2026-08-12T10:09:41.330+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=j08%2BBegnUWAwYTJJ03sHog%3D%3D",
@@ -816,7 +816,7 @@
     "organo": "Comisión Ejecutiva de la Gerencia de Urbanismo de Sevilla",
     "importe": "233606.57",
     "importe_num": 233606.57,
-    "fecha_limite": "2026-10-13",
+    "fecha_limite": "2026-11-23",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -827,12 +827,12 @@
       "fecha_analisis": "2026-08-15T04:01:37.325989+00:00"
     },
     "fecha_captura": "2026-08-15",
-    "estado_anterior": "EV",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-30",
-    "estado_updated": "2026-10-29T10:06:39.623+01:00",
-    "fecha_limite_anterior": "2026-10-22",
-    "fecha_limite_cambiada_el": "2026-10-29",
+    "estado_anterior": "RES",
+    "resultado": null,
+    "estado_cambiado_el": "2026-11-03",
+    "estado_updated": "2026-11-02T11:31:38.538+01:00",
+    "fecha_limite_anterior": "2026-10-13",
+    "fecha_limite_cambiada_el": "2026-11-03",
     "docs_adicionales": [
       {
         "nombre": "Informe de intervencion 34 de 2026.pdf",
@@ -1098,7 +1098,7 @@
     "organo": "Comisión Ejecutiva de la Gerencia de Urbanismo de Sevilla",
     "importe": "198347.11",
     "importe_num": 198347.11,
-    "fecha_limite": "2026-09-08",
+    "fecha_limite": "2026-08-11",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1112,17 +1112,13 @@
     "estado_anterior": "ADJ",
     "resultado": null,
     "estado_cambiado_el": "2026-10-28",
-    "estado_updated": "2026-10-28T14:01:39.786+01:00",
-    "fecha_limite_anterior": "2026-07-23",
-    "fecha_limite_cambiada_el": "2026-10-28",
+    "estado_updated": "2026-11-02T13:25:43.701+01:00",
+    "fecha_limite_anterior": "2026-09-08",
+    "fecha_limite_cambiada_el": "2026-11-03",
     "docs_adicionales": [
       {
-        "nombre": "espd-request.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=rjfl9pcVcWMcjgwTAicxuPxYSrXc7cF94yZ2KVsCl0AcGLohyLt3b2HWP%2B2KFRpGxUZ%2BUcSLRCOoea/I0NqRuSs9GkWqA/IFToHKBGT/pNF7QB3HKyQaFUExmUVQCerk"
-      },
-      {
-        "nombre": "espd-request.xml",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=lrcqFC85QxmRtdmDdbeNd9ZctXPzxOPS1agsC9oWn8VGYBDvU74zJuhg0/CDLx7CfFSz%2Bh8eY7emn4MZ4EYLzY/2DD8mmWk2i0f7yZ96XiuB0nvVKRzfe4rpHcnlPhSZ"
+        "nombre": "DECRETO 2026-0275 RECTIFICACION PLIEGO-AMPLIACION PLAZO.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=SsVFby1D2ppjpsvPVUPz2kf2QjmvB9AhsabYSi/qkDlwx09E6/SLSDA7j7nD5yJH8MKP%2Bj7dw8fwNZYtIJtr3ZF%2B7Vka9L8vScjk2NkGdTh7QB3HKyQaFUExmUVQCerk"
       }
     ]
   },
