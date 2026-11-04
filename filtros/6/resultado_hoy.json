@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "folder_id": "11/2026 licencia",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "El contrato a que se refiere el presente pliego tiene por objeto la contratación del servicio de redacción,  ASESORAMIENTO Y LA TRAMITACIÓN DE LA DECLARARCION RESPONSABLE DE ACTIVIDAD con estricta sujeción a las condiciones y requisitos expresados en el Pliego ",
+    "updated": "2026-11-03T13:31:20.536+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=INo8u4PUBfuS81gZFETWmA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000",
+      "79411000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=nUeFuhiksu6exeuxTiXIDgGgpFWBPldL0mZ7u9RidPfCqj0sVymBYvWlD/ai3NxMuMRsQaJ5nxA1xhGno9EYDazwF%2BFcm53s9m4Z7Azf34fVTD3T98KC0nSgQFM0q%2B5s",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=%2BowZbubt/aNus9rWr5l3wdzZBXZzLv3PU1Qt53FhWhTj%2B62Cq0YvJ%2BbEe6SHJVBYeRyatdzRUX/Qpch%2BbmVI/36LDu/dh1onG0TeRMYlMoqCx2e6p7hqtlp2aFupgHMr",
+    "docs_adicionales": [],
+    "organo": "Dirección General de Mercados Centrales de Abastecimiento de Málaga S.M.E.S.A.",
+    "importe": "40000",
+    "importe_num": 40000.0,
+    "fecha_limite": "2026-11-27",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  }
+]

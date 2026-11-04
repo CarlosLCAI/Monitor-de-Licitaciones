@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "folder_id": "01/2026-SER",
+    "estado": "EV",
+    "resultado": null,
+    "titulo": "Concurso restringido con jurado para la selección del anteproyecto del plan director del nuevo recinto ferial de Lleida, así como para la elaboración del anteproyecto, el proyecto básico y el proyecto de ejecución, y la dirección de obra del Pabellón 0 de dicho recinto ferial.",
+    "updated": "2026-11-02T16:03:00.808+01:00",
+    "link": "https://contractaciopublica.cat/ca/detall-publicacio/922f17f1-b080-4eaf-94c8-ffe2e5b75a61/300926068",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71200000",
+      "71221000",
+      "71247000",
+      "71400000",
+      "71242000"
+    ],
+    "pcap_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302355195/FA3B31820B6793295B5321982C936966",
+    "ppt_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302355196/0D660156AF418BB2DBFCBC8BB37087DF",
+    "docs_adicionales": [],
+    "organo": "Fundació la Fira de Lleida",
+    "importe": "904770.50",
+    "importe_num": 904770.5,
+    "fecha_limite": "2026-07-13",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "8",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas"
+  }
+]
