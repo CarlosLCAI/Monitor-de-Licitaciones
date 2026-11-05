@@ -376,10 +376,22 @@ def descargar_pdf(url):
         return None
 
 
+URL_DEUC = "https://visor.registrodelicitadores.gob.es/espd-web/filter?lang=es"
+AYUDA_DEUC = [
+    "Cómo rellenar el DEUC:",
+    f"1. Entra en el servicio oficial: {URL_DEUC}",
+    "2. Elige «Soy un operador económico» y, si el órgano publicó un deuc.xml con el pliego, «Importar un DEUC»; si no, «Crear un nuevo DEUC».",
+    "3. Complétalo, descárgalo en .xml y .pdf, fírmalo el representante legal y preséntalo en el sobre de documentación administrativa.",
+    "",
+]
+
+
 def _txt_documento(registro, ambito, doc, ya_aviso):
     lineas = [doc["nombre"], "", f"Expediente: {registro.get('folder_id')}", f"Dónde se entrega: {ambito}", ""]
     if doc["detalle"]:
         lineas += ["Según la revisión IA del pliego:"] + [f"- {d}" for d in doc["detalle"] if d] + [""]
+    if re.search(r"\bDEUC\b", doc["nombre"], re.IGNORECASE):
+        lineas += AYUDA_DEUC
     lineas += ["(Documento pendiente de preparar. Contrasta siempre lo que pide el pliego.)"]
     return "\r\n".join(lineas) + "\r\n"
 
