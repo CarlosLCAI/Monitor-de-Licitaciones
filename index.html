@@ -194,7 +194,7 @@
   /* En pantallas estrechas la tabla principal conserva un ancho mínimo y se desplaza en horizontal,
      en vez de aplastar las columnas de título y órgano. */
   #contenido { overflow-x: auto; }
-  #contenido > table { min-width: 1110px; }
+  #contenido > table { min-width: 1084px; }
   th:nth-child(1), td:nth-child(1) { width: 60px; }
   th:nth-child(2), td:nth-child(2) { width: 25%; }
   th:nth-child(3), td:nth-child(3) { width: 13%; }
@@ -203,43 +203,29 @@
   th:nth-child(6), td:nth-child(6) { width: 110px; }
   th:nth-child(7), td:nth-child(7) { width: 145px; }
   th:nth-child(8), td:nth-child(8) { width: 125px; }
-  th:nth-child(9), td:nth-child(9) { width: 92px; text-align: center; }
-  /* Columna Revisión: dos marcas apiladas (Revisado / Descartado) con la etiqueta en gris claro */
-  .marca-bloque { display: flex; flex-direction: column; align-items: center; gap: 3px; }
-  .marca-bloque + .marca-bloque { margin-top: 8px; }
-  .marca-etiqueta { font-size: 11px; color: var(--etiqueta-suave); line-height: 1; }
-  .check-marca { width: 16px; height: 16px; margin: 0; cursor: pointer; }
+  th:nth-child(9), td:nth-child(9) { width: 66px; text-align: center; }
+  /* Columna Revisión: cuatro iconos en columna. Cada uno es una casilla gris con su icono; al marcarla se rellena de su color */
+  .marca-bloque { display: flex; justify-content: center; }
+  .marca-bloque + .marca-bloque { margin-top: 4px; }
+  .check-marca {
+    -webkit-appearance: none; appearance: none;
+    width: 22px; height: 22px; margin: 0; cursor: pointer;
+    border: 1.5px solid var(--borde-casilla); border-radius: 4px; background-color: var(--surface);
+    background-position: center; background-repeat: no-repeat; background-size: 14px 14px;
+  }
+  .check-marca:hover { box-shadow: 0 0 0 2px rgba(128, 134, 140, 0.28); }
   .check-marca:disabled { cursor: wait; opacity: 0.5; }
-  /* Descartado: recuadro que al marcarse se rellena de rojo con una X blanca */
-  .check-marca[data-tipo="descartado"] {
-    -webkit-appearance: none; appearance: none;
-    border: 1.5px solid var(--borde-casilla); border-radius: 3px; background-color: var(--surface);
-  }
-  .check-marca[data-tipo="descartado"]:checked {
-    background: var(--descarte) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M2 2l6 6M8 2l-6 6' stroke='white' stroke-width='1.9' stroke-linecap='round'/%3E%3C/svg%3E") center / 11px 11px no-repeat;
-    border-color: var(--descarte);
-  }
-  button.marca-por[data-tipo="descartado"] { background: var(--descarte); }
-  /* Presentado: recuadro que al marcarse se rellena de verde con un check blanco */
-  .check-marca[data-tipo="presentado"] {
-    -webkit-appearance: none; appearance: none;
-    border: 1.5px solid var(--borde-casilla); border-radius: 3px; background-color: var(--surface);
-  }
-  .check-marca[data-tipo="presentado"]:checked {
-    background: var(--presentado) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M2 5.3l2.2 2.2L8 3.2' fill='none' stroke='white' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / 11px 11px no-repeat;
-    border-color: var(--presentado);
-  }
+  .check-marca[data-tipo="revisado"] { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239AA0A6' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z'/%3E%3Ccircle cx='12' cy='12' r='3'/%3E%3C/svg%3E"); }
+  .check-marca[data-tipo="revisado"]:checked { background-color: var(--teal); border-color: var(--teal); background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z'/%3E%3Ccircle cx='12' cy='12' r='3'/%3E%3C/svg%3E"); }
+  .check-marca[data-tipo="presentado"] { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239AA0A6' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 21V4'/%3E%3Cpath d='M5 4h13l-3 4.5 3 4.5H5'/%3E%3C/svg%3E"); }
+  .check-marca[data-tipo="presentado"]:checked { background-color: var(--presentado); border-color: var(--presentado); background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 21V4'/%3E%3Cpath d='M5 4h13l-3 4.5 3 4.5H5'/%3E%3C/svg%3E"); }
   button.marca-por[data-tipo="presentado"] { background: var(--presentado); }
-  /* Ganada: recuadro que al marcarse se rellena de dorado con una estrella blanca */
-  .check-marca[data-tipo="ganada"] {
-    -webkit-appearance: none; appearance: none;
-    border: 1.5px solid var(--borde-casilla); border-radius: 3px; background-color: var(--surface);
-  }
-  .check-marca[data-tipo="ganada"]:checked {
-    background: var(--ganada) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M5 1.2l1.2 2.5 2.7.4-2 1.9.5 2.7L5 7.3 2.6 8.7l.5-2.7-2-1.9 2.7-.4Z' fill='white'/%3E%3C/svg%3E") center / 12px 12px no-repeat;
-    border-color: var(--ganada);
-  }
+  .check-marca[data-tipo="ganada"] { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239AA0A6' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 2.8l2.8 6 6.5.7-4.9 4.4 1.4 6.4L12 17l-5.8 3.3 1.4-6.4-4.9-4.4 6.5-.7z'/%3E%3C/svg%3E"); }
+  .check-marca[data-tipo="ganada"]:checked { background-color: var(--ganada); border-color: var(--ganada); background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23fff' stroke='%23fff' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M12 2.8l2.8 6 6.5.7-4.9 4.4 1.4 6.4L12 17l-5.8 3.3 1.4-6.4-4.9-4.4 6.5-.7z'/%3E%3C/svg%3E"); }
   button.marca-por[data-tipo="ganada"] { background: var(--ganada); }
+  .check-marca[data-tipo="descartado"] { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%239AA0A6' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 6l12 12M18 6L6 18'/%3E%3C/svg%3E"); }
+  .check-marca[data-tipo="descartado"]:checked { background-color: var(--descarte); border-color: var(--descarte); background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 6l12 12M18 6L6 18'/%3E%3C/svg%3E"); }
+  button.marca-por[data-tipo="descartado"] { background: var(--descarte); }
   /* Licitación descartada: solo se ve en "Todas", atenuada */
   tr.descartada td:not(:last-child) { opacity: 0.5; }
   tr.descartada:hover td:not(:last-child) { opacity: 0.85; }
@@ -247,10 +233,11 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 18px;
-    height: 18px;
+    width: 22px;
+    height: 22px;
     padding: 0;
     border: none;
+    border-radius: 4px;
     background: var(--teal);
     color: var(--on-teal);
     font-family: 'Barlow', sans-serif;
@@ -862,6 +849,7 @@
             <h4>Revisión IA, revisado y descartado</h4>
             <ul>
               <li><strong>Solicitar Revisión IA:</strong> la revisión no se genera sola, se pide en la licitación que interese. En unos minutos el enlace pasa a <strong>Revisión IA</strong> en negrita; al abrirlo se ve el informe, que se puede compartir con el botón <em>Compartir</em> (copiar, PDF o HTML). Cada revisión tiene un pequeño coste.</li>
+              <li><strong>Iconos de la columna Revisión:</strong> son cuatro casillas con icono, en gris cuando están sin marcar y de su color cuando se marcan: ojo (<em>Revisado</em>, turquesa), bandera (<em>Presentado</em>, verde), estrella (<em>Ganada</em>, dorado) y X (<em>Descartado</em>, rojo). Al pasar el ratón por encima se lee el nombre de la marca y, si está marcada, quién la puso y cuándo.</li>
               <li><strong>Revisado:</strong> marca que alguien del equipo ya ha mirado esa licitación. Si lo marca otra persona con su nombre configurado, en lugar del check aparece su inicial (al pulsarla se desmarca). Vale para todos los filtros en los que aparezca la licitación y se puede marcar también desde <em>Todos los filtros</em>.</li>
               <li><strong>Presentado:</strong> marca (en verde) las licitaciones a las que nos hemos presentado, para poder seguirlas después. Se aplica a todos los filtros y la licitación sigue en su pestaña.</li>
               <li><strong>Ganada:</strong> marca (en dorado, con una estrella) las licitaciones que nos han adjudicado. Es independiente de <em>Presentado</em>: se marca a mano cuando llegue la adjudicación. Se aplica a todos los filtros y cuenta en las estadísticas.</li>
@@ -1688,7 +1676,7 @@ async function comprobarRevisionesIA() {
   }
 }
 
-// Columna Revisión: dos marcas independientes, Revisado y Descartado. Cada una se guarda en la
+// Columna Revisión: cuatro marcas independientes (Revisado, Presentado, Ganada y Descartado), cada una con su icono. Cada una se guarda en la
 // licitación de TODOS los filtros donde aparece (también al pulsarla desde "Todos los filtros").
 // Si la marcó otra persona (con su nombre configurado), se muestra su inicial en lugar del check;
 // al pulsarla se desmarca.
@@ -1697,7 +1685,6 @@ function bloqueMarca(r, tipo) {
   const marcado = !!r[c.valor];
   const por = r[c.por];
   const fecha = r[c.fecha];
-  const etiqueta = '<span class="marca-etiqueta">' + ETIQUETAS_MARCA[tipo] + '</span>';
   const id = escapeHtml(r.folder_id || '');
   const esDeOtroUsuario = marcado && por && por.toLowerCase() !== GH_OWNER.toLowerCase();
   let control;
@@ -1710,9 +1697,9 @@ function bloqueMarca(r, tipo) {
       ? ETIQUETAS_MARCA[tipo] + (fecha ? ' el ' + formatearFecha(fecha) : '')
       : TEXTO_MARCAR[tipo];
     control = '<input type="checkbox" class="check-marca" data-folder-id="' + id + '" data-tipo="' + tipo +
-      '" title="' + escapeHtml(titulo) + '"' + (marcado ? ' checked' : '') + '>';
+      '" title="' + escapeHtml(titulo) + '" aria-label="' + ETIQUETAS_MARCA[tipo] + '"' + (marcado ? ' checked' : '') + '>';
   }
-  return '<div class="marca-bloque">' + etiqueta + control + '</div>';
+  return '<div class="marca-bloque">' + control + '</div>';
 }
 
 function celdaRevision(r) {
@@ -3118,6 +3105,7 @@ document.getElementById('modal-revision-overlay').addEventListener('click', (e) 
 // y la campana se muestra rellena durante la primera semana. Solo cambios que el usuario note.
 const NOVEDADES = [
   { fecha: '2026-11-05', items: [
+    "<strong>Columna Revisión con iconos.</strong> Las cuatro marcas pasan a ser iconos en una columna estrecha, en gris cuando están sin marcar y de su color al pulsarlas: ojo (Revisado), bandera (Presentado), estrella (Ganada) y X (Descartado). Desaparecen las palabras, así que las filas ocupan menos alto; el nombre de cada marca sale al pasar el ratón.",
     "<strong>Marca «Ganada».</strong> Nueva casilla dorada con una estrella en la columna <em>Revisión</em>, entre Presentado y Descartado, para marcar a mano las licitaciones que nos han adjudicado. Se aplica a todos los filtros, se ve con la inicial de quien la marca, ordena la columna Revisión y aparece en las estadísticas (cifras clave y marcas por persona).",
     "<strong>Enlace al DEUC.</strong> En las carpetas, los documentos DEUC que quedan como .txt incluyen ahora el enlace al servicio oficial para rellenarlo y los pasos.",
     "<strong>Anexos más fiables.</strong> Al preparar la carpeta, un documento solo se rellena con un anexo si lo pide como modelo, no si lo menciona como fuente de un dato, y no se extraen anexos de más de 15 páginas.",
