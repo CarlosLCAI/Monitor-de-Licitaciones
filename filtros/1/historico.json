@@ -3195,7 +3195,7 @@
     "docs_adicionales": [],
     "organo": "Autoridad Portuaria de Sevilla",
     "importe": "504000",
-    "importe_num": 1008000.0,
+    "importe_num": 1008000,
     "fecha_limite": "2026-11-11",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -3241,7 +3241,7 @@
     ],
     "organo": "Junta de Compensación Sector Sup-01 El Rodeo",
     "importe": "254930",
-    "importe_num": 254930.0,
+    "importe_num": 254930,
     "fecha_limite": "2026-10-29",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -3573,7 +3573,10 @@
       },
       "fecha_analisis": "2026-11-05T15:46:16.543296+00:00",
       "solicitada_por": "Belén Fernández"
-    }
+    },
+    "revisado_humano": true,
+    "revisado_fecha": "2026-11-05T15:54:39.035Z",
+    "revisado_por": "Belén Fernández"
   },
   {
     "folder_id": "15847/2026",
@@ -3629,7 +3632,7 @@
     ],
     "organo": "Junta de Gobierno del Ayuntamiento de La Rinconada",
     "importe": "208170",
-    "importe_num": 208170.0,
+    "importe_num": 208170,
     "fecha_limite": "2026-11-16",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -3776,7 +3779,7 @@
     "docs_adicionales": [],
     "organo": "Dirección General de Mercados Centrales de Abastecimiento de Málaga S.M.E.S.A.",
     "importe": "40000",
-    "importe_num": 40000.0,
+    "importe_num": 40000,
     "fecha_limite": "2026-11-27",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
