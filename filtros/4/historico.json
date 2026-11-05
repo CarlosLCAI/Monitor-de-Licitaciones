@@ -6767,6 +6767,159 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-11-05"
+    "fecha_captura": "2026-11-05",
+    "revision_ia": {
+      "informe": "## Bloque 1 – Características Principales del Contrato\n\n**Expediente:** 8041/2026. **Órgano de contratación:** Alcalde-Presidente del Ayuntamiento de Atarfe (Granada). **Unidad tramitadora:** Concejalía de Urbanismo. **Responsable del contrato:** Arquitecto Municipal.\n\n**Alcance del análisis:** se ha analizado el PCAP, con las páginas 14, 20-24, 39, 53-55 y 69-72 no recibidas. Del PPT solo ha llegado hasta el apartado 4.1, así que faltan el apartado 6 (equipo de trabajo), el 7 (presupuesto y plazos) y el 8 (criterios de adjudicación). Todo lo que dependa de esas partes figura como no localizado.\n\n### Objeto de la licitación\nServicio de redacción de anteproyecto, informe geotécnico, proyecto básico y de ejecución y estudio de seguridad y salud. Cubre la prolongación del barranco del Canalillo hasta el río Genil y dos parques inundables (SUDS/SBN) en Atarfe, uno asociado al Canalillo y otro en el barranco de La Cañada. Incluye un estudio hidrológico-hidráulico 2D común y el expediente de autorización ante la CHG. Está financiado al 100 % por las ayudas del art. 7 del RDL 5/2026 (Ministerio de Política Territorial y Memoria Democrática).\n\nObjetivos:\n1. Proyecto constructivo de prolongación del Canalillo hasta su conexión con el Genil.\n2. Proyecto constructivo del parque inundable del Canalillo.\n3. Proyecto constructivo del parque inundable de La Cañada.\n4. Estudio hidrológico-hidráulico 2D (HEC-HMS, HEC-RAS 2D/Iber, QGIS), con archivos editables y cartografía de peligrosidad.\n\n**CPV:** 71311000-1 y 71330000-0.\n\n### División en lotes\n**No hay división en lotes.** El pliego justifica la autoría única y simultánea (art. 99.2.b LCSP), porque los tres proyectos derivan de una solución hidráulica única.\n\n### Características del contrato\n- **Valor estimado:** **253.305,79 €** sin IVA. Incluye 13 % de gastos generales, 6 % de beneficio industrial y 4 % de costes indirectos.\n- **Presupuesto base de licitación:** **306.500,00 €** IVA incluido (IVA 21 %: 53.194,21 €).\n- **Desglose sin IVA:**\n\n| Prestación | Sin IVA | IVA incluido |\n|---|---|---|\n| Estudio hidrológico-hidráulico 2D | 42.282,60 € | 51.161,95 € |\n| Proyecto prolongación del Canalillo | 77.529,45 € | 93.810,63 € |\n| Parque inundable del Canalillo | 70.487,51 € | 85.289,89 € |\n| Parque inundable de La Cañada | 63.006,23 € | 76.237,53 € |\n| **Total** | **253.305,79 €** | **306.500,00 €** |\n\n- **Plazo de ejecución:** **4 meses** desde el día siguiente a la formalización o la fecha del acta de inicio. Los retrasos de la CHG no computan.\n- **Garantía técnica:** 12 meses desde la recepción. Durante ese plazo hay que prestar asistencia ante la CHG (hasta 2 rondas de subsanación por organismo y proyecto).\n- **Prórroga:** no prevista (el apartado 8 solo fija el plazo de 4 meses). **Modificaciones:** no. **Variantes:** no.\n- ⚠ REVISAR — **discrepancia de plazos:** el PCAP fija 4 meses. La matriz de hitos del PPT llega a E4 (borrador) en el mes 6 y E5 (definitivo) en el mes 7. El cronograma del PPT sitúa la redacción entre dic-2026 y jun-2027. La propia matriz dice que sus plazos corresponden al plazo ordinario de 4 meses. Aclarar con el órgano.\n- **Procedimiento:** abierto, regulación armonizada, tramitación ordinaria, con recurso especial.\n- **Presentación de ofertas:** 35 días naturales desde el envío del anuncio al DOUE, por la Plataforma de Contratación del Sector Público. La fecha exacta no consta en el texto recibido.\n- **Consultas:** el plazo está en el apartado 32 del Anexo I, que no se ha localizado.\n- **Compensación a licitadores:** 30 € en caso de renuncia o desistimiento.\n- **Trabajos específicos obligatorios (según el PPT):**\n  - Topografía de campo: unos 45.000 m², mínimo 2.800 puntos, precisión ±5 cm.\n  - Campaña geotécnica de referencia: 10 calicatas, 6 sondeos (48 m), 15 SPT, 6 ensayos de infiltración y ensayos de laboratorio.\n  - Estudio geológico-geotécnico.\n  - Instrumento ambiental y SBN.\n  - Relación de bienes y derechos afectados (expropiaciones).\n  - Servicios afectados y separatas.\n  - Expediente de autorización hidráulica ante la CHG.\n  - Presentación pública y entregables en formatos abiertos (GeoPackage, GeoTIFF, BC3, DWG).\n- **Arqueología:** no localizada.\n\n## Bloque 2 – Solvencia\n\n### Económica y financiera\n- **Cifra de negocio:** no se exige.\n- **Seguro de indemnización por riesgos profesionales:** importe mínimo de **300.000 €**.\n- **Acreditación:** certificado de la aseguradora con importe, riesgos cubiertos y fecha de vencimiento. Solo lo aporta el propuesto como adjudicatario, en 10 días hábiles desde el requerimiento.\n- **Clasificación empresarial:** no exigida. Tampoco hay inscripción obligatoria en el ROLECE. **Habilitación empresarial:** no procede.\n\n### Técnica y profesional\n- **Trabajos de referencia de la empresa:** no se fija un importe ni tipología mínimos de proyectos similares. La experiencia se exige a los perfiles.\n- **Equipo mínimo:** al menos **3 profesionales** (sin contar personal auxiliar de campo, delineación ni ensayos geotécnicos). Un mismo profesional puede cubrir varios perfiles si acredita todas las titulaciones y experiencias y su dedicación es compatible.\n\n| Perfil mínimo | Titulación | Experiencia mínima |\n|---|---|---|\n| Director/a del Estudio, Autor/a Coordinador/a y Especialista en Hidrología, Hidráulica y SUDS | ICCP, Ingeniería Civil o equivalente | **10 años** y al menos **1 estudio de inundabilidad con modelización 2D** |\n| Especialista en Topografía, Geomática y SIG | Ing. Geomática y Topografía, Geografía o Ing. Civil (o equivalente), con máster o especialización en SIG | **10 años** |\n| Ingeniero/a de Obras Hidráulicas, Cálculos, Presupuestos, Seguridad y Documentación | ICCP, Ingeniería Civil o equivalente | **2 años** |\n\n- **Acreditación:** organigrama nominal, CV firmado, títulos y certificados de buena ejecución, y documento de vinculación con el licitador (contrato laboral, relación societaria, contrato profesional u otro). Sin vinculación acreditada, el profesional no cuenta para los tres perfiles. Los certificados los expide o visa el órgano público; si el destinatario es privado, certificado del privado o declaración del empresario con documentos.\n- **Subcontratación:** SÍ. La topografía de campo y la campaña geotécnica pueden hacerse con personal propio o subcontratadas, y ese personal no forma parte de los tres perfiles mínimos. Los tres perfiles mínimos deben estar vinculados al licitador, pero cabe el contrato profesional.\n- **Medios externos y UTE:** se admite la integración de solvencia con medios externos (Anexo V) y la UTE, con solvencia acumulada.\n- **Sustituciones:** cualquier baja o sustitución requiere autorización escrita del Ayuntamiento, y el sustituto debe tener titulación y experiencia iguales o superiores.\n- **Compromiso de adscripción:** de medios materiales. Hay que indicar nombres y cualificación del personal responsable.\n- ⚠ REVISAR — criterio de mejora de equipo, no confundir con el mínimo de solvencia: el apartado 18.1.2 puntúa la experiencia adicional del Director (3 puntos por proyecto, hasta 15). No computan los trabajos usados para la experiencia mínima.\n- ⚠ REVISAR: el apartado 6 del PPT (equipo de trabajo) no se ha recibido, por lo que no se puede contrastar con el PCAP.\n\n## Bloque 3 – Criterios de Adjudicación\n\nTotal: **100 puntos** (55 automáticos y 45 por juicio de valor).\n\n### Automáticos (fórmulas)\n\n| Criterio | Puntos |\n|---|---|\n| Oferta económica | 40 |\n| Experiencia adicional del Director/a | 15 |\n\n- **Oferta económica (máx. 40 puntos):** el menor importe sin IVA obtiene 40. Se excluyen las ofertas que superen 253.305,79 € sin IVA. La fórmula usa Pi (puntuación), Omin (oferta válida más baja) y Oi (oferta valorada), con redondeo a dos decimales. ⚠ REVISAR: la fórmula no es legible en el texto (es una imagen), así que debe comprobarse en el PCAP original.\n- **Experiencia adicional del Director/a (máx. 15 puntos):**\n  - Se dan **3 puntos por proyecto o estudio** relacionado, hasta **15** (5 proyectos).\n  - Los trabajos deben haberse desarrollado con éxito en los **3 años anteriores a la licitación**.\n  - Debe constar certificado oficial de buena ejecución que acredite la participación como **autor principal**.\n  - El alcance debe incluir al menos uno de estos ámbitos: estudios de inundabilidad 2D; obras de defensa contra inundaciones, encauzamientos o restauración de riberas; o parques inundables, vasos de escorrentía urbana o SBN.\n  - No se computa el trabajo usado para la experiencia mínima ni el mismo proyecto dos veces.\n- **Ofertas anormalmente bajas:** oferta que exceda en 15 o más unidades la media aritmética de las bajas de las ofertas admitidas.\n- ⚠ REVISAR: el PPT remite a un apartado \"8.2.c\" de reducción de plazo, y el PCAP cita un \"18.2.c\" en el Sobre C. Ninguno aparece como criterio en el PCAP recibido. Además, la numeración 18.1 y 18.2 está cruzada entre el Sobre B y el Anexo I.\n\n### Juicio de valor\n**Memoria técnica (máx. 45 puntos).** Tiene un máximo de **100 páginas A4**, en Calibri 10 pt. Se excluyen portada, índice, Gantt y fichas de CV. No se valoran las propuestas que superen el máximo.\n\n| Subcriterio | Puntos |\n|---|---|\n| 1. Comprensión y diagnóstico del ámbito | 8 |\n| 2. Planificación geomática y geotécnica | 4 |\n| 3. Metodología hidrológica e hidráulica | 8 |\n| 4. Prolongación del barranco del Canalillo | 7 |\n| 5. Parques inundables y SBN | 7 |\n| 6. Plan de trabajo, organización y calidad | 7 |\n| 7. Entregables, formatos abiertos y gestión digital | 2 |\n| 8. Presentación pública y comunicación social | 2 |\n| **Total** | **45** |\n\nEscala de valoración: Excelente 100 %, Bueno 70 %, Suficiente 40 %, Insuficiente o no presentado 0 %.\n\n### Umbrales mínimos de puntuación\n**Sí existe:** hay que alcanzar **25 de los 45 puntos** de la memoria técnica (55,56 %). Quien no lo alcance queda excluido.\n\n## Bloque 4 – Forma de Pago\n\n- **Valoración y abono:** el pago de los proyectos se hace una vez entregados, previa factura y aceptación por los servicios técnicos municipales. No hay certificaciones parciales por fases.\n- **Abonos a cuenta por operaciones preparatorias:** no proceden.\n- **Plazo de pago:** 30 días desde la aprobación de la conformidad. La factura debe presentarse en 30 días desde la prestación. Los intereses de demora siguen la Ley 3/2004.\n- **Facturación:** electrónica por FACE, con los códigos DIR3 (L01180227). Debe incluir el texto \"Gasto financiado con cargo al marco de las Ayudas a Entidades Locales previstas en el artículo 7 del Real Decreto-Ley 5/2026… (financiación FMA 2026-Cod. RA007_FMA2026)\".\n- **Revisión de precios:** **no procede.**\n- **Garantía definitiva:** 5 % del precio final ofertado sin IVA, a acreditar en 7 días hábiles. No hay garantía complementaria ni provisional.\n- **Penalidades:**\n  - Infracciones leves (por ejemplo, 3 días naturales de retraso): hasta el 3 % del precio sin IVA.\n  - Las penalidades graves y muy graves están en páginas no recibidas, por lo que no se han localizado.\n  - Retirar la oferta o no formalizar el contrato conlleva una penalidad del 3 % del presupuesto base sin IVA.\n- **Condiciones especiales de ejecución:**\n  - Papel reciclado o certificado, y uso preferente de medios electrónicos.\n  - Protección de datos.\n  - Cumplimiento de los criterios de adjudicación. Su incumplimiento es causa de resolución.\n- **Subcontratación:** penalidad de hasta el 50 % del importe del subcontrato por incumplimiento de las condiciones.\n\n## Bloque 5 – Documentación a Presentar\n\n### Sobre A – Documentación administrativa (declaración responsable)\n- **DEUC:** declaración firmada sobre representación, solvencia, autorizaciones y ausencia de prohibiciones de contratar.\n- **Certificado ROLECE o registro autonómico equivalente:** opcional. Va acompañado de una declaración de vigencia de los datos.\n- **Anexo VI – Declaración responsable:** incluye si es pyme.\n- **Anexo VII – DACI:** declaración de ausencia de conflicto de intereses.\n- **Anexo V – Compromiso de integración de solvencia con medios externos:** solo si se recurre a otras entidades.\n- **Compromiso de constitución de UTE:** solo si concurre una UTE. Indica nombres, participación de cada socio y duración igual a la del contrato. Cada empresa presenta además su declaración.\n- **Declaración de empresas vinculadas:** solo si concurren varias del mismo grupo.\n- ⚠ REVISAR: el Anexo I (apartado 17) remite el ROLECE al \"Anexo VI\", que en realidad es la declaración responsable.\n\n### Sobre B – Criterios sujetos a juicio de valor\n- **Memoria técnica:** máximo 100 páginas A4 en Calibri 10, con los 8 subcriterios del Bloque 3.\n- **Organigrama nominal de adscripción de medios:** incluye CV firmados, títulos, certificados de buena ejecución y documento de vinculación de cada profesional. El pliego dice \"junto con la oferta técnica\", pero no precisa el sobre, así que ⚠ REVISAR.\n- **Cronograma Gantt:** no cuenta para el límite de páginas.\n- **Relación de documentos confidenciales:** con su justificación, si procede.\n\n### Sobre C – Criterios cuantificables automáticamente\n- **Anexo II – Modelo de oferta económica:** importe en cifra y letra, con el IVA como partida independiente. Se excluyen las ofertas que superen 253.305,79 € sin IVA. Incluye el número de proyectos acreditados según el 18.1.2.\n- **Documentación de la experiencia complementaria del Director/a:** certificados de buena ejecución emitidos por el órgano de contratación o el promotor privado, con acreditación de autor principal y de que el alcance encaja en los ámbitos exigidos.\n\n### Documentación posterior (solo el propuesto como adjudicatario)\n- **Certificado de la aseguradora:** importe mínimo de 300.000 €, riesgos cubiertos y vencimiento. Plazo de 10 días hábiles.\n- **Acreditación de la solvencia técnica del equipo:** CV, títulos, certificados de buena ejecución y vinculación de cada profesional.\n- **DNI del representante, escrituras o poderes y poderes inscritos en el Registro Mercantil.**\n- **Certificados positivos de la AEAT y la Seguridad Social:** y alta en el IAE o declaración de exención.\n- **Garantía definitiva:** 5 % del precio ofertado sin IVA, en 7 días hábiles (aval, seguro de caución, etc.).\n- **UTE adjudicataria:** escritura pública de constitución y NIF.\n- **Documentación de desempate:** solo si procede (contratos de trabajo y TC).\n\n## Bloque 6 – Conclusiones / Análisis Preliminar\n\n### Precio y duración\n- **Precio y plazo:** son **253.305,79 €** sin IVA para **4 meses**, unos 63.300 €/mes. El pliego estima unas 1.370 h para los tres perfiles principales y unos 33.800 € de otros costes directos solo en el parque de La Cañada. Hay que subcontratar topografía y geotecnia, y los ensayos se estiman por separado (por ejemplo, 4.000 € en el parque de La Cañada).\n- **Plazo ajustado:** el plazo de 4 meses es apretado frente a los 6-7 meses de la matriz de hitos del PPT (ver ⚠ del Bloque 1). Conviene aclarar la discrepancia.\n- **Tamaño:** el importe (253 k€) está dentro del rango habitual de contratos de redacción de proyectos de CAI (30.000 a 250.000 €).\n\n### Comparación con el perfil de CAI\n\n| Requisito | Exigencia | CAI | Valoración |\n|---|---|---|---|\n| Seguro RC | 300.000 € | 2.500.000 € (Caser). Certificado 2026 pendiente [SIN VERIFICAR] | Cumple; falta aportar certificado |\n| Cifra de negocio | No exigida | ~1,88 M€ | No aplica |\n| Clasificación | No exigida | No consta | Sin problema |\n| Director/a | ICCP, 10 años y 1 estudio 2D | Enrique de la Torre (ICCP, actividad desde 1995) y Juanjo Piñero (ICCP, estudios hidrológicos e hidráulicos, 14 años de titulación) | Titulación y años cumplen. No consta modelización 2D ni certificado, así que **falta acreditar** |\n| Ingeniero/a de obras hidráulicas | ICCP, 2 años | Varios ICCP en plantilla (Piñero, Jiménez, García Rueda, Téllez, Chioua) | Cumple |\n| Topografía, Geomática y SIG | Geomática, Geografía o Ing. Civil con máster o especialización SIG, 10 años | No consta topógrafo. Ángela Trueba tiene curso SIG pero es arquitecta. No consta ningún ICCP con especialización SIG | **Falta**; cubrible con colaborador o subcontrata externa (el PPT admite medios externos si hay vinculación) |\n| Topografía de campo y geotecnia | Subcontratables | Se subcontratan habitualmente | Asumible |\n\n- **Criterio de mejora (15 puntos):** no afecta a la admisibilidad. Habría que revisar si el Director propuesto tiene proyectos o estudios 2D de los últimos 3 años con certificado de autor principal.\n- **Precedentes similares:** CAI ha hecho un estudio hidrológico e hidráulico (Ronda, 2025, contrato menor de 8.000 €). No consta un contrato público muy similar ganado por objeto.\n\n### Semáforo de presentación\n**NARANJA.** Se cumplen 3 de 4 requisitos de admisibilidad (seguro, Director y Obras Hidráulicas). Falta el perfil de Topografía, Geomática y SIG, que no consta en plantilla.\n- **Qué falta:** un especialista con 10 años de experiencia y máster o especialización SIG, y certificar al Director un estudio 2D.\n- **¿Se puede cubrir?** Sí. El pliego admite integración de solvencia con medios externos (Anexo V), UTE y contrato profesional como vinculación.\n- **Seguro:** comprobar el certificado de 2026 [SIN VERIFICAR].\n- **Clasificación:** no exigida, por lo que no se activa el ⚠ REVISAR — criterio pendiente de decidir.",
+      "usa_ppt": true,
+      "uso": {
+        "entrada": 106455,
+        "salida": 13194,
+        "cache_leida": 0,
+        "cache_escrita": 24915
+      },
+      "coste_estimado_usd": 0.4071,
+      "semaforo": "naranja",
+      "semaforo_motivo": "Cumple seguro y perfiles de Director y Obras Hidráulicas; falta especialista en Topografía/SIG (10 años), cubrible con medios externos o subcontrata según el pliego.",
+      "datos_excel": {
+        "info": {
+          "valor_estimado": 253305.79,
+          "iva_pct": 21,
+          "fecha_presentacion": null,
+          "plazo_ejecucion": "4 meses (+12 meses de garantía técnica con asistencia ante la CHG)",
+          "consultas": "Apartado 32 del Anexo I (no localizado)",
+          "garantia_provisional": "No exigida",
+          "garantia_definitiva": "5 % del precio final ofertado sin IVA",
+          "seguro_rc": "300.000 €",
+          "lotes": "No",
+          "revision_precios": "No procede",
+          "plazo_garantia": "12 meses",
+          "ute": "Sí; solvencia acumulada",
+          "subcontratacion": "Sí; topografía de campo y geotecnia",
+          "umbral_tecnico": "25 de 45 puntos en la memoria técnica (excluyente)"
+        },
+        "solvencia": {
+          "nota": "Un mismo profesional puede cubrir varios perfiles si acredita titulaciones y experiencias; mínimo 3 profesionales; deben estar vinculados al licitador; se admiten medios externos (Anexo V) y UTE. Clasificación no exigida.",
+          "economica": [
+            {
+              "nombre": "Seguro de indemnización por riesgos profesionales",
+              "valor": "Mínimo 300.000 €",
+              "acreditacion": "Certificado de la aseguradora (importe, riesgos, vencimiento); propuesto como adjudicatario, 10 días hábiles",
+              "cai": "cumple",
+              "cai_nota": "RC 2,5 M€; certificado 2026 pendiente"
+            }
+          ],
+          "tecnica": [
+            {
+              "nombre": "Equipo multidisciplinar mínimo",
+              "valor": "Mínimo 3 profesionales (sin personal auxiliar)",
+              "acreditacion": "Organigrama nominal, CV, títulos, certificados y vinculación",
+              "cai": "parcial",
+              "cai_nota": "Falta perfil topografía/SIG"
+            }
+          ],
+          "equipo": [
+            {
+              "nombre": "Director/a del Estudio, Autor/a Coordinador/a y Especialista en Hidrología, Hidráulica y SUDS",
+              "valor": "ICCP/Ing. Civil o equivalente; 10 años y 1 estudio inundabilidad 2D",
+              "acreditacion": "CV, título, certificados de buena ejecución, vinculación",
+              "cai": "parcial",
+              "cai_nota": "ICCP con experiencia; falta acreditar estudio 2D"
+            },
+            {
+              "nombre": "Especialista en Topografía, Geomática y SIG",
+              "valor": "Geomática/Geografía/Ing. Civil con máster o especialización SIG; 10 años",
+              "acreditacion": "CV, título, certificados, vinculación",
+              "cai": "no",
+              "cai_nota": "No consta; cubrir con externo"
+            },
+            {
+              "nombre": "Ingeniero/a de Obras Hidráulicas, Cálculos, Presupuestos, Seguridad y Documentación",
+              "valor": "ICCP/Ing. Civil o equivalente; 2 años",
+              "acreditacion": "CV, título, certificados, vinculación",
+              "cai": "cumple",
+              "cai_nota": "Varios ICCP en plantilla"
+            }
+          ]
+        },
+        "juicio_valor": [
+          {
+            "nombre": "Memoria técnica",
+            "puntos": 45,
+            "paginas_a4": 100,
+            "paginas_a3": null,
+            "formato": "Calibri 10 pt; excluye portada, índice, Gantt y fichas CV",
+            "acreditacion": "Sobre B",
+            "apartados": [
+              {
+                "nombre": "Comprensión y diagnóstico del ámbito",
+                "puntos": 8,
+                "filas": 1
+              },
+              {
+                "nombre": "Planificación geomática y geotécnica",
+                "puntos": 4,
+                "filas": 1
+              },
+              {
+                "nombre": "Metodología hidrológica e hidráulica",
+                "puntos": 8,
+                "filas": 1
+              },
+              {
+                "nombre": "Prolongación del barranco del Canalillo",
+                "puntos": 7,
+                "filas": 1
+              },
+              {
+                "nombre": "Parques inundables y soluciones SBN",
+                "puntos": 7,
+                "filas": 1
+              },
+              {
+                "nombre": "Plan de trabajo, organización y calidad",
+                "puntos": 7,
+                "filas": 1
+              },
+              {
+                "nombre": "Entregables, formatos abiertos y gestión digital",
+                "puntos": 2,
+                "filas": 1
+              },
+              {
+                "nombre": "Presentación pública y comunicación social",
+                "puntos": 2,
+                "filas": 1
+              }
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "nombre": "Oferta económica",
+            "puntos": 40,
+            "formula": "Pi = puntuación del licitador i; Omin = oferta válida más baja sin IVA; Oi = oferta valorada sin IVA (fórmula no legible en el texto; revisar PCAP). Exclusión si supera 253.305,79 €",
+            "acreditacion": "Anexo II (Sobre C)"
+          }
+        ],
+        "otros": [
+          {
+            "nombre": "Experiencia adicional del Director/a",
+            "puntos": 15,
+            "acreditacion": "Certificados de buena ejecución como autor principal, últimos 3 años (Sobre C)",
+            "apartados": [
+              {
+                "nombre": "Proyectos o estudios del Director/a relacionados (inundabilidad 2D, defensa contra inundaciones, parques inundables/SBN)",
+                "puntos": 15,
+                "regla": "3 puntos por proyecto, hasta 15",
+                "filas": 5
+              }
+            ]
+          }
+        ],
+        "umbral": "25 de 45 puntos en la memoria técnica; las ofertas por debajo quedan excluidas"
+      },
+      "fecha_analisis": "2026-11-05T09:24:28.816568+00:00",
+      "solicitada_por": "Belén Fernández"
+    }
   }
 ]
