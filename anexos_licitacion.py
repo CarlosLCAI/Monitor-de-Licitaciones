@@ -25,6 +25,7 @@ MAX_OTROS = 15 * 1024 * 1024      # el resto de documentos (precios, planos…):
 MAX_TOTAL = 90 * 1024 * 1024
 MAX_FICHEROS = 40
 MAX_PAGINAS_ANEXO = 40
+MAX_PAGINAS_MODELO = 15           # un modelo para rellenar es corto; un «anexo» más largo suele ser un cuadro o un estudio
 RE_MODELO = re.compile(r"anexo|deuc|modelo|formulario|declaraci", re.IGNORECASE)
 
 # Número de anexo: arábigo, romano (I, V, X) o letra suelta. Los romanos se pasan a arábigos para que «Anexo IV»
@@ -50,23 +51,46 @@ def normalizar_numeral(txt):
     return t
 
 
+def _numeros_de_cita(texto, m):
+    """Números de la cita m y de los que la siguen («Anexos II y III» -> ['2', '3'])."""
+    numeros = [m.group(1)]
+    pos = m.end()
+    while True:
+        sig = RE_SIGUIENTE.match(texto, pos)
+        if not sig:
+            break
+        numeros.append(sig.group(1))
+        pos = sig.end()
+    return [normalizar_numeral(n) for n in numeros]
+
+
 def anexos_citados(texto):
     """Números de anexo citados en un texto, sin repetir y en orden: «Anexos II y III» -> ['2', '3']."""
     salida = []
     for m in RE_CITA.finditer(texto or ""):
-        numeros = [m.group(1)]
-        pos = m.end()
-        while True:
-            sig = RE_SIGUIENTE.match(texto, pos)
-            if not sig:
-                break
-            numeros.append(sig.group(1))
-            pos = sig.end()
-        for n in numeros:
-            n = normalizar_numeral(n)
+        for n in _numeros_de_cita(texto, m):
             if n not in salida:
                 salida.append(n)
     return salida
+
+
+# En el detalle de un documento, un anexo solo cuenta si es el modelo a presentar («según el modelo del Anexo 2»),
+# no si se menciona como fuente de un dato («el Anexo I dice "NO"», «ver Anexo I»).
+RE_PIDE_MODELO = re.compile(r"modelo|formulario|seg[uú]n|conforme|ajustad|siguiendo|mediante|utilizando|formato", re.IGNORECASE)
+RE_SOLO_REFERENCIA = re.compile(r"\b(dice|indica|establece|recoge|se[ñn]ala|fija|figura|determina|contiene|detalla|especifica|ver|v[eé]ase|consulta)\b", re.IGNORECASE)
+
+
+def anexos_del_documento(doc):
+    """Anexos que hay que presentar en este documento: los del nombre y los que el detalle pide como modelo."""
+    citados = anexos_citados(doc["nombre"])
+    for linea in doc.get("detalle") or []:
+        for m in RE_CITA.finditer(linea):
+            antes, despues = linea[max(0, m.start() - 45):m.start()], linea[m.end():m.end() + 30]
+            if RE_PIDE_MODELO.search(antes) and not RE_SOLO_REFERENCIA.search(antes[-20:] + " " + despues):
+                for n in _numeros_de_cita(linea, m):
+                    if n not in citados:
+                        citados.append(n)
+    return citados
 
 
 def numeral_de_archivo(nombre):
@@ -251,8 +275,7 @@ def preparar_anexos(registro, documentos, pcap, avisos):
     usados = set()
     por_documento = {}
     for doc in documentos:
-        texto = doc["nombre"] + " " + " ".join(doc.get("detalle") or [])
-        citados = anexos_citados(texto)
+        citados = anexos_del_documento(doc)
         es_deuc = "deuc" in doc["nombre"].lower()
         items = []
         candidatos = [c for c in ficheros if (c["numeral"] in citados) or (es_deuc and c["deuc"])]
@@ -264,6 +287,10 @@ def preparar_anexos(registro, documentos, pcap, avisos):
         rangos, etiquetas = [], []
         for n in citados:
             if n not in cubiertos and n in indice and pdf is not None:
+                paginas = indice[n][1] - indice[n][0] + 1
+                if paginas > MAX_PAGINAS_MODELO:
+                    avisos.append(f"«{doc['nombre']}»: el Anexo {n} del PCAP tiene {paginas} páginas; no parece un modelo y no se extrae.")
+                    continue
                 rangos.append(indice[n])
                 etiquetas.append(f"Anexo {n}: págs. {indice[n][0]}-{indice[n][1]}")
         if rangos:
