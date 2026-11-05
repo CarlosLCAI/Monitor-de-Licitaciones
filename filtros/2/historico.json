@@ -908,6 +908,11 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-11-05"
+    "fecha_captura": "2026-11-05",
+    "revision_ia": {
+      "informe": "No se pudo descargar el PCAP.",
+      "fecha_analisis": "2026-11-05T09:19:17.327199+00:00",
+      "solicitada_por": "Belén Fernández"
+    }
   }
 ]
