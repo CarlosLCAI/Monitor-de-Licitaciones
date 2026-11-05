@@ -29,6 +29,7 @@
     --etiqueta-suave: #9AA0A5;
     --descarte: #D64550; /* rojo de la casilla Descartado */
     --presentado: #2E9E6A; /* verde de la casilla Presentado */
+    --ganada: #C8961A; /* dorado de la casilla Ganada */
     --borde-casilla: #8A9096;
     /* Semáforo de la revisión IA: tonos pastel de poco contraste */
     --sem-verde: #DCEEE2;
@@ -55,6 +56,7 @@
     --etiqueta-suave: #8B9196;
     --descarte: #E0565F;
     --presentado: #3BAE79;
+    --ganada: #D9AE3A;
     --borde-casilla: #7C8288;
     --sem-verde: #2B3F34;
     --sem-naranja: #4A3C2B;
@@ -228,6 +230,16 @@
     border-color: var(--presentado);
   }
   button.marca-por[data-tipo="presentado"] { background: var(--presentado); }
+  /* Ganada: recuadro que al marcarse se rellena de dorado con una estrella blanca */
+  .check-marca[data-tipo="ganada"] {
+    -webkit-appearance: none; appearance: none;
+    border: 1.5px solid var(--borde-casilla); border-radius: 3px; background-color: var(--surface);
+  }
+  .check-marca[data-tipo="ganada"]:checked {
+    background: var(--ganada) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Cpath d='M5 1.2l1.2 2.5 2.7.4-2 1.9.5 2.7L5 7.3 2.6 8.7l.5-2.7-2-1.9 2.7-.4Z' fill='white'/%3E%3C/svg%3E") center / 12px 12px no-repeat;
+    border-color: var(--ganada);
+  }
+  button.marca-por[data-tipo="ganada"] { background: var(--ganada); }
   /* Licitación descartada: solo se ve en "Todas", atenuada */
   tr.descartada td:not(:last-child) { opacity: 0.5; }
   tr.descartada:hover td:not(:last-child) { opacity: 0.85; }
@@ -852,6 +864,7 @@
               <li><strong>Solicitar Revisión IA:</strong> la revisión no se genera sola, se pide en la licitación que interese. En unos minutos el enlace pasa a <strong>Revisión IA</strong> en negrita; al abrirlo se ve el informe, que se puede compartir con el botón <em>Compartir</em> (copiar, PDF o HTML). Cada revisión tiene un pequeño coste.</li>
               <li><strong>Revisado:</strong> marca que alguien del equipo ya ha mirado esa licitación. Si lo marca otra persona con su nombre configurado, en lugar del check aparece su inicial (al pulsarla se desmarca). Vale para todos los filtros en los que aparezca la licitación y se puede marcar también desde <em>Todos los filtros</em>.</li>
               <li><strong>Presentado:</strong> marca (en verde) las licitaciones a las que nos hemos presentado, para poder seguirlas después. Se aplica a todos los filtros y la licitación sigue en su pestaña.</li>
+              <li><strong>Ganada:</strong> marca (en dorado, con una estrella) las licitaciones que nos han adjudicado. Es independiente de <em>Presentado</em>: se marca a mano cuando llegue la adjudicación. Se aplica a todos los filtros y cuenta en las estadísticas.</li>
               <li><strong>Descartado:</strong> marca las licitaciones que no interesan. Al descartarla desaparece de <em>Última lectura</em> y de <em>En plazo</em> y solo se ve en <em>Todas</em>, atenuada. Desde ahí puedes desmarcarla si cambias de idea. Igual que Revisado, se aplica a todos los filtros y se ve con la inicial de quien la descartó. Son marcas independientes: ninguna activa o desactiva las otras.</li>
             </ul>
 
@@ -1703,7 +1716,7 @@ function bloqueMarca(r, tipo) {
 }
 
 function celdaRevision(r) {
-  return '<td>' + bloqueMarca(r, 'revisado') + bloqueMarca(r, 'presentado') + bloqueMarca(r, 'descartado') + '</td>';
+  return '<td>' + bloqueMarca(r, 'revisado') + bloqueMarca(r, 'presentado') + bloqueMarca(r, 'ganada') + bloqueMarca(r, 'descartado') + '</td>';
 }
 
 // Las licitaciones de la Junta traen una descripción que explica el objeto mejor que su título
@@ -1924,8 +1937,8 @@ function aplicarFiltros() {
       va = parseFloat(va) || 0;
       vb = parseFloat(vb) || 0;
     }
-    if (ordenColumna === 'revision') { // sin tratar < revisado < presentado < descartado
-      const rango = r => r.descartado ? 3 : (r.presentado ? 2 : (r.revisado_humano ? 1 : 0));
+    if (ordenColumna === 'revision') { // sin tratar < revisado < presentado < ganada < descartado
+      const rango = r => r.descartado ? 4 : (r.ganada ? 3 : (r.presentado ? 2 : (r.revisado_humano ? 1 : 0)));
       va = rango(a);
       vb = rango(b);
     }
@@ -2045,26 +2058,27 @@ function tarjetaSemanas(lista) {
 function tarjetaPersonas(lista) {
   const personas = new Map();
   for (const d of lista) {
-    for (const tipo of ['revisado', 'presentado', 'descartado']) {
+    for (const tipo of ['revisado', 'presentado', 'ganada', 'descartado']) {
       const c = CAMPOS_MARCA[tipo];
       if (!d[c.valor]) continue;
       const nombre = nombrePersona(d[c.por]);
-      if (!personas.has(nombre)) personas.set(nombre, { revisado: 0, presentado: 0, descartado: 0 });
+      if (!personas.has(nombre)) personas.set(nombre, { revisado: 0, presentado: 0, ganada: 0, descartado: 0 });
       personas.get(nombre)[tipo]++;
     }
   }
   let html = '<div class="st-card"><h4>Marcas por persona</h4>';
   if (!personas.size) return html + '<p class="st-vacio">Aún no hay marcas.</p></div>';
-  const filas = [...personas.entries()].map(([n, m]) => [n, m, m.revisado + m.presentado + m.descartado]).sort((a, b) => b[2] - a[2]);
+  const filas = [...personas.entries()].map(([n, m]) => [n, m, m.revisado + m.presentado + m.ganada + m.descartado]).sort((a, b) => b[2] - a[2]);
   const maximo = filas[0][2];
   html += filas.map(([nombre, m, t]) =>
     '<div class="st-persona"><div><span>' + escapeHtml(nombre) + '</span><span class="mono">' + t + '</span></div>' +
     '<div class="st-barra" style="width:' + Math.max(t / maximo * 100, 4) + '%">' +
     (m.revisado ? '<i style="flex:' + m.revisado + ';background:#07AAAA" title="Revisadas: ' + m.revisado + '"></i>' : '') +
     (m.presentado ? '<i style="flex:' + m.presentado + ';background:var(--presentado)" title="Presentadas: ' + m.presentado + '"></i>' : '') +
+    (m.ganada ? '<i style="flex:' + m.ganada + ';background:var(--ganada)" title="Ganadas: ' + m.ganada + '"></i>' : '') +
     (m.descartado ? '<i style="flex:' + m.descartado + ';background:var(--descarte)" title="Descartadas: ' + m.descartado + '"></i>' : '') +
     '</div></div>').join('');
-  return html + '<p class="st-nota">Turquesa: revisadas · verde: presentadas · rojo: descartadas.</p></div>';
+  return html + '<p class="st-nota">Turquesa: revisadas · verde: presentadas · dorado: ganadas · rojo: descartadas.</p></div>';
 }
 
 function tarjetaCosteIA(lista) {
@@ -2316,6 +2330,7 @@ function renderEstadisticas() {
   const enPlazo = lista.filter(d => esVigente(d) && !d.descartado);
   const revisadas = lista.filter(d => d.revisado_humano).length;
   const presentadas = lista.filter(d => d.presentado);
+  const ganadas = lista.filter(d => d.ganada).length;
   const descartadas = lista.filter(d => d.descartado).length;
   const conIA = lista.filter(d => revisionIaValida(d.revision_ia));
 
@@ -2335,7 +2350,7 @@ function renderEstadisticas() {
 
   const kpi = (n, t) => '<div class="st-kpi"><b>' + numES(n) + '</b><span>' + t + '</span></div>';
   html += '<div class="st-kpis">' + kpi(total, 'Licitaciones') + kpi(enPlazo.length, 'En plazo') + kpi(vencidas.length, 'Plazo vencido') +
-    kpi(revisadas, 'Revisadas') + kpi(presentadas.length, 'Presentadas') + kpi(descartadas, 'Descartadas') + kpi(conIA.length, 'Con revisión IA') + '</div>';
+    kpi(revisadas, 'Revisadas') + kpi(presentadas.length, 'Presentadas') + kpi(ganadas, 'Ganadas') + kpi(descartadas, 'Descartadas') + kpi(conIA.length, 'Con revisión IA') + '</div>';
 
   // Dónde está cada licitación en plazo (solo en la vista de todos los filtros)
   html += '<h3 class="stats-section-title">Dónde está cada licitación en plazo</h3>';
@@ -2684,16 +2699,18 @@ function base64ToUtf8(b64) {
 const CAMPOS_MARCA = {
   revisado: { valor: 'revisado_humano', fecha: 'revisado_fecha', por: 'revisado_por' },
   presentado: { valor: 'presentado', fecha: 'presentado_fecha', por: 'presentado_por' },
+  ganada: { valor: 'ganada', fecha: 'ganada_fecha', por: 'ganada_por' },
   descartado: { valor: 'descartado', fecha: 'descartado_fecha', por: 'descartado_por' },
   carpeta: { valor: 'carpeta_descargada', fecha: 'carpeta_descargada_fecha', por: 'carpeta_descargada_por' },
 };
-const ETIQUETAS_MARCA = { revisado: 'Revisado', presentado: 'Presentado', descartado: 'Descartado' };
+const ETIQUETAS_MARCA = { revisado: 'Revisado', presentado: 'Presentado', ganada: 'Ganada', descartado: 'Descartado' };
 const TEXTO_MARCAR = {
   revisado: 'Marcar como revisado',
   presentado: 'Marcar como presentado: nos hemos presentado a esta licitación',
+  ganada: 'Marcar como ganada: nos han adjudicado esta licitación',
   descartado: 'Descartar: sale de «Última lectura» y «En plazo» y solo se ve en «Todas»',
 };
-const TEXTO_GUARDADO = { revisado: 'revisión humana', presentado: 'presentación', descartado: 'descarte', carpeta: 'descarga de la carpeta' };
+const TEXTO_GUARDADO = { revisado: 'revisión humana', presentado: 'presentación', ganada: 'adjudicación', descartado: 'descarte', carpeta: 'descarga de la carpeta' };
 
 async function guardarCamposEnFiltro(filtroId, folderId, campos, mensaje, intentosMax = 3) {
   const token = obtenerTokenGuardado();
@@ -3100,6 +3117,11 @@ document.getElementById('modal-revision-overlay').addEventListener('click', (e) 
 // de frases con HTML sencillo): la ventana se abre sola la primera vez que se entra desde esa fecha
 // y la campana se muestra rellena durante la primera semana. Solo cambios que el usuario note.
 const NOVEDADES = [
+  { fecha: '2026-11-05', items: [
+    "<strong>Marca «Ganada».</strong> Nueva casilla dorada con una estrella en la columna <em>Revisión</em>, entre Presentado y Descartado, para marcar a mano las licitaciones que nos han adjudicado. Se aplica a todos los filtros, se ve con la inicial de quien la marca, ordena la columna Revisión y aparece en las estadísticas (cifras clave y marcas por persona).",
+    "<strong>Enlace al DEUC.</strong> En las carpetas, los documentos DEUC que quedan como .txt incluyen ahora el enlace al servicio oficial para rellenarlo y los pasos.",
+    "<strong>Anexos más fiables.</strong> Al preparar la carpeta, un documento solo se rellena con un anexo si lo pide como modelo, no si lo menciona como fuente de un dato, y no se extraen anexos de más de 15 páginas.",
+  ] },
   { fecha: '2026-10-22', items: [
     "<strong>Filtro «Solo revisadas».</strong> A la derecha del buscador hay una casilla que, al marcarla, muestra solo las licitaciones con la marca de revisada. Funciona en todas las pestañas y se combina con el texto del buscador.",
   ] },
