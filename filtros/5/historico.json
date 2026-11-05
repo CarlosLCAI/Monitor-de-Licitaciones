@@ -6518,7 +6518,223 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-10-30"
+    "fecha_captura": "2026-10-30",
+    "revision_ia": {
+      "informe": "## Bloque 1 – Características Principales del Contrato\n\nEl PCAP recibido incluye el Cuadro de Características y los anexos hasta la página 36 de 64. El cuerpo de cláusulas (pliego tipo, p. ej. cláusulas 15, 17, 20 y 48) y los Anexos V a XII no constan en el texto. Cuando algo depende de ellos se indica como no localizado. Se ha analizado también el PPT.\n\n### Objeto de la licitación\nContrato de servicios de **redacción del Documento de Avance del Plan de Ordenación Urbana (POU) de Camas (Sevilla)** (expte. 12194/2026). Cubre todo el suelo urbano, aproximadamente el 30 % del término municipal. Se redacta conforme a la LISTA (Ley 7/2021) y en paralelo al PGOM en redacción. Incluye los documentos complementarios para iniciar la evaluación ambiental estratégica y la participación ciudadana.\n\nObjetivos y entregables (según el PPT):\n- Plan de Participación Ciudadana, con portal web, cuestionario online, material divulgativo y **una** sesión pública.\n- Documento de Avance del POU (borrador), con memorias de información y diagnóstico, de participación y de ordenación, y cartografía.\n- Documento Inicial Estratégico (DIE).\n- Memoria Resumen de Valoración de Impacto en la Salud.\n- Documento de Consulta Pública, con síntesis del Avance y del DIE.\n- Entrega digital (pdf firmado, shapefile/GeoPackage, modelo de datos SIG, visor navegable) y **2 ejemplares en papel**.\n- Base cartográfica BTA/BTU, informes sobre sugerencias y alegaciones, y asesoramiento al Ayuntamiento.\n\nCPV: 71400000-2 y 71410000.\n\n### División en lotes\nNo hay división en lotes. Las prestaciones forman una unidad funcional.\n\n### Características del contrato\n- **Presupuesto base de licitación (PBL):** **70.247,93 €** sin IVA, IVA 14.752,07 € y **85.000,00 € IVA incluido**.\n  - Costes directos: 59.031,87 €. Costes indirectos (19 %): 11.216,06 €.\n  - La baja se aplica sobre el PBL sin IVA.\n- **Valor estimado (VEC):** **70.247,93 €**. No hay modificaciones, prórrogas, opciones ni premios.\n- **Anualidades:** 2026 con 12.750 € IVA incluido; 2027 con 72.250 € IVA incluido.\n- **Financiación:** subvención de la Diputación de Sevilla (Resolución nº 4318/2026). ⚠ REVISAR: el apartado B.5 menciona \"Financiado por la UE NextGenerationEU / MRR\", pero deja en blanco componente e inversión y no se distingue la casilla marcada.\n- **Duración:** **9 meses**, sin prórrogas.\n  - Según el PPT: el Plan de Participación se entrega en **1 mes**, con subsanación en 15 días. El resto de la documentación se entrega en **7 meses**, con subsanación en 1 mes.\n  - El plazo de 9 meses es coherente con 1 + 7 meses más las subsanaciones.\n- **Procedimiento:** abierto, según el Anexo VI.A y el sobre A del art. 159 LCSP. Las casillas de procedimiento y tramitación no se distinguen en el texto: ⚠ REVISAR.\n- **Plazo de presentación:** el cuadro ofrece tres alternativas (35 días naturales desde el envío a la OPUE, 20 días naturales o 10 días hábiles desde la publicación en el perfil). No se distingue cuál está marcada: **no localizado, ⚠ REVISAR**.\n- **Presentación:** electrónica, a través de la Plataforma de Contratación del Sector Público (perfil: contrataciondelestado.es). Hay dos sobres, A y C (ver Bloque 5). La apertura es en el Salón de Plenos del Ayuntamiento.\n- **Órgano de contratación:** Alcaldía, con competencia delegada en la Junta de Gobierno Local.\n- **Subcontratación:** la propia elaboración del instrumento de ordenación **no** puede subcontratarse. Sí pueden subcontratarse los estudios complementarios exigidos por la legislación sectorial. Hay que indicar en la oferta la parte, el importe y el perfil del subcontratista.\n- **Garantía definitiva:** 5 % del importe de adjudicación sin IVA, con retención en factura admitida. No hay garantía provisional. Plazo de garantía: **12 meses** desde la finalización.\n- **Trabajos específicos:** no se exigen arqueología, topografía ni geotecnia como prestación separada. El PPT cita estudios de aguas, arqueología (prospección) y movilidad solo si los criterios de ordenación los requieren. Sí incluye el DIE, la valoración de impacto en la salud, la zonificación acústica y la cartografía BTA/BTU.\n- **Condiciones especiales de ejecución (obligaciones esenciales):**\n  - Estar al corriente en el pago de nóminas y respetar la seguridad y salud laboral.\n  - Documentación en soporte digital, minimizando la impresión.\n- **Propiedad intelectual:** cesión de los derechos de explotación al Ayuntamiento.\n- **Tratamiento de datos personales:** sí (Anexo IX).\n- **Adscripción de medios:** obligatoria y condición esencial del contrato.\n\n## Bloque 2 – Solvencia\n\n### Económica y financiera\nPueden usarse uno o varios de estos medios:\n1. **Cifra anual de negocios** en el mejor de los tres últimos ejercicios **≥ valor estimado (70.247,93 €)**. Se acredita con el modelo 390 de IVA o con las cuentas anuales.\n2. **Seguro de responsabilidad civil profesional** por importe **≥ 70.247,93 €**.\n   - Debe estar vigente hasta el fin del plazo de ofertas.\n   - Debe incluir el compromiso de renovación durante la ejecución y el plazo de garantía.\n\nClasificación: no procede. Habilitación profesional: no procede.\n\n### Técnica y profesional\nPueden usarse uno o varios de estos medios:\n1. **Relación de contratos similares** en los **3 últimos ejercicios**, con certificados de buena ejecución de **al menos 2**.\n   - Son similares los del mismo grupo/subgrupo de clasificación.\n   - También lo son los que coinciden al menos un 50 % en prestaciones e importe.\n   - También lo son los que comparten los **3 primeros dígitos del CPV (714)**.\n   - Acreditación: certificado del órgano público competente o del sujeto privado. A falta de este, declaración del empresario con documentos.\n2. **Control de calidad:** un técnico de grado medio como director de calidad (propio o externo), **o** un certificado de calidad de organismo independiente.\n\n### Equipo mínimo adscrito (PCAP apartado I y PPT cláusula 8.1)\nLa composición mínima es condición esencial y los cambios deben ser aceptados por el Ayuntamiento. Un solo lote. Titulación: copia compulsada del título. Experiencia: certificado de la Administración con identificación del profesional, o declaración responsable del profesional con documentación. Si el personal es externo: compromiso de contratación y de permanencia.\n\n| Puesto | Titulación | Experiencia mínima |\n|---|---|---|\n| Director/a-coordinador/a (1) | Arquitectura o ICCP (o equivalente EEES) | En los últimos **15 años**, como director/a responsable del equipo redactor de **1 PGOU aprobado definitivamente**, o **2 PGOU aprobados al menos inicialmente**, o **2 Avances de PGOM/POU** conforme a la LISTA. No valen revisiones parciales ni modificaciones puntuales. |\n| Arquitecto/a (1) | Arquitectura (si el director no lo es) | En los últimos **10 años**, haber formado parte del equipo de **1 PGOU aprobado al menos inicialmente** o **1 Avance de PGOM/POU** (LISTA). |\n| Técnico/a medioambiental (1) | Capacidad técnica según art. 16 Ley 21/2013 | En los últimos **10 años**, **1 Estudio Ambiental Estratégico o Estudio de Impacto Ambiental de un PGOU**. |\n\nSubcontratación y medios externos: los puestos del equipo no pueden subcontratarse en lo que es la elaboración del instrumento. Sí cabe integrarlos mediante UTE o medios externos, con compromiso de contratación (modelo Anexo II.A).\n\n⚠ REVISAR — criterio de mejora de equipo, no confundir con el mínimo de solvencia:\n- Los criterios 2.A (profesionales extra) y 2.B (experiencia superior a la mínima) se valoran aparte (ver Bloque 3).\n- La experiencia usada para acreditar el mínimo no puntúa en 2.B.\n\n## Bloque 3 – Criterios de Adjudicación\n\nTotal: **100 puntos** (60 automáticos y 40 por juicio de valor).\n\n### Automáticos (fórmulas)\n**Criterio 1. Precio (hasta 10 puntos):** **POi = MaxP × [(PBL − Oi) / (PBL − MO)]**\n- POi = puntos de la oferta i.\n- MaxP = 10.\n- PBL = presupuesto base de licitación sin IVA.\n- Oi = oferta i.\n- MO = mejor oferta.\n- Sin baja, 0 puntos.\n\n**Criterio 2.A. Mejora del equipo mínimo (máx. 10 puntos).** 2 puntos por cada profesional extra (máximo 1 por categoría). Hay que identificarlo con titulación original o copia autenticada y compromiso firmado de participación.\n\n| Categoría | Máx. personas | Puntos |\n|---|---|---|\n| Grado en Derecho | 1 | 2 |\n| Ordenación del territorio y urbanismo (arquitectura, ICCP, geografía) | 1 | 2 |\n| Patrimonio urbanístico, histórico o cultural (arqueología, historia) | 1 | 2 |\n| Perfil técnico (arquitectura técnica, ITOP, informática, topografía, sociología urbana, antropología) | 1 | 2 |\n| Igualdad de género, discapacidad o participación ciudadana | 1 | 2 |\n\n**Criterio 2.B. Experiencia complementaria del equipo mínimo (máx. 40 puntos).**\n- Solo puntúa la experiencia por encima del mínimo.\n- Los topes de B.1, B.2 y B.3 suman más de 40, pero el máximo del criterio es 40.\n\n**B.1. Director/a-coordinador/a (hasta 35 puntos):**\n\n| Figura de planeamiento | Como responsable | Como miembro |\n|---|---|---|\n| POU aprobado al menos inicialmente | 7 puntos/plan, hasta 35 | 3,5 puntos/plan, hasta 17,5 |\n| Avance POU | 5 puntos/plan, hasta 35 | 2,5 puntos/plan, hasta 17,5 |\n| PGOU aprobado al menos inicialmente | 5 puntos/plan, hasta 20 | 2,5 puntos/plan, hasta 10 |\n| PGOM aprobado al menos inicialmente | 3 puntos/plan, hasta 15 | 1,5 puntos/plan, hasta 7,5 |\n| Avance PGOM | 2 puntos/plan, hasta 10 | 1 punto/plan, hasta 5 |\n| Modificación estructural de PGOU, Plan de Sectorización, Plan Parcial o Plan Especial | 1 punto/plan, hasta 8 | 0,5 puntos/plan, hasta 4 |\n\n**B.2. Técnico/a medioambiental (hasta 5 puntos):**\n- Estudio Ambiental Estratégico: 2,5 puntos/plan.\n- Documento Inicial Estratégico: 1,5 puntos/plan.\n- Estudio de Impacto Ambiental: 2,5 puntos/plan.\n\n**B.3. Arquitecto/a (hasta 10 puntos):**\n- POU aprobado al menos inicialmente: 2,5 puntos/plan.\n- Avance POU: 2 puntos/plan.\n- PGOU aprobado al menos inicialmente: 2 puntos/plan.\n- PGOM aprobado al menos inicialmente: 1,5 puntos/plan.\n- Avance PGOM: 1 punto/plan.\n- Modificación estructural, Plan de Sectorización, Plan Parcial o Plan Especial **aprobado definitivamente**: 1 punto/plan, hasta 3.\n\n⚠ REVISAR: la ubicación documental de las acreditaciones de 2.A y 2.B no es clara. El Anexo III.B (sobre C) recoge la indicación del número de planes. El sobre A incluye el \"Documento de Referencias Técnicas\". Confirmar en la cláusula 15/17 del pliego tipo.\n\n### Juicio de valor\nTotal: **40 puntos**.\n\n| Memoria | Puntos | Extensión y formato | Contenido |\n|---|---|---|---|\n| **Memoria de Diagnóstico Previo** | 35 | Máx. **25 páginas A4** + **5 páginas A3** (gráficos), Arial ≥10, interlineado 1,5 | Situación del municipio, evaluación del planeamiento, análisis DAFO, objetivos e instrumentos. No se desglosan puntos por subapartado. |\n| **Proceso Participativo** | 5 | Máx. **5 páginas A4** + **2 páginas A3** | Organización de la participación general e incentivación por colectivos (género, diversidad, jóvenes, asociaciones). |\n\nLas propuestas que superen el máximo de extensión no se valoran. Cada apartado se puntúa según el sistema del PCAP tipo, que no consta en el texto recibido. El comité de expertos está formado por la Secretaria General y dos arquitectos municipales.\n\n### Umbrales mínimos de puntuación\n**Sí hay umbral:** mínimo de **20 puntos** en la suma de la Memoria de Diagnóstico Previo y el Proceso Participativo (sobre 40). Si no se alcanza, la oferta queda excluida.\n\nOfertas desproporcionadas: solo se considera el precio. Se aplica el art. 85 RGLCAP con los porcentajes reducidos a **5 puntos** (art. 149.2.a LCSP).\n\n## Bloque 4 – Forma de Pago\n\n- **Abono:** del precio de los servicios prestados y conformados por el Ayuntamiento, previa factura conformada por el responsable del contrato.\n  - La facturación es **electrónica vía FACe**. Código DIR3: L01410212.\n  - El PCAP remite a la cláusula 48 del pliego tipo y al PPTP para las certificaciones parciales.\n  - El PPT remite al PCAP para los plazos y certificaciones.\n  - **Calendario de hitos/certificaciones: no localizado** (cláusula 48 no incluida).\n- **Distribución presupuestaria:** 12.750 € en 2026 y 72.250 € en 2027, ambos con IVA.\n- **Entrega y recepción (PPT):** se entiende por entrega la presentación en el Registro y por recepción la conformidad del responsable del contrato. Esta no impide correcciones posteriores por informes sectoriales o autonómicos.\n- **Precio:** sin pago en especie. Sin modificaciones previstas, según el texto.\n- **Revisión de precios:** las casillas SÍ/NO no se distinguen: **⚠ REVISAR** (cláusula 40). Dado que el contrato dura 9 meses, es improbable que proceda.\n- **Certificaciones por actuaciones preparatorias:** casilla no distinguible, ⚠ REVISAR.\n- **Recepción:** el PCAP remite al PPTP. Las casillas única/parciales no se distinguen.\n- **Penalidades:** el incumplimiento de la adscripción de medios permite resolución o penalidades (la cuantía no consta en el texto). El incumplimiento de plazos y de la adscripción de medios son obligaciones esenciales (PPT 8.4).\n- **Garantía:** definitiva del 5 %, con posible retención en las facturas.\n\n## Bloque 5 – Documentación a Presentar\n\nEl Cuadro de Características solo define dos sobres. El detalle de cada documento depende del Anexo VI.A y de la cláusula 15 del pliego tipo, que no constan en el texto: se indica solo lo que figura en el cuadro y en los anexos recibidos.\n\n### Sobre A – Documentación administrativa, solvencia y oferta técnica sujeta a juicio de valor\nTítulo del pliego: \"Documentación acreditativa de la personalidad, características del contratista y oferta técnica o evaluable mediante criterios sujetos a juicios de valor\".\n\n- **DEUC (Anexo I):** uno por empresa. Si hay UTE, cada empresa presenta el suyo. Hay que descargar el XML del perfil del contratante.\n- **Anexo II.A – Declaración responsable complementaria (personas jurídicas):**\n  - Compromiso de UTE o medios externos para complementar la solvencia.\n  - Pertenencia a grupo empresarial.\n  - Número de trabajadores y trabajadores con discapacidad.\n  - Cumplimiento de obligaciones medioambientales, sociales y laborales.\n  - Documentos confidenciales, código ético, conflicto de intereses y correo habilitado.\n- **Declaración de pertenencia o no a grupo empresarial (Anexo III citado en el Anexo I):** no consta el texto del modelo.\n- **Documento de Referencias Técnicas:** acreditación de la cláusula 8 del PPTP. Incluye:\n  - Equipo mínimo: títulos (copia compulsada), certificados o declaraciones de experiencia, y compromisos de contratación y permanencia del personal externo.\n  - Medios materiales.\n- **Indicación de la parte a subcontratar:** parte, importe y perfil de los subcontratistas.\n- **Memoria de Diagnóstico Previo:** máx. 25 páginas A4 y 5 páginas A3.\n- **Proceso Participativo:** máx. 5 páginas A4 y 2 páginas A3.\n\n### Sobre C – Oferta económica y técnica valorable matemáticamente\n- **Anexo III.B – Modelo de oferta económica y técnica valorable matemáticamente:**\n  - Importe sin IVA, IVA y total.\n  - Criterio 2.A: casillas con los profesionales extra ofertados.\n  - Criterio 2.B: número de planes por figura para director/a, técnico/a medioambiental y arquitecto/a.\n  - Declaración de cumplimiento de obligaciones fiscales, medioambientales, laborales y de igualdad.\n- **Acreditación de titulaciones y experiencia para 2.A y 2.B:** ubicación documental no localizada, ⚠ REVISAR.\n\n### Documentación posterior (solo el propuesto como adjudicatario)\n- **Documentación de adscripción de medios** (personales y materiales) antes de la adjudicación, con acreditación de la relación laboral o mercantil de los miembros del equipo redactor.\n- **Justificación de la solvencia declarada:** modelo 390 o cuentas anuales, y certificado y póliza del seguro con compromiso de renovación.\n- **Certificados de buena ejecución** de los contratos similares y certificados de la experiencia del equipo.\n- **Garantía definitiva:** 5 % del importe de adjudicación sin IVA. Puede constituirse por retención.\n- **Documentación de capacidad y personalidad, y de estar al corriente con Hacienda y la Seguridad Social:** detalle no localizado (cláusula 15/Anexo VI).\n- **Anexo XI** (datos de facturación) y **Anexo XII** (ficha de terceros): se mencionan en el índice del PCAP, pero el texto no incluye su contenido.\n\n## Bloque 6 – Conclusiones / Análisis Preliminar\n\n### Precio frente a duración\nEl PBL es **70.247,93 € sin IVA** para **9 meses**, unos 7.800 €/mes. Para el alcance (Avance, DIE, valoración de impacto en la salud, consulta pública, participación ciudadana, SIG y cartografía) con un equipo de al menos 3 técnicos, el precio es ajustado. Se calculó como un 30 % de los honorarios del POU. Tiene costes indirectos del 19 %, plazo de entrega del contenido principal de 7 meses y una sola sesión pública.\n\nEstá dentro del rango habitual de los contratos de CAI. En redacción de proyectos, CAI ha ganado contratos de 30.000 a 250.000 €; en planeamiento, el contrato de Almuñécar fue de 27.610 €.\n\n### Comparativa de solvencia con el perfil de CAI\nCifra de negocio: se usa 1.876.061 € (2024), la mayor de las declaradas.\n\n| Requisito | Exigencia | Perfil CAI | Valoración |\n|---|---|---|---|\n| Cifra de negocio | ≥ 70.247,93 € en el mejor de 3 años | 1.876.061 € (o 1.860.115 € en 2025, sin verificar) | **Cumple** con holgura. Hay discrepancia declarada/AEAT (1.559.018 €), igualmente válida. |\n| Seguro RC | ≥ 70.247,93 € vigente | 2.500.000 € (Caser, CAI Ingeniería) | **Cumple.** Falta aportar el certificado de 2026 [SIN VERIFICAR]. |\n| Contratos similares (CPV 714), 3 últimos ejercicios, 2 certificados | 2 certificados de buena ejecución | Almuñécar 23/2026 (CPV 71410000, en solitario); Arcos de la Frontera (modificación estructural, certificado 03/07/2026); Plan Parcial CH-3 (certificado 2025); SP-12 Marbella; Plan Especial Vélez-Málaga (todos certificados de promotor) | **Cumple probablemente.** Hay que confirmar la ventana de años y el certificado del contrato de Almuñécar. Además existe la EAE del PGOM de Málaga (en UTE, sin fecha). |\n| Control de calidad | Técnico de grado medio o certificado | ISO 9001 vigente (vencimiento sin verificar) | **Cumple.** |\n| Director/a-coordinador/a | PGOU aprobado definitivamente (como director), o 2 PGOU inicial o 2 Avances | Titulación: Enrique de la Torre (ICCP) o Carmen Torralba (arquitecta). No consta que ninguno haya dirigido un PGOU o un Avance. Todo el planeamiento general acreditado fue **en UTE con García de los Reyes**. | **Falta.** Se cubriría con García de los Reyes, bien en UTE o como medio externo con compromiso. |\n| Arquitecto/a | Miembro de equipo de 1 PGOU (aprobación inicial) o 1 Avance en 10 años | Arquitectos en plantilla (Torralba, Lanzat, Fernández, Trueba), pero sin experiencia en PGOU o Avance documentada | **No consta.** Puede aportarlo el socio de UTE. |\n| Técnico/a medioambiental | EAE o EIA de un PGOU en 10 años | Águeda Romeo (ambientóloga, desde 2022, sin EAE de PGOU documentada). Colaboradores externos: Natalia Palomares (EAE del PGOM de Málaga) y Carolina Ruiz Peinado (ambientóloga) | **No consta** como medio propio. Es cubrible con externos con compromiso de contratación. ⚠ REVISAR si una EAE de PGOM equivale a \"PGOU\". |\n\nNo se exige clasificación ni habilitación o colegiación.\n\nResumen: **4 de 7** requisitos se cumplen con el perfil propio, incluida la solvencia de contratos similares en solitario. **3 de 7** (director, arquitecto y técnico medioambiental) requieren experiencia en planeamiento general que solo consta en UTE con García de los Reyes o con colaboradores externos. El pliego permite UTE o medios externos con compromiso de contratación, aunque la elaboración del instrumento no puede subcontratarse.\n\n**Puntuación del equipo:** en 2.A, CAI puede ofrecer al menos el perfil de urbanismo (arquitecto o ICCP extra). Otros perfiles de la categoría (Derecho, patrimonio, arquitecto técnico, topografía, participación) no constan en plantilla y exigirían colaboradores. En 2.B, la puntuación depende de la experiencia del director/a y del técnico/a, que hay que confirmar con García de los Reyes y con los colaboradores ambientales.\n\n### Semáforo de presentación\n**Color: NARANJA.**\n- Se cumplen **4 de 7** requisitos: cifra de negocio, seguro RC, contratos similares y control de calidad.\n- Faltan por acreditar **3 de 7**: la experiencia en planeamiento general del director/a, del arquitecto/a y del técnico/a medioambiental.\n- El pliego permite cubrirlos con UTE o medios externos con compromiso de contratación (Anexo II.A y PPT 8.1). La subcontratación del instrumento está prohibida, pero no se plantea subcontratar la elaboración sino integrar al equipo.\n- Los precedentes de planeamiento general de CAI se ejecutaron en **UTE con García de los Reyes**, lo que solo permite naranja.\n- No se exige clasificación empresarial ni colegiación.\n\nPuntos a revisar:\n- El texto del PCAP está incompleto desde la página 36, y no consta el plazo de presentación ni el detalle de los sobres.\n- Los datos sin verificar del perfil (seguro 2026, vencimiento ISO, cifra de 2025) quedan como carencia por acreditar.",
+      "usa_ppt": true,
+      "uso": {
+        "entrada": 63977,
+        "salida": 17001,
+        "cache_leida": 0,
+        "cache_escrita": 24915
+      },
+      "coste_estimado_usd": 0.3603,
+      "semaforo": "naranja",
+      "semaforo_motivo": "Cumplimos solvencia económica, seguro y contratos similares, pero la experiencia en planeamiento general del equipo solo consta en UTE con García de los Reyes, cubrible por UTE o medios externos.",
+      "datos_excel": {
+        "info": {
+          "valor_estimado": 70247.93,
+          "iva_pct": 21,
+          "fecha_presentacion": null,
+          "plazo_ejecucion": "9 meses (Plan de Participación 1 mes; resto 7 meses desde formalización, según PPT)",
+          "consultas": "",
+          "garantia_provisional": "No se exige",
+          "garantia_definitiva": "5% del importe de adjudicación sin IVA; admitida retención en precio",
+          "seguro_rc": "≥ 70.247,93 € (valor estimado), vigente hasta fin de plazo de ofertas, con compromiso de renovación",
+          "lotes": "Sin división en lotes",
+          "revision_precios": "No localizado con claridad (casillas SÍ/NO no distinguibles)",
+          "plazo_garantia": "12 meses desde la finalización del contrato",
+          "ute": "Admitida (Anexo II.A: UTE o medios externos para complementar solvencia)",
+          "subcontratacion": "No subcontratable la elaboración del instrumento; sí estudios complementarios sectoriales. Indicar parte, importe y perfil en la oferta",
+          "umbral_tecnico": "20 puntos en la suma de Memoria de Diagnóstico Previo y Proceso Participativo (sobre 40)"
+        },
+        "solvencia": {
+          "nota": "Solvencia económica y técnica por uno o varios medios. Equipo mínimo es condición esencial. UTE o medios externos permitidos con compromiso de contratación; la elaboración del instrumento no es subcontratable. La experiencia del mínimo no puntúa en el criterio 2.B.",
+          "economica": [
+            {
+              "nombre": "Cifra anual de negocios",
+              "valor": "≥ 70.247,93 € en el mejor de los 3 últimos ejercicios",
+              "acreditacion": "Modelo 390 de IVA o cuentas anuales",
+              "cai": "cumple",
+              "cai_nota": "1.876.061 € declarados (2024)"
+            },
+            {
+              "nombre": "Seguro RC profesional",
+              "valor": "≥ 70.247,93 € vigente, con compromiso de renovación",
+              "acreditacion": "Póliza y compromiso de renovación",
+              "cai": "cumple",
+              "cai_nota": "2,5 M€ Caser; certificado 2026 pendiente"
+            }
+          ],
+          "tecnica": [
+            {
+              "nombre": "Contratos similares (3 últimos ejercicios)",
+              "valor": "Relación con certificados de buena ejecución de al menos 2; similares por CPV 714, grupo o 50% prestaciones",
+              "acreditacion": "Certificados de órgano público o privado, o declaración del empresario",
+              "cai": "cumple",
+              "cai_nota": "Almuñécar 2026 y Arcos 2026; confirmar certificados y ventana"
+            },
+            {
+              "nombre": "Control de calidad",
+              "valor": "Técnico de grado medio o certificado de calidad independiente",
+              "acreditacion": "Indicación del técnico o certificado ISO",
+              "cai": "cumple",
+              "cai_nota": "ISO 9001 vigente"
+            }
+          ],
+          "equipo": [
+            {
+              "nombre": "Director/a-coordinador/a",
+              "valor": "Arquitecto o ICCP; en 15 años director de 1 PGOU aprobado definitivamente, o 2 PGOU aprobados al menos inicialmente, o 2 Avances PGOM/POU (LISTA)",
+              "acreditacion": "Copia compulsada del título; certificado de la Administración o declaración responsable; compromiso si es externo",
+              "cai": "parcial",
+              "cai_nota": "Titulación sí; sin experiencia propia como director de PGOU/Avance; solo en UTE con García de los Reyes"
+            },
+            {
+              "nombre": "Arquitecto/a",
+              "valor": "Arquitectura; en 10 años miembro de equipo de 1 PGOU aprobado al menos inicialmente o 1 Avance PGOM/POU",
+              "acreditacion": "Título compulsado; certificado o declaración; compromiso si es externo",
+              "cai": "no_consta",
+              "cai_nota": "Arquitectos en plantilla, sin experiencia PGOU documentada"
+            },
+            {
+              "nombre": "Técnico/a medioambiental",
+              "valor": "Capacidad técnica art. 16 Ley 21/2013; en 10 años 1 EAE o EIA de un PGOU",
+              "acreditacion": "Título compulsado; certificado o declaración; compromiso si es externo",
+              "cai": "parcial",
+              "cai_nota": "Colaboradores externos (EAE PGOM Málaga); Águeda Romeo sin EAE de PGOU documentada"
+            }
+          ]
+        },
+        "juicio_valor": [
+          {
+            "nombre": "Memoria de Diagnóstico Previo",
+            "puntos": 35,
+            "paginas_a4": 25,
+            "paginas_a3": 5,
+            "formato": "Arial mínimo 10, interlineado 1,5; no se valora si supera el máximo",
+            "acreditacion": "Sobre A",
+            "apartados": [
+              {
+                "nombre": "Situación del municipio",
+                "puntos": null,
+                "filas": 1
+              },
+              {
+                "nombre": "Evaluación del planeamiento",
+                "puntos": null,
+                "filas": 1
+              },
+              {
+                "nombre": "Análisis DAFO",
+                "puntos": null,
+                "filas": 1
+              },
+              {
+                "nombre": "Objetivos e instrumentos",
+                "puntos": null,
+                "filas": 1
+              }
+            ]
+          },
+          {
+            "nombre": "Proceso Participativo",
+            "puntos": 5,
+            "paginas_a4": 5,
+            "paginas_a3": 2,
+            "formato": "Arial mínimo 10, interlineado 1,5",
+            "acreditacion": "Sobre A",
+            "apartados": [
+              {
+                "nombre": "Organización de la participación ciudadana general",
+                "puntos": null,
+                "filas": 1
+              },
+              {
+                "nombre": "Incentivación de la participación por colectivos",
+                "puntos": null,
+                "filas": 1
+              }
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "nombre": "Proposición económica",
+            "puntos": 10,
+            "formula": "POi = MaxP × [(PBL − Oi) / (PBL − MO)]; POi = puntos de la oferta i; MaxP = 10; PBL = presupuesto base de licitación sin IVA; Oi = oferta i; MO = mejor oferta",
+            "acreditacion": "Sobre C, Anexo III.B"
+          }
+        ],
+        "otros": [
+          {
+            "nombre": "2.A Mejora del equipo mínimo",
+            "puntos": 10,
+            "acreditacion": "Titulaciones originales o autenticadas y compromiso firmado de participación",
+            "apartados": [
+              {
+                "nombre": "Grado en Derecho",
+                "puntos": 2,
+                "regla": "2 puntos, máx. 1 persona",
+                "filas": 1
+              },
+              {
+                "nombre": "Ordenación del territorio y urbanismo (arquitectura, ICCP, geografía)",
+                "puntos": 2,
+                "regla": "2 puntos, máx. 1 persona",
+                "filas": 1
+              },
+              {
+                "nombre": "Patrimonio urbanístico, histórico o cultural (arqueología, historia)",
+                "puntos": 2,
+                "regla": "2 puntos, máx. 1 persona",
+                "filas": 1
+              },
+              {
+                "nombre": "Perfil técnico (arquitectura técnica, ITOP, informática, topografía, sociología, antropología)",
+                "puntos": 2,
+                "regla": "2 puntos, máx. 1 persona",
+                "filas": 1
+              },
+              {
+                "nombre": "Igualdad de género, discapacidad o participación ciudadana",
+                "puntos": 2,
+                "regla": "2 puntos, máx. 1 persona",
+                "filas": 1
+              }
+            ]
+          },
+          {
+            "nombre": "2.B Experiencia complementaria del equipo mínimo (tope total 40)",
+            "puntos": 40,
+            "acreditacion": "Certificado de la Administración o declaración responsable; solo experiencia superior a la mínima",
+            "apartados": [
+              {
+                "nombre": "B.1 Director/a-coordinador/a",
+                "puntos": 35,
+                "regla": "Como responsable: POU 7/plan (hasta 35); Avance POU 5 (hasta 35); PGOU 5 (hasta 20); PGOM 3 (hasta 15); Avance PGOM 2 (hasta 10); modif. estructural/Plan Parcial/Especial 1 (hasta 8). Como miembro: la mitad",
+                "filas": 8
+              },
+              {
+                "nombre": "B.2 Técnico/a medioambiental",
+                "puntos": 5,
+                "regla": "EAE 2,5/plan; DIE 1,5/plan; EIA 2,5/plan",
+                "filas": 3
+              },
+              {
+                "nombre": "B.3 Arquitecto/a",
+                "puntos": 10,
+                "regla": "POU 2,5; Avance POU 2; PGOU 2; PGOM 1,5; Avance PGOM 1; modif. estructural/Plan Parcial/Especial aprobado definitivamente 1 (hasta 3)",
+                "filas": 8
+              }
+            ]
+          }
+        ],
+        "umbral": "20 puntos en la suma de Memoria de Diagnóstico Previo y Proceso Participativo; si no se alcanza, exclusión"
+      },
+      "fecha_analisis": "2026-11-05T15:46:16.543296+00:00",
+      "solicitada_por": "Belén Fernández"
+    }
   },
   {
     "folder_id": "2026/AR44U/00004777E",
