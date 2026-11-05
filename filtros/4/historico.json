@@ -105,7 +105,7 @@
   },
   {
     "folder_id": "1085/2026",
-    "estado": "RES",
+    "estado": "EV",
     "titulo": "PA/SERV/023/2026 Servicios elaboración de los planes de eficiencia hidráulica",
     "updated": "2026-07-28T13:01:04.192+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xvXY%2FJJoUB4QyBAnWzHfCg%3D%3D",
@@ -119,7 +119,7 @@
     "organo": "Consejo de Administración de la Agencia de Régimen Especial Ciclo Integral Aguas del Retortillo",
     "importe": "180254",
     "importe_num": 180254,
-    "fecha_limite": "2026-10-27",
+    "fecha_limite": "2026-10-23",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -130,20 +130,16 @@
       "fecha_analisis": "2026-07-29T06:10:32.480444+00:00"
     },
     "fecha_captura": "2026-07-29",
-    "fecha_limite_anterior": "2026-08-31",
-    "fecha_limite_cambiada_el": "2026-10-28",
-    "estado_updated": "2026-10-27T13:53:34.887+01:00",
+    "fecha_limite_anterior": "2026-10-27",
+    "fecha_limite_cambiada_el": "2026-11-05",
+    "estado_updated": "2026-11-04T11:04:48.026+01:00",
     "estado_anterior": "RES",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-28",
+    "resultado": null,
+    "estado_cambiado_el": "2026-11-05",
     "docs_adicionales": [
       {
-        "nombre": "BT.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QmzkhWeDcr/SJdaMbexLPJF3Xlbto76vQGhwIKDeGoFgxNTiILI6jLAayIhm1%2B8zPmCc/LFX0bdnGFGtS/ZRP9k1b1W7LWMTYH%2BK7cyLzxNt/o8fNevwsujgRzaBbugn"
-      },
-      {
-        "nombre": "PLN.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CImuXrMetAZwjEXXEScbcCWBfbqIFUfK47bbzRhp1thoNl2fozBTTgC2AJInlJENsjI2cVclVI1/paogEmi9Sn4fYqS1pyKiGlkBG42ZZYsC1/zDIE0Kw/PWNnLS0Z0z"
+        "nombre": "ANEXO I - MODELO DECLARACION RESPONSABLE.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=bxP0MXBXt/NK/yaF9VmUt30utMTm%2BhT21K/G8/qNx5mRA7QGHTzvCzDDBg6wsRJ%2BlSHR4AmsLun7WhzZkJ5EyiCi%2BhpRSbCWIR5FZV%2BTpDL3GVhXrFFqN7yFncy7YfRK"
       }
     ]
   },
@@ -722,7 +718,7 @@
   },
   {
     "folder_id": "2/2026",
-    "estado": "PUB",
+    "estado": "ADJ",
     "titulo": "Servicio redacción del proyecto obra, dirección facultativa y dirección de ejecución de la obra, así como de seguridad y salud para la obra de reformas asociadas a la mejora de la eficiencia energética en el edificio de la dirección provincial del sepe de Almería",
     "updated": "2026-08-13T10:01:57.398+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Sr02VDds9n2opEMYCmrbmw%3D%3D",
@@ -736,7 +732,7 @@
     "organo": "Dirección Provincial del Servicio Público de Empleo Estatal en Almería",
     "importe": "156030.58",
     "importe_num": 156030.58,
-    "fecha_limite": "2026-11-18",
+    "fecha_limite": "2026-08-18",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -747,12 +743,12 @@
       "fecha_analisis": "2026-08-15T03:59:34.666336+00:00"
     },
     "fecha_captura": "2026-08-15",
-    "estado_anterior": "RES",
-    "resultado": null,
-    "estado_cambiado_el": "2026-11-04",
-    "estado_updated": "2026-11-03T11:17:08.975+01:00",
-    "fecha_limite_anterior": "2026-10-29",
-    "fecha_limite_cambiada_el": "2026-11-04",
+    "estado_anterior": "PUB",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-11-05",
+    "estado_updated": "2026-11-03T22:00:40.555+01:00",
+    "fecha_limite_anterior": "2026-11-18",
+    "fecha_limite_cambiada_el": "2026-11-05",
     "docs_adicionales": [
       {
         "nombre": "ANEXOS PCAP.pdf",
@@ -797,7 +793,7 @@
   },
   {
     "folder_id": "34/2026",
-    "estado": "PUB",
+    "estado": "RES",
     "titulo": "Servicio para la redacción de Proyecto Básico y de Ejecución, Estudio de Seguridad y Salud, de las obras de rehabilitación integral de las dos naves industriales de la antigua Algodonera Virgen de los Reyes, para su adaptación a Centro de Orientación, Acompañamiento e Innovación para el Empleo situado en el barrio Alcosa (Fase-1), así como a la asistencia técnica a la Dirección de Obra.",
     "updated": "2026-08-12T10:09:41.330+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=j08%2BBegnUWAwYTJJ03sHog%3D%3D",
@@ -823,10 +819,10 @@
       "fecha_analisis": "2026-08-15T04:01:37.325989+00:00"
     },
     "fecha_captura": "2026-08-15",
-    "estado_anterior": "RES",
-    "resultado": null,
-    "estado_cambiado_el": "2026-11-03",
-    "estado_updated": "2026-11-02T11:31:38.538+01:00",
+    "estado_anterior": "PUB",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-11-05",
+    "estado_updated": "2026-11-03T14:04:30.432+01:00",
     "fecha_limite_anterior": "2026-10-13",
     "fecha_limite_cambiada_el": "2026-11-03",
     "docs_adicionales": [
@@ -1750,7 +1746,7 @@
   },
   {
     "folder_id": "24/2026",
-    "estado": "EV",
+    "estado": "ADJ",
     "titulo": "Constituye el objeto del contrato la prestación del servicio de redacción de proyectos, dirección técnica, tramitación y legalización de instalaciones eléctricas temporales y estructuras provisionales necesarias para la celebración de los certámenes organizados en FYCMA, conforme a las especificaciones del PPT.",
     "updated": "2026-09-16T11:12:22.478+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=DC%2Fm7JVt%2FLkUqXM96WStVA%3D%3D",
@@ -1766,7 +1762,7 @@
     "organo": "Dirección General del Palacio de Ferias y Congresos de Málaga",
     "importe": "23681.7",
     "importe_num": 118408.5,
-    "fecha_limite": "2026-10-26",
+    "fecha_limite": "2026-09-11",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1777,12 +1773,12 @@
       "fecha_analisis": "2026-09-17T08:54:05.326723+00:00"
     },
     "fecha_captura": "2026-09-17",
-    "estado_anterior": "ADJ",
-    "resultado": null,
-    "estado_cambiado_el": "2026-11-04",
-    "estado_updated": "2026-11-03T13:51:25.195+01:00",
-    "fecha_limite_anterior": "2026-07-31",
-    "fecha_limite_cambiada_el": "2026-10-29",
+    "estado_anterior": "EV",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-11-05",
+    "estado_updated": "2026-11-04T11:56:12.314+01:00",
+    "fecha_limite_anterior": "2026-10-26",
+    "fecha_limite_cambiada_el": "2026-11-05",
     "docs_adicionales": [
       {
         "nombre": "Resumen presupuesto.pdf",
@@ -1952,7 +1948,7 @@
   },
   {
     "folder_id": "115/2026",
-    "estado": "PUB",
+    "estado": "ADJ",
     "titulo": "El objeto del contrato lo constituye la redacción del proyecto de obras, dirección de obra y la coordinación y seguridad y salud de las obras necesarias para la mejora de la Pista Hípica “La Fuentecilla” de Puebla de Guzmán.",
     "updated": "2026-09-28T10:26:32.669+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Jy63I0UGvaoQyBAnWzHfCg%3D%3D",
@@ -1966,7 +1962,7 @@
     "organo": "Presidencia de la Mancomunidad de Municipios Beturia",
     "importe": "64462.29",
     "importe_num": 64462.29,
-    "fecha_limite": "2026-11-19",
+    "fecha_limite": "2026-08-04",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -1977,16 +1973,16 @@
       "fecha_analisis": "2026-09-29T09:54:16.188776+00:00"
     },
     "fecha_captura": "2026-09-29",
-    "estado_anterior": "EV",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-29",
-    "estado_updated": "2026-10-29T13:28:37.829+01:00",
-    "fecha_limite_anterior": "2026-10-15",
-    "fecha_limite_cambiada_el": "2026-10-29"
+    "estado_anterior": "PUB",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-11-05",
+    "estado_updated": "2026-11-04T09:14:13.517+01:00",
+    "fecha_limite_anterior": "2026-11-19",
+    "fecha_limite_cambiada_el": "2026-11-05"
   },
   {
     "folder_id": "25/26",
-    "estado": "RES",
+    "estado": "ADJ",
     "titulo": "Servicio de Consultoria - Oficina Tecnica Administrativa del Proyecto ECOCREM, cofinanciado por el Programa Plurirregional de España FEDER 2021-2027 en un 85% del gasto elegible, en el marco de la Línea FID-CPI del Ministerio de Ciencia, Innovación y Universidades para la empresa Parque Cementerio de Málaga S.A (PARCEMASA)",
     "updated": "2026-09-28T09:28:08.923+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XAO3D5uzCgmHCIsjvJ3rhQ%3D%3D",
@@ -2005,7 +2001,7 @@
     "organo": "Gerencia del Parque Cementerio de Málaga, S.A.",
     "importe": "481189.78",
     "importe_num": 481189.78,
-    "fecha_limite": "2026-08-14",
+    "fecha_limite": "2026-09-07",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -2016,12 +2012,12 @@
       "fecha_analisis": "2026-09-29T09:55:15.794402+00:00"
     },
     "fecha_captura": "2026-09-29",
-    "estado_anterior": "EV",
-    "resultado": "formalizada",
-    "estado_cambiado_el": "2026-10-27",
-    "estado_updated": "2026-10-27T13:24:47.189+01:00",
-    "fecha_limite_anterior": "2026-10-21",
-    "fecha_limite_cambiada_el": "2026-10-27",
+    "estado_anterior": "RES",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-11-05",
+    "estado_updated": "2026-11-04T15:55:35.639+01:00",
+    "fecha_limite_anterior": "2026-08-14",
+    "fecha_limite_cambiada_el": "2026-11-05",
     "docs_adicionales": [
       {
         "nombre": "Carta de derechos y deberes de los alumnos_OK.pdf",
@@ -2043,7 +2039,7 @@
   },
   {
     "folder_id": "12419/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "Asistencia técnica integral para la gestión ejecución y justificación del PAI, Torremolinos Transformando el Paraíso, cofinanciado por UE Fondo Europeo de Desarrollo Regional FEDER, en el marco del Programa Plurirregional España POPE 2021 2027",
     "updated": "2026-09-28T09:00:00.000+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Ken7Dk6OdlyExvMJXBMHHQ%3D%3D",
@@ -2071,7 +2067,25 @@
     "fecha_captura": "2026-09-29",
     "revisado_humano": true,
     "revisado_fecha": "2026-10-02T11:12:36.829Z",
-    "revisado_por": null
+    "revisado_por": null,
+    "docs_adicionales": [
+      {
+        "nombre": "Modelo Declaracion Responsable con declaracion PYME.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=AQSAgdeAseOIUsBvRKNy%2BMnmdOZC%2B9B4UBv5gBg9fhA9q49a0N77aOd8KXw3j5FJYe42c9Vepb4FKiNbopElxxk5tbiTzTv9emLPDNWfxff3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "PAI  .pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ySoH1E9aWQMMqpHBXlc3SypR2A9JNvg52tike/MB6AJFO%2BvTmb1K6EdDbuZYeSahWEVOYGbcazxi2M/oxTvjYpLuAdSHzfqwl%2Bnx95Xc/aaCx2e6p7hqtlp2aFupgHMr"
+      },
+      {
+        "nombre": "DEUC.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ig1fqAFKmhwNOOfOwPffcg2ETmZoaUPz/wZED8%2BKpVd9cZ9Qbwhi0PvIyUc%2BseqrWSw1tJadHmoyEsY%2BxnfGZwIELSX%2BPUAXvdViPjGFq5TVTD3T98KC0nSgQFM0q%2B5s"
+      }
+    ],
+    "estado_anterior": "PUB",
+    "resultado": null,
+    "estado_cambiado_el": "2026-11-05",
+    "estado_updated": "2026-11-04T13:35:01.551+01:00"
   },
   {
     "folder_id": "33/SE/A/AL26",
@@ -2211,7 +2225,7 @@
   },
   {
     "folder_id": "2026/CMY_03/000128",
-    "estado": "PUB",
+    "estado": "ADJ",
     "titulo": "Servicio de Prevención Ajeno para la Vigilancia de la Salud del Personal de las Obras del Programa de Fomento de Empleo Agrario 2026",
     "updated": "2026-09-29T11:42:25.636+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Kmvc4J%2BJMJ87%2B9FIQYNjeQ%3D%3D",
@@ -2235,7 +2249,11 @@
       "informe": "# 1. Solvencia económico-financiera\n\nEl PCAP corresponde a un **Procedimiento Abierto Simplificado Sumario** (art. 159.6 LCSP), por lo que **se exime expresamente a los licitadores de acreditar la solvencia económica y financiera** (cláusula 8.8).\n\n- **Medio de referencia (aunque no se exige acreditación documental):** Volumen anual de negocios del licitador, referido al año de mayor volumen de los 3 últimos ejercicios concluidos, que debería ser al menos 1,5 veces el valor anual medio del contrato (**24.357,00 €**) — art. 87.1.a) LCSP.\n- **Forma de acreditación exigida realmente:** basta con la **Declaración Responsable / DEUC (Anexo I)** manifestando cumplir los requisitos de solvencia, sin necesidad de aportar cuentas, informes de auditoría ni certificados bancarios en la fase de licitación.\n- **Excepción real que sí se exige, incluso al propuesto adjudicatario:**\n  - Acreditación y **autorización de la Autoridad Laboral** como Servicio de Prevención Ajeno en la especialidad de **medicina del trabajo** (cláusula 8.6).\n  - **Certificación de conformidad con el Esquema Nacional de Seguridad (ENS), categoría MEDIA**, emitida por entidad acreditada ENAC o equivalente (cláusula 8.7).\n- No se menciona seguro de responsabilidad civil profesional como requisito de solvencia en este PCAP.\n\n# 2. Solvencia técnica / Equipo mínimo\n\n⚠ Este PCAP **no define un equipo mínimo de perfiles profesionales con titulación** (no hay arquitecto, ingeniero, jurista, etc., como en un instrumento urbanístico). El objeto es un **Servicio de Prevención Ajeno en vigilancia de la salud (medicina del trabajo)**, por lo que los únicos requisitos \"de perfil/capacitación\" exigidos son de naturaleza empresarial/organizativa, no de equipo redactor:\n\n* Servicio de Prevención Ajeno (empresa licitadora): Autorización de la Autoridad Laboral en la especialidad de medicina del trabajo\n   * Exigido desde el momento de presentación de oferta (cláusula 8.6), aunque solo se **acredita documentalmente** en fase de propuesta de adjudicación (cláusula 13.2.8)\n* Sistema de gestión de seguridad de la información (empresa licitadora): Certificación ENS categoría MEDIA (ENAC o equivalente)\n   * Exigido igualmente desde la oferta, con acreditación documental diferida al propuesto adjudicatario (cláusula 13.2.9)\n\nLa solvencia técnica/profesional strictu sensu (cláusula 8.8.A) —relación de servicios similares en los últimos 3 años, con importe anual acumulado ≥70% del VE (11.366,60 €)— **está eximida de acreditación** por aplicación del art. 159.6 LCSP.\n\nNo se especifican perfiles como médico del trabajo, enfermero/a del trabajo, técnico de unidad móvil, etc., ni su experiencia mínima individual; solo se exige que la **empresa** cuente con la autorización sectorial correspondiente.\n\n# 3. Criterios de adjudicación\n\nÚnicamente criterios **cuantificables automáticamente mediante fórmulas** (Total: 100 puntos):\n\n- **Oferta económica (precio):** hasta **80 puntos**\n  - Fórmula proporcional inversa sobre la suma de precio de vigilancia colectiva/trabajador + precio de reconocimiento/trabajador, dividido entre 353 trabajadores estimados.\n- **Adscripción de una tercera unidad móvil:** **10 puntos** (todo o nada: SÍ/NO)\n- **Reducción en 12 horas del plazo máximo de comunicación de \"APTOS\" definitivos:** **10 puntos** (todo o nada: SÍ/NO)\n\nNo existen criterios de juicio de valor ni apartado de \"mejora de experiencia del equipo\"; no aplica la advertencia de revisión sobre este punto.\n\n# 4. Valoración para CAI Consultores\n\n**Puntos a favor:**\n- Ninguno relevante. El objeto contractual (vigilancia de la salud del personal de obras — medicina del trabajo) **no guarda relación alguna con la actividad de arquitectura/ingeniería/urbanismo** de CAI Consultores.\n\n**Puntos a verificar internamente (críticos):**\n- **Objeto social/actividad:** la cláusula 8.2 exige que la finalidad o actividad de la empresa licitadora tenga relación directa con el objeto del contrato según sus estatutos. CAI Consultores, como consultora de arquitectura/ingeniería, **no cumpliría este requisito**, salvo que dispusiera de un objeto social que incluyera servicios de prevención de riesgos laborales.\n- **Autorización sectorial obligatoria:** se requiere estar autorizado por la Autoridad Laboral como **Servicio de Prevención Ajeno en la especialidad de medicina del trabajo** — CAI Consultores no dispone previsiblemente de esta autorización ni de personal médico/sanitario propio.\n- **Certificación ENS categoría MEDIA** — verificar si la empresa cuenta con esta certificación; de no ser así, es un requisito bloqueante para la adjudicación (se exige al propuesto adjudicatario).\n- **Subcontratación no viable como solución:** el art. 19 del PCAP solo permite subcontratar \"prestaciones accesorias\", no la actividad principal objeto del contrato (la vigilancia de la salud/medicina del trabajo es la prestación esencial y debe ser realizada, y autorizada, por el propio adjudicatario).\n- **Conclusión práctica:** este PCAP corresponde a un sector de activid",
       "fecha_analisis": "2026-09-30T09:57:53.487064+00:00"
     },
-    "fecha_captura": "2026-09-30"
+    "fecha_captura": "2026-09-30",
+    "estado_anterior": "PUB",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-11-05",
+    "estado_updated": "2026-11-04T13:44:41.244+01:00"
   },
   {
     "folder_id": "62/2026",
@@ -2771,8 +2789,8 @@
   },
   {
     "folder_id": "530/2026",
-    "estado": "RES",
-    "resultado": "formalizada",
+    "estado": "ADJ",
+    "resultado": "adjudicada",
     "titulo": "Limpieza de las Calles, Plazas y Espacios Públicos exteriores municipales en Benahadux",
     "updated": "2026-10-02T12:59:10.778+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ZIr0i8Jh384Xhk1FZxEyvw%3D%3D",
@@ -2790,7 +2808,7 @@
     "organo": "Alcaldía del Ayuntamiento de Benahadux",
     "importe": "155546.7",
     "importe_num": 155546.7,
-    "fecha_limite": "2026-10-01",
+    "fecha_limite": "2026-09-07",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -2801,11 +2819,11 @@
       "fecha_analisis": "2026-10-03T09:26:42.562948+00:00"
     },
     "fecha_captura": "2026-10-03",
-    "estado_anterior": "EV",
-    "estado_cambiado_el": "2026-11-04",
-    "estado_updated": "2026-11-03T08:33:22.672+01:00",
-    "fecha_limite_anterior": "2026-10-19",
-    "fecha_limite_cambiada_el": "2026-11-04",
+    "estado_anterior": "RES",
+    "estado_cambiado_el": "2026-11-05",
+    "estado_updated": "2026-11-04T14:49:58.352+01:00",
+    "fecha_limite_anterior": "2026-10-01",
+    "fecha_limite_cambiada_el": "2026-11-05",
     "docs_adicionales": [
       {
         "nombre": "Anexo I Declaracion Responsable.doc",
@@ -3325,7 +3343,7 @@
   },
   {
     "folder_id": "CC 53/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Servicio de Asistencia Técnica para la redacción del proyecto “Adecuación y Ampliación del Sistema de Filtración Mediante CAG y Bombeos asociados de la ETAP de Iznájar”.",
     "updated": "2026-10-08T08:55:25.004+02:00",
@@ -3346,7 +3364,28 @@
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-09"
+    "fecha_captura": "2026-10-09",
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXO VI .docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=J1wIJ01E75ZZ1/zcik4C9pNeKawStc6XzRIJ7JeqqXJLG%2Bcuno%2BARt52Lk8U17WhCgIm6CIENhkhMIo8oeb/VD3l%2BF7uhuxVZ0/PfpT/NizDdQD9RyhUmzT4jZ2In4zL"
+      },
+      {
+        "nombre": "ANEXO II.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=BGOr8FsHKdWWQ77MyDrR7FfLcKFus4KAmqNuHz9ma1fmkDduRfE6%2B1FkPcfHsIAXcu6/fOWymnq/WJ6PQOg%2BVbjuIiGe3IDLOwvjp%2Bg98u4ZyAJWGsSt0OzTSTyw9JAs"
+      },
+      {
+        "nombre": "ANEXO V.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=lPCSe41tzmpo9ToOP2HdbSkb6Yli3q2IygHxqdeBKGobC1t%2BwczXhUaXV59HqK/z5xXQJoTx9Bx%2Biaa8NrMOJG3v1isO0SnwsiihrhxeE7KHAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "ANEXO IV.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=zOurWu9TXXqy3hyuIb13uUMYh0n7PJchjAqLq2twFi9WqjglHsXzQFzsz%2BkQyurD3fgHfBpD1V/6adXjdcQhFjlrppVswjekkZ83E6eW9cUZyAJWGsSt0OzTSTyw9JAs"
+      }
+    ],
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-05",
+    "estado_updated": "2026-11-04T12:50:36.971+01:00"
   },
   {
     "folder_id": "3812/2026 PLAN MOVILIDAD URBANA",
@@ -4022,8 +4061,8 @@
   },
   {
     "folder_id": "1030/2026/PAS",
-    "estado": "PUB",
-    "resultado": null,
+    "estado": "RES",
+    "resultado": "desierta",
     "titulo": "Redacción del proyecto de reparación, consolidación y estabilización del camino de Hazas LLanas, incluidos los trabajos previos necesarios. ",
     "updated": "2026-10-14T14:32:48.579+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hl19gnH9wES8ebB%2FXTwy0A%3D%3D",
@@ -4054,7 +4093,10 @@
         "nombre": "INFORME SOBRE EL DESLIZAMIENTO INTEMAC 28 MAYO 2026.pdf",
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=3o2b3hXSNQvtC6BIU6sFRduguXd7R5Z01ynn9ndScPxkjiUzGvxg/3SLnFn5ZS3w1di97nVeP3R5rk9Mr6u/dAVJUqMPoYaiZAw24YCk2/DfdyQgZAdTm3EfcUAC7CJ6"
       }
-    ]
+    ],
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-05",
+    "estado_updated": "2026-11-04T12:28:34.735+01:00"
   },
   {
     "folder_id": "4066/2026",
@@ -4118,8 +4160,8 @@
   },
   {
     "folder_id": "2098/2026",
-    "estado": "EV",
-    "resultado": null,
+    "estado": "ADJ",
+    "resultado": "adjudicada",
     "titulo": "Contratación de la asistencia técnica para la redacción del Proyecto Básico y de Ejecución, redacción del Estudio de Seguridad y Salud, Dirección Facultativa y Coordinación de Seguridad y Salud de las obras de rehabilitación energética y reparación de la cubierta y envolvente afectadas por fenómenos meteorológicos adversos en la FEVE de Valverde.",
     "updated": "2026-10-14T09:56:43.491+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Hy5YOeqT%2BLX%2Fa9DgO%2BoYKQ%3D%3D",
@@ -4133,7 +4175,7 @@
     "organo": "Alcaldia del Ayuntamiento de Valverde del Camino",
     "importe": "72727.27",
     "importe_num": 72727.27,
-    "fecha_limite": "2026-08-06",
+    "fecha_limite": "2026-08-05",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -4146,11 +4188,11 @@
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=vzr0l8Mfb%2BzQNIaRYG8v5ZL7PlSji7yJhLZT8gV04sVFpE15CccwgCFC0TXLalLWvJl/hovP6GTKMS2kcjtTftcWjTGXehagx/v/fs/5mt21aXEvq3KHa/AEHgtDrQw0"
       }
     ],
-    "estado_anterior": "RES",
-    "estado_cambiado_el": "2026-11-04",
-    "fecha_limite_anterior": "2026-11-13",
-    "fecha_limite_cambiada_el": "2026-10-23",
-    "estado_updated": "2026-11-03T16:49:04.828+01:00"
+    "estado_anterior": "EV",
+    "estado_cambiado_el": "2026-11-05",
+    "fecha_limite_anterior": "2026-08-06",
+    "fecha_limite_cambiada_el": "2026-11-05",
+    "estado_updated": "2026-11-04T12:55:11.314+01:00"
   },
   {
     "folder_id": "A41420191-2026/000089-PeAS",
@@ -4346,13 +4388,16 @@
     "organo": "ADIF - Presidencia",
     "importe": "31050",
     "importe_num": 31050,
-    "fecha_limite": "2026-11-04",
+    "fecha_limite": "2026-11-05",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-15"
+    "fecha_captura": "2026-10-15",
+    "fecha_limite_anterior": "2026-11-04",
+    "fecha_limite_cambiada_el": "2026-11-05",
+    "estado_updated": "2026-11-04T11:44:32.595+01:00"
   },
   {
     "folder_id": "11135/2026 ARROYO DE LA MIEL",
@@ -4662,7 +4707,7 @@
     "organo": "Secretaría General de la Agencia Estatal Consejo Superior de Investigaciones Científicas",
     "importe": "40500",
     "importe_num": 40500,
-    "fecha_limite": "2026-11-09",
+    "fecha_limite": "2026-11-10",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -4677,7 +4722,10 @@
         "nombre": "Instrucciones presentacion de oferta_LICITACION.pdf",
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=sV0sm5GDDBszq15tJREssHginhRtOU/ad1TUKf3dFUpLC0IvXyv%2BmYaXZhAyMunz01J0QA3b0yAUFgHfhhrB6gMNWGJVPF60JR2Qqykhk8QC1/zDIE0Kw/PWNnLS0Z0z"
       }
-    ]
+    ],
+    "fecha_limite_anterior": "2026-11-09",
+    "fecha_limite_cambiada_el": "2026-11-05",
+    "estado_updated": "2026-11-04T09:07:43.856+01:00"
   },
   {
     "folder_id": "CONTR 2026 0000105137",
@@ -5504,8 +5552,8 @@
   },
   {
     "folder_id": "582/2026",
-    "estado": "RES",
-    "resultado": "adjudicada",
+    "estado": "EV",
+    "resultado": null,
     "titulo": "Redaccion de los Proyectos Tecnicos de Ejecución y Memorias Valoradas para las obras de pavimentación, infraestructuras viarias y obras de prevencion en las calles dañadas del Municipio de Orcera (incluido Direccion Facultativa y coordinacion de Seguridad y Salud)\r\n",
     "updated": "2026-10-23T12:45:52.174+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=T8Z2vz8xDze5HQrHoP3G5A%3D%3D",
@@ -5538,9 +5586,9 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-23",
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-10-28",
-    "estado_updated": "2026-10-27T10:54:46.387+01:00"
+    "estado_anterior": "RES",
+    "estado_cambiado_el": "2026-11-05",
+    "estado_updated": "2026-11-04T09:54:20.622+01:00"
   },
   {
     "folder_id": "2026/408340/006-302/00010",
@@ -5998,7 +6046,7 @@
   },
   {
     "folder_id": "1/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Servicios de Actualización del Proyecto de Urbanización, Dirección Facultativa y Coordinador de Seguridad y Salud, así como seguimiento y asesoramiento técnico durante el proceso de licitación de las obras de Urbanización del ámbito del Sector SUP-O1 EL RODEO del PGOU de Estepona.",
     "updated": "2026-10-29T14:22:21.451+01:00",
@@ -6022,18 +6070,18 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YT6JPBSl4vzEdmckXX0fDOoSNl4i/UHKLub2bttzQGr1PT7k3dEFPFvc3lmpw3mlSb3ERR9UABw78u%2BsVyo/kf7Sn9ZiV29OEVzRlIIfmtLVTD3T98KC0nSgQFM0q%2B5s",
     "docs_adicionales": [
       {
-        "nombre": "PPT DIREC FACULTA.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Pn6oaWHrU/GqblQcSi2WCsuovx443IjU6FbkMfjEUt%2Bmm5AIvYCclBweaG6oW2k%2BuAHWp9ubYq3/mkqN%2BQmfUg2tuIdfvjpwZPPnJopwTgLDdQD9RyhUmzT4jZ2In4zL"
+        "nombre": "ANEXO I CUATRO VEHICULOS MUNICIPALES.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=t4C%2BfbWwqKTDH0u7VdVxYMBfSSnc08LRHbpOruMYN/FFqiTZrsFEx3ZZb5TerxGJ1mDIjB6QZ/d7Ve3QZrj2g0lJVf0nv9ipzA3MQX/bUGtJOVDbGCDM%2BMigrvuVS7Rv"
       },
       {
-        "nombre": "PPT SEG Y SALUD.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=%2BBejYnhOzNKip38kwym0qZjlNfTXectYw%2Bc3Q/mXV2OXXIk46uBn12OpDYHw53ARmrrYpIRkWyp7hwfMjo1OqJ8g/TbO%2B0i/WYVpNk9S0Y57QB3HKyQaFUExmUVQCerk"
+        "nombre": "ANEXO II  CUATRO VEHICULOS MUNICIPALES.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=UM7y3S0WuEc/A8HCXDhZFCK1Q8zzepj1/yG0wjijz%2BjR2uX0sJ70Yva6zIVLCjj03FrHkv0RyvFAFdn//YGj3MxeJu/HDJexOQqXb7xVPxGHAj0WEJrB5sP7amrh2jBD"
       }
     ],
     "organo": "Junta de Compensación Sector Sup-01 El Rodeo",
     "importe": "254930",
     "importe_num": 254930.0,
-    "fecha_limite": "2026-12-04",
+    "fecha_limite": "2026-10-29",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -6041,11 +6089,11 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-29",
-    "estado_anterior": "ADJ",
-    "estado_cambiado_el": "2026-11-04",
-    "fecha_limite_anterior": "2026-08-03",
-    "fecha_limite_cambiada_el": "2026-11-04",
-    "estado_updated": "2026-11-03T17:34:16.940+01:00"
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-05",
+    "fecha_limite_anterior": "2026-12-04",
+    "fecha_limite_cambiada_el": "2026-11-05",
+    "estado_updated": "2026-11-04T13:48:42.160+01:00"
   },
   {
     "folder_id": "SE 34/2026",
@@ -6608,5 +6656,117 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-04"
+  },
+  {
+    "folder_id": "38/SE/A/AL26",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de dirección facultativa, coordinación de seguridad y salud, consultoría, asistencia técnica y control de calidad para las obras de ejecución del proyecto de actuaciones en el frente litoral",
+    "updated": "2026-11-04T13:29:16.886+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=uw86G07iqH1LAIVZdUs8KA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71356200",
+      "71351810",
+      "71317210",
+      "71356100",
+      "71313450",
+      "71520000",
+      "71541000",
+      "71310000",
+      "71356000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=G1nPO2cjFUaf477WhWbTt3Sr7i8uBbOGGvh9iX%2Bz/IztN9yEeBEjFDEUF98R9IytTLX%2BZRGjOjNwLhPqCbvScY8%2BvOQtmFbrjZuHIsn/a0G1aXEvq3KHa/AEHgtDrQw0",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Y4/9/ZFRJrSPpCrCSAunVaNfjDvJiGqxVC3v9fJ5WRPj17Oxew43fw7Y9xd0VgZBqOMvSKee9Sh055Okf/bVqXygB6JMDIgC2WxUSxP3iulJOVDbGCDM%2BMigrvuVS7Rv",
+    "docs_adicionales": [
+      {
+        "nombre": "InfJust.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=xo/IYrX/prV2uY/63K7rZkGS99UpvApixNP2HmvE9w7bq7po2S9shE4ESDRT%2B77LKXwhxlBUSpLrcBi/SnjPnJJxAdvPJIcmAfnUxOEYE3CB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "Anexos PCAP 38_SE_A_AL26.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9BjS7uDXLSu89aM5U/wRPvdEsvI%2BL9bsRn%2BDOkHxHBmtBSzkllikDxeBauqZQtjeS5N%2BDVU3OqnPGn9xvEISwp8x%2B4C%2BhEgizLIl%2BWSzrEiB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "MesCont.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ezhjRWg4p6w0L2gIhuN%2BDcW%2ByNmRzzJRWNeU77J6CBLDk0lSpCtBrIvpuZZOdKI61/lKVuG8rUsQODY0aSfycXwnrEGDmDmqXLUv/6t8e%2Bv6CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "CC.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=nFxHkQ2W0/Zgvk4kUo%2Bxp9SOQ%2BTvkLlFEwkEuUQYsr6lXO8KowMXyBKtYXNP/Rs8Qt2b9gOugc0mjI%2Bpm8Z5TGjWtv1x/TXoM9AQc%2BJii2bVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "OrdCont.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=z710TO183/BdbqxhaNwajbvuRzGepEFJvNEQJXkt3AW%2B452pe32jKQsREPucTSICTFPOQyRKGwL%2Bl9UhC96xOOIXsVV7XMcmU4/gnF4eOYGB0nvVKRzfe4rpHcnlPhSZ"
+      }
+    ],
+    "organo": "Presidencia de la Autoridad Portuaria de Almería",
+    "importe": "664243.45",
+    "importe_num": 664243.45,
+    "fecha_limite": "2026-12-03",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-05"
+  },
+  {
+    "folder_id": "26-768",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de gestión documental de Coordinación de Actividades Empresariales (CAE) de EMASA mediante una plataforma tecnológica",
+    "updated": "2026-11-04T11:56:28.952+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=zkhmV9vfWHbI8aL3PRS10Q%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "72512000",
+      "71317200"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/UenCrt1%2BgxIeomHUgwLALvlNRSUiFjTAmslZ%2BAwJLaojh%2Ba9lVK4ROtiBCeaWdQa5Lai1wGFKoeFl9OkueiaQTmIIozz8iY39hufnJytV545ClyWkoJ44mKM70IFcOu",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=UIUoH0plANh%2BRMu1KLMNcDhbV8FVwSdraoe/Te4IKJUBFLtAKtig/zEtgkVkHfaTgNkSSDl5JFT8jEzyXgcaWl%2BQUQG%2Bwr7DFGiHwal/jT73GVhXrFFqN7yFncy7YfRK",
+    "docs_adicionales": [],
+    "organo": "Consejero Delegado de la Empresa Municipal de Aguas de Málaga S.A.",
+    "importe": "10200",
+    "importe_num": 53040.0,
+    "fecha_limite": "2026-11-20",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-05"
+  },
+  {
+    "folder_id": "8041/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de redacción de Anteproyecto, Informe Geotécnico, Proyecto Básico, de Ejecución y Estudio de Seguridad y Salud para la prolongación del Barranco del Canalillo hasta el río Genil y de dos Parques Inundables asociados en Atarfe",
+    "updated": "2026-11-04T11:05:59.844+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ErLjCUljSLSsNfRW6APEDw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71311000",
+      "71330000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=d6LaKdS%2BHsQo/i/U01g6T9iID5Ep5nTVfT8HEYNHPRERq8TZ74LHEbbWbVnjbP16WMj%2B6qPlEJWryOIFdOppmtSwNsx/X5KIspg4aj0WOHL6CYyL7SIrUOBFfNf52ZqA",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4tTUjAXi8RcClL6aKoq5tI2WjI3XVWAerfNs/%2BTpDM2HtIasUWBAWRFOrir766zJ/dtOQvsmQtlJScvVrot5NJMyR/QP5Pr7k2BkDGSlFpE//q7NB2iMZvNyf0xrJmjt",
+    "docs_adicionales": [],
+    "organo": "Alcaldía del Ayuntamiento de Atarfe",
+    "importe": "253305.79",
+    "importe_num": 253305.79,
+    "fecha_limite": "2026-12-11",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-05"
   }
 ]

@@ -286,7 +286,7 @@
   },
   {
     "folder_id": "12419/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Asistencia técnica integral para la gestión ejecución y justificación del PAI, Torremolinos Transformando el Paraíso, cofinanciado por UE Fondo Europeo de Desarrollo Regional FEDER, en el marco del Programa Plurirregional España POPE 2021 2027",
     "updated": "2026-10-09T10:47:08.483+02:00",
@@ -315,7 +315,24 @@
     "fecha_captura": "2026-10-10",
     "revisado_humano": true,
     "revisado_fecha": "2026-10-02T11:12:36.829Z",
-    "revisado_por": null
+    "revisado_por": null,
+    "docs_adicionales": [
+      {
+        "nombre": "Modelo Declaracion Responsable con declaracion PYME.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=AQSAgdeAseOIUsBvRKNy%2BMnmdOZC%2B9B4UBv5gBg9fhA9q49a0N77aOd8KXw3j5FJYe42c9Vepb4FKiNbopElxxk5tbiTzTv9emLPDNWfxff3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "PAI  .pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ySoH1E9aWQMMqpHBXlc3SypR2A9JNvg52tike/MB6AJFO%2BvTmb1K6EdDbuZYeSahWEVOYGbcazxi2M/oxTvjYpLuAdSHzfqwl%2Bnx95Xc/aaCx2e6p7hqtlp2aFupgHMr"
+      },
+      {
+        "nombre": "DEUC.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ig1fqAFKmhwNOOfOwPffcg2ETmZoaUPz/wZED8%2BKpVd9cZ9Qbwhi0PvIyUc%2BseqrWSw1tJadHmoyEsY%2BxnfGZwIELSX%2BPUAXvdViPjGFq5TVTD3T98KC0nSgQFM0q%2B5s"
+      }
+    ],
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-05",
+    "estado_updated": "2026-11-04T13:35:01.551+01:00"
   },
   {
     "folder_id": "144-3/2026 Bis",
@@ -421,7 +438,7 @@
   },
   {
     "folder_id": "1/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Servicios de Actualización del Proyecto de Urbanización, Dirección Facultativa y Coordinador de Seguridad y Salud, así como seguimiento y asesoramiento técnico durante el proceso de licitación de las obras de Urbanización del ámbito del Sector SUP-O1 EL RODEO del PGOU de Estepona.",
     "updated": "2026-10-29T14:22:21.451+01:00",
@@ -445,18 +462,18 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YT6JPBSl4vzEdmckXX0fDOoSNl4i/UHKLub2bttzQGr1PT7k3dEFPFvc3lmpw3mlSb3ERR9UABw78u%2BsVyo/kf7Sn9ZiV29OEVzRlIIfmtLVTD3T98KC0nSgQFM0q%2B5s",
     "docs_adicionales": [
       {
-        "nombre": "PPT DIREC FACULTA.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Pn6oaWHrU/GqblQcSi2WCsuovx443IjU6FbkMfjEUt%2Bmm5AIvYCclBweaG6oW2k%2BuAHWp9ubYq3/mkqN%2BQmfUg2tuIdfvjpwZPPnJopwTgLDdQD9RyhUmzT4jZ2In4zL"
+        "nombre": "ANEXO I CUATRO VEHICULOS MUNICIPALES.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=t4C%2BfbWwqKTDH0u7VdVxYMBfSSnc08LRHbpOruMYN/FFqiTZrsFEx3ZZb5TerxGJ1mDIjB6QZ/d7Ve3QZrj2g0lJVf0nv9ipzA3MQX/bUGtJOVDbGCDM%2BMigrvuVS7Rv"
       },
       {
-        "nombre": "PPT SEG Y SALUD.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=%2BBejYnhOzNKip38kwym0qZjlNfTXectYw%2Bc3Q/mXV2OXXIk46uBn12OpDYHw53ARmrrYpIRkWyp7hwfMjo1OqJ8g/TbO%2B0i/WYVpNk9S0Y57QB3HKyQaFUExmUVQCerk"
+        "nombre": "ANEXO II  CUATRO VEHICULOS MUNICIPALES.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=UM7y3S0WuEc/A8HCXDhZFCK1Q8zzepj1/yG0wjijz%2BjR2uX0sJ70Yva6zIVLCjj03FrHkv0RyvFAFdn//YGj3MxeJu/HDJexOQqXb7xVPxGHAj0WEJrB5sP7amrh2jBD"
       }
     ],
     "organo": "Junta de Compensación Sector Sup-01 El Rodeo",
     "importe": "254930",
     "importe_num": 254930.0,
-    "fecha_limite": "2026-12-04",
+    "fecha_limite": "2026-10-29",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -464,11 +481,11 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-29",
-    "estado_anterior": "ADJ",
-    "estado_cambiado_el": "2026-11-04",
-    "fecha_limite_anterior": "2026-08-03",
-    "fecha_limite_cambiada_el": "2026-11-04",
-    "estado_updated": "2026-11-03T17:34:16.940+01:00"
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-05",
+    "fecha_limite_anterior": "2026-12-04",
+    "fecha_limite_cambiada_el": "2026-11-05",
+    "estado_updated": "2026-11-04T13:48:42.160+01:00"
   },
   {
     "folder_id": "CONTR 2026 0000337362",
