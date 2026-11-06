@@ -3788,7 +3788,7 @@
     ],
     "organo": "Concejalía Delegada en Materia de Contratación del Ayuntamiento de Torremolinos",
     "importe": "293400",
-    "importe_num": 293400.0,
+    "importe_num": 293400,
     "fecha_limite": "2026-12-02",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -3818,7 +3818,7 @@
     "docs_adicionales": [],
     "organo": "Alcaldía del Ayuntamiento de Los Barrios (Cádiz)",
     "importe": "111000",
-    "importe_num": 111000.0,
+    "importe_num": 111000,
     "fecha_limite": "2026-11-20",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -3948,6 +3948,9 @@
       },
       "fecha_analisis": "2026-11-06T12:14:22.007871+00:00",
       "solicitada_por": "Belén Fernández"
-    }
+    },
+    "revisado_humano": true,
+    "revisado_fecha": "2026-11-06T12:15:50.995Z",
+    "revisado_por": "Belén Fernández"
   }
 ]
