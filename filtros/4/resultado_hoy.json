@@ -1,52 +1,42 @@
 [
   {
-    "folder_id": "38/SE/A/AL26",
+    "folder_id": "20216/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicio de dirección facultativa, coordinación de seguridad y salud, consultoría, asistencia técnica y control de calidad para las obras de ejecución del proyecto de actuaciones en el frente litoral",
-    "updated": "2026-11-04T13:29:16.886+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=uw86G07iqH1LAIVZdUs8KA%3D%3D",
+    "titulo": "Implantación de un Nodo de Infraestructura de Datos Espaciales y Sistema De Información Geográfica Municipal, Programa de Ayuda a Inversiones PAI Torremolinos, Transformando El Paraíso, Cofinanciado por la Unión Europea Fondo Europeo de Desarrollo Regional FEDER  En el Marco del Programa operativo Plurirregional de Espana POPE 2021-2027",
+    "updated": "2026-11-05T14:06:56.791+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=avtCYhvUpT8eIBJRHQiPkQ%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "71356200",
-      "71351810",
-      "71317210",
-      "71356100",
-      "71313450",
-      "71520000",
-      "71541000",
-      "71310000",
-      "71356000"
+      "72212326",
+      "72310000",
+      "71356300",
+      "71700000",
+      "71354100",
+      "71240000",
+      "72212326",
+      "72310000",
+      "72250000",
+      "71356300",
+      "71700000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=G1nPO2cjFUaf477WhWbTt3Sr7i8uBbOGGvh9iX%2Bz/IztN9yEeBEjFDEUF98R9IytTLX%2BZRGjOjNwLhPqCbvScY8%2BvOQtmFbrjZuHIsn/a0G1aXEvq3KHa/AEHgtDrQw0",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Y4/9/ZFRJrSPpCrCSAunVaNfjDvJiGqxVC3v9fJ5WRPj17Oxew43fw7Y9xd0VgZBqOMvSKee9Sh055Okf/bVqXygB6JMDIgC2WxUSxP3iulJOVDbGCDM%2BMigrvuVS7Rv",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Yy0n9HHsmR38Q3tpa6PD6OzJ6HG4DcXt8x42BX/peB2EHfGLA/fZVq6WT6IfiU43WITuELNyopeKMxc6eyfcYlq0FY7Y36ElO8M5AD9MYvq1aXEvq3KHa/AEHgtDrQw0",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=GcQGv10t9hqheTbPdLUg4X3tUE0QrK65Jf4dHaUYFTU8%2BEtZPvCVRIjbe6V84%2BXY8156e/lKZ0l9KvFHs8xLurnfb2Eqyxo5GVrj1Z45LWb6CYyL7SIrUOBFfNf52ZqA",
     "docs_adicionales": [
       {
-        "nombre": "InfJust.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=xo/IYrX/prV2uY/63K7rZkGS99UpvApixNP2HmvE9w7bq7po2S9shE4ESDRT%2B77LKXwhxlBUSpLrcBi/SnjPnJJxAdvPJIcmAfnUxOEYE3CB0nvVKRzfe4rpHcnlPhSZ"
+        "nombre": "DEUC.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=3oBIVtCqUJQK1C3Rpt5ldenbVK%2Bzbr6nR5duajYx/RFPr0jfkgKXCMfmLSNVzkAt/tYFQDruNjqaF1iUEtZtG9y5sTm4DEuS9p9jCjCPN1OB0nvVKRzfe4rpHcnlPhSZ"
       },
       {
-        "nombre": "Anexos PCAP 38_SE_A_AL26.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9BjS7uDXLSu89aM5U/wRPvdEsvI%2BL9bsRn%2BDOkHxHBmtBSzkllikDxeBauqZQtjeS5N%2BDVU3OqnPGn9xvEISwp8x%2B4C%2BhEgizLIl%2BWSzrEiB0nvVKRzfe4rpHcnlPhSZ"
-      },
-      {
-        "nombre": "MesCont.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ezhjRWg4p6w0L2gIhuN%2BDcW%2ByNmRzzJRWNeU77J6CBLDk0lSpCtBrIvpuZZOdKI61/lKVuG8rUsQODY0aSfycXwnrEGDmDmqXLUv/6t8e%2Bv6CYyL7SIrUOBFfNf52ZqA"
-      },
-      {
-        "nombre": "CC.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=nFxHkQ2W0/Zgvk4kUo%2Bxp9SOQ%2BTvkLlFEwkEuUQYsr6lXO8KowMXyBKtYXNP/Rs8Qt2b9gOugc0mjI%2Bpm8Z5TGjWtv1x/TXoM9AQc%2BJii2bVTD3T98KC0nSgQFM0q%2B5s"
-      },
-      {
-        "nombre": "OrdCont.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=z710TO183/BdbqxhaNwajbvuRzGepEFJvNEQJXkt3AW%2B452pe32jKQsREPucTSICTFPOQyRKGwL%2Bl9UhC96xOOIXsVV7XMcmU4/gnF4eOYGB0nvVKRzfe4rpHcnlPhSZ"
+        "nombre": "Modelo Declaracion Responsable con declaracion PYME.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=tDkI/YCyv1emfq6YE1WZ52u/YraXrOVka7nKdBrtIDdYJIPwEDZSCviC3s9N0CWkVhN9BpA3UjE42Xh5DVG/DXQ97xwG9owwRDqJwszZLAA//q7NB2iMZvNyf0xrJmjt"
       }
     ],
-    "organo": "Presidencia de la Autoridad Portuaria de Almería",
-    "importe": "664243.45",
-    "importe_num": 664243.45,
-    "fecha_limite": "2026-12-03",
+    "organo": "Concejalía Delegada en Materia de Contratación del Ayuntamiento de Torremolinos",
+    "importe": "293400",
+    "importe_num": 293400.0,
+    "fecha_limite": "2026-12-02",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -55,24 +45,53 @@
     "fuente": "perfiles"
   },
   {
-    "folder_id": "26-768",
+    "folder_id": "PEA/200/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicio de gestión documental de Coordinación de Actividades Empresariales (CAE) de EMASA mediante una plataforma tecnológica",
-    "updated": "2026-11-04T11:56:28.952+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=zkhmV9vfWHbI8aL3PRS10Q%3D%3D",
+    "titulo": "Servicio de coordinación de seguridad y salud en obras y servicios, asistencia técnica en materia de prevención de riesgos laborales en obras y en el seguimiento y control de la gestión medioambiental en proyectos y obras.\r\n",
+    "updated": "2026-11-05T09:58:30.551+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Jrzq2YflEKvgL1BHd3qjQA%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "72512000",
-      "71317200"
+      "71317200",
+      "71317210"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/UenCrt1%2BgxIeomHUgwLALvlNRSUiFjTAmslZ%2BAwJLaojh%2Ba9lVK4ROtiBCeaWdQa5Lai1wGFKoeFl9OkueiaQTmIIozz8iY39hufnJytV545ClyWkoJ44mKM70IFcOu",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=UIUoH0plANh%2BRMu1KLMNcDhbV8FVwSdraoe/Te4IKJUBFLtAKtig/zEtgkVkHfaTgNkSSDl5JFT8jEzyXgcaWl%2BQUQG%2Bwr7DFGiHwal/jT73GVhXrFFqN7yFncy7YfRK",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=XUCVDy185RNy3XJg6bsxRSBp6xLkmfqg8UM3ZK8CPxvsFIjViDgx45rfEP4xUdCo1c6kBcbsi%2BmLid4r%2Bvu7xQNOd6ghfgMCZFEUsYP70B7VTD3T98KC0nSgQFM0q%2B5s",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=unsp0xUgmQhRwc65fbiJaOoxBiXPlADrw64LSMTTSQh7LGwNxHPFp4cyWM01juWhMZ4%2BIxNMQCGiVW4h5z3eZkl/nuCxIXVSFcHyhlpalNb3GVhXrFFqN7yFncy7YfRK",
     "docs_adicionales": [],
-    "organo": "Consejero Delegado de la Empresa Municipal de Aguas de Málaga S.A.",
-    "importe": "10200",
-    "importe_num": 53040.0,
+    "organo": "Consejo de Administración de la Empresa Mancomunada del Aljarafe, S.A. (ALJARAFESA)",
+    "importe": "445400",
+    "importe_num": 1113500.0,
+    "fecha_limite": "2026-12-04",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "83/26",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de servicio de dirección de obras y\r\ncoordinación de seguridad y salud en la fase de ejecución incluido las funciones de responsable del\r\ncontrato  por lotes Lote 1 rehabilitación y ampliación de chalet del Inglés Lote 2 reparación de\r\naceras y accesibilidad en Los Barrios Lote 3 nuevas instalaciones náuticoeportivas en el estuario\r\ndel Río Palmones",
+    "updated": "2026-11-05T09:50:14.930+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=OYJfbmNolD836J9Lctlsuw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000",
+      "71240000",
+      "71240000",
+      "71240000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=bPM4vA0D7NBN9V5mIq9dndiFGm9RhwXffUksKlRrKvTeXUqTY6P3fSl3uUDSqTh/cg5kPcmLRV7MsD1PJ0r2Mr5QuxgtfnituaFn93Vr3iU//q7NB2iMZvNyf0xrJmjt",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=cPI/uysNBTUb7%2B7SXGqMweU7OdAV7tVHaVZFPHv71Ozni89a/JMWHtLg%2Bmke2OdxvXKda4GFyvr6qRZ24Y2KJyrEZHMQ75KeH7dwwUav0LI//q7NB2iMZvNyf0xrJmjt",
+    "docs_adicionales": [],
+    "organo": "Alcaldía del Ayuntamiento de Los Barrios (Cádiz)",
+    "importe": "111000",
+    "importe_num": 111000.0,
     "fecha_limite": "2026-11-20",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -82,30 +101,106 @@
     "fuente": "perfiles"
   },
   {
-    "folder_id": "8041/2026",
+    "folder_id": "S1424/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicio de redacción de Anteproyecto, Informe Geotécnico, Proyecto Básico, de Ejecución y Estudio de Seguridad y Salud para la prolongación del Barranco del Canalillo hasta el río Genil y de dos Parques Inundables asociados en Atarfe",
-    "updated": "2026-11-04T11:05:59.844+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ErLjCUljSLSsNfRW6APEDw%3D%3D",
+    "titulo": "Servicios de coordinación de seguridad y salud en obas de ejecución.\r\n\r\n",
+    "updated": "2026-11-05T09:48:54.752+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=6X0v5EubzHF4zIRvjBVCSw%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "71311000",
-      "71330000"
+      "71317210"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=d6LaKdS%2BHsQo/i/U01g6T9iID5Ep5nTVfT8HEYNHPRERq8TZ74LHEbbWbVnjbP16WMj%2B6qPlEJWryOIFdOppmtSwNsx/X5KIspg4aj0WOHL6CYyL7SIrUOBFfNf52ZqA",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4tTUjAXi8RcClL6aKoq5tI2WjI3XVWAerfNs/%2BTpDM2HtIasUWBAWRFOrir766zJ/dtOQvsmQtlJScvVrot5NJMyR/QP5Pr7k2BkDGSlFpE//q7NB2iMZvNyf0xrJmjt",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=PVGIVLDafY9AveQUdmcvlp6D6inCzhkVgnTlL765rUrXiHoZuhYz3qU%2BXi43WZxB6HBdr0Yh4X4UEnoCg%2B7ZEoU7kUBorXo9pZTCzS/BPjEC1/zDIE0Kw/PWNnLS0Z0z",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0iXTfXQj/TqSnpBHmPtiysm4siEB8%2BJb8G45nbWHYyApmlNlwxkxI2ZGpy7FvvYjlpSYWt7lW%2BWY73i%2ByRrmYYPqq249EHCw/I6roLMnC51JOVDbGCDM%2BMigrvuVS7Rv",
     "docs_adicionales": [],
-    "organo": "Alcaldía del Ayuntamiento de Atarfe",
-    "importe": "253305.79",
-    "importe_num": 253305.79,
+    "organo": "Alcaldía del Ayuntamiento de Alhama de Granada",
+    "importe": "8400",
+    "importe_num": 10164.0,
+    "fecha_limite": "2026-11-20",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "PA013SER2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de entidad de control de calidad como Organismo de Control Técnico (OCT) de la edificación correspondiente a la promoción de 107 viviendas protegidas, garajes y trasteros en la parcela UE-Centro del Plan Parcial del Sector SUO-10 SUP-R4 Cornisa del Zacatín, en C/ Mar Mediterráneo, Alcalá de Guadaíra.",
+    "updated": "2026-11-05T08:27:08.438+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2FDtEGdBY99N%2BF6L2uCfUWg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71356100",
+      "71356200"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=L%2BVCEs%2B4RyDoobb1yT2E64u%2B%2BUNCOScrS%2B37Xc7ek3x8iLN8FO28E%2BEbvD/kepWwsaIdItPo5j455VHYf/H6tcRtB79udwN2YGsT4n6vWhqHAj0WEJrB5sP7amrh2jBD",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=JyePtMJGLATvWdvNG%2Bczd6%2BK20nNjRKidQ%2B3wPLmL0b6enjY6tCoVaYJ%2BsGW3nW6JMCJ8WxXQH%2BWGi32QTPSplrTzqM7v%2BTnUcwSpyZ/g%2BPfdyQgZAdTm3EfcUAC7CJ6",
+    "docs_adicionales": [
+      {
+        "nombre": "PCAP_CCP_PA013SER2026.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=hXH1%2BgiWA6m3dW1PH/C7n8E2zK9ofGs4LQuoWh6vInAlBucsY%2B6oAgynKLym9x/Ln7mSRnNiXuKtqTkXuENgMXB1%2BItYWhEdUyIA8utnfzRJOVDbGCDM%2BMigrvuVS7Rv"
+      }
+    ],
+    "organo": "Gerencia de VIVE Empresa Pública de la Vivienda de Alcalá de Guadaíra, S.L.",
+    "importe": "15000",
+    "importe_num": 15000.0,
+    "fecha_limite": "2026-11-20",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "CONTR 2026 0000079002",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "asist. téc. conocimiento hidrogeológico abastecimiento arcos fra.",
+    "updated": "2026-11-04T12:41:44.123+01:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1035926",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71356200"
+    ],
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/440519",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/440518",
+    "docs_adicionales": [
+      {
+        "nombre": "DEUC PDF.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/440564"
+      },
+      {
+        "nombre": "DEUC HTML.XML",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/440565"
+      },
+      {
+        "nombre": "PPTP Proy. ARCOS FRONTERA - 6 marzo 2026. Fdo.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/440531"
+      },
+      {
+        "nombre": "Memoria justificativa de la contratación.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/440532"
+      }
+    ],
+    "organo": "Consejería de Agricultura, Pesca, Agua y Desarrollo Rural. D.G. de Infraestructuras del Agua (En Transición)",
+    "importe": "165427.48",
+    "importe_num": 198512.98,
     "fecha_limite": "2026-12-11",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
-    "fuente": "perfiles"
+    "fuente": "agregadas",
+    "descripcion": "ASISTENCIA TÉCNICA PARA LA REDACCIÓN DEL PROYECTO DE MEJORA DEL CONOCIMIENTO HIDROGEOLÓGICO PARA AUMENTO DE LA GARANTÍA DE ABASTECIMIENTO EN ARCOS DE LA FRONTERA (CÁDIZ).",
+    "junta_consultado": "2026-11-06"
   }
 ]

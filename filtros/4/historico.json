@@ -105,7 +105,7 @@
   },
   {
     "folder_id": "1085/2026",
-    "estado": "EV",
+    "estado": "RES",
     "titulo": "PA/SERV/023/2026 Servicios elaboración de los planes de eficiencia hidráulica",
     "updated": "2026-07-28T13:01:04.192+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xvXY%2FJJoUB4QyBAnWzHfCg%3D%3D",
@@ -119,7 +119,7 @@
     "organo": "Consejo de Administración de la Agencia de Régimen Especial Ciclo Integral Aguas del Retortillo",
     "importe": "180254",
     "importe_num": 180254,
-    "fecha_limite": "2026-10-23",
+    "fecha_limite": "2026-09-25",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -130,12 +130,12 @@
       "fecha_analisis": "2026-07-29T06:10:32.480444+00:00"
     },
     "fecha_captura": "2026-07-29",
-    "fecha_limite_anterior": "2026-10-27",
-    "fecha_limite_cambiada_el": "2026-11-05",
-    "estado_updated": "2026-11-04T11:04:48.026+01:00",
-    "estado_anterior": "RES",
-    "resultado": null,
-    "estado_cambiado_el": "2026-11-05",
+    "fecha_limite_anterior": "2026-10-23",
+    "fecha_limite_cambiada_el": "2026-11-06",
+    "estado_updated": "2026-11-04T12:18:05.312+01:00",
+    "estado_anterior": "EV",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-11-06",
     "docs_adicionales": [
       {
         "nombre": "ANEXO I - MODELO DECLARACION RESPONSABLE.odt",
@@ -718,7 +718,7 @@
   },
   {
     "folder_id": "2/2026",
-    "estado": "ADJ",
+    "estado": "PUB",
     "titulo": "Servicio redacción del proyecto obra, dirección facultativa y dirección de ejecución de la obra, así como de seguridad y salud para la obra de reformas asociadas a la mejora de la eficiencia energética en el edificio de la dirección provincial del sepe de Almería",
     "updated": "2026-08-13T10:01:57.398+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Sr02VDds9n2opEMYCmrbmw%3D%3D",
@@ -732,7 +732,7 @@
     "organo": "Dirección Provincial del Servicio Público de Empleo Estatal en Almería",
     "importe": "156030.58",
     "importe_num": 156030.58,
-    "fecha_limite": "2026-08-18",
+    "fecha_limite": "2026-11-26",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -743,16 +743,16 @@
       "fecha_analisis": "2026-08-15T03:59:34.666336+00:00"
     },
     "fecha_captura": "2026-08-15",
-    "estado_anterior": "PUB",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-11-05",
-    "estado_updated": "2026-11-03T22:00:40.555+01:00",
-    "fecha_limite_anterior": "2026-11-18",
-    "fecha_limite_cambiada_el": "2026-11-05",
+    "estado_anterior": "ADJ",
+    "resultado": null,
+    "estado_cambiado_el": "2026-11-06",
+    "estado_updated": "2026-11-05T14:39:55.221+01:00",
+    "fecha_limite_anterior": "2026-08-18",
+    "fecha_limite_cambiada_el": "2026-11-06",
     "docs_adicionales": [
       {
-        "nombre": "ANEXOS PCAP.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9Kp9L0watlwu%2BEyLdKrWYtCSSq6t0IxWPF8fbbXLi3Rmn98/gMVHekrNUmYCNCxAjQeKLIXJIzfFrXKEctdJ1PF2hmHWHRz1GKFezubVPHv6CYyL7SIrUOBFfNf52ZqA"
+        "nombre": "anexos del PCAP 2 2026.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Bs6/kiIOG7QMmdJSFFhqGT3vhGXDtfP86o5TKS4yvHaAfWC%2BcPhR2t4yuV1iEUnLRSlLeCF8rfV5A8yKUUskKWQ1EhUh4LUVJvbGKOBovPsZyAJWGsSt0OzTSTyw9JAs"
       }
     ]
   },
@@ -793,7 +793,7 @@
   },
   {
     "folder_id": "34/2026",
-    "estado": "RES",
+    "estado": "PUB",
     "titulo": "Servicio para la redacción de Proyecto Básico y de Ejecución, Estudio de Seguridad y Salud, de las obras de rehabilitación integral de las dos naves industriales de la antigua Algodonera Virgen de los Reyes, para su adaptación a Centro de Orientación, Acompañamiento e Innovación para el Empleo situado en el barrio Alcosa (Fase-1), así como a la asistencia técnica a la Dirección de Obra.",
     "updated": "2026-08-12T10:09:41.330+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=j08%2BBegnUWAwYTJJ03sHog%3D%3D",
@@ -808,7 +808,7 @@
     "organo": "Comisión Ejecutiva de la Gerencia de Urbanismo de Sevilla",
     "importe": "233606.57",
     "importe_num": 233606.57,
-    "fecha_limite": "2026-11-23",
+    "fecha_limite": "2026-11-19",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -819,28 +819,20 @@
       "fecha_analisis": "2026-08-15T04:01:37.325989+00:00"
     },
     "fecha_captura": "2026-08-15",
-    "estado_anterior": "PUB",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-11-05",
-    "estado_updated": "2026-11-03T14:04:30.432+01:00",
-    "fecha_limite_anterior": "2026-10-13",
-    "fecha_limite_cambiada_el": "2026-11-03",
+    "estado_anterior": "RES",
+    "resultado": null,
+    "estado_cambiado_el": "2026-11-06",
+    "estado_updated": "2026-11-05T12:59:53.579+01:00",
+    "fecha_limite_anterior": "2026-11-23",
+    "fecha_limite_cambiada_el": "2026-11-06",
     "docs_adicionales": [
       {
-        "nombre": "Informe de intervencion 34 de 2026.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=gLNAPBzJzoPPNXWO4c4E7l3pCpgIYBVEloxyAGFiYLzxEkYEDhsu7EulhANAQGpmuETVtaKjwK3A0GCQy7ojWBEitjbUPyf1aY74JJ0CDKm1aXEvq3KHa/AEHgtDrQw0"
+        "nombre": "PROPOSICION ECONOMICA.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iT2ve6mdZMMREPCjmDKtk5TW1gqFlCvkDV9S%2BuhkB30psV31Ao8%2BIpHdk8jWSG2PVZx9OX1SkT6I9jViA9TlzOdVW4lS3cT1WIlpRBUDRjz3GVhXrFFqN7yFncy7YfRK"
       },
       {
-        "nombre": "Decreto de alcaldia licitacion luces de navidad 34 de 2026.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2DYAnFfDtlgPrd3VUf8eWe4%2BJ3PvMPAOephA%2BlmgzozdyUWHnv53vhwFz7mTwBBrwqH2h7qiw9qfRWsGROWaPWt05YGhMl1i82o4e8NEkpjfdyQgZAdTm3EfcUAC7CJ6"
-      },
-      {
-        "nombre": "Memoria justificativa contrato lueces de navidad 34 de 2026.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=HZtzec53Z%2BZkg5UdG78%2BrQU59qcrEDqTwhB/3h6FvUltrs%2BIKy5Uez2/32OoVvy0yemuRGFjK8f%2BLuDck%2BjtEK19v232G%2BgeI7DoTeS0hTlJOVDbGCDM%2BMigrvuVS7Rv"
-      },
-      {
-        "nombre": "A N E X O S.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=pBAIGA40Zb8udZ7fEcbhIfVoPvVYmAVj7mpOkak6dTsUqv33hQ0Nib8K9y3oXFC5/gHdC6/omlNzfuOixgzffhFv/bXuMwOl9yhTo4GLg2T3GVhXrFFqN7yFncy7YfRK"
+        "nombre": "DECLARACION RESPONSABLE.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0cGX1gGDX9tbeqFxSgs86dbOhUAeKtXLPOyknXNngfIJb8KzO4zJ2gZfDfaCcxGzFHzrK/JN7xWRzCXfIDYfLAIpxJu6YuHJkLLlqQNANI/6CYyL7SIrUOBFfNf52ZqA"
       }
     ]
   },
@@ -1383,7 +1375,21 @@
     "estado_anterior": "PUB",
     "resultado": null,
     "estado_cambiado_el": "2026-10-09",
-    "estado_updated": "2026-10-08T10:26:49.560+02:00"
+    "estado_updated": "2026-10-08T10:26:49.560+02:00",
+    "docs_adicionales": [
+      {
+        "nombre": "RE-AOR-26001.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=aj2/z5ofD%2BmfJULGFTK8bzfAIhEZSHTmSQRvWg6Fw0Kj2IkDeG9/XGW0CtRzn/yYCwD%2BACydKT2lQN58SqtEl5t0Hqz997Z9XwI0boR5IPaCx2e6p7hqtlp2aFupgHMr"
+      },
+      {
+        "nombre": "RE-AOR-26001.xml",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9agcZFFqcySablM4C8RZZJzce4d0O8fhHa8fctESztYlVPCP40KT7IULppb/o5/CpSayaa0Bk5iv2FZMnMJSdBfIA5YfSFq9zGit6dxO5amCx2e6p7hqtlp2aFupgHMr"
+      },
+      {
+        "nombre": "Instrucciones DEUC.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=lH0O7XEz8GkNYmTlk2DD/e6SXQBBri3XWWcHGJdcKi%2BaxuLZ3VAgVVnpA3E%2BXPoiCG/szUZzzHVWp%2BA9DhSU5t91M0ced63tMg6dvLaikzoC1/zDIE0Kw/PWNnLS0Z0z"
+      }
+    ]
   },
   {
     "folder_id": "C30268926004",
@@ -1746,7 +1752,7 @@
   },
   {
     "folder_id": "24/2026",
-    "estado": "ADJ",
+    "estado": "PUB",
     "titulo": "Constituye el objeto del contrato la prestación del servicio de redacción de proyectos, dirección técnica, tramitación y legalización de instalaciones eléctricas temporales y estructuras provisionales necesarias para la celebración de los certámenes organizados en FYCMA, conforme a las especificaciones del PPT.",
     "updated": "2026-09-16T11:12:22.478+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=DC%2Fm7JVt%2FLkUqXM96WStVA%3D%3D",
@@ -1762,7 +1768,7 @@
     "organo": "Dirección General del Palacio de Ferias y Congresos de Málaga",
     "importe": "23681.7",
     "importe_num": 118408.5,
-    "fecha_limite": "2026-09-11",
+    "fecha_limite": "2026-11-23",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1773,12 +1779,12 @@
       "fecha_analisis": "2026-09-17T08:54:05.326723+00:00"
     },
     "fecha_captura": "2026-09-17",
-    "estado_anterior": "EV",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-11-05",
-    "estado_updated": "2026-11-04T11:56:12.314+01:00",
-    "fecha_limite_anterior": "2026-10-26",
-    "fecha_limite_cambiada_el": "2026-11-05",
+    "estado_anterior": "ADJ",
+    "resultado": null,
+    "estado_cambiado_el": "2026-11-06",
+    "estado_updated": "2026-11-04T12:04:59.352+01:00",
+    "fecha_limite_anterior": "2026-09-11",
+    "fecha_limite_cambiada_el": "2026-11-06",
     "docs_adicionales": [
       {
         "nombre": "Resumen presupuesto.pdf",
@@ -2225,7 +2231,7 @@
   },
   {
     "folder_id": "2026/CMY_03/000128",
-    "estado": "ADJ",
+    "estado": "RES",
     "titulo": "Servicio de Prevención Ajeno para la Vigilancia de la Salud del Personal de las Obras del Programa de Fomento de Empleo Agrario 2026",
     "updated": "2026-09-29T11:42:25.636+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Kmvc4J%2BJMJ87%2B9FIQYNjeQ%3D%3D",
@@ -2250,14 +2256,14 @@
       "fecha_analisis": "2026-09-30T09:57:53.487064+00:00"
     },
     "fecha_captura": "2026-09-30",
-    "estado_anterior": "PUB",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-11-05",
-    "estado_updated": "2026-11-04T13:44:41.244+01:00"
+    "estado_anterior": "ADJ",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-11-06",
+    "estado_updated": "2026-11-05T08:53:45.555+01:00"
   },
   {
     "folder_id": "62/2026",
-    "estado": "ADJ",
+    "estado": "RES",
     "titulo": "Servicio de asistencia técnica para la gestión del HUB de innovación eco-social del Ayuntamiento de Huelva",
     "updated": "2026-09-29T10:16:24.495+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=s2t%2BKZH0%2BiM%2FbjW6njtWLw%3D%3D",
@@ -2282,10 +2288,10 @@
       "fecha_analisis": "2026-09-30T09:59:16.793021+00:00"
     },
     "fecha_captura": "2026-09-30",
-    "estado_anterior": "RES",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-11-04",
-    "estado_updated": "2026-11-03T15:18:33.804+01:00",
+    "estado_anterior": "ADJ",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-11-06",
+    "estado_updated": "2026-11-05T12:38:20.185+01:00",
     "fecha_limite_anterior": "2026-11-30",
     "fecha_limite_cambiada_el": "2026-11-04",
     "docs_adicionales": [
@@ -2591,7 +2597,7 @@
   },
   {
     "folder_id": "14/25",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Servicio de asistencia técnica para el diseño, desarrollo e Implementación de la estrategia climática de las empresas que conforman la Corporación de Empresas Municipales de Sevilla, A.I.E.",
     "updated": "2026-10-01T13:48:56.982+02:00",
@@ -2617,7 +2623,10 @@
       "informe": "## Bloque 1 – Características Principales del Contrato\n\n### Objeto de la licitación\nContratación, mediante procedimiento abierto, de servicios técnicos especializados de asistencia técnica para el **diseño, desarrollo e implementación de la estrategia climática** de las empresas de la Corporación de Empresas Municipales de Sevilla (CEMS): EMASESA, EMVISESA, TUSSAM y LIPASAM. La estrategia debe adaptarse a las necesidades de cada entidad y alinearse con los objetivos y planes del Ayuntamiento de Sevilla. Contrato calificado como privado, de servicios, sujeto a regulación armonizada.\n\nObjetivos:\n- Cumplir la Misión de Ciudades Climáticamente Neutras 2030 (Acuerdo Climático).\n- Definir objetivos de mitigación, adaptación y transición energética en agua, transporte público, residuos/limpieza y vivienda pública.\n- Mantener la coherencia con el Plan Municipal contra el Cambio Climático (PMCC), el PACES, la Ley 8/2018 y el PAAC 2021-2030.\n- Reducir emisiones y mejorar el desempeño ambiental.\n- Entregables obligatorios: Diagnóstico Inicial, Plan de Trabajo y sesión(es) formativa(s).\n\n### División en lotes\n**No hay división en lotes.** El pliego lo justifica por la vinculación íntima entre las prestaciones y el riesgo de pérdida de información, duplicidades y falta de coherencia metodológica.\n\n### Características del contrato\n- **Presupuesto base de licitación:** **148.760,33 €** sin IVA (IVA 31.239,67 €; total **180.000 €** con IVA).\n  - Parte fija obligatoria, a precio cerrado: **68.760,33 €** sin IVA.\n  - Parte variable (bolsa de horas): **80.000 €** sin IVA, con una previsión de 2.000 horas y un precio unitario máximo de **40 €/hora**. No hay obligación de agotarla.\n- **Valor estimado:** **297.520,66 €** sin IVA, incluidas las prórrogas.\n- **Duración:** **24 meses**, con **2 prórrogas de 12 meses** cada una, obligatorias para el adjudicatario. Los periodos de prórroga se estiman en el 50 % anualizado del presupuesto.\n- **Presentación de ofertas:** electrónica, a través de la Plataforma de Contratación del Sector Público (procedimiento sin invitación). No se admiten ofertas fuera de la plataforma. Consultas hasta 12 días naturales antes del fin del plazo.\n- **Plazo de presentación:** no localizado en el texto aportado. Figura en el anuncio de licitación.\n- **Variantes:** no.\n- **Revisión de precios:** no. El precio es fijo.\n- **Garantía provisional:** no procede.\n- **Garantía definitiva:** **7.438,02 €** (5 % del presupuesto base de licitación sin IVA).\n- **Seguro:** la póliza de responsabilidad civil general debe suscribirse antes de la formalización. La suma asegurada no puede ser inferior al precio final del contrato ni a **150.000 €** por siniestro.\n- **Trabajos específicos obligatorios:** no se exigen arqueología, topografía ni geotecnia. Son obligatorios el Diagnóstico Inicial (plazo máximo de 2 meses desde el acta de inicio, PPT 3.1), el Plan de Trabajo y la formación (PPT 3.2). El PPTP no está incluido en el texto, por lo que su alcance detallado debe revisarse.\n- **CPV:** 73200000 y 71356200-0.\n- **Recurso especial:** sí cabe.\n- **Condiciones especiales de ejecución:** medidas de conciliación y cumplimiento de la normativa de protección de datos. Ambas tienen carácter de obligación esencial.\n\n## Bloque 2 – Solvencia\n\n### Económica y financiera\n- **Volumen anual de negocios en el mejor ejercicio de los tres últimos disponibles: mínimo 297.520,66 €.** Este importe equivale al valor estimado del contrato, no al presupuesto base.\n- **Acreditación:** cuentas anuales depositadas en el Registro Mercantil, certificado de cifra de negocios de la AEAT o modelo 390 de IVA.\n- **Seguro:** no se exige como solvencia. Es una obligación posterior a la adjudicación (RC general, mínimo 150.000 € por siniestro y no inferior al precio final).\n- **Clasificación:** no se exige. En el texto no consta un grupo o subgrupo de clasificación exigible.\n- **Integración de solvencia con medios externos** (art. 75 LCSP): permitida, con compromiso por escrito y responsabilidad solidaria en la solvencia económica.\n\n### Técnica y profesional\n- **Experiencia de empresa:** relación de servicios de igual o similar naturaleza (según CPV) en los **3 últimos años**. El importe acumulado sin IVA debe ser **igual o superior al presupuesto de licitación (148.760,33 €)**.\n- **Acreditación:** certificados expedidos o visados por el órgano competente (sector público) o por el cliente (privado). Si el cliente privado no lo emite, vale una declaración del licitador con la documentación que acredite el servicio.\n- **Equipo mínimo** (lote único). Todos los perfiles requieren Licenciatura o Grado en Ciencias Ambientales, Ingeniería o titulaciones afines, españolas u homologadas en la UE:\n  1. **Coordinador/a técnico/a:**\n     - 8 años de experiencia en gestión de proyectos de cambio climático y sostenibilidad.\n     - Coordinación de equipos multidisciplinares en al menos 3 proyectos similares, en el ámbito público o de servicios urbanos.\n  2. **Especialista en huella de carbono y descarbonización:**\n     - 5 años de experiencia en cálculo de huella de carbono e inventarios de GEI.\n     - Al menos 5 proyectos de descarbonización o planes de transición climática.\n  3. **Especialista en análisis de riesgos y vulnerabilidad climática:**\n     - 5 años de experiencia en evaluación de riesgos y vulnerabilidad climática.\n     - Al menos 5 proyectos de evaluación de riesgos climáticos.\n  4. **Técnico/a de apoyo en recopilación y tratamiento de datos:**\n     - Dominio de hojas de cálculo y herramientas de análisis de datos, e informes técnicos.\n     - Se acredita con formación específica o con 2 proyectos similares.\n- **Medios técnicos:** herramientas de cálculo de emisiones y riesgos, software de datos e informes, y plataformas colaborativas. Se acreditan con declaración responsable.\n- **Adscripción de medios personales:** obligación esencial. Se exigen los nombres y la cualificación de las personas ya en la oferta (Sobre 1, compromiso de adscripción). Los CV se requieren al mejor clasificado.\n- **Subcontratación:** todas las prestaciones deben ejecutarse directamente, **salvo las actuaciones formativas** (las del PPT y las adicionales ofertadas). Los puestos del equipo mínimo no son subcontratables. Hay que indicar la parte a subcontratar en la oferta.\n\n⚠ REVISAR — criterio de mejora de equipo, no confundir con el mínimo de solvencia:\n- **Criterio C (hasta 26 puntos)** premia la experiencia adicional por encima de los mínimos.\n- Coordinador: 1 punto por proyecto adicional (máximo 6) y 0,5 puntos por año adicional sobre los 8 (máximo 4).\n- Especialistas (huella de carbono y riesgos): 1 punto por proyecto adicional (máximo 16).\n\nIncoherencia a revisar: el Anexo I apartado 14 (dentro del bloque de solvencia técnica) refiere \"apartado 13\" en varias remisiones. En el apartado 14 de este Anexo I se alude a \"apartado 13\" para los documentos (los puntos 13 y 14 se confunden). Conviene confirmarlo en el PCAP completo.\n\n## Bloque 3 – Criterios de Adjudicación\n\n### Automáticos (fórmulas)\nTodos los criterios son automáticos: **100 puntos**, sin criterios de juicio de valor.\n\n| Criterio | Puntos máx. |\n|---|---|\n| A. Proposición económica | 49 |\n| B. Mejora del plazo del Diagnóstico Inicial | 15 |\n| C. Experiencia adicional del equipo | 26 |\n| D. Formación adicional sin coste | 5 |\n| E. Huella de carbono de la empresa | 5 |\n| **Total** | **100** |\n\n**A. Económica (49 puntos).**\n- Oferta comparable: **O = PF + PH × 2.000**.\n- Puntos = (49 × MO) / OF, con 3 decimales y sin redondeo.\n- MO es el menor precio admitido y OF la oferta valorada.\n- Se excluyen las ofertas que superen la parte fija máxima, los 40 €/h o el presupuesto base.\n\n**B. Plazo del Diagnóstico Inicial (15 puntos).** Se valora la reducción sobre el máximo de 2 meses:\n\n| Reducción | Puntos |\n|---|---|\n| ≥ 30 % | 15 |\n| ≥ 20 % y < 30 % | 10 |\n| ≥ 10 % y < 20 % | 5 |\n| < 10 % o sin compromiso | 0 |\n\n**C. Experiencia adicional (26 puntos).**\n- Coordinador: hasta 10 puntos (6 por proyectos y 4 por años).\n- Especialistas: hasta 16 puntos, a 1 punto por proyecto adicional.\n- Hay que identificar a la persona, sus funciones, la entidad destinataria y el periodo.\n\n**D. Formación adicional (5 puntos).** 1 sesión suma 2 puntos y 2 sesiones suman 5 puntos.\n\n**E. Huella de carbono (5 puntos).** El cálculo suma 2 puntos. El cálculo más la compensación suma 5 puntos. Se acredita con certificado, registro oficial o equivalente.\n\n**Ofertas anormalmente bajas:** se aplica el art. 85 del RGLCAP, según el número de licitadores. Con 4 o más, es anormal la oferta inferior a la media en más de 10 puntos porcentuales. Se dan 5 días hábiles para justificar.\n\n**Desempate:** art. 147.2 LCSP.\n\n### Juicio de valor\n**No hay criterios sujetos a juicio de valor.** No hay metodología puntuable.\n\nIncoherencia a revisar: la cláusula 14 del PCAP prevé un Sobre 2 de juicio de valor, pero el Anexo I solo contempla criterios de fórmula.\n\n### Umbrales mínimos de puntuación\n**No se establecen** en el texto aportado.\n\n## Bloque 4 – Forma de Pago\n\n### Valoración y facturación\n- **Pagos parciales.** El plazo de pago es el del art. 198.4 LCSP.\n- **Parte fija (68.760,33 €):** se factura al finalizar y recibir de conformidad los trabajos obligatorios (Diagnóstico, Plan de Trabajo, formación). No se paga hasta contar con la conformidad del responsable del contrato.\n- **Bolsa de horas:** facturación mensual, a mes vencido, solo por horas efectivamente ejecutadas y validadas.\n  - La factura detalla las horas por empresa destinataria.\n  - Se acompaña de un informe de seguimiento con la conformidad del responsable.\n- Una factura defectuosa puede devolverse, y el plazo de pago no corre hasta su correcta presentación.\n- Antes del pago de cada factura debe acreditarse el cumplimiento de la condición especial de ejecución, mediante certificado electrónico.\n\n### Condiciones adicionales\n- **Revisión de precios:** no.\n- **Penalidades por demora en hitos del Plan de Trabajo:** 2 % (hasta 10 días naturales), 5 % (de 10 a 20 días) y 10 % (más de 20 días) del importe de los trabajos afectados.\n- **Penalidades por retraso en el Diagnóstico Inicial:** 2 %, 5 % y 10 % del presupuesto base sin IVA, con los mismos tramos.\n- **Condiciones especiales de ejecución:** penalidades proporcionales (art. 192 LCSP).\n- **Tope acumulado de penalidades:** 25 % del presupuesto base sin IVA.\n- **Modificaciones:** no previstas.\n- **Plazo de garantía:** no.\n- **Confidencialidad:** 5 años.\n- **Seguro RC:** obligatorio durante toda la vigencia.\n\n## Bloque 5 – Documentación a Presentar\n\nSe presentan **2 sobres electrónicos**, según el Anexo I apartado 18.\n\n### Sobre 1 – Documentación administrativa\n- DEUC firmado (Anexo II). Las empresas cuya solvencia se integre deben presentar su propio DEUC.\n- Compromiso de constitución de UTE, si procede.\n- Acreditación de inscripción en el ROLECE o registro autonómico equivalente. Si no se está inscrito, acuse de la solicitud más declaración responsable.\n- Declaración de sometimiento a la jurisdicción española (empresas extranjeras).\n- Informe de la Oficina Económica y Comercial (empresas no UE/EEE).\n- Compromiso de adscripción de medios técnicos y humanos, con nombres y cualificación.\n- Declaración responsable de los medios técnicos (software, herramientas y plataformas).\n- Indicación de la parte a subcontratar, en su caso (sección D del DEUC).\n\n### Sobre 2 – Criterios automáticos\n- Proposición económica según el Anexo III, firmada y fechada, con el importe fijo, el precio por hora y el IVA como partida independiente.\n- Opciones marcadas para los criterios B, C, D y E.\n- Documentación acreditativa de la experiencia adicional del equipo (C).\n- Acreditación de la huella de carbono (E).\n\n### Requerimiento al mejor clasificado (10 días hábiles)\n- Documentos de personalidad, capacidad y representación.\n- Solvencia económica y técnica.\n- CV y titulaciones del equipo.\n- Certificados tributarios y de Seguridad Social.\n- Certificado de plantilla y de personas con discapacidad (2 % si hay 50 o más trabajadores).\n- Plan de igualdad (si hay 50 o más trabajadores).\n- Garantía definitiva: 7.438,02 €.\n\n## Bloque 6 – Conclusiones / Análisis Preliminar\n\n### Precio y duración\n- El presupuesto es de **148.760,33 €** sin IVA para 24 meses, unos **74.380 €/año**. Con las dos prórrogas, el valor estimado alcanza **297.520,66 €**.\n- La parte fija (68.760,33 €) cubre Diagnóstico, Plan de Trabajo y formación. Es una cifra ajustada para un equipo mínimo de 4 perfiles senior (8 y 5 años de experiencia).\n- La bolsa de 2.000 horas a **40 €/h** es un precio muy bajo para perfiles senior (el coste/hora de un consultor de este nivel suele superar esa cifra). Además no garantiza el consumo: solo se factura lo ejecutado.\n- Hay una incoherencia a revisar: la estimación para las prórrogas es el 50 % anualizado, pero el valor estimado de 297.520,66 € equivale a 2 veces el presupuesto base. Conviene revisar en el PCAP completo cómo se compone el valor estimado.\n- **Riesgo económico:** el criterio económico pesa 49 puntos con fórmula proporcional. La competencia por precio puede bajar mucho las ofertas, y se aplica un umbral de anormalidad.\n\n### Contraste con el perfil de CAI Consultores\n\n| Requisito | Exigido | CAI Consultores | Valoración |\n|---|---|---|---|\n| Solvencia económica (mejor ejercicio de los 3 últimos) | **297.520,66 €** | 1.100.000 € por año (2023, 2024 y 2025) | **Cumple** con holgura |\n| Servicios similares (3 años, acumulado) | ≥ **148.760,33 €** | No facilitado | **No verificable** |\n| Equipo mínimo (4 perfiles) | Titulación y experiencia concretas | No facilitado | **No verificable** |\n| Seguro RC | ≥ 150.000 € por siniestro, no inferior al precio | Sin importe ni aseguradora indicados en el perfil | **Pendiente de completar** |\n\nObservaciones:\n- El volumen anual de CAI Consultores es unas **3,7 veces** el mínimo. Se exige el mejor ejercicio, no el acumulado, así que el dato acumulado (3.300.000 €) no es el relevante.\n- El perfil de la empresa está orientado a arquitectura e ingeniería. La solvencia técnica se mide por el **CPV 73200000 / 71356200-0** (consultoría en I+D y asistencia técnica). CAI debe comprobar si tiene servicios de cambio climático, huella de carbono o sostenibilidad bajo estos CPV por al menos 148.760,33 € en los últimos 3 años.\n- Para el equipo se necesitan **4 perfiles específicos** (Coordinador con 8 años y 3 proyectos, dos especialistas con 5 años y 5 proyectos cada uno, y un técnico de datos). Como los puestos no son subcontratables, si CAI no los tiene en plantilla, debería valorar una **UTE** o integrar solvencia con medios externos. Las titulaciones externas solo valen si esa entidad ejecuta esas prestaciones (por subcontratación).\n- El criterio E (huella de carbono, 5 puntos) y la formación adicional (5 puntos) son accesibles. La experiencia adicional (26 puntos) depende del número de proyectos certificados de las personas propuestas.\n- Fecha de hoy: **2026-10-02**. El plazo de presentación no figura en el texto aportado. Debe confirmarse en el anuncio que no ha vencido.\n\n### Qué le faltaría acreditar a CAI\n1. Relación de servicios similares (según CPV) de los últimos 3 años, con certificados, por un importe acumulado ≥ 148.760,33 €.\n2. Equipo con los 4 perfiles y su experiencia certificada (o socio para una UTE).\n3. Póliza de RC (importe asegurado y aseguradora, que el perfil deja vacíos).\n4. Certificado de huella de carbono, opcional pero con puntuación.\n5. Plan de igualdad y certificado de plantilla, si procede.\n\n**Recomendación preliminar:** la solvencia económica está cubierta. La decisión depende de la solvencia técnica específica en cambio climático y del equipo. Con 40 €/h y un precio fijo ajustado, hay que evaluar la rentabilidad antes de presentar oferta.",
       "fecha_analisis": "2026-10-02T10:18:18.347854+00:00"
     },
-    "fecha_captura": "2026-10-02"
+    "fecha_captura": "2026-10-02",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-06",
+    "estado_updated": "2026-11-05T07:44:27.366+01:00"
   },
   {
     "folder_id": "AYAL-2026000203",
@@ -2941,7 +2950,7 @@
     "organo": "Alcaldía del Ayuntamiento de Ibros",
     "importe": "54207.56",
     "importe_num": 54207.56,
-    "fecha_limite": "2026-08-14",
+    "fecha_limite": "2026-10-08",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -2954,17 +2963,17 @@
     "fecha_captura": "2026-10-06",
     "estado_anterior": "EV",
     "estado_cambiado_el": "2026-11-04",
-    "fecha_limite_anterior": "2026-10-08",
-    "fecha_limite_cambiada_el": "2026-11-04",
-    "estado_updated": "2026-11-03T17:11:30.954+01:00",
+    "fecha_limite_anterior": "2026-08-14",
+    "fecha_limite_cambiada_el": "2026-11-06",
+    "estado_updated": "2026-11-05T13:56:42.996+01:00",
     "docs_adicionales": [
       {
-        "nombre": "Modelo Declaracion Responsable con declaracion PYME.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=PnqW%2B8PtVfksfbK2zh8%2BmacyRd2jFMItBZ69znX/U6HCPDFINO6CWU0tl2G9ZX5I7P36NX3IOHXVCdGY6yeV9Hi8tFPZeYzNgeYdcTUlbhR7QB3HKyQaFUExmUVQCerk"
+        "nombre": "ANEXOS.PDF",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Jso7yv0jbbvawOeA5N21XJzsG/24A0RNXj2JQ//%2BVPpnnFiy%2BvYMdGu2jOGepAZNTwVJmPb2ShuDbTlsI53G7X6b15B8NcSkVTa3NoM3XgA//q7NB2iMZvNyf0xrJmjt"
       },
       {
-        "nombre": "Modelo Oferta con mejoras.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=xRB7EvNw6HB%2BhmB91jiXww/x4D55jeNaugCWaiyxy9iO%2BknUxoNesKMAIaHeNQXu9GkIewvzgc71/4F73t1nP9Eup9Zxcx3f1oG7Kg/glTXDdQD9RyhUmzT4jZ2In4zL"
+        "nombre": "CUADRO RESUMEN.PDF",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=d%2BnWuvNaQOkmayJukBABeHt6SCWziblQC/CZWWZBDFVMmNMAMggOw0AZoseFdfDcfG4rR0hcDntNaKkdEfahzY1Rs6sagxmCR9Z%2B9AU/ozG1aXEvq3KHa/AEHgtDrQw0"
       }
     ]
   },
@@ -3589,7 +3598,7 @@
     "organo": "Alcaldía del Ayuntamiento de Castril",
     "importe": "68172.21",
     "importe_num": 68172.21,
-    "fecha_limite": "2026-10-21",
+    "fecha_limite": "2026-10-05",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -3598,9 +3607,9 @@
     "fecha_captura": "2026-10-09",
     "estado_anterior": "RES",
     "estado_cambiado_el": "2026-10-31",
-    "fecha_limite_anterior": "2026-10-05",
-    "fecha_limite_cambiada_el": "2026-10-26",
-    "estado_updated": "2026-10-30T10:23:25.832+01:00",
+    "fecha_limite_anterior": "2026-10-21",
+    "fecha_limite_cambiada_el": "2026-11-06",
+    "estado_updated": "2026-11-04T14:04:13.124+01:00",
     "docs_adicionales": [
       {
         "nombre": "8 Cuadro resumen_.pdf",
@@ -4303,7 +4312,7 @@
   },
   {
     "folder_id": "1638/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Contrato de servicios por procedimiento abierto simplificado Contrato de servicios de redacción del proyecto y dirección de obra para la rehabilitación integral del Parque de los Patos",
     "updated": "2026-10-15T10:01:45.718+02:00",
@@ -4328,9 +4337,9 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-10-15",
-    "estado_anterior": "RES",
-    "estado_cambiado_el": "2026-10-26",
-    "estado_updated": "2026-10-26T12:12:15.139+01:00",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-06",
+    "estado_updated": "2026-11-05T12:40:53.718+01:00",
     "revision_ia": {
       "informe": "## Bloque 1 – Características Principales del Contrato\n\n### Objeto de la licitación\nContrato de servicios (procedimiento abierto simplificado, expediente **1638/2026**, Ayuntamiento de Huétor Tájar, Granada) para la **redacción del proyecto básico y de ejecución, el Estudio de Seguridad y Salud, la dirección facultativa y la coordinación de seguridad y salud** de la rehabilitación integral del Parque de los Patos. La actuación responde a los daños de las inundaciones de febrero de 2026 por el desbordamiento del Genil: unos 12.000 m² de lodos, instalaciones deportivas, alumbrado, vallado, arbolado, caminos, mobiliario y parque infantil. La ejecución material de las obras queda fuera del contrato.\n\nObjetivos:\n- Definir técnicamente la restitución del parque, con drenaje y resiliencia frente a inundaciones.\n- Diseñar la repoblación con especies de ribera y el tratamiento del arbolado.\n- Tramitar autorizaciones e informes, en particular ante la Confederación Hidrográfica del Guadalquivir.\n- Dirigir las obras y coordinar la seguridad y salud.\n- Apoyar la justificación de la financiación pública (RDL 5/2026 y Resolución de 31/03/2026).\n\n### División en lotes\nNo hay división en lotes (cláusula 6, art. 99.3 LCSP). Se justifica por la coherencia entre proyecto y dirección de obra (art. 308.4 LCSP). El proyecto **no reviste especial complejidad** (art. 183.3 LCSP).\n\n### Características del contrato\n\n| Concepto | Dato |\n|---|---|\n| Presupuesto base de licitación (sin IVA) | **44.000,00 €** (IVA 21 %: 9.240 €; total 53.240 €) |\n| Fase 1 (proyecto + ESS) | **26.400 €** (60 %) |\n| Fase 2 (DF + CSS) | **17.600 €** (40 %) |\n| Valor estimado | **47.500 €** (incluye modificación prevista de 3.520 €, el 20 % de la Fase 2) |\n| Prórrogas | No se prevén |\n| Plazo Fase 1 | **1 mes** desde la formalización |\n| Plazo Fase 2 | **8 meses** de referencia, ligados a la obra; solo se devenga si se formaliza e inicia el contrato de obras |\n| Plazo de garantía | 1 año |\n| Garantía definitiva | 5 % del precio ofertado sin IVA; no hay garantía provisional |\n| Presentación de ofertas | **15 días naturales** desde la publicación en el Perfil de Contratante (PLACSP). La fecha concreta no consta en el texto recibido |\n| Forma de presentación | Exclusivamente electrónica, en 2 archivos (A y B), firmada electrónicamente |\n| Recurso especial | No procede por valor estimado (art. 44 LCSP) |\n\nTrabajos específicos obligatorios:\n- Estudios y trabajos previos, y Estudio de Seguridad y Salud.\n- Tramitación de autorizaciones, en especial ante la CHG (hidráulica/inundabilidad). Puede dar lugar a suspensión o ampliación del plazo (5.2).\n- Diseño de drenaje y de paisajismo/arbolado.\n- Condición especial de ejecución medioambiental (cláusula 17.6: no localizada en el texto, falta la página 38).\n- El detalle técnico está en el PPT, que no se ha recibido.\n\n## Bloque 2 – Solvencia\n\n### Económica y financiera\n- **Volumen anual de negocios** del mejor de los tres últimos ejercicios disponibles: **≥ 71.750 €** (el pliego lo cifra como 1,5 × el valor estimado).\n  - ⚠ REVISAR: 1,5 × 47.500 € = **71.250 €**, no 71.750 €. Hay una incoherencia aritmética en la cláusula 7.3.\n- Acreditación: cuentas anuales depositadas en el Registro Mercantil. Se exige al licitador con la mejor oferta, antes de la adjudicación.\n- **Seguro de responsabilidad civil profesional ≥ 500.000 €**, en vigor hasta el fin del plazo de presentación. Se acredita con póliza y recibo, o con compromiso vinculante de suscripción, que debe estar suscrito antes de formalizar.\n- Se admite integrar la solvencia con medios externos (art. 75 LCSP, cláusula 7.5).\n\n### Técnica y profesional\n- **Servicios de igual o similar naturaleza en los últimos 3 años** (importe, fechas y destinatario). Se consideran similares la redacción de proyectos y/o la dirección facultativa de obras de rehabilitación, urbanización o acondicionamiento de espacios públicos, con prestaciones análogas.\n- **Importe anual acumulado en el año de mayor ejecución ≥ 33.250 €** (70 % del valor estimado).\n- Acreditación: certificados expedidos o visados por el órgano competente si el destinatario es público. Si es privado, certificado del destinatario o declaración del empresario con documentación de respaldo.\n- Empresas de nueva creación (menos de 5 años): pueden usar los medios b) a i) del art. 90.1 en lugar de la experiencia previa.\n- **Equipo mínimo, único contrato sin lotes** (cláusula 7.6.1). Una misma persona puede asumir varios perfiles si reúne los requisitos:\n  1. Técnico/a director/a del proyecto y de la dirección facultativa, con la titulación habilitante de la Memoria Justificativa (no recibida).\n  2. Técnico/a con experiencia acreditada en **diseño de drenaje y evacuación de aguas**. Es además medio de solvencia técnica.\n  3. Técnico/a en **jardinería/paisajismo y tratamiento del arbolado**. Es además medio de solvencia técnica.\n  4. Coordinador/a de seguridad y salud con la habilitación del RD 1627/1997.\n- Los perfiles 2 y 3 requieren una experiencia mínima que se fija en la Memoria Justificativa (**no localizada**). Si falta cualquiera de ellos, no se acredita la solvencia técnica.\n- Compromiso de adscripción (Anexo IV) con la oferta. La acreditación efectiva se pide al mejor licitador. Incumplir la adscripción es obligación esencial (art. 211.1.f).\n- Subcontratación: la cláusula 17.4 remite al art. 215 LCSP. La parte del texto que dice qué prestaciones no se pueden subcontratar (página 38) no se ha recibido, así que **no consta qué puestos pueden subcontratarse**. Sí se permite integrar solvencia con medios externos (art. 75).\n- Clasificación empresarial: no se exige en el texto recibido. Sí se exige la **inscripción en el ROLECE** (o registro autonómico) en la fecha final de presentación (10.7.1.3).\n\n⚠ REVISAR — criterio de mejora de equipo, no confundir con el mínimo de solvencia: **B.2 Experiencia adicional del equipo adscrito (hasta 10 puntos)**. Solo cuenta la experiencia adicional a la usada para solvencia o adscripción. Está descrita en el Bloque 3.\n\n## Bloque 3 – Criterios de Adjudicación\n\nMáximo **100 puntos**: 45 por juicio de valor y 55 por fórmulas. Adjudicación por mejor relación calidad-precio.\n\n### Automáticos (fórmulas)\n\n| Criterio | Puntos |\n|---|---|\n| B.1 Oferta económica | hasta **45** |\n| B.2 Experiencia adicional del equipo | hasta **10** |\n\n**B.1.** Puntuación = 45 × (Oferta mínima / Oferta i), sobre el importe sin IVA. No se admiten ofertas por encima de 44.000 €.\n\n**B.2.** 1 punto por servicio adicional acreditado, con estos máximos:\n\n| Perfil | Servicio computable | Máx. |\n|---|---|---|\n| a) Responsable de proyecto y dirección facultativa | Redacción de proyecto y/o DF de obras de rehabilitación, urbanización o acondicionamiento de espacios públicos, sustancialmente análogas | 4 |\n| b) Drenaje y evacuación de aguas | Intervención efectiva en diseño, cálculo o dirección de sistemas de drenaje o gestión de aguas pluviales | 3 |\n| c) Paisaje y arbolado | Diseño paisajístico, restauración vegetal, arbolado o espacios verdes públicos | 3 |\n\n- Solo se computa la experiencia de la persona concreta adscrita y que no se haya usado para la solvencia.\n- Se declara en el Anexo I (Archivo B) y se acredita al mejor licitador antes de adjudicar.\n- Si un servicio no se acredita, se recalcula la puntuación.\n- ⚠ REVISAR: el pliego lo califica de automático, pero exige analizar la \"análoga naturaleza\" de cada servicio. La cláusula 10.8.2 añade \"posterior o exceda\" de la experiencia mínima, redacción ambigua.\n\n**Ofertas anormalmente bajas (cláusula 8.4):**\n- 1 licitador: baja de más de 25 puntos porcentuales sobre el presupuesto base.\n- 2 licitadores: oferta más de 20 puntos inferior a la otra.\n- 3 licitadores: más de 10 puntos por debajo de la media, y en todo caso baja superior a 25 puntos.\n- 4 o más licitadores: más de 10 puntos por debajo de la media (con recálculo de la media).\n- Justificación en 5 días hábiles. Si se acepta la oferta, se exige una garantía complementaria del 3 %.\n\n**Desempate (8.3):** porcentaje de personas con discapacidad o exclusión social, menor porcentaje de contratos temporales, mayor porcentaje de mujeres, y sorteo.\n\n### Juicio de valor\nTotal 45 puntos, en una Memoria técnica (Anexo III). Se valora en un máximo de 7 días.\n\n| Criterio | Puntos | Subapartados |\n|---|---|---|\n| A.1 Metodología y propuesta técnica de drenaje y resiliencia frente a inundaciones | **25** | a) comprensión hidráulica y de inundabilidad; b) problemas de drenaje; c) calidad, viabilidad y adecuación de soluciones; d) integración con el resto del parque; e) restitución funcional y prevención de daños futuros |\n| A.2 Propuesta de paisaje, vegetación y selección de especies | **15** | a) adecuación de especies; b) coherencia de la revegetación; c) arbolado existente y nuevas plantaciones; d) integración paisajística; e) viabilidad del mantenimiento |\n| A.3 Planificación y organización de los trabajos | **5** | cronograma, secuencia, coordinación de especialidades, dependencias y riesgos |\n\nLa Memoria no puede incluir precio ni la experiencia del personal (riesgo de exclusión). No se fijan límites de extensión o formato en el texto recibido. Conviene revisar el anuncio o el PPT.\n\n### Umbrales mínimos de puntuación\n**No se establecen** umbrales mínimos en el texto recibido (cláusulas 8 y 11 y Anexo III).\n\n## Bloque 4 – Forma de Pago\n\n- **Fase 1 (60 % del precio de adjudicación):**\n  - 30 % al recibir el proyecto básico.\n  - 30 % al entregar el proyecto de ejecución y el ESS, con informes favorables de los servicios técnicos municipales cuando sean preceptivos.\n- **Fase 2 (40 %):**\n  - Solo se devenga si se ejecutan las obras.\n  - Certificaciones mensuales. Precio mensual de referencia = precio de la Fase 2 / 8.\n  - Si el mes es incompleto, se abona en proporción.\n  - La última certificación incluye el certificado final de obra y la documentación final.\n  - Si la obra se prolonga más de 8 meses, hay una modificación prevista que se paga a ese precio mensual, con un tope del **20 % del precio de la Fase 2**.\n- **Facturación:** electrónica (FACe), identificando expediente y fase o hito, con conformidad del responsable del contrato. El pago se hace en los plazos del art. 198 LCSP. El pago no depende de la devolución de la garantía.\n- **Financiación:** partida 171.619.04, con ayudas del RDL 5/2026. El anticipo concedido es de 27.150.405,26 € para todo el suceso. La adjudicación queda condicionada a la existencia de crédito.\n\n### Penalidades y otras condiciones\n- **Demora en la Fase 1:** régimen del art. 193 LCSP. Superar los 8 meses en la Fase 2 por prolongación de la obra no es demora.\n- **Cumplimiento defectuoso (24.3):**\n  - 3 % del precio por ejecución defectuosa subsanable.\n  - 2 % por obligación no esencial.\n  - 1 % por falta de colaboración o información.\n  - Acumulado máximo del 10 %.\n- **Condición especial de ejecución medioambiental (17.6):** 5 % por incumplimiento, máximo 10 %. Su contenido a)–d) no consta en el texto (falta la página 38).\n- **Incumplir la adscripción de medios mínimos:** obligación esencial, posible resolución.\n- **Penalidad del 3 % del presupuesto base** si el licitador propuesto no cumple el requerimiento, o si no formaliza por causa propia.\n- **Revisión de precios:** no localizada. No se prevé en el texto recibido.\n- **Responsabilidad por defectos del proyecto:** arts. 314 y 315 LCSP.\n\n## Bloque 5 – Documentación a Presentar\n\nSe presentan **2 archivos electrónicos** por la Plataforma de Contratación (A y B). Todo en castellano y firmado electrónicamente. Se permite una sola proposición, no se admiten variantes y no se puede concurrir a la vez solo y en UTE.\n\n### Sobre 1 (Archivo A – Documentación administrativa y criterios de juicio de valor)\n- **DEUC** firmado. Cada empresa de una UTE, y cada entidad cuyos medios se integren, presenta el suyo.\n- **Anexo II – Declaración responsable complementaria:**\n  - Compromiso de UTE, si procede.\n  - Integración de solvencia con medios externos.\n  - Declaración sobre obligaciones laborales, sociales y ambientales.\n  - Sometimiento a la jurisdicción española, si es empresa extranjera.\n  - La página 57 del Anexo II no se recibió.\n- **Inscripción en el ROLECE** o registro autonómico en la fecha final de presentación.\n- **Anexo IV – Compromiso de adscripción de medios personales y materiales.** El texto recibido está truncado.\n- **Memoria técnica (Anexo III)** con los criterios A.1, A.2 y A.3, sin datos económicos ni de B.2.\n- Los anexos V (confidencialidad) y VI (grupo empresarial) figuran en el índice pero no se han recibido. Si deben ir en este archivo, debe confirmarse en el PCAP completo.\n\n### Sobre 2 (Archivo B – Oferta económica y criterios de fórmula)\n- **Anexo I**, firmado:\n  - Importe ofertado sin IVA, IVA y total.\n  - Declaración de experiencia adicional B.2: persona propuesta, titulación, servicios alegados (entidad, objeto, prestaciones del profesional, fechas) y puntuación solicitada.\n- No puede incluir información del Archivo A.\n\n### Requerimiento posterior (al mejor clasificado, 7 días hábiles)\n- Acreditación de solvencia económica y técnica, y disponibilidad real de los medios.\n- Garantía definitiva del 5 %.\n- Obligaciones tributarias y con la Seguridad Social.\n- Capacidad y representación.\n- Documentación de B.2.\n\n## Bloque 6 – Conclusiones / Análisis Preliminar\n\n**Precio y duración.**\n- El presupuesto es de 44.000 € sin IVA, repartido en 26.400 € para la Fase 1 (1 mes) y 17.600 € para la Fase 2 (8 meses de referencia, unos 2.200 €/mes).\n- La Fase 1 abarca proyecto básico, proyecto de ejecución, ESS, estudios previos y tramitación con la CHG en un solo mes. El plazo es muy ajustado respecto a la carga técnica. Solo está previsto suspenderlo si hay una imposibilidad material por trámites de otras Administraciones.\n- La Fase 2 es incierta: depende de que se licite y formalice la obra, y puede no devengarse nunca.\n- El proyecto incluye drenaje, paisaje y arbolado, que son tres especialidades más CSS, con solo 44.000 €.\n- En el tamaño de contrato queda dentro del rango habitual de CAI (entre 30.000 y 250.000 € en proyectos).\n\n**Comparación con el perfil de CAI.**\n\n| Requisito | Exigido | Perfil CAI | Situación |\n|---|---|---|---|\n| Volumen de negocio | ≥ 71.750 € (⚠ REVISAR: serían 71.250 €) | Mayor declarada: **1.876.061 €** (2024) | Cumple con holgura. Las cifras 2024 y 2025 tienen aspectos sin verificar; el certificado AEAT 2023 (1.298.075 €) también cubre |\n| Seguro RC | ≥ 500.000 € | 2.500.000 € (Caser) | Cumple. Certificado 2026 **pendiente de aportar [SIN VERIFICAR]** |\n| Experiencia 3 últimos años, año de mayor ejecución ≥ 33.250 € | Proyectos o DF de rehabilitación, urbanización o espacios públicos | Torremolinos Regeneración Urbana 2025 (134.132 €), Plaza de la Constitución 2025 (89.880 €), supermanzana 2024 (56.179 €), Huelin-Ayala 2024 (94.116 €), más ACOSOL y APPA | Cumple por sí sola en solitario, con contratos públicos adjudicados. Falta aportar los certificados de buena ejecución. Para la similitud manda el criterio del pliego (tipo de trabajo), no el CPV |\n| Perfil a) Director de proyecto y DF | Titulación habilitante (Memoria Justificativa no recibida) | Enrique de la Torre (ICCP, colegiado), arquitectas Torralba, Fernández y Trueba | Cumple. Falta confirmar la titulación exacta que exige la Memoria. Colegiación solo si el pliego la exige para el puesto (no consta) |\n| Perfil b) Drenaje | Experiencia acreditada (mínimo en la Memoria) | Juanjo Piñero (ICCP, hidráulica), con experiencia en abastecimiento y saneamiento; estudio hidrológico en Ronda | Probable. Falta acreditar años de experiencia y proyectos concretos. Su fecha de inicio está **[SIN VERIFICAR]** |\n| Perfil c) Jardinería, paisajismo y arbolado | Experiencia acreditada (mínimo en la Memoria) | No consta un paisajista o jardinero. Los certificados B-001 a B-019 son proyectos de zonas verdes redactados por Enrique de la Torre y otros. Águeda Romeo es ambientalista sin acreditar paisajismo | **Falta** en el perfil (no acreditado) |\n| Perfil d) CSS (RD 1627/1997) | Habilitación legal | No hay CSS en la plantilla. Se trabaja habitualmente con Coordinaciones y Proyectos de Seguridad LAMS (B-053 a B-057) | **Falta** como medio propio. Cubrible con medios externos o subcontratación |\n| ROLECE | Inscripción en la fecha final de presentación | No consta en el perfil | Pendiente de comprobar |\n| Clasificación empresarial | No exigida en el texto | No consta | No aplica |\n\n**Cobertura de los puntos de B.2 (informativo):** el equipo tiene experiencia para puntuar en el perfil a) (varios proyectos y DO de urbanización). En los perfiles b) y c) depende de a quién se adscriba y de que su experiencia sea adicional a la de solvencia.\n\n### Semáforo de presentación\n**Color: NARANJA.**\n\n- Se cumplen **4 de 7** requisitos con el perfil: solvencia económica, seguro (certificado pendiente), experiencia en trabajos similares y perfil a). El perfil b) es probable pero hay que acreditar su experiencia mínima, y el resultado cuenta con esa reserva.\n- **Faltan** el paisajista/jardinero (perfil c) y el coordinador de seguridad y salud (perfil d). Tampoco constan en el perfil los mínimos de experiencia de la Memoria Justificativa.\n- **Subcontratación y medios externos:** la cláusula 7.5 permite integrar la solvencia con medios de otras entidades (art. 75 LCSP). El Anexo IV permite que una misma persona cubra varios perfiles. La parte de la cláusula 17.4 sobre subcontratación (página 38) no consta, así que hay que confirmar que ningún perfil esté reservado a ejecución directa. CAI tiene colaborador habitual de CSS (LAMS) y puede incorporar un paisajista por medios externos o UTE.\n- **Puntos a revisar antes de presentar:** obtener la Memoria Justificativa y el PPT. Confirmar el ROLECE. Aportar el certificado de seguro 2026. Aclarar la discrepancia 71.750 € frente a 71.250 €.",
       "semaforo": "naranja",
@@ -4340,8 +4349,8 @@
   },
   {
     "folder_id": "78/26",
-    "estado": "EV",
-    "resultado": null,
+    "estado": "ADJ",
+    "resultado": "adjudicada",
     "titulo": "Contrato de servicio para la redacción de proyectos eléctricos para ampliazión de la instalación eléctrica de baja tensión para el sistema de climatización en los centros de educación infantil y primaria del municipio de Los Barrios (Cádiz), responsable del contrato de obras y dirección facultativa. \r\n\r\n",
     "updated": "2026-10-15T09:43:47.828+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=icZvKODnjthPpzdqOdhuWg%3D%3D",
@@ -4355,7 +4364,7 @@
     "organo": "Alcaldía del Ayuntamiento de Los Barrios (Cádiz)",
     "importe": "35700",
     "importe_num": 35700,
-    "fecha_limite": "2026-10-21",
+    "fecha_limite": "2026-08-06",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -4365,11 +4374,11 @@
     "revisado_humano": true,
     "revisado_fecha": "2026-10-20T09:52:09.348Z",
     "revisado_por": "Belén Fernández",
-    "estado_anterior": "ADJ",
-    "estado_cambiado_el": "2026-10-31",
-    "fecha_limite_anterior": "2026-08-06",
-    "fecha_limite_cambiada_el": "2026-10-31",
-    "estado_updated": "2026-10-30T15:11:34.880+01:00"
+    "estado_anterior": "EV",
+    "estado_cambiado_el": "2026-11-06",
+    "fecha_limite_anterior": "2026-10-21",
+    "fecha_limite_cambiada_el": "2026-11-06",
+    "estado_updated": "2026-11-05T10:40:18.920+01:00"
   },
   {
     "folder_id": "3.26/23108.0118",
@@ -5632,8 +5641,8 @@
   },
   {
     "folder_id": "926/2026",
-    "estado": "RES",
-    "resultado": "adjudicada",
+    "estado": "PUB",
+    "resultado": null,
     "titulo": "(PA/SERV/017/2026) A. T. externa de ingeniería a la dirección técnica de ARECIAR",
     "updated": "2026-10-26T18:19:36.177+01:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=yT63ue4%2FEEk36J9Lctlsuw%3D%3D",
@@ -5660,6 +5669,10 @@
       {
         "nombre": "Anexo-V.docx",
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9A6e90uzu3%2BPhILdVCExdNcwGAzDwCq2rqPfM8N99qUTb6N4GkRlvnQIhaOrhHgQWvrtO8evx/mlZ4rvk3ICss6monZivPHP76ZGTu/ugnNt/o8fNevwsujgRzaBbugn"
+      },
+      {
+        "nombre": "erratas.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=VSgJcIVEh5lTfb2Gjv%2BWswUP1BSrOlCgUHudxRw7Wpmh2zZnmdW7kkRhH0Lv7OnUPA8VNE8ecipZ9UvmCMvNyrK44lxELtgXtF8kirdt2gYC1/zDIE0Kw/PWNnLS0Z0z"
       }
     ],
     "organo": "Consejo de Administración de la Agencia de Régimen Especial Ciclo Integral Aguas del Retortillo",
@@ -5673,9 +5686,9 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-26",
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-10-31",
-    "estado_updated": "2026-10-30T13:39:46.616+01:00"
+    "estado_anterior": "RES",
+    "estado_cambiado_el": "2026-11-06",
+    "estado_updated": "2026-11-05T12:02:54.600+01:00"
   },
   {
     "folder_id": "428/2026",
@@ -6070,18 +6083,22 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YT6JPBSl4vzEdmckXX0fDOoSNl4i/UHKLub2bttzQGr1PT7k3dEFPFvc3lmpw3mlSb3ERR9UABw78u%2BsVyo/kf7Sn9ZiV29OEVzRlIIfmtLVTD3T98KC0nSgQFM0q%2B5s",
     "docs_adicionales": [
       {
-        "nombre": "ANEXO I CUATRO VEHICULOS MUNICIPALES.doc",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=t4C%2BfbWwqKTDH0u7VdVxYMBfSSnc08LRHbpOruMYN/FFqiTZrsFEx3ZZb5TerxGJ1mDIjB6QZ/d7Ve3QZrj2g0lJVf0nv9ipzA3MQX/bUGtJOVDbGCDM%2BMigrvuVS7Rv"
+        "nombre": "ANEXOS.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=s%2BpzoBnY11tPaMAkx4mfNgH0ButyxTJSZjoTrERhylMyBmnBx17oILoFanKNPPUoetLb8PvMI1LB2fdEpbR/pLYEhVWviOvPRb/t2ieezwyHAj0WEJrB5sP7amrh2jBD"
       },
       {
-        "nombre": "ANEXO II  CUATRO VEHICULOS MUNICIPALES.doc",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=UM7y3S0WuEc/A8HCXDhZFCK1Q8zzepj1/yG0wjijz%2BjR2uX0sJ70Yva6zIVLCjj03FrHkv0RyvFAFdn//YGj3MxeJu/HDJexOQqXb7xVPxGHAj0WEJrB5sP7amrh2jBD"
+        "nombre": "Memoria justificativa.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ZrGQ9IO1FzooM4AuZgyhB97ki48PILuoTCOZW2XOBrOa5ax9%2BE5YnguPSJgOU450gAt9LY4bmSCT5dv5eOYdFhsz2klmRppjjyO60%2BeRrRhJOVDbGCDM%2BMigrvuVS7Rv"
+      },
+      {
+        "nombre": "DECRETO APROBACION EXPEDIENTE.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=gn3wrGmLj6KIGit3bUm4gXeySBabeqVWPGnVSnSW62hBQBVb2CCWs89jgeHQi8X5uwlkz7RPFulNOsoMTlc1EUWL5x2%2BsqUE3/OfeaUUwsWHAj0WEJrB5sP7amrh2jBD"
       }
     ],
     "organo": "Junta de Compensación Sector Sup-01 El Rodeo",
     "importe": "254930",
     "importe_num": 254930.0,
-    "fecha_limite": "2026-10-29",
+    "fecha_limite": "2026-10-23",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -6091,9 +6108,9 @@
     "fecha_captura": "2026-10-29",
     "estado_anterior": "PUB",
     "estado_cambiado_el": "2026-11-05",
-    "fecha_limite_anterior": "2026-12-04",
-    "fecha_limite_cambiada_el": "2026-11-05",
-    "estado_updated": "2026-11-04T13:48:42.160+01:00"
+    "fecha_limite_anterior": "2026-10-29",
+    "fecha_limite_cambiada_el": "2026-11-06",
+    "estado_updated": "2026-11-05T11:58:05.086+01:00"
   },
   {
     "folder_id": "SE 34/2026",
@@ -6189,7 +6206,7 @@
     "docs_adicionales": [
       {
         "nombre": "AccesoDocTecnica.PDF",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ytX%2BrL7pPXhbxK7cnb6UDZ9VDt2gBIb1Vi5DT/rj8fMsFZET6OdXfUkc9FcZDiWaZA9LTm6Hedy%2B4LLFWLtOMtEUGm67sZGXxSZdxBgvT7OCx2e6p7hqtlp2aFupgHMr"
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=MEtLnFnm8v9XQ0p3IJRbvlfVNML/UmpJ/jjit2rDyAvi9ABmzpyWHIAqqqnWCbm8gszHCuzXZToiVdBCN07K1ORpaCPQBg9o0S43ynfb7vKB0nvVKRzfe4rpHcnlPhSZ"
       }
     ],
     "organo": "ADIF - Presidencia",
@@ -6498,7 +6515,10 @@
       },
       "fecha_analisis": "2026-11-05T15:46:16.543296+00:00",
       "solicitada_por": "Belén Fernández"
-    }
+    },
+    "revisado_humano": true,
+    "revisado_fecha": "2026-11-05T15:54:39.035Z",
+    "revisado_por": "Belén Fernández"
   },
   {
     "folder_id": "TEC0007223",
@@ -6785,65 +6805,32 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=H6PzczLBPg/kduvnEE/CacoDrjsQDIvhwAEQP4rBvLWFkTalurqG4/rSmTbbG0IyHsJgOuBatR7vOLlB0BFPbNvkQaYPjCF1SeOAXn7b5h5t/o8fNevwsujgRzaBbugn",
     "docs_adicionales": [
       {
-        "nombre": "MEMORIA JUSTIFICATIVA.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=zBgEUxWJ3c6FZwvRemKZGqHOk24lKGuHHUgBNRhh3f3uWcCklNMhZiXjYBxx26TgtuHzH7epptyV2qsz9MwzozqQ4p4Mb%2BaJDo3KWWDN8GBt/o8fNevwsujgRzaBbugn"
+        "nombre": "proy alumbrado.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QmzkhWeDcr/SJdaMbexLPA0O97lOZxLRQDihhVd%2BAiwq5QGOftNIKhxNZWjxGW6637N6pm0ngqmdX%2BA5/34ApB8vrcTykwQisDI2ioqSnr%2BHAj0WEJrB5sP7amrh2jBD"
       },
       {
-        "nombre": "INFORME INSUFICIENCIA DE MEDIOS.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=C1fIbJpju/yNsBj2yXHUm4Ee7HXCPS0ISeaCtdWgtDJOw07zoCqgFszrdo7oGIaggQ0z1FmQroK7SA55o/Em9jtvWhHBW092XylCERcrxsv6CYyL7SIrUOBFfNf52ZqA"
+        "nombre": "20261016_Otros_anexo 2.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=toTtF3Y00OtQjZr8nfp%2Bps4w5nQgwzUCkyg6EvNg/%2BlacE%2BSIE9dxB3T1aRa4IE4ayPz4StPGcLZAAHd0iCwzXVRgUIVacsrpOs7T7h7TgCHAj0WEJrB5sP7amrh2jBD"
       },
       {
-        "nombre": "INSTRUCCIONES GENERALES PARA LA PRESENTACION DE OFERTAS.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=6wuWtRJhS7Hx/GZ51rCZ5B8P%2BR5hARfwkYcdMB1D57080wJsh97hgO1ral%2B2gcxcN0O9tlfLMAzEMCLf3/bk0F8JgqK2IeRimzjsYasmBUq1aXEvq3KHa/AEHgtDrQw0"
-      },
-      {
-        "nombre": "CUADRO RESUMEN CONTRATO.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=PfP2uB8f6EGkw7V29H6oytnnOP6d1yBhvkEqXeDgvkxfOS/XsPRtWgWwSnAWTtFCEM8AR9np0D0TnmNDFa9K04r8lkdiiEwlc%2BSFpJ89upnDdQD9RyhUmzT4jZ2In4zL"
-      },
-      {
-        "nombre": "ANEXO IV GRUPO EMPRESARIAL.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=M7ESVnzuyJQBWMgtbT8Sd1flN5gMLub/4fsiGiFT4Ayx/ozs2Ny4MVZMZHAuAnakkcPq5Hgxno53ud7fIaUjkdtO3slbZgN5pGUYaVMRTJE//q7NB2iMZvNyf0xrJmjt"
-      },
-      {
-        "nombre": "ANEXO V ADSCRIPCION DE MEDIOS.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=7CnDtldDMI7FI6Qnys5wN4wOtGliwE1VWOqc9/imbO4b/0XZG4POL2/MfgH2BUCr8nh3Fmbaq%2BglYxQmqcLN7zCfLLtLC3k7UvOGXYSsE%2B76CYyL7SIrUOBFfNf52ZqA"
-      },
-      {
-        "nombre": "ANEXO III UTE.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=dTaI91iNtNZ6GhYHE3qbgxazLJAt6Rh%2BQmQ9EcBtRVbhXRFafEhGt/iLJN6yaOUWOfGOy4Y7/wxQjZpaO6rIwl1E7iRHit1asaFY/eRGXGOB0nvVKRzfe4rpHcnlPhSZ"
-      },
-      {
-        "nombre": "ANEXO VII DECLARACION CONFIDENCIALIDAD VOLUNTARIO.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=8Ur%2BBoNYWKyQttow86G%2BQSJgsnHQV/VdN9kYoQhdxbMRfGyJMSCLCGqDRufSuERhuqXjniLYlGY6mxmP1BzHje8RVf9T2XZH4d74RGFGFXeHAj0WEJrB5sP7amrh2jBD"
-      },
-      {
-        "nombre": "INDICE OBLIGATORIO DE LA MEMORIA.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Lwlju%2BVXeuNFV9XEst7zrY%2B5yh9HwbhQG/X%2B4lrRQANebDx/zF6elBgTJ9YuBoKTsmPCRJa1b898gneUsTmkHFYo6R1IIfByATneok4zjl6Cx2e6p7hqtlp2aFupgHMr"
-      },
-      {
-        "nombre": "ANEXO I DECLARACION RESPONSABLE.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=vAQ0Un/xYdJJc%2B6q58enooErqNo6khfxfnRMJfQopyECAYWF7UWF1v3DX2uv1E1JympALwEG8tCMp/UEzQJ2APwQA9j2K4PepDyV%2B5stwQjDdQD9RyhUmzT4jZ2In4zL"
-      },
-      {
-        "nombre": "ANEXO VIII INTEGRACION SOLVENCIA MEDIOS EXTERNOS.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=JyTAWjou01wDq350AN/G/P2Dvp9bgfWQuC3QJ1EQKAoz/XKp0pADWzbte/byLeSxZ7f4gmI18wAJuppWB2Gs0Ri6FppY4S8SxDdjZkDrGGCCx2e6p7hqtlp2aFupgHMr"
-      },
-      {
-        "nombre": "RESOLUCION APROBACION DEL EXPEDIENTE.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YbG79OApw3cBVmKQqiaqB3zEforPD9tU7YTsJ/kGJUFJVjh%2BO4NWiziOKsJIpZcUjP/kojdAGi26b8aVEb1Cu9MVMr9J1WL%2BP/Rgfg%2BHN4oZyAJWGsSt0OzTSTyw9JAs"
+        "nombre": "20261016_Otros_anexo 1.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=IPQrQrhJ28//ZS%2BS%2BX8AITvRn2IL4MqSVP3Y7XUA9drZRoWWH0P4xmtVYVTX1oq7wo0CPSnMoZOM4NBWwhnGVjJs6FiEH91MLfTxuYKEKAJJOVDbGCDM%2BMigrvuVS7Rv"
       }
     ],
     "organo": "Alcaldia del Ayuntamiento de Rus",
     "importe": "186563.4",
     "importe_num": 186563.4,
-    "fecha_limite": "2026-11-13",
+    "fecha_limite": "2026-11-05",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-11-04"
+    "fecha_captura": "2026-11-04",
+    "fecha_limite_anterior": "2026-11-13",
+    "fecha_limite_cambiada_el": "2026-11-06",
+    "estado_updated": "2026-11-05T10:19:32.419+01:00"
   },
   {
     "folder_id": "11/2026 licencia",
@@ -7137,5 +7124,215 @@
       "fecha_analisis": "2026-11-05T09:24:28.816568+00:00",
       "solicitada_por": "Belén Fernández"
     }
+  },
+  {
+    "folder_id": "20216/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Implantación de un Nodo de Infraestructura de Datos Espaciales y Sistema De Información Geográfica Municipal, Programa de Ayuda a Inversiones PAI Torremolinos, Transformando El Paraíso, Cofinanciado por la Unión Europea Fondo Europeo de Desarrollo Regional FEDER  En el Marco del Programa operativo Plurirregional de Espana POPE 2021-2027",
+    "updated": "2026-11-05T14:06:56.791+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=avtCYhvUpT8eIBJRHQiPkQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "72212326",
+      "72310000",
+      "71356300",
+      "71700000",
+      "71354100",
+      "71240000",
+      "72212326",
+      "72310000",
+      "72250000",
+      "71356300",
+      "71700000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Yy0n9HHsmR38Q3tpa6PD6OzJ6HG4DcXt8x42BX/peB2EHfGLA/fZVq6WT6IfiU43WITuELNyopeKMxc6eyfcYlq0FY7Y36ElO8M5AD9MYvq1aXEvq3KHa/AEHgtDrQw0",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=GcQGv10t9hqheTbPdLUg4X3tUE0QrK65Jf4dHaUYFTU8%2BEtZPvCVRIjbe6V84%2BXY8156e/lKZ0l9KvFHs8xLurnfb2Eqyxo5GVrj1Z45LWb6CYyL7SIrUOBFfNf52ZqA",
+    "docs_adicionales": [
+      {
+        "nombre": "DEUC.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=3oBIVtCqUJQK1C3Rpt5ldenbVK%2Bzbr6nR5duajYx/RFPr0jfkgKXCMfmLSNVzkAt/tYFQDruNjqaF1iUEtZtG9y5sTm4DEuS9p9jCjCPN1OB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "Modelo Declaracion Responsable con declaracion PYME.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=tDkI/YCyv1emfq6YE1WZ52u/YraXrOVka7nKdBrtIDdYJIPwEDZSCviC3s9N0CWkVhN9BpA3UjE42Xh5DVG/DXQ97xwG9owwRDqJwszZLAA//q7NB2iMZvNyf0xrJmjt"
+      }
+    ],
+    "organo": "Concejalía Delegada en Materia de Contratación del Ayuntamiento de Torremolinos",
+    "importe": "293400",
+    "importe_num": 293400.0,
+    "fecha_limite": "2026-12-02",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-06"
+  },
+  {
+    "folder_id": "PEA/200/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de coordinación de seguridad y salud en obras y servicios, asistencia técnica en materia de prevención de riesgos laborales en obras y en el seguimiento y control de la gestión medioambiental en proyectos y obras.\r\n",
+    "updated": "2026-11-05T09:58:30.551+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Jrzq2YflEKvgL1BHd3qjQA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71317200",
+      "71317210"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=XUCVDy185RNy3XJg6bsxRSBp6xLkmfqg8UM3ZK8CPxvsFIjViDgx45rfEP4xUdCo1c6kBcbsi%2BmLid4r%2Bvu7xQNOd6ghfgMCZFEUsYP70B7VTD3T98KC0nSgQFM0q%2B5s",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=unsp0xUgmQhRwc65fbiJaOoxBiXPlADrw64LSMTTSQh7LGwNxHPFp4cyWM01juWhMZ4%2BIxNMQCGiVW4h5z3eZkl/nuCxIXVSFcHyhlpalNb3GVhXrFFqN7yFncy7YfRK",
+    "docs_adicionales": [],
+    "organo": "Consejo de Administración de la Empresa Mancomunada del Aljarafe, S.A. (ALJARAFESA)",
+    "importe": "445400",
+    "importe_num": 1113500.0,
+    "fecha_limite": "2026-12-04",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-06"
+  },
+  {
+    "folder_id": "83/26",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de servicio de dirección de obras y\r\ncoordinación de seguridad y salud en la fase de ejecución incluido las funciones de responsable del\r\ncontrato  por lotes Lote 1 rehabilitación y ampliación de chalet del Inglés Lote 2 reparación de\r\naceras y accesibilidad en Los Barrios Lote 3 nuevas instalaciones náuticoeportivas en el estuario\r\ndel Río Palmones",
+    "updated": "2026-11-05T09:50:14.930+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=OYJfbmNolD836J9Lctlsuw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000",
+      "71240000",
+      "71240000",
+      "71240000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=bPM4vA0D7NBN9V5mIq9dndiFGm9RhwXffUksKlRrKvTeXUqTY6P3fSl3uUDSqTh/cg5kPcmLRV7MsD1PJ0r2Mr5QuxgtfnituaFn93Vr3iU//q7NB2iMZvNyf0xrJmjt",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=cPI/uysNBTUb7%2B7SXGqMweU7OdAV7tVHaVZFPHv71Ozni89a/JMWHtLg%2Bmke2OdxvXKda4GFyvr6qRZ24Y2KJyrEZHMQ75KeH7dwwUav0LI//q7NB2iMZvNyf0xrJmjt",
+    "docs_adicionales": [],
+    "organo": "Alcaldía del Ayuntamiento de Los Barrios (Cádiz)",
+    "importe": "111000",
+    "importe_num": 111000.0,
+    "fecha_limite": "2026-11-20",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-06"
+  },
+  {
+    "folder_id": "S1424/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicios de coordinación de seguridad y salud en obas de ejecución.\r\n\r\n",
+    "updated": "2026-11-05T09:48:54.752+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=6X0v5EubzHF4zIRvjBVCSw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71317210"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=PVGIVLDafY9AveQUdmcvlp6D6inCzhkVgnTlL765rUrXiHoZuhYz3qU%2BXi43WZxB6HBdr0Yh4X4UEnoCg%2B7ZEoU7kUBorXo9pZTCzS/BPjEC1/zDIE0Kw/PWNnLS0Z0z",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0iXTfXQj/TqSnpBHmPtiysm4siEB8%2BJb8G45nbWHYyApmlNlwxkxI2ZGpy7FvvYjlpSYWt7lW%2BWY73i%2ByRrmYYPqq249EHCw/I6roLMnC51JOVDbGCDM%2BMigrvuVS7Rv",
+    "docs_adicionales": [],
+    "organo": "Alcaldía del Ayuntamiento de Alhama de Granada",
+    "importe": "8400",
+    "importe_num": 10164.0,
+    "fecha_limite": "2026-11-20",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-06"
+  },
+  {
+    "folder_id": "PA013SER2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de entidad de control de calidad como Organismo de Control Técnico (OCT) de la edificación correspondiente a la promoción de 107 viviendas protegidas, garajes y trasteros en la parcela UE-Centro del Plan Parcial del Sector SUO-10 SUP-R4 Cornisa del Zacatín, en C/ Mar Mediterráneo, Alcalá de Guadaíra.",
+    "updated": "2026-11-05T08:27:08.438+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2FDtEGdBY99N%2BF6L2uCfUWg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71356100",
+      "71356200"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=L%2BVCEs%2B4RyDoobb1yT2E64u%2B%2BUNCOScrS%2B37Xc7ek3x8iLN8FO28E%2BEbvD/kepWwsaIdItPo5j455VHYf/H6tcRtB79udwN2YGsT4n6vWhqHAj0WEJrB5sP7amrh2jBD",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=JyePtMJGLATvWdvNG%2Bczd6%2BK20nNjRKidQ%2B3wPLmL0b6enjY6tCoVaYJ%2BsGW3nW6JMCJ8WxXQH%2BWGi32QTPSplrTzqM7v%2BTnUcwSpyZ/g%2BPfdyQgZAdTm3EfcUAC7CJ6",
+    "docs_adicionales": [
+      {
+        "nombre": "PCAP_CCP_PA013SER2026.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=hXH1%2BgiWA6m3dW1PH/C7n8E2zK9ofGs4LQuoWh6vInAlBucsY%2B6oAgynKLym9x/Ln7mSRnNiXuKtqTkXuENgMXB1%2BItYWhEdUyIA8utnfzRJOVDbGCDM%2BMigrvuVS7Rv"
+      }
+    ],
+    "organo": "Gerencia de VIVE Empresa Pública de la Vivienda de Alcalá de Guadaíra, S.L.",
+    "importe": "15000",
+    "importe_num": 15000.0,
+    "fecha_limite": "2026-11-20",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-06"
+  },
+  {
+    "folder_id": "CONTR 2026 0000079002",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "asist. téc. conocimiento hidrogeológico abastecimiento arcos fra.",
+    "updated": "2026-11-04T12:41:44.123+01:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1035926",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71356200"
+    ],
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/440519",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/440518",
+    "docs_adicionales": [
+      {
+        "nombre": "DEUC PDF.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/440564"
+      },
+      {
+        "nombre": "DEUC HTML.XML",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/440565"
+      },
+      {
+        "nombre": "PPTP Proy. ARCOS FRONTERA - 6 marzo 2026. Fdo.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/440531"
+      },
+      {
+        "nombre": "Memoria justificativa de la contratación.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/440532"
+      }
+    ],
+    "organo": "Consejería de Agricultura, Pesca, Agua y Desarrollo Rural. D.G. de Infraestructuras del Agua (En Transición)",
+    "importe": "165427.48",
+    "importe_num": 198512.98,
+    "fecha_limite": "2026-12-11",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas",
+    "descripcion": "ASISTENCIA TÉCNICA PARA LA REDACCIÓN DEL PROYECTO DE MEJORA DEL CONOCIMIENTO HIDROGEOLÓGICO PARA AUMENTO DE LA GARANTÍA DE ABASTECIMIENTO EN ARCOS DE LA FRONTERA (CÁDIZ).",
+    "junta_consultado": "2026-11-06",
+    "fecha_captura": "2026-11-06"
   }
 ]

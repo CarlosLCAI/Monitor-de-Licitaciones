@@ -1,52 +1,24 @@
 [
   {
-    "folder_id": "38/SE/A/AL26",
+    "folder_id": "PEA/200/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicio de dirección facultativa, coordinación de seguridad y salud, consultoría, asistencia técnica y control de calidad para las obras de ejecución del proyecto de actuaciones en el frente litoral",
-    "updated": "2026-11-04T13:29:16.886+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=uw86G07iqH1LAIVZdUs8KA%3D%3D",
+    "titulo": "Servicio de coordinación de seguridad y salud en obras y servicios, asistencia técnica en materia de prevención de riesgos laborales en obras y en el seguimiento y control de la gestión medioambiental en proyectos y obras.\r\n",
+    "updated": "2026-11-05T09:58:30.551+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Jrzq2YflEKvgL1BHd3qjQA%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "71356200",
-      "71351810",
-      "71317210",
-      "71356100",
-      "71313450",
-      "71520000",
-      "71541000",
-      "71310000",
-      "71356000"
+      "71317200",
+      "71317210"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=G1nPO2cjFUaf477WhWbTt3Sr7i8uBbOGGvh9iX%2Bz/IztN9yEeBEjFDEUF98R9IytTLX%2BZRGjOjNwLhPqCbvScY8%2BvOQtmFbrjZuHIsn/a0G1aXEvq3KHa/AEHgtDrQw0",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Y4/9/ZFRJrSPpCrCSAunVaNfjDvJiGqxVC3v9fJ5WRPj17Oxew43fw7Y9xd0VgZBqOMvSKee9Sh055Okf/bVqXygB6JMDIgC2WxUSxP3iulJOVDbGCDM%2BMigrvuVS7Rv",
-    "docs_adicionales": [
-      {
-        "nombre": "InfJust.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=xo/IYrX/prV2uY/63K7rZkGS99UpvApixNP2HmvE9w7bq7po2S9shE4ESDRT%2B77LKXwhxlBUSpLrcBi/SnjPnJJxAdvPJIcmAfnUxOEYE3CB0nvVKRzfe4rpHcnlPhSZ"
-      },
-      {
-        "nombre": "Anexos PCAP 38_SE_A_AL26.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9BjS7uDXLSu89aM5U/wRPvdEsvI%2BL9bsRn%2BDOkHxHBmtBSzkllikDxeBauqZQtjeS5N%2BDVU3OqnPGn9xvEISwp8x%2B4C%2BhEgizLIl%2BWSzrEiB0nvVKRzfe4rpHcnlPhSZ"
-      },
-      {
-        "nombre": "MesCont.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ezhjRWg4p6w0L2gIhuN%2BDcW%2ByNmRzzJRWNeU77J6CBLDk0lSpCtBrIvpuZZOdKI61/lKVuG8rUsQODY0aSfycXwnrEGDmDmqXLUv/6t8e%2Bv6CYyL7SIrUOBFfNf52ZqA"
-      },
-      {
-        "nombre": "CC.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=nFxHkQ2W0/Zgvk4kUo%2Bxp9SOQ%2BTvkLlFEwkEuUQYsr6lXO8KowMXyBKtYXNP/Rs8Qt2b9gOugc0mjI%2Bpm8Z5TGjWtv1x/TXoM9AQc%2BJii2bVTD3T98KC0nSgQFM0q%2B5s"
-      },
-      {
-        "nombre": "OrdCont.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=z710TO183/BdbqxhaNwajbvuRzGepEFJvNEQJXkt3AW%2B452pe32jKQsREPucTSICTFPOQyRKGwL%2Bl9UhC96xOOIXsVV7XMcmU4/gnF4eOYGB0nvVKRzfe4rpHcnlPhSZ"
-      }
-    ],
-    "organo": "Presidencia de la Autoridad Portuaria de Almería",
-    "importe": "664243.45",
-    "importe_num": 664243.45,
-    "fecha_limite": "2026-12-03",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=XUCVDy185RNy3XJg6bsxRSBp6xLkmfqg8UM3ZK8CPxvsFIjViDgx45rfEP4xUdCo1c6kBcbsi%2BmLid4r%2Bvu7xQNOd6ghfgMCZFEUsYP70B7VTD3T98KC0nSgQFM0q%2B5s",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=unsp0xUgmQhRwc65fbiJaOoxBiXPlADrw64LSMTTSQh7LGwNxHPFp4cyWM01juWhMZ4%2BIxNMQCGiVW4h5z3eZkl/nuCxIXVSFcHyhlpalNb3GVhXrFFqN7yFncy7YfRK",
+    "docs_adicionales": [],
+    "organo": "Consejo de Administración de la Empresa Mancomunada del Aljarafe, S.A. (ALJARAFESA)",
+    "importe": "445400",
+    "importe_num": 1113500.0,
+    "fecha_limite": "2026-12-04",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -55,91 +27,24 @@
     "fuente": "perfiles"
   },
   {
-    "folder_id": "26-768",
+    "folder_id": "S1424/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicio de gestión documental de Coordinación de Actividades Empresariales (CAE) de EMASA mediante una plataforma tecnológica",
-    "updated": "2026-11-04T11:56:28.952+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=zkhmV9vfWHbI8aL3PRS10Q%3D%3D",
+    "titulo": "Servicios de coordinación de seguridad y salud en obas de ejecución.\r\n\r\n",
+    "updated": "2026-11-05T09:48:54.752+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=6X0v5EubzHF4zIRvjBVCSw%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "72512000",
-      "71317200"
+      "71317210"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/UenCrt1%2BgxIeomHUgwLALvlNRSUiFjTAmslZ%2BAwJLaojh%2Ba9lVK4ROtiBCeaWdQa5Lai1wGFKoeFl9OkueiaQTmIIozz8iY39hufnJytV545ClyWkoJ44mKM70IFcOu",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=UIUoH0plANh%2BRMu1KLMNcDhbV8FVwSdraoe/Te4IKJUBFLtAKtig/zEtgkVkHfaTgNkSSDl5JFT8jEzyXgcaWl%2BQUQG%2Bwr7DFGiHwal/jT73GVhXrFFqN7yFncy7YfRK",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=PVGIVLDafY9AveQUdmcvlp6D6inCzhkVgnTlL765rUrXiHoZuhYz3qU%2BXi43WZxB6HBdr0Yh4X4UEnoCg%2B7ZEoU7kUBorXo9pZTCzS/BPjEC1/zDIE0Kw/PWNnLS0Z0z",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0iXTfXQj/TqSnpBHmPtiysm4siEB8%2BJb8G45nbWHYyApmlNlwxkxI2ZGpy7FvvYjlpSYWt7lW%2BWY73i%2ByRrmYYPqq249EHCw/I6roLMnC51JOVDbGCDM%2BMigrvuVS7Rv",
     "docs_adicionales": [],
-    "organo": "Consejero Delegado de la Empresa Municipal de Aguas de Málaga S.A.",
-    "importe": "10200",
-    "importe_num": 53040.0,
+    "organo": "Alcaldía del Ayuntamiento de Alhama de Granada",
+    "importe": "8400",
+    "importe_num": 10164.0,
     "fecha_limite": "2026-11-20",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "9",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "8041/2026",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Servicio de redacción de Anteproyecto, Informe Geotécnico, Proyecto Básico, de Ejecución y Estudio de Seguridad y Salud para la prolongación del Barranco del Canalillo hasta el río Genil y de dos Parques Inundables asociados en Atarfe",
-    "updated": "2026-11-04T11:05:59.844+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ErLjCUljSLSsNfRW6APEDw%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71311000",
-      "71330000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=d6LaKdS%2BHsQo/i/U01g6T9iID5Ep5nTVfT8HEYNHPRERq8TZ74LHEbbWbVnjbP16WMj%2B6qPlEJWryOIFdOppmtSwNsx/X5KIspg4aj0WOHL6CYyL7SIrUOBFfNf52ZqA",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4tTUjAXi8RcClL6aKoq5tI2WjI3XVWAerfNs/%2BTpDM2HtIasUWBAWRFOrir766zJ/dtOQvsmQtlJScvVrot5NJMyR/QP5Pr7k2BkDGSlFpE//q7NB2iMZvNyf0xrJmjt",
-    "docs_adicionales": [],
-    "organo": "Alcaldía del Ayuntamiento de Atarfe",
-    "importe": "253305.79",
-    "importe_num": 253305.79,
-    "fecha_limite": "2026-12-11",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "1",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "505/2026",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Contrato de servicios técnicos necesarios para la redacción del Proyecto de Ejecución para la estabilización de vía pública mediante pantalla de contención de micropilotes en el acceso al núcleo de Bérchules (Granada), así como la Dirección de Obra y la Coordinación de Seguridad y Salud durante la ejecución de las obras",
-    "updated": "2026-11-04T07:00:00.440+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=85Zl2aL%2FjUqExvMJXBMHHQ%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71200000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ALuvrPOYScxg/cHqEtk9P6dbYwE1foALk85jgji7uvR%2BR6HJUp563fTg2FV5aXW/t1d56GMetiBNDBa%2B375mEubOiEVAumzvg9np8CV3j/WHAj0WEJrB5sP7amrh2jBD",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=dd3gUUzaTIIwdzdcyd2S0wH1Ew%2BuTMwcWpkLE%2BJAEiBo6YS6uOpidM%2BrUOcEQKHjVCpdWlJihzmCT9YeiCp1XoedWi6liHFRdER8DwqkxqEZyAJWGsSt0OzTSTyw9JAs",
-    "docs_adicionales": [
-      {
-        "nombre": "ANEXOS.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0WcyMKXLA1Em/UK5T2w1Ln%2Bt3xu6J6qy9Tz1b26HjiC6dk42h0Jrhwnsg7FawCVhD%2BzcptDentuw1uUGmTIydOxNN/4o1lT/T0iRwva8Mdz6CYyL7SIrUOBFfNf52ZqA"
-      },
-      {
-        "nombre": "InformeBerchules igme Copy.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=d6LaKdS%2BHsQo/i/U01g6T8frLf0/svEoUCPUYu7Wx0FiMzLs2jzgC72AHgTRo9TJzlsTlb01T%2BFgFx3vD8th%2Bet8AUCh18ZBj/po5gY3%2Bh0C1/zDIE0Kw/PWNnLS0Z0z"
-      },
-      {
-        "nombre": "INFORME GEOTECNICO DESLIZAMIENTO EN BERCHULES.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/Bh0vBsrm%2BX6Veml%2BnDnS57euRm1cWP%2BoQiqkRFjEGd8vi7fxAPGqFEopEsje2P7w0EAtUKf72NV3J2QzwyVxxLEPRzjWQSI9xSHOUVlPAYC1/zDIE0Kw/PWNnLS0Z0z"
-      }
-    ],
-    "organo": "Alcaldía del Ayuntamiento de Bérchules",
-    "importe": "37005.2",
-    "importe_num": 37005.2,
-    "fecha_limite": "2026-11-19",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",

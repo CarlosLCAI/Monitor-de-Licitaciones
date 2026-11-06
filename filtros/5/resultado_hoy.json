@@ -1,78 +1,67 @@
 [
   {
-    "folder_id": "38/SE/A/AL26",
+    "folder_id": "30/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicio de dirección facultativa, coordinación de seguridad y salud, consultoría, asistencia técnica y control de calidad para las obras de ejecución del proyecto de actuaciones en el frente litoral",
-    "updated": "2026-11-04T13:29:16.886+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=uw86G07iqH1LAIVZdUs8KA%3D%3D",
+    "titulo": "Servicio de cubas y gestión de residuos no peligrosos en las instalaciones del Palacio de Ferias y Congresos de Málaga (FYCMA): puesta a disposición y retirada de cubas y posterior gestión de los residuos en ellas depositados, conforme a las prescripciones técnicas definidas en el Pliego de Prescripciones Técnicas.",
+    "updated": "2026-11-05T16:47:14.767+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=I9CwIcBM55UIYE3ZiZ%2BxmQ%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "71356200",
-      "71351810",
-      "71317210",
-      "71356100",
-      "71313450",
-      "71520000",
-      "71541000",
-      "71310000",
-      "71356000"
+      "90513000",
+      "90511000",
+      "90512000",
+      "44613700"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=G1nPO2cjFUaf477WhWbTt3Sr7i8uBbOGGvh9iX%2Bz/IztN9yEeBEjFDEUF98R9IytTLX%2BZRGjOjNwLhPqCbvScY8%2BvOQtmFbrjZuHIsn/a0G1aXEvq3KHa/AEHgtDrQw0",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Y4/9/ZFRJrSPpCrCSAunVaNfjDvJiGqxVC3v9fJ5WRPj17Oxew43fw7Y9xd0VgZBqOMvSKee9Sh055Okf/bVqXygB6JMDIgC2WxUSxP3iulJOVDbGCDM%2BMigrvuVS7Rv",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=yEnyWBl1KCtq70%2BKmuWlXxSr8j6GOEttpDttYcK7hhgOfNQZrL3sWWbSAH0MNtDQPZNzFM3I0Z7wwUEVmXAopTrbyAt2dhsamJ/MNRh9F8r6CYyL7SIrUOBFfNf52ZqA",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Xnm6Bpt25R1sKtarcKIkYjUrk8wSpKhUHQhIeEzRGfCJTM7jIV3pazFJ/PpIqcXwnQLdG91phZ1WPzzRE3c%2B%2BQ5GPouVTZXqcydVKWlQ%2BHf3GVhXrFFqN7yFncy7YfRK",
     "docs_adicionales": [
       {
-        "nombre": "InfJust.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=xo/IYrX/prV2uY/63K7rZkGS99UpvApixNP2HmvE9w7bq7po2S9shE4ESDRT%2B77LKXwhxlBUSpLrcBi/SnjPnJJxAdvPJIcmAfnUxOEYE3CB0nvVKRzfe4rpHcnlPhSZ"
+        "nombre": "ANEXO VI CERTIFICADO DE CAUCION.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=3CwE4XxJnnYjqAE3vQmmM2EBHXdYhInCLFrVN7Iy4LobIVeozb3/zjl/H8zrpiTYeOzL%2Bvo81uDf130YKVJKPAtnx40Di31ejLae486IG7z6CYyL7SIrUOBFfNf52ZqA"
       },
       {
-        "nombre": "Anexos PCAP 38_SE_A_AL26.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9BjS7uDXLSu89aM5U/wRPvdEsvI%2BL9bsRn%2BDOkHxHBmtBSzkllikDxeBauqZQtjeS5N%2BDVU3OqnPGn9xvEISwp8x%2B4C%2BhEgizLIl%2BWSzrEiB0nvVKRzfe4rpHcnlPhSZ"
+        "nombre": "ANEXO X DOCUMENTACION CONFIDENCIAL.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=kz9zBmmcK3wk69XQVvVlrDG1fW7zFAXLNK/FtynDfTIwwJpIM43nvXgi6xu%2B5dK%2BmXeVZojbPkMvbhbAsUz1HfREpqcamGNA3WwnilZgOuTVTD3T98KC0nSgQFM0q%2B5s"
       },
       {
-        "nombre": "MesCont.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ezhjRWg4p6w0L2gIhuN%2BDcW%2ByNmRzzJRWNeU77J6CBLDk0lSpCtBrIvpuZZOdKI61/lKVuG8rUsQODY0aSfycXwnrEGDmDmqXLUv/6t8e%2Bv6CYyL7SIrUOBFfNf52ZqA"
+        "nombre": "ANEXO V AVAL.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=yniJP/%2BTlkwLSuAj3vWySFx/vLy4fEtV9c36aQiqfD78rCpmR2FrioAS9xnBLeyoYsjdjQ4tvZVMJzF4tS0sOJW7Yj8RccJtWXx9Bl4vmj33GVhXrFFqN7yFncy7YfRK"
       },
       {
-        "nombre": "CC.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=nFxHkQ2W0/Zgvk4kUo%2Bxp9SOQ%2BTvkLlFEwkEuUQYsr6lXO8KowMXyBKtYXNP/Rs8Qt2b9gOugc0mjI%2Bpm8Z5TGjWtv1x/TXoM9AQc%2BJii2bVTD3T98KC0nSgQFM0q%2B5s"
+        "nombre": "ANEXO III DECLARACION RESPONSABLE DISCAPACIDAD.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=MFJBLQGfZmohti12yUKomljGPSHp5E65eMZCP3wLbz0gEov8qtlTOyEOPhNiOFzlRYeyhMTiwggUJ92tALZlYJTljiR03CJ36UqKvkhM/VHfdyQgZAdTm3EfcUAC7CJ6"
       },
       {
-        "nombre": "OrdCont.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=z710TO183/BdbqxhaNwajbvuRzGepEFJvNEQJXkt3AW%2B452pe32jKQsREPucTSICTFPOQyRKGwL%2Bl9UhC96xOOIXsVV7XMcmU4/gnF4eOYGB0nvVKRzfe4rpHcnlPhSZ"
+        "nombre": "ANEXO II DECLARACION RESPONSABLE .pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=df1ARnpAR2uPPWJqKQX5GQg0p8tVCZaizJTOvEhcb3Zz3QyElTGl4GmmbS4wG2/ohM06PEjxTxlBqp2TBYDQEbOFyT7Mx8WVBaTvK8ChQFV7QB3HKyQaFUExmUVQCerk"
+      },
+      {
+        "nombre": "ANEXO VIII COMUNICACION DE SUBCONTRATACION.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wFsGK6/vZiSPMHaJGoNBQE9WhTuQes%2BhWQkYg3ZfjxEZXg5%2BbLwAXphml1CnFy2gAN91m4EfW411RrKjndfy3KHSWhjwEabPQbykwkVTww3fdyQgZAdTm3EfcUAC7CJ6"
+      },
+      {
+        "nombre": "ANEXO VII RELACION DE MEDIOS ADSCRITOS.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wwNH/t8RIWTyO7F1IunDc5MpCrC3ihzWrFPVVMf3n1/ZZ8Lf2qxn7t4X7mlltYZSONHs2kTaFTFFT7avjOiAPqtVAPfOyrjuMpIN9jYfcQ/3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "ANEXO IX DECLARACION RESPONSABLE UBICACION SERVIDORES .pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=TWPeOxRT5zyNfhbM%2BQkeFCopZRGMkYYQd/IUWuMaUODnKKtnNmmP4A0M9y1gqyhB6A6rjNmFRPihJd4igWYAdUnVHdX05V7zHOovO0CsEYx7QB3HKyQaFUExmUVQCerk"
+      },
+      {
+        "nombre": "30 2026 ANEXO IV OFERTA ECONOMICA.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=TeATtvsRX26jUiAlNnH4YNOv4oqurKdbocJZhm8MSEbNnJzNBWrSh1d9V8Amva8a3pq6%2BEM9JI3WAqQdVjNYZmiims1JnqzfN5nBn3tof/57QB3HKyQaFUExmUVQCerk"
+      },
+      {
+        "nombre": "ANEXO I CUADRO RESUMEN CONTRATO 1.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=DOAMsRsBbAnz519lAV2tWdJMoz%2BbN1mFbwB7w1s%2BNiSu3b6h2fAVBJyIdBgaRob%2BrjdKFc1D%2BMRynywsKWtm4mIRb%2BUp1p9wAkttvMCipbfVTD3T98KC0nSgQFM0q%2B5s"
       }
     ],
-    "organo": "Presidencia de la Autoridad Portuaria de Almería",
-    "importe": "664243.45",
-    "importe_num": 664243.45,
-    "fecha_limite": "2026-12-03",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "1",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "153/2026",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Servicio de explotación de la Estación Depuradora de Aguas Residuales (EDAR) y Estación de Bombeo de Aguas Residuales (EBAR) de Fuerte del Rey.",
-    "updated": "2026-11-04T12:49:39.229+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Tu827zcoOOOHCIsjvJ3rhQ%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "90481000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=sFblu4/Rhpjk6IMz3opKHQsX8sYpF8fq9lB0BRMMgIuHKRXGBxS2en7MeL5nbYtWZGfe0XKl3RYgYDRGV4IrEmMxJCZ1Xgjdwkn5B/HMVzV7QB3HKyQaFUExmUVQCerk",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=RBNySezTPzFCEWQw/Wxlk0%2B2VKatsUwKVXWuYfkCyLZJzFv/tbP4af3a6s09C8kcCa2QPDw25JBT7AWv5SBkJ59zqAGhNQkR5FwUmRJGPxe1aXEvq3KHa/AEHgtDrQw0",
-    "docs_adicionales": [],
-    "organo": "Alcaldía del Ayuntamiento de Fuerte del Rey",
-    "importe": "114120",
-    "importe_num": 114120.0,
-    "fecha_limite": "2026-11-19",
+    "organo": "Dirección General del Palacio de Ferias y Congresos de Málaga",
+    "importe": "51940",
+    "importe_num": 51940.0,
+    "fecha_limite": "2026-11-20",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -81,138 +70,70 @@
     "fuente": "perfiles"
   },
   {
-    "folder_id": "587/2025",
+    "folder_id": "20216/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Recogida selectiva de papel y cartón",
-    "updated": "2026-11-04T12:27:40.356+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=IGuAF9ZKapf5Rey58Yagpg%3D%3D",
+    "titulo": "Implantación de un Nodo de Infraestructura de Datos Espaciales y Sistema De Información Geográfica Municipal, Programa de Ayuda a Inversiones PAI Torremolinos, Transformando El Paraíso, Cofinanciado por la Unión Europea Fondo Europeo de Desarrollo Regional FEDER  En el Marco del Programa operativo Plurirregional de Espana POPE 2021-2027",
+    "updated": "2026-11-05T14:06:56.791+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=avtCYhvUpT8eIBJRHQiPkQ%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "90511400"
+      "72212326",
+      "72310000",
+      "71356300",
+      "71700000",
+      "71354100",
+      "71240000",
+      "72212326",
+      "72310000",
+      "72250000",
+      "71356300",
+      "71700000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=fz16SdZtYh43KVnbAUgVswZCDUmJx12zhr7%2BH6gk49FWwisJ1ufIyVLX/7e8ZVabsnIdEjIknDd29snUDVs%2B/r%2BMi3CnsIWYW812mW%2B08QT6CYyL7SIrUOBFfNf52ZqA",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9u3B3tW8Ps1YhLND%2BzQ370Jpg6PxEKkUP/4pjhcaBiAYv2ugFCnwmqn/TL4FHDWcHOd4wIDcav%2BDFG3s9qvxxZbILPtsZ6HK7PM/h7Bxk/f3GVhXrFFqN7yFncy7YfRK",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Yy0n9HHsmR38Q3tpa6PD6OzJ6HG4DcXt8x42BX/peB2EHfGLA/fZVq6WT6IfiU43WITuELNyopeKMxc6eyfcYlq0FY7Y36ElO8M5AD9MYvq1aXEvq3KHa/AEHgtDrQw0",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=GcQGv10t9hqheTbPdLUg4X3tUE0QrK65Jf4dHaUYFTU8%2BEtZPvCVRIjbe6V84%2BXY8156e/lKZ0l9KvFHs8xLurnfb2Eqyxo5GVrj1Z45LWb6CYyL7SIrUOBFfNf52ZqA",
     "docs_adicionales": [
-      {
-        "nombre": "ANEXO II CARTON.doc",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=jFCK5IRTO%2BjrtZ%2B48BeQN7MNd22ZON6zaytj0TXnC0NbMAggtl/wTqkHntw%2B39P6z6KL7h3NeI1PtZL/wMTbmKWqn4pwMEdk%2BId6UC4CcYF45ClyWkoJ44mKM70IFcOu"
-      },
-      {
-        "nombre": "ANEXO III CARTON.doc",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=7Oi8V2CyqS/3C7Tc3ylOdF62g5y0XvIO41UHbOn9V8l9Bv5WqWB0TabdFRtW6joUDYVaf3mN9rQKFv1KYHJl4CXEo6X0VOqCVI6BXRD5TVK1aXEvq3KHa/AEHgtDrQw0"
-      },
-      {
-        "nombre": "ANEXO IV CARTON.doc",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=5BQu%2BZiwyG5p0kysnFmZskWAqoAM7sK%2BY9%2Bv6npio3KN5ktQZNcEm6qiSq%2Bs6wmdlRcgNEpa48CqXjBA6l6Vvz4ZZAxo%2BDzzJXz5rkt/aHxJOVDbGCDM%2BMigrvuVS7Rv"
-      },
-      {
-        "nombre": "ANEXO I CARTON.doc",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=tEhLJMeMJj2H0KSOUfXbXGmmETAwueEBwH%2BBwPs3iicP9sV%2B1uqQ7j9oaslakK7eIcMx4GoUbSgkxWqNCp0OjW92Uoyz%2B1vnhtFKZN0z4uR7QB3HKyQaFUExmUVQCerk"
-      },
       {
         "nombre": "DEUC.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YlyX0f%2BDlMFO7EOLvnMKghdReagbR1qWVTy45aTB6qeZjicHtJGY2eZOyV/e/0PagImqTnWvRs9YNcSW6saerzbo6EP4RBDGi3SGaW%2By7Fu1aXEvq3KHa/AEHgtDrQw0"
-      }
-    ],
-    "organo": "Junta de Gobierno Local del Ayuntamiento de Caniles",
-    "importe": "2100",
-    "importe_num": 9240.0,
-    "fecha_limite": "2026-11-18",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "9",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "AGP-158/2026",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Servicio De Retirada Y Gestión De Residuos Peligrosos. Aeropuerto De Málaga-Costa Del Sol",
-    "updated": "2026-11-04T11:06:01.133+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=I%2F%2F%2BgL67F41%2BF6L2uCfUWg%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "90520000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QtIdRQmJeZszo4XWd4GlSWkGsN6VNKEzT4T1ZWtvR78UzJ6TIMA8o7xl76LsHuGyU%2BdlzhkZxJOL3Cwvx1LCt2hcmbIm7gtYeGC3Y1YqsFR45ClyWkoJ44mKM70IFcOu",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=l6O3eUyawHooRh3IrR9dCGyMT4DoJuiQ%2BWBoMhKBS0Xa6zLMM9DQeM36G5AfgCjaNhHON1%2BSH2dF3iSDRqLn3iuQQyOe7nlYnFVbAKMjRMQ//q7NB2iMZvNyf0xrJmjt",
-    "docs_adicionales": [
-      {
-        "nombre": "DEUC MODELO FORMULARIO 158 26.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=om5mfJ0MKlrA3ONmYu5%2BypzLCp6bkRenJwG8ruofVj7qGBHhdLczfl234ymb%2BqMIuXjYJZrDbVEicQvwBaqrs2DgAvDpAUMUvE5OA0ZYgBXDdQD9RyhUmzT4jZ2In4zL"
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=3oBIVtCqUJQK1C3Rpt5ldenbVK%2Bzbr6nR5duajYx/RFPr0jfkgKXCMfmLSNVzkAt/tYFQDruNjqaF1iUEtZtG9y5sTm4DEuS9p9jCjCPN1OB0nvVKRzfe4rpHcnlPhSZ"
       },
       {
-        "nombre": "Memoria Justificativa de Inicio de Expediente.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=3Kt9I/hBswXYxFI3KMZBsRi5fjfw4wwcGSXGoo5yH48kJINFkaBw4h9hSHi70d6X/gt21nnXubBOy3iFLxoeymqHycWkgftQD9BLuugP93uHAj0WEJrB5sP7amrh2jBD"
+        "nombre": "Modelo Declaracion Responsable con declaracion PYME.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=tDkI/YCyv1emfq6YE1WZ52u/YraXrOVka7nKdBrtIDdYJIPwEDZSCviC3s9N0CWkVhN9BpA3UjE42Xh5DVG/DXQ97xwG9owwRDqJwszZLAA//q7NB2iMZvNyf0xrJmjt"
       }
     ],
-    "organo": "Aena. Dirección del Aeropuerto de Málaga-Costa del Sol",
-    "importe": "44700",
-    "importe_num": 59600.0,
-    "fecha_limite": "2026-11-12",
+    "organo": "Concejalía Delegada en Materia de Contratación del Ayuntamiento de Torremolinos",
+    "importe": "293400",
+    "importe_num": 293400.0,
+    "fecha_limite": "2026-12-02",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
-    "procedimiento": "9",
+    "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles"
   },
   {
-    "folder_id": "8041/2026",
+    "folder_id": "V-09/26-11",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicio de redacción de Anteproyecto, Informe Geotécnico, Proyecto Básico, de Ejecución y Estudio de Seguridad y Salud para la prolongación del Barranco del Canalillo hasta el río Genil y de dos Parques Inundables asociados en Atarfe",
-    "updated": "2026-11-04T11:05:59.844+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ErLjCUljSLSsNfRW6APEDw%3D%3D",
+    "titulo": "Servicio de dirección, control y vigilancia de las obras correspondientes al Proyecto 06/26 de restauración de fachada del edificio de oficinas centrales de la MCT (MU/CARTAGENA).",
+    "updated": "2026-11-05T13:12:34.874+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=83bh79ZQn0dVYjgxA4nMUw%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "71311000",
-      "71330000"
+      "71200000",
+      "71500000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=d6LaKdS%2BHsQo/i/U01g6T9iID5Ep5nTVfT8HEYNHPRERq8TZ74LHEbbWbVnjbP16WMj%2B6qPlEJWryOIFdOppmtSwNsx/X5KIspg4aj0WOHL6CYyL7SIrUOBFfNf52ZqA",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4tTUjAXi8RcClL6aKoq5tI2WjI3XVWAerfNs/%2BTpDM2HtIasUWBAWRFOrir766zJ/dtOQvsmQtlJScvVrot5NJMyR/QP5Pr7k2BkDGSlFpE//q7NB2iMZvNyf0xrJmjt",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=7JSnxwSzgtLVZOhw5cN0SoqZXZchpwa1vWCHhhwlPjz0oV2weFX%2B8WadTqzWkZ21cao/artdaw/Wxev3JgyX1PRyR71KS7Jay9qRRsdhaZIZyAJWGsSt0OzTSTyw9JAs",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=K2vZNmYnuQFNqD7SPIOrdqTdndJSNQzzkU2QiLCU6pCvwVL/WGdCbHxW/buzuP6YoVXPR7M3MqAhblMRa%2Bk0Kdj%2Bh6wFk9yqpLVUWSNC9FoC1/zDIE0Kw/PWNnLS0Z0z",
     "docs_adicionales": [],
-    "organo": "Alcaldía del Ayuntamiento de Atarfe",
-    "importe": "253305.79",
-    "importe_num": 253305.79,
-    "fecha_limite": "2026-12-11",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "1",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "CSE/1100/1101233553/26/PASU",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Servicio de auditorías y verificaciones ambientales externas en el Hospital Clínico Universitario Virgen de la Arrixaca",
-    "updated": "2026-11-04T10:23:56.683+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=T7r3AJqsn6tJ8Trn0ZPzLw%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "90714000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=xWv/BbZSBkUuFKl1WkHyfD0jgUUfoE9IC528HbDiB69zLiAjzZ4dfoSmw8YOd9/yK44PGybL9Q8fdz7fSK0lwD4TlDmsl8EoUTr3Y195DsL3GVhXrFFqN7yFncy7YfRK",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=OgLcxuDP/hyrLxsq0ut1HDNwGeM4NM%2BoGNtvQYnSu27B8NH0INkWNaKKGX0DKxtOAe80%2BHhJCgPOHT9i8%2BjUEXfG2SjZqnd26vnRo%2B7mxeGHAj0WEJrB5sP7amrh2jBD",
-    "docs_adicionales": [
-      {
-        "nombre": "DOCUMENTACION_ADICIONAL.zip",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=FhzpyLPaa2UoT45%2Bl03Pbya7b3zx/i5CBpnaJ3At5zqA810uGy2nLYK0fg3KOvMLUNBudeuWhfWXpHsydEW5C2dahjwJBUy4qJwY0il1vUeB0nvVKRzfe4rpHcnlPhSZ"
-      }
-    ],
-    "organo": "Servicio Murciano de Salud - Gerencia",
-    "importe": "9702.18",
-    "importe_num": 9702.18,
-    "fecha_limite": "2026-11-18",
+    "organo": "Comité Ejecutivo de la Mancomunidad de los Canales del Taibilla",
+    "importe": "35460.68",
+    "importe_num": 39006.75,
+    "fecha_limite": "2026-11-23",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -221,135 +142,135 @@
     "fuente": "perfiles"
   },
   {
-    "folder_id": "2026/SSV/000983",
+    "folder_id": "16026/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicio de compactadora para la gestión de residuos en el Cementerio de San Fernando de Sevilla (2027)",
-    "updated": "2026-11-04T10:14:14.064+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=9wD6Y6weTqB70UvEyYJSGw%3D%3D",
+    "titulo": "API04. Control de uso público e información ambiental en el LIC Calnegre",
+    "updated": "2026-11-05T13:07:02.093+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7i05WZKhDU59PLkba5eRog%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "90500000",
-      "90511000"
+      "90721000",
+      "79710000",
+      "79714000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=OtPL184BcqmFBLypCXIgUcqWPV8SlKYuYxyU0BRsi0cJOC43ZsI%2B2Wu4WlvY%2BVRHUXPK4mixVqZNdo9azvLjplQfgSKntVUjm07lgtqsZZ/fdyQgZAdTm3EfcUAC7CJ6",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/fwnC9iZmVm2l/1fdM/2mgfQZT1AbTsaMe5VB4evCOK43EHiYlboM45me%2Bz/UK4PWPejBN3MFfGePAJfW3DG6ycOSqMR1vt%2BFZrRu2VZrEu1aXEvq3KHa/AEHgtDrQw0",
-    "docs_adicionales": [
-      {
-        "nombre": "05 Anexo PCAP.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=fLZI/ysBkwyCZm4jFRLShasO0aKFLueP8amDWJH1q/t9nqFrTlDnB/xM8lDrAOGXL5lWxTHVFxhIcPDghDddYiDXvx83OUwbhNP1HiG5OqnVTD3T98KC0nSgQFM0q%2B5s"
-      },
-      {
-        "nombre": "Anexos III.odt",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=OlIJg8x3zbvZHM/Awwi8MolEtODyWpFZXWBXQSQHF9Kzoq715yCmv3Z%2BCv3fOKYgen2KKxhzrMfdYqXt1kECN9mkr5o7p7F0g8SQWHFqq1GCx2e6p7hqtlp2aFupgHMr"
-      },
-      {
-        "nombre": "Anexo II.odt",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9ebvb88Vs9DxvHh9Zz/N%2B1zf/vkBh1y4fch/0%2BqqBVU/ry12l8tGk5MtzDsz9rWiPnTQ4TMqTN9StuYImAFCczetj9uo2QL5NKdmdL5K/jCB0nvVKRzfe4rpHcnlPhSZ"
-      }
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Vr%2BsIBW4xpoYrx8yCEJwTz2z5IiyurHMw3e8cS3829qhtU0XHIFqz%2BZ5r08WtjvEUv9XqJc%2BgcypSH3/%2BdMgohw3zPFEvwGS6MUVYlag6eXDdQD9RyhUmzT4jZ2In4zL",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=3Cp2pGmQh58J59JE7NU53%2BMG9FGplijgIODOarfCKK9DUVCb4MV/tlMjyAIiwM//M/nVm%2BbDRA1MTzuez/GeCFFbWJNg1xTR1k6I/vHMZV17QB3HKyQaFUExmUVQCerk",
+    "docs_adicionales": [],
+    "organo": "Consejería de Medio Ambiente, Industria, Universidades, Investigación y Mar Menor de la Región de Murcia",
+    "importe": "255106.48",
+    "importe_num": 280617.13,
+    "fecha_limite": "2026-12-09",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "2026_0165",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de recogida de restos de podas agrícolas para pequeños agricultores de la huerta de Murcia",
+    "updated": "2026-11-05T11:21:44.677+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=m4pPNWlGoWM%2FbjW6njtWLw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "90513000"
     ],
-    "organo": "Órganos Directivos del Ayuntamiento de Sevilla",
-    "importe": "28925.62",
-    "importe_num": 28925.62,
-    "fecha_limite": "2026-11-18",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0m/hW9TL4UkBLbn9D%2BEFiEzxyvEYh1r9TZN5VDa4LTKQhnqld1O1rzKEKrZz1Rcjvbvl7qoQUJGZzMfknKB87HqIQPrUjNokId8rPYfosyqCx2e6p7hqtlp2aFupgHMr",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=A1kdOvi1yWC5oNdDjDjU8CLPmVnthYAs8IWlygbVC5qSBUnVJGVI2e00oR6%2BfdRKG5drRItxzl2rVclxtklmlluxUX/jF1niuXsM480IgQCB0nvVKRzfe4rpHcnlPhSZ",
+    "docs_adicionales": [],
+    "organo": "Junta de Gobierno del Ayuntamiento de Murcia",
+    "importe": "598701.75",
+    "importe_num": 997836.25,
+    "fecha_limite": "2026-12-04",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "P4102800B-2026/000146-PEA",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de limpieza viaria y espacios públicos, del Centro educativo ¿CEIP MONTELIRIO¿ y limpieza y mantenimiento de Parques, jardines y zonas veres del municipio de Castilleja de Guzmán.",
+    "updated": "2026-11-05T09:57:09.276+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=EtnMsingap8UqXM96WStVA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "90910000",
+      "90690000",
+      "90670000",
+      "77311000",
+      "90511000",
+      "90512000",
+      "90641000",
+      "90610000",
+      "77311000",
+      "90512000",
+      "90641000",
+      "90690000",
+      "90511000",
+      "90670000",
+      "90910000",
+      "90911200",
+      "77311000",
+      "90690000",
+      "90641000",
+      "90670000",
+      "90511000",
+      "77313000",
+      "90610000",
+      "90512000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=kRWzoev%2BqgDvhvc4t0S0NYRS74aY1a0n2%2ByUu1dGK3DkeubLDn3UmmD2fIMB9KQVTcMmoossA2r4zw7oIoHtWNVsQVRWn2uZdG4OSFi26yAZyAJWGsSt0OzTSTyw9JAs",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=7LeRWPlmmYxp0CUpKyRZusTrreA3YnRnS%2Bfctf6RX1Kl8jzKBOxHofxVPKAqTZCQNnjks6tP8Vapd3LGx9TYQDTZMTtgaQl8wI3qU6kyX7ht/o8fNevwsujgRzaBbugn",
+    "docs_adicionales": [],
+    "organo": "Alcaldía del Ayuntamiento de Castilleja de Guzmán",
+    "importe": "776628.09",
+    "importe_num": 776628.09,
+    "fecha_limite": "2026-12-14",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "83/26",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de servicio de dirección de obras y\r\ncoordinación de seguridad y salud en la fase de ejecución incluido las funciones de responsable del\r\ncontrato  por lotes Lote 1 rehabilitación y ampliación de chalet del Inglés Lote 2 reparación de\r\naceras y accesibilidad en Los Barrios Lote 3 nuevas instalaciones náuticoeportivas en el estuario\r\ndel Río Palmones",
+    "updated": "2026-11-05T09:50:14.930+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=OYJfbmNolD836J9Lctlsuw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000",
+      "71240000",
+      "71240000",
+      "71240000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=bPM4vA0D7NBN9V5mIq9dndiFGm9RhwXffUksKlRrKvTeXUqTY6P3fSl3uUDSqTh/cg5kPcmLRV7MsD1PJ0r2Mr5QuxgtfnituaFn93Vr3iU//q7NB2iMZvNyf0xrJmjt",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=cPI/uysNBTUb7%2B7SXGqMweU7OdAV7tVHaVZFPHv71Ozni89a/JMWHtLg%2Bmke2OdxvXKda4GFyvr6qRZ24Y2KJyrEZHMQ75KeH7dwwUav0LI//q7NB2iMZvNyf0xrJmjt",
+    "docs_adicionales": [],
+    "organo": "Alcaldía del Ayuntamiento de Los Barrios (Cádiz)",
+    "importe": "111000",
+    "importe_num": 111000.0,
+    "fecha_limite": "2026-11-20",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles"
-  },
-  {
-    "folder_id": "208/2026",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Servicio de recogida, transporte, tratamiento y valorización de lodos deshidratados producido en las Estaciones Depuradores de Agua Residuales (EDAR) que opera y mantiene el Consorcio Provincial del Agua de Málaga\r\n",
-    "updated": "2026-11-04T09:20:45.823+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=IvXNGYxj0YMXhk1FZxEyvw%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "90513800",
-      "90513600",
-      "90513700"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=lymbYNaLILWqqxr%2BBcqBue9X9gzdPK9uDbUr6DqIb9qEwfJ9cisRFBb/sWZzB/BUZv7T8CkY7/eSouHTSzYtnz1MbBQTmmUfarcn3oxHskBJOVDbGCDM%2BMigrvuVS7Rv",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=OiR%2B6GeUQp%2BrlkpTH/SB5ieWVrCdzvrBKMUTVTQqS9geJ9TfhpAWkGzVDlk/cWmalPBT3DX9KeYpD4rwujgxavbo/7L6HDWSc/B3c9lsJzKB0nvVKRzfe4rpHcnlPhSZ",
-    "docs_adicionales": [
-      {
-        "nombre": "20261104_Informe_Rectificacion_PPTP_208_2026.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=o/QaVMI52Ol7JIzcwhRahcoQ3Scttz3qhoFLX1Q8WTRkWv5JMtvE5kE0senptOu6aZxzG2pnPVA7ujKMvdtKiIHap66XX1PoLTXU0VgwyFKHAj0WEJrB5sP7amrh2jBD"
-      }
-    ],
-    "organo": "Presidencia del Consorcio Provincial del Agua de Málaga",
-    "importe": "597509.2",
-    "importe_num": 985890.18,
-    "fecha_limite": "2026-11-18",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "1",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "CONTR 2026 0000028355",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "desarrollo de una plataforma innov.de análisis integ. datos espaciales",
-    "updated": "2026-11-03T11:42:07.000+01:00",
-    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1035706",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "72240000",
-      "72300000",
-      "72210000",
-      "72322000",
-      "90714100",
-      "72320000",
-      "72310000",
-      "72230000",
-      "72220000",
-      "72200000",
-      "38221000"
-    ],
-    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/439988",
-    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/439986",
-    "docs_adicionales": [
-      {
-        "nombre": "Acuerdo de iniciación del expediente de contratación por el órgano de contratación.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/439996"
-      },
-      {
-        "nombre": "Memoria justificativa de la contratación.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/439997"
-      },
-      {
-        "nombre": "DEUC 2026 28355.XML",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/440443"
-      },
-      {
-        "nombre": "Instrucciones SiREC.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/440441"
-      },
-      {
-        "nombre": "Instrucciones DEUC.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/440442"
-      }
-    ],
-    "organo": "Consejería de Sostenibilidad y Medio Ambiente. Secretaría General de Medio Ambiente y Cambio Climático (En Transición)",
-    "importe": "6411570.19",
-    "importe_num": 7693884.23,
-    "fecha_limite": "2026-12-11",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "1",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "agregadas",
-    "descripcion": "DESARROLLO DE UNA PLATAFORMA INNOVADORA DE ANÁLISIS INTEGRADO DE DATOS ESPACIALES DE ANDALUCÍA",
-    "junta_consultado": "2026-11-05"
   }
 ]
