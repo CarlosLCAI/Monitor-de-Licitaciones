@@ -1034,6 +1034,12 @@ def get_next_link(root):
     next_el = root.find('atom:link[@rel="next"]', NS)
     return next_el.get('href') if next_el is not None else None
     
+# Aviso diario a Teams con el resumen de cada lectura. Desactivado desde el 6/11/2026 (se ven los
+# resultados en el visor). Los avisos de FALLO (notificar_fallo_teams) siguen activos. Para volver a
+# recibir el resumen, poner True.
+NOTIFICAR_RESUMEN_TEAMS = False
+
+
 def notificar_teams(resultados, paginas, total_entries, nombre_filtro="Monitor"):
     webhook_url = os.environ.get("TEAMS_WEBHOOK_URL")
     if not webhook_url:
@@ -1353,7 +1359,8 @@ def main():
         with open(archivo_historico, "w", encoding="utf-8") as f:
             json.dump(historico, f, ensure_ascii=False, indent=2)
 
-        notificar_teams(resultados, pagina, total_entries_leidas, nombre_filtro)
+        if NOTIFICAR_RESUMEN_TEAMS:
+            notificar_teams(resultados, pagina, total_entries_leidas, nombre_filtro)
         resultados_por_filtro[desc["id"]] = resultados
 
     return resultados_por_filtro
