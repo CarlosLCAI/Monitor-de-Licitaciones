@@ -900,7 +900,7 @@
     ],
     "organo": "Alcaldía del Ajuntament de Calp",
     "importe": "50000",
-    "importe_num": 50000.0,
+    "importe_num": 50000,
     "fecha_limite": "2026-11-11",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -913,6 +913,9 @@
       "informe": "No se pudo descargar el PCAP.",
       "fecha_analisis": "2026-11-06T12:22:07.323956+00:00",
       "solicitada_por": "CarlosLCAI"
-    }
+    },
+    "descartado": true,
+    "descartado_fecha": "2026-11-06T12:26:28.257Z",
+    "descartado_por": "Belén Fernández"
   }
 ]
