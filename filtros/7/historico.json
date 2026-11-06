@@ -584,8 +584,8 @@
   },
   {
     "folder_id": "26449 PROYECTO AQUILLA DEL AGUA",
-    "estado": "PUB",
-    "resultado": null,
+    "estado": "RES",
+    "resultado": "desistida",
     "titulo": "Servicios para la redacción del proyecto de construcción del parque de Arquilla del Agua. está cofinanciado por la Unión Europea a través del fondo europeo de desarrollo regional (feder) en el marco del programa operativo plurirregional de España (2021-2027) V2\"",
     "updated": "2026-10-08T13:16:46.326+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=fVAuco2eg61PpzdqOdhuWg%3D%3D",
@@ -629,7 +629,10 @@
     "presentado_por": "CarlosLCAI",
     "revisado_humano": true,
     "revisado_fecha": "2026-10-28T12:27:00.083Z",
-    "revisado_por": "CarlosLCAI"
+    "revisado_por": "CarlosLCAI",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-06",
+    "estado_updated": "2026-11-06T10:08:26.549+01:00"
   },
   {
     "folder_id": "86-26",
@@ -2348,7 +2351,7 @@
   },
   {
     "folder_id": "8223/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Redacción del proyecto de ejecución a partir de proyecto básico, redacción de estudio de seguridad y salud, proyectos de instalaciones y de actividad y ejecución de obras para la construcción de edificio destinado a biblioteca pública municipal y salas de usos múltiples (primera fase).",
     "updated": "2026-10-21T09:32:52.653+02:00",
@@ -2404,7 +2407,10 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-10-21"
+    "fecha_captura": "2026-10-21",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-06",
+    "estado_updated": "2026-11-06T10:28:04.014+01:00"
   },
   {
     "folder_id": "3008/2026",
@@ -3864,8 +3870,8 @@
   },
   {
     "folder_id": "1/2026",
-    "estado": "EV",
-    "resultado": null,
+    "estado": "ADJ",
+    "resultado": "adjudicada",
     "titulo": "Servicios de Actualización del Proyecto de Urbanización, Dirección Facultativa y Coordinador de Seguridad y Salud, así como seguimiento y asesoramiento técnico durante el proceso de licitación de las obras de Urbanización del ámbito del Sector SUP-O1 EL RODEO del PGOU de Estepona.",
     "updated": "2026-10-29T14:22:21.451+01:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lO21u2TbovJLAIVZdUs8KA%3D%3D",
@@ -3903,7 +3909,7 @@
     "organo": "Junta de Compensación Sector Sup-01 El Rodeo",
     "importe": "254930",
     "importe_num": 254930,
-    "fecha_limite": "2026-10-23",
+    "fecha_limite": "2026-10-19",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -3911,11 +3917,11 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-29",
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-11-05",
-    "fecha_limite_anterior": "2026-10-29",
+    "estado_anterior": "EV",
+    "estado_cambiado_el": "2026-11-06",
+    "fecha_limite_anterior": "2026-10-23",
     "fecha_limite_cambiada_el": "2026-11-06",
-    "estado_updated": "2026-11-05T11:58:05.086+01:00"
+    "estado_updated": "2026-11-06T15:36:36.290+01:00"
   },
   {
     "folder_id": "SE 34/2026",
@@ -4135,46 +4141,30 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/IHwvzevUfMsv5fWfDjAe82Suhgb72HQwvRz0AHiWmtmYlRns/dAe0ImWPHCYrLAPz9U/AZa92RzJl2NRaUkuudLKSci1beATMWEUWwhE5OHAj0WEJrB5sP7amrh2jBD",
     "docs_adicionales": [
       {
-        "nombre": "ANEXO VI .docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4uA%2BTi5tgElNZE1Us2mjFXBkGJLRRGPvnzrL%2BsNXiGO8Ry99EGKtv1GboXP8Q%2BGvK2ulOVeXfbQdc68DqU7VbgC0ZM%2Bj0%2Bz19CJRUwKebz%2BB0nvVKRzfe4rpHcnlPhSZ"
+        "nombre": "ANEXO I.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=aQrwLl7fYwnUaQtREc0Y0hr7S6rfjyjdXOIN9%2BhQPhQtjJAK9wWRNt9LDIN6tdm81JYvZAg%2B0/MjtfoRfY6b0AYs4mIuTRUYSB6vn/HILzGCx2e6p7hqtlp2aFupgHMr"
       },
       {
-        "nombre": "ANEXO III Grupo empresas.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=WfmVd5mG1pLJfPe5w3LkP7eoULSTy%2Bm6y/A7AbWl6tHmXFDlfSkepwCL2NRrB5PPGbMV4EAsQvy5QoLwDbUokuU801R%2Bar9lYV79IKZdDD3VTD3T98KC0nSgQFM0q%2B5s"
+        "nombre": "DEUC VEHICULOS.zip",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=t53ldj14wJMkZR05uL4uYl3ZgV6mhSluqs/7Lj9%2B9iGsSXSiSTREVBFIyLa9YBIbKTP455aXruV7qoW4srfJbcO%2BepH3yP7JA6H4RgqeTfT3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "ANEXO VI Medios externos.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4bWqnRyBKbYzQCQUTjUr7kAktwICck4vVnP4r3HyXiX%2B7dUsj7IfcbZmU9e9oHUhBGHP%2B6y/G/n4HcQnMgyTyNiQWSQeiXIH/dT97FDM/D76CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "ANEXO III UTE.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YotRaQh5mWZDVg7WK%2B/qgcBOx5lqxQqj%2BMBreUf0DWNQoIbjugjMbMWvKCo7ROETmhhTWYkKKPrFMsLSzSQ0CAFYZFUCiNlUvzWjsjfdKGF7QB3HKyQaFUExmUVQCerk"
       },
       {
         "nombre": "ANEXO IV Empresas extranjeras.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=k4QW8lqBZqPhd7igVBLTM1CA8/r%2BxWdBwrmuv6t5RApfiJJHMrIkyA2vXopDLiIvFnC4iJVBu2N6GavpV80EhAlZYuaKDSg5s/uzydLlbRIZyAJWGsSt0OzTSTyw9JAs"
-      },
-      {
-        "nombre": "ANEXO I Declaracion responsable.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=UA/pKd8cPL89ZoU7j25qfMlLH5UE4%2BidCSndNEAtyxTjIaB/3AogbZHnnXYOPGe34URn%2BrekjONOmjPuq9lC79KXp/pN/vTg5N3wvFsqrXRJOVDbGCDM%2BMigrvuVS7Rv"
-      },
-      {
-        "nombre": "ANEXO V Pymes.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Dg1QrP8VtyF76ndnASg5vSD1BGu3dWJAMevtpiF/yHZEk%2BThLZG%2BO/KHJqtYL0i1uzWgjnQeahPiCfHh/StuueAJsvUve1yO0/stD7GFgDTVTD3T98KC0nSgQFM0q%2B5s"
-      },
-      {
-        "nombre": "ANEXO II UTE.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=e28TvLa8TNRGxiTwGnXMbTGe7m7bzvetk%2BTwjkRYKks3nJQmrjq6iz%2Bbi8HByoXF6m8xHPOiYm9ldff1g/4b4CBZuHvKeWfAAiHIXon5p28ZyAJWGsSt0OzTSTyw9JAs"
-      },
-      {
-        "nombre": "Estudio residuos.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=vMC0lxMqmFIYYyHE9B5%2B/BtSohp/AGOcqWcfHPPSNbOZHoV%2BOsZGfe0Sncnh8ktZqXGRUaElOuF9V6q3WWsAi3fqgTa98B1/rn3xqFB3V8Rt/o8fNevwsujgRzaBbugn"
-      },
-      {
-        "nombre": "EBSS.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=I3%2BGhJCregsbaSVyJ6oYigNYCdoTKPgJdx7Hls9/0qJN48bU%2Bk3P5e4RZ8lm8i/1UjNBB459GvCgtuQHfFttryJEmyts0lmsImVGxNSaI6g//q7NB2iMZvNyf0xrJmjt"
-      },
-      {
-        "nombre": "Memoria_Proyecto_Automatizacion_Piscina_Cubierta_Rev1_Fdo.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=lMExIRdlbKAsRLe/HnfLpd4k2ehDVjS0DAdW7FhRjbWu9seqB6DUTtbC4ka284N3o9onf1xjmBx4O1yIg0D0WqW%2BrbM9%2B%2B1o96zGSh3wbLRt/o8fNevwsujgRzaBbugn"
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=qQolW3mJ/bfDsOrjIqmM1SegW4NXNk4xWKNx2dBi%2BrlHfpLEq144jYxdPpeSu%2B8eoJfW4P/ejXmyRRoMwVkNj8IdF76ZH%2BhAYqKWACEWbvqB0nvVKRzfe4rpHcnlPhSZ"
       }
     ],
     "organo": "Asamblea General del Consorcio Sierra Nevada Vega Sur",
     "importe": "0",
     "importe_num": 600000,
-    "fecha_limite": "2026-09-10",
+    "fecha_limite": "2026-09-30",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "2",
@@ -4184,8 +4174,8 @@
     "fecha_captura": "2026-10-30",
     "estado_anterior": "EV",
     "estado_cambiado_el": "2026-11-06",
-    "estado_updated": "2026-11-05T13:34:39.733+01:00",
-    "fecha_limite_anterior": "2026-10-20",
+    "estado_updated": "2026-11-06T15:20:29.360+01:00",
+    "fecha_limite_anterior": "2026-09-10",
     "fecha_limite_cambiada_el": "2026-11-06"
   },
   {
@@ -4263,14 +4253,22 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9IRIUcwyGR3M/drZskxv0h6JPHnCsqrAPSQPtAsQNBXaTjmAhwUWU/eMU%2BV8cBUpSAS7XHvuAj3t7q1ryc8VI2U5QY91aPG%2BnMZo33n5dzr6CYyL7SIrUOBFfNf52ZqA",
     "docs_adicionales": [
       {
-        "nombre": "PLIEGO TECNICO ANEJOS.zip",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=jQlL/i6Ght2WLyY4YkhDS%2B9LfZQd5Dlsi4hhYjanAiSsOPTSKErAznIamLifDZMvArJyGlqwzM9x1m%2BZJIWC7M/499Emb1GTNatbBtJAvA545ClyWkoJ44mKM70IFcOu"
+        "nombre": "INFORME COMISION DE CULTURA 20 08 2026.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4jM0yXAEvE0xd1w3VCqZB9oCYerZGjBM3mA%2BxLK2tiRtAK7yopMHUgTAB%2BmpUO%2B1S2wXvgIptIOYHOYUKHpzaxTBc0bU5HLhE3pHP1sEtDNJOVDbGCDM%2BMigrvuVS7Rv"
+      },
+      {
+        "nombre": "ANEXO II DECLARACION RESPONSABLE.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=I3%2BGhJCregsbaSVyJ6oYipGoOfzSu1NLFzzFzKwKgUm3kTM84GFa1BFZZ7EpFxpbWRh9VR0EKUbaaUlMPMxdbTrdNo24MSmdL%2Brf3A%2BmGwVt/o8fNevwsujgRzaBbugn"
+      },
+      {
+        "nombre": "ANEXO I.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=C0tfqd26QArAy%2BrdrVmx%2BMFXMXWFRLJNgH%2BvNU3sUrjVzudRvMsYzOyswJ3/LYmZBoHB9l0lAPhEa%2BXe0%2BB7VMjAAIOqmfP8wTqir3Tz8oNt/o8fNevwsujgRzaBbugn"
       }
     ],
     "organo": "Presidencia del Consejo Rector de la Gerencia Municipal de Urbanismo del Ayuntamiento de Córdoba",
     "importe": "572876.6",
     "importe_num": 682876.6,
-    "fecha_limite": "2026-11-24",
+    "fecha_limite": "2026-11-27",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "8",
@@ -4278,13 +4276,13 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-01",
-    "fecha_limite_anterior": "2027-01-31",
-    "fecha_limite_cambiada_el": "2026-11-04",
-    "estado_updated": "2026-11-03T14:24:14.773+01:00"
+    "fecha_limite_anterior": "2026-11-24",
+    "fecha_limite_cambiada_el": "2026-11-06",
+    "estado_updated": "2026-11-06T13:44:11.333+01:00"
   },
   {
     "folder_id": "1054/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": " Redacción de proyectos, dirección facultativa y coordinación de seguridad y salud de diez actuaciones de reparación de daños por fenómenos meteorológicos adversos.",
     "updated": "2026-11-03T15:12:54.385+01:00",
@@ -4366,7 +4364,9 @@
     "fecha_captura": "2026-11-04",
     "fecha_limite_anterior": "2026-11-13",
     "fecha_limite_cambiada_el": "2026-11-06",
-    "estado_updated": "2026-11-05T10:19:32.419+01:00"
+    "estado_updated": "2026-11-06T14:53:40.944+01:00",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-06"
   },
   {
     "folder_id": "38/SE/A/AL26",
@@ -4723,6 +4723,211 @@
     "importe": "8400",
     "importe_num": 10164,
     "fecha_limite": "2026-11-20",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-06"
+  },
+  {
+    "folder_id": "5510/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de servicios de asistencia técnica para la Dirección de obra, Dirección de la ejecución y Coordinación de seguridad y salud de la obra \"Teatro Municipal\" de La Algaba.",
+    "updated": "2026-11-06T13:41:24.939+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=38UqmUmbxDz5Rey58Yagpg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=J3z0wmUwdkl2ChcBdhL0K%2BElcd8ERqfYWXyAil5B%2BygDU/PROrJCxkNK4yB7vh9h4YsuoEmSk2kYBtN7X2YggucdxcEcUdEJ8FjCm2DspyCB0nvVKRzfe4rpHcnlPhSZ",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=DoUgR6SX4ym0rSFStrvKPQu5hNtSYelDmD5CpPv%2BzBYKHp1pUFucIM/VxvwT/CV%2Bxk/zPWmanqal2QZoHWvFAXFXNvPxpJmE6dglfZTxEvZ7QB3HKyQaFUExmUVQCerk",
+    "docs_adicionales": [
+      {
+        "nombre": "Anexo III - Oferta Economica - 5510.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=sMufwp/h3/L2TuxB7cP/D9hMuHSR4AA7RgF46P2FdrTLo/FfeMmRmxaNC8gaFqRxjsw2JiAcgqxWKnD%2BZOSGLSPJfeZTSxt3YFcJMUG%2BLWQC1/zDIE0Kw/PWNnLS0Z0z"
+      },
+      {
+        "nombre": "Anexo II - Declaracion Responsable - 5510.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=dV4vn48SKaTt9gTh1yq5CB01OHzlEFgaRgcxmu3v%2BhsLjuM91OuDhzIj6boh8RfHPVxHV4vad8TPzE5yNDE9PcQqwbrClZ9ISdtJMgvbYs57QB3HKyQaFUExmUVQCerk"
+      }
+    ],
+    "organo": "Alcaldía del Ayuntamiento de La Algaba",
+    "importe": "80165.29",
+    "importe_num": 80165.29,
+    "fecha_limite": "2026-11-23",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-06"
+  },
+  {
+    "folder_id": "Expte.5631/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": " Contratación de obra consistente en la redacción de proyecto de obra, estudio de Gestión de Residuos, Seguridad y Salud, Dirección de obra y Coordinación de Seguridad y Salud, así como la Ejecución de las Obras de cubrición de las gradas del fútbol.",
+    "updated": "2026-11-06T11:56:48.834+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2FcszAmN5fUr%2B3JAijKO%2Bkg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "45212221",
+      "45111291",
+      "71520000",
+      "45000000",
+      "71242000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=AYDl4TiMGJXCBTxOmv4x4ZwnObDNxW/CGXms362gbuEf9E/qaHkYN6tI8WwE6b%2B9vw3t5BUM96RSDuBFeBAnfLjdLOZlhF7IRiL39lnCcwkC1/zDIE0Kw/PWNnLS0Z0z",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=OPNhGKTnOoXAnhXx0IbH9zmp7WiOBaJwoH9HUpnB/iRXj4HIWM/Rrpo%2By19/5haF5FaOQLdXHFC1JoJ5wcQof6fQZQnpZOk9TmErDcAe443fdyQgZAdTm3EfcUAC7CJ6",
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXO VI.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=jsw2fAT7VlsIoVeLoJ/zC1MeYoSLitFaoKR/PEnk1xgSKssRSZqD6AerpeFZfYudrIczFMp1ThgvhfNMJFzPNj/M5yq3/EfxVryxiQGKGZZt/o8fNevwsujgRzaBbugn"
+      },
+      {
+        "nombre": "ANEXO VIII.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=AL4sA/PP4B0chLNi2LLVHKrd1D7A4LD/XmsF0mXYc3BV3nYwKN0lXmAt4M2AFh16EqmipzS33TPPwR3DF6kYa7YOfUBc2Gbd3madL4S/Zon3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "ANEXO III.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/BRTLvgTD7j1uBWvrL0c5EBwpSVPZKPKjPApzhI9bRpYGg%2BmJ0QtVdUr49OsDi7D4yRHu0p/v8eTeyQpqDC1w5epHhhKQWJPDe0CdazduISCx2e6p7hqtlp2aFupgHMr"
+      },
+      {
+        "nombre": "ANEXO VII.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=AYDl4TiMGJXCBTxOmv4x4S33cgiIk27/2hut2FV/M6JctjLJWLEfiPIPpNVvfO1RH1o9RvJXnc3/6epXusULne60QE7INlq14yw1Ds/CBTb3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "ANEXO IV.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=itFsmW4Pr5/jf1CYMvHvGPcGr91R9nzoRhnV7hBIEGMKrAsfSwe9XA/OFD2E0chii7o3zYCd0C642NkjwEkKPd0/lsRQi8etbQcqlQcd33N45ClyWkoJ44mKM70IFcOu"
+      },
+      {
+        "nombre": "ANEXO V.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=brjnBzAX7CjsUJF70tQ9bTNH%2BCCAjSRUg8wIrLvfM1DSfHl5k4H1ez66%2BLEsOCtKAteQcCdY/cMwgN778OSaIsUtAZP2PI7GbljPmA7mFYFJOVDbGCDM%2BMigrvuVS7Rv"
+      },
+      {
+        "nombre": "ANEXO II.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ptclmQux/h1Z2fofEVJhDoL2ns8soqwEwVpfIAZmKQXLrX6jZ8l%2B7i1YKfXRfieChB%2BGbHNR3BZ7gFn8AN/o6trWJAjMJBDDeABPYMO5JlQ//q7NB2iMZvNyf0xrJmjt"
+      }
+    ],
+    "organo": "Alcaldia del Ayuntamiento de Salobreña",
+    "importe": "247933.89",
+    "importe_num": 247933.89,
+    "fecha_limite": "2026-11-26",
+    "tipo_contrato": "3",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-06"
+  },
+  {
+    "folder_id": "SE(DT)-7518",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de servicios para el control y vigilancia de las obras de proyecto constructivo de nuevo depósito regulador comarcal para el sector oriental del Aljarafe. Término municipal de Valencina de la Concepción(Sevilla). ",
+    "updated": "2026-11-06T10:15:33.230+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=P2ZazTy%2BRc0zjChw4z%2FXvw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71520000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=v3vOmo1Qv9sabg0rSE6FB73jdhoeXeeSIaS1WjGffT7Mkv5EKrlai0vgYXvCpVbc0q/v0hG3PxhQxdsd3qWUH8SRKw48EoD0rfhoP%2BrLuTO1aXEvq3KHa/AEHgtDrQw0",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=HH9YxdJhPWQOlHE%2BuK5zswUxKWzY66UX1SxyIjxUvX2O/vrMO5AhAHIql94IMfLA4tDcYxDYOZd8QbX5%2B2YU2gpBKmUKGzdwL/ycfE3sl2D6CYyL7SIrUOBFfNf52ZqA",
+    "docs_adicionales": [
+      {
+        "nombre": "Anexo IX confidencialidad.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=BUhG5eIk9Ko8sxsLL7bVU3uu8LIG4R7OU7CmwKM7XCMlZKcdTJ0ltieertZvaoCCWtjtxWu14rsKi4SL32M4FBj3urKyTlA7guYAARJTW06HAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "Anexo III compromiso de adscripcion de medios.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2pAPTvmy4mgVrDUMwhgMDkRErj63OrafGXtvrtB6mk2nM97FMMmyDE9U8mex9alAKa6HBH2Ar2OVXy36NqkredOhr2ighxNDlvukVt4%2BhD6Cx2e6p7hqtlp2aFupgHMr"
+      },
+      {
+        "nombre": "Anexo VIII sometimiento a jurisdiccion.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=aDLPOkL8c/pCyvm441Q/6TYklkcISZ0ITkUacjfMSqstDJBsBxzx9yJJMtQPy4whaNJf39CAzruEagK6HEVn80VaPzkR73YpgF7tfFki5to//q7NB2iMZvNyf0xrJmjt"
+      },
+      {
+        "nombre": "Anexo V proposicion economica.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0x8Jr0LXA5pFm0c9g0xyCYMxEX3M8cU1VTJatGBVhasJgRU%2BD1rYQDngOPeg2xnXQqj9eJu4G7TAT9C6L/W/qCyCeOZraTLK7A5aU%2BiZWNX3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "Anexo IV declaracion grupo empresarial.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=S8M92rZFwDzrcnI5Lth730FpimTrh5J0fD1eZZFSnr7eYcO4JEmnlLZrwGaS0dqKXgRZKyuA8iHWmp03zd1Ym/SSqoKNH1jwLTjWXDUfCKU//q7NB2iMZvNyf0xrJmjt"
+      },
+      {
+        "nombre": "Anexo VII1 subcontratacion.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2qVA4vyUr6vH6ZZlS6rl2xgc9/5YlpL350nmtPyBcHD04KGLgNqUXjoVlqHSgn1y5FsBYhCU2bSn3Q3Sm8PB9Pt68UN3RCs2dD2TxDALk3yB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "DEUC 7518.xml",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=C9eRjR1jJvcvfiWV1Axy7gpJvkpoAXpLHo%2BVDl4Nr4H5Tu5efvSYamnW%2BHRtj9q0A0FSlAogJ9gwzfNGyegjsM0vGSZyUOIzaTynj5kcQdZ7QB3HKyQaFUExmUVQCerk"
+      }
+    ],
+    "organo": "Presidencia de la Confederación Hidrográfica del Guadalquivir",
+    "importe": "346952.11",
+    "importe_num": 346952.11,
+    "fecha_limite": "2026-12-17",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-06"
+  },
+  {
+    "folder_id": "5974/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de Redacción del proyecto básico y de ejecución y la posterior dirección de proyecto para la construcción de dos nuevos bombeos de aguas pluviales, uno en la Plaza de la Peña y otro en la C/ Andévalo, de Punta Umbría.",
+    "updated": "2026-11-06T09:43:55.885+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7qFp%2BkgyX2nXOjazN1Dw9Q%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000",
+      "71322000",
+      "71247000",
+      "71300000",
+      "71311000",
+      "71242000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=sFblu4/Rhpjk6IMz3opKHUxT/hmkT79Uai8F2gtRPylXcdza8haiOtHC7tNGYjb45Q8RDv1yxbn9o7hmrQpChWKNNdJW4O2%2BrGhM1pPEY4Zt/o8fNevwsujgRzaBbugn",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=m/oHx3pZ%2BCoObFWo/zvSgea/eHZN/xgxWO3J08Lrbr/xjdOpDaey/UBFrZBT8xhd2%2Bp6WC/tcOMspYQV3qv1XpR%2BOvZdBRv8y4QQDxHl0V4//q7NB2iMZvNyf0xrJmjt",
+    "docs_adicionales": [
+      {
+        "nombre": "Anexo I__ 01-PLANO SITUACION BOMBEOS PLUVIALES - PZA DE LA PENA.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/jLrSZyLveo/0M6XqTnoxa6uOzBgtyHR2K80J6bU3x9kTtWs9atHkDVeS70m8lXstSKuv6pI3nlfeHUp7FEsVl8MGqDotvwvV6b0FBlfJYL3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "02-PLANO SITUACION BOMBEOS PLUVIALES - CALLE ANDEVALO.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YoqQ9U4dHpLyKc39OPr%2BDC65HMdiGTH2%2BCY%2BT%2B6NsPgsqstr%2Br71Gu0CKQzUvDnVyZFmhsktOISqsBDlw2Jce3Jsd7lHDDH2SpdHNXbLnhDVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "Anexo I__ 02-PLANO SITUACION BOMBEOS PLUVIALES - CALLE ANDEVALO.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Iv7y5f2vQZUhVilfXXpCZyxnfRT2qyDBae7N2mGQI1gzyOclNn93FaqCslMxsOXqwo7uMC%2B3EYfMsmnfVRUYjBbzSk772F21/yJb/RbxY0n3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "ANEXOS bombeos.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2qVA4vyUr6vH6ZZlS6rl29y5Cw/9y61nGpgp3pFz1FgTpNKSfulMBozPWEXeVbfQp4r6w2jMZWaFbZa2zElB90%2BiJVqxk9Ei%2Br7Bl1lmeXjfdyQgZAdTm3EfcUAC7CJ6"
+      },
+      {
+        "nombre": "01-PLANO SITUACION BOMBEOS PLUVIALES - PZA DE LA PENA.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=F1/IifTYmuJbAxqccFu5sbFajA88BCI4WVCwppXsc9o5t21XjXXu6PgPfAXaMk5bAIOSADe7e530u2z/CykyyO32vnYC2fB4OuZlJyhyPzjVTD3T98KC0nSgQFM0q%2B5s"
+      }
+    ],
+    "organo": "Alcaldía del Ayuntamiento de Punta umbría",
+    "importe": "105640",
+    "importe_num": 105640.0,
+    "fecha_limite": "2026-11-23",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
