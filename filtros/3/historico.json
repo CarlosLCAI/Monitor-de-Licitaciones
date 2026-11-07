@@ -207,7 +207,7 @@
   },
   {
     "folder_id": "2378/2026",
-    "estado": "EV",
+    "estado": "RES",
     "titulo": "Elaboración y redacción del Plan Especial de Protección del Conjunto Histórico Artístico de Chinchón",
     "updated": "2026-09-29T19:06:28.990+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=uCirF57jxe6FQ%2FlhRK79lA%3D%3D",
@@ -238,10 +238,10 @@
     "revisado_fecha": "2026-10-02T11:31:32.844Z",
     "fecha_limite_anterior": "2026-10-14",
     "fecha_limite_cambiada_el": "2026-10-15",
-    "estado_updated": "2026-11-05T11:57:19.237+01:00",
-    "estado_anterior": "RES",
-    "resultado": null,
-    "estado_cambiado_el": "2026-11-06"
+    "estado_updated": "2026-11-06T13:19:30.082+01:00",
+    "estado_anterior": "EV",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-11-07"
   },
   {
     "folder_id": "PA-SER 103/26",
@@ -335,7 +335,7 @@
   },
   {
     "folder_id": "LGN_2026_CS_02",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Contratación de servicios de urbanismo mediante concurso de proyectos con intervención de jurado para la obtención de propuestas urbanísticas de ordenación sostenible e innovadora de unos terrenos a incluir en el ámbito de actuación del Consorcio Urbanístico Leganés Norte, «Puerta de Madrid»",
     "updated": "2026-10-30T13:56:09.250+01:00",
@@ -358,6 +358,9 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "agregadas",
-    "fecha_captura": "2026-10-31"
+    "fecha_captura": "2026-10-31",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-07",
+    "estado_updated": "2026-11-07T00:25:49.174+01:00"
   }
 ]

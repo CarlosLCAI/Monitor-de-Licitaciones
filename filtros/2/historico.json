@@ -311,8 +311,8 @@
   },
   {
     "folder_id": "482/2026",
-    "estado": "EV",
-    "resultado": null,
+    "estado": "ADJ",
+    "resultado": "adjudicada",
     "titulo": "Concurso de proyectos con intervención de jurado para contrato de servicios de redacción de proyecto básico y de ejecución, dirección facultativa de las obras y coordinación de seguridad y salud para la construcción de edificio municipal polivalente para la juventud denominado \"Espacio Joven\".",
     "updated": "2026-10-15T12:41:11.498+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SRKx9M0hhBydkQsA7ROvsg%3D%3D",
@@ -334,11 +334,11 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-10-15",
-    "estado_anterior": "RES",
-    "estado_cambiado_el": "2026-11-06",
+    "estado_anterior": "EV",
+    "estado_cambiado_el": "2026-11-07",
     "fecha_limite_anterior": "2026-09-15",
     "fecha_limite_cambiada_el": "2026-11-06",
-    "estado_updated": "2026-11-05T16:02:57.094+01:00",
+    "estado_updated": "2026-11-06T16:03:16.001+01:00",
     "docs_adicionales": [
       {
         "nombre": "2026 Anexo I.doc",
@@ -820,7 +820,7 @@
   },
   {
     "folder_id": "LGN_2026_CS_02",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Contratación de servicios de urbanismo mediante concurso de proyectos con intervención de jurado para la obtención de propuestas urbanísticas de ordenación sostenible e innovadora de unos terrenos a incluir en el ámbito de actuación del Consorcio Urbanístico Leganés Norte, «Puerta de Madrid»",
     "updated": "2026-10-30T13:56:09.250+01:00",
@@ -843,7 +843,10 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "agregadas",
-    "fecha_captura": "2026-10-31"
+    "fecha_captura": "2026-10-31",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-07",
+    "estado_updated": "2026-11-07T00:25:49.174+01:00"
   },
   {
     "folder_id": "01/2026-SER",

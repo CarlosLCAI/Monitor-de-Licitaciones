@@ -378,7 +378,7 @@
   },
   {
     "folder_id": "364/2026",
-    "estado": "EV",
+    "estado": "RES",
     "titulo": "Contrato de servicios para la redacción del Plan General de Ordenación Municipal (PGOM) de La Guardia de Jaén, incluyendo toda la documentación urbanística, ambiental y técnica necesaria hasta su aprobación definitiva, con estricta sujeción a las condiciones y requisitos expresados en el Pliego de Prescripciones Técnicas.",
     "updated": "2026-07-15T10:26:42.671+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=B%2BgNBb6ROCnIGlsa0Wad%2Bw%3D%3D",
@@ -397,12 +397,12 @@
     "importe": "160000",
     "fecha_limite": "2026-10-22",
     "fecha_captura": "2026-07-16",
-    "estado_anterior": "RES",
-    "resultado": null,
-    "estado_cambiado_el": "2026-11-05",
+    "estado_anterior": "EV",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-11-07",
     "fecha_limite_anterior": "2026-10-08",
     "fecha_limite_cambiada_el": "2026-10-23",
-    "estado_updated": "2026-11-04T13:13:19.942+01:00",
+    "estado_updated": "2026-11-06T09:54:16.030+01:00",
     "docs_adicionales": [
       {
         "nombre": "ANEXO I y II.doc",
@@ -570,9 +570,9 @@
     },
     "fecha_captura": "2026-07-22",
     "estado_anterior": "RES",
-    "resultado": "desierta",
-    "estado_cambiado_el": "2026-11-06",
-    "estado_updated": "2026-11-04T14:45:29.974+01:00",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-11-07",
+    "estado_updated": "2026-11-06T13:27:43.488+01:00",
     "fecha_limite_anterior": "2026-10-26",
     "fecha_limite_cambiada_el": "2026-10-30",
     "docs_adicionales": [

@@ -1,96 +1,35 @@
 [
   {
-    "folder_id": "2026/ETSAE0226/00009578E",
+    "folder_id": "CONTR 2026 0000183724",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicios Servicio de Recogida Selectiva y Tratamiento de residuos Sólidos Urbanos",
-    "updated": "2026-11-06T11:31:03.335+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KpOu9u1xNNScTfjQf3USOg%3D%3D",
+    "titulo": "mantenimiento mecanizado de infraestructuras preventvas incendios forestale",
+    "updated": "2026-11-06T14:41:27.708+01:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1036376",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "90500000"
+      "77200000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=25YP5eDq8pc8Kh%2B28wrnc3gVeLv0tFl6W9%2BPFWrFD61eDFiCSeKyIZ1JJCF%2BaONWNnACru8RYolvIIbSGqrA0LPd2Z9GtGFDVRaSZHRe5uGB0nvVKRzfe4rpHcnlPhSZ",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=sf1yvPNaMcVEi6LqNUDxKlfXCVBEEfyiszy6kLOeg3k6rFTz5jH9P/PFCgjd2LL/sHJpPWSRqAQsBJUSzFFZ/xNKiDz0uXWKo7PxPjzn7oWHAj0WEJrB5sP7amrh2jBD",
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441371",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441370",
     "docs_adicionales": [
       {
-        "nombre": "ANEXO II DECLARACION RESPONSABLE Y REACH.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=davgFVydCe5lNGQf%2Blx3%2BVzidAPaPlucgWn99xPWCUG3Fre9GbD7gfu%2BFkYGY6dBVU%2B3weDndAzKUeNx6SdCQkGEcZEIobpWl/nLNu6wqRH3GVhXrFFqN7yFncy7YfRK"
-      },
-      {
-        "nombre": "ANEXO III PROP ECONOMICA.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=u48p6fpOdf8xsnSCWH6ZWE5oJP9VHiRYE32D4Z17wAZ9H0dsOZ2iA3uIcLNXhYMxn4can09n3wJVGGCLwJ8LEjnKVznHAnW5mPizut7AVcpJOVDbGCDM%2BMigrvuVS7Rv"
-      },
-      {
-        "nombre": "ANEXO XIV ADHESION CODIGO ETICO.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=zvsidJIcWYHTiww4FMCIz%2BIkK4scYpBS4JXDp6aQzG/bjEtdSBJIIl1B2Rm97LUVPu30/WWBvXF19OiL7%2BnrgQ8uyIf4c5ugkN4iKnjmZp1JOVDbGCDM%2BMigrvuVS7Rv"
+        "nombre": "Resolución de designación de miembros de la Mesa de Contratación.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441517"
       }
     ],
-    "organo": "Jefatura de Intendencia de Asuntos Económicos Sur",
-    "importe": "43636.36",
-    "importe_num": 130909.08,
+    "organo": "Agencia de Emergencias de Andalucía",
+    "importe": "7056265.59",
+    "importe_num": 15523784.3,
     "fecha_limite": "2026-11-23",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "9",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "SE(DT)-7518",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Contrato de servicios para el control y vigilancia de las obras de proyecto constructivo de nuevo depósito regulador comarcal para el sector oriental del Aljarafe. Término municipal de Valencina de la Concepción(Sevilla). ",
-    "updated": "2026-11-06T10:15:33.230+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=P2ZazTy%2BRc0zjChw4z%2FXvw%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71520000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=v3vOmo1Qv9sabg0rSE6FB73jdhoeXeeSIaS1WjGffT7Mkv5EKrlai0vgYXvCpVbc0q/v0hG3PxhQxdsd3qWUH8SRKw48EoD0rfhoP%2BrLuTO1aXEvq3KHa/AEHgtDrQw0",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=HH9YxdJhPWQOlHE%2BuK5zswUxKWzY66UX1SxyIjxUvX2O/vrMO5AhAHIql94IMfLA4tDcYxDYOZd8QbX5%2B2YU2gpBKmUKGzdwL/ycfE3sl2D6CYyL7SIrUOBFfNf52ZqA",
-    "docs_adicionales": [
-      {
-        "nombre": "Anexo IX confidencialidad.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=BUhG5eIk9Ko8sxsLL7bVU3uu8LIG4R7OU7CmwKM7XCMlZKcdTJ0ltieertZvaoCCWtjtxWu14rsKi4SL32M4FBj3urKyTlA7guYAARJTW06HAj0WEJrB5sP7amrh2jBD"
-      },
-      {
-        "nombre": "Anexo III compromiso de adscripcion de medios.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2pAPTvmy4mgVrDUMwhgMDkRErj63OrafGXtvrtB6mk2nM97FMMmyDE9U8mex9alAKa6HBH2Ar2OVXy36NqkredOhr2ighxNDlvukVt4%2BhD6Cx2e6p7hqtlp2aFupgHMr"
-      },
-      {
-        "nombre": "Anexo VIII sometimiento a jurisdiccion.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=aDLPOkL8c/pCyvm441Q/6TYklkcISZ0ITkUacjfMSqstDJBsBxzx9yJJMtQPy4whaNJf39CAzruEagK6HEVn80VaPzkR73YpgF7tfFki5to//q7NB2iMZvNyf0xrJmjt"
-      },
-      {
-        "nombre": "Anexo V proposicion economica.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0x8Jr0LXA5pFm0c9g0xyCYMxEX3M8cU1VTJatGBVhasJgRU%2BD1rYQDngOPeg2xnXQqj9eJu4G7TAT9C6L/W/qCyCeOZraTLK7A5aU%2BiZWNX3GVhXrFFqN7yFncy7YfRK"
-      },
-      {
-        "nombre": "Anexo IV declaracion grupo empresarial.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=S8M92rZFwDzrcnI5Lth730FpimTrh5J0fD1eZZFSnr7eYcO4JEmnlLZrwGaS0dqKXgRZKyuA8iHWmp03zd1Ym/SSqoKNH1jwLTjWXDUfCKU//q7NB2iMZvNyf0xrJmjt"
-      },
-      {
-        "nombre": "Anexo VII1 subcontratacion.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2qVA4vyUr6vH6ZZlS6rl2xgc9/5YlpL350nmtPyBcHD04KGLgNqUXjoVlqHSgn1y5FsBYhCU2bSn3Q3Sm8PB9Pt68UN3RCs2dD2TxDALk3yB0nvVKRzfe4rpHcnlPhSZ"
-      },
-      {
-        "nombre": "DEUC 7518.xml",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=C9eRjR1jJvcvfiWV1Axy7gpJvkpoAXpLHo%2BVDl4Nr4H5Tu5efvSYamnW%2BHRtj9q0A0FSlAogJ9gwzfNGyegjsM0vGSZyUOIzaTynj5kcQdZ7QB3HKyQaFUExmUVQCerk"
-      }
-    ],
-    "organo": "Presidencia de la Confederación Hidrográfica del Guadalquivir",
-    "importe": "346952.11",
-    "importe_num": 346952.11,
-    "fecha_limite": "2026-12-17",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
-    "fuente": "perfiles"
+    "fuente": "agregadas",
+    "descripcion": "MANTENIMIENTO MECANIZADO DE INFRAESTRUCTURAS PREVENTIVAS DE DEFENSA CONTRA INCENDIOS FORESTALES DE LA JUNTA DE ANDALUCÍA. PERIODO 2027-2028",
+    "junta_consultado": "2026-11-07"
   }
 ]

@@ -5713,7 +5713,7 @@
   },
   {
     "folder_id": "CONTR 2026 0000352283",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "dirección obra rehabilitación 88 vvdas pgno. puerta madrid, andújar",
     "updated": "2026-10-21T10:42:37.185+02:00",
@@ -5751,7 +5751,10 @@
     "fuente": "agregadas",
     "descripcion": "DIRECCIÓN DE LAS OBRAS DE REHABILITACIÓN DE 88 VVDAS EN SECTOR ALMERIA DEL PGNO. PUERTA MADRID Y AVDA. SANTO REINO DE ANDÚJAR",
     "junta_consultado": "2026-10-22",
-    "fecha_captura": "2026-10-22"
+    "fecha_captura": "2026-10-22",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-07",
+    "estado_updated": "2026-11-06T15:41:20.484+01:00"
   },
   {
     "folder_id": "AGP-159/2026",
@@ -7721,8 +7724,8 @@
   },
   {
     "folder_id": "208/2026",
-    "estado": "PUB",
-    "resultado": null,
+    "estado": "RES",
+    "resultado": "adjudicada",
     "titulo": "Servicio de recogida, transporte, tratamiento y valorización de lodos deshidratados producido en las Estaciones Depuradores de Agua Residuales (EDAR) que opera y mantiene el Consorcio Provincial del Agua de Málaga\r\n",
     "updated": "2026-11-04T09:20:45.823+01:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=IvXNGYxj0YMXhk1FZxEyvw%3D%3D",
@@ -7764,11 +7767,11 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-05",
-    "estado_anterior": "PRE",
-    "estado_cambiado_el": "2026-11-06",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-07",
     "fecha_limite_anterior": "2026-11-18",
     "fecha_limite_cambiada_el": "2026-11-06",
-    "estado_updated": "2026-11-06T08:13:48.253+01:00"
+    "estado_updated": "2026-11-06T08:36:23.700+01:00"
   },
   {
     "folder_id": "CONTR 2026 0000028355",
@@ -8334,5 +8337,39 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-06"
+  },
+  {
+    "folder_id": "CONTR 2026 0000183724",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "mantenimiento mecanizado de infraestructuras preventvas incendios forestale",
+    "updated": "2026-11-06T14:41:27.708+01:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1036376",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "77200000"
+    ],
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441371",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441370",
+    "docs_adicionales": [
+      {
+        "nombre": "Resolución de designación de miembros de la Mesa de Contratación.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441517"
+      }
+    ],
+    "organo": "Agencia de Emergencias de Andalucía",
+    "importe": "7056265.59",
+    "importe_num": 15523784.3,
+    "fecha_limite": "2026-11-23",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas",
+    "descripcion": "MANTENIMIENTO MECANIZADO DE INFRAESTRUCTURAS PREVENTIVAS DE DEFENSA CONTRA INCENDIOS FORESTALES DE LA JUNTA DE ANDALUCÍA. PERIODO 2027-2028",
+    "junta_consultado": "2026-11-07",
+    "fecha_captura": "2026-11-07"
   }
 ]
