@@ -1,35 +1,32 @@
 [
   {
-    "folder_id": "CONTR 2026 0000183724",
+    "folder_id": "Servicios  4/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "mantenimiento mecanizado de infraestructuras preventvas incendios forestale",
-    "updated": "2026-11-06T14:41:27.708+01:00",
-    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1036376",
+    "titulo": "Servicio de mantenimiento preventivo y correctivo en instalaciones eléctricas y servicios de extracción e introducción de bombas en sondeos gestionados por Aguasvira",
+    "updated": "2026-11-08T11:42:05.578+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Q8kbhoUx9JuIzo3LHNPGcQ%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "77200000"
+      "71314100",
+      "50500000",
+      "50000000",
+      "45315600",
+      "45315500"
     ],
-    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441371",
-    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441370",
-    "docs_adicionales": [
-      {
-        "nombre": "Resolución de designación de miembros de la Mesa de Contratación.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441517"
-      }
-    ],
-    "organo": "Agencia de Emergencias de Andalucía",
-    "importe": "7056265.59",
-    "importe_num": 15523784.3,
-    "fecha_limite": "2026-11-23",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=NCDZhC5RtRNKrhJWlb05Pk0YB06GN2iuIRzIFUl1yZ%2BxCOalUrikOTE0gqNZqkNvbU1vMJKm18RnMfTjIM6nSyMZsOurq5woDckeB3GyZmEZyAJWGsSt0OzTSTyw9JAs",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=mzZ04CUkaZpk4EvT/0Yw5X4JAfYeocdoB0LYyoHAqv%2Bgj1g9onRPEWHed7nn0xrf4e9VpFlwl29JQsY7yz3Nvpzzxmf2U/TmZX4DpPGEEuh7QB3HKyQaFUExmUVQCerk",
+    "docs_adicionales": [],
+    "organo": "Dirección Gerente de Aguas Vega Sierra Elvira, S.A.",
+    "importe": "78303",
+    "importe_num": 313212.0,
+    "fecha_limite": "2026-12-09",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
-    "fuente": "agregadas",
-    "descripcion": "MANTENIMIENTO MECANIZADO DE INFRAESTRUCTURAS PREVENTIVAS DE DEFENSA CONTRA INCENDIOS FORESTALES DE LA JUNTA DE ANDALUCÍA. PERIODO 2027-2028",
-    "junta_consultado": "2026-11-07"
+    "fuente": "perfiles"
   }
 ]
