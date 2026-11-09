@@ -342,7 +342,10 @@
       },
       "fecha_analisis": "2026-11-09T08:01:36.545643+00:00",
       "solicitada_por": "Belén Fernández"
-    }
+    },
+    "revisado_humano": true,
+    "revisado_fecha": "2026-11-09T08:51:27.344Z",
+    "revisado_por": "Belén Fernández"
   },
   {
     "folder_id": "CON-SERV-2026000064",
