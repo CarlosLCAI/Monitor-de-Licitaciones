@@ -503,8 +503,8 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-07-17",
-    "revisado_humano": false,
-    "revisado_fecha": null,
+    "revisado_humano": true,
+    "revisado_fecha": "2026-11-09T08:51:27.344Z",
     "estado_anterior": "PUB",
     "resultado": null,
     "estado_cambiado_el": "2026-10-16",
@@ -716,7 +716,8 @@
       },
       "fecha_analisis": "2026-11-09T08:01:36.545643+00:00",
       "solicitada_por": "Belén Fernández"
-    }
+    },
+    "revisado_por": "Belén Fernández"
   },
   {
     "folder_id": "6670/2026",
