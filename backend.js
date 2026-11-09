@@ -171,6 +171,23 @@ const Backend = (() => {
     }
   }
 
+  // Contenido y sha de un archivo del repositorio. La API de contenidos no devuelve el contenido de los
+  // archivos de más de 1 MB (content vacío, pero con su sha): en ese caso se pide el blob exacto de ese sha,
+  // que sirve hasta 100 MB y es coherente con el sha que luego se usa para guardar.
+  async function leerArchivo(ruta) {
+    const r = await fetch(`${API}/contents/${ruta}?ref=${BRANCH}`, { headers: cabeceras(), cache: 'no-store' });
+    if (!r.ok) {
+      throw new Error(`No se pudo leer ${ruta} en GitHub (HTTP ${r.status}). Revisa el token y el nombre del repo.`);
+    }
+    const d = await r.json();
+    if (d.content) return { sha: d.sha, texto: base64ToUtf8(d.content) };
+    const b = await fetch(`${API}/git/blobs/${d.sha}`, { headers: cabeceras('application/vnd.github.raw+json'), cache: 'no-store' });
+    if (!b.ok) {
+      throw new Error(`No se pudo leer ${ruta} en GitHub (archivo grande, HTTP ${b.status}). Revisa el token y el nombre del repo.`);
+    }
+    return { sha: d.sha, texto: await b.text() };
+  }
+
   // Cambia campos de una licitación dentro del histórico de un filtro. Devuelve el histórico guardado, o
   // null si ese filtro ya no contiene la licitación.
   async function actualizarHistorico(ruta, folderId, campos, mensaje, intentosMax = 3) {
@@ -178,12 +195,8 @@ const Backend = (() => {
     const h = cabeceras();
 
     for (let intento = 1; intento <= intentosMax; intento++) {
-      const actual = await fetch(`${apiUrl}?ref=${BRANCH}`, { headers: h, cache: 'no-store' });
-      if (!actual.ok) {
-        throw new Error(`No se pudo leer ${ruta} en GitHub (HTTP ${actual.status}). Revisa el token y el nombre del repo.`);
-      }
-      const actualData = await actual.json();
-      const historicoRemoto = JSON.parse(base64ToUtf8(actualData.content));
+      const actual = await leerArchivo(ruta);
+      const historicoRemoto = JSON.parse(actual.texto);
 
       let tocados = 0;
       historicoRemoto.forEach(r => {
@@ -195,7 +208,7 @@ const Backend = (() => {
       const resp = await fetch(apiUrl, {
         method: 'PUT',
         headers: h,
-        body: JSON.stringify({ message: mensaje + ` (${ruta})`, content: utf8ToBase64(contenido), sha: actualData.sha, branch: BRANCH }),
+        body: JSON.stringify({ message: mensaje + ` (${ruta})`, content: utf8ToBase64(contenido), sha: actual.sha, branch: BRANCH }),
       });
       if (resp.ok) return historicoRemoto;
       if (resp.status === 409 && intento < intentosMax) continue; // otro cambio llegó primero; reintenta con la versión más reciente
