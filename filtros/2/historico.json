@@ -625,7 +625,10 @@
       },
       "fecha_analisis": "2026-11-09T07:59:31.705897+00:00",
       "solicitada_por": "Belén Fernández"
-    }
+    },
+    "revisado_humano": true,
+    "revisado_fecha": "2026-11-09T08:45:34.698Z",
+    "revisado_por": "Belén Fernández"
   },
   {
     "folder_id": "46/26",
