@@ -8402,8 +8402,8 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-08",
-    "revisado_humano": true,
-    "revisado_fecha": "2026-11-09T16:40:36.543Z",
-    "revisado_por": "CarlosLCAI"
+    "revisado_humano": false,
+    "revisado_fecha": null,
+    "revisado_por": null
   }
 ]
