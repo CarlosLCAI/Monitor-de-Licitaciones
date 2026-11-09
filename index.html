@@ -899,6 +899,7 @@
 
 </div>
 
+<script src="backend.js"></script>
 <script>
 let datos = [];
 let metaLectura = null;
@@ -1295,7 +1296,6 @@ document.addEventListener('click', (e) => {
 // botón lanza el flujo "revision_ia.yml" por la API de GitHub. Ese flujo genera el informe y lo
 // guarda en el histórico. Mientras tanto se vigila el histórico en GitHub (sin esperar a que
 // GitHub Pages republique) hasta que aparece el informe.
-const WORKFLOW_REVISION_IA = 'revision_ia.yml';
 const REVISIONES_IA_PENDIENTES_KEY = 'monitorLicitaciones.revisionesIaPendientes';
 const REVISION_IA_PENDIENTE_TTL_MS = 20 * 60 * 1000;
 const INTERVALO_VIGILANCIA_IA_MS = 20 * 1000;
@@ -1339,7 +1339,6 @@ function enlaceRevisionIA(r) {
 // El botón lanza el flujo "preparar_carpeta.yml", que genera un ZIP (pliegos + una carpeta por sobre) y
 // lo publica en la release "carpetas" del repositorio. El visor lo detecta consultando esa release y
 // ofrece "Descargar carpeta". Solo se ofrece si el Bloque 5 de la revisión detalla bien los sobres.
-const WORKFLOW_CARPETA = 'preparar_carpeta.yml';
 const CARPETAS_PENDIENTES_KEY = 'monitorLicitaciones.carpetasPendientes';
 const CARPETA_PENDIENTE_TTL_MS = 15 * 60 * 1000;
 const INTERVALO_VIGILANCIA_CARPETAS_MS = 15 * 1000;
@@ -1451,14 +1450,8 @@ function carpetaPendiente(folderId) {
 }
 
 async function cargarCarpetasPreparadas() {
-  const token = obtenerTokenGuardado();
-  const cabeceras = { Accept: 'application/vnd.github+json' };
-  if (token) cabeceras.Authorization = 'token ' + token;
   try {
-    const resp = await fetch(`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/releases/tags/carpetas`, { headers: cabeceras, cache: 'no-store' });
-    if (!resp.ok) { carpetasPreparadas = new Map(); return; } // 404: todavía no se ha preparado ninguna
-    const release = await resp.json();
-    carpetasPreparadas = new Map((release.assets || []).map(a => [a.name, { actualizado: Date.parse(a.updated_at), url: a.browser_download_url }]));
+    carpetasPreparadas = await Backend.listarCarpetas();
   } catch (e) { /* sin conexión: se conserva lo que había */ }
 }
 
@@ -1504,7 +1497,7 @@ function descargarCarpetaSola(folderId, url) {
 // La descarga la hace el propio enlace. Aquí solo se deja constancia (para todos los filtros) de que la
 // carpeta ya se ha descargado: el navegador no dice si el archivo llegó a guardarse, solo que se inició.
 async function registrarDescargaCarpeta(folderId) {
-  if (!obtenerTokenGuardado()) return; // sin token se puede descargar, pero no dejar constancia
+  if (!Backend.tieneCredenciales()) return; // sin credenciales se puede descargar, pero no dejar constancia
   try {
     await guardarMarca(folderId, 'carpeta', true);
     await refrescarDatosActuales();
@@ -1515,27 +1508,14 @@ async function registrarDescargaCarpeta(folderId) {
 }
 
 async function prepararCarpeta(folderId) {
-  const token = obtenerTokenGuardado();
-  if (!token) {
+  if (!Backend.tieneCredenciales()) {
     alert('Para preparar la carpeta primero configura el token de GitHub (en las opciones de cualquier filtro).');
     return;
   }
   if (preparandoCarpeta.has(folderId) || carpetaPendiente(folderId)) return;
   preparandoCarpeta.add(folderId);
   try {
-    const resp = await fetch(`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/actions/workflows/${WORKFLOW_CARPETA}/dispatches`, {
-      method: 'POST',
-      headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github+json' },
-      body: JSON.stringify({ ref: GH_BRANCH, inputs: { folder_id: folderId } }),
-    });
-    if (resp.status !== 204) {
-      const err = await resp.json().catch(() => ({}));
-      let ayuda = '';
-      if (resp.status === 403) ayuda = '\n\nEl token necesita el permiso "Actions: lectura y escritura" (token fine-grained) o el alcance "workflow" (token clásico).';
-      if (resp.status === 404) ayuda = '\n\nNo se encuentra el flujo "' + WORKFLOW_CARPETA + '" en el repositorio (¿se ha subido?) o el token no tiene acceso a Actions.';
-      if (resp.status === 422) ayuda = '\n\nEl flujo no admite lanzamiento manual (workflow_dispatch).';
-      throw new Error(`HTTP ${resp.status}: ${err.message || 'sin detalle'}${ayuda}`);
-    }
+    await Backend.lanzarFlujo('carpeta', { folder_id: folderId });
     const todas = leerCarpetasPendientes();
     todas[folderId] = { solicitadaEn: Date.now() };
     escribirCarpetasPendientes(todas);
@@ -1580,8 +1560,7 @@ function filtroQueContiene(folderId) {
 }
 
 async function solicitarRevisionIA(folderId) {
-  const token = obtenerTokenGuardado();
-  if (!token) {
+  if (!Backend.tieneCredenciales()) {
     alert('Para solicitar la revisión IA primero configura el token de GitHub (en las opciones de cualquier filtro).');
     return;
   }
@@ -1590,20 +1569,8 @@ async function solicitarRevisionIA(folderId) {
 
   solicitandoIA.add(folderId);
   try {
-    const solicitante = await obtenerNombreRevisor(token).catch(() => '');
-    const resp = await fetch(`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/actions/workflows/${WORKFLOW_REVISION_IA}/dispatches`, {
-      method: 'POST',
-      headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github+json' },
-      body: JSON.stringify({ ref: GH_BRANCH, inputs: { folder_id: folderId, solicitante: solicitante || '' } }),
-    });
-    if (resp.status !== 204) {
-      const err = await resp.json().catch(() => ({}));
-      let ayuda = '';
-      if (resp.status === 403) ayuda = '\n\nEl token necesita el permiso "Actions: lectura y escritura" (token fine-grained) o el alcance "workflow" (token clásico).';
-      if (resp.status === 404) ayuda = '\n\nNo se encuentra el flujo "' + WORKFLOW_REVISION_IA + '" en el repositorio (¿se ha subido?) o el token no tiene acceso a Actions.';
-      if (resp.status === 422) ayuda = '\n\nEl flujo no admite lanzamiento manual (workflow_dispatch).';
-      throw new Error(`HTTP ${resp.status}: ${err.message || 'sin detalle'}${ayuda}`);
-    }
+    const solicitante = await Backend.usuarioActual().catch(() => '');
+    await Backend.lanzarFlujo('revisionIA', { folder_id: folderId, solicitante: solicitante || '' });
     const todas = leerRevisionesIaPendientes();
     todas[folderId] = { filtroId: filtroQueContiene(folderId), solicitadaEn: Date.now() };
     escribirRevisionesIaPendientes(todas);
@@ -1637,7 +1604,7 @@ async function comprobarRevisionesIA() {
     temporizadorVigilanciaIA = null;
     return;
   }
-  const token = obtenerTokenGuardado();
+  const hayCredenciales = Backend.tieneCredenciales();
   let cambio = false;
   for (const id of ids) {
     const p = pendientes[id];
@@ -1647,14 +1614,11 @@ async function comprobarRevisionesIA() {
       continue;
     }
     const desc = descriptorFiltro(p.filtroId);
-    if (!token || !desc) continue;
+    if (!hayCredenciales || !desc) continue;
     try {
-      const resp = await fetch(
-        `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${rutaFiltro(desc, 'historico.json')}?ref=${GH_BRANCH}`,
-        { headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github.raw+json' }, cache: 'no-store' }
-      );
-      if (!resp.ok) continue;
-      const reg = JSON.parse(await resp.text()).find(r => r.folder_id === id);
+      const historico = await Backend.leerHistoricoFresco(rutaFiltro(desc, 'historico.json'));
+      if (!historico) continue;
+      const reg = historico.find(r => r.folder_id === id);
       const rev = reg && reg.revision_ia;
       if (revisionIaValida(rev)) {
         inyectarRevisionIA(id, rev);
@@ -1686,7 +1650,7 @@ function bloqueMarca(r, tipo) {
   const por = r[c.por];
   const fecha = r[c.fecha];
   const id = escapeHtml(r.folder_id || '');
-  const esDeOtroUsuario = marcado && por && por.toLowerCase() !== GH_OWNER.toLowerCase();
+  const esDeOtroUsuario = marcado && por && por.toLowerCase() !== Backend.propietario.toLowerCase();
   let control;
   if (esDeOtroUsuario) {
     const titulo = ETIQUETAS_MARCA[tipo] + ' por ' + por + (fecha ? ' el ' + formatearFecha(fecha) : '') + ' (clic para desmarcar)';
@@ -2137,8 +2101,6 @@ function tarjetaUltimaLectura() {
 // Parte de los datos del visor (todo el histórico de la vista actual) y parte de la API pública de
 // GitHub (ejecuciones del monitor y versiones del código), que se guarda 12 h en este navegador para
 // no gastar el límite de peticiones. Si GitHub no responde, esas filas dicen "no disponible".
-const HISTORIA_API_KEY = 'monitorLicitaciones.historiaApi';
-const HISTORIA_API_TTL_MS = 12 * 3600 * 1000;
 
 function fechaCompleta(iso) {
   const d = new Date(iso);
@@ -2148,48 +2110,6 @@ function fechaCompleta(iso) {
 function formatoDinero(n) {
   if (n >= 1e6) return (n / 1e6).toLocaleString('es-ES', { maximumFractionDigits: 1 }) + ' M€';
   return numES(Math.round(n)) + ' €';
-}
-
-async function obtenerHistoriaApi() {
-  try {
-    const guardada = JSON.parse(localStorage.getItem(HISTORIA_API_KEY));
-    if (guardada && Date.now() - guardada.t < HISTORIA_API_TTL_MS) return guardada.d;
-  } catch (e) { /* sin caché */ }
-
-  const token = obtenerTokenGuardado();
-  const cabeceras = { Accept: 'application/vnd.github+json' };
-  if (token) cabeceras.Authorization = 'token ' + token;
-  const repo = 'https://api.github.com/repos/' + GH_OWNER + '/' + GH_REPO;
-  const pedir = async url => {
-    const r = await fetch(url, { headers: cabeceras });
-    if (!r.ok) throw new Error('HTTP ' + r.status);
-    return r;
-  };
-  // Nº de elementos = número de la última página con per_page=1; la primera subida es esa misma página.
-  const contarCommits = async ruta => {
-    const r = await pedir(repo + '/commits?path=' + ruta + '&per_page=1');
-    const m = (r.headers.get('Link') || '').match(/[?&]page=(\d+)>; rel="last"/);
-    const n = m ? Number(m[1]) : (await r.json()).length;
-    const primero = (await (await pedir(repo + '/commits?path=' + ruta + '&per_page=1&page=' + n)).json())[0];
-    return { n, primera: primero && primero.commit.committer.date };
-  };
-  const flujo = 'monitor_licitaciones.yml';
-  const [script, visor, todas, exitosas, revisiones] = await Promise.all([
-    contarCommits('fetch_licitaciones.py'),
-    contarCommits('index.html'),
-    pedir(repo + '/actions/workflows/' + flujo + '/runs?per_page=1').then(r => r.json()),
-    pedir(repo + '/actions/workflows/' + flujo + '/runs?per_page=1&status=success').then(r => r.json()),
-    pedir(repo + '/actions/workflows/revision_ia.yml/runs?per_page=1&status=success').then(r => r.json()),
-  ]);
-  const primeraEjecucion = (await (await pedir(repo + '/actions/workflows/' + flujo + '/runs?per_page=1&page=' + todas.total_count)).json()).workflow_runs[0];
-  const d = {
-    script, visor,
-    ejecuciones: todas.total_count, lecturas: exitosas.total_count,
-    primeraEjecucion: primeraEjecucion && primeraEjecucion.created_at,
-    revisionesIA: revisiones.total_count,
-  };
-  try { localStorage.setItem(HISTORIA_API_KEY, JSON.stringify({ t: Date.now(), d })); } catch (e) { /* sin caché */ }
-  return d;
 }
 
 function tarjetasHistoria(lista) {
@@ -2247,7 +2167,7 @@ function tarjetasHistoria(lista) {
 async function completarHistoriaApi() {
   const poner = (k, txt) => document.querySelectorAll('[data-hist="' + k + '"]').forEach(e => { e.textContent = txt; });
   try {
-    const h = await obtenerHistoriaApi();
+    const h = await Backend.historiaMonitor();
     const versiones = v => numES(v.n) + (v.primera ? ' · la primera, el ' + new Date(v.primera).toLocaleDateString('es-ES', { day: 'numeric', month: 'long' }) : '');
     if (h.primeraEjecucion) {
       const dias = Math.max(0, Math.floor((Date.now() - new Date(h.primeraEjecucion)) / 86400000));
@@ -2419,11 +2339,7 @@ function renderVista() {
   }
 }
 
-// Repo de GitHub donde vive este visor y filtro_config.json (ajustar si cambia el origen/rama).
-const GH_OWNER = 'CarlosLCAI';
-const GH_REPO = 'Monitor-de-Licitaciones';
-const GH_BRANCH = 'main';
-const GH_TOKEN_KEY = 'monitorLicitaciones.githubToken';
+// El repositorio, el token y todas las llamadas a GitHub viven en backend.js (objeto Backend).
 
 // Códigos oficiales CODICE (contrataciondelestado.es) para tipo de contrato y tipo de procedimiento.
 const TIPOS_CONTRATO = [
@@ -2538,63 +2454,31 @@ function pintarModalFiltro(cfg) {
   renderCheckboxGrid('grid-estados', ESTADOS_LICITACION, cfg && cfg.estados_permitidos);
 
   document.getElementById('f-token').value = '';
-  document.getElementById('f-nombre-usuario').value = obtenerNombreLocal();
+  document.getElementById('f-nombre-usuario').value = Backend.nombreLocal();
   document.getElementById('guardar-estado').textContent = '';
   document.getElementById('guardar-estado').className = '';
   actualizarEstadoToken();
 }
 
-function obtenerTokenGuardado() {
-  return localStorage.getItem(GH_TOKEN_KEY) || '';
-}
-
-// Cada persona usa su propio token de GitHub; GitHub dice a qué usuario pertenece, y así se sabe
-// quién marca cada revisión. Quien no sea el propietario del repo se muestra con su inicial en
-// vez del check; INICIALES_USUARIOS permite fijarla ('usuario-github-en-minúsculas': 'K'). Si no
-// está en la lista se usa la primera letra de su usuario de GitHub.
+// Quién usa el visor y cómo se firma lo que hace lo decide Backend (backend.js). Quien no sea el propietario
+// se muestra con su inicial en vez del check; INICIALES_USUARIOS permite fijarla ('usuario-en-minúsculas': 'K').
+// Si no está en la lista se usa la primera letra del nombre.
 const INICIALES_USUARIOS = {};
-let usuarioGitHubCache = null;
-
-async function obtenerUsuarioGitHub(token) {
-  if (usuarioGitHubCache && usuarioGitHubCache.token === token) return usuarioGitHubCache.login;
-  const resp = await fetch('https://api.github.com/user', {
-    headers: { Authorization: `token ${token}`, Accept: 'application/vnd.github+json' },
-    cache: 'no-store',
-  });
-  if (!resp.ok) throw new Error('HTTP ' + resp.status);
-  const login = (await resp.json()).login;
-  usuarioGitHubCache = { token, login };
-  return login;
-}
 
 function inicialDeUsuario(login) {
   if (!login) return '';
   return (INICIALES_USUARIOS[login.toLowerCase()] || login.charAt(0)).toUpperCase();
 }
 
-// Si varias personas comparten un token, GitHub las ve como el mismo usuario. Entonces cada una
-// escribe su nombre en el visor (se guarda solo en su navegador) y ese nombre manda sobre el
-// usuario de GitHub al firmar la revisión.
-const NOMBRE_USUARIO_KEY = 'monitorLicitaciones.nombreUsuario';
-
-function obtenerNombreLocal() {
-  try { return localStorage.getItem(NOMBRE_USUARIO_KEY) || ''; } catch (e) { return ''; }
-}
-
-async function obtenerNombreRevisor(token) {
-  return obtenerNombreLocal() || obtenerUsuarioGitHub(token);
-}
-
 function actualizarEstadoToken() {
   const el = document.getElementById('token-status');
-  const token = obtenerTokenGuardado();
-  if (token) {
-    const nombreLocal = obtenerNombreLocal();
+  if (Backend.tieneCredenciales()) {
+    const nombreLocal = Backend.nombreLocal();
     el.textContent = 'Token configurado ✓' + (nombreLocal ? ' · firmas como: ' + nombreLocal : '');
     el.className = 'token-status ok';
     if (!nombreLocal) {
-      obtenerUsuarioGitHub(token).then(login => {
-        if (obtenerTokenGuardado() === token && !obtenerNombreLocal()) el.textContent = 'Token configurado ✓ · usuario de GitHub: ' + login;
+      Backend.cuentaRemota().then(login => {
+        if (Backend.tieneCredenciales() && !Backend.nombreLocal()) el.textContent = 'Token configurado ✓ · usuario de GitHub: ' + login;
       }).catch(() => {});
     }
   } else {
@@ -2623,64 +2507,6 @@ function leerFiltroDelFormulario() {
   };
 }
 
-function utf8ToBase64(str) {
-  const bytes = new TextEncoder().encode(str);
-  let binario = '';
-  bytes.forEach(b => { binario += String.fromCharCode(b); });
-  return btoa(binario);
-}
-
-async function guardarFiltroEnGitHub(nuevoCfg, archivoConfig, intentosMax = 3) {
-  const token = obtenerTokenGuardado();
-  if (!token) throw new Error('Configura primero un token de GitHub.');
-
-  const apiUrl = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${archivoConfig}`;
-  const cabeceras = {
-    Authorization: `token ${token}`,
-    Accept: 'application/vnd.github+json',
-  };
-  const contenido = JSON.stringify(nuevoCfg, null, 2) + '\n';
-
-  for (let intento = 1; intento <= intentosMax; intento++) {
-    const actual = await fetch(`${apiUrl}?ref=${GH_BRANCH}`, { headers: cabeceras, cache: 'no-store' });
-    let sha; // sin valor = el archivo no existe todavía, se creará de cero
-    if (actual.status !== 404) {
-      if (!actual.ok) {
-        throw new Error(`No se pudo leer ${archivoConfig} en GitHub (HTTP ${actual.status}). Revisa el token y el nombre del repo.`);
-      }
-      sha = (await actual.json()).sha;
-    }
-
-    const cuerpoPut = {
-      message: `Actualiza ${archivoConfig} desde el visor`,
-      content: utf8ToBase64(contenido),
-      branch: GH_BRANCH,
-    };
-    if (sha) cuerpoPut.sha = sha;
-
-    const resp = await fetch(apiUrl, {
-      method: 'PUT',
-      headers: cabeceras,
-      body: JSON.stringify(cuerpoPut),
-    });
-
-    if (resp.ok) return resp.json();
-
-    if (resp.status === 409 && intento < intentosMax) {
-      continue; // otro cambio llegó primero; reintenta con el sha más reciente
-    }
-
-    const err = await resp.json().catch(() => ({}));
-    throw new Error(`Error al guardar (HTTP ${resp.status}): ${err.message || 'sin detalle'}`);
-  }
-}
-
-function base64ToUtf8(b64) {
-  const binario = atob(b64.replace(/\n/g, ''));
-  const bytes = Uint8Array.from(binario, c => c.charCodeAt(0));
-  return new TextDecoder('utf-8').decode(bytes);
-}
-
 // Marcas de revisión (Revisado / Descartado): cada una se aplica a la licitación en TODOS los
 // filtros donde aparece. Los campos viven en cada registro del histórico de cada filtro.
 const CAMPOS_MARCA = {
@@ -2698,51 +2524,6 @@ const TEXTO_MARCAR = {
   descartado: 'Descartar: sale de «Última lectura» y «En plazo» y solo se ve en «Todas»',
 };
 const TEXTO_GUARDADO = { revisado: 'revisión humana', presentado: 'presentación', ganada: 'adjudicación', descartado: 'descarte', carpeta: 'descarga de la carpeta' };
-
-async function guardarCamposEnFiltro(filtroId, folderId, campos, mensaje, intentosMax = 3) {
-  const token = obtenerTokenGuardado();
-  const desc = descriptorFiltro(filtroId);
-  const archivo = rutaFiltro(desc, 'historico.json');
-  const apiUrl = `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${archivo}`;
-  const cabeceras = { Authorization: `token ${token}`, Accept: 'application/vnd.github+json' };
-
-  for (let intento = 1; intento <= intentosMax; intento++) {
-    const actual = await fetch(`${apiUrl}?ref=${GH_BRANCH}`, { headers: cabeceras, cache: 'no-store' });
-    if (!actual.ok) {
-      throw new Error(`No se pudo leer ${archivo} en GitHub (HTTP ${actual.status}). Revisa el token y el nombre del repo.`);
-    }
-    const actualData = await actual.json();
-    const historicoRemoto = JSON.parse(base64ToUtf8(actualData.content));
-
-    let tocados = 0;
-    historicoRemoto.forEach(r => {
-      if (r.folder_id === folderId) { Object.assign(r, campos); tocados++; }
-    });
-    if (!tocados) return null; // este filtro ya no contiene la licitación
-
-    const contenido = JSON.stringify(historicoRemoto, null, 2) + '\n';
-    const resp = await fetch(apiUrl, {
-      method: 'PUT',
-      headers: cabeceras,
-      body: JSON.stringify({
-        message: mensaje + ` (${archivo})`,
-        content: utf8ToBase64(contenido),
-        sha: actualData.sha,
-        branch: GH_BRANCH,
-      }),
-    });
-
-    if (resp.ok) return historicoRemoto;
-
-    if (resp.status === 409 && intento < intentosMax) {
-      continue; // otro cambio llegó primero; reintenta con la versión más reciente
-    }
-
-    const err = await resp.json().catch(() => ({}));
-    throw new Error(`Error al guardar (HTTP ${resp.status}): ${err.message || 'sin detalle'}`);
-  }
-  throw new Error('Hubo conflictos al guardar en GitHub; inténtalo de nuevo.');
-}
 
 async function asegurarFiltrosCargados() {
   await Promise.all(filtrosManifest.map(async f => {
@@ -2779,8 +2560,7 @@ function unificarMarcas() {
 }
 
 async function guardarMarca(folderId, tipo, valor) {
-  const token = obtenerTokenGuardado();
-  if (!token) throw new Error('Configura primero un token de GitHub.');
+  if (!Backend.tieneCredenciales()) throw new Error('Configura primero un token de GitHub.');
   await asegurarFiltrosCargados();
 
   const c = CAMPOS_MARCA[tipo];
@@ -2788,7 +2568,7 @@ async function guardarMarca(folderId, tipo, valor) {
     .some(r => r.folder_id === folderId));
   if (!objetivos.length) throw new Error('No se encontró esta licitación en ningún filtro (recarga la página).');
 
-  const por = valor ? await obtenerNombreRevisor(token).catch(() => null) : null;
+  const por = valor ? await Backend.usuarioActual().catch(() => null) : null;
   const fecha = valor ? new Date().toISOString() : null;
   const campos = { [c.valor]: valor, [c.fecha]: fecha, [c.por]: por };
   const mensaje = `${valor ? 'Marca' : 'Desmarca'} ${TEXTO_GUARDADO[tipo]} de ${folderId}`;
@@ -2796,7 +2576,7 @@ async function guardarMarca(folderId, tipo, valor) {
   const errores = [];
   for (const f of objetivos) {
     try {
-      const historico = await guardarCamposEnFiltro(f.id, folderId, campos, mensaje);
+      const historico = await Backend.actualizarHistorico(rutaFiltro(descriptorFiltro(f.id), 'historico.json'), folderId, campos, mensaje);
       if (historico) {
         cacheFiltros[f.id].historico = historico;
         recordarMarcaPendiente(f.id, folderId, tipo, valor, fecha, por);
@@ -2897,11 +2677,11 @@ function rutaFiltro(desc, nombreArchivo) {
 
 async function cargarDatosFiltro(desc) {
   const [hist, meta, cfg] = await Promise.all([
-    fetch('./' + rutaFiltro(desc, 'historico.json'), { cache: 'no-cache' }).then(r => r.ok ? r.json() : []).catch(() => []),
-    fetch('./' + rutaFiltro(desc, 'ultima_lectura.json'), { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).catch(() => null),
-    fetch('./' + rutaFiltro(desc, 'config.json'), { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).catch(() => null),
+    Backend.leerJson(rutaFiltro(desc, 'historico.json')),
+    Backend.leerJson(rutaFiltro(desc, 'ultima_lectura.json')),
+    Backend.leerJson(rutaFiltro(desc, 'config.json')),
   ]);
-  return { historico: aplicarRevisionesPendientes(desc.id, hist), meta, cfg };
+  return { historico: aplicarRevisionesPendientes(desc.id, hist || []), meta, cfg };
 }
 
 function aplicarDatosFiltro(datosCargados) {
@@ -2993,13 +2773,8 @@ async function cambiarFiltroActivo(id) {
 }
 
 async function iniciarVisor() {
-  let manifiesto = [];
-  try {
-    const resp = await fetch('./filtros.json');
-    manifiesto = resp.ok ? (await resp.json()).filtros || [] : [];
-  } catch (e) {
-    manifiesto = [];
-  }
+  const publicado = await Backend.leerJson('filtros.json');
+  let manifiesto = (publicado && publicado.filtros) || [];
 
   if (!manifiesto.length) {
     // Compatibilidad hacia atrás si filtros.json todavía no existe.
@@ -3008,11 +2783,8 @@ async function iniciarVisor() {
   filtrosManifest = manifiesto;
 
   await Promise.all(filtrosManifest.map(async f => {
-    try {
-      const r = await fetch('./' + rutaFiltro(f, 'config.json'));
-      const cfg = r.ok ? await r.json() : null;
-      f.nombre = cfg && cfg.nombre;
-    } catch (e) { /* se muestra "Filtro <id>" si no se puede leer el nombre */ }
+    const cfg = await Backend.leerJson(rutaFiltro(f, 'config.json'));
+    f.nombre = cfg && cfg.nombre; // si no se puede leer, se muestra "Filtro <id>"
   }));
 
   filtroActivoId = ID_VISTA_TODOS;
@@ -3049,9 +2821,8 @@ document.getElementById('btn-cerrar-modal').addEventListener('click', () => {
 document.getElementById('btn-guardar-token').addEventListener('click', () => {
   const valor = document.getElementById('f-token').value.trim();
   const nombre = document.getElementById('f-nombre-usuario').value.trim();
-  if (!valor && nombre === obtenerNombreLocal()) return;
-  if (valor) localStorage.setItem(GH_TOKEN_KEY, valor);
-  if (nombre) localStorage.setItem(NOMBRE_USUARIO_KEY, nombre); else localStorage.removeItem(NOMBRE_USUARIO_KEY);
+  if (!valor && nombre === Backend.nombreLocal()) return;
+  Backend.guardarCredenciales(valor, nombre);
   document.getElementById('f-token').value = '';
   actualizarEstadoToken();
 });
@@ -3067,7 +2838,7 @@ document.getElementById('btn-guardar-filtro').addEventListener('click', async ()
   estadoEl.textContent = 'Guardando en GitHub…';
 
   try {
-    await guardarFiltroEnGitHub(nuevoCfg, rutaFiltro(desc, 'config.json'));
+    await Backend.guardarConfig(rutaFiltro(desc, 'config.json'), nuevoCfg);
     filtroConfigActual = nuevoCfg;
     if (cacheFiltros[filtroActivoId]) cacheFiltros[filtroActivoId].cfg = nuevoCfg;
     desc.nombre = nuevoCfg.nombre;
