@@ -7897,7 +7897,7 @@
     ],
     "organo": "Dirección General del Palacio de Ferias y Congresos de Málaga",
     "importe": "51940",
-    "importe_num": 51940.0,
+    "importe_num": 51940,
     "fecha_limite": "2026-11-20",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -7943,7 +7943,7 @@
     ],
     "organo": "Concejalía Delegada en Materia de Contratación del Ayuntamiento de Torremolinos",
     "importe": "293400",
-    "importe_num": 293400.0,
+    "importe_num": 293400,
     "fecha_limite": "2026-12-02",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -8107,7 +8107,7 @@
     "docs_adicionales": [],
     "organo": "Alcaldía del Ayuntamiento de Los Barrios (Cádiz)",
     "importe": "111000",
-    "importe_num": 111000.0,
+    "importe_num": 111000,
     "fecha_limite": "2026-11-20",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -8393,7 +8393,7 @@
     "docs_adicionales": [],
     "organo": "Dirección Gerente de Aguas Vega Sierra Elvira, S.A.",
     "importe": "78303",
-    "importe_num": 313212.0,
+    "importe_num": 313212,
     "fecha_limite": "2026-12-09",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -8401,6 +8401,9 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-11-08"
+    "fecha_captura": "2026-11-08",
+    "revisado_humano": true,
+    "revisado_fecha": "2026-11-09T16:40:36.543Z",
+    "revisado_por": "CarlosLCAI"
   }
 ]
