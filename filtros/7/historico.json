@@ -4768,7 +4768,10 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-11-06"
+    "fecha_captura": "2026-11-06",
+    "revisado_humano": true,
+    "revisado_fecha": "2026-11-09T16:20:27.083Z",
+    "revisado_por": "CarlosLCAI"
   },
   {
     "folder_id": "Expte.5631/2026",
@@ -4929,7 +4932,7 @@
     ],
     "organo": "Alcaldía del Ayuntamiento de Punta umbría",
     "importe": "105640",
-    "importe_num": 105640.0,
+    "importe_num": 105640,
     "fecha_limite": "2026-11-23",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
