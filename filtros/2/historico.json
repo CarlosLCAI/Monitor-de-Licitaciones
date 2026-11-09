@@ -134,7 +134,215 @@
     "estado_anterior": "PUB",
     "resultado": null,
     "estado_cambiado_el": "2026-10-16",
-    "estado_updated": "2026-10-16T13:43:59.946+02:00"
+    "estado_updated": "2026-10-16T13:43:59.946+02:00",
+    "revision_ia": {
+      "informe": "## Bloque 1 – Características Principales del Contrato\n\n### Objeto de la licitación\nServicio de asistencia técnica para la **redacción del Plan Básico de Ordenación Municipal (PBOM) de Turre (Almería)**, adaptado a la Ley 7/2021 (LISTA). Abarca todo el proceso hasta la **aprobación definitiva** y la versión final del plan. El contrato es de servicios, procedimiento abierto, tramitación ordinaria, plurianual y con varios criterios. **CPV 71400000-2**. Órgano de contratación: Junta de Gobierno Local del Ayuntamiento de Turre.\n\nObjetivos y trabajos incluidos:\n- Redacción del instrumento principal y de la documentación complementaria exigible.\n- Documentación de la Evaluación Ambiental Estratégica ordinaria: Documento Inicial Estratégico, Estudio Ambiental Estratégico y documentación para la Declaración Ambiental Estratégica.\n- Evaluación del Impacto en la Salud.\n- Plan y programa de Participación Ciudadana.\n- Estudios sectoriales: acústico, hidrológico e hidráulico, arqueológico, paisajístico, movilidad, contaminación de suelos y atmosférica, entre otros (según el PPT).\n- Consultoría y asesoramiento técnico y jurídico al Ayuntamiento hasta la entrada en vigor del plan, incluso si se impugna (según el PPT).\n\n**PPT:** el texto recibido llega hasta la p. 25 de 35. No incluye el **Anexo III del PPT**, que contiene los criterios de adjudicación y los umbrales. Tampoco incluye los apartados del Anexo I del PPT posteriores a la memoria de información (p. 25 en adelante).\n\n### División en lotes\nNo hay división en lotes. El PCAP la justifica por la unidad funcional de los trabajos (art. 99.3 LCSP).\n\n### Características del contrato\n\n| Concepto | Dato |\n|---|---|\n| Presupuesto base de licitación | **208.501,15 €** (IVA incluido) |\n| Importe sin IVA / IVA 21 % | **172.315 €** / 36.186,15 € |\n| Valor estimado | **172.315 €** (sin prórrogas ni modificaciones previstas) |\n| Duración | **48 meses** desde el día siguiente a la formalización, en **8 fases** vinculadas a hitos de pago |\n| Prórroga | No se contempla |\n| Plazos parciales máximos (netos) | 1 + 2 + 4 + 6 + 4 + 2 + 2 + 1 = **22 meses**; el resto depende de la tramitación administrativa |\n| Variantes | No se admiten |\n| Financiación | Fondos propios del Ayuntamiento, plurianual 2026-2030 |\n| Presentación | Electrónica, exclusivamente por la Plataforma de Contratación del Sector Público, en **3 archivos (A, B y C)**. Plazo de **20 días hábiles** desde la publicación del anuncio en el perfil del contratante |\n| Garantías | Provisional: no. Definitiva: 5 % del precio final ofertado, sin IVA. Complementaria: no |\n| Plazo de garantía | 6 meses |\n| Seguro de RC | Importe anual mínimo igual al valor estimado |\n\n- Fecha límite exacta de presentación y plazo de consultas: **no localizados** en el texto recibido.\n- Anualidades (IVA incl.): 2026 20.850,07 €; 2027 41.700,23 €; 2028 52.125,30 €; 2029 31.275,50 €; 2030 62.550,35 €.\n- ⚠ REVISAR: las anualidades suman 208.501,45 €, frente a 208.501,15 € del presupuesto (diferencia de 0,30 €). El PCAP dice además que el gasto no puede aplicarse a más de cuatro ejercicios, pero reparte el gasto en cinco (2026-2030).\n- ⚠ REVISAR: en el Anexo I el importe sin IVA figura en letra como \"(C €)\" y sin cifra. La cifra 172.315 € se deduce del valor estimado y de la tabla de costes.\n- ⚠ REVISAR: los plazos parciales suman 22 meses y la duración del contrato es de 48 meses. La diferencia son los tiempos de tramitación administrativa, que no se detallan.\n- Trabajos específicos obligatorios:\n  - Evaluación Ambiental Estratégica ordinaria.\n  - Evaluación del Impacto en la Salud.\n  - Participación ciudadana.\n  - Estudios arqueológico, acústico, hídrico y de movilidad.\n  - Cartografía a escala 1/1000 y 1/5000 con toma de datos in situ.\n  - Entrega en formato digital (DWG/DXF/DGN, GeoPackage, PDF y DOCX) y 2 ejemplares en papel por fase.\n- Otros datos del PCAP:\n  - **UTE:** permitida (Anexo VIII).\n  - **Cesión:** permitida, con el 20 % ejecutado y los requisitos del art. 214 LCSP.\n  - **Revisión de precios:** no se prevé.\n  - **Clasificación empresarial:** no se exige.\n\n## Bloque 2 – Solvencia\n\n### Económica y financiera\n- **Cifra anual de negocios** del año de mayor volumen de los últimos 3 ejercicios, igual o superior a **1,5 × valor estimado = 258.472,50 €** (el Anexo I redondea a 258.472 €).\n- **Acreditación:** declaración de la cifra de negocios más las cuentas anuales de los 3 últimos años, aprobadas y depositadas en el Registro Mercantil. Se acepta el envío telemático desde el Registro Mercantil.\n- **Seguro de RC:** póliza vigente durante todo el contrato, con importe anual mínimo igual al valor estimado (**172.315 €**). Se presenta como compromiso en el Anexo III, punto 8.\n- **Clasificación:** no se exige.\n- **Medios externos (art. 75 LCSP):** se permiten.\n\n### Técnica y profesional\n- **Experiencia de la empresa:** relación firmada de los principales servicios de **igual o similar naturaleza** de los **3 últimos años**, con descripción, importe, fechas y destinatario.\n  - Se acompaña de certificados de buena ejecución expedidos o visados por el órgano competente, o por el sujeto privado.\n  - **Mínimo:** importe anual acumulado en el año de mayor ejecución **≥ 70 % de la anualidad media del contrato**.\n  - Con 4 años, la anualidad media es 43.078,75 € y el 70 % son **≈ 30.155 €**. Con 5 anualidades serían ≈ 24.124 €.\n  - ⚠ REVISAR: el PCAP no calcula la cifra ni define \"similar naturaleza\". Conviene consultarlo al órgano.\n- **Empresas de nueva creación** (menos de 5 años): régimen especial del art. 89.1 b)-g) LCSP.\n- **Equipo mínimo (según el PPT, 6.1)**, todos con titulación universitaria y sin mención a colegiación:\n  1. Director/a-coordinador/a: titulación habilitante en Arquitectura o Ingeniería de Caminos, o equivalente.\n  2. Arquitecto/a: solo si el director no lo es.\n  3. Técnico/a medioambiental: con capacidad técnica conforme al art. 16 de la Ley 21/2013.\n  4. Licenciado/a en Derecho.\n- **Acreditación del equipo:** compromiso de adscripción (Anexo V) y acreditación de los medios personales tras el requerimiento. El PPT (6.4) exige acreditar que se cuenta con el equipo y que se cumple la solvencia técnica del PCAP. Las sustituciones requieren aceptación del Ayuntamiento con perfil equivalente.\n- **Subcontratación:**\n  - Se puede subcontratar **solo** los estudios complementarios exigidos por la legislación sectorial.\n  - **No** se puede subcontratar la elaboración del instrumento de ordenación.\n  - El PCAP no indica expresamente qué puestos del equipo mínimo son subcontratables. Sí permite acreditar la solvencia con medios externos (4.4) y la UTE.\n  - Cambiar el equipo sin autorización es infracción muy grave.\n- ⚠ REVISAR — criterio de mejora de equipo, no confundir con el mínimo de solvencia: los criterios automáticos A (experiencia complementaria del equipo, 20 pts), B (mejora del equipo mínimo, 8 pts) y C (experiencia del resto de miembros, 7 pts) son criterios de adjudicación. Su detalle está en el Anexo III del PPT, que no se ha recibido.\n\n## Bloque 3 – Criterios de Adjudicación\n\nTotal **100 puntos**: 35 por juicio de valor y 65 automáticos (20 de precio y 45 de criterios cualitativos).\n\n### Automáticos (fórmulas)\n\n**Proposición económica (máx. 20 puntos):** `Po = Pe × OEM / OEV`\n- Po: puntos de la oferta evaluada.\n- Pe: 20 puntos.\n- OEM: oferta económica más baja no desproporcionada.\n- OEV: oferta económica evaluada.\n- Quedan excluidas las ofertas por encima del presupuesto de licitación.\n\n**Ofertas anormalmente bajas:** se aplica el art. 85 del RGLCAP con los porcentajes **reducidos al 5 %**, además de la Recomendación 8/2002 de la Junta de Andalucía.\n\n**Criterios cualitativos, propuesta técnica (máx. 45 puntos)**, valorados según el Anexo III del PPT, **no recibido**:\n\n| Criterio | Puntos |\n|---|---|\n| A. Experiencia complementaria de los miembros del equipo redactor | 20 |\n| B. Mejora del equipo mínimo requerido | 8 |\n| C. Experiencia y especialización complementaria del resto de miembros | 7 |\n| D. Prestaciones complementarias | 10 |\n\nLas reglas de puntuación de estos criterios no están localizadas.\n\n### Juicio de valor\n**Máximo 35 puntos.** Se valora en escala: Óptimo 100 %, Satisfactorio 75 %, Suficiente 50 %, Insuficiente 0 %. Se considera la oferta en relación con el conjunto de las presentadas.\n\n**Memoria técnica (15 puntos):**\n\n| Apartado | Puntos |\n|---|---|\n| A. Metodología general | 5 |\n| B. Programación | 4 |\n| C. Medios técnicos | 3 |\n| D. Programa de participación ciudadana | 3 |\n\n**Memoria de diagnóstico previo (20 puntos):**\n\n| Apartado | Puntos |\n|---|---|\n| A. Descripción general del municipio y asentamientos | 3 |\n| B. Planeamiento vigente y su ejecución | 3 |\n| C. Condicionantes medioambientales | 2 |\n| D. Estructura urbana y edificación | 2 |\n| E. Espacios libres y equipamiento comunitario | 2 |\n| F. Elementos a proteger | 2 |\n| G. Movilidad y accesibilidad | 2 |\n| H. Principales problemas urbanísticos | 2 |\n| I. Líneas de trabajo y perspectiva de género | 2 |\n\n⚠ REVISAR: los apartados de la memoria de diagnóstico suman 18 puntos, no los 20 anunciados.\n\n**Límites de extensión** (no se valoran las memorias que los superen):\n- Memoria técnica: **20 páginas A4** más **2 A3**.\n- Memoria de diagnóstico: **30 páginas A4** más **5 A3**.\n- Formato: Arial 10 como mínimo, interlineado 1,5.\n- Se excluye la oferta que omita alguna de las dos memorias.\n\n### Umbrales mínimos de puntuación\n- **Juicio de valor:** mínimo de **5 puntos** (apartado 3 del Anexo III del PPT, no recibido). Quien no lo alcance queda excluido.\n- **Criterios automáticos** (oferta económica y propuesta técnica): mínimo de **12,50 puntos**. Quien no lo alcance queda excluido.\n- ⚠ REVISAR: el PCAP remite ambos umbrales al Anexo III del PPT, no recibido. Conviene verificar si el umbral de 12,5 puntos se aplica a toda la suma o solo a la parte cualitativa.\n\n**Desempate** (art. 147 LCSP), por este orden:\n1. Mayor porcentaje de trabajadores con discapacidad.\n2. Menor porcentaje de contratos temporales.\n3. Mayor porcentaje de mujeres en plantilla.\n4. Mayor puntuación en el criterio de mayor peso.\n5. Sorteo.\n\n## Bloque 4 – Forma de Pago\n\n- **Pagos parciales** contra factura, una por fase. Se factura por FACe tras la conformidad del responsable del contrato o transcurridos 10 días hábiles sin ella. Códigos DIR3 (OC, OG y UT): L01040932.\n\n| Fase | % del total |\n|---|---|\n| I. Programa de trabajo | 5 % |\n| II. Diagnóstico | 5 % |\n| III. Avance y DIE | 20 % |\n| IV. Aprobación inicial y EAE | 25 % |\n| V. Información pública | 10 % |\n| VI. Declaración Ambiental Estratégica | 5 % |\n| VII. Aprobación definitiva | 20 % |\n| VIII. Versión final | 10 % |\n\nSuma: 100 %. El PPT (5.2) recoge los mismos hitos. \"Entrega\" es presentar la documentación en el Registro y \"recepción\" es la conformidad del responsable.\n\n**Condiciones adicionales:**\n- **Penalidades:**\n  - Leves: 0,5 % a 2 % del precio sin IVA.\n  - Graves: 2 % a 5 %.\n  - Muy graves: más del 5 % y hasta el 10 %, o resolución.\n  - Son muy graves el cambio no autorizado del equipo, el incumplimiento de plazos y el incumplimiento de las condiciones de subcontratación.\n  - La subcontratación indebida lleva una penalidad del **50 % del importe del subcontrato**.\n- **Revisión de precios:** no se prevé.\n- **Modificaciones previstas:** ninguna (0 €).\n- **Condiciones especiales de ejecución:** mantener las condiciones laborales y dar al personal formación mínima de 10 h sobre cambios normativos.\n- **Subcontratistas:** hay que justificar con cada factura el pago a los subcontratistas.\n- **Interés de demora:** el PCAP lo regula en una cláusula 22, cuyo texto no se ha recibido.\n- **Reparos del PPT:** una nueva información pública y la contestación a alegaciones no suponen modificación del precio. Los cambios legislativos sobrevenidos están incluidos en el objeto del contrato.\n\n## Bloque 5 – Documentación a Presentar\n\n### Archivo electrónico \"A\" – Documentación administrativa\n- **DEUC** (Anexo II): declaración responsable firmada. Cada empresa de cuya solvencia se dependa presenta la suya.\n- **Compromiso de UTE** (Anexo VIII): solo si se concurre en unión temporal. Incluye una declaración por empresa y el compromiso de constitución.\n- **Declaración de no concurrencia de prohibiciones de contratar** (art. 71.1 d) y pertenencia a grupo empresarial (Anexo IV).\n- **Compromiso de adscripción de medios personales y materiales** (Anexo V): director-coordinador, equipo e identificación con titulación.\n- **Declaración de sometimiento a jurisdicción española** (Anexo XII): solo empresas extranjeras.\n\n### Archivo electrónico \"B\" – Criterios de juicio de valor\n- **Índice numerado, sellado y firmado.**\n- **Memoria técnica** (Anexo VI y Anexo III del PPT): metodología, programación, medios técnicos y participación ciudadana. Máximo 20 páginas A4 más 2 A3.\n- **Memoria de diagnóstico previo**: apartados A a I. Máximo 30 páginas A4 más 5 A3.\n\n### Archivo electrónico \"C\" – Criterios automáticos\n- **Anexo VII – Proposición económica**: precio neto, % de IVA y total, en cifras y letras. Incluye la declaración sobre subcontratación de servicios de datos y la declaración de cumplimiento.\n- **Criterios cualitativos (propuesta técnica)**: criterios A a D, según el Anexo III del PPT.\n- Cada licitador puede presentar **una sola proposición**. No cabe concurrir a la vez solo y en UTE, ni figurar en más de una UTE.\n- ⚠ REVISAR: el PCAP dice que los medios materiales ofertados están descritos en el archivo \"C\" (4.3), pero la \"Memoria técnica\" con los medios técnicos va en el archivo \"B\".\n\n### Documentación posterior (solo el propuesto como adjudicatario)\nSe presenta en **10 días hábiles** desde el requerimiento, por la Oficina Virtual del Ayuntamiento:\n- **Personalidad y capacidad:** NIF, escrituras o certificado del Registro Mercantil.\n- **Representación:** poder bastanteado (tasa de 15 €) o ROLECE.\n- **Solvencia económica:** declaración de cifra de negocios y cuentas anuales de los 3 últimos años.\n- **Solvencia técnica:** relación firmada de servicios y certificados de buena ejecución.\n- **Declaración de no estar incurso en prohibiciones** del art. 71 LCSP.\n- **Compromiso de póliza de RC** por el valor estimado.\n- **Acreditación de los medios personales y materiales** adscritos, y relación de medios (art. 76.2 LCSP).\n- **Compromisos de otras empresas** (art. 75.2 LCSP), si se recurre a ellas.\n- **Garantía definitiva:** 5 % del precio final ofertado, sin IVA.\n- **Certificados de la AEAT y de la Seguridad Social** de estar al corriente.\n- **Alta en el IAE** (o último recibo más declaración responsable).\n- **Empresas extranjeras:** certificaciones tributarias y sociales del país de origen.\n\n## Bloque 6 – Conclusiones / Análisis Preliminar\n\n**Precio y duración:**\n- 172.315 € sin IVA para 48 meses equivalen a unos **3.590 €/mes**. Sobre los 22 meses de trabajo neto serían unos **7.830 €/mes**.\n- El alcance es amplio: PBOM completo, EAE ordinaria, Impacto en la Salud, participación ciudadana, múltiples estudios sectoriales, asesoramiento jurídico hasta la entrada en vigor y obligación de adaptarse a cambios normativos.\n- El presupuesto parece ajustado para un equipo de 4 especialistas y varios estudios subcontratados.\n- El 45 % del precio se cobra al final de las fases III y IV.\n- Los plazos reales dependen de las administraciones, no del contratista, y las penalidades por demora son altas.\n\n**Comparación con el perfil de CAI:**\n- **Solvencia económica:** CAI usa la cifra mayor, **1.876.061 €** (2024), frente a los 258.472,50 € exigidos. Cumple con holgura. Pendiente: aclarar la discrepancia con el certificado de la AEAT (1.559.018 €), que tampoco compromete el cumplimiento, y aportar las cuentas depositadas.\n- **Seguro de RC:** 2.500.000 € frente a 172.315 € exigidos. Cumple. Falta el certificado de 2026 [SIN VERIFICAR].\n- **Clasificación:** no se exige.\n- **Experiencia similar (≥ ≈ 30.155 € anuales):**\n  - Con el criterio de CPV 714 hay precedente propio: Almuñécar 2026 (CPV 71410000, 27.610 €, en solitario).\n  - Hay planeamiento de desarrollo propio con certificados de 2025: modificación del PP El Cuartón (56.000 €), PP SP-12 (100.000 €) y Plan Especial de hospital en Vélez-Málaga (122.000 €).\n  - También consta la modificación estructural de Arcos de la Frontera (certificado de 03/07/2026).\n  - La EAE del PGOM de Málaga (150.774,96 €) se hizo **en UTE** y, por criterio de la dirección, cuenta solo para naranja.\n  - No consta ningún PBOM ni PGOU completo en solitario. Esos planes fueron en UTE con García de los Reyes.\n  - Cumplimiento **parcial, a confirmar**: hay que verificar fechas de ejecución, importes por año y que el órgano acepte el planeamiento de desarrollo como \"similar\".\n- **Equipo mínimo:**\n  - **Director-coordinador:** cubierto por Enrique de la Torre (ICCP, colegiado) o Carmen Torralba (arquitecta).\n  - **Arquitecto:** Carmen Torralba, Ángela Trueba o Belén Fernández, todas colegiadas.\n  - **Técnico medioambiental:** Águeda Romeo (Graduada en Ciencias Ambientales). Hay que verificar que cumple el art. 16 de la Ley 21/2013. Carolina Ruiz queda como colaboradora externa.\n  - **Licenciado en Derecho: no consta en plantilla.** Sería una carencia a cubrir con medios externos o UTE.\n- **Medios externos:** el PCAP permite acreditar la solvencia con medios externos (4.4) y la UTE, y el PPT remite al equipo adscrito. No dice expresamente que el jurista pueda ser externo. Conviene consultarlo al órgano de contratación.\n\n### Semáforo de presentación\n**Color: NARANJA.** CAI puede presentarse, pero con una carencia concreta y cubrible.\n\n- **Requisitos cumplidos:** 5 de 7 plenamente (solvencia económica, seguro, director-coordinador, arquitecto y técnico ambiental). Experiencia similar: parcial, a verificar.\n- **Falta:** el licenciado en Derecho. El pliego permite medios externos y UTE, así que se puede cubrir con un jurista colaborador comprometido en el Anexo V, o con un socio en UTE.\n- **Experiencia en planeamiento general:** los PBOM y PGOU acreditados se hicieron en UTE con García de los Reyes. Solo cuenta como precedente en UTE.\n- ⚠ REVISAR — criterio pendiente de decidir: no hay clasificación exigida, por lo que no aplica.\n- ⚠ REVISAR: la Dirección debe confirmar que el perfil jurista puede aportarse como medio externo.\n- El Anexo III del PPT (criterios y umbrales) no se ha recibido. Debe revisarse antes de decidir la presentación definitiva.",
+      "usa_ppt": true,
+      "uso": {
+        "entrada": 98693,
+        "salida": 16222,
+        "cache_leida": 24915,
+        "cache_escrita": 0
+      },
+      "coste_estimado_usd": 0.3646,
+      "semaforo": "naranja",
+      "semaforo_motivo": "Cumplimos solvencia económica, seguro y 3 de 4 perfiles; falta el licenciado en Derecho, cubrible con medios externos o UTE según el pliego.",
+      "datos_excel": {
+        "info": {
+          "valor_estimado": 172315,
+          "iva_pct": 21,
+          "fecha_presentacion": null,
+          "plazo_ejecucion": "48 meses; 8 fases (22 meses netos de plazos parciales)",
+          "consultas": "",
+          "garantia_provisional": "No se exige",
+          "garantia_definitiva": "5% del precio final ofertado (IVA excluido)",
+          "seguro_rc": "Importe anual mínimo igual al valor estimado (172.315 €)",
+          "lotes": "No hay lotes",
+          "revision_precios": "No se prevé",
+          "plazo_garantia": "6 meses",
+          "ute": "Permitida (Anexo VIII)",
+          "subcontratacion": "Permitida salvo la elaboración del instrumento de ordenación; sí los estudios complementarios",
+          "umbral_tecnico": "Juicio de valor: mínimo 5 puntos; criterios automáticos: mínimo 12,5 puntos (según Anexo III PPT, no recibido)"
+        },
+        "solvencia": {
+          "nota": "Se permite UTE y medios externos (art. 75 LCSP). Clasificación no exigida. Anexo III del PPT no recibido (criterios y umbrales).",
+          "economica": [
+            {
+              "nombre": "Volumen anual de negocios",
+              "valor": "≥ 258.472,50 € (1,5 × VE) en el año de mayor volumen de los 3 últimos",
+              "acreditacion": "Declaración y cuentas anuales depositadas en el Registro Mercantil",
+              "cai": "cumple",
+              "cai_nota": "1.876.061 € declarado en 2024; aclarar discrepancia con certificado AEAT"
+            },
+            {
+              "nombre": "Seguro de responsabilidad civil",
+              "valor": "Importe anual mínimo igual al valor estimado (172.315 €)",
+              "acreditacion": "Compromiso de póliza; póliza tras el requerimiento",
+              "cai": "cumple",
+              "cai_nota": "2,5 M€ en Caser; falta certificado 2026"
+            }
+          ],
+          "tecnica": [
+            {
+              "nombre": "Servicios similares últimos 3 años",
+              "valor": "Importe anual acumulado en el año de mayor ejecución ≥ 70% de la anualidad media (≈ 30.155 €)",
+              "acreditacion": "Relación firmada y certificados de buena ejecución",
+              "cai": "parcial",
+              "cai_nota": "Almuñécar (27.610 €) y planeamiento de desarrollo 2025; verificar fechas y similitud. PBOM/PGOU solo en UTE"
+            }
+          ],
+          "equipo": [
+            {
+              "nombre": "Director/a-coordinador/a",
+              "valor": "Titulación habilitante en Arquitectura o Ingeniería de Caminos (o equivalente EEES)",
+              "acreditacion": "Compromiso de adscripción (Anexo V) y titulación",
+              "cai": "cumple",
+              "cai_nota": "Enrique de la Torre (ICCP) o Carmen Torralba (arquitecta)"
+            },
+            {
+              "nombre": "Arquitecto/a",
+              "valor": "Titulación habilitante en Arquitectura (si el director no lo es)",
+              "acreditacion": "Compromiso de adscripción (Anexo V) y titulación",
+              "cai": "cumple",
+              "cai_nota": "Carmen Torralba, Ángela Trueba o Belén Fernández, colegiadas"
+            },
+            {
+              "nombre": "Técnico/a medioambiental",
+              "valor": "Capacidad técnica conforme al art. 16 de la Ley 21/2013",
+              "acreditacion": "Compromiso de adscripción (Anexo V) y titulación",
+              "cai": "cumple",
+              "cai_nota": "Águeda Romeo (Graduada en Ciencias Ambientales); verificar art. 16 Ley 21/2013"
+            },
+            {
+              "nombre": "Licenciado/a en Derecho",
+              "valor": "Titulación habilitante en Derecho (o equivalente EEES)",
+              "acreditacion": "Compromiso de adscripción (Anexo V) y titulación",
+              "cai": "no",
+              "cai_nota": "No consta jurista en plantilla; cubrir con medios externos o UTE"
+            }
+          ]
+        },
+        "juicio_valor": [
+          {
+            "nombre": "Memoria técnica",
+            "puntos": 15,
+            "paginas_a4": 20,
+            "paginas_a3": 2,
+            "formato": "Arial 10 mínimo, interlineado 1,5",
+            "acreditacion": "Archivo B (Anexo VI y Anexo III PPT)",
+            "apartados": [
+              {
+                "nombre": "Metodología general",
+                "puntos": 5,
+                "filas": 1
+              },
+              {
+                "nombre": "Programación",
+                "puntos": 4,
+                "filas": 1
+              },
+              {
+                "nombre": "Medios técnicos",
+                "puntos": 3,
+                "filas": 1
+              },
+              {
+                "nombre": "Programa de participación ciudadana",
+                "puntos": 3,
+                "filas": 1
+              }
+            ]
+          },
+          {
+            "nombre": "Memoria de diagnóstico previo",
+            "puntos": 20,
+            "paginas_a4": 30,
+            "paginas_a3": 5,
+            "formato": "Arial 10 mínimo, interlineado 1,5",
+            "acreditacion": "Archivo B (Anexo VI y Anexo III PPT)",
+            "apartados": [
+              {
+                "nombre": "Descripción general del municipio y asentamientos",
+                "puntos": 3,
+                "filas": 1
+              },
+              {
+                "nombre": "Planeamiento vigente y su ejecución",
+                "puntos": 3,
+                "filas": 1
+              },
+              {
+                "nombre": "Condicionantes medioambientales",
+                "puntos": 2,
+                "filas": 1
+              },
+              {
+                "nombre": "Estructura urbana y edificación",
+                "puntos": 2,
+                "filas": 1
+              },
+              {
+                "nombre": "Espacios libres y equipamiento comunitario",
+                "puntos": 2,
+                "filas": 1
+              },
+              {
+                "nombre": "Elementos a proteger",
+                "puntos": 2,
+                "filas": 1
+              },
+              {
+                "nombre": "Movilidad y accesibilidad",
+                "puntos": 2,
+                "filas": 1
+              },
+              {
+                "nombre": "Principales problemas urbanísticos",
+                "puntos": 2,
+                "filas": 1
+              }
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "nombre": "Proposición económica",
+            "puntos": 20,
+            "formula": "Po = Pe × OEM / OEV; Po = puntos de la oferta evaluada; Pe = 20 puntos; OEM = oferta económica menor no desproporcionada; OEV = oferta económica evaluada. Excluidas las ofertas por encima del presupuesto de licitación",
+            "acreditacion": "Archivo C (Anexo VII)"
+          }
+        ],
+        "otros": [
+          {
+            "nombre": "Experiencia complementaria de los miembros del equipo redactor",
+            "puntos": 20,
+            "acreditacion": "Archivo C; detalle en Anexo III PPT (no recibido)",
+            "apartados": []
+          },
+          {
+            "nombre": "Mejora del equipo mínimo requerido",
+            "puntos": 8,
+            "acreditacion": "Archivo C; detalle en Anexo III PPT (no recibido)",
+            "apartados": []
+          },
+          {
+            "nombre": "Experiencia y especialización complementaria del resto de miembros",
+            "puntos": 7,
+            "acreditacion": "Archivo C; detalle en Anexo III PPT (no recibido)",
+            "apartados": []
+          },
+          {
+            "nombre": "Prestaciones complementarias",
+            "puntos": 10,
+            "acreditacion": "Archivo C; detalle en Anexo III PPT (no recibido)",
+            "apartados": []
+          }
+        ],
+        "umbral": "Juicio de valor: mínimo 5 puntos. Criterios automáticos (oferta económica y propuesta técnica): mínimo 12,5 puntos. Ambos según Anexo III PPT (no recibido); su incumplimiento excluye al licitador."
+      },
+      "fecha_analisis": "2026-11-09T08:01:36.545643+00:00",
+      "solicitada_por": "Belén Fernández"
+    }
   },
   {
     "folder_id": "CON-SERV-2026000064",
