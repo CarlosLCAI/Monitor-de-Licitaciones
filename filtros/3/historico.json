@@ -362,5 +362,33 @@
     "estado_anterior": "PUB",
     "estado_cambiado_el": "2026-11-07",
     "estado_updated": "2026-11-07T00:25:49.174+01:00"
+  },
+  {
+    "folder_id": "C/048/CON/2026-091",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de redacción del Plan de Movilidad Urbana Sostenible (PMUS) y Proyecto de Zona de Bajas Emisiones (ZBE) ",
+    "updated": "2026-11-09T12:38:41.987+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=EzXucPWEx4aIzo3LHNPGcQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000",
+      "71318000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1rpIfopOJtjbWecj9QM/1/Y%2BkI%2B6fkO3pV9aWPRH1/VZZnTxAS6XnARlGExpBHM9zv3vVQ2BUT7lM0XTZqEF%2BChOeNhI4qLjOQeKwtHsD9GHAj0WEJrB5sP7amrh2jBD",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wuSiMGhiFz/8HJswcgbFUyrj9WUPK%2BzkBg/5mz1Vwc8sO5CeE59LLIWKLMBe32WeAS2AHfjHSb6vT4TM9b1qM/xiY83gniNlX9rpVkU5bUh7QB3HKyQaFUExmUVQCerk",
+    "docs_adicionales": [],
+    "organo": "Junta de Gobierno del Ayuntamiento de Móstoles",
+    "importe": "85237.52",
+    "importe_num": 85237.52,
+    "fecha_limite": "2026-11-24",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-10"
   }
 ]

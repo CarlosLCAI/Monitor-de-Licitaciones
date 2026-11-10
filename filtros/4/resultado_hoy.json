@@ -1,1 +1,109 @@
-[]
+[
+  {
+    "folder_id": "264249",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "264249 - Gestión de la prevención de riesgos laborales y vigilancia de la salud, mediante servicio de prevención ajeno.",
+    "updated": "2026-11-09T14:28:16.182+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=iFooz1S3csBrhBlEHQFSKA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71317200",
+      "85147000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wk%2BywwMf/M5wKD6DnqF%2BEicsrftC/ULhR3EfAlhJSJ5G8rizERqgZIcTSLHThp1odhE8%2Bi7Z9IcyiqVjj%2BQ3nW4tfc9avGBcXxZMlk1lF8N7QB3HKyQaFUExmUVQCerk",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=cBsdd4iOAQS1Wez4xrm6OzWVz7n/AB0DOnm4%2B2VGyumOZfzu%2BrPp8TDGtl4FUoPDtvinue305rl6MVYznNkCb/KaLTzBHfo/zvYDHZIpCbf3GVhXrFFqN7yFncy7YfRK",
+    "docs_adicionales": [
+      {
+        "nombre": "264249-ccp-.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CEpiLYhRMn%2Bpz4jHiEhalV961wzzWAg61b0G3GZbK62z1jvsDWXlfWvNKnx9NYaaCbjB2g2MBFwqLPQkQsoEHOpiEE6aqWdPVipRzIIavCqCx2e6p7hqtlp2aFupgHMr"
+      }
+    ],
+    "organo": "Consejería Delegada de Actividades de Limpieza y Gestión S.A.",
+    "importe": "64842.91",
+    "importe_num": 129685.82,
+    "fecha_limite": "2026-11-24",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "110/26",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de del servicio de redacción del proyecto y Estudio de Seguridad y Salud para Aula de formación \"Atunara\" en La Línea de la Concepción",
+    "updated": "2026-11-09T11:49:09.824+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=p7vKGNk%2Fn6x%2FR5QFTlaM4A%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=glrOa7b3uXXd1ooOVPLEbK6bCEoA3upv2zV8x0Z2KBD8DYzWK561xYAvQSWBjHecVH4%2BZhHdsd7o%2BTzxEFbqZFeQfBUKcShh2Xg6R9t8JOYC1/zDIE0Kw/PWNnLS0Z0z",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=brpNW/HQUn6t5boFqzQC4j8%2BtbIvDeKjKKp3Vvnxc5jlUPnNbRFM6hOnpjsKaF1fYG/eOXqgp6WT9wdwe9xklojSEEIhcay6v3SNuGrz/GoZyAJWGsSt0OzTSTyw9JAs",
+    "docs_adicionales": [],
+    "organo": "Alcaldía del Ayuntamiento de la Línea de la Concepción",
+    "importe": "24774.6",
+    "importe_num": 24774.6,
+    "fecha_limite": "2026-11-24",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "CONTR 2026 0000179890",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "dirección de obra coord. seguridad salud obras depuración varias provincias",
+    "updated": "2026-11-09T15:41:22.647+01:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1036697",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71317210",
+      "71310000",
+      "90492000",
+      "71520000",
+      "71000000"
+    ],
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441910",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441905",
+    "docs_adicionales": [
+      {
+        "nombre": "Memoria justificativa de la contratación.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441916"
+      },
+      {
+        "nombre": "DEUC PDF.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441996"
+      },
+      {
+        "nombre": "DEUC XML.XML",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441997"
+      },
+      {
+        "nombre": "Instrucciones DEUC.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441998"
+      }
+    ],
+    "organo": "Consejería de Agricultura, Pesca, Agua y Desarrollo Rural. D.G. de Infraestructuras del Agua (En Transición)",
+    "importe": "1152356.50",
+    "importe_num": 1382827.8,
+    "fecha_limite": "2026-12-15",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas",
+    "descripcion": "DIRECCIÓN DE OBRA Y COORDINACIÓN DE SEGURIDAD Y SALUD DE OBRAS DE DEPURACIÓN EN VARIAS PROVINCIAS DE ANDALUCÍA, FASE V (ALMERÍA Y HUELVA)",
+    "junta_consultado": "2026-11-10"
+  }
+]

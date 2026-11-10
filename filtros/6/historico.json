@@ -441,8 +441,8 @@
   },
   {
     "folder_id": "1/2026",
-    "estado": "ADJ",
-    "resultado": "adjudicada",
+    "estado": "RES",
+    "resultado": "formalizada",
     "titulo": "Servicios de Actualización del Proyecto de Urbanización, Dirección Facultativa y Coordinador de Seguridad y Salud, así como seguimiento y asesoramiento técnico durante el proceso de licitación de las obras de Urbanización del ámbito del Sector SUP-O1 EL RODEO del PGOU de Estepona.",
     "updated": "2026-10-29T14:22:21.451+01:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lO21u2TbovJLAIVZdUs8KA%3D%3D",
@@ -480,7 +480,7 @@
     "organo": "Junta de Compensación Sector Sup-01 El Rodeo",
     "importe": "254930",
     "importe_num": 254930.0,
-    "fecha_limite": "2026-10-19",
+    "fecha_limite": "2026-02-20",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -488,11 +488,11 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-29",
-    "estado_anterior": "EV",
-    "estado_cambiado_el": "2026-11-06",
-    "fecha_limite_anterior": "2026-10-23",
-    "fecha_limite_cambiada_el": "2026-11-06",
-    "estado_updated": "2026-11-06T15:36:36.290+01:00"
+    "estado_anterior": "ADJ",
+    "estado_cambiado_el": "2026-11-10",
+    "fecha_limite_anterior": "2026-10-19",
+    "fecha_limite_cambiada_el": "2026-11-10",
+    "estado_updated": "2026-11-09T14:49:40.926+01:00"
   },
   {
     "folder_id": "CONTR 2026 0000337362",

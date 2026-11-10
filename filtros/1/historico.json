@@ -45,10 +45,10 @@
     "estado_anterior": "PRE",
     "resultado": "adjudicada",
     "estado_cambiado_el": "2026-11-06",
-    "estado_updated": "2026-11-05T12:29:08.594+01:00",
-    "fecha_limite_anterior": "2026-10-22",
-    "fecha_limite": "2026-11-06",
-    "fecha_limite_cambiada_el": "2026-11-06",
+    "estado_updated": "2026-11-09T12:43:34.654+01:00",
+    "fecha_limite_anterior": "2026-11-06",
+    "fecha_limite": "2026-11-09",
+    "fecha_limite_cambiada_el": "2026-11-10",
     "docs_adicionales": [
       {
         "nombre": "Oferta economica.doc",
@@ -226,14 +226,14 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=zp5eD6eWRxhOIVlpuwyE1k4R9uZNkJoHd27aLbND1mxFAZdLp5uwwNuWbeWYaqhgpMH2HVJVk6K6YcbhRWC4iEmcSHkMBZ3Xh2/1gEJzGfcC1/zDIE0Kw/PWNnLS0Z0z",
     "organo": "Gerencia del Parque Cementerio de Málaga, S.A.",
     "importe": "481470.91",
-    "fecha_limite": "2026-10-27",
+    "fecha_limite": "2026-11-04",
     "fecha_captura": "2026-07-14",
     "estado_anterior": "RES",
     "resultado": null,
     "estado_cambiado_el": "2026-10-29",
-    "estado_updated": "2026-10-28T09:12:28.599+01:00",
-    "fecha_limite_anterior": "2026-08-14",
-    "fecha_limite_cambiada_el": "2026-10-29",
+    "estado_updated": "2026-11-09T09:57:52.050+01:00",
+    "fecha_limite_anterior": "2026-10-27",
+    "fecha_limite_cambiada_el": "2026-11-10",
     "docs_adicionales": [
       {
         "nombre": "Carta de derechos y deberes de los alumnos_OK.pdf",
@@ -765,7 +765,7 @@
     "organo": "Alcaldía del Ayuntamiento de Iznatoraf",
     "importe": "120000",
     "importe_num": 120000,
-    "fecha_limite": "2026-09-28",
+    "fecha_limite": "2026-08-05",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -778,32 +778,16 @@
       "fecha_analisis": "2026-07-22T12:34:46.237172+00:00"
     },
     "fecha_captura": "2026-07-22",
-    "estado_anterior": "RES",
+    "estado_anterior": "ADJ",
     "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-11-07",
-    "estado_updated": "2026-11-06T13:27:43.488+01:00",
-    "fecha_limite_anterior": "2026-10-26",
-    "fecha_limite_cambiada_el": "2026-10-30",
+    "estado_cambiado_el": "2026-11-10",
+    "estado_updated": "2026-11-09T15:38:12.253+01:00",
+    "fecha_limite_anterior": "2026-09-28",
+    "fecha_limite_cambiada_el": "2026-11-10",
     "docs_adicionales": [
       {
-        "nombre": "160-2026_ANEXO III_MODELO DE PROPOSICION ECONOMICA Y CRITERIOS AUTIMATICOS AZAFATAS.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9kELR3FHX4XUo47J6d%2Blc0GIfNZRZn5cI%2BnX3kccHLaTTtcks9nAStLHJ2KTSRDqZmgqG8YtlO5kih7w%2Brdf68AkKRlRmala3jTpLuGn4MO1aXEvq3KHa/AEHgtDrQw0"
-      },
-      {
-        "nombre": "160-2026_ANEXO I_ MODELO DE DECLARACION RESPONSABLE_ AZAFATAS.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=IUA3fBmJIeBNqDnfmFNRSNT0bB8Lip7EZmHTV8ISuQ8WJPqJKoDNl6AwrW7jIKs6d%2BZmwwwqFq2L8cBLWYGw6zVAk7NALLoQOnnM9Nww74vfdyQgZAdTm3EfcUAC7CJ6"
-      },
-      {
-        "nombre": "160-2026_ANEXO II_MODELO DE PRESENTACION DEL PROYECTO TECNICO_ AZAFATAS.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=G50VAHxpygDh/5oZlvbpDftlASUMn3t74bZmbZ%2BRBTejHn85KpuUxPe%2BZ0nnnOhJWWyLKythIDhv1WiLnelRTCD1HHXgAsIa28EzsjBQTUaB0nvVKRzfe4rpHcnlPhSZ"
-      },
-      {
-        "nombre": "160-2026_ANEXO IV_MODELO DE PRESENTACION DE CV AZAFATAS.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=akjXLCKlffyOOp7hfEuJNVxZunYnTqKRNBwkK3Jn0d7E4zDF6xl%2BpTWr3fyrPzvXy/eSLQ6Bjln7P9FLKlChqdU467W4uKVOr1LEGE3eN2H3GVhXrFFqN7yFncy7YfRK"
-      },
-      {
-        "nombre": "160-2026_ANEXO V_ DECLARACION DE SUBCONTRATACION_AZAFATAS.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=VArgmGloiQfi/A7vv7rr90FQGMq6Dn7FlR4Y4voM4vu9wgTIfLyZEH6YIyVwCBp79rY0E2XmwLlt/oFB0kupjnp5bsjS5rCpfB9dPSiOw4F7QB3HKyQaFUExmUVQCerk"
+        "nombre": "ANEXOS.rtf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ljg55PX3tiWQxBH7PF5/tDMCdWT7GdUF7879oLxc9XKQL0w0LCzUW8nYH3Klue7ItSqpfUKcCzUAMrfzobOM/pKyttneT9dMYg%2BrZkhL%2BVG1aXEvq3KHa/AEHgtDrQw0"
       }
     ]
   },
@@ -1666,7 +1650,7 @@
   },
   {
     "folder_id": "55/2026",
-    "estado": "RES",
+    "estado": "PUB",
     "titulo": "Servicio asistencia técnica destinado a disponer de un equipo técnico cualificado para redacción de Proyectos Básicos y de Ejecución, elaboración de Estudios Básicos de Seguridad y Salud, y realización de los trabajos, correspondientes a actuaciones de mejora de accesibilidad e instalación de ascensores en edificios residenciales de vivienda colectiva beneficiarios ayudas Municipal 2024.",
     "updated": "2026-08-24T12:35:29.309+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VVaCe715rqCAAM7L03kM8A%3D%3D",
@@ -1680,7 +1664,7 @@
     "organo": "Comisión Ejecutiva de la Gerencia de Urbanismo de Sevilla",
     "importe": "198347.11",
     "importe_num": 198347.11,
-    "fecha_limite": "2026-09-30",
+    "fecha_limite": "2026-11-24",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1691,16 +1675,16 @@
       "fecha_analisis": "2026-08-25T03:55:52.711452+00:00"
     },
     "fecha_captura": "2026-08-25",
-    "estado_anterior": "EV",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-11-06",
-    "estado_updated": "2026-11-05T11:55:21.560+01:00",
-    "fecha_limite_anterior": "2026-08-11",
-    "fecha_limite_cambiada_el": "2026-11-04",
+    "estado_anterior": "RES",
+    "resultado": null,
+    "estado_cambiado_el": "2026-11-10",
+    "estado_updated": "2026-11-09T13:18:25.534+01:00",
+    "fecha_limite_anterior": "2026-09-30",
+    "fecha_limite_cambiada_el": "2026-11-10",
     "docs_adicionales": [
       {
-        "nombre": "DEUC.zip",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1L7CEdFicdRJKOjEWL0ItYVN5HFzN30qtAkGjyhcKIV7QCGnokeal56M5W8HcdKRxex7TcdPH7sgC6yILRivv85NaN%2BZTace2BLlcz9G1auHAj0WEJrB5sP7amrh2jBD"
+        "nombre": "anexos.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=xNWmUPZLzCMYTkuhjZ9hEOFv6LCeMsa2Kbzlv6dKsuXNHkHmaWU31dLKDN4TGvt0tXuZHbh/YEzYnNECcq1wbHg%2Bw5vlEhDnDa%2BwcYcP5M1JOVDbGCDM%2BMigrvuVS7Rv"
       }
     ]
   },
@@ -1949,7 +1933,7 @@
   },
   {
     "folder_id": "115/2026",
-    "estado": "ADJ",
+    "estado": "EV",
     "titulo": "El objeto del contrato lo constituye la redacción del proyecto de obras, dirección de obra y la coordinación y seguridad y salud de las obras necesarias para la mejora de la Pista Hípica “La Fuentecilla” de Puebla de Guzmán.",
     "updated": "2026-09-28T10:26:32.669+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Jy63I0UGvaoQyBAnWzHfCg%3D%3D",
@@ -1963,7 +1947,7 @@
     "organo": "Presidencia de la Mancomunidad de Municipios Beturia",
     "importe": "64462.29",
     "importe_num": 64462.29,
-    "fecha_limite": "2026-08-04",
+    "fecha_limite": "2026-10-11",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -1974,12 +1958,34 @@
       "fecha_analisis": "2026-09-29T09:51:40.791793+00:00"
     },
     "fecha_captura": "2026-09-29",
-    "estado_anterior": "PUB",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-11-05",
-    "estado_updated": "2026-11-04T09:14:13.517+01:00",
-    "fecha_limite_anterior": "2026-11-19",
-    "fecha_limite_cambiada_el": "2026-11-05"
+    "estado_anterior": "ADJ",
+    "resultado": null,
+    "estado_cambiado_el": "2026-11-10",
+    "estado_updated": "2026-11-09T12:38:03.871+01:00",
+    "fecha_limite_anterior": "2026-08-04",
+    "fecha_limite_cambiada_el": "2026-11-10",
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXO I.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=eIxFHzKrZJu4Ocu8tunqb1Az7yxUcEL6kdMNWJFiYcOjuYOwZoXfB//1hyl83P0kA%2B5zehXUqdz09Xcg65XZq6E2Snm2lzj2nW4PxKD7OLQC1/zDIE0Kw/PWNnLS0Z0z"
+      },
+      {
+        "nombre": "ANEXO IV.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4ecflE0m8HLINiRIp%2BV4cLjJjcm6bXfW72iEUgEO3ZgPzwp5xbl32rwzBKPAVVH0l7msGXexzh%2BCwBXgORtH4xHw1sSwuYmmvlltUXbMIOcZyAJWGsSt0OzTSTyw9JAs"
+      },
+      {
+        "nombre": "ANEXO III.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=hbwoeXBxXCVbPmtrMs0ndx92k/Kh2F1oQLtytplThpRny%2B2o7g2zx7OCZzZJvDGOD3h6zZy/Q33wXxgn6maekafyLH%2BfBWotHenYhO0OYVWB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "ANEXO II.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Wcrn%2BZIXNy/WKY7qc4xcoQd07cassLEo9NbwbY97V585JnyeH0VPgnmDsKlISTNzYlVbvrUFGVy2TVFmoNjre93IpCXOVggaxSl5YyQA1uOHAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "ANEXO V.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=KYRsKDtCAkbzY3lE4nJ7slPUC1M9rCIzqnSdJO59v5gbJRLBzyV2ZY9HUhw6/qXwKQQhR6lPD%2B9Lwb2eR6zscO75WVMKrcNnvJe3z3dom8uHAj0WEJrB5sP7amrh2jBD"
+      }
+    ]
   },
   {
     "folder_id": "25/26",
@@ -3300,7 +3306,7 @@
   },
   {
     "folder_id": "008/2026",
-    "estado": "EV",
+    "estado": "PUB",
     "resultado": null,
     "titulo": "El presente contrato tiene por objeto la Redacción del Proyecto Constructivo, Dirección de las obras y coordinación de Seguridad y Salud, para la instalación de colectores que recojan las aguas pluviales de las cuencas norte y sur en Puebla de Guzmán (Huelva). Financiado con cargo a las ayudas de la Administración General del Estado.",
     "updated": "2026-10-22T10:09:13.525+02:00",
@@ -3334,7 +3340,7 @@
     "organo": "Alcaldía del Ayuntamiento de Puebla de Guzmán",
     "importe": "327320.3",
     "importe_num": 327320.3,
-    "fecha_limite": "2026-10-12",
+    "fecha_limite": "2026-11-23",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -3342,11 +3348,11 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-22",
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-10-27",
-    "fecha_limite_anterior": "2026-11-23",
-    "fecha_limite_cambiada_el": "2026-10-27",
-    "estado_updated": "2026-10-27T11:53:48.161+01:00"
+    "estado_anterior": "EV",
+    "estado_cambiado_el": "2026-11-10",
+    "fecha_limite_anterior": "2026-10-12",
+    "fecha_limite_cambiada_el": "2026-11-10",
+    "estado_updated": "2026-11-09T13:54:19.357+01:00"
   },
   {
     "folder_id": "428/2026",
@@ -3413,8 +3419,8 @@
   },
   {
     "folder_id": "1/2026",
-    "estado": "ADJ",
-    "resultado": "adjudicada",
+    "estado": "RES",
+    "resultado": "formalizada",
     "titulo": "Servicios de Actualización del Proyecto de Urbanización, Dirección Facultativa y Coordinador de Seguridad y Salud, así como seguimiento y asesoramiento técnico durante el proceso de licitación de las obras de Urbanización del ámbito del Sector SUP-O1 EL RODEO del PGOU de Estepona.",
     "updated": "2026-10-29T14:22:21.451+01:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lO21u2TbovJLAIVZdUs8KA%3D%3D",
@@ -3452,7 +3458,7 @@
     "organo": "Junta de Compensación Sector Sup-01 El Rodeo",
     "importe": "254930",
     "importe_num": 254930,
-    "fecha_limite": "2026-10-19",
+    "fecha_limite": "2026-02-20",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -3460,11 +3466,11 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-29",
-    "estado_anterior": "EV",
-    "estado_cambiado_el": "2026-11-06",
-    "fecha_limite_anterior": "2026-10-23",
-    "fecha_limite_cambiada_el": "2026-11-06",
-    "estado_updated": "2026-11-06T15:36:36.290+01:00"
+    "estado_anterior": "ADJ",
+    "estado_cambiado_el": "2026-11-10",
+    "fecha_limite_anterior": "2026-10-19",
+    "fecha_limite_cambiada_el": "2026-11-10",
+    "estado_updated": "2026-11-09T14:49:40.926+01:00"
   },
   {
     "folder_id": "3013/2026",

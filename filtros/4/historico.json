@@ -168,7 +168,7 @@
     "organo": "Gerencia del Parque Cementerio de Málaga, S.A.",
     "importe": "481470.91",
     "importe_num": 481470.91,
-    "fecha_limite": "2026-10-27",
+    "fecha_limite": "2026-11-04",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -182,9 +182,9 @@
     "estado_anterior": "RES",
     "resultado": null,
     "estado_cambiado_el": "2026-10-29",
-    "estado_updated": "2026-10-28T09:12:28.599+01:00",
-    "fecha_limite_anterior": "2026-08-14",
-    "fecha_limite_cambiada_el": "2026-10-29",
+    "estado_updated": "2026-11-09T09:57:52.050+01:00",
+    "fecha_limite_anterior": "2026-10-27",
+    "fecha_limite_cambiada_el": "2026-11-10",
     "docs_adicionales": [
       {
         "nombre": "Carta de derechos y deberes de los alumnos_OK.pdf",
@@ -736,7 +736,7 @@
     "organo": "Dirección Provincial del Servicio Público de Empleo Estatal en Almería",
     "importe": "156030.58",
     "importe_num": 156030.58,
-    "fecha_limite": "2026-05-25",
+    "fecha_limite": "2026-12-14",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -748,11 +748,11 @@
     },
     "fecha_captura": "2026-08-15",
     "estado_anterior": "PUB",
-    "resultado": "formalizada",
-    "estado_cambiado_el": "2026-11-06",
-    "estado_updated": "2026-11-06T14:27:29.825+01:00",
-    "fecha_limite_anterior": "2026-11-26",
-    "fecha_limite_cambiada_el": "2026-11-06",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-11-10",
+    "estado_updated": "2026-11-09T14:07:59.333+01:00",
+    "fecha_limite_anterior": "2026-05-25",
+    "fecha_limite_cambiada_el": "2026-11-10",
     "docs_adicionales": [
       {
         "nombre": "Declaracionresponsable.doc",
@@ -1088,7 +1088,7 @@
   },
   {
     "folder_id": "55/2026",
-    "estado": "RES",
+    "estado": "PUB",
     "titulo": "Servicio asistencia técnica destinado a disponer de un equipo técnico cualificado para redacción de Proyectos Básicos y de Ejecución, elaboración de Estudios Básicos de Seguridad y Salud, y realización de los trabajos, correspondientes a actuaciones de mejora de accesibilidad e instalación de ascensores en edificios residenciales de vivienda colectiva beneficiarios ayudas Municipal 2024.",
     "updated": "2026-08-24T12:35:29.309+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VVaCe715rqCAAM7L03kM8A%3D%3D",
@@ -1102,7 +1102,7 @@
     "organo": "Comisión Ejecutiva de la Gerencia de Urbanismo de Sevilla",
     "importe": "198347.11",
     "importe_num": 198347.11,
-    "fecha_limite": "2026-09-30",
+    "fecha_limite": "2026-11-24",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1113,16 +1113,16 @@
       "fecha_analisis": "2026-08-25T03:56:07.237398+00:00"
     },
     "fecha_captura": "2026-08-25",
-    "estado_anterior": "EV",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-11-06",
-    "estado_updated": "2026-11-05T11:55:21.560+01:00",
-    "fecha_limite_anterior": "2026-08-11",
-    "fecha_limite_cambiada_el": "2026-11-04",
+    "estado_anterior": "RES",
+    "resultado": null,
+    "estado_cambiado_el": "2026-11-10",
+    "estado_updated": "2026-11-09T13:18:25.534+01:00",
+    "fecha_limite_anterior": "2026-09-30",
+    "fecha_limite_cambiada_el": "2026-11-10",
     "docs_adicionales": [
       {
-        "nombre": "DEUC.zip",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1L7CEdFicdRJKOjEWL0ItYVN5HFzN30qtAkGjyhcKIV7QCGnokeal56M5W8HcdKRxex7TcdPH7sgC6yILRivv85NaN%2BZTace2BLlcz9G1auHAj0WEJrB5sP7amrh2jBD"
+        "nombre": "anexos.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=xNWmUPZLzCMYTkuhjZ9hEOFv6LCeMsa2Kbzlv6dKsuXNHkHmaWU31dLKDN4TGvt0tXuZHbh/YEzYnNECcq1wbHg%2Bw5vlEhDnDa%2BwcYcP5M1JOVDbGCDM%2BMigrvuVS7Rv"
       }
     ]
   },
@@ -1301,7 +1301,7 @@
     "organo": "Junta de Gobierno Local de Ayuntamiento de Puente Genil",
     "importe": "272075.73",
     "importe_num": 272075.73,
-    "fecha_limite": "2026-11-23",
+    "fecha_limite": "2026-11-24",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1315,25 +1315,13 @@
     "estado_anterior": "EV",
     "resultado": null,
     "estado_cambiado_el": "2026-11-04",
-    "estado_updated": "2026-11-05T20:00:13.904+01:00",
-    "fecha_limite_anterior": "2026-11-19",
-    "fecha_limite_cambiada_el": "2026-11-06",
+    "estado_updated": "2026-11-09T14:07:24.804+01:00",
+    "fecha_limite_anterior": "2026-11-23",
+    "fecha_limite_cambiada_el": "2026-11-10",
     "docs_adicionales": [
       {
-        "nombre": "26-2026 Anexo I Modelo oferta economica y mejoras.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=V7TjXWXpg1T8aJUKuon0dhcdgejX8dzRJW9yNALKcThOVsSAYSGGn0OHOGkCpJ7WUIeR5crxChCfdrQ%2B/bX/k36yiIHVgiacKdn2M6gX%2BoLDdQD9RyhUmzT4jZ2In4zL"
-      },
-      {
-        "nombre": "26-2026 Anexo II Declaracion relativa a la subcontratacion.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iVr9XPOFOtSfIfoqTj%2BKLTm99Bx3w63vOSrVkXOL/o8choWSkb1W9HA%2BY62Ven10Nt/g6hrtTW204ytpZC04FZatNWbhq3UXtc3eZWq%2BKDSHAj0WEJrB5sP7amrh2jBD"
-      },
-      {
-        "nombre": "DEUC.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QQ6x3P248%2BMGADTEnm69OT39AX3ctRcjPinxy0WgJP27T7Y/Hqi3ALNRan/AywNzPPZgQnSbetO8wWYC/tWoxii0FhJrALZrfgBZwaALOILfdyQgZAdTm3EfcUAC7CJ6"
-      },
-      {
-        "nombre": "DEUC.xml",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=brX3wV%2B897xRCeVWAd4dZavH8sIcSQmMie0ttkZG1xEYJtAYoW6xlSAX7/h3kTHkdNg28iKxaY/APzpEI5KczKSKoujPlLoLsPMxffyDp7p45ClyWkoJ44mKM70IFcOu"
+        "nombre": "Informe justi y aprob gasto.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YDz7PhOijrSV0f7C7pE8fSGg8012IXqxdN2/Mhu13gV7aEfU5h%2BkIxcb4xvGuQNFPZ0U826U1SIA2Qk3652ndK3boUmB2K9dOfd%2BNnvZaKeHAj0WEJrB5sP7amrh2jBD"
       }
     ]
   },
@@ -1974,7 +1962,7 @@
   },
   {
     "folder_id": "115/2026",
-    "estado": "ADJ",
+    "estado": "EV",
     "titulo": "El objeto del contrato lo constituye la redacción del proyecto de obras, dirección de obra y la coordinación y seguridad y salud de las obras necesarias para la mejora de la Pista Hípica “La Fuentecilla” de Puebla de Guzmán.",
     "updated": "2026-09-28T10:26:32.669+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Jy63I0UGvaoQyBAnWzHfCg%3D%3D",
@@ -1988,7 +1976,7 @@
     "organo": "Presidencia de la Mancomunidad de Municipios Beturia",
     "importe": "64462.29",
     "importe_num": 64462.29,
-    "fecha_limite": "2026-08-04",
+    "fecha_limite": "2026-10-11",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -1999,12 +1987,34 @@
       "fecha_analisis": "2026-09-29T09:54:16.188776+00:00"
     },
     "fecha_captura": "2026-09-29",
-    "estado_anterior": "PUB",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-11-05",
-    "estado_updated": "2026-11-04T09:14:13.517+01:00",
-    "fecha_limite_anterior": "2026-11-19",
-    "fecha_limite_cambiada_el": "2026-11-05"
+    "estado_anterior": "ADJ",
+    "resultado": null,
+    "estado_cambiado_el": "2026-11-10",
+    "estado_updated": "2026-11-09T12:38:03.871+01:00",
+    "fecha_limite_anterior": "2026-08-04",
+    "fecha_limite_cambiada_el": "2026-11-10",
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXO I.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=eIxFHzKrZJu4Ocu8tunqb1Az7yxUcEL6kdMNWJFiYcOjuYOwZoXfB//1hyl83P0kA%2B5zehXUqdz09Xcg65XZq6E2Snm2lzj2nW4PxKD7OLQC1/zDIE0Kw/PWNnLS0Z0z"
+      },
+      {
+        "nombre": "ANEXO IV.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4ecflE0m8HLINiRIp%2BV4cLjJjcm6bXfW72iEUgEO3ZgPzwp5xbl32rwzBKPAVVH0l7msGXexzh%2BCwBXgORtH4xHw1sSwuYmmvlltUXbMIOcZyAJWGsSt0OzTSTyw9JAs"
+      },
+      {
+        "nombre": "ANEXO III.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=hbwoeXBxXCVbPmtrMs0ndx92k/Kh2F1oQLtytplThpRny%2B2o7g2zx7OCZzZJvDGOD3h6zZy/Q33wXxgn6maekafyLH%2BfBWotHenYhO0OYVWB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "ANEXO II.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Wcrn%2BZIXNy/WKY7qc4xcoQd07cassLEo9NbwbY97V585JnyeH0VPgnmDsKlISTNzYlVbvrUFGVy2TVFmoNjre93IpCXOVggaxSl5YyQA1uOHAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "ANEXO V.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=KYRsKDtCAkbzY3lE4nJ7slPUC1M9rCIzqnSdJO59v5gbJRLBzyV2ZY9HUhw6/qXwKQQhR6lPD%2B9Lwb2eR6zscO75WVMKrcNnvJe3z3dom8uHAj0WEJrB5sP7amrh2jBD"
+      }
+    ]
   },
   {
     "folder_id": "25/26",
@@ -2311,7 +2321,7 @@
   },
   {
     "folder_id": "17300/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "Redacción de Proyecto Básico y de Ejecución, Estudio de Seguridad y Salud, Dirección de Obra y Coordinación de Seguridad y Salud para las obras de medidas de ahorro energético recogidas en el Plan Director de eficiencia energética del conjunto de edificios municipales de Mairena del Aljarafe.",
     "updated": "2026-09-29T09:37:37.287+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=MxUNmADdwXd70UvEyYJSGw%3D%3D",
@@ -2338,7 +2348,36 @@
     "fecha_captura": "2026-09-30",
     "fecha_limite_anterior": "2026-10-14",
     "fecha_limite_cambiada_el": "2026-10-07",
-    "estado_updated": "2026-10-05T09:24:49.370+02:00"
+    "estado_updated": "2026-11-09T13:56:38.273+01:00",
+    "docs_adicionales": [
+      {
+        "nombre": "Memoria justificativa Rectificada.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=AWsmtDKHDuGYRFlWy9kYxP/xGPTKdPe/qu8s0OIBDkliyWRJJ38PIEIzJ2ix9VrJf0mweowZrnGQXN%2BTZh%2B%2Bld1DjmlmV50y1KAhYdrf2kPDdQD9RyhUmzT4jZ2In4zL"
+      },
+      {
+        "nombre": "Anexo II.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/BVoTciG7JmlepoO4PMBuTriHFFaX4IDB2jbAxxWjmOJQnRubJLw3sRwKKMFYTRJwWy4vNMkx9ttG3yVOHfd/vVqKTPxV43fIrbPdI11sa73GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "PLIEGO TIPO.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=UYjcHxO%2BLBQAAbhpnLtcKqw0WyKDXLVCcas/rtcIyOrA9JWtTpS8rrQ3NsPzVnQrw12JV3F9BTvJZLltD6jtPxbNI6SWPeY%2BYIrFpV9KuI%2BHAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "Anexo III.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=92CMJiY9WT01NtHcH4KA41BOxmu6tBdaAh/9AWbK3SEx5IivKEHtGbhNOl3IA8g0ZW3h4KqN8Jsy3P6Af/jDexGiwuMlWtYkPLpu%2BMDOzqb3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "Providencia de inicio.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=XrsljOTue4npU2gL5Xq6bO5JA0ym2up0uvvtvdVG0x/8xa3MmO0yepWOIy2TW0yKJsLcwQdwgFZ3HEdQUmie1vXdZzy/CdfPGQDCEv06NUGCx2e6p7hqtlp2aFupgHMr"
+      },
+      {
+        "nombre": "RESOLUCION Aprobacion gasto pliegos y procedimiento.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=zOurWu9TXXqy3hyuIb13ucBipNMqkKYM8wryM%2BAk3AP0M/CrIhEWVuoOiL0vlgcyW0G0n9sDFpTOSiT58sIihhu3AFNfrBzMiJCIVrKRfV97QB3HKyQaFUExmUVQCerk"
+      }
+    ],
+    "estado_anterior": "PUB",
+    "resultado": null,
+    "estado_cambiado_el": "2026-11-10"
   },
   {
     "folder_id": "14926/2026",
@@ -2745,8 +2784,8 @@
   },
   {
     "folder_id": "2026/2007",
-    "estado": "RES",
-    "resultado": "adjudicada",
+    "estado": "EV",
+    "resultado": null,
     "titulo": "Redacción del Proyecto Básico y de Ejecución y Estudio de Seguridad y Salud para la Rehabilitación del Edificio Los Pacíficos de Loja, como centro de Coworking y Centro de Interpretación del AOVE Poniente de Granada y rehabilitación energética dentro del marco del Plan Edil.",
     "updated": "2026-10-01T08:26:09.239+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=iPDzjeTcdE%2BcTfjQf3USOg%3D%3D",
@@ -2772,9 +2811,31 @@
       "fecha_analisis": "2026-10-02T10:21:50.751085+00:00"
     },
     "fecha_captura": "2026-10-02",
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-10-28",
-    "estado_updated": "2026-10-27T09:36:15.118+01:00"
+    "estado_anterior": "RES",
+    "estado_cambiado_el": "2026-11-10",
+    "estado_updated": "2026-11-09T10:23:55.755+01:00",
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXO III UTE.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=5yMzYIfRsTQr3DBHjiurPv9tTlxgJ0kynUERYB2Cd663rfZbnWeP7uRCdDBZsJ5V3OrEhJfKmJPnJD6v6wqw6qpDBMY22QShoLN0TBcuuuc//q7NB2iMZvNyf0xrJmjt"
+      },
+      {
+        "nombre": "ANEXO I DECLARACION RESPONSABLE.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=WG3qrOiVoICrzb6yYOsZ7LOWIU98yBGblqcrb4nJWz1bg6Q0J0EuS0luos7jPhTqA7wbKIvW%2BeXHt3rJBz3AW1joJb1LtF0OVHPcU%2BcebTFJOVDbGCDM%2BMigrvuVS7Rv"
+      },
+      {
+        "nombre": "ANEXO II DECLARACIO SOMETIMIENTO TRIBUNALES ESPANOLES.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=JhawvpfkCWU2N4hMgR2ZlO1zG4pbVUt%2BX72Htsawn8vKvCxibPf%2B8EAcecbCL7rmqzhBB4BCJtGjA3nVdRxjmARxLnsxyufwCHPqehWFbThJOVDbGCDM%2BMigrvuVS7Rv"
+      },
+      {
+        "nombre": "ANEXO IV DECLARACION SOLVENCIA MEDIOS EXTERNOS.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=hbwoeXBxXCVbPmtrMs0nd0yb7d%2BuHJH7rER1CGctxnMNcdynGJ5ITOC2n9ztdRjsPRHULrRgMMqqSP1hstN37zbSiXK4Bn85eeMPMwvi43o//q7NB2iMZvNyf0xrJmjt"
+      },
+      {
+        "nombre": "ANEXO V PROPOSICION ECONOMICA.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=68gt1Oz//x2FOPIJUvGWDk/%2BSkn%2BjRq1tmJqfa/x%2BKkfnSs0c4/rq6prydc9zlQZx%2BfFI9x5YruLKlveuSmcHLb2ACYe3YekTvOy03a2l0N7QB3HKyQaFUExmUVQCerk"
+      }
+    ]
   },
   {
     "folder_id": "15665/2026",
@@ -2962,7 +3023,7 @@
     "organo": "Alcaldía del Ayuntamiento de Ibros",
     "importe": "54207.56",
     "importe_num": 54207.56,
-    "fecha_limite": "2026-10-08",
+    "fecha_limite": "2026-08-14",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -2975,17 +3036,17 @@
     "fecha_captura": "2026-10-06",
     "estado_anterior": "ADJ",
     "estado_cambiado_el": "2026-11-06",
-    "fecha_limite_anterior": "2026-08-14",
-    "fecha_limite_cambiada_el": "2026-11-06",
-    "estado_updated": "2026-11-06T14:17:38.803+01:00",
+    "fecha_limite_anterior": "2026-10-08",
+    "fecha_limite_cambiada_el": "2026-11-10",
+    "estado_updated": "2026-11-09T14:03:56.405+01:00",
     "docs_adicionales": [
       {
-        "nombre": "ANEXOS.PDF",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Jso7yv0jbbvawOeA5N21XJzsG/24A0RNXj2JQ//%2BVPpnnFiy%2BvYMdGu2jOGepAZNTwVJmPb2ShuDbTlsI53G7X6b15B8NcSkVTa3NoM3XgA//q7NB2iMZvNyf0xrJmjt"
+        "nombre": "Modelo Declaracion Responsable con declaracion PYME.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=PnqW%2B8PtVfksfbK2zh8%2BmacyRd2jFMItBZ69znX/U6HCPDFINO6CWU0tl2G9ZX5I7P36NX3IOHXVCdGY6yeV9Hi8tFPZeYzNgeYdcTUlbhR7QB3HKyQaFUExmUVQCerk"
       },
       {
-        "nombre": "CUADRO RESUMEN.PDF",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=d%2BnWuvNaQOkmayJukBABeHt6SCWziblQC/CZWWZBDFVMmNMAMggOw0AZoseFdfDcfG4rR0hcDntNaKkdEfahzY1Rs6sagxmCR9Z%2B9AU/ozG1aXEvq3KHa/AEHgtDrQw0"
+        "nombre": "Modelo Oferta con mejoras.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=xRB7EvNw6HB%2BhmB91jiXww/x4D55jeNaugCWaiyxy9iO%2BknUxoNesKMAIaHeNQXu9GkIewvzgc71/4F73t1nP9Eup9Zxcx3f1oG7Kg/glTXDdQD9RyhUmzT4jZ2In4zL"
       }
     ]
   },
@@ -3096,7 +3157,7 @@
   },
   {
     "folder_id": "CONTR 2026 0000048958",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "dir. obra coord. seguridad y salud de las obras de depuración fase iv",
     "updated": "2026-10-07T10:41:45.661+02:00",
@@ -3127,7 +3188,10 @@
       "informe": "## Bloque 1 – Características Principales del Contrato\n\n### Objeto de la licitación\nContratación, por procedimiento abierto sujeto a regulación armonizada y dividida en cinco lotes, de los servicios de **dirección de obra (DO)** y **coordinación de seguridad y salud (CSS)** durante la ejecución de cinco obras de depuración ya proyectadas. Las obras son las de Laroya, Enix, Salar, Alhama de Granada y Pradollano (Monachil), en Almería y Granada. Órgano: D.G. de Infraestructuras del Agua (Consejería de Agricultura, Pesca, Agua y Desarrollo Rural, Junta de Andalucía).\n\nObjetivos:\n- Dirigir la ejecución de cada obra conforme a su proyecto, con la calidad, el coste y el plazo previstos.\n- Coordinar la seguridad y salud en cada obra.\n- Coordinar a los agentes internos y externos que intervienen en la obra.\n- Generar los informes y documentos de cada fase del PPT.\n- Mantener un espacio virtual de gestión documental (criterio de adjudicación).\n\nExpediente **CONTR 2026 48958**. CPV: 71000000-8, 71310000-4, 71317210-8, 71520000-9 y 90492000-2.\n\n### División en lotes\n1. **Lote I**: DO y CSS de la agrupación de vertidos y nueva EDAR de Laroya (Almería).\n2. **Lote II**: DO y CSS de la nueva EDAR de Enix (Almería).\n3. **Lote III**: DO y CSS de la concentración de vertidos y EDAR de Salar (Granada).\n4. **Lote IV**: DO y CSS de la EDAR y colectores de Alhama de Granada (Granada).\n5. **Lote V**: DO y CSS de la ampliación y mejora de la EDAR de Pradollano, Monachil (Granada).\n\nReglas de lotes:\n- No hay límite al número de lotes a los que se puede ofertar.\n- **Máximo 1 lote adjudicado por licitador**, también en UTE y con independencia de su porcentaje de participación.\n- Si un licitador resulta mejor valorado en varios lotes, se le propone solo el lote que haya indicado como preferente en el Anexo II-B.\n- Excepción: si un lote queda desierto por falta de ofertas válidas, puede adjudicarse a un licitador que ya tenga otro lote.\n- No se admite oferta integradora.\n\n### Características del contrato\n\n| Lote | PBL sin IVA | IVA 21 % | PBL con IVA | Valor estimado (PBL + 20 % modif.) | Plazo del servicio | Plazo de la obra asociada |\n|---|---|---|---|---|---|---|\n| I | 113.907,72 € | 23.920,62 € | 137.828,34 € | 136.689,26 € | **14 meses** | 10 meses |\n| II | 109.222,39 € | 22.936,70 € | 132.159,09 € | 131.066,87 € | **13 meses** | 9 meses |\n| III | 243.994,69 € | 51.238,88 € | 295.233,57 € | 292.793,63 € | **25 meses** | 21 meses |\n| IV | 284.389,78 € | 59.721,85 € | 344.111,63 € | 341.267,74 € | **28 meses** | 24 meses |\n| V | 204.068,64 € | 42.854,41 € | 246.923,05 € | 244.882,37 € | **22 meses** | 18 meses |\n| **Total** | **955.583,22 €** | **200.672,46 €** | **1.156.255,68 €** | **1.146.699,87 €** | | |\n\n- **Sistema de precio**: tanto alzado. Se aplica un coeficiente de adjudicación sobre el PBL.\n- **Revisión de precios**: no.\n- **Prórroga**: no. Plazos parciales: no procede.\n- **Plazo del servicio**: desde el día siguiente a la firma del contrato.\n- **Modificación**: el valor estimado incluye un 20 % para modificaciones al alza. Las condiciones están en el Anexo I-15, que no figura en el texto aportado.\n- **Tramitación del gasto**: anticipada. Las anualidades empiezan en 2027 (ver Bloque 4).\n- **Regulación armonizada**: sí. **Recurso especial**: sí. **Variantes**: no. **Contrato reservado**: no.\n- **Presentación**: exclusivamente electrónica, en SiREC-Portal de Licitación Electrónica.\n  - Envío posible en dos fases: huella electrónica y, en un máximo de 24 h, la oferta completa. Si no se envía en ese plazo, se considera retirada.\n  - Toda la documentación debe ir en castellano.\n- **Plazo de presentación**: no localizado. Figura en el anuncio de licitación, que no se aporta.\n- **Plazo máximo de adjudicación**: 6 meses desde la apertura de proposiciones.\n- **Desglose del PBL**: costes directos + 13 % GG + 6 % BI. Convenio de referencia: XX Convenio Nacional de Ingeniería y Oficinas de Estudios Técnicos.\n- **Trabajos específicos obligatorios**:\n  - Arqueología, topografía, geotecnia y trámites ambientales no se mencionan como prestaciones del contrato. El PPT, que no se aporta, define las fases y los trabajos.\n  - Lo que sí exige el Anexo I es una **oficina a pie de obra** con sala de reuniones, equipos informáticos, software de topografía, CAD, mediciones, programación y ofimática.\n  - También exige equipos y material de topografía y vehículos suficientes. La oficina debe estar operativa desde la orden de inicio.\n  - Debe crearse un espacio virtual de gestión documental (criterio 8.B.2).\n\n⚠ REVISAR — En el cuadro del PBL, la fila TOTAL indica 803.011,11 € de ejecución material. La suma de los cinco lotes (y el cuadro Cd + Ci) da **631.524,86 €**. Los totales de GG, BI, IVA y PBL sí cuadran. Parece un error en la celda total de PEM.\n\n⚠ REVISAR — El plazo del servicio es 4 meses superior al de cada obra. El texto aportado no explica el motivo (probablemente actuaciones previas y liquidación). Confirmar en el PPT.\n\n## Bloque 2 – Solvencia\n\n### Económica y financiera\n- **No sujeto a clasificación** (Anexo I 4.B). La solvencia se acredita por los medios del Anexo I 4.C.\n- **Volumen anual de negocios** del mejor ejercicio de los 3 últimos disponibles, por lote:\n\n| Lote | Volumen anual mínimo |\n|---|---|\n| I | 175.743,33 € |\n| II | 181.477,20 € |\n| III | 210.811,41 € |\n| IV | 219.386,40 € |\n| V | 200.358,30 € |\n\n  - Equivale a 1,5 veces la anualidad media del valor estimado.\n  - Acreditación: cuentas anuales depositadas en el Registro Mercantil. También sirve un certificado de la AEAT del importe neto de la cifra de negocios o el resumen anual del modelo 390 de IVA.\n- **Seguro de responsabilidad civil profesional**, importe mínimo (IVA excluido) igual al valor estimado de cada lote:\n\n| Lote | Importe mínimo asegurado |\n|---|---|\n| I | 136.689,26 € |\n| II | 131.066,87 € |\n| III | 292.793,63 € |\n| IV | 341.267,74 € |\n| V | 244.882,37 € |\n\n  - Acreditación: certificado de la aseguradora con importes, riesgos y vencimiento, más compromiso de renovación o prórroga durante la ejecución. Alternativa: compromiso vinculante de suscripción, prórroga o renovación.\n- **Patrimonio neto**: el apartado está en blanco (\"______ euros\"). No se fija mínimo en el texto aportado. ⚠ REVISAR en el pliego completo.\n- **Otros medios de prueba**: en blanco.\n- **Integración de solvencia con medios externos**: permitida, con responsabilidad conjunta **solidaria**.\n\n### Técnica y profesional\n- **Relación de servicios** de igual o similar naturaleza.\n  - **Periodo**: últimos **10 años**, ampliado respecto a los 3 de la LCSP con justificación en el pliego.\n  - **Naturaleza similar**: DO y CSS en obras de infraestructuras hidráulicas, con CPV que comience por los tres primeros dígitos de los CPV del contrato. ⚠ REVISAR: el contrato tiene varios CPV (710, 713, 715, 904), así que el criterio es ambiguo.\n  - **Importe**: el anual acumulado, sin impuestos, en el año de mayor ejecución debe ser ≥ 70 % de la anualidad media:\n\n| Lote | Importe mínimo |\n|---|---|\n| I | 82.013,56 € |\n| II | 84.689,36 € |\n| III | 98.378,66 € |\n| IV | 102.380,32 € |\n| V | 93.500,54 € |\n\n  - **Acreditación**: certificados expedidos o visados por el órgano competente (sector público), o certificado del comprador privado, o declaración más documentos probatorios. También valen certificados de buena ejecución como subcontratista.\n- **Equipo mínimo por lote** (adscripción obligatoria). Cada puesto lo ocupa una persona distinta, y la misma persona no puede superar el 100 % de dedicación entre lotes.\n\n| Puesto (nº) | Titulación | Experiencia mínima | Dedicación |\n|---|---|---|---|\n| Delegado del Consultor (1) | Ingeniería de Caminos, Canales y Puertos, o Grado en Ingeniería Civil + Máster ICCP | 5 años en DO y/o ATDO de infraestructuras hidráulicas de saneamiento y depuración | La del presupuesto del PPT |\n| Director de Obra (1) | Titulación técnica competente (Ing. Superior/Máster, Ing. Técnica o Grado en Ing. Civil, Industrial, Agraria, Forestal, Minera o análogos) | 3 años en DO y/o ATDO de infraestructuras hidráulicas de saneamiento y depuración | La del presupuesto del PPT |\n| Coordinador de SyS (1) | Titulación académica habilitante | 3 años en CSS en infraestructuras hidráulicas | La del presupuesto del PPT |\n| Vigilante de obra (1) | Sin titulación exigida | 3 años como vigilante en infraestructuras hidráulicas | La del presupuesto del PPT |\n\n  - En obras con EDAR, al menos el 50 % de la experiencia de Delegado y Director debe ser en obras de depuración.\n  - La experiencia puede ser alterna o continuada, y se computan los últimos **25 años**.\n  - Acreditación: Anexo XV por cada técnico, título y, en su caso, compromiso de contratación. Se requiere solo a la empresa propuesta como adjudicataria, no en el Sobre 1.\n  - Sustitución de personal: solo con autorización del responsable del contrato. Si este considera inadecuado a un técnico, la sustitución debe hacerse en una semana.\n- **Medios materiales**: oficina a pie de obra, equipamiento y vehículos (ver Bloque 1). Se acreditan con declaración responsable detallada.\n- **Calidad y medios de estudio**: el apartado 4.D incluye casillas sobre medidas de control de calidad y medios de estudio e investigación. No se distingue cuáles están marcadas. ⚠ REVISAR.\n- **Compromisos de adscripción**: no son obligación esencial (art. 211 LCSP), pero tienen penalidades (Anexo I-11, no localizado).\n- **Subcontratación**: la cláusula 16 la permite con carácter general. Qué puestos o tareas pueden subcontratarse o deben ejecutarse directamente figura en el Anexo I-10, que **no está en el texto aportado**. No consta qué puestos del equipo mínimo son subcontratables.\n  - Para titulación y experiencia, solo se puede recurrir a medios externos si esa entidad presta efectivamente los servicios (cláusula 6.2.c).\n- **Criterio de mejora de equipo**: en el texto aportado no existe ningún criterio de adjudicación por experiencia adicional del equipo. Todo el equipo se exige como mínimo de solvencia.\n\n## Bloque 3 – Criterios de Adjudicación\n\nMejor relación calidad-precio. Total: **100 puntos** (50 juicio de valor + 50 fórmulas).\n\n### Automáticos (fórmulas)\n**Máximo 50 puntos**, en el Sobre 3.\n\n**1. Proposición económica: 40 puntos.**\n- Pref = Pmed + (PL − Pmed)/7.\n- Si IO > Pref: **P = 32 × (PL − IO) / (PL − Pref)**.\n- Si IO < Pref: **P = 40 − 8 × (IO − Pmin) / (Pref − Pmin)**.\n- Variables:\n  - PL: presupuesto base de licitación.\n  - IO: importe ofertado.\n  - Pmin: oferta admitida más baja.\n  - Pmed: media aritmética de las ofertas admitidas. Se excluye la de mayor cuantía si la diferencia de su baja con la media supera en más de 10 unidades porcentuales.\n- Efecto: oferta igual al PL = 0 puntos; oferta en Pref = 32 puntos; oferta más baja = 40 puntos.\n- No se valoran las ofertas excluidas por anormalidad.\n- No se admite oferta superior al PL. La proposición se presenta por lote (Anexo V-A).\n\n**2. Seguimiento virtual (web) de la documentación: 10 puntos.**\n- 10 puntos si se presenta el compromiso de crear y mantener un espacio virtual de gestión documental específico (Anexo V-B).\n- 0 puntos si no se presenta o no es conforme.\n\n**Ofertas anormalmente bajas** (8.D):\n- Se aplica a la baja del presupuesto ofertado sin IVA.\n- Umbral de temeridad **UT = 100/(2·BR)**.\n- Si hay menos de 5 ofertas, es anormal la oferta con BOj ≥ BM + UT.\n- Si hay 5 o más, es anormal la oferta con BOj ≥ BR + UT. BR es la media de las bajas de las ofertas que cumplen |BOj − BM| ≤ σ.\n- Se rechazan además las ofertas que incumplan normativa de subcontratación, ambiental, social o laboral.\n\n⚠ REVISAR — Con menos de 5 ofertas, UT depende de BR, que solo se define para 5 o más. La fórmula es circular o incompleta.\n\n⚠ REVISAR — La regla de exclusión de la oferta más elevada en Pmed está redactada de forma ambigua: habla de que su \"baja\" supere la media en más de 10 puntos. Revisar su interpretación.\n\n### Juicio de valor\n**Máximo 50 puntos**, en el Sobre 2.\n\nEscala de valoración de cada subapartado: Excelente 100 %, Muy adecuado 80 %, Bastante adecuado 60 %, Adecuado 50 %, Poco adecuado 25 %, Nada adecuado o no presenta 0 %.\n\n| Apartado | Subapartado | Puntos |\n|---|---|---|\n| **1. Memoria (40)** | 1.1 Conocimiento del objeto del proyecto y estado actual | 5 |\n| | 1.1 Idoneidad del análisis de las soluciones proyectadas | 7 |\n| | 1.2 Circunstancias económico-administrativas, temporales y específicas, y condicionantes medioambientales y del entorno | 6 |\n| | 1.2 Circunstancias climatológicas | 3 |\n| | 1.2 Medidas organizativas, de seguridad y medioambientales | 5 |\n| | 1.3 Detalle de los trabajos por fase del PPT | 4 |\n| | 1.3 Idoneidad de documentos e informes por fase | 2 |\n| | 1.4 Operativa de coordinación de agentes | 3 |\n| | 1.4 Medidas para garantizar calidad, coste y plazo | 3 |\n| | 1.5 Idoneidad de los medios materiales | 2 |\n| **2. Programación (10)** | 2.1 Planteamiento operacional y cronología de actuaciones | 5 |\n| | 2.2 Diagrama de Gantt | 4 |\n| | 2.3 Previsión de costes y tiempos (distribución mensual) | 1 |\n\nLimitaciones de formato (Sobre 2):\n- Extensión máxima de **23 hojas** (una hoja = dos caras): 20 en A4 y 3 en A3/A2.\n- Fuente mínima de 11 puntos e interlineado sencillo.\n- Índice en hoja independiente.\n- Lo que exceda de la extensión no se valora, salvo un exceso insignificante.\n- Gantt en una sola cara, con las columnas: tarea, duración, fecha de comienzo y de fin, predecesoras y sucesoras, recursos asignados, porcentaje del importe ofertado y documentación generada. Las barras deben mostrar el nombre de la tarea.\n- La previsión de costes debe incluir la distribución mensual y acumulada de PEM y PBL, y las anualidades.\n- Incluir en el Sobre 2 cualquier dato del Sobre 3 (y viceversa) es **causa de exclusión**.\n\n⚠ REVISAR — informe cortado por límite de longitud de la IA, puede estar incompleto.",
       "fecha_analisis": "2026-10-08T11:21:03.652402+00:00"
     },
-    "descripcion": "DIRECCIÓN DE OBRA Y COORDINACIÓN DE SEGURIDAD Y SALUD DE LAS OBRAS DE DEPURACIÓN EN VARIAS PROVINCIAS DE ANDALUCÍA FASE IV"
+    "descripcion": "DIRECCIÓN DE OBRA Y COORDINACIÓN DE SEGURIDAD Y SALUD DE LAS OBRAS DE DEPURACIÓN EN VARIAS PROVINCIAS DE ANDALUCÍA FASE IV",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-10",
+    "estado_updated": "2026-11-09T15:41:10.476+01:00"
   },
   {
     "folder_id": "20809/2026",
@@ -4160,7 +4224,7 @@
   },
   {
     "folder_id": "2026/D31000/006-002/00005",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Redacción De Proyectos, Dirección De Obras Y Coordinación De Seguridad Y Salud A Realizar Por La Diputación Provincial De Almería En Ejecución Del Plan De Actuación Integrado \"Alpujarra Conectada\" Con 39SER2026-L1 Y L2",
     "updated": "2026-10-14T12:27:32.988+02:00",
@@ -4183,7 +4247,20 @@
     "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-14"
+    "fecha_captura": "2026-10-14",
+    "docs_adicionales": [
+      {
+        "nombre": "MemoriaJustificativa.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=oCMnlH/PHlEeIfHzkBoPttoAgdOsVqwrHARhDGfMVwLGn9FOYAbKaaUXsIJYdaGOSwkkukEj1zr9dQ1ADUsTS3%2BnGFSIwBN0mEsPayluTnT6CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "espd-request.zip",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=d8u48JQkME5cl716ivjLh7kFbGxMLgd5gD8SSY1YKgC49usaH/LYa75LoktEizVD/i2draVfVixVe/dCrmzV7z9d2IDX2NVReCDtMbXJjggC1/zDIE0Kw/PWNnLS0Z0z"
+      }
+    ],
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-10",
+    "estado_updated": "2026-11-09T09:29:50.103+01:00"
   },
   {
     "folder_id": "2098/2026",
@@ -4223,7 +4300,7 @@
   },
   {
     "folder_id": "A41420191-2026/000089-PeAS",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Dirección de obras y coordinación  seguridad y salud de las obras de Mejoras Funcionales de Sendas Peatonales y Espacios Anejos en el entorno del Encauzamiento del Río Guadaíra en terrenos propiedad de Sevilla Activa M.P. S.A.U. en el Cortijo de Cuarto.",
     "updated": "2026-10-14T08:58:51.048+02:00",
@@ -4244,7 +4321,10 @@
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-14"
+    "fecha_captura": "2026-10-14",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-10",
+    "estado_updated": "2026-11-09T08:11:52.233+01:00"
   },
   {
     "folder_id": "CONTR 2025 0000711840",
@@ -4791,8 +4871,8 @@
   },
   {
     "folder_id": "243/2026",
-    "estado": "RES",
-    "resultado": "adjudicada",
+    "estado": "EV",
+    "resultado": null,
     "titulo": "Servicios de gestión, seguimiento y justificación de las actuaciones promovidas por el Ayuntamiento de Larva en el marco del Real Decreto Ley 5/2026, de 17 de febrero, financiados por la Administración General del Estado, a través del Ministerio de Política Territorial y Memoria Democrática",
     "updated": "2026-10-21T15:59:52.754+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=QMHbHJy6XUvua%2Fi14w%2FPLA%3D%3D",
@@ -4821,9 +4901,9 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-21",
-    "estado_anterior": "EV",
-    "estado_cambiado_el": "2026-11-07",
-    "estado_updated": "2026-11-06T12:11:56.040+01:00",
+    "estado_anterior": "RES",
+    "estado_cambiado_el": "2026-11-10",
+    "estado_updated": "2026-11-09T11:43:00.395+01:00",
     "fecha_limite_anterior": "2026-10-28",
     "fecha_limite_cambiada_el": "2026-11-06"
   },
@@ -4898,8 +4978,8 @@
   },
   {
     "folder_id": "3513/2026",
-    "estado": "ADJ",
-    "resultado": "adjudicada",
+    "estado": "EV",
+    "resultado": null,
     "titulo": "Prestacion del servicio de asistencia tecnica integral para la planificacion contractual, el seguimiento tecnico, economico, contractual, documental y la posterior preparacion de la justificacion y cierre de las actuaciones financiadas bajo el regimen de ayudas regulado en el Real Decreto ley 5 de 2026 y la Resolucion de 31 de marzo de 2026 de la Secretaria de Estado de Politica Territorial.",
     "updated": "2026-10-21T12:20:43.832+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=wwun7gwgBic3vLk2DU2Ddg%3D%3D",
@@ -4925,7 +5005,7 @@
     "organo": "Alcaldía del Ayuntamiento de Illora",
     "importe": "50300",
     "importe_num": 50300,
-    "fecha_limite": "2026-09-02",
+    "fecha_limite": "2026-11-05",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -4933,11 +5013,11 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-21",
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-10-27",
-    "fecha_limite_anterior": "2026-11-05",
-    "fecha_limite_cambiada_el": "2026-10-27",
-    "estado_updated": "2026-10-26T12:03:45.770+01:00"
+    "estado_anterior": "ADJ",
+    "estado_cambiado_el": "2026-11-10",
+    "fecha_limite_anterior": "2026-09-02",
+    "fecha_limite_cambiada_el": "2026-11-10",
+    "estado_updated": "2026-11-09T07:48:34.411+01:00"
   },
   {
     "folder_id": "SERV-2026000118",
@@ -5532,7 +5612,7 @@
   },
   {
     "folder_id": "008/2026",
-    "estado": "EV",
+    "estado": "PUB",
     "resultado": null,
     "titulo": "El presente contrato tiene por objeto la Redacción del Proyecto Constructivo, Dirección de las obras y coordinación de Seguridad y Salud, para la instalación de colectores que recojan las aguas pluviales de las cuencas norte y sur en Puebla de Guzmán (Huelva). Financiado con cargo a las ayudas de la Administración General del Estado.",
     "updated": "2026-10-22T10:09:13.525+02:00",
@@ -5566,7 +5646,7 @@
     "organo": "Alcaldía del Ayuntamiento de Puebla de Guzmán",
     "importe": "327320.3",
     "importe_num": 327320.3,
-    "fecha_limite": "2026-10-12",
+    "fecha_limite": "2026-11-23",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -5574,11 +5654,11 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-22",
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-10-27",
-    "fecha_limite_anterior": "2026-11-23",
-    "fecha_limite_cambiada_el": "2026-10-27",
-    "estado_updated": "2026-10-27T11:53:48.161+01:00"
+    "estado_anterior": "EV",
+    "estado_cambiado_el": "2026-11-10",
+    "fecha_limite_anterior": "2026-10-12",
+    "fecha_limite_cambiada_el": "2026-11-10",
+    "estado_updated": "2026-11-09T13:54:19.357+01:00"
   },
   {
     "folder_id": "582/2026",
@@ -6080,8 +6160,8 @@
   },
   {
     "folder_id": "1/2026",
-    "estado": "ADJ",
-    "resultado": "adjudicada",
+    "estado": "RES",
+    "resultado": "formalizada",
     "titulo": "Servicios de Actualización del Proyecto de Urbanización, Dirección Facultativa y Coordinador de Seguridad y Salud, así como seguimiento y asesoramiento técnico durante el proceso de licitación de las obras de Urbanización del ámbito del Sector SUP-O1 EL RODEO del PGOU de Estepona.",
     "updated": "2026-10-29T14:22:21.451+01:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lO21u2TbovJLAIVZdUs8KA%3D%3D",
@@ -6119,7 +6199,7 @@
     "organo": "Junta de Compensación Sector Sup-01 El Rodeo",
     "importe": "254930",
     "importe_num": 254930.0,
-    "fecha_limite": "2026-10-19",
+    "fecha_limite": "2026-02-20",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -6127,11 +6207,11 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-29",
-    "estado_anterior": "EV",
-    "estado_cambiado_el": "2026-11-06",
-    "fecha_limite_anterior": "2026-10-23",
-    "fecha_limite_cambiada_el": "2026-11-06",
-    "estado_updated": "2026-11-06T15:36:36.290+01:00"
+    "estado_anterior": "ADJ",
+    "estado_cambiado_el": "2026-11-10",
+    "fecha_limite_anterior": "2026-10-19",
+    "fecha_limite_cambiada_el": "2026-11-10",
+    "estado_updated": "2026-11-09T14:49:40.926+01:00"
   },
   {
     "folder_id": "SE 34/2026",
@@ -6734,8 +6814,8 @@
   },
   {
     "folder_id": "32/2026",
-    "estado": "PUB",
-    "resultado": null,
+    "estado": "ADJ",
+    "resultado": "adjudicada",
     "titulo": "Contrato administrativo de Servicios de redacción del proyecto básico y de ejecución y dirección facultativa de las obras del nuevo parque central de bomberos de Córdoba en la parcela situada en la avenida de Menéndez Pidal, paraje Alameda del Obispo, parcela 91 del polígono 109 (subparcela A).",
     "updated": "2026-11-01T11:56:43.738+01:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=cJE8rNfqma%2BP%2Bo96UAV7cQ%3D%3D",
@@ -6748,22 +6828,50 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9IRIUcwyGR3M/drZskxv0h6JPHnCsqrAPSQPtAsQNBXaTjmAhwUWU/eMU%2BV8cBUpSAS7XHvuAj3t7q1ryc8VI2U5QY91aPG%2BnMZo33n5dzr6CYyL7SIrUOBFfNf52ZqA",
     "docs_adicionales": [
       {
-        "nombre": "INFORME COMISION DE CULTURA 20 08 2026.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4jM0yXAEvE0xd1w3VCqZB9oCYerZGjBM3mA%2BxLK2tiRtAK7yopMHUgTAB%2BmpUO%2B1S2wXvgIptIOYHOYUKHpzaxTBc0bU5HLhE3pHP1sEtDNJOVDbGCDM%2BMigrvuVS7Rv"
+        "nombre": "32-2026 MODELO OFERTA.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=X3IPVsVYVJyLyLChyRt97ZDHVo/tASUyjBaQvMK5PyfAbTzvoQYyW0bH8C6GWQNHVhImcekBQcDNVTaa%2BOMXqPGMASn7Gy19aE7zxEu9aLx45ClyWkoJ44mKM70IFcOu"
       },
       {
-        "nombre": "ANEXO II DECLARACION RESPONSABLE.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=I3%2BGhJCregsbaSVyJ6oYipGoOfzSu1NLFzzFzKwKgUm3kTM84GFa1BFZZ7EpFxpbWRh9VR0EKUbaaUlMPMxdbTrdNo24MSmdL%2Brf3A%2BmGwVt/o8fNevwsujgRzaBbugn"
+        "nombre": "ANEXO II DEUC CPBV.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=rofLBHo7g6xrYChAcA8m0voaeBegWclg5vlUNXOQGZrkj2JiboSeoq5/faU2nLwMbvp13zt4L%2B/6ChGK36dbXWjsCmH10wC6zSRzqAjsPhX3GVhXrFFqN7yFncy7YfRK"
       },
       {
-        "nombre": "ANEXO I.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=C0tfqd26QArAy%2BrdrVmx%2BMFXMXWFRLJNgH%2BvNU3sUrjVzudRvMsYzOyswJ3/LYmZBoHB9l0lAPhEa%2BXe0%2BB7VMjAAIOqmfP8wTqir3Tz8oNt/o8fNevwsujgRzaBbugn"
+        "nombre": "ANEXO III DECLARACION RESPONSABLE COMUNICACIONES ELECTRONICAS.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=jxCgo4OuDbp/kJY5lmZybMHftFPLyKB7pd3QHOVb7HkRrXwsWRRuOOtt4L2icnprbt8HXlotKreznCtwwlyd4tPatiWK8vW8AlHKBS8EVHtt/o8fNevwsujgRzaBbugn"
+      },
+      {
+        "nombre": "ANEXO VI DECLARACION RESPONSABLE PROTECCION DATOS - copia.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Zx/IbvBZPIKiY/ksWwnwpR62ASBKxgkuRMmSxSnW1Z3UgDkLIqPoF9hOGGdfSvJ0R1/15bKR9NK39UJFU9bpx/Z%2BOx5zPaRfX0yEHEYmErKCx2e6p7hqtlp2aFupgHMr"
+      },
+      {
+        "nombre": "ANEXO VII MODELOS PARA GARANTIAS DEFINITIVAS_Sin retencion en precio.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=N4RQpGAxpTCPU7Td3yuTQW7fnLf8rLZ861zgD0gxWmHFj834b%2B7In8eYvl4AJRcn134b5pMLAp3MmJDuEXrJmfQdCCCksRWTrE%2BmDJlTzEGCx2e6p7hqtlp2aFupgHMr"
+      },
+      {
+        "nombre": "ANEXO IV GRUPO EMPRESARIAL.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=dVloy6jP36hnneZ1umDbiodf/fjGaOaym9XZxQlLcxq0B8TS7fzz%2BPs0wnro/tIMpA5pCcEwPP7dDJ91n4GbsFjRTCv0a85pipA11Yq5A/I//q7NB2iMZvNyf0xrJmjt"
+      },
+      {
+        "nombre": "ANEXO V DECLARACION RESPONSABLE SUBCONTRATACION_Sin importe .odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=zNXaPpJICVZjUrq/nwyqeRuqpgonZBtsdA8ePgPx%2BDk1R4aOBb2z4CZBwC%2BnOkQ5c4VOA5O2a0EsxrXP0uJ3Y8hl/6ET1ahctBgraqzaisCHAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "ANEXO VIII DECLARACION CONFIDENCIALIDAD SOBRE 1.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=brpNW/HQUn6t5boFqzQC4pk0o2a2VXowEogsmKq8cdrZef9Pqq3T/GeCQGLryu7Pc06qLzMfFgsH8ZXmgivnq9e24agnfFQW7VeCWRsmxtH6CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "ANEXO VIII DECLARACION CONFIDENCIALIDAD SOBRE 2.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=uo%2BuuSXrmvtng0vB/Wd%2B/5SbqavTawfmpoWRuIxypnC4y/01IkIfvdlh0/GEH2FUDd8zdu1iiCcqvgH81xPjfuUSzfLsAN5/s6VWUqA/2iNt/o8fNevwsujgRzaBbugn"
+      },
+      {
+        "nombre": "ANEXO VIII DECLARACION CONFIDENCIALIDAD SOBRE 3.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=KqTQIURDB5GtLtrkFj2tWhqiVHv1qk7Grt7ukZWCr6N9oDPHRsDceWOAjyMwt6nvv%2B3XJhFD7Xoy5rlVOy%2BPLvuqMkoUSVjZqEweTByfhFn3GVhXrFFqN7yFncy7YfRK"
       }
     ],
     "organo": "Presidencia del Consejo Rector de la Gerencia Municipal de Urbanismo del Ayuntamiento de Córdoba",
     "importe": "572876.6",
     "importe_num": 682876.6,
-    "fecha_limite": "2026-11-27",
+    "fecha_limite": "2026-09-04",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "8",
@@ -6771,9 +6879,11 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-01",
-    "fecha_limite_anterior": "2026-11-24",
-    "fecha_limite_cambiada_el": "2026-11-06",
-    "estado_updated": "2026-11-06T13:44:11.333+01:00"
+    "fecha_limite_anterior": "2026-11-27",
+    "fecha_limite_cambiada_el": "2026-11-10",
+    "estado_updated": "2026-11-09T13:36:04.430+01:00",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-10"
   },
   {
     "folder_id": "1054/2026",
@@ -7528,7 +7638,10 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-11-06"
+    "fecha_captura": "2026-11-06",
+    "revisado_humano": true,
+    "revisado_fecha": "2026-11-09T16:20:27.083Z",
+    "revisado_por": "CarlosLCAI"
   },
   {
     "folder_id": "SE(DT)-7518",
@@ -7638,5 +7751,115 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-06"
+  },
+  {
+    "folder_id": "264249",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "264249 - Gestión de la prevención de riesgos laborales y vigilancia de la salud, mediante servicio de prevención ajeno.",
+    "updated": "2026-11-09T14:28:16.182+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=iFooz1S3csBrhBlEHQFSKA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71317200",
+      "85147000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wk%2BywwMf/M5wKD6DnqF%2BEicsrftC/ULhR3EfAlhJSJ5G8rizERqgZIcTSLHThp1odhE8%2Bi7Z9IcyiqVjj%2BQ3nW4tfc9avGBcXxZMlk1lF8N7QB3HKyQaFUExmUVQCerk",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=cBsdd4iOAQS1Wez4xrm6OzWVz7n/AB0DOnm4%2B2VGyumOZfzu%2BrPp8TDGtl4FUoPDtvinue305rl6MVYznNkCb/KaLTzBHfo/zvYDHZIpCbf3GVhXrFFqN7yFncy7YfRK",
+    "docs_adicionales": [
+      {
+        "nombre": "264249-ccp-.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CEpiLYhRMn%2Bpz4jHiEhalV961wzzWAg61b0G3GZbK62z1jvsDWXlfWvNKnx9NYaaCbjB2g2MBFwqLPQkQsoEHOpiEE6aqWdPVipRzIIavCqCx2e6p7hqtlp2aFupgHMr"
+      }
+    ],
+    "organo": "Consejería Delegada de Actividades de Limpieza y Gestión S.A.",
+    "importe": "64842.91",
+    "importe_num": 129685.82,
+    "fecha_limite": "2026-11-24",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-10"
+  },
+  {
+    "folder_id": "110/26",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de del servicio de redacción del proyecto y Estudio de Seguridad y Salud para Aula de formación \"Atunara\" en La Línea de la Concepción",
+    "updated": "2026-11-09T11:49:09.824+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=p7vKGNk%2Fn6x%2FR5QFTlaM4A%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=glrOa7b3uXXd1ooOVPLEbK6bCEoA3upv2zV8x0Z2KBD8DYzWK561xYAvQSWBjHecVH4%2BZhHdsd7o%2BTzxEFbqZFeQfBUKcShh2Xg6R9t8JOYC1/zDIE0Kw/PWNnLS0Z0z",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=brpNW/HQUn6t5boFqzQC4j8%2BtbIvDeKjKKp3Vvnxc5jlUPnNbRFM6hOnpjsKaF1fYG/eOXqgp6WT9wdwe9xklojSEEIhcay6v3SNuGrz/GoZyAJWGsSt0OzTSTyw9JAs",
+    "docs_adicionales": [],
+    "organo": "Alcaldía del Ayuntamiento de la Línea de la Concepción",
+    "importe": "24774.6",
+    "importe_num": 24774.6,
+    "fecha_limite": "2026-11-24",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-10"
+  },
+  {
+    "folder_id": "CONTR 2026 0000179890",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "dirección de obra coord. seguridad salud obras depuración varias provincias",
+    "updated": "2026-11-09T15:41:22.647+01:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1036697",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71317210",
+      "71310000",
+      "90492000",
+      "71520000",
+      "71000000"
+    ],
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441910",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441905",
+    "docs_adicionales": [
+      {
+        "nombre": "Memoria justificativa de la contratación.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441916"
+      },
+      {
+        "nombre": "DEUC PDF.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441996"
+      },
+      {
+        "nombre": "DEUC XML.XML",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441997"
+      },
+      {
+        "nombre": "Instrucciones DEUC.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441998"
+      }
+    ],
+    "organo": "Consejería de Agricultura, Pesca, Agua y Desarrollo Rural. D.G. de Infraestructuras del Agua (En Transición)",
+    "importe": "1152356.50",
+    "importe_num": 1382827.8,
+    "fecha_limite": "2026-12-15",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas",
+    "descripcion": "DIRECCIÓN DE OBRA Y COORDINACIÓN DE SEGURIDAD Y SALUD DE OBRAS DE DEPURACIÓN EN VARIAS PROVINCIAS DE ANDALUCÍA, FASE V (ALMERÍA Y HUELVA)",
+    "junta_consultado": "2026-11-10",
+    "fecha_captura": "2026-11-10"
   }
 ]

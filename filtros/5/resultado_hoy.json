@@ -1,32 +1,127 @@
 [
   {
-    "folder_id": "Servicios  4/2026",
+    "folder_id": "2026PL132",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicio de mantenimiento preventivo y correctivo en instalaciones eléctricas y servicios de extracción e introducción de bombas en sondeos gestionados por Aguasvira",
-    "updated": "2026-11-08T11:42:05.578+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Q8kbhoUx9JuIzo3LHNPGcQ%3D%3D",
+    "titulo": "Contratación del servicio de apoyo a las tareas de limpieza mediante vehículos especiales y equipos auxiliares en situaciones extraordinarias o de máxima necesidad.",
+    "updated": "2026-11-09T12:24:16.068+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=k7vnmQ78La%2F5Rey58Yagpg%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "71314100",
-      "50500000",
-      "50000000",
-      "45315600",
-      "45315500"
+      "60181000",
+      "16160000",
+      "60182000",
+      "42000000",
+      "77200000",
+      "42995200",
+      "90680000",
+      "34114000",
+      "90500000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=NCDZhC5RtRNKrhJWlb05Pk0YB06GN2iuIRzIFUl1yZ%2BxCOalUrikOTE0gqNZqkNvbU1vMJKm18RnMfTjIM6nSyMZsOurq5woDckeB3GyZmEZyAJWGsSt0OzTSTyw9JAs",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=mzZ04CUkaZpk4EvT/0Yw5X4JAfYeocdoB0LYyoHAqv%2Bgj1g9onRPEWHed7nn0xrf4e9VpFlwl29JQsY7yz3Nvpzzxmf2U/TmZX4DpPGEEuh7QB3HKyQaFUExmUVQCerk",
-    "docs_adicionales": [],
-    "organo": "Dirección Gerente de Aguas Vega Sierra Elvira, S.A.",
-    "importe": "78303",
-    "importe_num": 313212.0,
-    "fecha_limite": "2026-12-09",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=X3IPVsVYVJyLyLChyRt97TzyirfoJjlMxjnaD2rjPxQ9/Yu52qcbhAYEbOK0TCR1Oa4uC%2BNTKb2eKRo%2Bb3pxJjpQ9Qgyg/qKJFGaHSxD4Kr3GVhXrFFqN7yFncy7YfRK",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wmM2qPx8/n2dhM5045uvcuMwOLAKq4u6LV0nyKliOtDOP4asVrDdvQTMihejazuoHbOTHQTDVslJ9cVC9Q6ucpYZfztaZLUswTSNO1yOWZT6CYyL7SIrUOBFfNf52ZqA",
+    "docs_adicionales": [
+      {
+        "nombre": "Anexo CCP consolidado 2026PL132.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=g6w65ts2b1kAg6TfbJuSoWuAje11UbDmFIxS/Nmiv5E7Z%2BNLHrWra0JB%2B1Nrr3VDllNfEWEheO6ia90c6vpVb%2BsGW3C9jfv00haKLTzSoJFt/o8fNevwsujgRzaBbugn"
+      }
+    ],
+    "organo": "Dirección Gerencia de Limpieza de Málaga Sociedad Anónima Municipal",
+    "importe": "99000",
+    "importe_num": 99000.0,
+    "fecha_limite": "2026-11-25",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles"
+  },
+  {
+    "folder_id": "10/2026 (688/2026)",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Delegado de Protección de Datos de Caracter Personal del Ayuntamiento de La Iruela",
+    "updated": "2026-11-09T11:38:10.607+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=siSFXQuOYgWzz8fXU2i3eQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "79411000",
+      "71317000",
+      "79417000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/VNXeOA8xe7jiZCdPmFj1EqnrKhXpyrZJgiTMN38soZpxNqU%2B31PqI4j%2B8yV34XNm01ycRx2OkkvFVPC78q6tTnQT825MSvyuxXyGevsv61JOVDbGCDM%2BMigrvuVS7Rv",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=idxKbqqPSqre/WvWy3S/pMG%2BXDMh99C78dO4n5T93tYRkjA%2BcEscTZ5PAUKylgT%2Bgv%2Bo/PIfqi5cVHtmva72qmAihUAdG9cDQVqPl/Z9XCY//q7NB2iMZvNyf0xrJmjt",
+    "docs_adicionales": [
+      {
+        "nombre": "modelo anexo II declaracion responsable.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=3v/hKP6NN4mHcexACUWTBNLolKNLAZv07JpIbj5h0uTAfgnLbzNnzqXOEcC8wSsThBqZ2W/rkTSPUqORNCT0yJmQuMVGrGWpaISeePKDiFRJOVDbGCDM%2BMigrvuVS7Rv"
+      },
+      {
+        "nombre": "modelo anexo I.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=SZ0SFnLyaAoquDmfs%2BHQ2YdtJew82EpzLS9ZllI/Sz5t5jsjRbsmQw1n4G1FvtG1DljXg5Ca%2BkmfpJiNz2BxL8Lmv8mPRSdfM7p67lwyfC4C1/zDIE0Kw/PWNnLS0Z0z"
+      }
+    ],
+    "organo": "Alcaldia del Ayuntamiento de la Iruela",
+    "importe": "1251.48",
+    "importe_num": 2502.96,
+    "fecha_limite": "2026-11-23",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "CONTR 2026 0000179890",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "dirección de obra coord. seguridad salud obras depuración varias provincias",
+    "updated": "2026-11-09T15:41:22.647+01:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1036697",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71317210",
+      "71310000",
+      "90492000",
+      "71520000",
+      "71000000"
+    ],
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441910",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441905",
+    "docs_adicionales": [
+      {
+        "nombre": "Memoria justificativa de la contratación.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441916"
+      },
+      {
+        "nombre": "DEUC PDF.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441996"
+      },
+      {
+        "nombre": "DEUC XML.XML",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441997"
+      },
+      {
+        "nombre": "Instrucciones DEUC.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441998"
+      }
+    ],
+    "organo": "Consejería de Agricultura, Pesca, Agua y Desarrollo Rural. D.G. de Infraestructuras del Agua (En Transición)",
+    "importe": "1152356.50",
+    "importe_num": 1382827.8,
+    "fecha_limite": "2026-12-15",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas",
+    "descripcion": "DIRECCIÓN DE OBRA Y COORDINACIÓN DE SEGURIDAD Y SALUD DE OBRAS DE DEPURACIÓN EN VARIAS PROVINCIAS DE ANDALUCÍA, FASE V (ALMERÍA Y HUELVA)",
+    "junta_consultado": "2026-11-10"
   }
 ]
