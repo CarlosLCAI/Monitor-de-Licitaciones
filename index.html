@@ -2897,6 +2897,9 @@ document.getElementById('modal-revision-overlay').addEventListener('click', (e) 
 // de frases con HTML sencillo): la ventana se abre sola la primera vez que se entra desde esa fecha
 // y la campana se muestra rellena durante la primera semana. Solo cambios que el usuario note.
 const NOVEDADES = [
+  { fecha: '2026-11-11', items: [
+    "<strong>Mantenimiento y corrección de errores.</strong> Mejorada la lectura y la identificación de las licitaciones, y cambios de estilo en la revisión IA.",
+  ] },
   { fecha: '2026-11-05', items: [
     "<strong>Columna Revisión con iconos.</strong> Las cuatro marcas pasan a ser iconos en una columna estrecha, en gris cuando están sin marcar y de su color al pulsarlas: ojo (Revisado), bandera (Presentado), estrella (Ganada) y X (Descartado). Desaparecen las palabras, así que las filas ocupan menos alto; el nombre de cada marca sale al pasar el ratón.",
     "<strong>Marca «Ganada».</strong> Nueva casilla dorada con una estrella en la columna <em>Revisión</em>, entre Presentado y Descartado, para marcar a mano las licitaciones que nos han adjudicado. Se aplica a todos los filtros, se ve con la inicial de quien la marca, ordena la columna Revisión y aparece en las estadísticas (cifras clave y marcas por persona).",
