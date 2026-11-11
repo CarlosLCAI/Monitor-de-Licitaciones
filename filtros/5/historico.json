@@ -8847,7 +8847,10 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-11-11"
+    "fecha_captura": "2026-11-11",
+    "descartado": true,
+    "descartado_fecha": "2026-11-11T12:26:08.081Z",
+    "descartado_por": "Luis Hens del Campo"
   },
   {
     "folder_id": "0011-26GPSE",
