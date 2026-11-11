@@ -26,6 +26,7 @@
     --teal-suave: #E3F5F5;
     --teal-texto: #055f5f;
     --on-teal: #fff; /* letra sobre fondo turquesa */
+    --h2-fondo: #D9D9D9; /* banda gris de los títulos de segundo nivel del informe IA (letra turquesa) */
     --etiqueta-suave: #9AA0A5;
     --descarte: #D64550; /* rojo de la casilla Descartado */
     --presentado: #2E9E6A; /* verde de la casilla Presentado */
@@ -53,6 +54,7 @@
     --teal-suave: #1E3B3B;
     --teal-texto: #5BC4C4;
     --on-teal: #E1E6E6;
+    --h2-fondo: #3A3E40;
     --etiqueta-suave: #8B9196;
     --descarte: #E0565F;
     --presentado: #3BAE79;
@@ -512,8 +514,8 @@
   }
   .informe-h1:first-child { margin-top: 0; }
   .informe-h2 {
-    background: var(--teal);
-    color: var(--on-teal);
+    background: var(--h2-fondo);
+    color: var(--teal);
     font-weight: 700;
     font-size: 13px;
     padding: 6px 12px;
@@ -1113,7 +1115,7 @@ let registroModalRevision = null;
 
 const ESTILOS_INLINE_INFORME = [
   ['.informe-h1', 'background:#07AAAA;color:#fff;text-transform:uppercase;font-weight:bold;font-size:15px;padding:6px 10px;margin:16px 0 6px;'],
-  ['.informe-h2', 'background:#07AAAA;color:#fff;font-weight:bold;font-size:13px;padding:5px 10px;margin:10px 0 5px;'],
+  ['.informe-h2', 'background:#D9D9D9;color:#07AAAA;font-weight:bold;font-size:13px;padding:5px 10px;margin:10px 0 5px;'],
   ['.informe-aviso', 'color:#ED2E63;font-weight:bold;'],
   ['.informe-tabla', 'border-collapse:collapse;width:100%;font-size:12px;'],
   ['.informe-tabla td', 'border:1px solid #DADADA;padding:4px 7px;vertical-align:top;text-align:left;'],
@@ -1132,7 +1134,7 @@ const CSS_INFORME_EXPORTADO = `
   .datos td { padding: 2px 14px 2px 0; vertical-align: top; }
   .datos td:first-child { color: #5A5A5A; white-space: nowrap; }
   .informe-h1 { background: #07AAAA; color: #fff; text-transform: uppercase; font-weight: 700; font-size: 15px; padding: 7px 12px; margin: 20px 0 8px; break-after: avoid; }
-  .informe-h2 { background: #07AAAA; color: #fff; font-weight: 700; font-size: 13px; padding: 6px 12px; margin: 12px 0 6px; break-after: avoid; }
+  .informe-h2 { background: #D9D9D9; color: #07AAAA; font-weight: 700; font-size: 13px; padding: 6px 12px; margin: 12px 0 6px; break-after: avoid; }
   .informe-parrafo { margin: 6px 0; }
   .informe-aviso { color: #ED2E63; font-weight: 600; margin: 6px 0; }
   ul, ol { margin: 4px 0 10px; padding-left: 22px; }

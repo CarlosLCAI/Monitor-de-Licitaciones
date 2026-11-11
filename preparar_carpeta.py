@@ -242,7 +242,7 @@ def markdown_a_html(texto):
 CSS_RESPALDO = """
   body { font-family: Arial, sans-serif; color: #1a1a1a; font-size: 13.5px; line-height: 1.55; max-width: 900px; margin: 0 auto; padding: 24px; }
   .informe-h1 { background: #07AAAA; color: #fff; text-transform: uppercase; font-weight: 700; padding: 7px 12px; margin: 20px 0 8px; }
-  .informe-h2 { background: #07AAAA; color: #fff; font-weight: 700; padding: 6px 12px; margin: 12px 0 6px; }
+  .informe-h2 { background: #D9D9D9; color: #07AAAA; font-weight: 700; padding: 6px 12px; margin: 12px 0 6px; }
   .informe-tabla { width: 100%; border-collapse: collapse; } .informe-tabla td { border: 1px solid #DADADA; padding: 4px 7px; vertical-align: top; }
   .informe-aviso { color: #ED2E63; font-weight: 600; }
 """
