@@ -7907,9 +7907,9 @@
     "carpeta_descargada": true,
     "carpeta_descargada_fecha": "2026-11-11T09:53:02.305Z",
     "carpeta_descargada_por": "Luis Hens del Campo",
-    "ganada": true,
-    "ganada_fecha": "2026-11-11T12:27:10.309Z",
-    "ganada_por": "Luis Hens del Campo"
+    "ganada": false,
+    "ganada_fecha": null,
+    "ganada_por": null
   },
   {
     "folder_id": "CSE/1100/1101233553/26/PASU",
