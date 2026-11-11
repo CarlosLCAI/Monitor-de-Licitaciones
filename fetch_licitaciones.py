@@ -1267,6 +1267,37 @@ def unificar_marcas_revision(contextos):
         print(f"Marcas de revisión/descarte propagadas entre filtros: {propagadas}")
 
 
+NOMBRE_ESTADO_MONITOR = "estado_monitor.json"
+
+
+def escribir_estado_monitor(estado, mensaje="", avisos=None):
+    """Deja en estado_monitor.json cómo ha ido esta ejecución («ok», «parcial» o «error»). El visor lo lee al
+    abrirse y, si hay un problema (o si el monitor lleva demasiado sin ejecutarse), lo muestra en una ventana."""
+    try:
+        try:
+            with open(NOMBRE_ESTADO_MONITOR, "r", encoding="utf-8") as f:
+                previo = json.load(f)
+        except (OSError, ValueError):
+            previo = {}
+        ahora = datetime.now(timezone.utc).isoformat()
+        ejecucion = ""
+        if os.environ.get("GITHUB_RUN_ID") and os.environ.get("GITHUB_REPOSITORY"):
+            ejecucion = (f"{os.environ.get('GITHUB_SERVER_URL', 'https://github.com')}/"
+                         f"{os.environ['GITHUB_REPOSITORY']}/actions/runs/{os.environ['GITHUB_RUN_ID']}")
+        datos = {
+            "estado": estado,
+            "fecha": ahora,
+            "mensaje": (mensaje or "")[:600],
+            "avisos": [a[:400] for a in (avisos or [])],
+            "ultima_lectura_ok": ahora if estado in ("ok", "parcial") else previo.get("ultima_lectura_ok"),
+            "ejecucion": ejecucion,
+        }
+        with open(NOMBRE_ESTADO_MONITOR, "w", encoding="utf-8") as f:
+            json.dump(datos, f, ensure_ascii=False, indent=2)
+    except Exception as e:  # el aviso no debe romper ni tapar el error que se está registrando
+        print(f"Aviso: no se pudo escribir {NOMBRE_ESTADO_MONITOR}: {e}")
+
+
 def main():
     filtros_desc = cargar_manifiesto_filtros()
 
@@ -1399,6 +1430,19 @@ def main():
             notificar_teams(resultados, pagina, total_entries_leidas, nombre_filtro)
         resultados_por_filtro[desc["id"]] = resultados
 
+    # Estado de esta ejecución para el visor: feeds secundarios que han fallado o el feed principal congelado
+    avisos = [f"No se pudo leer el feed {e}" for e in feeds_con_error]
+    for f in info_feeds:
+        if f.get("nombre") == "perfiles" and f.get("estado") == "ok" and f.get("ultima_entrada"):
+            try:
+                horas = (datetime.now(timezone.utc) - datetime.fromisoformat(f["ultima_entrada"])).total_seconds() / 3600
+            except ValueError:
+                horas = 0
+            if horas > 96:  # un puente largo llega a unas 80 h sin publicaciones
+                avisos.append(f"El feed «perfiles» de la Plataforma no trae entradas nuevas desde hace {int(horas)} horas "
+                              "(posible caída de la Plataforma): pueden estar sin aparecer licitaciones nuevas.")
+    escribir_estado_monitor("parcial" if avisos else "ok", "", avisos)
+
     return resultados_por_filtro
 
 
@@ -1527,5 +1571,6 @@ if __name__ == "__main__":
             main()
         except Exception as e:
             print(f"Fallo la ejecucion: {e}")
+            escribir_estado_monitor("error", str(e))
             notificar_fallo_teams(str(e))
             raise

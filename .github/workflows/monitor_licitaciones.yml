@@ -43,7 +43,7 @@ jobs:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add filtros.json filtros/
+          git add filtros.json filtros/ estado_monitor.json
           git diff --quiet --cached || git commit -m "Actualización diaria licitaciones $(date +%F)"
           # GitHub devuelve de vez en cuando un error 500 temporal al hacer push: se reintenta
           for intento in 1 2 3 4 5; do
@@ -53,3 +53,19 @@ jobs:
           done
           echo "No se pudo subir el resultado tras 5 intentos"
           exit 1
+
+      # Si la lectura falla, el script deja el motivo en estado_monitor.json; se sube solo ese archivo (lo demás
+      # puede haber quedado a medias y se descarta) para que el visor avise al abrirse.
+      - name: Registrar el fallo para el visor
+        if: failure()
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add estado_monitor.json
+          git diff --quiet --cached || git commit -m "Aviso: la lectura del monitor ha fallado ($(date +%F))"
+          git restore --worktree . 2>/dev/null || true
+          for intento in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            sleep $((intento * 15))
+          done
+          exit 0

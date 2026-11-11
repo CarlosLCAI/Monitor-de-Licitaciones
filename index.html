@@ -491,6 +491,10 @@
   }
   .modal-body { overflow-y: auto; }
   .modal-panel-ancho { width: 860px; }
+  .aviso-monitor { border-left: 4px solid var(--ganada); padding: 2px 0 2px 12px; margin: 0 0 14px; line-height: 1.5; }
+  .aviso-monitor.error { border-left-color: var(--descarte); }
+  .aviso-monitor strong { display: block; margin-bottom: 2px; }
+  .aviso-monitor small { display: block; color: var(--ink-soft); margin-top: 4px; }
   .informe-ia {
     font-size: 13.5px;
     line-height: 1.6;
@@ -803,6 +807,21 @@
         </div>
       </div>
       <div class="modal-body" id="modal-revision-body"></div>
+    </div>
+  </div>
+
+  <div id="modal-aviso-overlay" class="modal-overlay" style="z-index: 110">
+    <div class="modal-panel">
+      <div class="modal-header">
+        <p class="modal-titulo">Aviso del monitor</p>
+        <button id="btn-cerrar-aviso" aria-label="Cerrar">✕</button>
+      </div>
+      <div class="modal-body">
+        <div id="aviso-monitor-cuerpo"></div>
+        <div class="modal-actions">
+          <button type="button" class="btn-primario" id="btn-entendido-aviso">Entendido</button>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -2793,6 +2812,7 @@ async function iniciarVisor() {
   if (Object.keys(leerRevisionesIaPendientes()).length) iniciarVigilanciaIA();
   cargarCarpetasPreparadas().then(() => { if (pestanaActiva !== 'estadisticas') renderVista(); });
   if (Object.keys(leerCarpetasPendientes()).length) iniciarVigilanciaCarpetas();
+  comprobarEstadoMonitor().catch(() => {});
 }
 
 iniciarVisor().catch(() => {
@@ -3022,6 +3042,45 @@ try {
     animarNovedades();
   }
 } catch (e) { /* si no hay almacenamiento no se insiste en cada visita */ }
+
+// --- Aviso de problemas del monitor ---------------------------------------------------------------
+// Cada lectura deja en estado_monitor.json cómo ha ido (ok / parcial / error). Al abrir el visor se lee y,
+// si hay un problema, o si el monitor lleva demasiadas horas sin ejecutarse, se muestra en una ventana. Sale
+// cada vez que se abre mientras el problema siga; se cierra con «Entendido».
+const MONITOR_SIN_EJECUTAR_HORAS = 36;
+
+function problemasDelMonitor(e) {
+  if (!e || !e.fecha) return [];
+  const cuando = iso => new Date(iso).toLocaleString('es-ES', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
+  const horas = (Date.now() - Date.parse(e.fecha)) / 3600000;
+  const ultimaOk = e.ultima_lectura_ok ? ' Última lectura correcta: ' + cuando(e.ultima_lectura_ok) + '.' : '';
+  const enlace = e.ejecucion ? '<small><a href="' + escapeHtml(e.ejecucion) + '" target="_blank" rel="noopener">Ver la ejecución en GitHub</a></small>' : '';
+  const lista = [];
+  if (e.estado === 'error') {
+    lista.push({ error: true, html: '<strong>La última lectura del monitor (' + cuando(e.fecha) + ') ha fallado.</strong>' +
+      escapeHtml(e.mensaje || 'Sin detalle.') + '<br>Mientras no se resuelva no se actualizan las licitaciones.' + escapeHtml(ultimaOk) + enlace });
+  } else if (horas > MONITOR_SIN_EJECUTAR_HORAS) {
+    lista.push({ error: true, html: '<strong>El monitor no se ejecuta desde hace ' + Math.round(horas) + ' horas.</strong>' +
+      'La última ejecución fue el ' + cuando(e.fecha) + '. GitHub puede haber retrasado u omitido la ejecución programada: se puede lanzar a mano desde la pestaña Actions del repositorio.' + enlace });
+  }
+  if (e.estado === 'parcial') {
+    (e.avisos || []).forEach(a => lista.push({ error: false, html: '<strong>La lectura del ' + cuando(e.fecha) + ' se completó con avisos.</strong>' + escapeHtml(a) + enlace }));
+  }
+  return lista;
+}
+
+async function comprobarEstadoMonitor() {
+  const estado = await Backend.leerJson('estado_monitor.json');
+  const problemas = problemasDelMonitor(estado);
+  if (!problemas.length) return;
+  document.getElementById('aviso-monitor-cuerpo').innerHTML = problemas.map(p => '<div class="aviso-monitor' + (p.error ? ' error' : '') + '">' + p.html + '</div>').join('');
+  document.getElementById('modal-aviso-overlay').classList.add('abierto');
+}
+
+function cerrarAvisoMonitor() { document.getElementById('modal-aviso-overlay').classList.remove('abierto'); }
+document.getElementById('btn-cerrar-aviso').addEventListener('click', cerrarAvisoMonitor);
+document.getElementById('btn-entendido-aviso').addEventListener('click', cerrarAvisoMonitor);
+document.getElementById('modal-aviso-overlay').addEventListener('click', (ev) => { if (ev.target.id === 'modal-aviso-overlay') cerrarAvisoMonitor(); });
 
 // Tema claro / oscuro: se recuerda en este navegador (el tema inicial se aplica en la cabecera para que no parpadee).
 const TEMA_KEY = 'monitorLicitaciones.tema';
