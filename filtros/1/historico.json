@@ -3944,7 +3944,198 @@
     "estado_cambiado_el": "2026-11-06",
     "revisado_humano": true,
     "revisado_fecha": "2026-11-11T07:17:06.371Z",
-    "revisado_por": "CarlosLCAI"
+    "revisado_por": "CarlosLCAI",
+    "revision_ia": {
+      "informe": "## Bloque 1 – Características Principales del Contrato\n\n### Objeto de la licitación\nContrato administrativo de servicios (Expte. **1054/2026**, Ayuntamiento de Rus, Jaén), por procedimiento abierto y **tramitación urgente**. Comprende la redacción de los proyectos de ejecución, la dirección facultativa (de obra y, cuando proceda, de ejecución) y la coordinación de seguridad y salud (CSS) de **diez actuaciones** municipales de reparación de daños por fenómenos meteorológicos adversos. Se financia con ayudas del RDL 5/2026 y la Resolución de 31/03/2026.\n\nObjetivos:\n- Redactar proyectos constructivos completos, incluido el anejo de elegibilidad de la ayuda.\n- Dirigir las obras y llevar la CSS hasta la recepción, la liquidación y el informe de devolución de la garantía de la obra.\n- Garantizar la trazabilidad y la pista de auditoría por lote, para justificar la subvención.\n\nEl PPT se ha analizado junto con el PCAP.\n\n### División en lotes\nCada lote es un contrato independiente (art. 99.7 LCSP). Se admiten ofertas a uno, varios o todos los lotes, sin límite de adjudicaciones y sin ofertas integradoras.\n\n| Lote | Actuación | Base sin IVA (€) | Con IVA (€) |\n|---|---|---|---|\n| 1 | Muro Plaza Federico García Lorca | 3.296,00 | 3.988,16 |\n| 2 | Pista polideportiva de Triana | 3.342,40 | 4.044,30 |\n| 3 | Calle Las Moreas | 21.228,39 | 25.686,35 |\n| 4 | Carretera municipal | 36.960,00 | 44.721,60 |\n| 5 | Gimnasio municipal | 11.304,26 | 13.678,15 |\n| 6 | Mercado de Abastos | 20.039,80 | 24.248,16 |\n| 7 | Calle Costezuela | 23.750,02 | 28.737,52 |\n| 8 | Calle del Moral | 13.679,05 | 16.551,65 |\n| 9 | Pabellón deportivo municipal | 34.948,15 | 42.287,26 |\n| 10 | Saneamiento Paseo del Emigrante | 18.015,33 | 21.798,55 |\n| **Total** | | **186.563,40** | **225.741,70** |\n\n### Características del contrato\n- **Presupuesto base de licitación y valor estimado:** **186.563,40 € sin IVA** (**225.741,70 €** con IVA 21 %).\n  - Cálculo: 4 % proyecto, 4 % dirección y 1,5 % CSS sobre el PEM de cada obra.\n  - Lote 4: 3,07 % + 3,07 % + 1,5 %. Lotes 1 y 2: 10 % global.\n- **Revisión de precios:** no cabe.\n- **Duración (según PCAP cláusula 7 y PPT cláusula 16):**\n  - Redacción del proyecto: 1 mes (lotes 4 y 9: 2 meses), desde el día siguiente a la formalización.\n  - Dirección y CSS: de 1 a 4 meses según el lote. Es un plazo estimativo, porque la duración real es la de la obra más la recepción, la liquidación y el seguimiento durante la garantía de la obra.\n- **Presentación de ofertas:** exclusivamente electrónica, por la Plataforma de Contratación del Sector Público (PLACSP).\n  - Plazo: **8 días** desde el día siguiente a la publicación del anuncio. La fecha concreta no consta en el texto recibido.\n  - Consultas: se responden hasta 4 días antes del fin del plazo si se piden con al menos 6 días de antelación.\n- **Garantía provisional:** no se exige.\n- **Garantía definitiva:** 5 % del precio final de cada lote, IVA excluido.\n- **Trabajos específicos (según el PPT):**\n  - Estudio geotécnico imprescindible en los lotes 1, 2, 3, 7, 8 y 9.\n  - Autorización de la Confederación Hidrográfica del Guadalquivir en el lote 10.\n  - Estudio de Seguridad y Salud, plan de control de calidad, anejo de gestión de residuos y anejo de elegibilidad.\n  - Entrega en .docx, .dwg, .bc3, .xlsx y un PDF firmado.\n  - Dirección de ejecución separada en los lotes de edificación 5, 6 y 9 (LOE).\n  - Visita mínima de obra cada 15 días.\n  - Subsanación de deficiencias de la supervisión en 5 días hábiles.\n  - Arqueología y trámites ambientales: no localizados.\n- **Condición especial de ejecución:** reducción del consumo de papel, con declaración responsable final.\n- **Anexo del PPT con las fichas de la memoria justificativa:** se cita, pero no figura en el texto recibido.\n\n## Bloque 2 – Solvencia\n\n### Económica y financiera\nLos dos medios son acumulativos (art. 87.1 a y b LCSP).\n\n- **Volumen anual de negocios:**\n  - Se mide en el mejor ejercicio de los tres últimos disponibles.\n  - El mínimo es **1,5 × el presupuesto sin IVA del lote**: 4.944 € en el lote 1 y 55.440 € en el lote 4.\n  - Si se opta a varios lotes se suman: **279.845,10 €** para los 10 lotes.\n  - Se acredita con las cuentas anuales depositadas en el Registro Mercantil y una declaración responsable del volumen de negocios.\n- **Seguro de responsabilidad civil profesional:**\n  - Mínimo **300.000 €**, o compromiso vinculante de suscripción si resulta adjudicatario.\n  - Se acredita con certificado de la aseguradora (importes, riesgos y vencimiento) y el recibo en vigor.\n  - La póliza debe mantenerse durante toda la ejecución.\n- **Empresas con menos de 3 años de antigüedad:** patrimonio neto o ratio activo/pasivo no inferior al volumen exigido.\n- **Medios externos (art. 75 LCSP):** permitidos mediante el Anexo VIII.\n\n### Técnica y profesional\n- **Experiencia de la empresa (art. 90.1.a LCSP):**\n  - Servicios de igual o similar naturaleza en los **últimos 3 años**.\n  - El importe anual acumulado en el año de mayor ejecución debe alcanzar, **por separado**, el **30 % del importe de proyecto** y el **40 % del de dirección** de cada lote.\n  - Total para los 10 lotes: **54.488,63 €** (23.352,27 € de proyectos y 31.136,36 € de dirección). Ejemplos: lote 1 = 971,46 €; lote 4 = 10.395,00 €.\n  - **Similitud:** igualdad de los **dos primeros dígitos del CPV** (71 en este contrato).\n  - **Acreditación:** certificados de buena ejecución expedidos o visados por el órgano competente si el destinatario es público. Si es privado, certificado del cliente o, en su defecto, declaración del empresario con documentos de soporte.\n  - No se exige un número mínimo de proyectos por profesional.\n- **Empresas de nueva creación** (menos de 5 años): exentas de experiencia. Deben acreditar personal técnico y medios materiales.\n- **Equipo mínimo por lote (Anexo V y PPT cláusula 15 bis):**\n  - Un técnico (arquitecto, arquitecto técnico, ingeniero o ingeniero técnico, según sus atribuciones) que redacte y firme el proyecto.\n  - Un técnico con esas titulaciones para la dirección facultativa y, en los lotes 5, 6 y 9, un técnico habilitado para la dirección de ejecución.\n  - Un técnico competente para la CSS (RD 1627/1997).\n  - Una misma persona puede asumir varias funciones si tiene la habilitación y no hay incompatibilidad.\n  - Colegiación solo cuando sea obligatoria.\n  - Medios materiales: equipo informático, herramientas de planos y mediciones, gestión documental y medios de desplazamiento.\n- **Subcontratación:** proyecto, dirección facultativa y CSS son **tareas críticas no subcontratables**. Solo pueden subcontratarse trabajos auxiliares: topografía, geotecnia, ensayos y delineación.\n- **Integración de solvencia con medios externos:** permitida (art. 75 LCSP, Anexo VIII).\n- **UTE:** la solvencia se acumula entre sus integrantes.\n\n⚠ REVISAR — criterio de mejora de equipo, no confundir con el mínimo de solvencia: los criterios A.1 a A.3 puntúan la experiencia nominal de los técnicos.\n- Se otorgan 2 puntos por proyecto o dirección similar, hasta 4. En CSS son 2 puntos por actuación, hasta 2.\n- Solo cuentan trabajos de los últimos 10 años con PEM igual o superior al 25 % del PEM de la obra del lote.\n- Los profesionales valorados quedan adscritos como obligación esencial.\n\n⚠ REVISAR — el PCAP define la similitud por los 2 primeros dígitos del CPV (cláusula 8.2.2) y no por 3. Para el cálculo se aplica el criterio del pliego.\n\n## Bloque 3 – Criterios de Adjudicación\nMáximo **100 puntos por lote**, valorados de forma independiente en cada lote.\n\n### Automáticos (fórmulas)\n**Oferta económica: hasta 30 puntos (Sobre 3).**\n- Fórmula: **Pi = 30 × (PL − Oi) / (PL − Omin)**.\n  - PL: presupuesto base del lote sin IVA.\n  - Oi: oferta del licitador sin IVA.\n  - Omin: oferta válida más baja del lote.\n- La oferta igual al presupuesto obtiene 0 puntos. No se admiten ofertas por encima del presupuesto. Se redondea a 2 decimales.\n- **Oferta anormalmente baja** (se tramita justificación, no hay exclusión automática):\n  - Baja ≥ 20 % con calidad ≥ 50 sobre 70 puntos.\n  - Baja ≥ 30 % en cualquier caso.\n\n**Calidad automática: hasta 30 puntos (Sobre 3).**\n\n| Criterio | Puntos | Regla |\n|---|---|---|\n| A.1 Experiencia del redactor del proyecto | 8 | 2 puntos por proyecto similar, hasta 4 proyectos |\n| A.2 Experiencia del director facultativo | 8 | 2 puntos por dirección similar, hasta 4 |\n| A.3 Experiencia del coordinador de seguridad y salud | 4 | 2 puntos por actuación, hasta 2 |\n| A.4 Visitas de obra adicionales | 6 | Una adicional por quincena: 3 puntos. Dos o más: 6 puntos |\n| A.5 Reducción del plazo de redacción | 4 | **P = 4 × (R / Rmáx)**. R son los días ofertados. Rmáx es 10 días (lotes 1, 2, 3, 5, 6, 7, 8 y 10) o 15 días (lotes 4 y 9) |\n\n- La reducción superior al máximo no puntúa más, pero es exigible.\n- Trabajos puntuables en A.1 a A.3:\n  - Se justifican con certificado del promotor, certificado del colegio o portada firmada del proyecto con aprobación o acta de recepción, según el Anexo VI.\n  - Concluidos en los 10 años anteriores al fin del plazo de ofertas.\n  - PEM mínimo del 25 % del de la obra del lote.\n  - Un mismo trabajo cuenta una sola vez por criterio.\n\n### Juicio de valor\n**Memoria técnica: hasta 40 puntos (Sobre 2).** Son 8 subcriterios de 5 puntos cada uno.\n\n| Apartado | Subcriterio | Puntos |\n|---|---|---|\n| 1.1 | Diagnóstico de los daños y condicionantes | 5 |\n| 1.2 | Riesgos y dificultades técnicas | 5 |\n| 2.1 | Estudios previos y definición de soluciones | 5 |\n| 2.2 | Control de calidad y coherencia documental | 5 |\n| 3.1 | Seguimiento y control técnico de la ejecución | 5 |\n| 3.2 | Gestión de incidencias y afecciones | 5 |\n| 4.1 | Coordinación de seguridad y salud | 5 |\n| 4.2 | Programación y coordinación técnica | 5 |\n\n- Escala sin puntuaciones intermedias: 5, 3, 1 o 0 puntos por subcriterio.\n- **Formato:** una memoria por lote, máximo **12 páginas A4** (sin portada ni índice), letra mínima de 11 puntos, márgenes de 2 cm, interlineado sencillo y PDF firmado. Las páginas que excedan no se valoran. No se admiten anexos, planos ni fotos fuera de esas páginas.\n- **Causa de exclusión** si la memoria contiene precio, identidad, titulación o experiencia del equipo, frecuencia de visitas superior a la mínima o plazos de redacción reducidos.\n\n⚠ REVISAR — el cuerpo del PCAP fija letra de 11 puntos (tablas y esquemas dentro de las 12 páginas), mientras que el Anexo IX admite 9 puntos en tablas y esquemas. Se recomienda aclarar vía consulta.\n\n### Umbrales mínimos de puntuación\nNo se establecen umbrales mínimos de puntuación en el texto recibido (no localizados).\n\n## Bloque 4 – Forma de Pago\n- **Fase 1, proyecto:** 100 % tras la aprobación municipal y el informe de supervisión favorable. Incluye sin coste la subsanación de deficiencias de la supervisión y la respuesta a consultas durante la licitación de las obras.\n- **Fase 2, dirección y CSS:**\n  - 90 % mediante abonos parciales con la periodicidad de las certificaciones de obra, proporcionales a la obra certificada.\n  - 10 % a la firma del acta de recepción, con la certificación final y la documentación final.\n  - El seguimiento durante la garantía de la obra y el informe para la devolución de su garantía están incluidos en el precio.\n- **Facturación:** una factura por lote y fase, con la referencia «Actuación financiada al amparo del Real Decreto-ley 5/2026, de 17 de febrero». Se presenta en 30 días desde la prestación (Ley 25/2013, DIR3 L01230742).\n- **Pago:** 30 días desde la aprobación de la conformidad. Después se devengan intereses de demora (Ley 3/2004).\n- **Revisión de precios:** no cabe.\n- **Penalidades:**\n  - Demora: 0,60 € por cada 1.000 € de precio, IVA excluido, por día.\n  - Incumplimientos muy graves (adscripción de medios, compromisos valorados, condición ambiental): hasta el 5 % del precio del lote, o resolución.\n  - Otros incumplimientos: hasta el 3 %.\n  - Cada penalidad tiene un tope del 10 % del precio, y el total no puede superar el 50 %.\n  - El retraso en subsanar tras la supervisión se considera demora (PPT).\n  - No formalizar por causa del adjudicatario, o no atender el requerimiento: 3 % del presupuesto del lote.\n- **Plazo de garantía:**\n  - Proyecto: 2 meses desde su aprobación.\n  - Dirección y CSS: hasta el informe de devolución de la garantía de la obra.\n- **Condicionante de la ayuda:** la subvencionabilidad exige que el gasto esté abonado antes del fin del plazo de justificación (PCAP 1.1.6).\n\n## Bloque 5 – Documentación a Presentar\nSe presentan 3 sobres electrónicos firmados. El Sobre 1 es único para todos los lotes. Los Sobres 2 y 3 se presentan por lote.\n\n### Sobre electrónico nº 1 – Documentación acreditativa del cumplimiento de requisitos previos\n- **Anexo I – Declaración responsable:** capacidad, no incursión en prohibiciones, estar al corriente con Hacienda y la Seguridad Social, solvencia, lotes a los que licita con orden de preferencia, forma de concurrencia, ROLECE, subcontratación y compromiso de acreditación.\n- **Anexo III – Compromiso de UTE** (solo en UTE): porcentajes y representante. Cada empresa presenta además su propio Anexo I y Anexo IV.\n- **Anexo IV – Declaración de grupo empresarial:** la presentan todos los licitadores.\n- **Anexo V – Compromiso de adscripción de medios personales y materiales:** sin nombres, currículos ni experiencia; su inclusión es causa de exclusión.\n- **Anexo VII – Declaración de confidencialidad** (voluntaria): se incluye en el sobre que contenga la información.\n- No puede incluirse ninguna información de los sobres 2 o 3; el incumplimiento supone la exclusión.\n\n### Sobre electrónico nº 2 – Criterios dependientes de juicio de valor\n- **Memoria técnica (una por lote):** máximo 12 páginas A4 siguiendo el índice obligatorio del Anexo IX. La portada lleva licitador, lote y actuación, sin nombres del equipo.\n- Sin precio, sin identidad del equipo y sin compromisos que se puntúen por fórmula.\n\n### Sobre electrónico nº 3 – Criterios evaluables mediante cifras y porcentajes\n- **Anexo II – Proposición económica y criterios automáticos (uno por lote):**\n  - Precio sin IVA en número y letra, IVA y total, baja y desglose por prestación.\n  - Profesionales propuestos con titulación y colegiación.\n  - Visitas adicionales de obra.\n  - Reducción del plazo de redacción en días.\n  - Si falta el precio, se excluye el lote.\n- **Anexo VI – Relación de trabajos del personal propuesto (uno por lote):**\n  - Una tabla por profesional y función, con obra, tipología, promotor, fecha, PEM, función y documento.\n  - Cada trabajo se acompaña de su certificado o documento de acreditación.\n\n### Documentación posterior (solo el propuesto como adjudicatario)\nSe requiere en **10 días hábiles**. Si no se aporta, se entiende retirada la oferta con penalidad del 3 %.\n- **Solvencia económica:** cuentas anuales depositadas, declaración del volumen de negocios, certificado de la aseguradora y recibo.\n- **Solvencia técnica:** relación de servicios con certificados de buena ejecución.\n- **Equipo:** identificación de los profesionales con titulación, colegiación si procede y disponibilidad efectiva, y declaración de medios materiales.\n- **Anexo VIII** (si se recurre a medios externos).\n- **Garantía definitiva:** 5 % del precio de cada lote.\n- **Escritura de constitución de la UTE** y NIF, si procede, antes de formalizar.\n\n## Bloque 6 – Conclusiones / Análisis Preliminar\n\n### Análisis precio / duración\n- Los **186.563 €** se reparten en lotes de importe muy desigual: del lote 1 (**3.296 €**) al lote 4 (**36.960 €**).\n- Los honorarios son aproximadamente un 9,5 % del PEM global.\n- Los plazos son cortos: 1 o 2 meses para el proyecto y de 1 a 4 meses de obra, además del seguimiento durante la garantía de la obra, que está incluido en el precio.\n- Los lotes 1 y 2 (3.296 € y 3.342 €) exigen un estudio geotécnico imprescindible y un proyecto completo, con dirección y CSS, por unos 1.400 € de proyecto cada uno. Esto limita mucho la dedicación disponible.\n- Los lotes 3, 7, 8 y 9 también exigen geotecnia. El lote 9 incluye micropilotaje.\n- La geotecnia puede subcontratarse como trabajo auxiliar.\n- El precio, la baja y los plazos no influyen en el semáforo; se señalan solo como contexto.\n\n### Comparación con el perfil de CAI\n- **Solvencia económica:**\n  - Se exige como máximo 279.845,10 € para los 10 lotes, frente a **1.876.061 €** de cifra de negocio declarada para 2024 (la mayor declarada).\n  - Cumple con holgura.\n  - Hay una discrepancia sin aclarar con el certificado AEAT de 1.559.018 €, que sigue superando de sobra el requisito.\n- **Seguro de RC:**\n  - Se exige 300.000 € y CAI tiene **2.500.000 €**.\n  - Cumple.\n  - El certificado de 2026 está pendiente de aportar [SIN VERIFICAR], por lo que hay que conseguir el certificado y el recibo.\n- **Solvencia técnica (máximo 54.488,63 € anuales para todos los lotes, con 23.352,27 € de proyectos y 31.136,36 € de dirección):**\n  - Con CPV 71, CAI tiene en 2025 una ejecución muy superior en proyectos:\n    - Proyecto de Plaza de la Constitución, 89.880 €.\n    - Proyectos y AT de Torremolinos, 134.132 €.\n  - También la tiene en dirección:\n    - ACOSOL, 248.876 €.\n    - Puerto de Conil (DO y CSS), 34.640 €.\n  - Cumple, siempre que se disponga de certificados de buena ejecución.\n- **Equipo:**\n  - Para proyecto y dirección, CAI cuenta con arquitectos (Torralba, Fernández y Trueba) e ICCP (De la Torre y Jiménez, ambos colegiados), además de ITOP e ingenieros técnicos industriales.\n  - Para la dirección de ejecución en los lotes 5, 6 y 9, CAI dispone de arquitectos, y el pliego admite arquitecto o ingeniero según atribuciones.\n  - Para la CSS, el pliego admite arquitecto o ingeniero competente. CAI no tiene un perfil propio de coordinador, pero sus técnicos titulados pueden asumirlo y ha realizado CSS en un contrato reciente (Lote IV, Campo de Gibraltar). Si se necesitara un externo, la CSS no es subcontratable, pero sí cabe aportar medios externos por el Anexo VIII.\n  - Hay que evitar proponer a Carlos Lanzat (no colegiado) cuando la colegiación sea obligatoria.\n  - Colegiación y atribuciones de cada técnico propuesto deben confirmarse (Carmen Torralba: colegio no documentado).\n- **Clasificación:** no se exige.\n- **Experiencia del personal:** para los criterios A.1 a A.3 hay que preparar certificados de trabajos de los últimos 10 años con PEM de al menos el 25 % de cada lote (por ejemplo, 121.000 € en el lote 4).\n\n### Semáforo de presentación\n**VERDE.** Se cumplen **4 de 4 requisitos exigidos** en solitario: solvencia económica, seguro, solvencia técnica y equipo con titulaciones.\n\nQué falta o hay que confirmar:\n- Certificado de seguro 2026 y recibo.\n- Certificados de buena ejecución de los trabajos de 2025.\n- Habilitación y colegiación de los técnicos propuestos, sobre todo para la CSS.\n- Aclarar la discrepancia en la cifra de negocio (la AEAT da 1.559.018 €, que sigue superando el mínimo).\n- Acreditar la sucesión societaria entre CAI Consultores de Ingeniería, S.A. y CAI Soluciones de Ingeniería, S.L. si se aportan certificados de la S.A.\n\nEl pliego no exige clasificación empresarial, así que no hay \"⚠ REVISAR — criterio pendiente de decidir\".",
+      "usa_ppt": true,
+      "uso": {
+        "entrada": 88217,
+        "salida": 17336,
+        "cache_leida": 0,
+        "cache_escrita": 24934
+      },
+      "coste_estimado_usd": 0.4121,
+      "semaforo": "verde",
+      "semaforo_motivo": "CAI cumple en solitario solvencia económica, seguro, experiencia CPV 71 y equipo técnico titulado; sin clasificación exigida; pendientes certificados de seguro 2026 y buena ejecución.",
+      "datos_excel": {
+        "info": {
+          "valor_estimado": 186563.4,
+          "iva_pct": 21,
+          "fecha_presentacion": null,
+          "plazo_ejecucion": "Proyecto 1-2 meses; Dirección y CSS 1-4 meses según lote (estimativo, hasta recepción, liquidación y garantía de la obra)",
+          "consultas": "Hasta 4 días antes del fin del plazo si se piden con 6 días de antelación; PLACSP",
+          "garantia_provisional": "No se exige",
+          "garantia_definitiva": "5% del precio final de cada lote, IVA excluido",
+          "seguro_rc": "Mínimo 300.000 € (o compromiso de suscripción)",
+          "lotes": "10 lotes independientes; ofertas a uno, varios o todos; sin ofertas integradoras",
+          "revision_precios": "No cabe",
+          "plazo_garantia": "Proyecto 2 meses desde aprobación; DO y CSS hasta informe de devolución de garantía de la obra",
+          "ute": "Permitida; solvencia acumulada; Anexos I, III y IV",
+          "subcontratacion": "Solo trabajos auxiliares (topografía, geotecnia, ensayos, delineación); proyecto, DO y CSS no subcontratables",
+          "umbral_tecnico": "No hay umbral mínimo"
+        },
+        "solvencia": {
+          "nota": "Solvencia acumulada si se licita a varios lotes; en UTE se acumula la de los integrantes; una misma persona puede asumir varias funciones; similitud por 2 primeros dígitos del CPV (71); medios externos permitidos por Anexo VIII.",
+          "economica": [
+            {
+              "nombre": "Volumen anual de negocios",
+              "valor": "1,5 × importe del lote sin IVA en el mejor de los 3 últimos ejercicios (279.845,10 € para los 10 lotes)",
+              "acreditacion": "Cuentas anuales depositadas en el Registro Mercantil y declaración responsable",
+              "cai": "cumple",
+              "cai_nota": "1.876.061 € declarados en 2024; discrepancia con AEAT, que también supera el mínimo"
+            },
+            {
+              "nombre": "Seguro de RC profesional",
+              "valor": "Mínimo 300.000 €",
+              "acreditacion": "Certificado de la aseguradora y recibo en vigor",
+              "cai": "cumple",
+              "cai_nota": "2.500.000 € con Caser; certificado 2026 pendiente"
+            }
+          ],
+          "tecnica": [
+            {
+              "nombre": "Servicios similares en los últimos 3 años",
+              "valor": "Año de mayor ejecución ≥ 30% del importe de proyecto y 40% del de dirección, por separado (total 54.488,63 €)",
+              "acreditacion": "Certificados de buena ejecución o declaración con documentos si el cliente es privado",
+              "cai": "cumple",
+              "cai_nota": "Contratos CPV 71 de 2025 muy superiores al mínimo"
+            }
+          ],
+          "equipo": [
+            {
+              "nombre": "Redactor y firmante del proyecto",
+              "valor": "Arquitecto, arquitecto técnico, ingeniero o ingeniero técnico con atribuciones para el lote",
+              "acreditacion": "Titulación y colegiación si es obligatoria; Anexo V",
+              "cai": "cumple",
+              "cai_nota": "Arquitectos e ICCP en plantilla"
+            },
+            {
+              "nombre": "Director facultativo (y de ejecución en lotes 5, 6 y 9)",
+              "valor": "Titulación y atribuciones equivalentes; técnico habilitado para dirección de ejecución en edificación",
+              "acreditacion": "Titulación, colegiación y disponibilidad",
+              "cai": "cumple",
+              "cai_nota": "Arquitectos, ICCP e ITOP en plantilla"
+            },
+            {
+              "nombre": "Coordinador de seguridad y salud",
+              "valor": "Técnico competente según RD 1627/1997",
+              "acreditacion": "Titulación y disponibilidad",
+              "cai": "cumple",
+              "cai_nota": "Sin perfil propio, pero arquitectos e ingenieros pueden asumirlo; confirmar habilitación"
+            }
+          ]
+        },
+        "juicio_valor": [
+          {
+            "nombre": "Memoria técnica",
+            "puntos": 40,
+            "paginas_a4": 12,
+            "paginas_a3": null,
+            "formato": "Letra ≥ 11 pt (9 pt en tablas según Anexo IX), márgenes 2 cm, interlineado sencillo, PDF firmado; sin portada ni índice",
+            "acreditacion": "Memoria por lote según índice del Anexo IX",
+            "apartados": [
+              {
+                "nombre": "1.1 Diagnóstico de los daños y condicionantes",
+                "puntos": 5,
+                "filas": 1
+              },
+              {
+                "nombre": "1.2 Riesgos y dificultades técnicas",
+                "puntos": 5,
+                "filas": 1
+              },
+              {
+                "nombre": "2.1 Estudios previos y definición de soluciones",
+                "puntos": 5,
+                "filas": 1
+              },
+              {
+                "nombre": "2.2 Control de calidad y coherencia documental",
+                "puntos": 5,
+                "filas": 1
+              },
+              {
+                "nombre": "3.1 Seguimiento y control técnico de la ejecución",
+                "puntos": 5,
+                "filas": 1
+              },
+              {
+                "nombre": "3.2 Gestión de incidencias y afecciones",
+                "puntos": 5,
+                "filas": 1
+              },
+              {
+                "nombre": "4.1 Coordinación de seguridad y salud",
+                "puntos": 5,
+                "filas": 1
+              },
+              {
+                "nombre": "4.2 Programación y coordinación técnica",
+                "puntos": 5,
+                "filas": 1
+              }
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "nombre": "Oferta económica",
+            "puntos": 30,
+            "formula": "Pi = 30 × (PL − Oi) / (PL − Omin); Pi = puntuación; PL = presupuesto base del lote sin IVA; Oi = oferta sin IVA; Omin = oferta válida más baja del lote",
+            "acreditacion": "Anexo II, Sobre 3"
+          },
+          {
+            "nombre": "A.5 Reducción del plazo de redacción",
+            "puntos": 4,
+            "formula": "P = 4 × (R / Rmáx); R = días naturales de reducción ofertados (límite Rmáx); Rmáx = 10 días (lotes 1, 2, 3, 5, 6, 7, 8 y 10) o 15 días (lotes 4 y 9)",
+            "acreditacion": "Anexo II, Sobre 3"
+          }
+        ],
+        "otros": [
+          {
+            "nombre": "Experiencia del personal propuesto (A.1 a A.3)",
+            "puntos": 20,
+            "acreditacion": "Anexo VI con certificados; trabajos de los últimos 10 años con PEM ≥ 25% del de la obra del lote",
+            "apartados": [
+              {
+                "nombre": "A.1 Redactor del proyecto",
+                "puntos": 8,
+                "regla": "2 puntos por proyecto similar, hasta 4 proyectos",
+                "filas": 4
+              },
+              {
+                "nombre": "A.2 Director facultativo",
+                "puntos": 8,
+                "regla": "2 puntos por dirección similar, hasta 4",
+                "filas": 4
+              },
+              {
+                "nombre": "A.3 Coordinador de seguridad y salud",
+                "puntos": 4,
+                "regla": "2 puntos por actuación, hasta 2",
+                "filas": 2
+              }
+            ]
+          },
+          {
+            "nombre": "A.4 Visitas de obra adicionales",
+            "puntos": 6,
+            "acreditacion": "Compromiso en Anexo II",
+            "apartados": [
+              {
+                "nombre": "Visitas adicionales por quincena",
+                "puntos": 6,
+                "regla": "Una adicional 3 puntos; dos o más 6 puntos",
+                "filas": 1
+              }
+            ]
+          }
+        ],
+        "umbral": "No hay umbral mínimo de puntuación"
+      },
+      "fecha_analisis": "2026-11-11T07:19:24.399196+00:00",
+      "solicitada_por": "CarlosLCAI"
+    }
   },
   {
     "folder_id": "11/2026 licencia",
