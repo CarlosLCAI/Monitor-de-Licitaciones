@@ -4476,7 +4476,10 @@
     "fecha_limite_cambiada_el": "2026-11-06",
     "estado_updated": "2026-11-06T14:53:40.944+01:00",
     "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-11-06"
+    "estado_cambiado_el": "2026-11-06",
+    "revisado_humano": true,
+    "revisado_fecha": "2026-11-11T07:16:57.327Z",
+    "revisado_por": "CarlosLCAI"
   },
   {
     "folder_id": "38/SE/A/AL26",
@@ -5104,7 +5107,7 @@
     ],
     "organo": "Gerencia de VIVE Empresa Pública de la Vivienda de Alcalá de Guadaíra, S.L.",
     "importe": "12000",
-    "importe_num": 12000.0,
+    "importe_num": 12000,
     "fecha_limite": "2026-11-24",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -5215,7 +5218,7 @@
     ],
     "organo": "Consejería delegada de ACOSOL, S.A.U.",
     "importe": "75000",
-    "importe_num": 75000.0,
+    "importe_num": 75000,
     "fecha_limite": "2026-12-01",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
