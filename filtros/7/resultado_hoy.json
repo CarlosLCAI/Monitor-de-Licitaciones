@@ -1,140 +1,80 @@
 [
   {
-    "folder_id": "264249",
+    "folder_id": "C46-26",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "264249 - Gestión de la prevención de riesgos laborales y vigilancia de la salud, mediante servicio de prevención ajeno.",
-    "updated": "2026-11-09T14:28:16.182+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=iFooz1S3csBrhBlEHQFSKA%3D%3D",
+    "titulo": "Contratación del Servicio de \"Redacción de redacción del Proyecto constructivo y dirección de las obras de sustitución del Gasómetro y adecuación y legalización de la línea de biogás de la EDAR Manilva\"",
+    "updated": "2026-11-10T13:54:09.406+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ctfjY7vTsXNeKgd8LfVV9g%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "71317200",
-      "85147000"
+      "71000000",
+      "71240000",
+      "71520000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wk%2BywwMf/M5wKD6DnqF%2BEicsrftC/ULhR3EfAlhJSJ5G8rizERqgZIcTSLHThp1odhE8%2Bi7Z9IcyiqVjj%2BQ3nW4tfc9avGBcXxZMlk1lF8N7QB3HKyQaFUExmUVQCerk",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=cBsdd4iOAQS1Wez4xrm6OzWVz7n/AB0DOnm4%2B2VGyumOZfzu%2BrPp8TDGtl4FUoPDtvinue305rl6MVYznNkCb/KaLTzBHfo/zvYDHZIpCbf3GVhXrFFqN7yFncy7YfRK",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YDz7PhOijrSV0f7C7pE8fbz3Xqj5dWPh4f7aZSesPabyYDTxnGTjXHXJIWU5NKgHVtSS%2BO0jnEzYAHFVMuqbqRcuLp%2BlspMIm%2BFdbNudImGHAj0WEJrB5sP7amrh2jBD",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=EQgBSxdUYG9O3zRdsJw0guTr1gOqmdQS8cmKrCj8gCCw2/OydZBHrCpk%2BEN6E4bWUAvX9AHq271IeaSZzPj3i24IJ6lr00MGSUROF3FiOyQZyAJWGsSt0OzTSTyw9JAs",
     "docs_adicionales": [
       {
-        "nombre": "264249-ccp-.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CEpiLYhRMn%2Bpz4jHiEhalV961wzzWAg61b0G3GZbK62z1jvsDWXlfWvNKnx9NYaaCbjB2g2MBFwqLPQkQsoEHOpiEE6aqWdPVipRzIIavCqCx2e6p7hqtlp2aFupgHMr"
+        "nombre": "ANEXOS ABIERTOS PCAP C46-26.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=i7OvX/CqJUlMlSDgYkYVIFxBW2OzWB7Xz0wDETY0Xpaf0LIBdrG%2BcZYGu8pp2SUWVepGJGJgqWkXAzPouyOIVfY5B9bIgCiHvX%2B7Uga3kZiCx2e6p7hqtlp2aFupgHMr"
       }
     ],
-    "organo": "Consejería Delegada de Actividades de Limpieza y Gestión S.A.",
-    "importe": "64842.91",
-    "importe_num": 129685.82,
-    "fecha_limite": "2026-11-24",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "9",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "PA014SER2026",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Servicio de coordinación de seguridad y salud durante la ejecución de las obras de 107 viviendas protegidas, garajes y trasteros en la parcela UE-Centro del Plan Parcial del Sector SUO-10 \"SUP-R4 Cornisa del Zacatín\", en C/ Mar Mediterráneo, Alcalá de Guadaíra.",
-    "updated": "2026-11-09T13:54:50.435+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=e4abiCyXOXZVkTabT%2FRM8A%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71247000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Kdt5qQUv%2B8I5ikhK9afubm2Nw5%2BqlLWCWTQc4hguow5P2Hmj14dg8NMzcZnUvh0Rjlxp39x9PxWUhW4aEVkYg6%2B%2BBfGvty5Af3iuAHkW7LFJOVDbGCDM%2BMigrvuVS7Rv",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ruVmm%2B4b0jeIJkHRpbruPUNBA%2BsMPW%2BOElFJ3i5T/CFGBAbCbJDbUJbv/LNdjqPQ4/0KyaA3kmsYBSO1RaNwaX206Vm%2BIwS%2BEgpR7q6LU2y1aXEvq3KHa/AEHgtDrQw0",
-    "docs_adicionales": [
-      {
-        "nombre": "PCAP_CCP_PA014SER2026.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=mq9ERPOiDBOAjCZvonhr1YSfMWoXxvSvmQJy98WkVqgzDPaM4kcT4UKONGG/IsemV%2BdNjkToYtITBhRQhdat9M3GiHsbtJTHtTfNiNUT4rUC1/zDIE0Kw/PWNnLS0Z0z"
-      }
-    ],
-    "organo": "Gerencia de VIVE Empresa Pública de la Vivienda de Alcalá de Guadaíra, S.L.",
-    "importe": "12000",
-    "importe_num": 12000.0,
-    "fecha_limite": "2026-11-24",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "9",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "110/26",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Contrato de del servicio de redacción del proyecto y Estudio de Seguridad y Salud para Aula de formación \"Atunara\" en La Línea de la Concepción",
-    "updated": "2026-11-09T11:49:09.824+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=p7vKGNk%2Fn6x%2FR5QFTlaM4A%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71000000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=glrOa7b3uXXd1ooOVPLEbK6bCEoA3upv2zV8x0Z2KBD8DYzWK561xYAvQSWBjHecVH4%2BZhHdsd7o%2BTzxEFbqZFeQfBUKcShh2Xg6R9t8JOYC1/zDIE0Kw/PWNnLS0Z0z",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=brpNW/HQUn6t5boFqzQC4j8%2BtbIvDeKjKKp3Vvnxc5jlUPnNbRFM6hOnpjsKaF1fYG/eOXqgp6WT9wdwe9xklojSEEIhcay6v3SNuGrz/GoZyAJWGsSt0OzTSTyw9JAs",
-    "docs_adicionales": [],
-    "organo": "Alcaldía del Ayuntamiento de la Línea de la Concepción",
-    "importe": "24774.6",
-    "importe_num": 24774.6,
-    "fecha_limite": "2026-11-24",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "9",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "CONTR 2026 0000179890",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "dirección de obra coord. seguridad salud obras depuración varias provincias",
-    "updated": "2026-11-09T15:41:22.647+01:00",
-    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1036697",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71317210",
-      "71310000",
-      "90492000",
-      "71520000",
-      "71000000"
-    ],
-    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441910",
-    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441905",
-    "docs_adicionales": [
-      {
-        "nombre": "Memoria justificativa de la contratación.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441916"
-      },
-      {
-        "nombre": "DEUC PDF.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441996"
-      },
-      {
-        "nombre": "DEUC XML.XML",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441997"
-      },
-      {
-        "nombre": "Instrucciones DEUC.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441998"
-      }
-    ],
-    "organo": "Consejería de Agricultura, Pesca, Agua y Desarrollo Rural. D.G. de Infraestructuras del Agua (En Transición)",
-    "importe": "1152356.50",
-    "importe_num": 1382827.8,
-    "fecha_limite": "2026-12-15",
+    "organo": "Consejería delegada de ACOSOL, S.A.U.",
+    "importe": "75000",
+    "importe_num": 75000.0,
+    "fecha_limite": "2026-12-01",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
-    "fuente": "agregadas",
-    "descripcion": "DIRECCIÓN DE OBRA Y COORDINACIÓN DE SEGURIDAD Y SALUD DE OBRAS DE DEPURACIÓN EN VARIAS PROVINCIAS DE ANDALUCÍA, FASE V (ALMERÍA Y HUELVA)",
-    "junta_consultado": "2026-11-10"
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "825/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de redacción de proyectos, estudios de seguridad y salud, dirección técnica de obras y coordinación de seguridad y salud para el \r\nAyuntamiento de Chimeneas.",
+    "updated": "2026-11-10T10:26:08.755+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7MRSUa3sJhHL1rX3q%2FMAPA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71242000",
+      "71520000",
+      "71317210",
+      "71242000",
+      "71520000",
+      "71317210",
+      "71242000",
+      "71317210",
+      "71520000",
+      "71242000",
+      "71520000",
+      "71317210",
+      "71242000",
+      "71520000",
+      "71317210"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=mUcGUiJ/2vInSHHq/EL5PSC5AQRCCSpWmHNWvO3eTsbQstYRg2OpWBpfqiPy3e7%2BYC6/kOPhiZV2rKb3cu9N5Ht74SPIEPbphv7MOAF2tS97QB3HKyQaFUExmUVQCerk",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=NpZYHmSGcvL8oFJu10p/jtgV7TGubKeNch14eb3ELUNV0I3RFYB56MmXWbTgp%2BnXDp2cYywx7WSS6YUeYKViBaUmwCDdli3ebwqP0J60MrK1aXEvq3KHa/AEHgtDrQw0",
+    "docs_adicionales": [
+      {
+        "nombre": "INF DTE REDAC PROYECTOS CHIMENEAS.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=7MP9c2AJkOpRG5ZDazvnPveNpuV9Jv6aHutE/1H5qRhzwSXLucbPp5tPBJmr6I%2BhvO1z9W63YVuGeDAbnw5bEqZuO0e2MUJK/XpGTOW3BR97QB3HKyQaFUExmUVQCerk"
+      }
+    ],
+    "organo": "Alcaldía del Ayuntamiento de Chimeneas",
+    "importe": "73333.11",
+    "importe_num": 73333.11,
+    "fecha_limite": "2026-11-25",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
   }
 ]

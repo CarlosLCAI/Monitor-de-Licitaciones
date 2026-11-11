@@ -1,35 +1,145 @@
 [
   {
-    "folder_id": "2026PL132",
+    "folder_id": "C46-26",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Contratación del servicio de apoyo a las tareas de limpieza mediante vehículos especiales y equipos auxiliares en situaciones extraordinarias o de máxima necesidad.",
-    "updated": "2026-11-09T12:24:16.068+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=k7vnmQ78La%2F5Rey58Yagpg%3D%3D",
+    "titulo": "Contratación del Servicio de \"Redacción de redacción del Proyecto constructivo y dirección de las obras de sustitución del Gasómetro y adecuación y legalización de la línea de biogás de la EDAR Manilva\"",
+    "updated": "2026-11-10T13:54:09.406+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ctfjY7vTsXNeKgd8LfVV9g%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "60181000",
-      "16160000",
-      "60182000",
-      "42000000",
-      "77200000",
-      "42995200",
-      "90680000",
-      "34114000",
-      "90500000"
+      "71000000",
+      "71240000",
+      "71520000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=X3IPVsVYVJyLyLChyRt97TzyirfoJjlMxjnaD2rjPxQ9/Yu52qcbhAYEbOK0TCR1Oa4uC%2BNTKb2eKRo%2Bb3pxJjpQ9Qgyg/qKJFGaHSxD4Kr3GVhXrFFqN7yFncy7YfRK",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wmM2qPx8/n2dhM5045uvcuMwOLAKq4u6LV0nyKliOtDOP4asVrDdvQTMihejazuoHbOTHQTDVslJ9cVC9Q6ucpYZfztaZLUswTSNO1yOWZT6CYyL7SIrUOBFfNf52ZqA",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YDz7PhOijrSV0f7C7pE8fbz3Xqj5dWPh4f7aZSesPabyYDTxnGTjXHXJIWU5NKgHVtSS%2BO0jnEzYAHFVMuqbqRcuLp%2BlspMIm%2BFdbNudImGHAj0WEJrB5sP7amrh2jBD",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=EQgBSxdUYG9O3zRdsJw0guTr1gOqmdQS8cmKrCj8gCCw2/OydZBHrCpk%2BEN6E4bWUAvX9AHq271IeaSZzPj3i24IJ6lr00MGSUROF3FiOyQZyAJWGsSt0OzTSTyw9JAs",
     "docs_adicionales": [
       {
-        "nombre": "Anexo CCP consolidado 2026PL132.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=g6w65ts2b1kAg6TfbJuSoWuAje11UbDmFIxS/Nmiv5E7Z%2BNLHrWra0JB%2B1Nrr3VDllNfEWEheO6ia90c6vpVb%2BsGW3C9jfv00haKLTzSoJFt/o8fNevwsujgRzaBbugn"
+        "nombre": "ANEXOS ABIERTOS PCAP C46-26.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=i7OvX/CqJUlMlSDgYkYVIFxBW2OzWB7Xz0wDETY0Xpaf0LIBdrG%2BcZYGu8pp2SUWVepGJGJgqWkXAzPouyOIVfY5B9bIgCiHvX%2B7Uga3kZiCx2e6p7hqtlp2aFupgHMr"
       }
     ],
-    "organo": "Dirección Gerencia de Limpieza de Málaga Sociedad Anónima Municipal",
-    "importe": "99000",
-    "importe_num": 99000.0,
+    "organo": "Consejería delegada de ACOSOL, S.A.U.",
+    "importe": "75000",
+    "importe_num": 75000.0,
+    "fecha_limite": "2026-12-01",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "42/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de recogida de residuos y limpieza de las unidades compactas de aguas residuales y alcantarillado de la Autoridad Portuaria de Ceuta",
+    "updated": "2026-11-10T13:44:15.088+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=znckgCneHgTECtSnloz%2BZQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "90460000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=6AFhD/Vir2yUQLZyTSnpGnMGKzVnpjtzZo05t7jjCcPwFQCDsEUrEPlg6v9HJjdChtJeSy5LcnEo8QdQ6hIWW4G/fEPKFzrPXZ1yGzhnTg0//q7NB2iMZvNyf0xrJmjt",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=65L4qGt%2B%2Bbb6w1H/NNDfX5mhEIXNtQZ6gjuLKkNvBS9XYyXp7YqB/B2MzN9qTPmtv/CiMeG0dEVapY3tV6pETztSuTrUF/ferCaKEQJNCAUC1/zDIE0Kw/PWNnLS0Z0z",
+    "docs_adicionales": [
+      {
+        "nombre": "Informe justi y aprob gasto.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=RBPlR9s0ceYrdcn/4X8GXnINxMJS1YJJbPSR%2Bo9/zAHe7kvpyLauSYbTeB8psGSjIQkEkr6JX1knaoM%2BW4ME2s3k5mQ/PGe/X4gi2LrXuvfDdQD9RyhUmzT4jZ2In4zL"
+      }
+    ],
+    "organo": "Presidencia de la Autoridad Portuaria de Ceuta",
+    "importe": "209720.67",
+    "importe_num": 349534.45,
+    "fecha_limite": "2026-12-17",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "0011-26GPSE",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Gestion de Residuos de Aparatos Electricos (RAEE´s) y Pilas del Ecoparque Municipal y Otras Instalaciones. Numero de expediente 0011-26GPSE",
+    "updated": "2026-11-10T13:07:06.035+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=GLBSPIc5KA2cTfjQf3USOg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "90500000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Symi0iDMNCLBL7le1U6%2B/5LJ/9RQpeXCoCH53E0qEYOciIsG8TBJyqJKl8aFDrlCHo8iWXNNDxOnUBUmfBX/AqeEpIrWPcI%2BnAXhuGRyz4nVTD3T98KC0nSgQFM0q%2B5s",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=8W474AAWMhgEgO9F/TJF7nNyStoYs5CG4WRC0%2Bo7ed8UmOk9FeIl9007DHphJ%2BmJPyDmKAiwJe5jeCwDcj2pGqno8mUjWaHbBj2BIxF5hqPfdyQgZAdTm3EfcUAC7CJ6",
+    "docs_adicionales": [
+      {
+        "nombre": "JN_Gestion-RAEES.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=50Lu8eUdirgGyoEVPk4JhYKUdr0YEPLuWhGUIqCiifMNK3/LHEwWfFnmNjKMJPxVtwEgl0q4pC5Le8r7qP3U3ahPsSWOaALQAeqYaIPB3LD6CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "Fdo_Ingreso-0011-26GPSE-RAEES.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=LQWSnpD4VLziD93lPvjmj1ULkScQA7ujPlGK874Cl4tOLvv31NdvHwIbeRoU2PtjZR0/oZNJiiLb2Qg2w1wnjvFWccA/LrIJWpOoj5wqqWmCx2e6p7hqtlp2aFupgHMr"
+      },
+      {
+        "nombre": "Fdo_Inicio-expediente-0011-26GPSE-RAEES.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Z14wO%2BbcMSOHphBL3BQ72PAi2RKv0D4C7FmhTmxKYqF7ZEykkQ3F1POK1GiDTF8o7bO9142Yvp%2Bu7P7/abJwIGW0z9KVvGk0JRnCX9uQyr76CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "Fdo_Anuncio-licitacion-0011-26GPSE-RAAEES.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4okjPufSyUoAvm/Osz0W2QIA2YmEnmsETIyXgquweKcmqjdLZ/50o56s0upnoYghWwaPXp5TNh%2BKhOCbEtIPqqWLvzo8iuTi1V3ZVNVkae0ZyAJWGsSt0OzTSTyw9JAs"
+      }
+    ],
+    "organo": "Gerencia de Servicios Comunitarios de Molina S.A. (SERCOMOSA)",
+    "importe": "19725",
+    "importe_num": 19725.0,
+    "fecha_limite": "2026-12-02",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "2026PL113",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de recogida y gestión integral de residuos peligrosos y de gestión especial generados por los servicios de Limpieza de Málaga S.A.M. ",
+    "updated": "2026-11-10T12:28:45.304+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Sa3nCiHw%2Fl%2BsNfRW6APEDw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "90500000",
+      "90513000",
+      "90520000",
+      "44613800"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=J4viqB/v2ehUShPuJak15R909XN/epfgTDsUfmvohqDy3sNsPTxZyxVY7Y1Xy3Qi%2BcEhZYadi2Zs4rSHZg0/FUXNuOYZpDpMSV7h6%2BujxMWHAj0WEJrB5sP7amrh2jBD",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=u0iSu/9Wo9GIscCDz8LrxYQ3ZijngY48OuuyGgZqG%2BtPGzkcyoceDy0s3Y5C4B9QMTxxnp3cfPbJ9IPzn8dX/nkiDruQRPrORkvGAMEePnF7QB3HKyQaFUExmUVQCerk",
+    "docs_adicionales": [
+      {
+        "nombre": "Anexos Sobre 2.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=OA8TWmN8/qiNw%2B8fVMtcE01PS5QkItqgymA04P/3Tlpmpw3srE94D6mbLLuvKeRsvaWcSOW0gFSQ0wBzAiH7CEgE6z86S0X2fN0ZVLsjtKmB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "Anexos Sobre 1.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ZqM1rp98uehD3LuaqB52%2BIq4s7wR7kx11JTfcioqeSKHZhC9PIsiGlFq49qGRf%2BaS4xRSsFyY1s2BQwZZ1y1gdlWPIZcQPkv8Y5tZwHO7O6HAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "Anexos Prop Adjudicatario.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Ml/yRurfku/PGO/6nSaJQwyN0jayYTy6EIPjTUhTxdPCjFUr9sIG5C%2B9RYxGdPrrTSPs0GYH2AkZqY%2BbuX9jS64%2B97J1uOnysql28Dl3HEiB0nvVKRzfe4rpHcnlPhSZ"
+      }
+    ],
+    "organo": "Presidencia de Limpieza de Málaga Sociedad Anónima Municipal",
+    "importe": "99460.52",
+    "importe_num": 200121.04,
     "fecha_limite": "2026-11-25",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -39,35 +149,78 @@
     "fuente": "perfiles"
   },
   {
-    "folder_id": "10/2026 (688/2026)",
+    "folder_id": "SE2026/46",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Delegado de Protección de Datos de Caracter Personal del Ayuntamiento de La Iruela",
-    "updated": "2026-11-09T11:38:10.607+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=siSFXQuOYgWzz8fXU2i3eQ%3D%3D",
+    "titulo": "Redacción del Plan Director del Cerro del Molinete.",
+    "updated": "2026-11-10T11:10:49.445+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Eq81Yz2%2FvtLN3k3tjedSGw%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "79411000",
-      "71317000",
-      "79417000"
+      "71240000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/VNXeOA8xe7jiZCdPmFj1EqnrKhXpyrZJgiTMN38soZpxNqU%2B31PqI4j%2B8yV34XNm01ycRx2OkkvFVPC78q6tTnQT825MSvyuxXyGevsv61JOVDbGCDM%2BMigrvuVS7Rv",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=idxKbqqPSqre/WvWy3S/pMG%2BXDMh99C78dO4n5T93tYRkjA%2BcEscTZ5PAUKylgT%2Bgv%2Bo/PIfqi5cVHtmva72qmAihUAdG9cDQVqPl/Z9XCY//q7NB2iMZvNyf0xrJmjt",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Tkql1wdaMjmsu76Y6X2c5zMlSnBM5sdCchMgEPghgE3F4qTejfDHI7D4GWDTar3fuHpdFMN3uotHGQpbvpGhSA3CGqAGaJG571pfO20rWJ8C1/zDIE0Kw/PWNnLS0Z0z",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=uLpEgAgOh7RP0pD83J15kAX0nvX8jvlyI1zNH0c36bu/qgRT1oUg/v7/Gb%2BWuh16WIBwztKoC3G4UsuCprPyvN%2BWwkEIzrQJOT9BSV1yfSmB0nvVKRzfe4rpHcnlPhSZ",
     "docs_adicionales": [
       {
-        "nombre": "modelo anexo II declaracion responsable.doc",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=3v/hKP6NN4mHcexACUWTBNLolKNLAZv07JpIbj5h0uTAfgnLbzNnzqXOEcC8wSsThBqZ2W/rkTSPUqORNCT0yJmQuMVGrGWpaISeePKDiFRJOVDbGCDM%2BMigrvuVS7Rv"
+        "nombre": "ANEXO_I_OFERTA_SE2026-46.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=VBLuVIh8JC/g8uPqNSo6YxOHExp12fc/F/QfYNTG28K78vaYz0uCoIjWhzYz5l/g1nlpHLSiVEQJM8uT8RC6wS4xVCGNVsJV/OmKr/79CtsC1/zDIE0Kw/PWNnLS0Z0z"
       },
       {
-        "nombre": "modelo anexo I.doc",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=SZ0SFnLyaAoquDmfs%2BHQ2YdtJew82EpzLS9ZllI/Sz5t5jsjRbsmQw1n4G1FvtG1DljXg5Ca%2BkmfpJiNz2BxL8Lmv8mPRSdfM7p67lwyfC4C1/zDIE0Kw/PWNnLS0Z0z"
+        "nombre": "DEUC SE2026 46.xml",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=tzZxXws4rE8RCOFDlH1B9tMs%2BeNLLGoJSvnnXpmEk3sbRiGz306ej4VH0sBLI16BCMwLAv/hIcJo1dHpS4YNJCT7kELp4QXmVG2k7AlOSMqCx2e6p7hqtlp2aFupgHMr"
       }
     ],
-    "organo": "Alcaldia del Ayuntamiento de la Iruela",
-    "importe": "1251.48",
-    "importe_num": 2502.96,
-    "fecha_limite": "2026-11-23",
+    "organo": "Junta de Gobierno Local del Ayuntamiento de Cartagena",
+    "importe": "66100",
+    "importe_num": 66100.0,
+    "fecha_limite": "2026-11-25",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "825/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de redacción de proyectos, estudios de seguridad y salud, dirección técnica de obras y coordinación de seguridad y salud para el \r\nAyuntamiento de Chimeneas.",
+    "updated": "2026-11-10T10:26:08.755+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7MRSUa3sJhHL1rX3q%2FMAPA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71242000",
+      "71520000",
+      "71317210",
+      "71242000",
+      "71520000",
+      "71317210",
+      "71242000",
+      "71317210",
+      "71520000",
+      "71242000",
+      "71520000",
+      "71317210",
+      "71242000",
+      "71520000",
+      "71317210"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=mUcGUiJ/2vInSHHq/EL5PSC5AQRCCSpWmHNWvO3eTsbQstYRg2OpWBpfqiPy3e7%2BYC6/kOPhiZV2rKb3cu9N5Ht74SPIEPbphv7MOAF2tS97QB3HKyQaFUExmUVQCerk",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=NpZYHmSGcvL8oFJu10p/jtgV7TGubKeNch14eb3ELUNV0I3RFYB56MmXWbTgp%2BnXDp2cYywx7WSS6YUeYKViBaUmwCDdli3ebwqP0J60MrK1aXEvq3KHa/AEHgtDrQw0",
+    "docs_adicionales": [
+      {
+        "nombre": "INF DTE REDAC PROYECTOS CHIMENEAS.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=7MP9c2AJkOpRG5ZDazvnPveNpuV9Jv6aHutE/1H5qRhzwSXLucbPp5tPBJmr6I%2BhvO1z9W63YVuGeDAbnw5bEqZuO0e2MUJK/XpGTOW3BR97QB3HKyQaFUExmUVQCerk"
+      }
+    ],
+    "organo": "Alcaldía del Ayuntamiento de Chimeneas",
+    "importe": "73333.11",
+    "importe_num": 73333.11,
+    "fecha_limite": "2026-11-25",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -76,52 +229,95 @@
     "fuente": "perfiles"
   },
   {
-    "folder_id": "CONTR 2026 0000179890",
+    "folder_id": "12016/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "dirección de obra coord. seguridad salud obras depuración varias provincias",
-    "updated": "2026-11-09T15:41:22.647+01:00",
-    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1036697",
+    "titulo": "Dirección facultativa de los proyectos parciales de instalaciones durante la ejecución de las obras de ampliación y reforma sostenible y rehabilitación energética de los Centros de Salud de Alhama de Murcia, Santomera y Yecla Este, susceptible de financiación en el marco del programa FEDER de la Región de Murcia 2021-2027.",
+    "updated": "2026-11-10T10:15:57.085+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=CmRb3BMEb9zyoM4us5k4vw%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "71317210",
-      "71310000",
-      "90492000",
-      "71520000",
-      "71000000"
+      "71240000",
+      "71240000",
+      "71240000",
+      "71240000"
     ],
-    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441910",
-    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441905",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=e4ca3WBdXHqZsqp7HWdeWBBnPcR8jEKcsGxnVsL2q%2BCoNVt1zu02Pou6KDAR2/tgwmfdZNGG6q5hkAtuW846jSyxlEssNc7rugO2AHDnqjOB0nvVKRzfe4rpHcnlPhSZ",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=zC3qm0/Xg7VYLzS%2BEDqUN/NIKigzkTqqTPlb2DeO5Je%2Bo3toq9c4wpgPSYR8fe4N/PR2dyDnbHoAz4CG%2BiTPa4o0DwJVsodG7NmsXnXWvIiB0nvVKRzfe4rpHcnlPhSZ",
+    "docs_adicionales": [],
+    "organo": "Consejería de Salud de la Región de Murcia",
+    "importe": "69282.87",
+    "importe_num": 76211.16,
+    "fecha_limite": "2026-11-25",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "12014/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Coordinación de Seguridad y Salud durante la ejecución de las obras de ampliación y reforma sostenible y rehabilitación energética de los Centros de Salud de Alhama de Murcia, Santomera y Yecla Este, susceptible de financiación  en el marco del programa FEDER de la Región de Murcia 2021-2027.",
+    "updated": "2026-11-10T10:05:04.484+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=u%2F%2Fn4PstiNbXOjazN1Dw9Q%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000",
+      "71240000",
+      "71240000",
+      "71240000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Ybde/URtU3C3M6r6Yr3FRnJzyrFdUVFgyCfyJf8xqUQQ3DWaY7Ul70mesY9AEcBJ5vHj1Su2LLQ9q2P0ejLFoxIl58jIjiJQg5VEhevRkKr3GVhXrFFqN7yFncy7YfRK",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=roM8MPTjYlWUde%2B0A/v7N0WmvXA1GH%2BVk0sGO/rt3W60QNW8sdFMyW9FAfc3lE0PnkmSh6JHUBGXDUzGiGeG8ZirY7dBwxkEjdGFPz9DmucC1/zDIE0Kw/PWNnLS0Z0z",
+    "docs_adicionales": [],
+    "organo": "Consejería de Salud de la Región de Murcia",
+    "importe": "36372.14",
+    "importe_num": 40009.35,
+    "fecha_limite": "2026-11-25",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "12013/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de elaboración y ejecución de los Planes de Control Técnico de Calidad de las obras de ampliación y reforma sostenible y rehabilitación energética de los Centros de Salud de Alhama de Murcia, Santomera y Yecla Este, susceptible de financiación en el marco del programa FEDER de la Región Murcia 2021-2027.",
+    "updated": "2026-11-10T09:54:05.035+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=c4DPWkTs6Dcl5NjlNci%2BtA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000",
+      "71240000",
+      "71240000",
+      "71240000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=VOVhUc%2BCk/%2B/EgtLqLEZa0gOXfm73PO4z9OhdD%2B8wpaAfA6FQFEsUhbYatIQ2CveUJDiSTJXYFG9gPAIRhhKVWaF8LzcSvVgbT126MRG7sRt/o8fNevwsujgRzaBbugn",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=gZLIRagTBsSd%2B9QIjDzlp%2BSaRyLahkzsHX0%2BTapXwpZXi5S/93AYULsXOFW003qgzrgK4MdI1Bin0MUOfbMSNKWBDv6Db59mGk77jkvonwcZyAJWGsSt0OzTSTyw9JAs",
     "docs_adicionales": [
       {
-        "nombre": "Memoria justificativa de la contratación.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441916"
-      },
-      {
-        "nombre": "DEUC PDF.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441996"
-      },
-      {
-        "nombre": "DEUC XML.XML",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441997"
-      },
-      {
-        "nombre": "Instrucciones DEUC.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/441998"
+        "nombre": "deuc_12013_2026.xml",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=V54E4QYn3BWvTuWkf81LkQPjkbXj3M%2B5r1kQrQey9WYE/BfcJzMs4J00K%2BmOYoBg%2BUieNe2unDwbTczwTGZ0E4zbyUoCFIvJbf%2BAF5H8igf3GVhXrFFqN7yFncy7YfRK"
       }
     ],
-    "organo": "Consejería de Agricultura, Pesca, Agua y Desarrollo Rural. D.G. de Infraestructuras del Agua (En Transición)",
-    "importe": "1152356.50",
-    "importe_num": 1382827.8,
-    "fecha_limite": "2026-12-15",
+    "organo": "Consejería de Salud de la Región de Murcia",
+    "importe": "192000",
+    "importe_num": 211200.0,
+    "fecha_limite": "2026-11-25",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
-    "fuente": "agregadas",
-    "descripcion": "DIRECCIÓN DE OBRA Y COORDINACIÓN DE SEGURIDAD Y SALUD DE OBRAS DE DEPURACIÓN EN VARIAS PROVINCIAS DE ANDALUCÍA, FASE V (ALMERÍA Y HUELVA)",
-    "junta_consultado": "2026-11-10"
+    "fuente": "perfiles"
   }
 ]

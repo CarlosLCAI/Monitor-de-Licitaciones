@@ -339,8 +339,8 @@
   },
   {
     "folder_id": "144-3/2026 Bis",
-    "estado": "EV",
-    "resultado": null,
+    "estado": "ADJ",
+    "resultado": "adjudicada",
     "titulo": "Contratación de los servicios de redacción del proyecto básico y de ejecución y la dirección facultativa de las obras denominadas REPARACIÓN Y CONSOLIDACIÓN DE LA TRASERA DE CALLE ANDALUCÍA Y CAMINO HUERTA MANDRES",
     "updated": "2026-10-09T09:58:45.555+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=1f%2BqXEInFKktm4eBPtV6eQ%3D%3D",
@@ -378,9 +378,9 @@
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=McNJYJLzoRhaMQi/ITiel%2BRqgLBAQRO/d0Dl9WUehAE9K6KbkqfqkX2%2BxDmSL71bG8tSpv5U/vLyThuRg%2BdEUAAmvZTHT1YoE7HlGpQlGNvDdQD9RyhUmzT4jZ2In4zL"
       }
     ],
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-10-28",
-    "estado_updated": "2026-10-28T09:03:00.193+01:00"
+    "estado_anterior": "EV",
+    "estado_cambiado_el": "2026-11-11",
+    "estado_updated": "2026-11-10T11:11:14.308+01:00"
   },
   {
     "folder_id": "4372/2026",
@@ -441,8 +441,8 @@
   },
   {
     "folder_id": "1/2026",
-    "estado": "RES",
-    "resultado": "formalizada",
+    "estado": "PUB",
+    "resultado": null,
     "titulo": "Servicios de Actualización del Proyecto de Urbanización, Dirección Facultativa y Coordinador de Seguridad y Salud, así como seguimiento y asesoramiento técnico durante el proceso de licitación de las obras de Urbanización del ámbito del Sector SUP-O1 EL RODEO del PGOU de Estepona.",
     "updated": "2026-10-29T14:22:21.451+01:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lO21u2TbovJLAIVZdUs8KA%3D%3D",
@@ -465,22 +465,14 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YT6JPBSl4vzEdmckXX0fDOoSNl4i/UHKLub2bttzQGr1PT7k3dEFPFvc3lmpw3mlSb3ERR9UABw78u%2BsVyo/kf7Sn9ZiV29OEVzRlIIfmtLVTD3T98KC0nSgQFM0q%2B5s",
     "docs_adicionales": [
       {
-        "nombre": "ANEXOS.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=s%2BpzoBnY11tPaMAkx4mfNgH0ButyxTJSZjoTrERhylMyBmnBx17oILoFanKNPPUoetLb8PvMI1LB2fdEpbR/pLYEhVWviOvPRb/t2ieezwyHAj0WEJrB5sP7amrh2jBD"
-      },
-      {
-        "nombre": "Memoria justificativa.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ZrGQ9IO1FzooM4AuZgyhB97ki48PILuoTCOZW2XOBrOa5ax9%2BE5YnguPSJgOU450gAt9LY4bmSCT5dv5eOYdFhsz2klmRppjjyO60%2BeRrRhJOVDbGCDM%2BMigrvuVS7Rv"
-      },
-      {
-        "nombre": "DECRETO APROBACION EXPEDIENTE.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=gn3wrGmLj6KIGit3bUm4gXeySBabeqVWPGnVSnSW62hBQBVb2CCWs89jgeHQi8X5uwlkz7RPFulNOsoMTlc1EUWL5x2%2BsqUE3/OfeaUUwsWHAj0WEJrB5sP7amrh2jBD"
+        "nombre": "PLIEGO MEJORAS CAMINOS_F.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=cIr5RU0R1EbcbmzwM2EhPfzthhiRCoJ8lTGyplfa/xAbi3q/MKxDTA6pyOuDwplmSz3faG67WCuTtkedhWEURBH94CQ6622MThtXnw9pVyR45ClyWkoJ44mKM70IFcOu"
       }
     ],
     "organo": "Junta de Compensación Sector Sup-01 El Rodeo",
     "importe": "254930",
     "importe_num": 254930.0,
-    "fecha_limite": "2026-02-20",
+    "fecha_limite": "2026-12-09",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -488,11 +480,11 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-29",
-    "estado_anterior": "ADJ",
-    "estado_cambiado_el": "2026-11-10",
-    "fecha_limite_anterior": "2026-10-19",
-    "fecha_limite_cambiada_el": "2026-11-10",
-    "estado_updated": "2026-11-09T14:49:40.926+01:00"
+    "estado_anterior": "RES",
+    "estado_cambiado_el": "2026-11-11",
+    "fecha_limite_anterior": "2026-02-20",
+    "fecha_limite_cambiada_el": "2026-11-11",
+    "estado_updated": "2026-11-10T10:35:29.638+01:00"
   },
   {
     "folder_id": "CONTR 2026 0000337362",
@@ -609,5 +601,39 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-06"
+  },
+  {
+    "folder_id": "C46-26",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contratación del Servicio de \"Redacción de redacción del Proyecto constructivo y dirección de las obras de sustitución del Gasómetro y adecuación y legalización de la línea de biogás de la EDAR Manilva\"",
+    "updated": "2026-11-10T13:54:09.406+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ctfjY7vTsXNeKgd8LfVV9g%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000",
+      "71240000",
+      "71520000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YDz7PhOijrSV0f7C7pE8fbz3Xqj5dWPh4f7aZSesPabyYDTxnGTjXHXJIWU5NKgHVtSS%2BO0jnEzYAHFVMuqbqRcuLp%2BlspMIm%2BFdbNudImGHAj0WEJrB5sP7amrh2jBD",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=EQgBSxdUYG9O3zRdsJw0guTr1gOqmdQS8cmKrCj8gCCw2/OydZBHrCpk%2BEN6E4bWUAvX9AHq271IeaSZzPj3i24IJ6lr00MGSUROF3FiOyQZyAJWGsSt0OzTSTyw9JAs",
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXOS ABIERTOS PCAP C46-26.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=i7OvX/CqJUlMlSDgYkYVIFxBW2OzWB7Xz0wDETY0Xpaf0LIBdrG%2BcZYGu8pp2SUWVepGJGJgqWkXAzPouyOIVfY5B9bIgCiHvX%2B7Uga3kZiCx2e6p7hqtlp2aFupgHMr"
+      }
+    ],
+    "organo": "Consejería delegada de ACOSOL, S.A.U.",
+    "importe": "75000",
+    "importe_num": 75000.0,
+    "fecha_limite": "2026-12-01",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-11"
   }
 ]

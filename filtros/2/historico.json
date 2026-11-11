@@ -679,7 +679,7 @@
   },
   {
     "folder_id": "482/2026",
-    "estado": "ADJ",
+    "estado": "RES",
     "resultado": "adjudicada",
     "titulo": "Concurso de proyectos con intervención de jurado para contrato de servicios de redacción de proyecto básico y de ejecución, dirección facultativa de las obras y coordinación de seguridad y salud para la construcción de edificio municipal polivalente para la juventud denominado \"Espacio Joven\".",
     "updated": "2026-10-15T12:41:11.498+02:00",
@@ -695,26 +695,54 @@
     "organo": "Alcaldía del Ayuntamiento de Yebes",
     "importe": "76300",
     "importe_num": 76300,
-    "fecha_limite": "2026-10-15",
+    "fecha_limite": "2026-08-17",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "8",
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-10-15",
-    "estado_anterior": "EV",
-    "estado_cambiado_el": "2026-11-07",
-    "fecha_limite_anterior": "2026-09-15",
-    "fecha_limite_cambiada_el": "2026-11-06",
-    "estado_updated": "2026-11-06T16:03:16.001+01:00",
+    "estado_anterior": "ADJ",
+    "estado_cambiado_el": "2026-11-11",
+    "fecha_limite_anterior": "2026-10-15",
+    "fecha_limite_cambiada_el": "2026-11-11",
+    "estado_updated": "2026-11-10T14:18:49.697+01:00",
     "docs_adicionales": [
       {
-        "nombre": "2026 Anexo I.doc",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=3amqfAdMPQJPqn%2BOLc8rI2zPRA2fzFDmDQ5mPvgpDvvXDQnYjqcqoUCYZf1Vmi4CiWsFrtCpoLt7gpJhYd1cwjxLdriH2vGPsnmMFPqdfQTDdQD9RyhUmzT4jZ2In4zL"
+        "nombre": "Estudio topografico parcela 1 23.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/A6SY%2BY9LI/RvhxDhLTz6GC94tcdDNHhPJGnVbQtpKPW69Oz7TyToRAGVz1aHpr%2B5x3g2Kms9oBUS8lnNYcy3arny1Gpi0p9HvOiUbMOxNq1aXEvq3KHa/AEHgtDrQw0"
       },
       {
-        "nombre": "2026 Archivo electronico B.doc",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=MB/EzzKrey/7yi8Kcs45g3g4bd1QIXZG7jq54HF%2BH3/8KczRzQXY9agAszrjMLM0gxVQO7P9S5Yqwlif1NotJCAIDpohM8Hbynv11apw3mSHAj0WEJrB5sP7amrh2jBD"
+        "nombre": "Esquema  Propuesta Situacion.dwg",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YX4Pak5WDPkJgMDwyXiNmkc%2BOhz7Q7PJhwRjsVK8V8ODA7FIxa1lFZaUbBfCZN7faYop%2BIusWWeUStXksoVxqONLLwgmJShVGbZv8oX8FNR45ClyWkoJ44mKM70IFcOu"
+      },
+      {
+        "nombre": "Red de saneamiento parcela.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Zh4n6M/OZofoBb1Frmz0AFJkF5LqE0lYLWQZ%2BZtXYMxFhfvkeG%2BHqb7qey95ZC9z50I3IlfudeVK8ZInLf79VrBxo8JV5IHDKBmutNPsc97VTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "Ampliacion estudio geotecnico edificio municipal.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/DDRi/Bzx0peYPGO6ysLvD5avDVeVsY4Ak/bVxeZPHIxFlY9kMuD6hKlfBboleVamLM3Muok9z1t9JeqCvr8emjriR1zEfdoQ0PHlRvrDzgC1/zDIE0Kw/PWNnLS0Z0z"
+      },
+      {
+        "nombre": "Estudio Geotecnico y Geofisico edificio municipal.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=x7lNejRAgkXr5GBN0zqooOUvUWoSCk2gVwuYxX%2BzH0sLHD9nqruZsAQ2hTXSEYosYR67tONw%2BQhaYW7qnYL6TMdU5U1R6/3%2BhIvKABH30ZTVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "Det volumetricas II S1.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=C%2BNhDGGjeQ6tkQu%2Bf%2BwUsBT6S9YNz2tiTa/etslFRni2u590jKmFS7hwwnCyJmSFH4BkvU2iQbuU%2BC5GjhZhLnwizYUb509onaAoEqDyODsC1/zDIE0Kw/PWNnLS0Z0z"
+      },
+      {
+        "nombre": "Calificacion del suelo S1.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=chRqdY%2BeEFGK6SjkSam8IanzTForBMN4TznqxKCG2JUXKixr0DnA4YkA6mMQFbzewzmto3Y22u2cYLrhq57x%2BEjxYcHVa26zDYSm5W3mCFN45ClyWkoJ44mKM70IFcOu"
+      },
+      {
+        "nombre": "Det volumetricas I S1.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Do/wPESu7wVQYZ1uJ1dE551igbtW/wQzV7m/tokDA6EYDpX6DTp5Be2YsrYgnPPTn8N9TSj%2Bo6VFP66JwTyaSQlNapcJ1xfkc1ome5L17PnVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "PL Saneamiento EDIFICIO.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=XknMl0kuZI18VgUSqiGqblSK1dCDINFoH/itHqzIYKNGuzALpu6Ur3lwccgkN18ObPA8O6oMw7ZKBZCl7P6B7y3rfTRXRnXMfR7NqBHZdKfVTD3T98KC0nSgQFM0q%2B5s"
       }
     ]
   },
