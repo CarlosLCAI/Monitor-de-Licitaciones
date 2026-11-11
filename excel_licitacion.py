@@ -217,9 +217,13 @@ def _hoja_info(wb, registro, datos, exp, hoy):
             _revisar(ws, f"B{r + 1}:C{r + 1}")
         r += 2
 
-    pbl = _num(registro.get("importe_num"))
-    importe("Precio base de la licitación", pbl if pbl is not None else _num(registro.get("importe")))
-    importe("Valor estimado del contrato", _num(info.get("valor_estimado")))
+    # «importe» del anuncio = presupuesto base de licitación sin IVA; «importe_num» (EstimatedOverallContractAmount)
+    # es el valor estimado del contrato, que puede incluir premios, prórrogas, etc. (en CMAYOR/2026/44Y03/0036
+    # eran 5.186.056,20 € frente a 5.486.056,20 €).
+    pbl = _num(registro.get("importe"))
+    importe("Precio base de la licitación", pbl if pbl is not None else _num(registro.get("importe_num")))
+    ve = _num(info.get("valor_estimado"))
+    importe("Valor estimado del contrato", ve if ve is not None else _num(registro.get("importe_num")))
 
     texto("Plazo de ejecución", info.get("plazo_ejecucion"))
 

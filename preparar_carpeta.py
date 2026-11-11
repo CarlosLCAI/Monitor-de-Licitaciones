@@ -350,6 +350,20 @@ def sanear_nombre(texto, maximo=80):
     return texto[:maximo].rstrip(" .") or "documento"
 
 
+def nombre_sobre(texto, maximo=50):
+    """Nombre de la carpeta de un sobre. Si no cabe, se quita la aclaración entre paréntesis del final y, si aún
+    no cabe, se corta en una palabra completa: antes quedaba «Sobre nº 1 - Propuesta conceptual, fase 1 (anónimo»."""
+    nombre = sanear_nombre(texto, 200)
+    if len(nombre) > maximo:
+        sin_parentesis = re.sub(r"\s*\([^)]*\)?\s*$", "", nombre).rstrip(" ,;:-")
+        if len(sin_parentesis) >= 12:
+            nombre = sin_parentesis
+    if len(nombre) > maximo:
+        nombre = nombre[:maximo].rsplit(" ", 1)[0] if " " in nombre[:maximo] else nombre[:maximo]
+    nombre = re.sub(r"(?:\s+(?:y|e|o|u|de|del|la|el|los|las|con|para|por|en|a))+$", "", nombre, flags=re.IGNORECASE)
+    return nombre.rstrip(" .,;:-") or "sobre"
+
+
 CARPETA_PLATAFORMA = "Presentacion Plataforma"
 CARPETA_PREPARAR = "Sobres para preparar"
 
@@ -417,7 +431,7 @@ def _nombre_unico(usados, nombre):
 def _escribir_documentos(zf, raiz, carpeta, registro, ambito, documentos, padre="", anexos=None, origenes=None):
     """Un archivo por documento: el anexo listo para rellenar si se encontró, o un .txt marcador."""
     ancho = max(2, len(str(len(documentos))))
-    ruta = f"{raiz}/{padre}{sanear_nombre(carpeta, 50)}/"
+    ruta = f"{raiz}/{padre}{nombre_sobre(carpeta)}/"
     for i, doc in enumerate(documentos, 1):
         base = f"{str(i).zfill(ancho)} - {sanear_nombre(doc['nombre'], 75)}"
         items = (anexos or {}).get(id(doc))
@@ -500,13 +514,13 @@ def construir_carpeta(folder_id, directorio):
         for sobre in bloque5["sobres"]:
             carpeta = sobre["nombre"].replace("–", "-").replace("—", "-")
             # «Presentacion Plataforma»: una carpeta vacía por sobre, donde se dejará lo que se suba a la plataforma
-            zf.writestr(f"{raiz}/{CARPETA_PLATAFORMA}/{sanear_nombre(carpeta, 50)}/", "")
+            zf.writestr(f"{raiz}/{CARPETA_PLATAFORMA}/{nombre_sobre(carpeta)}/", "")
             # «Sobres para preparar»: la misma carpeta, con un .txt por documento y las notas del pliego
             _escribir_documentos(zf, raiz, carpeta, registro, sobre["nombre"], sobre["documentos"], padre=f"{CARPETA_PREPARAR}/",
                                  anexos=anexos, origenes=origenes)
             if sobre["notas"]:
                 cabecera = f"Condiciones y avisos de este sobre según la revisión IA ({sobre['nombre']}):"
-                zf.writestr(f"{raiz}/{CARPETA_PREPARAR}/{sanear_nombre(carpeta, 50)}/Notas del pliego.txt",
+                zf.writestr(f"{raiz}/{CARPETA_PREPARAR}/{nombre_sobre(carpeta)}/Notas del pliego.txt",
                             "\r\n".join([cabecera, ""] + [f"- {n}" for n in sobre["notas"]]) + "\r\n")
         if bloque5["posterior"]:
             _escribir_documentos(zf, raiz, "Posterior adjudicatario", registro, "solo si eres el propuesto como adjudicatario (tras el requerimiento)",
