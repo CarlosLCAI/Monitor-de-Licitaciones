@@ -5451,7 +5451,10 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-11-11"
+    "fecha_captura": "2026-11-11",
+    "revisado_humano": true,
+    "revisado_fecha": "2026-11-11T12:14:42.000Z",
+    "revisado_por": "CarlosLCAI"
   },
   {
     "folder_id": "CONTR 2026 0000316580",
@@ -5526,7 +5529,7 @@
     ],
     "organo": "Consorcio de Transportes de la Bahía de Cádiz",
     "importe": "59950.00",
-    "importe_num": 59950.0,
+    "importe_num": 59950,
     "fecha_limite": "2026-11-26",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
