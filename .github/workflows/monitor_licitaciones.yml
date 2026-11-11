@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: '47 19 * * *'   # 19:47 UTC = 21:47 hora España en verano (20:47 en invierno). Los feeds de PLACSP apenas reciben entradas entre las ~21:00 y las ~06:00, así que leer de noche ve el día completo. GitHub retrasa las programadas varias horas (en octubre de 2026, la de 03:08 UTC arrancaba hacia las 09-10 UTC); con esta hora se espera que los datos estén listos de madrugada. PRUEBA desde el 9/10/2026: si el retraso sigue siendo malo, volver a '30 1 * * *' (01:30 UTC). Minuto "no en punto" para evitar el pico de carga de las horas en punto
   workflow_dispatch:        # permite ejecución manual desde la pestaña Actions
+    inputs:
+      ventana_horas:
+        description: 'Horas hacia atrás que se leen (vacío = 72). Para recuperar días: 336 = 14 días'
+        required: false
+        default: ''
+      max_paginas:
+        description: 'Páginas máximas por feed (vacío = 30). Para 14 días hacen falta unas 80'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -26,6 +35,8 @@ jobs:
       - name: Ejecutar script
         env:
           TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
+          VENTANA_HORAS: ${{ inputs.ventana_horas }}
+          MAX_PAGINAS: ${{ inputs.max_paginas }}
         run: python fetch_licitaciones.py
 
       - name: Commit estado actualizado

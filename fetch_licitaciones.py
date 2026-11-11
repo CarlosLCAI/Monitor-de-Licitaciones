@@ -30,8 +30,8 @@ FEEDS = [
     ("menores", FEED_MENORES_URL, False),
 ]
 VISOR_URL = "https://carloslcai.github.io/Monitor-de-Licitaciones/"
-VENTANA_HORAS = 72  # cubre con margen el hueco viernes tarde -> lunes madrugada (fines de semana con poca/nula publicación)
-MAX_PAGINAS = 30
+VENTANA_HORAS = int(os.environ.get("VENTANA_HORAS") or 72)  # (ejecución manual: se puede ampliar para recuperar días atrás) cubre con margen el hueco viernes tarde -> lunes madrugada (fines de semana con poca/nula publicación)
+MAX_PAGINAS = int(os.environ.get("MAX_PAGINAS") or 30)
 FILTROS_MANIFEST_FILE = "filtros.json"
 FILTROS_CARPETA_BASE = "filtros"
 
