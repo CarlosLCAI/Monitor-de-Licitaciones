@@ -7413,9 +7413,9 @@
     "carpeta_descargada": true,
     "carpeta_descargada_fecha": "2026-11-11T09:53:02.305Z",
     "carpeta_descargada_por": "Luis Hens del Campo",
-    "ganada": false,
-    "ganada_fecha": null,
-    "ganada_por": null
+    "ganada": true,
+    "ganada_fecha": "2026-11-11T14:11:50.293Z",
+    "ganada_por": "Luis Hens del Campo"
   },
   {
     "folder_id": "20216/2026",
