@@ -9179,6 +9179,9 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-11-11"
+    "fecha_captura": "2026-11-11",
+    "revisado_humano": true,
+    "revisado_fecha": "2026-11-11T12:14:42.000Z",
+    "revisado_por": "CarlosLCAI"
   }
 ]
