@@ -288,7 +288,12 @@ def _hoja_solvencia(wb, datos, exp):
             _casilla(ws, f"D{r}", cai == "cumple")
             nota_cai = _txt(it.get("cai_nota"))
             etiq = ETIQUETA_CAI.get(cai)
-            _escribe(ws, f"E{r}", (f"{etiq}: {nota_cai}" if etiq and nota_cai else etiq or nota_cai or ""), tam=10)
+            texto_cai = f"{etiq}: {nota_cai}" if etiq and nota_cai else etiq or nota_cai or ""
+            personas = _txt(it.get("cai_personas"))
+            if personas:  # solo en el equipo mínimo: quién de la plantilla podría cubrir el puesto
+                personas = "\n".join(p.strip() for p in personas.split("|") if p.strip())
+                texto_cai = f"{texto_cai}\nPropuesta:\n{personas}" if texto_cai else f"Propuesta:\n{personas}"
+            _escribe(ws, f"E{r}", texto_cai, tam=10)
             _casilla(ws, f"F{r}")
             _escribe(ws, f"G{r}", "", tam=10)
             ws.row_dimensions[r].height = _alto((nombre, A), (valor, B), (acred, C), (ws[f"E{r}"].value, E * 1.1), minimo=30)
