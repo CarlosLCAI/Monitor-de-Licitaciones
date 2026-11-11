@@ -6,6 +6,7 @@ import base64
 import json
 import os
 import re
+from urllib.parse import unquote
 from datetime import datetime, timedelta, timezone
 
 NS = {
@@ -742,6 +743,33 @@ def calcular_resultado(codigos):
     return None
 
 
+RE_ID_EVL = re.compile(r"idEvl=([^&]+)")
+
+
+def id_evl(link):
+    """Identificador de la licitación en la Plataforma (parámetro idEvl del enlace a su ficha). Es propio de
+    cada licitación y no cambia entre versiones; el número de expediente, en cambio, lo repiten órganos
+    distintos (p. ej. «1054/2026» existe en Rus y en Ezcaray)."""
+    m = RE_ID_EVL.search(link or "")
+    return unquote(m.group(1)) if m else None
+
+
+def misma_licitacion(registro, data):
+    """False solo si ambos enlaces traen idEvl y son distintos: mismo número de expediente, otra licitación.
+    Si falta alguno (algunas fuentes no lo traen) se da por la misma, como antes."""
+    a, b = id_evl(registro.get("link")), id_evl(data.get("link"))
+    return not (a and b and a != b)
+
+
+def clave_unica(data):
+    """folder_id con el que se guarda una licitación cuyo número de expediente ya usa OTRA licitación:
+    el número más el lugar del órgano («307/2026 (Tolox)»). Es estable entre versiones de la misma licitación."""
+    organo = (data.get("organo") or "").strip()
+    m = re.search(r"Ayuntamiento de\s+(.+)$", organo, re.IGNORECASE)
+    sufijo = (m.group(1) if m else organo)[:30].strip() or (id_evl(data.get("link")) or "")[:8]
+    return f"{data['folder_id']} ({sufijo})" if sufijo else data["folder_id"]
+
+
 def aplicar_cambio_estado(registro, data, hoy):
     """Si el feed trae una versión más reciente de una licitación ya guardada, actualiza su
     estado/resultado y su fecha límite (las ampliaciones de plazo cambian ambos). No toca
@@ -1133,11 +1161,14 @@ def leer_feed(nombre, url_inicial, contextos, limite_fecha, fecha_captura_hoy):
 
             # El feed va de más reciente a más antiguo: si una licitación aparece varias veces,
             # la primera es su versión actual y las demás son estados ya superados.
+            # La clave es el id de la entrada del feed (propio de cada licitación y estable entre sus versiones),
+            # no el número de expediente: dos órganos pueden usar el mismo número y la segunda se descartaba.
             folder_id_entry = entry.findtext('.//cbc:ContractFolderID', namespaces=NS)
-            if folder_id_entry:
-                if folder_id_entry in versiones_vistas:
+            clave_entry = entry.findtext('atom:id', namespaces=NS) or folder_id_entry
+            if clave_entry:
+                if clave_entry in versiones_vistas:
                     continue
-                versiones_vistas.add(folder_id_entry)
+                versiones_vistas.add(clave_entry)
 
             for ctx in contextos:
                 cfg = ctx["cfg"]
@@ -1148,6 +1179,11 @@ def leer_feed(nombre, url_inicial, contextos, limite_fecha, fecha_captura_hoy):
                 # actualiza su registro, aunque el nuevo estado ya no entre en los estados
                 # permitidos del filtro.
                 existente = ctx["historico_idx"].get(data["folder_id"])
+                if existente is not None and not misma_licitacion(existente, data):
+                    # Mismo número de expediente que otra licitación ya guardada, pero es otra: no se mezclan
+                    # (antes sus cambios de estado y plazo se aplicaban a la equivocada) y se guarda con clave propia.
+                    data["folder_id"] = clave_unica(data)
+                    existente = ctx["historico_idx"].get(data["folder_id"])
                 if existente is not None:
                     # El órgano puede publicar más modelos con la licitación ya en curso
                     if data.get("docs_adicionales") and data["docs_adicionales"] != existente.get("docs_adicionales"):

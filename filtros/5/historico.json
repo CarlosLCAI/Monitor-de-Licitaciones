@@ -434,7 +434,7 @@
   },
   {
     "folder_id": "24/2026",
-    "estado": "ADJ",
+    "estado": "EV",
     "titulo": "Constituye el objeto del contrato la prestación del servicio de redacción de proyectos, dirección técnica, tramitación y legalización de instalaciones eléctricas temporales y estructuras provisionales necesarias para la celebración de los certámenes organizados en FYCMA, conforme a las especificaciones del PPT.",
     "updated": "2026-09-16T11:12:22.478+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=DC%2Fm7JVt%2FLkUqXM96WStVA%3D%3D",
@@ -450,7 +450,7 @@
     "organo": "Dirección General del Palacio de Ferias y Congresos de Málaga",
     "importe": "23681.7",
     "importe_num": 118408.5,
-    "fecha_limite": "2026-09-23",
+    "fecha_limite": "2026-10-06",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -461,12 +461,8 @@
       "fecha_analisis": "2026-09-19T08:09:33.318103+00:00"
     },
     "fecha_captura": "2026-09-19",
-    "estado_anterior": "PUB",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-11-11",
-    "estado_updated": "2026-11-10T10:27:59.415+01:00",
-    "fecha_limite_anterior": "2026-11-23",
-    "fecha_limite_cambiada_el": "2026-11-11",
+    "resultado": null,
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
     "docs_adicionales": [
       {
         "nombre": "Annex III.docx",
@@ -564,7 +560,7 @@
   },
   {
     "folder_id": "376/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "Servicio de redacción de proyectos, dirección facultativa de las obras y coordinación de seguridad y salud, dividido en siete lotes, mediante procedimiento abierto, tramitación urgente, financiación FMA 2026, Ayuntamiento de Beas de Granada.",
     "updated": "2026-09-21T12:54:25.027+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=nSOpC5sxSLqsNfRW6APEDw%3D%3D",
@@ -628,10 +624,8 @@
       "fecha_analisis": "2026-09-22T08:38:07.880369+00:00"
     },
     "fecha_captura": "2026-09-22",
-    "estado_anterior": "EV",
     "resultado": null,
-    "estado_cambiado_el": "2026-10-22",
-    "estado_updated": "2026-10-22T16:45:35.365+02:00",
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
     "docs_adicionales": [
       {
         "nombre": "DEUC.pdf",
@@ -641,9 +635,7 @@
         "nombre": "DEUC .xml",
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YT6JPBSl4vzEdmckXX0fDFnn00xcBxZkYbL5PBbFiXCK%2Bdg45lzUhWMPyyG58W7kpAZnUzNcTUc2gcMN9Ao7eBTQ3mWBctiWmxSF5s8nal/DdQD9RyhUmzT4jZ2In4zL"
       }
-    ],
-    "fecha_limite_anterior": "2026-10-05",
-    "fecha_limite_cambiada_el": "2026-10-22"
+    ]
   },
   {
     "folder_id": "2026/SP01010020/00000806E",
@@ -800,7 +792,7 @@
   },
   {
     "folder_id": "2026/351",
-    "estado": "PUB",
+    "estado": "ADJ",
     "titulo": "Contrato de servicio de limpieza de arquetas varias  en Mercados Centrales de Abastecimiento de Sevilla, S.A. (MERCASEVILLA,S.A.). Expte. 2026/351.\r\n",
     "updated": "2026-09-28T11:04:54.453+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=MMA0FpJC82jL1rX3q%2FMAPA%3D%3D",
@@ -815,7 +807,7 @@
     "organo": "Dirección General de Mercados Centrales de Abastecimiento de Sevilla S.A. (MERCASEVILLA S.A.)",
     "importe": "53676.75",
     "importe_num": 53676.75,
-    "fecha_limite": "2026-11-24",
+    "fecha_limite": "2026-10-19",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "100",
@@ -832,12 +824,8 @@
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=hX/cliCsJH3KHmXWEjXD1U0R3XdUo94eJU73XHu1r2zeZJ9b6EWxF8IkW5gYjI3G29TP6Ep3TmMQXWrzQDyNpGsC4EEKHHCAYdzuXxBihaR45ClyWkoJ44mKM70IFcOu"
       }
     ],
-    "estado_anterior": "ADJ",
     "resultado": null,
-    "estado_cambiado_el": "2026-11-11",
-    "estado_updated": "2026-11-09T20:27:25.603+01:00",
-    "fecha_limite_anterior": "2026-10-19",
-    "fecha_limite_cambiada_el": "2026-11-11"
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
   },
   {
     "folder_id": "115/2026",
@@ -855,7 +843,7 @@
     "organo": "Presidencia de la Mancomunidad de Municipios Beturia",
     "importe": "64462.29",
     "importe_num": 64462.29,
-    "fecha_limite": "2026-10-11",
+    "fecha_limite": "2026-10-15",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -866,12 +854,8 @@
       "fecha_analisis": "2026-09-29T09:59:56.459713+00:00"
     },
     "fecha_captura": "2026-09-29",
-    "estado_anterior": "ADJ",
     "resultado": null,
-    "estado_cambiado_el": "2026-11-10",
-    "estado_updated": "2026-11-09T12:38:03.871+01:00",
-    "fecha_limite_anterior": "2026-08-04",
-    "fecha_limite_cambiada_el": "2026-11-10",
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
     "docs_adicionales": [
       {
         "nombre": "ANEXO I.docx",
@@ -897,7 +881,7 @@
   },
   {
     "folder_id": "25/26",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "Servicio de Consultoria - Oficina Tecnica Administrativa del Proyecto ECOCREM, cofinanciado por el Programa Plurirregional de España FEDER 2021-2027 en un 85% del gasto elegible, en el marco de la Línea FID-CPI del Ministerio de Ciencia, Innovación y Universidades para la empresa Parque Cementerio de Málaga S.A (PARCEMASA)",
     "updated": "2026-09-28T09:28:08.923+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XAO3D5uzCgmHCIsjvJ3rhQ%3D%3D",
@@ -916,7 +900,7 @@
     "organo": "Gerencia del Parque Cementerio de Málaga, S.A.",
     "importe": "481189.78",
     "importe_num": 481189.78,
-    "fecha_limite": "2026-11-25",
+    "fecha_limite": "2026-10-28",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -927,12 +911,8 @@
       "fecha_analisis": "2026-09-29T10:01:00.232842+00:00"
     },
     "fecha_captura": "2026-09-29",
-    "estado_anterior": "EV",
     "resultado": null,
-    "estado_cambiado_el": "2026-11-11",
-    "estado_updated": "2026-11-10T10:39:33.697+01:00",
-    "fecha_limite_anterior": "2026-10-28",
-    "fecha_limite_cambiada_el": "2026-11-11",
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
     "docs_adicionales": [
       {
         "nombre": "INSTRUCCIONES DEUC.pdf",
@@ -1233,7 +1213,7 @@
   },
   {
     "folder_id": "1549/2026",
-    "estado": "RES",
+    "estado": "EV",
     "titulo": "Servicio de recogida, transporte y tratamiento de residuos de construcción y demolición en el TM de El Ejido",
     "updated": "2026-09-29T10:53:54.752+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ut4aSh0daHhVYjgxA4nMUw%3D%3D",
@@ -1248,7 +1228,7 @@
     "organo": "Consejo de Administración de Desarrollo Urbanístico de El Ejido, S.L.",
     "importe": "65516",
     "importe_num": 235857.6,
-    "fecha_limite": "2026-10-29",
+    "fecha_limite": "2026-11-03",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1259,12 +1239,8 @@
       "fecha_analisis": "2026-09-30T10:02:02.160590+00:00"
     },
     "fecha_captura": "2026-09-30",
-    "fecha_limite_anterior": "2026-09-18",
-    "fecha_limite_cambiada_el": "2026-10-30",
-    "estado_updated": "2026-11-09T13:55:25.753+01:00",
-    "estado_anterior": "EV",
-    "resultado": "formalizada",
-    "estado_cambiado_el": "2026-11-10"
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
+    "resultado": null
   },
   {
     "folder_id": "P4104500F-2026/000369-PEA",
@@ -1524,7 +1500,7 @@
     "organo": "Alcaldía del Ayuntamiento de la Línea de la Concepción",
     "importe": "14876.04",
     "importe_num": 14876.04,
-    "fecha_limite": "2026-10-02",
+    "fecha_limite": "2026-10-15",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -1535,12 +1511,8 @@
       "fecha_analisis": "2026-10-01T10:33:41.557106+00:00"
     },
     "fecha_captura": "2026-10-01",
-    "estado_anterior": "PUB",
     "resultado": null,
-    "estado_cambiado_el": "2026-11-10",
-    "fecha_limite_anterior": "2026-11-12",
-    "fecha_limite_cambiada_el": "2026-11-10",
-    "estado_updated": "2026-11-09T11:10:58.524+01:00",
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
     "docs_adicionales": [
       {
         "nombre": "Anexo I PCAP.pdf",
@@ -2790,8 +2762,8 @@
   },
   {
     "folder_id": "2203/2026",
-    "estado": "RES",
-    "resultado": "adjudicada",
+    "estado": "EV",
+    "resultado": null,
     "titulo": "Contratación de la redacción del proyecto, estudio de seguridad y salud, dirección facultativa y coordinación de seguridad y salud del aliviadero del emisario del CEIP BENAFELIX",
     "updated": "2026-10-08T13:38:54.111+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=1sKuvLqRo5w%2Bk2oCbDosIw%3D%3D",
@@ -2861,9 +2833,7 @@
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=OM1AbQfJDwiP6o5A2vxXH/u%2B7UDgY3N5Qtqx960kfC804G/lpHYqlcMlG6BU6E9C%2BivHyEoWCCJ3sBgd9iC9w0JzTjRes4wNgcAfamQOL/Z7QB3HKyQaFUExmUVQCerk"
       }
     ],
-    "estado_anterior": "EV",
-    "estado_cambiado_el": "2026-10-31",
-    "estado_updated": "2026-10-30T09:45:08.828+01:00"
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
   },
   {
     "folder_id": "26449 PROYECTO AQUILLA DEL AGUA",
@@ -2936,18 +2906,14 @@
     "organo": "Junta De Gobierno Local del Ayuntamiento de Huércal-Overa",
     "importe": "66135",
     "importe_num": 66135,
-    "fecha_limite": "2026-11-03",
+    "fecha_limite": "2026-10-22",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-10-09",
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-10-28",
-    "fecha_limite_anterior": "2026-10-22",
-    "fecha_limite_cambiada_el": "2026-11-06",
-    "estado_updated": "2026-11-05T10:59:37.080+01:00",
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
     "docs_adicionales": [
       {
         "nombre": "ANEXO II.odt",
@@ -3458,7 +3424,7 @@
   },
   {
     "folder_id": "SE-19/2026",
-    "estado": "PUB",
+    "estado": "RES",
     "resultado": null,
     "titulo": "Servicio de mantenimiento de recogida y gestión de residuos no peligrosos",
     "updated": "2026-10-09T10:22:17.497+02:00",
@@ -3534,11 +3500,7 @@
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=LX2brjUbU9a9d9ltNSJukgsPW/qUqsCnm8VLtjHnWfI4KTXuQfzs5vQJW0chwCasOpdLXUhUBH/vPsTVUKFLRqwOeqFBTAcsmIsuIb2tCWTVTD3T98KC0nSgQFM0q%2B5s"
       }
     ],
-    "estado_anterior": "RES",
-    "estado_cambiado_el": "2026-11-11",
-    "estado_updated": "2026-11-10T13:16:02.141+01:00",
-    "fecha_limite_anterior": "2026-10-26",
-    "fecha_limite_cambiada_el": "2026-11-11"
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
   },
   {
     "folder_id": "144-3/2026 Bis",
@@ -4027,7 +3989,7 @@
   },
   {
     "folder_id": "3557/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "asesoramiento, consultoria y auditoria externa para mantenimiento de sistema de gestion de emergenckias del servicio de proteccion civil de torrox.",
     "updated": "2026-10-13T11:02:19.754+02:00",
@@ -4057,11 +4019,7 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-10-13",
-    "estado_anterior": "EV",
-    "estado_cambiado_el": "2026-10-21",
-    "fecha_limite_anterior": "2026-10-09",
-    "fecha_limite_cambiada_el": "2026-10-21",
-    "estado_updated": "2026-10-21T13:53:26.987+02:00",
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
     "docs_adicionales": [
       {
         "nombre": "ANEXO 2 PROTECCION CIVIL.pdf",
@@ -4228,7 +4186,7 @@
   },
   {
     "folder_id": "VE_5_MENTORIAS_2026",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Servicios de mentoría especializada para el Programa de Aceleración del Vivero de Empresas 4.0 Laocoonte, promovido por la Cámara y cofinanciado por el Programa FEDER 2021 2027 en el marco de la convocatoria Viveros 4.0 de la Comunidad Autónoma de Andalucía.",
     "updated": "2026-10-14T13:12:53.222+02:00",
@@ -4302,9 +4260,7 @@
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=VM36n4kFHcuR3E6DPKrqHq5ZEqPwwTtOqukh/mPNGut07T%2BX5tMO6hxCYh/j3cmJ5rZ8kqUnl8sXjR4dInIUnOYMZHFWPMRmHXOnXabJskX3GVhXrFFqN7yFncy7YfRK"
       }
     ],
-    "fecha_limite_anterior": "2026-10-29",
-    "fecha_limite_cambiada_el": "2026-10-28",
-    "estado_updated": "2026-10-28T10:11:40.227+01:00"
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
   },
   {
     "folder_id": "2026GtM00125 (RESIDUOS 2027)",
@@ -4342,8 +4298,8 @@
   },
   {
     "folder_id": "10266/2026",
-    "estado": "RES",
-    "resultado": "adjudicada",
+    "estado": "PUB",
+    "resultado": null,
     "titulo": "Servicios de Asistencia técnica para la subsanación de deficiencias para la aprobación definitiva del Plan General de Ordenación Urbana de Totana (PGOU).",
     "updated": "2026-10-14T11:48:26.266+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=nraOR3IRSelVkTabT%2FRM8A%3D%3D",
@@ -4370,9 +4326,7 @@
       "semaforo_motivo": "Cumple solvencia económica; faltan director con Plan General aprobado, jurista, delineante SIG y importe de experiencia similar, cubribles en UTE con García de los Reyes o medios externos.",
       "fecha_analisis": "2026-10-15T06:37:33.171936+00:00"
     },
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-11-06",
-    "estado_updated": "2026-11-05T13:13:57.859+01:00"
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
   },
   {
     "folder_id": "SERV-2026000108",
@@ -4604,8 +4558,8 @@
   },
   {
     "folder_id": "78/26",
-    "estado": "ADJ",
-    "resultado": "adjudicada",
+    "estado": "EV",
+    "resultado": null,
     "titulo": "Contrato de servicio para la redacción de proyectos eléctricos para ampliazión de la instalación eléctrica de baja tensión para el sistema de climatización en los centros de educación infantil y primaria del municipio de Los Barrios (Cádiz), responsable del contrato de obras y dirección facultativa. \r\n\r\n",
     "updated": "2026-10-15T09:43:47.828+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=icZvKODnjthPpzdqOdhuWg%3D%3D",
@@ -4619,7 +4573,7 @@
     "organo": "Alcaldía del Ayuntamiento de Los Barrios (Cádiz)",
     "importe": "35700",
     "importe_num": 35700,
-    "fecha_limite": "2026-08-06",
+    "fecha_limite": "2026-10-30",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -4629,11 +4583,7 @@
     "revisado_humano": true,
     "revisado_fecha": "2026-10-20T09:52:09.348Z",
     "revisado_por": "Belén Fernández",
-    "estado_anterior": "EV",
-    "estado_cambiado_el": "2026-11-06",
-    "fecha_limite_anterior": "2026-10-21",
-    "fecha_limite_cambiada_el": "2026-11-06",
-    "estado_updated": "2026-11-05T10:40:18.920+01:00"
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
   },
   {
     "folder_id": "CONTR 2026 0000237603",
@@ -4769,8 +4719,8 @@
   },
   {
     "folder_id": "5963/2026",
-    "estado": "RES",
-    "resultado": "adjudicada",
+    "estado": "EV",
+    "resultado": null,
     "titulo": "Servicio de maquinaria con operario para el Ayuntamiento de Isla Cristina.",
     "updated": "2026-10-16T09:46:52.976+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=8vaOxPioWWUS7pcxhTeWOg%3D%3D",
@@ -4794,9 +4744,7 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-10-16",
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-11-06",
-    "estado_updated": "2026-11-04T14:37:45.064+01:00"
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
   },
   {
     "folder_id": "3437/2026",
@@ -5458,8 +5406,8 @@
   },
   {
     "folder_id": "2026-69",
-    "estado": "RES",
-    "resultado": "adjudicada",
+    "estado": "EV",
+    "resultado": null,
     "titulo": "Servicio de retirada, transporte y gestión de los residuos resultantes de los procesos de depuración en las instalaciones gestionadas por la Empresa Municipal de Aguas de Córdoba, S.A.",
     "updated": "2026-10-20T11:33:16.713+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7N7x%2FgEcTxP9pbnDwlaUlg%3D%3D",
@@ -5495,9 +5443,7 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-21",
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-10-22",
-    "estado_updated": "2026-10-21T16:43:13.533+02:00"
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
   },
   {
     "folder_id": "1601/2026",
@@ -5914,8 +5860,8 @@
   },
   {
     "folder_id": "714/2026",
-    "estado": "RES",
-    "resultado": "adjudicada",
+    "estado": "EV",
+    "resultado": null,
     "titulo": "Servicio de prevención ajeno del Patronato Provincial de Turismo de Córdoba durante 2 años completos (prorrogables por otros 2 más)",
     "updated": "2026-10-26T12:59:04.072+01:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xcIAnLOzG15%2BF6L2uCfUWg%3D%3D",
@@ -5944,7 +5890,7 @@
     "organo": "Vicepresidencia del Patronato Provincial de Turismo de Córdoba",
     "importe": "2206.08",
     "importe_num": 4412.16,
-    "fecha_limite": "2026-06-26",
+    "fecha_limite": "2026-11-09",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -5952,11 +5898,7 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-26",
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-10-29",
-    "fecha_limite_anterior": "2026-11-09",
-    "fecha_limite_cambiada_el": "2026-10-29",
-    "estado_updated": "2026-10-28T11:05:03.659+01:00"
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
   },
   {
     "folder_id": "428/2026",
@@ -6081,7 +6023,7 @@
     "organo": "Presidencia de la Fundación Cultural Universitaria de las Artes de Jerez. Fundación Pública Local (FUNDARTE)",
     "importe": "203905",
     "importe_num": 203905,
-    "fecha_limite": "2026-10-29",
+    "fecha_limite": "2026-11-10",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -6089,11 +6031,7 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-26",
-    "estado_anterior": "ADJ",
-    "estado_cambiado_el": "2026-11-06",
-    "fecha_limite_anterior": "2026-09-11",
-    "fecha_limite_cambiada_el": "2026-11-06",
-    "estado_updated": "2026-11-05T14:05:23.170+01:00"
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
   },
   {
     "folder_id": "SERV-ABR_SP_SMPL/2026000423",
@@ -6134,7 +6072,7 @@
   },
   {
     "folder_id": "1303/2026",
-    "estado": "EV",
+    "estado": "PUB",
     "resultado": null,
     "titulo": "Mantenimiento, conservación y labores de jardinería de espacios ajardinados y arbolado viario",
     "updated": "2026-10-27T14:27:16.451+01:00",
@@ -6168,7 +6106,7 @@
     "organo": "Alcaldía del Ayuntamiento de Cantoria",
     "importe": "123966.94",
     "importe_num": 123966.94,
-    "fecha_limite": "2026-11-09",
+    "fecha_limite": "2026-11-11",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -6176,11 +6114,7 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-27",
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-11-05",
-    "fecha_limite_anterior": "2026-07-28",
-    "fecha_limite_cambiada_el": "2026-11-11",
-    "estado_updated": "2026-11-10T12:14:52.269+01:00"
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
   },
   {
     "folder_id": "P4106100C-2026/000111-PEAS",
@@ -6436,7 +6370,7 @@
     "organo": "Junta de Compensación Sector Sup-01 El Rodeo",
     "importe": "254930",
     "importe_num": 254930,
-    "fecha_limite": "2026-12-09",
+    "fecha_limite": "2026-12-04",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -6444,11 +6378,7 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-29",
-    "estado_anterior": "RES",
-    "estado_cambiado_el": "2026-11-11",
-    "fecha_limite_anterior": "2026-02-20",
-    "fecha_limite_cambiada_el": "2026-11-11",
-    "estado_updated": "2026-11-10T10:35:29.638+01:00"
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
   },
   {
     "folder_id": "3013/2026",
@@ -6988,8 +6918,8 @@
   },
   {
     "folder_id": "27/2026",
-    "estado": "RES",
-    "resultado": "formalizada",
+    "estado": "PUB",
+    "resultado": null,
     "titulo": "Sistema Dinámico de Adquisición de servicios de asesoramiento y consultoría",
     "updated": "2026-10-30T09:57:59.058+01:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=OwrXVPrv8sq7JOCXkOhcDg%3D%3D",
@@ -7065,11 +6995,7 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-30",
-    "estado_anterior": "ADJ",
-    "estado_cambiado_el": "2026-11-11",
-    "estado_updated": "2026-11-10T09:24:50.128+01:00",
-    "fecha_limite_anterior": "2026-09-30",
-    "fecha_limite_cambiada_el": "2026-11-11"
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
   },
   {
     "folder_id": "15847/2026",
@@ -7270,7 +7196,7 @@
   },
   {
     "folder_id": "1054/2026",
-    "estado": "EV",
+    "estado": "PUB",
     "resultado": null,
     "titulo": " Redacción de proyectos, dirección facultativa y coordinación de seguridad y salud de diez actuaciones de reparación de daños por fenómenos meteorológicos adversos.",
     "updated": "2026-11-03T15:12:54.385+01:00",
@@ -7342,7 +7268,7 @@
     "organo": "Alcaldia del Ayuntamiento de Rus",
     "importe": "186563.4",
     "importe_num": 186563.4,
-    "fecha_limite": "2026-11-05",
+    "fecha_limite": "2026-11-13",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -7350,11 +7276,7 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-04",
-    "fecha_limite_anterior": "2026-11-13",
-    "fecha_limite_cambiada_el": "2026-11-06",
-    "estado_updated": "2026-11-06T14:53:40.944+01:00",
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-11-06",
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
     "revisado_humano": true,
     "revisado_fecha": "2026-11-11T07:17:06.371Z",
     "revisado_por": "CarlosLCAI",
@@ -7636,7 +7558,7 @@
   },
   {
     "folder_id": "153/2026",
-    "estado": "EV",
+    "estado": "PUB",
     "resultado": null,
     "titulo": "Servicio de explotación de la Estación Depuradora de Aguas Residuales (EDAR) y Estación de Bombeo de Aguas Residuales (EBAR) de Fuerte del Rey.",
     "updated": "2026-11-04T12:49:39.229+01:00",
@@ -7652,7 +7574,7 @@
     "organo": "Alcaldía del Ayuntamiento de Fuerte del Rey",
     "importe": "114120",
     "importe_num": 114120,
-    "fecha_limite": "2026-11-09",
+    "fecha_limite": "2026-11-19",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -7660,11 +7582,7 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-05",
-    "estado_anterior": "RES",
-    "estado_cambiado_el": "2026-11-11",
-    "fecha_limite_anterior": "2026-11-19",
-    "fecha_limite_cambiada_el": "2026-11-10",
-    "estado_updated": "2026-11-10T09:19:40.736+01:00"
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
   },
   {
     "folder_id": "587/2025",
@@ -8009,8 +7927,8 @@
   },
   {
     "folder_id": "208/2026",
-    "estado": "RES",
-    "resultado": "adjudicada",
+    "estado": "PUB",
+    "resultado": null,
     "titulo": "Servicio de recogida, transporte, tratamiento y valorización de lodos deshidratados producido en las Estaciones Depuradores de Agua Residuales (EDAR) que opera y mantiene el Consorcio Provincial del Agua de Málaga\r\n",
     "updated": "2026-11-04T09:20:45.823+01:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=IvXNGYxj0YMXhk1FZxEyvw%3D%3D",
@@ -8044,7 +7962,7 @@
     "organo": "Presidencia del Consorcio Provincial del Agua de Málaga",
     "importe": "597509.2",
     "importe_num": 985890.18,
-    "fecha_limite": "2026-12-06",
+    "fecha_limite": "2026-11-18",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -8052,11 +7970,7 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-05",
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-11-07",
-    "fecha_limite_anterior": "2026-11-18",
-    "fecha_limite_cambiada_el": "2026-11-06",
-    "estado_updated": "2026-11-06T08:36:23.700+01:00"
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
   },
   {
     "folder_id": "CONTR 2026 0000028355",

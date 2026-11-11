@@ -71,7 +71,7 @@
   },
   {
     "folder_id": "1854/2026",
-    "estado": "RES",
+    "estado": "ADJ",
     "titulo": "“Redacción proyecto básico y de ejecución, dirección facultativa de las obras y coordinación  de seguridad y salud para las obras de construcción de edificio para centro deportivo en Velilla de San Antonio.",
     "updated": "2026-08-05T10:07:19.087+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KXcmHtkgvJ19PLkba5eRog%3D%3D",
@@ -86,7 +86,7 @@
     "organo": "Alcaldía del Ayuntamiento de Velilla de San Antonio",
     "importe": "171531.5",
     "importe_num": 171531.5,
-    "fecha_limite": "2026-09-22",
+    "fecha_limite": "2026-08-05",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -97,12 +97,8 @@
       "fecha_analisis": "2026-08-06T06:12:16.242982+00:00"
     },
     "fecha_captura": "2026-08-06",
-    "estado_anterior": "ADJ",
     "resultado": "formalizada",
-    "estado_cambiado_el": "2026-11-06",
-    "estado_updated": "2026-11-05T12:23:55.892+01:00",
-    "fecha_limite_anterior": "2026-08-05",
-    "fecha_limite_cambiada_el": "2026-11-06"
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
   },
   {
     "folder_id": "300/2026/00445",
@@ -207,7 +203,7 @@
   },
   {
     "folder_id": "2378/2026",
-    "estado": "RES",
+    "estado": "EV",
     "titulo": "Elaboración y redacción del Plan Especial de Protección del Conjunto Histórico Artístico de Chinchón",
     "updated": "2026-09-29T19:06:28.990+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=uCirF57jxe6FQ%2FlhRK79lA%3D%3D",
@@ -223,7 +219,7 @@
     "organo": "Alcaldía del Ayuntamiento de Chinchón",
     "importe": "115702.48",
     "importe_num": 115702.48,
-    "fecha_limite": "2026-11-04",
+    "fecha_limite": "2026-10-14",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -236,12 +232,8 @@
     "fecha_captura": "2026-09-30",
     "revisado_humano": true,
     "revisado_fecha": "2026-10-02T11:31:32.844Z",
-    "fecha_limite_anterior": "2026-10-14",
-    "fecha_limite_cambiada_el": "2026-10-15",
-    "estado_updated": "2026-11-06T13:19:30.082+01:00",
-    "estado_anterior": "EV",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-11-07"
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
+    "resultado": null
   },
   {
     "folder_id": "PA-SER 103/26",

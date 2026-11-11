@@ -27,7 +27,7 @@
   },
   {
     "folder_id": "704/2026",
-    "estado": "RES",
+    "estado": "EV",
     "titulo": "Servicio de redacción nuevo Plan Básico de Ordenación Municipal y Catálogo de Patrimonio Histórico y Cultural del Municipio de Montemayor (Córdoba)",
     "updated": "2026-07-08T10:33:16.418+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2FlhOflFrVsJVYjgxA4nMUw%3D%3D",
@@ -42,13 +42,9 @@
     "organo": "Alcaldía del Ayuntamiento de Montemayor",
     "importe": "141534.71",
     "fecha_captura": "2026-07-10",
-    "estado_anterior": "PRE",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-11-06",
-    "estado_updated": "2026-11-09T12:43:34.654+01:00",
-    "fecha_limite_anterior": "2026-11-06",
-    "fecha_limite": "2026-11-09",
-    "fecha_limite_cambiada_el": "2026-11-10",
+    "resultado": null,
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
+    "fecha_limite": "2026-07-23",
     "docs_adicionales": [
       {
         "nombre": "Oferta economica.doc",
@@ -178,7 +174,7 @@
   },
   {
     "folder_id": "205/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "contratacion del servicio de asistencia tecnica para la redacción del Plan General de Ordenación Municipal PGOM y del Plan POU",
     "updated": "2026-07-13T09:00:00.000+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=80aPPYr93hmOUi78BmzhOQ%3D%3D",
@@ -191,14 +187,10 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ANfnasMvFMBfQEOKVFd%2BGwyXinMDV7f41l8ykcPj01uqYcTl%2B5Au6RKREO/ebjMTX4AnfT3oBVkIIPxV0wyxjAaBvQv608dECDP6hwCaquB7QB3HKyQaFUExmUVQCerk",
     "organo": "Pleno del Ayuntamiento de Gádor",
     "importe": "289256.2",
-    "fecha_limite": "2026-11-26",
+    "fecha_limite": "2026-08-14",
     "fecha_captura": "2026-07-14",
-    "estado_anterior": "ADJ",
     "resultado": null,
-    "estado_cambiado_el": "2026-11-06",
-    "estado_updated": "2026-11-06T12:35:47.215+01:00",
-    "fecha_limite_anterior": "2026-07-27",
-    "fecha_limite_cambiada_el": "2026-11-06",
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
     "docs_adicionales": [
       {
         "nombre": "Anexo Modelo de Declaracion Responsable.doc",
@@ -208,7 +200,7 @@
   },
   {
     "folder_id": "24/26",
-    "estado": "EV",
+    "estado": "RES",
     "titulo": "Servicio de Consultoría – Oficina Técnica Administrativa del Proyecto ECOCREM, cofinanciado por el Programa Plurirregional de España FEDER 2021-2027 en un 85% del gasto elegible, en el marco de la Línea FID-CPI del Ministerio de Ciencia, Innovación y Universidades para la empresa Parque Cementerio de Málaga S.A (PARCEMASA).",
     "updated": "2026-07-13T09:00:00.000+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7j7HaCQg2c9eKgd8LfVV9g%3D%3D",
@@ -228,12 +220,8 @@
     "importe": "481470.91",
     "fecha_limite": "2026-11-04",
     "fecha_captura": "2026-07-14",
-    "estado_anterior": "RES",
     "resultado": null,
-    "estado_cambiado_el": "2026-10-29",
-    "estado_updated": "2026-11-09T09:57:52.050+01:00",
-    "fecha_limite_anterior": "2026-10-27",
-    "fecha_limite_cambiada_el": "2026-11-10",
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
     "docs_adicionales": [
       {
         "nombre": "Carta de derechos y deberes de los alumnos_OK.pdf",
@@ -298,7 +286,7 @@
   },
   {
     "folder_id": "871/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "El presente contrato tiene por objeto la prestación conjunta de la Redacción del Proyecto de Ejecución y la posterior ejecución material de las obras de mejora y ornato del Cementerio Municipal 'Santiago Apóstol'.",
     "updated": "2026-07-15T20:00:10.040+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=wjBIH2KnF7y8ebB%2FXTwy0A%3D%3D",
@@ -314,14 +302,10 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=t0PfkqQitS3gdcpwjPMCsyu1szmN/7R9g4xNAFBP2SbiwFP5MU7vufTMUX8J5OCRJ1iIIITuZQ01a%2Bf04SeegCOK976uZF1JEPr3s4PX62y1aXEvq3KHa/AEHgtDrQw0",
     "organo": "Alcaldía del Ayuntamiento de Villanueva del Ariscal",
     "importe": "96639.7",
-    "fecha_limite": "2026-11-23",
+    "fecha_limite": "2026-07-30",
     "fecha_captura": "2026-07-16",
-    "estado_anterior": "RES",
     "resultado": null,
-    "estado_cambiado_el": "2026-10-29",
-    "estado_updated": "2026-11-02T13:11:55.916+01:00",
-    "fecha_limite_anterior": "2026-10-29",
-    "fecha_limite_cambiada_el": "2026-11-03",
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
     "docs_adicionales": [
       {
         "nombre": "Estudio de gestion de residuos de construccion y demolicion.pdf",
@@ -378,7 +362,7 @@
   },
   {
     "folder_id": "364/2026",
-    "estado": "RES",
+    "estado": "EV",
     "titulo": "Contrato de servicios para la redacción del Plan General de Ordenación Municipal (PGOM) de La Guardia de Jaén, incluyendo toda la documentación urbanística, ambiental y técnica necesaria hasta su aprobación definitiva, con estricta sujeción a las condiciones y requisitos expresados en el Pliego de Prescripciones Técnicas.",
     "updated": "2026-07-15T10:26:42.671+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=B%2BgNBb6ROCnIGlsa0Wad%2Bw%3D%3D",
@@ -395,14 +379,10 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QjPtX68LBtMDqJGLdqN%2B4LwSvQwjHrw3mUBLqv6t13bhb4Bx0tCEJ1ANzVOei1tzP0lCRzg3%2B7tjheRNKfvrM6BJ5w9nHm8RwFuZlJWPvcLDdQD9RyhUmzT4jZ2In4zL",
     "organo": "Alcaldia del Ayuntamiento de La Guardia de Jaén",
     "importe": "160000",
-    "fecha_limite": "2026-10-22",
+    "fecha_limite": "2026-07-20",
     "fecha_captura": "2026-07-16",
-    "estado_anterior": "EV",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-11-07",
-    "fecha_limite_anterior": "2026-10-08",
-    "fecha_limite_cambiada_el": "2026-10-23",
-    "estado_updated": "2026-11-06T09:54:16.030+01:00",
+    "resultado": null,
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
     "docs_adicionales": [
       {
         "nombre": "ANEXO I y II.doc",
@@ -412,7 +392,7 @@
   },
   {
     "folder_id": "3809/2026",
-    "estado": "RES",
+    "estado": "EV",
     "titulo": "Contrato mixto de obras y servicios para la ejecución de obras de Reformado conservación, reparación y refuerzo de estructura de madera de cubierta sobre aulas 4A, 4B y 4C en CEIP San Roque de Arahal. Este proyecto está financiado por la Administración General del Estado, a través del Ministerio de Política Territorial y Memoria Democrática, con una aportación de 147.707,48 €.\r\n",
     "updated": "2026-07-15T10:21:53.202+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=CV4dyWQi64gQyBAnWzHfCg%3D%3D",
@@ -437,14 +417,10 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=MrVeOOFTZrhQ4qVeau7xzYbgHhBzCnSbctd%2BMQd83yDAH4QvE1b1HJeWO%2Bt6w8YRBRnzkBmQDMGUHYPYZEXtc/Z7KXb328sPygqOemxomPh7QB3HKyQaFUExmUVQCerk",
     "organo": "Alcaldia del Ayuntamiento de Arahal",
     "importe": "127438.11",
-    "fecha_limite": "2026-10-01",
+    "fecha_limite": "2026-07-16",
     "fecha_captura": "2026-07-16",
-    "estado_anterior": "EV",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-22",
-    "estado_updated": "2026-10-21T12:16:21.712+02:00",
-    "fecha_limite_anterior": "2026-07-16",
-    "fecha_limite_cambiada_el": "2026-10-09"
+    "resultado": null,
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
   },
   {
     "folder_id": "SV33/2026",
@@ -1443,7 +1419,7 @@
   },
   {
     "folder_id": "2717/2026",
-    "estado": "RES",
+    "estado": "EV",
     "titulo": "Servicio de redacción del proyecto básico y de ejecución dividido en tres fases diferenciadas, estudio de seguridad y salud, dirección de obra de la I y II fase, dirección de ejecución de obra de la I y II fase, coordinación de seguridad y salud durante la obra de la I y II fase, de CONSTRUCCIÓN DE POLIDEPORTIVO EN EL CHAPARRAL.",
     "updated": "2026-08-13T23:10:57.236+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Y8t5gxB98YSLAncw3qdZkA%3D%3D",
@@ -1477,10 +1453,8 @@
       "fecha_analisis": "2026-08-15T03:55:26.204330+00:00"
     },
     "fecha_captura": "2026-08-15",
-    "estado_anterior": "EV",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-29",
-    "estado_updated": "2026-10-28T09:18:05.547+01:00"
+    "resultado": null,
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
   },
   {
     "folder_id": "6491/2026",
@@ -1616,7 +1590,7 @@
     "organo": "Junta de Gobierno del Ayuntamiento San Juan de Aznalfarache",
     "importe": "60000",
     "importe_num": 60000,
-    "fecha_limite": "2026-10-27",
+    "fecha_limite": "2026-09-11",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -1627,12 +1601,8 @@
       "fecha_analisis": "2026-08-22T03:54:40.089517+00:00"
     },
     "fecha_captura": "2026-08-22",
-    "estado_anterior": "PUB",
     "resultado": null,
-    "estado_cambiado_el": "2026-11-05",
-    "estado_updated": "2026-11-04T10:50:58.987+01:00",
-    "fecha_limite_anterior": "2026-09-11",
-    "fecha_limite_cambiada_el": "2026-10-13",
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
     "docs_adicionales": [
       {
         "nombre": "Anexo II Listado de servicios valorado.pdf",
@@ -1646,7 +1616,7 @@
   },
   {
     "folder_id": "55/2026",
-    "estado": "RES",
+    "estado": "EV",
     "titulo": "Servicio asistencia técnica destinado a disponer de un equipo técnico cualificado para redacción de Proyectos Básicos y de Ejecución, elaboración de Estudios Básicos de Seguridad y Salud, y realización de los trabajos, correspondientes a actuaciones de mejora de accesibilidad e instalación de ascensores en edificios residenciales de vivienda colectiva beneficiarios ayudas Municipal 2024.",
     "updated": "2026-08-24T12:35:29.309+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VVaCe715rqCAAM7L03kM8A%3D%3D",
@@ -1660,7 +1630,7 @@
     "organo": "Comisión Ejecutiva de la Gerencia de Urbanismo de Sevilla",
     "importe": "198347.11",
     "importe_num": 198347.11,
-    "fecha_limite": "2026-09-23",
+    "fecha_limite": "2026-09-08",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1671,12 +1641,8 @@
       "fecha_analisis": "2026-08-25T03:55:52.711452+00:00"
     },
     "fecha_captura": "2026-08-25",
-    "estado_anterior": "PUB",
-    "resultado": "formalizada",
-    "estado_cambiado_el": "2026-11-11",
-    "estado_updated": "2026-11-10T14:33:44.379+01:00",
-    "fecha_limite_anterior": "2026-11-24",
-    "fecha_limite_cambiada_el": "2026-11-11",
+    "resultado": null,
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
     "docs_adicionales": [
       {
         "nombre": "anexos.pdf",
@@ -1686,7 +1652,7 @@
   },
   {
     "folder_id": "453/2026",
-    "estado": "RES",
+    "estado": "EV",
     "titulo": "Contrato de servicios de redacción de proyecto básico y de ejecución, estudio de seguridad y salud, dirección de obra y de ejecución, y coordinación de seguridad y salud para la conservación de las casas consistoriales altas de Baeza para uso de colección museográfica, en el marco del plan de actuación integrado Úbeda–Baeza (plan edil), (FEDER) 2021-2027",
     "updated": "2026-08-24T11:20:35.539+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ppijV97X90J%2FP7lJ7Fu0SA%3D%3D",
@@ -1733,12 +1699,8 @@
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=DzrrWo8Sw1KYzR7AW3idOIGnwlStUptOXJ3VyIu0Bl%2BzTM7NLcbR27J%2BZuUd5s7ZHkvj0fIPFkip66GYt8pmZO0DCw82u/cmvWq0/NQdAGh45ClyWkoJ44mKM70IFcOu"
       }
     ],
-    "estado_anterior": "EV",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-11-05",
-    "estado_updated": "2026-11-03T09:42:29.795+01:00",
-    "fecha_limite_anterior": "2026-08-06",
-    "fecha_limite_cambiada_el": "2026-10-29"
+    "resultado": null,
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
   },
   {
     "folder_id": "2026-071",
@@ -1943,7 +1905,7 @@
     "organo": "Presidencia de la Mancomunidad de Municipios Beturia",
     "importe": "64462.29",
     "importe_num": 64462.29,
-    "fecha_limite": "2026-10-11",
+    "fecha_limite": "2026-10-15",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -1954,12 +1916,8 @@
       "fecha_analisis": "2026-09-29T09:51:40.791793+00:00"
     },
     "fecha_captura": "2026-09-29",
-    "estado_anterior": "ADJ",
     "resultado": null,
-    "estado_cambiado_el": "2026-11-10",
-    "estado_updated": "2026-11-09T12:38:03.871+01:00",
-    "fecha_limite_anterior": "2026-08-04",
-    "fecha_limite_cambiada_el": "2026-11-10",
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
     "docs_adicionales": [
       {
         "nombre": "ANEXO I.docx",
@@ -1985,7 +1943,7 @@
   },
   {
     "folder_id": "25/26",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "Servicio de Consultoria - Oficina Tecnica Administrativa del Proyecto ECOCREM, cofinanciado por el Programa Plurirregional de España FEDER 2021-2027 en un 85% del gasto elegible, en el marco de la Línea FID-CPI del Ministerio de Ciencia, Innovación y Universidades para la empresa Parque Cementerio de Málaga S.A (PARCEMASA)",
     "updated": "2026-09-28T09:28:08.923+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XAO3D5uzCgmHCIsjvJ3rhQ%3D%3D",
@@ -2004,7 +1962,7 @@
     "organo": "Gerencia del Parque Cementerio de Málaga, S.A.",
     "importe": "481189.78",
     "importe_num": 481189.78,
-    "fecha_limite": "2026-11-25",
+    "fecha_limite": "2026-10-28",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -2015,12 +1973,8 @@
       "fecha_analisis": "2026-09-29T09:52:38.339915+00:00"
     },
     "fecha_captura": "2026-09-29",
-    "estado_anterior": "EV",
     "resultado": null,
-    "estado_cambiado_el": "2026-11-11",
-    "estado_updated": "2026-11-10T10:39:33.697+01:00",
-    "fecha_limite_anterior": "2026-10-28",
-    "fecha_limite_cambiada_el": "2026-11-11",
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
     "docs_adicionales": [
       {
         "nombre": "INSTRUCCIONES DEUC.pdf",
@@ -2297,8 +2251,8 @@
   },
   {
     "folder_id": "2203/2026",
-    "estado": "RES",
-    "resultado": "adjudicada",
+    "estado": "EV",
+    "resultado": null,
     "titulo": "Contratación de la redacción del proyecto, estudio de seguridad y salud, dirección facultativa y coordinación de seguridad y salud del aliviadero del emisario del CEIP BENAFELIX",
     "updated": "2026-10-08T13:38:54.111+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=1sKuvLqRo5w%2Bk2oCbDosIw%3D%3D",
@@ -2368,9 +2322,7 @@
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=OM1AbQfJDwiP6o5A2vxXH/u%2B7UDgY3N5Qtqx960kfC804G/lpHYqlcMlG6BU6E9C%2BivHyEoWCCJ3sBgd9iC9w0JzTjRes4wNgcAfamQOL/Z7QB3HKyQaFUExmUVQCerk"
       }
     ],
-    "estado_anterior": "EV",
-    "estado_cambiado_el": "2026-10-31",
-    "estado_updated": "2026-10-30T09:45:08.828+01:00"
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
   },
   {
     "folder_id": "26449 PROYECTO AQUILLA DEL AGUA",
@@ -2898,8 +2850,8 @@
   },
   {
     "folder_id": "78/26",
-    "estado": "ADJ",
-    "resultado": "adjudicada",
+    "estado": "EV",
+    "resultado": null,
     "titulo": "Contrato de servicio para la redacción de proyectos eléctricos para ampliazión de la instalación eléctrica de baja tensión para el sistema de climatización en los centros de educación infantil y primaria del municipio de Los Barrios (Cádiz), responsable del contrato de obras y dirección facultativa. \r\n\r\n",
     "updated": "2026-10-15T09:43:47.828+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=icZvKODnjthPpzdqOdhuWg%3D%3D",
@@ -2913,7 +2865,7 @@
     "organo": "Alcaldía del Ayuntamiento de Los Barrios (Cádiz)",
     "importe": "35700",
     "importe_num": 35700,
-    "fecha_limite": "2026-08-06",
+    "fecha_limite": "2026-10-30",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -2923,11 +2875,7 @@
     "revisado_humano": true,
     "revisado_fecha": "2026-10-20T09:52:09.348Z",
     "revisado_por": "Belén Fernández",
-    "estado_anterior": "EV",
-    "estado_cambiado_el": "2026-11-06",
-    "fecha_limite_anterior": "2026-10-21",
-    "fecha_limite_cambiada_el": "2026-11-06",
-    "estado_updated": "2026-11-05T10:40:18.920+01:00"
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
   },
   {
     "folder_id": "8/2026 (652/2026)",
@@ -3455,7 +3403,7 @@
     "organo": "Junta de Compensación Sector Sup-01 El Rodeo",
     "importe": "254930",
     "importe_num": 254930,
-    "fecha_limite": "2026-12-09",
+    "fecha_limite": "2026-12-04",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -3463,11 +3411,7 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-29",
-    "estado_anterior": "RES",
-    "estado_cambiado_el": "2026-11-11",
-    "fecha_limite_anterior": "2026-02-20",
-    "fecha_limite_cambiada_el": "2026-11-11",
-    "estado_updated": "2026-11-10T10:35:29.638+01:00"
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
   },
   {
     "folder_id": "3013/2026",
@@ -3857,7 +3801,7 @@
   },
   {
     "folder_id": "1054/2026",
-    "estado": "EV",
+    "estado": "PUB",
     "resultado": null,
     "titulo": " Redacción de proyectos, dirección facultativa y coordinación de seguridad y salud de diez actuaciones de reparación de daños por fenómenos meteorológicos adversos.",
     "updated": "2026-11-03T15:12:54.385+01:00",
@@ -3929,7 +3873,7 @@
     "organo": "Alcaldia del Ayuntamiento de Rus",
     "importe": "186563.4",
     "importe_num": 186563.4,
-    "fecha_limite": "2026-11-05",
+    "fecha_limite": "2026-11-13",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -3937,11 +3881,7 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-04",
-    "fecha_limite_anterior": "2026-11-13",
-    "fecha_limite_cambiada_el": "2026-11-06",
-    "estado_updated": "2026-11-06T14:53:40.944+01:00",
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-11-06",
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
     "revisado_humano": true,
     "revisado_fecha": "2026-11-11T07:17:06.371Z",
     "revisado_por": "CarlosLCAI",
