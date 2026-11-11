@@ -1,30 +1,30 @@
 {
-  "fecha_hora": "2026-11-11T00:15:30.757994+00:00",
-  "paginas": 28,
-  "total_entries_leidas": 12636,
+  "fecha_hora": "2026-11-11T08:54:51.489077+00:00",
+  "paginas": 127,
+  "total_entries_leidas": 60684,
   "nuevas_filtradas": 0,
-  "total_entries_acumulado": 605547,
+  "total_entries_acumulado": 666231,
   "feeds": [
     {
       "nombre": "perfiles",
       "estado": "ok",
-      "paginas": 13,
-      "entradas": 5702,
+      "paginas": 57,
+      "entradas": 27487,
       "ultima_entrada": "2026-11-10T20:10:38.950000+01:00"
     },
     {
       "nombre": "agregadas",
       "estado": "ok",
-      "paginas": 3,
-      "entradas": 1093,
-      "ultima_entrada": "2026-11-10T01:00:08.285000+01:00"
+      "paginas": 24,
+      "entradas": 10978,
+      "ultima_entrada": "2026-11-11T02:00:01.598000+01:00"
     },
     {
       "nombre": "menores",
       "estado": "ok",
-      "paginas": 12,
-      "entradas": 5841,
-      "ultima_entrada": "2026-11-10T02:33:26.523000+01:00"
+      "paginas": 46,
+      "entradas": 22219,
+      "ultima_entrada": "2026-11-11T02:16:18.785000+01:00"
     }
   ]
 }

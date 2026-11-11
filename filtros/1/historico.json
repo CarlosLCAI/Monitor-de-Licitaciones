@@ -1645,8 +1645,12 @@
     "estado_updated": "2026-11-11T07:48:14.977970+00:00",
     "docs_adicionales": [
       {
-        "nombre": "anexos.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=xNWmUPZLzCMYTkuhjZ9hEOFv6LCeMsa2Kbzlv6dKsuXNHkHmaWU31dLKDN4TGvt0tXuZHbh/YEzYnNECcq1wbHg%2Bw5vlEhDnDa%2BwcYcP5M1JOVDbGCDM%2BMigrvuVS7Rv"
+        "nombre": "espd-request.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=rjfl9pcVcWMcjgwTAicxuPxYSrXc7cF94yZ2KVsCl0AcGLohyLt3b2HWP%2B2KFRpGxUZ%2BUcSLRCOoea/I0NqRuSs9GkWqA/IFToHKBGT/pNF7QB3HKyQaFUExmUVQCerk"
+      },
+      {
+        "nombre": "espd-request.xml",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=lrcqFC85QxmRtdmDdbeNd9ZctXPzxOPS1agsC9oWn8VGYBDvU74zJuhg0/CDLx7CfFSz%2Bh8eY7emn4MZ4EYLzY/2DD8mmWk2i0f7yZ96XiuB0nvVKRzfe4rpHcnlPhSZ"
       }
     ]
   },
@@ -3396,8 +3400,12 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YT6JPBSl4vzEdmckXX0fDOoSNl4i/UHKLub2bttzQGr1PT7k3dEFPFvc3lmpw3mlSb3ERR9UABw78u%2BsVyo/kf7Sn9ZiV29OEVzRlIIfmtLVTD3T98KC0nSgQFM0q%2B5s",
     "docs_adicionales": [
       {
-        "nombre": "PLIEGO MEJORAS CAMINOS_F.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=cIr5RU0R1EbcbmzwM2EhPfzthhiRCoJ8lTGyplfa/xAbi3q/MKxDTA6pyOuDwplmSz3faG67WCuTtkedhWEURBH94CQ6622MThtXnw9pVyR45ClyWkoJ44mKM70IFcOu"
+        "nombre": "PPT DIREC FACULTA.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Pn6oaWHrU/GqblQcSi2WCsuovx443IjU6FbkMfjEUt%2Bmm5AIvYCclBweaG6oW2k%2BuAHWp9ubYq3/mkqN%2BQmfUg2tuIdfvjpwZPPnJopwTgLDdQD9RyhUmzT4jZ2In4zL"
+      },
+      {
+        "nombre": "PPT SEG Y SALUD.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=%2BBejYnhOzNKip38kwym0qZjlNfTXectYw%2Bc3Q/mXV2OXXIk46uBn12OpDYHw53ARmrrYpIRkWyp7hwfMjo1OqJ8g/TbO%2B0i/WYVpNk9S0Y57QB3HKyQaFUExmUVQCerk"
       }
     ],
     "organo": "Junta de Compensación Sector Sup-01 El Rodeo",
@@ -3858,16 +3866,52 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=H6PzczLBPg/kduvnEE/CacoDrjsQDIvhwAEQP4rBvLWFkTalurqG4/rSmTbbG0IyHsJgOuBatR7vOLlB0BFPbNvkQaYPjCF1SeOAXn7b5h5t/o8fNevwsujgRzaBbugn",
     "docs_adicionales": [
       {
-        "nombre": "proy alumbrado.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QmzkhWeDcr/SJdaMbexLPA0O97lOZxLRQDihhVd%2BAiwq5QGOftNIKhxNZWjxGW6637N6pm0ngqmdX%2BA5/34ApB8vrcTykwQisDI2ioqSnr%2BHAj0WEJrB5sP7amrh2jBD"
+        "nombre": "MEMORIA JUSTIFICATIVA.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=zBgEUxWJ3c6FZwvRemKZGqHOk24lKGuHHUgBNRhh3f3uWcCklNMhZiXjYBxx26TgtuHzH7epptyV2qsz9MwzozqQ4p4Mb%2BaJDo3KWWDN8GBt/o8fNevwsujgRzaBbugn"
       },
       {
-        "nombre": "20261016_Otros_anexo 2.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=toTtF3Y00OtQjZr8nfp%2Bps4w5nQgwzUCkyg6EvNg/%2BlacE%2BSIE9dxB3T1aRa4IE4ayPz4StPGcLZAAHd0iCwzXVRgUIVacsrpOs7T7h7TgCHAj0WEJrB5sP7amrh2jBD"
+        "nombre": "INFORME INSUFICIENCIA DE MEDIOS.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=C1fIbJpju/yNsBj2yXHUm4Ee7HXCPS0ISeaCtdWgtDJOw07zoCqgFszrdo7oGIaggQ0z1FmQroK7SA55o/Em9jtvWhHBW092XylCERcrxsv6CYyL7SIrUOBFfNf52ZqA"
       },
       {
-        "nombre": "20261016_Otros_anexo 1.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=IPQrQrhJ28//ZS%2BS%2BX8AITvRn2IL4MqSVP3Y7XUA9drZRoWWH0P4xmtVYVTX1oq7wo0CPSnMoZOM4NBWwhnGVjJs6FiEH91MLfTxuYKEKAJJOVDbGCDM%2BMigrvuVS7Rv"
+        "nombre": "INSTRUCCIONES GENERALES PARA LA PRESENTACION DE OFERTAS.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=6wuWtRJhS7Hx/GZ51rCZ5B8P%2BR5hARfwkYcdMB1D57080wJsh97hgO1ral%2B2gcxcN0O9tlfLMAzEMCLf3/bk0F8JgqK2IeRimzjsYasmBUq1aXEvq3KHa/AEHgtDrQw0"
+      },
+      {
+        "nombre": "CUADRO RESUMEN CONTRATO.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=PfP2uB8f6EGkw7V29H6oytnnOP6d1yBhvkEqXeDgvkxfOS/XsPRtWgWwSnAWTtFCEM8AR9np0D0TnmNDFa9K04r8lkdiiEwlc%2BSFpJ89upnDdQD9RyhUmzT4jZ2In4zL"
+      },
+      {
+        "nombre": "ANEXO IV GRUPO EMPRESARIAL.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=M7ESVnzuyJQBWMgtbT8Sd1flN5gMLub/4fsiGiFT4Ayx/ozs2Ny4MVZMZHAuAnakkcPq5Hgxno53ud7fIaUjkdtO3slbZgN5pGUYaVMRTJE//q7NB2iMZvNyf0xrJmjt"
+      },
+      {
+        "nombre": "ANEXO V ADSCRIPCION DE MEDIOS.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=7CnDtldDMI7FI6Qnys5wN4wOtGliwE1VWOqc9/imbO4b/0XZG4POL2/MfgH2BUCr8nh3Fmbaq%2BglYxQmqcLN7zCfLLtLC3k7UvOGXYSsE%2B76CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "ANEXO III UTE.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=dTaI91iNtNZ6GhYHE3qbgxazLJAt6Rh%2BQmQ9EcBtRVbhXRFafEhGt/iLJN6yaOUWOfGOy4Y7/wxQjZpaO6rIwl1E7iRHit1asaFY/eRGXGOB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "ANEXO VII DECLARACION CONFIDENCIALIDAD VOLUNTARIO.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=8Ur%2BBoNYWKyQttow86G%2BQSJgsnHQV/VdN9kYoQhdxbMRfGyJMSCLCGqDRufSuERhuqXjniLYlGY6mxmP1BzHje8RVf9T2XZH4d74RGFGFXeHAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "INDICE OBLIGATORIO DE LA MEMORIA.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Lwlju%2BVXeuNFV9XEst7zrY%2B5yh9HwbhQG/X%2B4lrRQANebDx/zF6elBgTJ9YuBoKTsmPCRJa1b898gneUsTmkHFYo6R1IIfByATneok4zjl6Cx2e6p7hqtlp2aFupgHMr"
+      },
+      {
+        "nombre": "ANEXO I DECLARACION RESPONSABLE.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=vAQ0Un/xYdJJc%2B6q58enooErqNo6khfxfnRMJfQopyECAYWF7UWF1v3DX2uv1E1JympALwEG8tCMp/UEzQJ2APwQA9j2K4PepDyV%2B5stwQjDdQD9RyhUmzT4jZ2In4zL"
+      },
+      {
+        "nombre": "ANEXO VIII INTEGRACION SOLVENCIA MEDIOS EXTERNOS.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=JyTAWjou01wDq350AN/G/P2Dvp9bgfWQuC3QJ1EQKAoz/XKp0pADWzbte/byLeSxZ7f4gmI18wAJuppWB2Gs0Ri6FppY4S8SxDdjZkDrGGCCx2e6p7hqtlp2aFupgHMr"
+      },
+      {
+        "nombre": "RESOLUCION APROBACION DEL EXPEDIENTE.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YbG79OApw3cBVmKQqiaqB3zEforPD9tU7YTsJ/kGJUFJVjh%2BO4NWiziOKsJIpZcUjP/kojdAGi26b8aVEb1Cu9MVMr9J1WL%2BP/Rgfg%2BHN4oZyAJWGsSt0OzTSTyw9JAs"
       }
     ],
     "organo": "Alcaldia del Ayuntamiento de Rus",

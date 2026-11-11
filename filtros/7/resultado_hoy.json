@@ -1,80 +1,113 @@
 [
   {
-    "folder_id": "C46-26",
+    "folder_id": "307/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Contratación del Servicio de \"Redacción de redacción del Proyecto constructivo y dirección de las obras de sustitución del Gasómetro y adecuación y legalización de la línea de biogás de la EDAR Manilva\"",
-    "updated": "2026-11-10T13:54:09.406+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ctfjY7vTsXNeKgd8LfVV9g%3D%3D",
+    "titulo": "Servicios para la redacción de proyecto, dirección de obras y coordinación de seguridad y salud para la ejecución de la obra del colector de saneamiento en el tramo río de los horcajos y tramo río alfaguara",
+    "updated": "2026-11-10T08:39:33.298+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=8Rdxt62sHSIzjChw4z%2FXvw%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "71000000",
-      "71240000",
-      "71520000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YDz7PhOijrSV0f7C7pE8fbz3Xqj5dWPh4f7aZSesPabyYDTxnGTjXHXJIWU5NKgHVtSS%2BO0jnEzYAHFVMuqbqRcuLp%2BlspMIm%2BFdbNudImGHAj0WEJrB5sP7amrh2jBD",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=EQgBSxdUYG9O3zRdsJw0guTr1gOqmdQS8cmKrCj8gCCw2/OydZBHrCpk%2BEN6E4bWUAvX9AHq271IeaSZzPj3i24IJ6lr00MGSUROF3FiOyQZyAJWGsSt0OzTSTyw9JAs",
-    "docs_adicionales": [
-      {
-        "nombre": "ANEXOS ABIERTOS PCAP C46-26.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=i7OvX/CqJUlMlSDgYkYVIFxBW2OzWB7Xz0wDETY0Xpaf0LIBdrG%2BcZYGu8pp2SUWVepGJGJgqWkXAzPouyOIVfY5B9bIgCiHvX%2B7Uga3kZiCx2e6p7hqtlp2aFupgHMr"
-      }
-    ],
-    "organo": "Consejería delegada de ACOSOL, S.A.U.",
-    "importe": "75000",
-    "importe_num": 75000.0,
-    "fecha_limite": "2026-12-01",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "1",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "825/2026",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Servicio de redacción de proyectos, estudios de seguridad y salud, dirección técnica de obras y coordinación de seguridad y salud para el \r\nAyuntamiento de Chimeneas.",
-    "updated": "2026-11-10T10:26:08.755+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7MRSUa3sJhHL1rX3q%2FMAPA%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71242000",
-      "71520000",
-      "71317210",
-      "71242000",
-      "71520000",
-      "71317210",
-      "71242000",
-      "71317210",
-      "71520000",
-      "71242000",
-      "71520000",
-      "71317210",
-      "71242000",
-      "71520000",
+      "71322000",
+      "71521000",
       "71317210"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=mUcGUiJ/2vInSHHq/EL5PSC5AQRCCSpWmHNWvO3eTsbQstYRg2OpWBpfqiPy3e7%2BYC6/kOPhiZV2rKb3cu9N5Ht74SPIEPbphv7MOAF2tS97QB3HKyQaFUExmUVQCerk",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=NpZYHmSGcvL8oFJu10p/jtgV7TGubKeNch14eb3ELUNV0I3RFYB56MmXWbTgp%2BnXDp2cYywx7WSS6YUeYKViBaUmwCDdli3ebwqP0J60MrK1aXEvq3KHa/AEHgtDrQw0",
-    "docs_adicionales": [
-      {
-        "nombre": "INF DTE REDAC PROYECTOS CHIMENEAS.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=7MP9c2AJkOpRG5ZDazvnPveNpuV9Jv6aHutE/1H5qRhzwSXLucbPp5tPBJmr6I%2BhvO1z9W63YVuGeDAbnw5bEqZuO0e2MUJK/XpGTOW3BR97QB3HKyQaFUExmUVQCerk"
-      }
-    ],
-    "organo": "Alcaldía del Ayuntamiento de Chimeneas",
-    "importe": "73333.11",
-    "importe_num": 73333.11,
-    "fecha_limite": "2026-11-25",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0%2BmxyVs0t70JXfVZF%2BVq0p3cW%2Bn8dAHaNISf41rk7NkF7mNqoaN1hgQNQDdJNKLv9GnCZKNFtQaNU/UQL/SF9KlsU8NePxXIUVrm871L1UT6CYyL7SIrUOBFfNf52ZqA",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=8ACl%2BdPqAFvselg1yNlVd14OFKV30AZN8Xtg7SPuISMEZeV4P4YX4rJ%2BM3MdUaYPbc2cUjraOxSS/3fHAU0JhAwWqLudfYTcOZQH00P2b6k//q7NB2iMZvNyf0xrJmjt",
+    "docs_adicionales": [],
+    "organo": "Alcaldía del Ayuntamiento de Tolox",
+    "importe": "49586.78",
+    "importe_num": 49586.78,
+    "fecha_limite": "2026-11-30",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles"
+  },
+  {
+    "folder_id": "CONTR 2026 0000316580",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Direcion Facultativa para la obra de reforma O.E. Villanueva de Córdoba",
+    "updated": "2026-11-10T18:41:28.502+01:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1037031",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000"
+    ],
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/442508",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/442507",
+    "docs_adicionales": [
+      {
+        "nombre": "Memoria justificativa de la contratación.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/442513"
+      }
+    ],
+    "organo": "Dirección Provincial del Servicio Andaluz de Empleo de Córdoba",
+    "importe": "15647.71",
+    "importe_num": 18777.25,
+    "fecha_limite": "2026-11-25",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "999",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas",
+    "descripcion": "Servicio de Direcion Facultativa para la obra de reforma O.E. Villanueva de Córdoba",
+    "junta_consultado": "2026-11-11"
+  },
+  {
+    "folder_id": "CONTR 2026 0000358656",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de reconocimiento e inspección del suministro de un tercer buque",
+    "updated": "2026-11-10T13:42:17.287+01:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1036888",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71310000",
+      "71300000"
+    ],
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/442296",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/442295",
+    "docs_adicionales": [
+      {
+        "nombre": "Informe del servicio jurídico sobre el PCAP.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/442351"
+      },
+      {
+        "nombre": "Informe de insuficiencia de medios.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/442300"
+      },
+      {
+        "nombre": "Propuesta de iniciación del expediente de contratación.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/442301"
+      },
+      {
+        "nombre": "Acuerdo de iniciación del expediente de contratación por el órgano de contratación.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/442302"
+      },
+      {
+        "nombre": "MEMORIA JUSTIFICATIVA FINAL.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/442304"
+      }
+    ],
+    "organo": "Consorcio de Transportes de la Bahía de Cádiz",
+    "importe": "59950.00",
+    "importe_num": 59950.0,
+    "fecha_limite": "2026-11-26",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas",
+    "descripcion": "Contrato de servicios para reconocimiento e inspección del suministro de un tercer buque tipo catamarán, con destino al servicio de transporte marítimo regular de pasajeros perteneciente al Consorcio Metropolitano de Transportes Bahía de Cádiz.",
+    "junta_consultado": "2026-11-11"
   }
 ]
