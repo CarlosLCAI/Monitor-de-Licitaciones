@@ -298,7 +298,7 @@
   },
   {
     "folder_id": "300/2026/02200",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Contrato de servicios de redacción de estudios técnicos para la mejora del comportamiento energético de centros educativos adscritos o dependientes del Distrito de Centro",
     "updated": "2026-10-15T15:09:43.289+02:00",
@@ -323,7 +323,10 @@
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-15"
+    "fecha_captura": "2026-10-15",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-12",
+    "estado_updated": "2026-11-11T14:51:43.944+01:00"
   },
   {
     "folder_id": "LGN_2026_CS_02",

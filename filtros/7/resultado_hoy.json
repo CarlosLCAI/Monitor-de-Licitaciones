@@ -1,25 +1,27 @@
 [
   {
-    "folder_id": "307/2026",
+    "folder_id": "1257/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicios para la redacción de proyecto, dirección de obras y coordinación de seguridad y salud para la ejecución de la obra del colector de saneamiento en el tramo río de los horcajos y tramo río alfaguara",
-    "updated": "2026-11-10T08:39:33.298+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=8Rdxt62sHSIzjChw4z%2FXvw%3D%3D",
+    "titulo": "Asistencia técnica para la redacción del proyecto de estabilización de talud en roca, dirección facultativa de las obras y coordinación de seguridad y salud",
+    "updated": "2026-11-11T14:27:35.798+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Zp0d2qM4zk0adbH3CysQuQ%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "71322000",
-      "71521000",
-      "71317210"
+      "71240000",
+      "71500000",
+      "71247000",
+      "71317210",
+      "71200000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0%2BmxyVs0t70JXfVZF%2BVq0p3cW%2Bn8dAHaNISf41rk7NkF7mNqoaN1hgQNQDdJNKLv9GnCZKNFtQaNU/UQL/SF9KlsU8NePxXIUVrm871L1UT6CYyL7SIrUOBFfNf52ZqA",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=8ACl%2BdPqAFvselg1yNlVd14OFKV30AZN8Xtg7SPuISMEZeV4P4YX4rJ%2BM3MdUaYPbc2cUjraOxSS/3fHAU0JhAwWqLudfYTcOZQH00P2b6k//q7NB2iMZvNyf0xrJmjt",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=j7JLZZPS4JmSxfbDcI2xKu4gwioCL0k6PL506fa8Yp97z3UxOkoAn4ai%2BRDhikI2rSx9zJpP7pdyqkCYIo1LNItytGYoWyw6zv8YWVlieOyCx2e6p7hqtlp2aFupgHMr",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CAI6Ufe7NPY3HelkQ2blyh25Hm39ifBlD3pnoN4S35OfzO%2BkGSBMeUBzSn3wMl/mflsitAFKUogY7qPU1flKEPFD/fSZ0Mn1/wZ1i4%2BYdLx7QB3HKyQaFUExmUVQCerk",
     "docs_adicionales": [],
-    "organo": "Alcaldía del Ayuntamiento de Tolox",
-    "importe": "49586.78",
-    "importe_num": 49586.78,
-    "fecha_limite": "2026-11-30",
+    "organo": "Alcaldía del Ayuntamiento de Cogollos de la Vega",
+    "importe": "50359.53",
+    "importe_num": 50359.53,
+    "fecha_limite": "2026-12-10",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -28,86 +30,163 @@
     "fuente": "perfiles"
   },
   {
-    "folder_id": "CONTR 2026 0000316580",
+    "folder_id": "1870/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Direcion Facultativa para la obra de reforma O.E. Villanueva de Córdoba",
-    "updated": "2026-11-10T18:41:28.502+01:00",
-    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1037031",
+    "titulo": "Servicio integral de soporte técnico, jurídico, económico, documental y administrativo especializado para asegurar la correcta planificación, licitación, ejecución, seguimiento, publicidad, justificación y cierre de las actuaciones financiadas al amparo del artículo 7 del Real Decreto-ley 5/2026, de 17 de febrero.",
+    "updated": "2026-11-11T13:47:40.062+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hgxzFyuRhtTgL1BHd3qjQA%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "71000000"
-    ],
-    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/442508",
-    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/442507",
-    "docs_adicionales": [
-      {
-        "nombre": "Memoria justificativa de la contratación.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/442513"
-      }
-    ],
-    "organo": "Dirección Provincial del Servicio Andaluz de Empleo de Córdoba",
-    "importe": "15647.71",
-    "importe_num": 18777.25,
-    "fecha_limite": "2026-11-25",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "999",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "agregadas",
-    "descripcion": "Servicio de Direcion Facultativa para la obra de reforma O.E. Villanueva de Córdoba",
-    "junta_consultado": "2026-11-11"
-  },
-  {
-    "folder_id": "CONTR 2026 0000358656",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Servicio de reconocimiento e inspección del suministro de un tercer buque",
-    "updated": "2026-11-10T13:42:17.287+01:00",
-    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1036888",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
+      "71356200",
       "71310000",
-      "71300000"
+      "72512000",
+      "71317210",
+      "75130000",
+      "79341000",
+      "71242000",
+      "71520000",
+      "79421000"
     ],
-    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/442296",
-    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/442295",
-    "docs_adicionales": [
-      {
-        "nombre": "Informe del servicio jurídico sobre el PCAP.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/442351"
-      },
-      {
-        "nombre": "Informe de insuficiencia de medios.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/442300"
-      },
-      {
-        "nombre": "Propuesta de iniciación del expediente de contratación.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/442301"
-      },
-      {
-        "nombre": "Acuerdo de iniciación del expediente de contratación por el órgano de contratación.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/442302"
-      },
-      {
-        "nombre": "MEMORIA JUSTIFICATIVA FINAL.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/442304"
-      }
-    ],
-    "organo": "Consorcio de Transportes de la Bahía de Cádiz",
-    "importe": "59950.00",
-    "importe_num": 59950.0,
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=DjPw73wMgJuAAq9Za%2BzFly9RXjGrcFoLfPxzOqIW2TUS7qXBDSH9JO/bXdyjwkrXPU9jvvRJjI3j9JsUW7Ha17HxhScmXYnv05tRBpbX%2B1vfdyQgZAdTm3EfcUAC7CJ6",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ZgC07Dv2mi6CKPO9tGmPdryjtbmsZOl0e%2B3AryaaIRe70qE2aQchzgzpN6HbHhFs1NVCPa8120ej7XQsXNPdl2TH0v1dwqtiIkJOSZtkbA/VTD3T98KC0nSgQFM0q%2B5s",
+    "docs_adicionales": [],
+    "organo": "Alcaldía del Ayuntamiento de Dílar",
+    "importe": "98902.48",
+    "importe_num": 98902.48,
     "fecha_limite": "2026-11-26",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
-    "fuente": "agregadas",
-    "descripcion": "Contrato de servicios para reconocimiento e inspección del suministro de un tercer buque tipo catamarán, con destino al servicio de transporte marítimo regular de pasajeros perteneciente al Consorcio Metropolitano de Transportes Bahía de Cádiz.",
-    "junta_consultado": "2026-11-11"
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "2026/D31000/006-302/00010",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Mantenimiento, Monitorización Y Sustitución De Piezas Deterioradas De Las Plantas Fotovoltaicas Existentes En Los Municipios Incluidos En El Plan Dus5000 De La Provincia De Almería 42SER2026",
+    "updated": "2026-11-11T11:48:07.141+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xOhW5v05bSnyoM4us5k4vw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71300000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=dLFQwBZ5taWoW0yPQLW/LQTopUAezrqMTF8kBrxTcAak7Foje6lQKsMjJjgMKt/OLgJofCKF2WZzyNiesMK7X63tgudsOoiArezRVlBBdCMZyAJWGsSt0OzTSTyw9JAs",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=tV8EqOuEkAO%2BHwFeXsVqVqFsl5yuKuEBKNcCIntwX3Z8tAzP3M59R6gzcK4SlxvveTMXfgRJJH3WGrUJ5hleA2DshsOpPUCuwW99WpN7JRsZyAJWGsSt0OzTSTyw9JAs",
+    "docs_adicionales": [
+      {
+        "nombre": "Deuc.zip",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=85UW0lZ%2BmCoZQ7IPOoefBirTuwdUYsAvemlWF38m%2BWVDsNk4MuW4ZOo7R0cx1nGKFPCojfrH8yCr6swdIvhmF0z9buDp2ieJwJmSO/OlB5k//q7NB2iMZvNyf0xrJmjt"
+      },
+      {
+        "nombre": "MemoriaJustificativa.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=kQbTWvUhsDIVm5OV1o057K0KMJ4rZACzT4Nql6USzt/61me4nSCDb9U%2BHarjAezHVG59UiafaxE4TMs0gTDpDlFn%2B3f6IH5eY9PY0ip8h%2B%2BB0nvVKRzfe4rpHcnlPhSZ"
+      }
+    ],
+    "organo": "Junta de Gobierno de la Diputación Provincial de Almería",
+    "importe": "636363.6",
+    "importe_num": 636363.6,
+    "fecha_limite": "2026-12-10",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "28/O/A/AL26",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Redac. proy. const., ejecuc. obras nueva línea alta tensión 66 kv y una subestación gis 66/20 kv (20 MVA) zona pesquera Pto. Almería, realización servic. manten. serv. mant. subestac. - redac. MEIPOR",
+    "updated": "2026-11-11T09:59:27.182+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=bb9MMNbFFdm8ebB%2FXTwy0A%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "45232220",
+      "50532400",
+      "71310000",
+      "45315400",
+      "31682540",
+      "45311000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ef%2BkQIKNUjMIKrYXiyBmrT4m5q3LbvT9jn7ISr4ZBekSjxBELxDVTKJUeM60GWvsZlTH08hVJ7Kc0/mIhpDN5XOd4nvdY/peElnDHMQwW%2Ba1aXEvq3KHa/AEHgtDrQw0",
+    "ppt_url": null,
+    "docs_adicionales": [
+      {
+        "nombre": "InfJust.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=h%2B3dBvEIln45Gnk2SJglNcvmfLoJVpaSNdt6lXVs9igxwBAGuEbtNdQiZfQxN85cnecSXJxbz4ky4gtQ56VHSI1f24opPx9ff2yXKHOAO6SB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "OrdCont.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4ktsuOwZBOA7XSiocCPUDMTUlrCarxkjUNAIEamNMQEtKSAmjAhWHyDUlDjcD8IoSMHMqc7De3FfRnrg44DaHIujYrPwyunzfVDY3bU1ccgC1/zDIE0Kw/PWNnLS0Z0z"
+      },
+      {
+        "nombre": "MesCont.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iZDK9tP6AdG0y2i8CEprIr50K3QZVbHVb1u5zIY/LSpeHDrd%2BylJkHM8iL6hDw/DJ8T%2BwUPTdWimSVcB9MIZv6UE1oeBbNx%2BJXERZVlKf2O1aXEvq3KHa/AEHgtDrQw0"
+      },
+      {
+        "nombre": "Anexos 28_O_A_AL26.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0puRMggI9avRfrSawYtLD3sSqzBz5MZUnqGerxYmodD%2BAQxzdwDH4lTIP5L8vGHDpkGjx4WHKRV64vBQ4nPaFb8X489H44wOSkXKaoeqFp8ZyAJWGsSt0OzTSTyw9JAs"
+      }
+    ],
+    "organo": "Presidencia de la Autoridad Portuaria de Almería",
+    "importe": "10529429.4",
+    "importe_num": 10529429.4,
+    "fecha_limite": "2027-01-19",
+    "tipo_contrato": "3",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "B30262326005",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "30.977/26 RE-J-26005 Mejora  para  la  seguridad  viaria  de  la  Autovía A-4. Reducción de la accidentalidad y siniestralidad entre P.K. 256 y P.K. 293. Tramo: Límite exterior del P.N. Despeñaperros - Bailén. Provincia de Jaén. ",
+    "updated": "2026-11-11T09:36:13.725+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=sIrPgm6G6WQ7%2B9FIQYNjeQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71311000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=%2Bi2Xw/s85XbMnYuorJN60ZZfGPoX1Tnkakr5Hbp6hZNawUgqG/SPDNrJMr30V3wyAoBghJZ9up6bujxCVsyn0YPuFhpOftJlNL34cgi1DvCB0nvVKRzfe4rpHcnlPhSZ",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=LGAqDtnOwujlxjdcc5MyLC5T1mFnRBljXexrAHGFNu8UHciTxRE4sgLRrm1KXEoX0nm7TbxiXmIwt60Ta7qlIii8PVGk0r4j3oyZpZYkgT7VTD3T98KC0nSgQFM0q%2B5s",
+    "docs_adicionales": [
+      {
+        "nombre": "RE-J-26005.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=WgZ7Fa0wWg7vYAhlMA%2BtuNfY6pM%2Bnj7IQXtmLr65qiVs8vt2o3mlCYUFccmoBQdu13sLXxfX6tUfWJ4G4p/TIW%2Bz42hT9dhT7YvHt/X0q0t45ClyWkoJ44mKM70IFcOu"
+      },
+      {
+        "nombre": "Instrucciones DEUC.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=nLhtQELsgwYmBAaXLCeQe8nRiSXKWDh5ydslSaESN9JtzY80t0oE0XlWETiJcY/gVhCfRFRuxkcwmRaPgJcTJRwwnwhKLYF/Nxk1PlSK7xL6CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "RE-J-26005_ANT_ADM_VAR_VAR_PROGRAMA TRABAJOS.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iZDK9tP6AdG0y2i8CEprIjU6VaI2eVSn1ObeT9lv6KQqBXqIfG24pd40d7AgarF4FpiCiHxFAIyswEnJVS1hT7QP0b/lHedSXG0jyRoyBxf6CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "RE-J-26005.xml",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Lkk/pyqfOiiYDmmkWfSo8PZ9Z2qZUiwqodZ0P1NDv/iPiCWBG4uB%2ByL334DiGN5k2HF8NHTOadUaJVG7at%2BCIUoZCTvDtJbLBob/T/pA%2BbvVTD3T98KC0nSgQFM0q%2B5s"
+      }
+    ],
+    "organo": "Dirección General de Carreteras",
+    "importe": "1881463.4",
+    "importe_num": 1881463.4,
+    "fecha_limite": "2027-01-12",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
   }
 ]

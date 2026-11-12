@@ -1,69 +1,187 @@
 [
   {
-    "folder_id": "90/2026",
+    "folder_id": "6775/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicio de poda y tratamiento de plagas de árboles en el término municipal de Huércal de Almería",
-    "updated": "2026-11-10T14:06:31.994+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=N0zFv2fd37036J9Lctlsuw%3D%3D",
+    "titulo": "Servicio de instalación, mantenimiento, asistencia técnica y desmontaje del alumbrado ornamental y de las instalaciones eléctricas temporales para las festividades del municipio de Alhendín",
+    "updated": "2026-11-11T18:27:13.960+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=k4xlgEiTlI0IYE3ZiZ%2BxmQ%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "77341000",
-      "77231500",
-      "90922000",
-      "77231200",
-      "77211500",
-      "77311000",
-      "77200000"
+      "71318100",
+      "45316100"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=SLEdQSZaIdjRbvvup4MNUBmRWLzH%2BcOhkM6yNKtiyd/cXL5kChaWjHsF%2BJg1h9uVRd651gF0CaBBVgfYnsVKpMFDmr/p%2BGLsgFZSsU/7D%2B7VTD3T98KC0nSgQFM0q%2B5s",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=uZtpO08Q%2B6fI8GBrAaRg/mYUMYmBDzz1SuB2R%2Byp/LklYptH5pbUhasjwxaL8/R/64XwqDV32k3UikY8IhTHxLdQ5Ue5qw3Gm2AMhGKFiV0ZyAJWGsSt0OzTSTyw9JAs",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=NGZm%2Bx0Cer6pckN9uZnOCdppHlswnhfhhmnUcSGwKACB8%2B7hAoKMI10psI1fLoiGqHysMzo%2B2gaEVTFwS/JehtzNdBmoMcWZdDVOywiA7MiHAj0WEJrB5sP7amrh2jBD",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ywx2dD84Kz%2BRNktqmTmmzPJuML5AW95OfK4Owy0R%2B6MU8iHU87NCRKC4QDTZiJ8TMF75GrkOroIRwBLKssYfDs3UW0qp0DaGnwPrnZQEVZn6CYyL7SIrUOBFfNf52ZqA",
     "docs_adicionales": [
       {
-        "nombre": "Memoria Justificativa 90_26 Poda.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=uW%2BUINMjkWWnNi2DeVe/2nfUIWsdF/0WuWwKO2YzEYDhCKZmihPzhqG43PUaNDBkvZFRw4M4qiOJ9IKZb1tUc7UHQWwvCRPShi%2BH8HqsHa57QB3HKyQaFUExmUVQCerk"
+        "nombre": "DEUC_.xml",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=B2vli8OCFDF0p/nccWXKY5Gi3A8Kh2fT4WJbL4LcpeeogTy3v0CC5u6AJFpujKWrelN5nE3yhDXGfEvJPkFZeui%2B1wy9S5ecHqcdiTxwJdW1aXEvq3KHa/AEHgtDrQw0"
       },
       {
-        "nombre": "Certificado de acuerdo.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=b7BmOaFGAQE9UcogZaRjsQ75FHNECYb6g0SNnwOkFW3z0ujqbfvPLm62kMe/0pGq96fKOSZe%2BA9nSj9l%2BEHcpT5zdwLyxX0lbopkP14QqXMZyAJWGsSt0OzTSTyw9JAs"
+        "nombre": "DEUC.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ofVdNsozK9K0VxerjDzW5k4UgtuGjQL5D53%2B9vqhN8FnPIJm4P3TxxF4uIfRjqRc6aqWvWe64u8WSMMI9fN/MK9bWSSt2Qyxrzk7N7fh0yt7QB3HKyQaFUExmUVQCerk"
       }
     ],
-    "organo": "Junta de Gobierno Local del Ayuntamiento de Huércal de Almería",
-    "importe": "358866.75",
-    "importe_num": 613313.25,
-    "fecha_limite": "2026-12-09",
+    "organo": "Junta de Gobierno Local del Ayuntamiento de Alhendín",
+    "importe": "67020",
+    "importe_num": 134040.0,
+    "fecha_limite": "2026-11-26",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
-    "procedimiento": "1",
+    "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles"
   },
   {
-    "folder_id": "307/2026",
+    "folder_id": "2026/EA24/00003102E",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicios para la redacción de proyecto, dirección de obras y coordinación de seguridad y salud para la ejecución de la obra del colector de saneamiento en el tramo río de los horcajos y tramo río alfaguara",
-    "updated": "2026-11-10T08:39:33.298+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=8Rdxt62sHSIzjChw4z%2FXvw%3D%3D",
+    "titulo": "2204/Protección ambiental/Servicio integral de retirada, transporte y gestión de residuos peligrosos y no peligrosos en la Base Aérea de Morón",
+    "updated": "2026-11-11T14:35:51.715+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hoDpbkAbbdXL1rX3q%2FMAPA%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "71322000",
-      "71521000",
-      "71317210"
+      "90500000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0%2BmxyVs0t70JXfVZF%2BVq0p3cW%2Bn8dAHaNISf41rk7NkF7mNqoaN1hgQNQDdJNKLv9GnCZKNFtQaNU/UQL/SF9KlsU8NePxXIUVrm871L1UT6CYyL7SIrUOBFfNf52ZqA",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=8ACl%2BdPqAFvselg1yNlVd14OFKV30AZN8Xtg7SPuISMEZeV4P4YX4rJ%2BM3MdUaYPbc2cUjraOxSS/3fHAU0JhAwWqLudfYTcOZQH00P2b6k//q7NB2iMZvNyf0xrJmjt",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=psKtnRMixVHB4LOxzoJbyn87MU0IDn7T76kpeSmv12zNvDZB5G/yNrhAzWhwpYKh80BMLrziAaIti1b%2BQr57QAlbASzaIqUsOSHw/PQ4WKnDdQD9RyhUmzT4jZ2In4zL",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Z96kejSL7PtIJOPYDtVt/VomWjqu0VdXVOuEY1J9t7U9Cjv/Dkg9bmg0OXXC454H8hS3A9OnEHs5N8tHcZKMjyXSiV5hP4sYWabyluoGbP6Cx2e6p7hqtlp2aFupgHMr",
     "docs_adicionales": [],
-    "organo": "Alcaldía del Ayuntamiento de Tolox",
-    "importe": "49586.78",
-    "importe_num": 49586.78,
-    "fecha_limite": "2026-11-30",
+    "organo": "Jefatura de la Sección Económico Administrativa 24 de la Base Aérea de Morón",
+    "importe": "59615.27",
+    "importe_num": 59615.27,
+    "fecha_limite": "2026-11-18",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "1257/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Asistencia técnica para la redacción del proyecto de estabilización de talud en roca, dirección facultativa de las obras y coordinación de seguridad y salud",
+    "updated": "2026-11-11T14:27:35.798+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Zp0d2qM4zk0adbH3CysQuQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000",
+      "71500000",
+      "71247000",
+      "71317210",
+      "71200000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=j7JLZZPS4JmSxfbDcI2xKu4gwioCL0k6PL506fa8Yp97z3UxOkoAn4ai%2BRDhikI2rSx9zJpP7pdyqkCYIo1LNItytGYoWyw6zv8YWVlieOyCx2e6p7hqtlp2aFupgHMr",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CAI6Ufe7NPY3HelkQ2blyh25Hm39ifBlD3pnoN4S35OfzO%2BkGSBMeUBzSn3wMl/mflsitAFKUogY7qPU1flKEPFD/fSZ0Mn1/wZ1i4%2BYdLx7QB3HKyQaFUExmUVQCerk",
+    "docs_adicionales": [],
+    "organo": "Alcaldía del Ayuntamiento de Cogollos de la Vega",
+    "importe": "50359.53",
+    "importe_num": 50359.53,
+    "fecha_limite": "2026-12-10",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "1870/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio integral de soporte técnico, jurídico, económico, documental y administrativo especializado para asegurar la correcta planificación, licitación, ejecución, seguimiento, publicidad, justificación y cierre de las actuaciones financiadas al amparo del artículo 7 del Real Decreto-ley 5/2026, de 17 de febrero.",
+    "updated": "2026-11-11T13:47:40.062+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hgxzFyuRhtTgL1BHd3qjQA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71356200",
+      "71310000",
+      "72512000",
+      "71317210",
+      "75130000",
+      "79341000",
+      "71242000",
+      "71520000",
+      "79421000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=DjPw73wMgJuAAq9Za%2BzFly9RXjGrcFoLfPxzOqIW2TUS7qXBDSH9JO/bXdyjwkrXPU9jvvRJjI3j9JsUW7Ha17HxhScmXYnv05tRBpbX%2B1vfdyQgZAdTm3EfcUAC7CJ6",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ZgC07Dv2mi6CKPO9tGmPdryjtbmsZOl0e%2B3AryaaIRe70qE2aQchzgzpN6HbHhFs1NVCPa8120ej7XQsXNPdl2TH0v1dwqtiIkJOSZtkbA/VTD3T98KC0nSgQFM0q%2B5s",
+    "docs_adicionales": [],
+    "organo": "Alcaldía del Ayuntamiento de Dílar",
+    "importe": "98902.48",
+    "importe_num": 98902.48,
+    "fecha_limite": "2026-11-26",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "SE-15/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de recogida y gestión de lodos procedentes de las estaciones depuradoras de aguas residuales de La Hoya y Turrilla a cargo de Aguas de Lorca",
+    "updated": "2026-11-11T10:07:27.117+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=VSnHmo8JeAlPpzdqOdhuWg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "90513600",
+      "90513800",
+      "90513700"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=vVi1iv7m645XiEvxz4xcDMfTvfGsWedMKGFAbqEwnW19dI8TzRJz7G0Vq1lxcgPAjUL7U%2Boso5phWF2iEsrbmRVuHkO42WpejQg7O3MXI0lJOVDbGCDM%2BMigrvuVS7Rv",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=G7wNxEiLl8Tdvwi1XKZmpfLkUybmbLHHzjwbwUDlTWViFdXhL68DgGeJ/ljZaQ%2BhUrV5OMtiAnuccflLnHng0A19jJdevbZwG1ewYeKwY0PfdyQgZAdTm3EfcUAC7CJ6",
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXO III Compromiso confidencialidad.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=UibNZx9LrabVi7xbudBaZcoZCkVGkg8Y1Z%2BvPBrr%2BRaN5WAfGV5i25kSayOfUhHwxubAkOgG6XsbgefY8Dh6DEdxRJJPOJSRl5ePTTwoDbs//q7NB2iMZvNyf0xrJmjt"
+      },
+      {
+        "nombre": "SE-15-2026 ANEXO Oferta economica y criterios.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Cb/EEdhqWrF6N68mFQn0ubsKrf%2BHMh/HGONGA4aCwoXsC0ClgLRMEpv1/NVsmOWzrfG07rBqaIDWUOO92prsS4jaX%2BrozUJnyjG88Z7gXSb6CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "ANEXO VII Solvencia medios externos.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=SApIXx7KdsW0Y9yOMgxw4xz6FbxQkH2G8YiT/Pn2Bi07e53krT7aLb/OJR5FGRSTxxM0x6pdXX34MmRjr4X0rmPZsWZw4tjJXc6dUt5osziB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "ANEXO I Declaracion responsable formulario DEUC.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ndfs8moyg/ot%2B/ZLKJDLwMC8S7YqbqkbEC0xwJ/jWxL7PMLArLqOy1EFZbvGf9v/Is/dAHozTo5VP0oGjv7%2Bfjbfp4gj7c4IEsOHzwuYVnbfdyQgZAdTm3EfcUAC7CJ6"
+      },
+      {
+        "nombre": "ANEXO II Constitucion UTE.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Al6KekCixlUVQRMLW1%2BTkXJ00%2B2putNB3Chb5h2QknIGNuurFymlZR5gb7YMwxL/UoU3%2BOpDNMnJ4VMPkAi32Yp0Hnf3SQuCR/drRhBd90bfdyQgZAdTm3EfcUAC7CJ6"
+      },
+      {
+        "nombre": "ANEXO VI Subcontratacion trabajos.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=5yxpNiWgO3KDWjvzSppJ9Wk8zH0mWXJdn6ITtXjL2Dd5%2BDfaJrIrQ6eux38iFHppKawSPJ/DJT6lLcFxMOHzuSJ2HxDrweJWAxgK%2Bqo72Jl7QB3HKyQaFUExmUVQCerk"
+      },
+      {
+        "nombre": "ANEXO IV Prevencion practicas colusorias.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Pn6oaWHrU/GqblQcSi2WCgBXn6roqeSdP9%2Ba6gUyt9Zc0pdW76XGoROV48Yo14PRtIl%2BUq7VwBJgaAojnj6YqAJwdB9I6Cr8lkqna0CfwSzDdQD9RyhUmzT4jZ2In4zL"
+      },
+      {
+        "nombre": "ANEXO V Compromiso adscripcion obligatoria de medios.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ii6SDDx6IdkBd6g/WOvbyAmwtN7WlxYe/tbsx/EtJx%2BewV7C3JuNg4FXNv9R/5OHi0vTuhWpkOVUNvMpdKfZXcjBx7/UN%2BOKa2fdzHLJei7VTD3T98KC0nSgQFM0q%2B5s"
+      }
+    ],
+    "organo": "Dirección Gerente de Aguas de Lorca, S.A.",
+    "importe": "234888.56",
+    "importe_num": 704665.69,
+    "fecha_limite": "2026-12-18",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles"

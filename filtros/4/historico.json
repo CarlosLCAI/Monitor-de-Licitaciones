@@ -35,7 +35,7 @@
   },
   {
     "folder_id": "2026/CMY_03/000084U",
-    "estado": "EV",
+    "estado": "ADJ",
     "titulo": "Coordinación de Seguridad y Salud y Gestión de la prevención de la conservación de la Red Provincial de Carreteras y Caminos de la Diputación Provincial de Huelva.",
     "updated": "2026-07-23T12:56:26.067+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=p1YaPdXoLs%2F%2Fa9DgO%2BoYKQ%3D%3D",
@@ -60,10 +60,10 @@
       "fecha_analisis": "2026-07-24T05:59:25.106196+00:00"
     },
     "fecha_captura": "2026-07-24",
-    "estado_anterior": "PUB",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-02",
-    "estado_updated": "2026-09-29T13:19:28.415+02:00"
+    "estado_anterior": "EV",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-11-12",
+    "estado_updated": "2026-11-11T19:45:37.146+01:00"
   },
   {
     "folder_id": "2026/D31000/006-302/00002",
@@ -202,7 +202,7 @@
   },
   {
     "folder_id": "esDONES/260/2026",
-    "estado": "EV",
+    "estado": "ADJ",
     "titulo": "Contratación de servicios de consultoría y soporte en cálculos neutrónicos mediante simulaciones Monte Carlo en el proyecto IFMIF-DONES",
     "updated": "2026-07-27T13:18:46.201+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KCK3iB8oZn1eKgd8LfVV9g%3D%3D",
@@ -229,10 +229,10 @@
       "fecha_analisis": "2026-07-29T06:12:08.349758+00:00"
     },
     "fecha_captura": "2026-07-29",
-    "estado_anterior": "PUB",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-14",
-    "estado_updated": "2026-10-13T20:31:47.589+02:00"
+    "estado_anterior": "EV",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-11-12",
+    "estado_updated": "2026-11-11T13:37:39.195+01:00"
   },
   {
     "folder_id": "2026/D31000/006-302/00007",
@@ -726,7 +726,7 @@
     "organo": "Dirección Provincial del Servicio Público de Empleo Estatal en Almería",
     "importe": "156030.58",
     "importe_num": 156030.58,
-    "fecha_limite": "2026-09-16",
+    "fecha_limite": "2026-10-19",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -738,7 +738,7 @@
     },
     "fecha_captura": "2026-08-15",
     "resultado": null,
-    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
+    "estado_updated": "2026-11-11T14:05:51.512+01:00",
     "docs_adicionales": [
       {
         "nombre": "Declaracionresponsable.doc",
@@ -748,7 +748,9 @@
         "nombre": "Proposicioneconomica.doc",
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=aeCf%2BO7Ph3JVc8u9bOZgEMERRCBuqUWOrgCpEInRkPxMpVZJxtld3CyLEQxclHjqB7xDHTDZBYUAXu1vNSJFgn303Xljh%2BqyEP/Rvdph0ebfdyQgZAdTm3EfcUAC7CJ6"
       }
-    ]
+    ],
+    "fecha_limite_anterior": "2026-09-16",
+    "fecha_limite_cambiada_el": "2026-11-12"
   },
   {
     "folder_id": "6491/2026",
@@ -1305,7 +1307,7 @@
   },
   {
     "folder_id": "B30261826002",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "30.805/26; RE-GR-26002 Redacción de proyecto de trazado y construcción. Mejora de la funcionalidad y de la seguridad viaria del enlace de la autovía de circunvalación GR-30, con las avenidas Fernando de los Ríos y San Rafael. Provincia de Granada.",
     "updated": "2026-08-26T10:23:54.116+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=nxmJvJl98Yd%2BF6L2uCfUWg%3D%3D",
@@ -1329,7 +1331,29 @@
       "informe": "Error al generar el informe con IA: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages",
       "fecha_analisis": "2026-08-27T14:06:40.047278+00:00"
     },
-    "fecha_captura": "2026-08-27"
+    "fecha_captura": "2026-08-27",
+    "docs_adicionales": [
+      {
+        "nombre": "RE-GR-26002.xml",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CaiB1y8LFRk4LuJsMXuF3DZaauyHfDYRBQZEunVQI2yz0s3hbCC2TihaCNrmMgNHgtO2P4jJnyWNIXkrfnco26VqmREy84q6eYbekcyPDIN45ClyWkoJ44mKM70IFcOu"
+      },
+      {
+        "nombre": "RE-GR-26002.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=jnqd81/mVQXhnGN3JO00pg%2BpdCUjBynsAVnwjy7MgkLH/Uf2YhYv5RDCWmPH9dvfJM7YjeYsmVHYGAvuC9j%2BnlABQ/3W6XSymqMT4OjC/3Ft/o8fNevwsujgRzaBbugn"
+      },
+      {
+        "nombre": "RE-GR-26002_PRO_RES_VAR_PRG_CRONOGRAMA RE-GR-26002 V2 20260623-vi.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=z2SInEyliC5YFqpl151jRqJNiS7agiLqYent7m82ygXNoxQ4/IoVrJAMzpHafh4BDpJzWE84sJrSyVpzgsWNqEB/4XhkWMgyv8UO2Co3XYr6CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "Instrucciones DEUC.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=lDf9KhurPS6rDY5lz2looL77hbiGH0VZE%2Bt3Q6xdGrUKaa5InQ0oslr67ZeLpmE8sXbxGxZB9qEM3zaUptsLg1zJVm9LqhW6Cmh/nYrJWD2B0nvVKRzfe4rpHcnlPhSZ"
+      }
+    ],
+    "estado_anterior": "PUB",
+    "resultado": null,
+    "estado_cambiado_el": "2026-11-12",
+    "estado_updated": "2026-11-11T10:22:38.446+01:00"
   },
   {
     "folder_id": "C30268032278",
@@ -5835,14 +5859,17 @@
     "organo": "Autoridad Portuaria de Sevilla",
     "importe": "131650",
     "importe_num": 131650,
-    "fecha_limite": "2026-11-16",
+    "fecha_limite": "2026-11-23",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-10-27"
+    "fecha_captura": "2026-10-27",
+    "fecha_limite_anterior": "2026-11-16",
+    "fecha_limite_cambiada_el": "2026-11-12",
+    "estado_updated": "2026-11-11T09:01:40.827+01:00"
   },
   {
     "folder_id": "P4106100C-2026/000111-PEAS",
@@ -8453,5 +8480,151 @@
     "descripcion": "El objeto de este contrato es asegurar la calidad y difusión del DATO CARTOGRÁFICO URBANO A ESCALA 1:1.000.",
     "junta_consultado": "2026-11-11",
     "fecha_captura": "2026-11-11"
+  },
+  {
+    "folder_id": "1257/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Asistencia técnica para la redacción del proyecto de estabilización de talud en roca, dirección facultativa de las obras y coordinación de seguridad y salud",
+    "updated": "2026-11-11T14:27:35.798+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Zp0d2qM4zk0adbH3CysQuQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000",
+      "71500000",
+      "71247000",
+      "71317210",
+      "71200000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=j7JLZZPS4JmSxfbDcI2xKu4gwioCL0k6PL506fa8Yp97z3UxOkoAn4ai%2BRDhikI2rSx9zJpP7pdyqkCYIo1LNItytGYoWyw6zv8YWVlieOyCx2e6p7hqtlp2aFupgHMr",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CAI6Ufe7NPY3HelkQ2blyh25Hm39ifBlD3pnoN4S35OfzO%2BkGSBMeUBzSn3wMl/mflsitAFKUogY7qPU1flKEPFD/fSZ0Mn1/wZ1i4%2BYdLx7QB3HKyQaFUExmUVQCerk",
+    "docs_adicionales": [],
+    "organo": "Alcaldía del Ayuntamiento de Cogollos de la Vega",
+    "importe": "50359.53",
+    "importe_num": 50359.53,
+    "fecha_limite": "2026-12-10",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-12"
+  },
+  {
+    "folder_id": "1870/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio integral de soporte técnico, jurídico, económico, documental y administrativo especializado para asegurar la correcta planificación, licitación, ejecución, seguimiento, publicidad, justificación y cierre de las actuaciones financiadas al amparo del artículo 7 del Real Decreto-ley 5/2026, de 17 de febrero.",
+    "updated": "2026-11-11T13:47:40.062+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hgxzFyuRhtTgL1BHd3qjQA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71356200",
+      "71310000",
+      "72512000",
+      "71317210",
+      "75130000",
+      "79341000",
+      "71242000",
+      "71520000",
+      "79421000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=DjPw73wMgJuAAq9Za%2BzFly9RXjGrcFoLfPxzOqIW2TUS7qXBDSH9JO/bXdyjwkrXPU9jvvRJjI3j9JsUW7Ha17HxhScmXYnv05tRBpbX%2B1vfdyQgZAdTm3EfcUAC7CJ6",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ZgC07Dv2mi6CKPO9tGmPdryjtbmsZOl0e%2B3AryaaIRe70qE2aQchzgzpN6HbHhFs1NVCPa8120ej7XQsXNPdl2TH0v1dwqtiIkJOSZtkbA/VTD3T98KC0nSgQFM0q%2B5s",
+    "docs_adicionales": [],
+    "organo": "Alcaldía del Ayuntamiento de Dílar",
+    "importe": "98902.48",
+    "importe_num": 98902.48,
+    "fecha_limite": "2026-11-26",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-12"
+  },
+  {
+    "folder_id": "2026/D31000/006-302/00010",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Mantenimiento, Monitorización Y Sustitución De Piezas Deterioradas De Las Plantas Fotovoltaicas Existentes En Los Municipios Incluidos En El Plan Dus5000 De La Provincia De Almería 42SER2026",
+    "updated": "2026-11-11T11:48:07.141+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=xOhW5v05bSnyoM4us5k4vw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71300000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=dLFQwBZ5taWoW0yPQLW/LQTopUAezrqMTF8kBrxTcAak7Foje6lQKsMjJjgMKt/OLgJofCKF2WZzyNiesMK7X63tgudsOoiArezRVlBBdCMZyAJWGsSt0OzTSTyw9JAs",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=tV8EqOuEkAO%2BHwFeXsVqVqFsl5yuKuEBKNcCIntwX3Z8tAzP3M59R6gzcK4SlxvveTMXfgRJJH3WGrUJ5hleA2DshsOpPUCuwW99WpN7JRsZyAJWGsSt0OzTSTyw9JAs",
+    "docs_adicionales": [
+      {
+        "nombre": "Deuc.zip",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=85UW0lZ%2BmCoZQ7IPOoefBirTuwdUYsAvemlWF38m%2BWVDsNk4MuW4ZOo7R0cx1nGKFPCojfrH8yCr6swdIvhmF0z9buDp2ieJwJmSO/OlB5k//q7NB2iMZvNyf0xrJmjt"
+      },
+      {
+        "nombre": "MemoriaJustificativa.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=kQbTWvUhsDIVm5OV1o057K0KMJ4rZACzT4Nql6USzt/61me4nSCDb9U%2BHarjAezHVG59UiafaxE4TMs0gTDpDlFn%2B3f6IH5eY9PY0ip8h%2B%2BB0nvVKRzfe4rpHcnlPhSZ"
+      }
+    ],
+    "organo": "Junta de Gobierno de la Diputación Provincial de Almería",
+    "importe": "636363.6",
+    "importe_num": 636363.6,
+    "fecha_limite": "2026-12-10",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-12"
+  },
+  {
+    "folder_id": "B30262326005",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "30.977/26 RE-J-26005 Mejora  para  la  seguridad  viaria  de  la  Autovía A-4. Reducción de la accidentalidad y siniestralidad entre P.K. 256 y P.K. 293. Tramo: Límite exterior del P.N. Despeñaperros - Bailén. Provincia de Jaén. ",
+    "updated": "2026-11-11T09:36:13.725+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=sIrPgm6G6WQ7%2B9FIQYNjeQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71311000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=%2Bi2Xw/s85XbMnYuorJN60ZZfGPoX1Tnkakr5Hbp6hZNawUgqG/SPDNrJMr30V3wyAoBghJZ9up6bujxCVsyn0YPuFhpOftJlNL34cgi1DvCB0nvVKRzfe4rpHcnlPhSZ",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=LGAqDtnOwujlxjdcc5MyLC5T1mFnRBljXexrAHGFNu8UHciTxRE4sgLRrm1KXEoX0nm7TbxiXmIwt60Ta7qlIii8PVGk0r4j3oyZpZYkgT7VTD3T98KC0nSgQFM0q%2B5s",
+    "docs_adicionales": [
+      {
+        "nombre": "RE-J-26005.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=WgZ7Fa0wWg7vYAhlMA%2BtuNfY6pM%2Bnj7IQXtmLr65qiVs8vt2o3mlCYUFccmoBQdu13sLXxfX6tUfWJ4G4p/TIW%2Bz42hT9dhT7YvHt/X0q0t45ClyWkoJ44mKM70IFcOu"
+      },
+      {
+        "nombre": "Instrucciones DEUC.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=nLhtQELsgwYmBAaXLCeQe8nRiSXKWDh5ydslSaESN9JtzY80t0oE0XlWETiJcY/gVhCfRFRuxkcwmRaPgJcTJRwwnwhKLYF/Nxk1PlSK7xL6CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "RE-J-26005_ANT_ADM_VAR_VAR_PROGRAMA TRABAJOS.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iZDK9tP6AdG0y2i8CEprIjU6VaI2eVSn1ObeT9lv6KQqBXqIfG24pd40d7AgarF4FpiCiHxFAIyswEnJVS1hT7QP0b/lHedSXG0jyRoyBxf6CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "RE-J-26005.xml",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Lkk/pyqfOiiYDmmkWfSo8PZ9Z2qZUiwqodZ0P1NDv/iPiCWBG4uB%2ByL334DiGN5k2HF8NHTOadUaJVG7at%2BCIUoZCTvDtJbLBob/T/pA%2BbvVTD3T98KC0nSgQFM0q%2B5s"
+      }
+    ],
+    "organo": "Dirección General de Carreteras",
+    "importe": "1881463.4",
+    "importe_num": 1881463.4,
+    "fecha_limite": "2027-01-12",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-12"
   }
 ]

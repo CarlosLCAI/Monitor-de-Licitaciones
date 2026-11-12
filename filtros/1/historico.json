@@ -1,7 +1,7 @@
 [
   {
     "folder_id": "esDONES/260/2026",
-    "estado": "EV",
+    "estado": "ADJ",
     "titulo": "Contratación de servicios de consultoría y soporte en cálculos neutrónicos mediante simulaciones Monte Carlo en el proyecto IFMIF-DONES",
     "updated": "2026-07-08T12:22:04.453+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KCK3iB8oZn1eKgd8LfVV9g%3D%3D",
@@ -17,13 +17,13 @@
     "organo": "Consorcio IFMIF-DONES España",
     "importe": "0",
     "fecha_captura": "2026-07-10",
-    "estado_anterior": "PUB",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-14",
+    "estado_anterior": "EV",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-11-12",
     "fecha_limite_anterior": null,
     "fecha_limite": "2026-08-20",
     "fecha_limite_cambiada_el": "2026-10-14",
-    "estado_updated": "2026-10-13T20:31:47.589+02:00"
+    "estado_updated": "2026-11-11T13:37:39.195+01:00"
   },
   {
     "folder_id": "704/2026",
@@ -4383,5 +4383,36 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-11"
+  },
+  {
+    "folder_id": "1257/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Asistencia técnica para la redacción del proyecto de estabilización de talud en roca, dirección facultativa de las obras y coordinación de seguridad y salud",
+    "updated": "2026-11-11T14:27:35.798+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Zp0d2qM4zk0adbH3CysQuQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000",
+      "71500000",
+      "71247000",
+      "71317210",
+      "71200000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=j7JLZZPS4JmSxfbDcI2xKu4gwioCL0k6PL506fa8Yp97z3UxOkoAn4ai%2BRDhikI2rSx9zJpP7pdyqkCYIo1LNItytGYoWyw6zv8YWVlieOyCx2e6p7hqtlp2aFupgHMr",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CAI6Ufe7NPY3HelkQ2blyh25Hm39ifBlD3pnoN4S35OfzO%2BkGSBMeUBzSn3wMl/mflsitAFKUogY7qPU1flKEPFD/fSZ0Mn1/wZ1i4%2BYdLx7QB3HKyQaFUExmUVQCerk",
+    "docs_adicionales": [],
+    "organo": "Alcaldía del Ayuntamiento de Cogollos de la Vega",
+    "importe": "50359.53",
+    "importe_num": 50359.53,
+    "fecha_limite": "2026-12-10",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-12"
   }
 ]
