@@ -7458,9 +7458,9 @@
     "carpeta_descargada": true,
     "carpeta_descargada_fecha": "2026-11-11T09:53:02.305Z",
     "carpeta_descargada_por": "Luis Hens del Campo",
-    "ganada": true,
-    "ganada_fecha": "2026-11-11T14:11:50.293Z",
-    "ganada_por": "Luis Hens del Campo"
+    "ganada": false,
+    "ganada_fecha": null,
+    "ganada_por": null
   },
   {
     "folder_id": "20216/2026",
@@ -8736,7 +8736,7 @@
     ],
     "organo": "Compras de la Corporación de Radio y Televisión Española S.A.",
     "importe": "12030",
-    "importe_num": 12030.0,
+    "importe_num": 12030,
     "fecha_limite": "2026-11-30",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -8769,7 +8769,7 @@
     ],
     "organo": "Gerencia de Limpieza Pública y Protección Ambiental Sociedad Anónima Municipal (LIPASAM)",
     "importe": "11000",
-    "importe_num": 11000.0,
+    "importe_num": 11000,
     "fecha_limite": "2026-11-27",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
