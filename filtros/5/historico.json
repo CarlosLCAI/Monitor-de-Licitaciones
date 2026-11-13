@@ -526,7 +526,7 @@
   },
   {
     "folder_id": "2026/AR44U/00002884E",
-    "estado": "ADJ",
+    "estado": "RES",
     "titulo": "RECURSO DIGENIN - JINFRA-Caracterización ambiental y valoración de trabajos posteriores de los túneles del Espalmador en el Arsenal de Cartagena.",
     "updated": "2026-09-21T13:22:44.716+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XWesReof4x%2FLIx6q1oPaMg%3D%3D",
@@ -553,7 +553,7 @@
     "fecha_captura": "2026-09-22",
     "fecha_limite_anterior": "2026-10-07",
     "fecha_limite_cambiada_el": "2026-10-07",
-    "estado_updated": "2026-11-06T11:16:08.214+01:00",
+    "estado_updated": "2026-11-12T10:18:28.850+01:00",
     "docs_adicionales": [
       {
         "nombre": "1 PROCEDIMIENTO CAE v2024.pdf",
@@ -564,9 +564,9 @@
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=FF1ieH3qvPvnwIE7XvTUBYr9S1SgextEVQ7O9J2fC4ZOTaHhJyEB5dze02NdFUg8WZKGl9gtUtukJLb861Ekd/iMnpWqc0r%2BAKdrYBxkGeXVTD3T98KC0nSgQFM0q%2B5s"
       }
     ],
-    "estado_anterior": "PUB",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-11-06"
+    "estado_anterior": "ADJ",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-11-13"
   },
   {
     "folder_id": "376/2026",
@@ -1684,7 +1684,7 @@
   },
   {
     "folder_id": "AD/2026/0150",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "El objeto de este procedimiento es la selección y contratación de un servicio de un despacho de auditoría para prestar los servicios de auditoría financiera.",
     "updated": "2026-09-30T10:58:04.723+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=hXBVIFiw2PJ%2FR5QFTlaM4A%3D%3D",
@@ -1709,7 +1709,11 @@
       "informe": "## Bloque 1 – Características Principales del Contrato\n\n### Objeto de la licitación\nEl objeto del contrato es la **selección y contratación de un despacho de auditoría** para prestar los servicios de **auditoría financiera** de la Fundación Palacio de Villalón, mediante procedimiento abierto. Los objetivos son:\n- Auditar las cuentas anuales de la Fundación conforme a la Ley 22/2015 de Auditoría de Cuentas.\n- Garantizar la emisión del informe de auditoría dentro de los plazos de aprobación de cuentas anuales.\n- Prestar el servicio de forma continuada durante el periodo contratado, sin prórroga tácita o forzosa.\n\n### División en lotes\nNo existe división en lotes. Se trata de un contrato único de servicios de auditoría financiera.\n\n### Características del contrato\n| Concepto | Dato |\n|---|---|\n| Valor estimado del contrato | **18.000,00 €** (IVA excluido), incluye eventuales prórrogas |\n| Presupuesto máximo de licitación | 18.000,00 € IVA excluido (no puede superarse) |\n| Duración | **3 años** desde la formalización (según cláusula 3), vigencia conforme art. 22 Ley 22/2015 |\n| ⚠ Incoherencia detectada | El **Anexo de modelo de proposición económica** indica expresamente \"por una duración del contrato de **dos años**\", lo cual contradice la cláusula 3 (3 años). **Se recomienda revisar este punto directamente con el órgano de contratación antes de presentar oferta**, ya que afecta al cálculo de la oferta económica. |\n| Prórroga | No sujeta a prórroga forzosa ni tácita |\n| Forma de presentación de ofertas | Exclusivamente **medios electrónicos**, a través de los Servicios de Licitación Electrónica de la Plataforma de Contratación del Sector Público (PLACSP) |\n| Plazo de presentación | No se especifica fecha en el texto disponible — remitirse al **anuncio de licitación** (no incluido en el fragmento recibido) |\n| Lugar de presentación | Plataforma de Contratación del Sector Público (telemático) |\n| Forma de pago | Mensual, previa factura, según disponibilidad de fondos de la Fundación |\n| Trabajos específicos obligatorios | No se requieren trabajos de arqueología, topografía, geotecnia o trámites ambientales (no aplica por tratarse de un servicio de auditoría). Se exige el cumplimiento de **al menos una condición especial de ejecución**: (a) medidas de conciliación de vida laboral y familiar, o (b) medidas de igualdad de oportunidades/diversidad |\n| Subcontratación | **Expresamente prohibida**: \"El contrato no podrá ser objeto de cesión ni de subcontratación\" |\n\n## Bloque 2 – Solvencia\n\n### Económica y financiera\nEl PCAP se limita a exigir de forma genérica que los licitadores **\"acrediten su solvencia económica, financiera y técnica o profesional\"**, pero **no concreta** en el texto facilitado:\n- Cifra de negocio mínima anual o acumulada exigida.\n- Ratios financieros específicos.\n- Seguro de responsabilidad civil profesional (no se menciona en el fragmento recibido).\n\n**No localizado** en el texto disponible — se recomienda revisar si existe un Anexo o apartado específico de solvencia económica no incluido en el fragmento remitido (es inusual que un PCAP no cuantifique este requisito).\n\n### Técnica y profesional\n- **Habilitación profesional exigida**: inscripción en el **ROAC** (Registro Oficial de Auditores de Cuentas) — requisito de capacidad para contratar, de carácter obligatorio y no acreditable por otra vía.\n- No se especifican titulaciones por perfil, años mínimos de experiencia como requisito de solvencia, ni importes de proyectos de referencia como solvencia técnica mínima.\n- No se define un equipo mínimo nominal exigido como solvencia.\n\n⚠ REVISAR — criterio de mejora de equipo, no confundir con el mínimo de solvencia: La experiencia en auditoría financiera en Administraciones Públicas (hasta 10 puntos) y la experiencia en auditoría de museos con presupuesto >3 M€ (hasta 20 puntos) **se valoran como criterio de adjudicación (Sobre B)**, no están formuladas como requisitos mínimos de solvencia técnica. El PCAP no distingue expresamente un umbral mínimo de experiencia separado del criterio de puntuación, por lo que debe confirmarse con el órgano de contratación si existe algún mínimo de solvencia técnica no recogido en el fragmento disponible.\n\n## Bloque 3 – Criterios de Adjudicación\n\n### Automáticos (fórmulas)\n| Criterio | Puntuación máxima |\n|---|---|\n| Oferta Económica | **55 puntos** |\n\nFórmula: **PO = 55 × (MO / OL)**\n- PO: puntuación obtenida\n- MO: oferta más baja presentada\n- OL: oferta del licitador\n\n**Umbral de baja anormal**: se considerará anormal cuando la oferta sea inferior en más de **30 puntos porcentuales** al presupuesto base de licitación.\n\n### Juicio de valor\n| Criterio | Puntuación máxima |\n|---|---|\n| Modelo organizativo (descripción empresa, méritos del personal, formación en Sector Público, ubicación, disponibilidad, medios técnicos, plan de trabajo) | 15 puntos |\n| Experiencia en auditoría financiera en Administraciones Públicas y organismos dependientes | 10 puntos |\n| Experiencia en auditoría financiera en Museos con presupuesto anual superior a 3.000.000 € | 20 puntos |\n| **Total Propuesta Técnica (Sobre B)** | **45 puntos** |\n\nTotal global: 55 + 45 = **100 puntos**.\n\n### Umbrales mínimos de puntuación\nNo se mencionan umbrales mínimos de puntuación técnica para continuar en el proceso (no hay cláusula de exclusión por puntuación mínima en el texto disponible).\n\n## Bloque 4 – Forma de Pago\n- El pago se realiza con **periodicidad mensual**, previa present",
       "fecha_analisis": "2026-10-01T10:37:53.447680+00:00"
     },
-    "fecha_captura": "2026-10-01"
+    "fecha_captura": "2026-10-01",
+    "estado_anterior": "PUB",
+    "resultado": null,
+    "estado_cambiado_el": "2026-11-13",
+    "estado_updated": "2026-11-12T15:07:35.678+01:00"
   },
   {
     "folder_id": "252/2025/CMA",
@@ -2269,8 +2273,8 @@
   },
   {
     "folder_id": "RDS260827",
-    "estado": "PUB",
-    "resultado": null,
+    "estado": "ADJ",
+    "resultado": "adjudicada",
     "titulo": "Servicio de limpieza para el mantenimiento de las redes de saneamiento gestionadas por GALASA",
     "updated": "2026-10-02T09:13:46.834+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=dQX8g9Q%2F1XwzjChw4z%2FXvw%3D%3D",
@@ -2298,7 +2302,68 @@
       "informe": "## Bloque 1 – Características Principales del Contrato\n\n> **Aviso:** el texto recibido solo incluye las páginas 1 a 3 de 68 (portada e índice). Los datos sustantivos (presupuesto, plazos, solvencia, baremos) no figuran en este fragmento. Se indican como **no localizados**, lo que no significa que no existan en el PCAP completo.\n\n### Objeto de la licitación\n- Según la portada, el objeto es la **contratación del servicio de mantenimiento de las redes de saneamiento gestionadas por GALASA** (expediente **RDS260827**).\n- La descripción detallada (alcance, actuaciones, ámbito territorial) está en la Cláusula 2 (\"Objeto y necesidad del contrato\"), **no localizada** en el fragmento.\n- ⚠ **Posible incoherencia a revisar:** el título de la licitación facilitado en el mensaje habla de \"servicio de limpieza para el mantenimiento…\", mientras que el PCAP dice \"servicio de mantenimiento de las redes de saneamiento\". Conviene confirmar el alcance real (limpieza, conservación, reparación, etc.) en la Cláusula 2 y en el PPT.\n- Tampoco consta en el PCAP que el órgano sea la \"Consejería Delegada de Gestión de Aguas del Levante Almeriense, S.A.\"; el PCAP solo menciona \"GALASA\".\n\n### División en lotes\n- El índice titula la Cláusula 2 como \"Objeto y necesidad del contrato. **No división en lotes**\", por lo que parece que **no hay división en lotes**. Debe confirmarse en el texto de la cláusula.\n\n### Características del contrato\n- **Procedimiento:** abierto, con varios criterios de adjudicación (portada).\n- **Presupuesto base de licitación, valor estimado y precio:** Cláusula 5, **no localizado**.\n- **Duración (y posibles prórrogas):** Cláusula 4, **no localizada**.\n- **Plazo, lugar y forma de presentación de ofertas:** Cláusula 14 (medios electrónicos y plazo), **no localizado**. El índice indica que la presentación es por **medios electrónicos**.\n- **Existencia de crédito:** Cláusula 6, no localizado.\n- **Trabajos específicos obligatorios** (arqueología, topografía, geotecnia, trámites ambientales…): no localizados. Por la naturaleza del servicio podrían figurar en el PPT, que no se ha aportado.\n\n## Bloque 2 – Solvencia\n\n### Económica y financiera\n- Regulada en la Cláusula **10.1**, **no localizada** en el fragmento: cifra de negocio mínima, ejercicios a considerar y seguros exigidos.\n- El índice contempla también la acreditación mediante el ROLECE (10.3) y la solvencia externa (10.5), sin detalle disponible.\n\n### Técnica y profesional\n- Regulada en las Cláusulas **10.2** (solvencia técnica o profesional) y **10.4** (adscripción de medios personales y materiales), **no localizadas**.\n- Titulación por perfil, experiencia mínima, proyectos de referencia, equipo mínimo y puestos subcontratables: **no localizados**.\n- La Cláusula 29 (Subcontratación) tampoco está disponible.\n- Criterio de mejora por experiencia adicional del equipo: no se puede determinar. Habrá que verificarlo cuando se disponga de la Cláusula 13.\n\n## Bloque 3 – Criterios de Adjudicación\n\n### Automáticos (fórmulas)\n- Cláusula **13.1**, **no localizada**: ni la fórmula económica ni otros criterios automáticos.\n\n### Juicio de valor\n- Cláusula **13.2**, **no localizada**: ni el desglose ni la puntuación de la metodología.\n\n### Umbrales mínimos de puntuación\n- El título de la Cláusula 13.2 dice \"*umbral mínimo para continuar en el procedimiento*\". Es un indicio de que **sí existe un umbral mínimo** en los criterios de juicio de valor.\n- La cifra concreta **no está localizada**. Hay que revisar la Cláusula 13.2.\n- Los parámetros de oferta anormalmente baja (13.3) tampoco están disponibles.\n\n## Bloque 4 – Forma de Pago\n\n- **No localizado.** El fragmento no incluye el régimen de valoración, certificación ni facturación, que probablemente figure en el Capítulo IV o V.\n- Del índice solo constan los apartados que habrá que revisar:\n  - Revisión de precios y variantes (Cláusula 7).\n  - Penalizaciones por incumplimiento (Cláusula 24).\n  - Garantías provisional y definitiva (Cláusula 11).\n  - Responsabilidad por daños y perjuicios (Cláusula 25).\n- No se puede indicar si hay revisión de precios, ni importes o porcentajes.\n\n## Bloque 5 – Documentación a Presentar\n\n- Regulada en la Cláusula **15** (\"Forma y contenido de las proposiciones\"), **no localizada**.\n- **Número de sobres y contenido de cada uno:** no localizados. No se detallan para no inventarlos.\n- Solo se sabe que la presentación es por **medios electrónicos** (Cláusula 14) y que se prevé acreditación de capacidad (Cláusula 17), garantías (Cláusula 11) y, en su caso, ROLECE (10.3).\n\n## Bloque 6 – Conclusiones / Análisis Preliminar\n\n### Precio de licitación vs. duración\n- **No se puede analizar.** Faltan el presupuesto base (Cláusula 5) y la duración (Cláusula 4).\n\n### Comparación con el perfil de CAI Consultores\n| Aspecto | Requisito PCAP | Perfil CAI | Valoración |\n|---|---|---|---|\n| Cifra de negocio | No localizado (10.1) | **1.100.000 €/año** (2023-2025); **3.300.000 €** acumulado | No evaluable |\n| Seguro RC profesional | No localizado | Campo sin completar (importe y aseguradora) | Completar el dato en el perfil |\n| Equipo / titulaciones | No localizado (10.2 y 10.4) | No facilitado | No evaluable |\n| Experiencia / proyectos de referencia | No localizado (10.2) | No facilitada | No evaluable |\n\n### Observaciones y recomendaciones\n1. **Se necesita el PCAP completo, o al menos las páginas de las Cláusulas 2, 4, 5, 7, 10, 13, 14, 15 y 24**, y el PPT, para completar el informe.\n2. **Posible desajuste de actividad.** Se trata de un servicio de mantenimiento y limpieza de redes de saneamiento (obra y servicio operativo), muy distinto de la consultoría de arquitectura e ingeniería. Cuando se acceda a 10.2, habrá que comprobar si se exige clasificación o experiencia en servicios de mantenimiento, limpieza de redes, medios materiales (camiones de succión/presión, CCTV) y personal operativo. En ese caso, **CAI podría necesitar subcontratar o concurrir en UTE**.\n3. Verificar la discrepancia entre el título facilitado y el del PCAP, así como la identificación del órgano contratante.\n4. El perfil de CAI no incluye datos de equipo ni de experiencia, y el seguro de RC está sin completar. Hay que rellenarlos antes de poder valorar el cumplimiento.\n5. **Conclusión provisional:** no es posible determinar si CAI cumple los mínimos, porque los requisitos de solvencia no figuran en el texto aportado.",
       "fecha_analisis": "2026-10-03T09:29:01.526750+00:00"
     },
-    "fecha_captura": "2026-10-03"
+    "fecha_captura": "2026-10-03",
+    "docs_adicionales": [
+      {
+        "nombre": "Anexo I RDS260827.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=IgvtAwTSXKMwfaCad3V7VwuViUvas%2BmEbpUjc2cK3oJFkZ9OQAdYemW0uLpfTlNGyULULXo8WWIp38%2BNCPv57PTf/IZXPoifQQu/lJZjw361aXEvq3KHa/AEHgtDrQw0"
+      },
+      {
+        "nombre": "TABLAS PPTP CAMION.xlsx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=OhPYLLSa2hd0QTohoNcJ67Ev77W7QhtVNjIKL5WG5t1ByvMLejrT5we00WdVw8piQbsbjta5s/AGY1nmRflUFg2R6rj7GVaDlbc35vWvSAn3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "Anexo XI confidencialidad RDS260827.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Fhaw9S0s0AbdHWVgUWryN9WW6Mg3cbZvaTH5kS9goui9aE/UIoCJEVD4nbpjflorQ/V84k7S4EyUGen/houz/k7M6NTtF5qOK%2BC4T9uPU/5t/o8fNevwsujgRzaBbugn"
+      },
+      {
+        "nombre": "Anexo VII RDS260827.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=xcDuAV55mwG%2BgSdRaLCRMiL9IE6M2rgjNwZu7lW7NbsRcHl0zFncYqWB6g/LkT7rg/pqCAlzw7ByTcKJ4tj5XQpmP5KD7CyuUXyrgw2l6/mHAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "Anexo VI Modelo aval RDS260827.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=KbFP37Xm6vxFGILnh8Kwb6zRoRz3JjMFYn9euaBzmjiBGL8pIV3Zyqnw14RGzSad7y4aoNE/AFxLaEKdcpfQwuldkXf3%2BhWhc/Wk/kPp5PvDdQD9RyhUmzT4jZ2In4zL"
+      },
+      {
+        "nombre": "Anexo VIII compromiso RDS260827.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=MrVeOOFTZrhQ4qVeau7xzdVUMWi8YM7c3WLxdL8vwp5UmHWTbY/h062KTKeGIpQe8DCxUboZ/AvTjOhMJFf8sRaKbwiPnXZkD6THXwUSiwht/o8fNevwsujgRzaBbugn"
+      },
+      {
+        "nombre": "Anexo XII compromiso discapacitados RDS260827.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=zrbFDdriMTUU%2BwefbPOExWgMAmzUQIG1/66KUiHjkhddjHyD1WyNreG4DvVFcSrDcJU2xNSrP%2BVEN3SHYPz4Xl0TbO6QGIeybj7RxOwwIe7fdyQgZAdTm3EfcUAC7CJ6"
+      },
+      {
+        "nombre": "Anexo X aportacion email RDS260827.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0IYhqq7LqNEsAYbXgvXSONE4ReIFkc/4i/w7PVu6sJG5XKlTJ7XaZJnPaAx6UWTjj4r67A1Md5YvGTZdabBkKEEeixM2cZLG3fj1CDslMLTDdQD9RyhUmzT4jZ2In4zL"
+      },
+      {
+        "nombre": "Anexo IX grupo empresarial RDS260827.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0lY6dtdcBHNOVfgeef2MgbuHafxAqCFWmdLzjyFiRrfxI9qqsPli9Ucy0x77L6QaguFOZeshE09C8dxMqCTthMP6rX5fuQKSlRe7TvMAkgU//q7NB2iMZvNyf0xrJmjt"
+      },
+      {
+        "nombre": "Anexo IV RDS260827.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ynk4KyOsPivs6/qk2cPjSmS8glaDn%2B1fw8VcR75v002PQdf2wrDAz5ouhg1kE2XLFOLW9L44aMzvCuEFmtfw%2Braqg5tPJqNjdYBInfEN0aoC1/zDIE0Kw/PWNnLS0Z0z"
+      },
+      {
+        "nombre": "RDS260827 Anexo III.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/%2BNhtIbkvyV2tiJpGRE1T3SOxhl9Pv9Q6pSrXPZ1x3J4kHf/QQh9eWtv0v5hYgt7zqPeWViPcKspXzjIlMX6raIuiVvVqUs9cSGL9lqmVbYC1/zDIE0Kw/PWNnLS0Z0z"
+      },
+      {
+        "nombre": "RDS260827 Anexo II.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=TV/BYdA8NNQmfMO5kDHRz9LhUlthTQyZZVK9Vr3VyQ53cytpgS7Xw7Yp%2BWKhtffx1oRefUuc4YyCPouUSEuGCp5YqmVaDHwrV5MzkTLkfMg//q7NB2iMZvNyf0xrJmjt"
+      },
+      {
+        "nombre": "Anexo V vigencia datos ROLECE RDS260827.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=r4yEk5ux7LvrY8HuU/m1Ix9UCC8mArsWST3rv53Yza%2BG51XoNH8xdyFmOC9KqIfGRaIXLMfQq7Gpo0/TjN%2BaRiDzOMmLYfHPUDsUGWUeBW1t/o8fNevwsujgRzaBbugn"
+      },
+      {
+        "nombre": "Anexo II RDS260827.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=5WbM/ecQoYXtc/2w8%2B0wOH0Dz1WQdqMnOhzhw0oiKOcdb//%2BAl7Xhk9PWcT%2BzEdYPxetmJFdPgCsS9me/4EOFX5kS3DsEF3DAV70MsahYBk//q7NB2iMZvNyf0xrJmjt"
+      }
+    ],
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-13",
+    "estado_updated": "2026-11-12T08:49:42.268+01:00"
   },
   {
     "folder_id": "SE 09/27",
@@ -4090,7 +4155,7 @@
   },
   {
     "folder_id": "4165/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Servicios profesionales de dirección de obra, dirección de ejecución de obra y coordinación de seguridad y salud durante las obras de construcción de un parque de bomberos en Huércal de Almería.",
     "updated": "2026-10-13T08:26:26.493+02:00",
@@ -4114,7 +4179,20 @@
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-13"
+    "fecha_captura": "2026-10-13",
+    "docs_adicionales": [
+      {
+        "nombre": "MEMORIA JUSTIFICATIVA DO_DEO_CSS PARQUE DE BOMBEROS.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=I0Y3NDvM3NqhUhs2v%2Btrlgyg%2BHyx3v%2BL%2BLL3lINLdubCCYwdpEbPMR49ejbD7QAQelSyWcRNqfELttLumzaMSO4ywxlCVFN2VCnCtVIGYv2B0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "Certificado de acuerdo aprobacion 4165.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CZ9sQrBnEDc83v2kq80bV1gnZ6QHC5mu2ZzVuPy8wSQl72o9J4sD5pdhdwXEanEjCQyeccx4vdEY7J5T8CvXa7CmKtLrKeAUif/yYxRm0i0C1/zDIE0Kw/PWNnLS0Z0z"
+      }
+    ],
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-13",
+    "estado_updated": "2026-11-12T09:02:45.951+01:00"
   },
   {
     "folder_id": "JF2027-RES",
@@ -4243,8 +4321,8 @@
   },
   {
     "folder_id": "VE_5_MENTORIAS_2026",
-    "estado": "EV",
-    "resultado": null,
+    "estado": "ADJ",
+    "resultado": "desierta",
     "titulo": "Servicios de mentoría especializada para el Programa de Aceleración del Vivero de Empresas 4.0 Laocoonte, promovido por la Cámara y cofinanciado por el Programa FEDER 2021 2027 en el marco de la convocatoria Viveros 4.0 de la Comunidad Autónoma de Andalucía.",
     "updated": "2026-10-14T13:12:53.222+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=aKNDRYSqMEeqb7rCcv76BA%3D%3D",
@@ -4317,7 +4395,9 @@
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=VM36n4kFHcuR3E6DPKrqHq5ZEqPwwTtOqukh/mPNGut07T%2BX5tMO6hxCYh/j3cmJ5rZ8kqUnl8sXjR4dInIUnOYMZHFWPMRmHXOnXabJskX3GVhXrFFqN7yFncy7YfRK"
       }
     ],
-    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
+    "estado_updated": "2026-11-12T14:10:09.832+01:00",
+    "estado_anterior": "EV",
+    "estado_cambiado_el": "2026-11-13"
   },
   {
     "folder_id": "2026GtM00125 (RESIDUOS 2027)",
@@ -4538,8 +4618,8 @@
   },
   {
     "folder_id": "2026/520042",
-    "estado": "ADJ",
-    "resultado": "adjudicada",
+    "estado": "RES",
+    "resultado": "formalizada",
     "titulo": "Evaluación de Riesgos de los centros de trabajo y revisión del Plan de Emergencias.",
     "updated": "2026-10-15T13:28:20.694+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=c%2FHLaBKNBqNVq4S9zvaQpQ%3D%3D",
@@ -4572,9 +4652,9 @@
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=3umbPzbk3XJyAwy1Bn6N4Q2lmwAu8J07byl5/YJX4lcDKR55Irvigb2T8Mi6agaJkN8yIwHL3LkRT7WmSioDd%2BYv%2BdTC7RNyrkd9bTiChveB0nvVKRzfe4rpHcnlPhSZ"
       }
     ],
-    "estado_anterior": "EV",
-    "estado_cambiado_el": "2026-11-11",
-    "estado_updated": "2026-11-10T09:26:16.250+01:00"
+    "estado_anterior": "ADJ",
+    "estado_cambiado_el": "2026-11-13",
+    "estado_updated": "2026-11-12T13:14:50.737+01:00"
   },
   {
     "folder_id": "1638/2026",
@@ -6132,7 +6212,7 @@
   },
   {
     "folder_id": "1303/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Mantenimiento, conservación y labores de jardinería de espacios ajardinados y arbolado viario",
     "updated": "2026-10-27T14:27:16.451+01:00",
@@ -6147,20 +6227,16 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1NP4M3KX%2Bh2jbpyeTs0Y76ZbUx0UUfbbJ2G%2BUq51R8q0a%2BhfqfgYcxl%2BldHd7bn2J9yTjU2zojpObtIRlXSKNR8P0sfgCX5SPDep2ilBxcSB0nvVKRzfe4rpHcnlPhSZ",
     "docs_adicionales": [
       {
-        "nombre": "Informe Juridico SEM 333.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=S14nX20NFePV8quO9dFY%2BIirfjdoPD%2BPmw0hVZMPam/E79YkAowvI1/loNKKLDDIFdsLcGOjMSIY17P5id7pmIFdExw7kZyQ4x3zFv3f1XiB0nvVKRzfe4rpHcnlPhSZ"
+        "nombre": "INSUFICIENCIA MEDIOS.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=x%2BKpeafYxn3miFbRFu14mhm0u6HOJGVD%2BQGUPuuiHN9ruDzHZLRec4/2FRwGjdZGBRAruUX2A8FoK/hDSZJSh2qqnuYwf%2BqoF8bVeTYsq/KHAj0WEJrB5sP7amrh2jBD"
       },
       {
-        "nombre": "IJG SEM 333 basculas.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=c0EzkLU/9ImgevbTCC22HeL634T9dl2EC%2BAcLsz8qzfx/LVVQIc%2BANKTg7c9H2Tq/jIB%2BjuwgPiDAoKv9KjQp0APAyo57H/Ro8rt6tsiIK/DdQD9RyhUmzT4jZ2In4zL"
+        "nombre": "MEMORIA JUSTIFICATIVA.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=KbEB4q2rCoxVY53nDRg3EX9QmfPhesv37H0KAlup0rwGTTSJtGehWwt8uxjmVM5xvzW9w4HyiyB3tQuUsieBIJGnIBbac9AT8pMVcRUDhP1JOVDbGCDM%2BMigrvuVS7Rv"
       },
       {
-        "nombre": "Resolpte aprobacion SEM 333 basculas.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=uOktLHX7rGEmrQ8pxRxqOXQPG4XbymQ04Pdam8cjgzsa/qUtr9p7uChvBZOCfDTPohs1nU5Ina6LNilJ9eeiorbZk6TWFtXl7wv/qqStV72HAj0WEJrB5sP7amrh2jBD"
-      },
-      {
-        "nombre": "CAD SEM333 basculas.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=WrywmLq1vaXXIzNOQWSLoaTqyIGDhgmn0N96YvMHvy18xNQNekK2Q0XQlCmjWKf8pk4AxMD/Pjz5henmPq%2B8G7OyuR93skjGUOND11JlEHCHAj0WEJrB5sP7amrh2jBD"
+        "nombre": "RESOLUCION DE ALCALDIA.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1DeiwT3CtDqMFO67Z37Z07huTKtRHlBQAwerrTMqQgLCj20sqN72NCrr35yI7r86ApiYqP/YH8tkVo1bVdMcJFBf6G0zSWV7lhK19kggBV3DdQD9RyhUmzT4jZ2In4zL"
       }
     ],
     "organo": "Alcaldía del Ayuntamiento de Cantoria",
@@ -6174,7 +6250,9 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-27",
-    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
+    "estado_updated": "2026-11-12T13:55:14.995+01:00",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-13"
   },
   {
     "folder_id": "P4106100C-2026/000111-PEAS",
@@ -7783,7 +7861,12 @@
     ],
     "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=d6LaKdS%2BHsQo/i/U01g6T9iID5Ep5nTVfT8HEYNHPRERq8TZ74LHEbbWbVnjbP16WMj%2B6qPlEJWryOIFdOppmtSwNsx/X5KIspg4aj0WOHL6CYyL7SIrUOBFfNf52ZqA",
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4tTUjAXi8RcClL6aKoq5tI2WjI3XVWAerfNs/%2BTpDM2HtIasUWBAWRFOrir766zJ/dtOQvsmQtlJScvVrot5NJMyR/QP5Pr7k2BkDGSlFpE//q7NB2iMZvNyf0xrJmjt",
-    "docs_adicionales": [],
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXO_1_EHH situacion actual_imagen_Optimized.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=yEnyWBl1KCtq70%2BKmuWlX3MHb4rkA/PQF4sI0yvMvK%2BJnd1r537w9i1Lf%2BYG0K%2BLAvwAsQVd%2BFjI1k79eQ0C/f47YSUDB6DyUy/cas5McdiCx2e6p7hqtlp2aFupgHMr"
+      }
+    ],
     "organo": "Alcaldía del Ayuntamiento de Atarfe",
     "importe": "253305.79",
     "importe_num": 253305.79,
@@ -9577,5 +9660,188 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-12"
+  },
+  {
+    "folder_id": "A-2026-00043",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Gestión de residuos en la zona de servicio del Puerto de Melilla",
+    "updated": "2026-11-12T14:34:56.306+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=k1M1ESaOpWwQyBAnWzHfCg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "90500000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2Vc8XXVVug7XrvzkKVWkpc4xDNMKS%2BdLmAQKmxY7oBeUJpIr7P6cmoWslx6zY9%2BkuzZxlUDlSlDrEcO9pvdihuoS8v0fi8WFd1wN0eqW89nfdyQgZAdTm3EfcUAC7CJ6",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YIwLNbxF7YapzwS3%2BqoO/JkOfx7RjG534S16BnUNcapVOhiZrnF5h9EW3vf9YLPqvFl9WJITBvajD7B6QQLem/EgM29bHOa4SaVY%2B1XjzCvDdQD9RyhUmzT4jZ2In4zL",
+    "docs_adicionales": [
+      {
+        "nombre": "Anexos editables A26-43.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=kDhqNqGSWZ6TLWGSTMsjhtvifyGUC5DmRxWgbU/A2LqmrSUlU5ob43swS0X964mahSkQINAzbertIZ6/CykhmeWYAoxtltNu40ieX/zCPLHVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "NOTA PRESUPUESTO NETO 60000 NO 15000.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Iv7y5f2vQZUhVilfXXpCZ5%2B3cI8NMiVei69RUBu%2B293WexGn15UAiL2zO6qEN5Njlbuhdewm0/q3MR215JkrrAf5cWnZTmWhHPHFMbBxd5DVTD3T98KC0nSgQFM0q%2B5s"
+      }
+    ],
+    "organo": "Presidencia de la Autoridad Portuaria de Melilla",
+    "importe": "15000",
+    "importe_num": 60000.0,
+    "fecha_limite": "2026-11-26",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-13"
+  },
+  {
+    "folder_id": "2026/SSV/001072",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Mantenimiento de la máquina de lavado de piezas del taller y recogida y gestión de residuos para el  Servicio de Prevención, Extinción de Incendios y Salvamento.",
+    "updated": "2026-11-12T13:25:42.244+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=rqnR5HemrgGkU02jNGj1Fw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "90520000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ow6vHOr8HdNv1pnYaigJwxZwM/mTUi1Y%2Bclyoh4KQtouVPhNq36Wd9//5pxUIebb0B0QWcyNBoVJkn04CvACJCIcVa%2B9Dy3mocBM0bPS6zCHAj0WEJrB5sP7amrh2jBD",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=gnnk0HdDThXX0sqhDzMc8RkcttrdqdNsHGkRPSQAzwou11z27Ww9SDjnIMLdZp2OtNwERkvin7Ixcx3o0sY7sKG/Uho2IXSJg/su8rlEQa7fdyQgZAdTm3EfcUAC7CJ6",
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXO II.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YOdwotOFQQg1XzB/MnNyqTGUPA6UKg%2Bc5KulVWwlAAV8BDgJOJSAqXqFWXSVm24B7rVpqXrl5/2K4xnnSULxMCt/82Cy%2BvyAuLONO3iH1eUC1/zDIE0Kw/PWNnLS0Z0z"
+      },
+      {
+        "nombre": "Anexosv14 sv abrev0201.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ONq7Rx/k1JqJeWXnTvOpCLFtGGfjNrEeTfleqHBiG50XW9Yi0/N%2BxRgGr4SH0udMuoX0VroSBgYeCC1aT/eTClGlEC2Mpyn2HpOWpOBGPQt7QB3HKyQaFUExmUVQCerk"
+      },
+      {
+        "nombre": "ANEXO III.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=XbT7T/NcV4evzrloWtDXf1BxL9A4dtdPKDBvXX2ZzBPh%2BeiOLCDkbse5YgiE8A7Al9A2Vjz1MNDWBh0MQ5cP%2BrUJKW02hy/Da6OzZBSdfyBJOVDbGCDM%2BMigrvuVS7Rv"
+      }
+    ],
+    "organo": "Órganos Directivos del Ayuntamiento de Sevilla",
+    "importe": "3500",
+    "importe_num": 7000.0,
+    "fecha_limite": "2026-11-26",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-13"
+  },
+  {
+    "folder_id": "SVQ-30/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio De Gestión De Residuos Del Aeropuerto De Sevilla",
+    "updated": "2026-11-12T11:14:39.208+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=UI%2BGQr6qtBo36J9Lctlsuw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "90000000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9rFQcKbhJSsYzPUb7xOWPuUW8pfnGlx%2BJXtDKxVC5P6ZKVm%2BFk7Kr66On4l0zpfFCKzDO31DHo/kzTAW70t5JL4gFaaWRTQs5dgaR7v1HszDdQD9RyhUmzT4jZ2In4zL",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=AZNKorTB7VmpnF69Fj8h5apQBz%2BoETmCPlihY09AOSHC4PJVPB2mTMttfeQ6QU/9j7tlSJj6/KvSezBRM7zSfln6VpIcOBaaXqgfW9cxJ5b6CYyL7SIrUOBFfNf52ZqA",
+    "docs_adicionales": [
+      {
+        "nombre": "Memoria Justificativa de Inicio de CCMayor.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=3BjFbvv4BYsZVOUxPm9BdC/wgVT/qDvvsG5bdmB7c/EM9EDjPPZkqz3a80Bos4%2BwJAWtb3qfsaqsS9UE/nxCRYedxTv6WsM3sy5Z6zW7AKSHAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "DEUC SVQ 30 2026.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4ieK5q0KmcWa8w1yF44e7YnuSQCSAu/6o/JOlhTtrAf6meUFpJzYtfYYfiQbYzS9c0Kn19EPyBX%2BCQbUTA25K0fNGoxBfuNmYx28tk6wW6r6CYyL7SIrUOBFfNf52ZqA"
+      }
+    ],
+    "organo": "Aena. Dirección de Contratación",
+    "importe": "661909.98",
+    "importe_num": 1288747.62,
+    "fecha_limite": "2026-12-09",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-13"
+  },
+  {
+    "folder_id": "S-04657-2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "DF y CSS en obras sustitución ascensores CP RTVE Andalucía, Sevilla",
+    "updated": "2026-11-12T09:56:45.385+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=P8BPR%2FbkKR%2BTylGzYmBF9Q%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000",
+      "71317200",
+      "71520000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/UenCrt1%2BgxIeomHUgwLACCk2iv8nZYPXkkejApQZthgQqi3LNXTSO1imgk9KzhU4UzhC/H3KKoNkQh/VlXIFbBhDKcB3ogL8Kf5IszJ1Oq1aXEvq3KHa/AEHgtDrQw0",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=nR%2BHU2OtfcPArY9VVL0%2BXIevKi96haiicq3bBi0ca2MP3Z6QdW%2BEHogm7KA7E6KEcwKft9sSG8HCv6ShoUz68S/5EbNzBl8CUia5xDdX2hXDdQD9RyhUmzT4jZ2In4zL",
+    "docs_adicionales": [
+      {
+        "nombre": "Mod Anexo I 4657.xlsx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2QAK1U9Ys7YbjPQLxhVaNgZCHcVHmXHLSpKrAHF89myfkxgc4kZfJ/secGgzfuKMlM9xDIQer%2BfZjEcZCqLRK375aB3txCt3zMgPr6h75HZt/o8fNevwsujgRzaBbugn"
+      },
+      {
+        "nombre": "Mod Anexo III 4657.xlsx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iQBUa8LL2He0f%2BMesPUn1tPcIumlSSzw9BCFd/n//TabwANxDEJ7Sq7hHzNDwfTDGqui0E7g2V1sTn02iF0OjFPpT07URzBdhL3BpMH1uxk//q7NB2iMZvNyf0xrJmjt"
+      }
+    ],
+    "organo": "Compras de la Corporación de Radio y Televisión Española S.A.",
+    "importe": "12030",
+    "importe_num": 12030.0,
+    "fecha_limite": "2026-11-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-13"
+  },
+  {
+    "folder_id": "GE. 41/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Elaboración de la matriz de doble materialidad de Lipasam y análisis Gap del EINF.",
+    "updated": "2026-11-12T08:01:27.825+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=2AnDDoD8dMm9Hd5zqvq9cg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "90713000",
+      "79410000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YLpqWS0dVbPw6clbEoSAElWzmvl0QL4Rjo5VMA5Xw1IN8GBfWLS40MvwlcvYliHBYq8rShQwlJaNXXAA6lvpo1DdRnWCFWj7DBjniwE%2BgNyCx2e6p7hqtlp2aFupgHMr",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=O2X2wvaVdax63WHcYV%2BvqfrAMvFTyz8D2d%2BMIfsnBYLY211/K8bTsccdYe/svveo5RPPiWGP7n6Sqf%2BPujpAVBOETBPlIFqoFoCkzXxrDVGHAj0WEJrB5sP7amrh2jBD",
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXOS PCAP_GE_41_2026.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=yHflyRD4Q9ZPzYceEsZfzUcjpLBiVa3IzVkVvZ05xlOzhz64f9enWlkB/IdpIj1qljSzrxHZUuSLHXv%2BwcHHmNIx95zXWJD%2B8Bg9q9LT5SSCx2e6p7hqtlp2aFupgHMr"
+      }
+    ],
+    "organo": "Gerencia de Limpieza Pública y Protección Ambiental Sociedad Anónima Municipal (LIPASAM)",
+    "importe": "11000",
+    "importe_num": 11000.0,
+    "fecha_limite": "2026-11-27",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-13"
   }
 ]

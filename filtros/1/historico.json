@@ -392,7 +392,7 @@
   },
   {
     "folder_id": "3809/2026",
-    "estado": "EV",
+    "estado": "ADJ",
     "titulo": "Contrato mixto de obras y servicios para la ejecución de obras de Reformado conservación, reparación y refuerzo de estructura de madera de cubierta sobre aulas 4A, 4B y 4C en CEIP San Roque de Arahal. Este proyecto está financiado por la Administración General del Estado, a través del Ministerio de Política Territorial y Memoria Democrática, con una aportación de 147.707,48 €.\r\n",
     "updated": "2026-07-15T10:21:53.202+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=CV4dyWQi64gQyBAnWzHfCg%3D%3D",
@@ -419,8 +419,10 @@
     "importe": "127438.11",
     "fecha_limite": "2026-07-16",
     "fecha_captura": "2026-07-16",
-    "resultado": null,
-    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
+    "resultado": "adjudicada",
+    "estado_updated": "2026-11-12T10:30:14.021+01:00",
+    "estado_anterior": "EV",
+    "estado_cambiado_el": "2026-11-13"
   },
   {
     "folder_id": "SV33/2026",
@@ -2758,7 +2760,7 @@
   },
   {
     "folder_id": "4165/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Servicios profesionales de dirección de obra, dirección de ejecución de obra y coordinación de seguridad y salud durante las obras de construcción de un parque de bomberos en Huércal de Almería.",
     "updated": "2026-10-13T08:26:26.493+02:00",
@@ -2782,7 +2784,20 @@
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-13"
+    "fecha_captura": "2026-10-13",
+    "docs_adicionales": [
+      {
+        "nombre": "MEMORIA JUSTIFICATIVA DO_DEO_CSS PARQUE DE BOMBEROS.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=I0Y3NDvM3NqhUhs2v%2Btrlgyg%2BHyx3v%2BL%2BLL3lINLdubCCYwdpEbPMR49ejbD7QAQelSyWcRNqfELttLumzaMSO4ywxlCVFN2VCnCtVIGYv2B0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "Certificado de acuerdo aprobacion 4165.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CZ9sQrBnEDc83v2kq80bV1gnZ6QHC5mu2ZzVuPy8wSQl72o9J4sD5pdhdwXEanEjCQyeccx4vdEY7J5T8CvXa7CmKtLrKeAUif/yYxRm0i0C1/zDIE0Kw/PWNnLS0Z0z"
+      }
+    ],
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-13",
+    "estado_updated": "2026-11-12T09:02:45.951+01:00"
   },
   {
     "folder_id": "5100075465 - PROYECTO Y DF RETROFIT MAGUE 5",

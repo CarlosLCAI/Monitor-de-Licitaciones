@@ -4115,7 +4115,7 @@
   },
   {
     "folder_id": "4165/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Servicios profesionales de dirección de obra, dirección de ejecución de obra y coordinación de seguridad y salud durante las obras de construcción de un parque de bomberos en Huércal de Almería.",
     "updated": "2026-10-13T08:26:26.493+02:00",
@@ -4139,7 +4139,20 @@
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
-    "fecha_captura": "2026-10-13"
+    "fecha_captura": "2026-10-13",
+    "docs_adicionales": [
+      {
+        "nombre": "MEMORIA JUSTIFICATIVA DO_DEO_CSS PARQUE DE BOMBEROS.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=I0Y3NDvM3NqhUhs2v%2Btrlgyg%2BHyx3v%2BL%2BLL3lINLdubCCYwdpEbPMR49ejbD7QAQelSyWcRNqfELttLumzaMSO4ywxlCVFN2VCnCtVIGYv2B0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "Certificado de acuerdo aprobacion 4165.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CZ9sQrBnEDc83v2kq80bV1gnZ6QHC5mu2ZzVuPy8wSQl72o9J4sD5pdhdwXEanEjCQyeccx4vdEY7J5T8CvXa7CmKtLrKeAUif/yYxRm0i0C1/zDIE0Kw/PWNnLS0Z0z"
+      }
+    ],
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-13",
+    "estado_updated": "2026-11-12T09:02:45.951+01:00"
   },
   {
     "folder_id": "1030/2026/PAS",
@@ -7269,7 +7282,12 @@
     ],
     "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=d6LaKdS%2BHsQo/i/U01g6T9iID5Ep5nTVfT8HEYNHPRERq8TZ74LHEbbWbVnjbP16WMj%2B6qPlEJWryOIFdOppmtSwNsx/X5KIspg4aj0WOHL6CYyL7SIrUOBFfNf52ZqA",
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4tTUjAXi8RcClL6aKoq5tI2WjI3XVWAerfNs/%2BTpDM2HtIasUWBAWRFOrir766zJ/dtOQvsmQtlJScvVrot5NJMyR/QP5Pr7k2BkDGSlFpE//q7NB2iMZvNyf0xrJmjt",
-    "docs_adicionales": [],
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXO_1_EHH situacion actual_imagen_Optimized.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=yEnyWBl1KCtq70%2BKmuWlX3MHb4rkA/PQF4sI0yvMvK%2BJnd1r537w9i1Lf%2BYG0K%2BLAvwAsQVd%2BFjI1k79eQ0C/f47YSUDB6DyUy/cas5McdiCx2e6p7hqtlp2aFupgHMr"
+      }
+    ],
     "organo": "Alcaldía del Ayuntamiento de Atarfe",
     "importe": "253305.79",
     "importe_num": 253305.79,
@@ -8626,5 +8644,139 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-12"
+  },
+  {
+    "folder_id": "2026/000244-PEA",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Asistencia técnica para el ejercicio de funciones coordinación en materia de seguridad y salud en obras del Plan Estratégico 2024-2027",
+    "updated": "2026-11-12T14:09:50.564+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=5JGvdi4q86njHF5qKI4aaw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71317200"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=X7vP%2B8xdkjupYRh4kccEppJNd8wol3Ls/cnDv9coGudaJC6ZtcXIgYADIVWKSfadC8b%2BgD9BcqD/8z%2BOssaAt%2BzkZ%2BIuv7dgIdeiH4FnNP/VTD3T98KC0nSgQFM0q%2B5s",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=TPaWWuDnbAmygWxC0x3ahtUs9zxDUIlqruy9RWIUZ0rTjYK2htlDEA004zKRPraorpQ5TRgpqCTB9GB7IBzWjWJAvwCswhsGaOsgS1c6qSrDdQD9RyhUmzT4jZ2In4zL",
+    "docs_adicionales": [],
+    "organo": "Presidencia de la Diputación Provincial de Sevilla",
+    "importe": "140923.28",
+    "importe_num": 140923.28,
+    "fecha_limite": "2026-11-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-13"
+  },
+  {
+    "folder_id": "476/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicios de redacción de proyecto,estudio de Seguridad y Salud,dirección de obra y de ejecución y coordinación de seguridad y salud para obras del campo de fútbol municipal,financiado con cargo a las ayudas de la Administración General del Estado,a través del Ministerio de Política Territorial y Memoria Democrática,previstas en el artículo 7 del Real Decreto-ley 5/2026,de 17 de febrero.",
+    "updated": "2026-11-12T10:02:34.317+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lE4aGNUeWffs%2BnLj3vAg5A%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=vAg%2BraQ6bb765oBpb0AwO6mVGwUePkS2U/54TtE3/nsuLwqGloABF%2BuUEcIiCtYm3wSlbevKNsyqQYbmDGAzq8pa9q6TMlmmklMYUTr4eeHVTD3T98KC0nSgQFM0q%2B5s",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=NI0Z%2BOtqLDO69CmHqqhcxaCMzuUaWEY4CoGzwu/T3dXMu6M09PUmTiF12z40XHnON7LEeDegqt%2Bt%2BqKXRD49lmyEpkMOCgfMPGsCCd1sFNkZyAJWGsSt0OzTSTyw9JAs",
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXO I DECLARACION RESPONSABLE.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=05qoQOblBl3%2Bj%2BsJRohXAM4gNbwerAaiNkG5X0Ii9ENJ%2BYCTWPNT5NrJ6IwuV8GVu%2BmcDnBeKF3l7h8BohcsrsiXe2YOUNuX1yxzFQbH%2BFj6CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "ANEXO II PROPOSICION ECONOMICA Y RESTO DE CRITERIOS CUANTIFICABLES DE MANERA AUTOMATICA.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=G50VAHxpygDh/5oZlvbpDXDd7KV/d78kUOpnjBaxnmysoRNZoKcsUgpeDBwFzxwax9xCXE%2BDGdcQw26D%2BC/P9krCJjshi/%2BfdIU3SlnWpQOHAj0WEJrB5sP7amrh2jBD"
+      }
+    ],
+    "organo": "Alcaldia del Ayuntamiento de Escañuela",
+    "importe": "16363.64",
+    "importe_num": 16363.64,
+    "fecha_limite": "2026-11-27",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-13"
+  },
+  {
+    "folder_id": "S-04657-2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "DF y CSS en obras sustitución ascensores CP RTVE Andalucía, Sevilla",
+    "updated": "2026-11-12T09:56:45.385+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=P8BPR%2FbkKR%2BTylGzYmBF9Q%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000",
+      "71317200",
+      "71520000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/UenCrt1%2BgxIeomHUgwLACCk2iv8nZYPXkkejApQZthgQqi3LNXTSO1imgk9KzhU4UzhC/H3KKoNkQh/VlXIFbBhDKcB3ogL8Kf5IszJ1Oq1aXEvq3KHa/AEHgtDrQw0",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=nR%2BHU2OtfcPArY9VVL0%2BXIevKi96haiicq3bBi0ca2MP3Z6QdW%2BEHogm7KA7E6KEcwKft9sSG8HCv6ShoUz68S/5EbNzBl8CUia5xDdX2hXDdQD9RyhUmzT4jZ2In4zL",
+    "docs_adicionales": [
+      {
+        "nombre": "Mod Anexo I 4657.xlsx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2QAK1U9Ys7YbjPQLxhVaNgZCHcVHmXHLSpKrAHF89myfkxgc4kZfJ/secGgzfuKMlM9xDIQer%2BfZjEcZCqLRK375aB3txCt3zMgPr6h75HZt/o8fNevwsujgRzaBbugn"
+      },
+      {
+        "nombre": "Mod Anexo III 4657.xlsx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iQBUa8LL2He0f%2BMesPUn1tPcIumlSSzw9BCFd/n//TabwANxDEJ7Sq7hHzNDwfTDGqui0E7g2V1sTn02iF0OjFPpT07URzBdhL3BpMH1uxk//q7NB2iMZvNyf0xrJmjt"
+      }
+    ],
+    "organo": "Compras de la Corporación de Radio y Televisión Española S.A.",
+    "importe": "12030",
+    "importe_num": 12030.0,
+    "fecha_limite": "2026-11-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-13"
+  },
+  {
+    "folder_id": "GE. 41/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Elaboración de la matriz de doble materialidad de Lipasam y análisis Gap del EINF.",
+    "updated": "2026-11-12T08:01:27.825+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=2AnDDoD8dMm9Hd5zqvq9cg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "90713000",
+      "79410000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YLpqWS0dVbPw6clbEoSAElWzmvl0QL4Rjo5VMA5Xw1IN8GBfWLS40MvwlcvYliHBYq8rShQwlJaNXXAA6lvpo1DdRnWCFWj7DBjniwE%2BgNyCx2e6p7hqtlp2aFupgHMr",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=O2X2wvaVdax63WHcYV%2BvqfrAMvFTyz8D2d%2BMIfsnBYLY211/K8bTsccdYe/svveo5RPPiWGP7n6Sqf%2BPujpAVBOETBPlIFqoFoCkzXxrDVGHAj0WEJrB5sP7amrh2jBD",
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXOS PCAP_GE_41_2026.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=yHflyRD4Q9ZPzYceEsZfzUcjpLBiVa3IzVkVvZ05xlOzhz64f9enWlkB/IdpIj1qljSzrxHZUuSLHXv%2BwcHHmNIx95zXWJD%2B8Bg9q9LT5SSCx2e6p7hqtlp2aFupgHMr"
+      }
+    ],
+    "organo": "Gerencia de Limpieza Pública y Protección Ambiental Sociedad Anónima Municipal (LIPASAM)",
+    "importe": "11000",
+    "importe_num": 11000.0,
+    "fecha_limite": "2026-11-27",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-13"
   }
 ]
