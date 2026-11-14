@@ -488,7 +488,7 @@
   },
   {
     "folder_id": "CONTR 2026 0000337362",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "redacc. pb, pe, ess, do y coord. s.sobras rehab camarin ma-7179-ay malaga",
     "updated": "2026-10-29T13:42:22.818+01:00",
@@ -526,7 +526,10 @@
     "fuente": "agregadas",
     "descripcion": "REDACCIÓN PROYECTO BÁSICO Y EJECUCIÓN, ESTUDIO DE SEGURIDAD Y SALUD, DIRECCIÓN DE OBRA Y COORDINACIÓN DE SEGURIDAD Y SALUD DE OBRAS ACCESO, CENTRO DE INTERPRETACIÓN Y ACTUACIONES COMPLEMENTARIAS DE REH EN LA TORRE CAMARÍN INTEGRADA EN GRUPO PPV M7179AY",
     "junta_consultado": "2026-10-30",
-    "fecha_captura": "2026-10-30"
+    "fecha_captura": "2026-10-30",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-14",
+    "estado_updated": "2026-11-13T13:41:38.022+01:00"
   },
   {
     "folder_id": "11/2026 licencia",
