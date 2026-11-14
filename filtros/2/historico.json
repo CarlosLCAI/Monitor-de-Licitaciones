@@ -1,7 +1,7 @@
 [
   {
     "folder_id": "PCO001202600081",
-    "estado": "EV",
+    "estado": "ADJ",
     "titulo": "Contratación de la redacción del proyecto basico y de ejecución de rehabilitacion energetica del edificio anexo al Hogar infantil Emilio Romay para locales asociativos enel Concello de A Coruña y la Codirección de las obras",
     "updated": "2026-07-16T15:21:18.635+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=q3uxMbHzr6asNfRW6APEDw%3D%3D",
@@ -28,10 +28,20 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-07-17",
-    "estado_anterior": "PUB",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-06",
-    "estado_updated": "2026-10-05T13:39:43.246+02:00"
+    "estado_anterior": "EV",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-11-14",
+    "estado_updated": "2026-11-13T13:54:40.982+01:00",
+    "docs_adicionales": [
+      {
+        "nombre": "DEUC CONTRATOS DIPUTACION PROVINCIAL DE A CORUNA 2 pph.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=cLnHO37I6SwlWHQImk3sLtuxN4LL9Ns%2B7DgUDy6C/t2xjQIMDoQ7/qbFjghAxAQGH2NLSj2hEeFmmGGKzAGom7GwzO/TmaJXU9IScWm4hlPfdyQgZAdTm3EfcUAC7CJ6"
+      },
+      {
+        "nombre": "INSTRUCCIONES PARA LA CUMPLIMENTACION EL DEUC EN LINEA.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=moF1zauscMtPkpM9yiFqjJxJHY/OGZc31FRHwjDfRPCGqJ5ZmJJEzkmht%2B0xqo3bsagrTChL6fwQIG09TupP4RyOr7XI6aCZ8Kt4UkIF3LFt/o8fNevwsujgRzaBbugn"
+      }
+    ]
   },
   {
     "folder_id": "1005/2026",

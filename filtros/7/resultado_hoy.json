@@ -1,225 +1,26 @@
 [
   {
-    "folder_id": "2185/2026",
+    "folder_id": "SE 37/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Redacción de proyecto, estudio de seguridad y salud, dirección facultativa y coordinación de seguridad y salud y ejecución de las obras de contención de desprendimientos de rocas de diferentes zonas de Ubrique (Cádiz).",
-    "updated": "2026-11-12T17:57:04.184+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=JRzYjuz9Z5%2BS81gZFETWmA%3D%3D",
+    "titulo": "Contrato de servicios para la redacción del Proyecto de Ejecución y Dirección de obra de la actuación 2026/2/edils 4 14  regeneración del entorno plaza de la alpujarra, Órgiva",
+    "updated": "2026-11-13T13:24:59.245+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Fwa%2BKSjyYRzLIx6q1oPaMg%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "45243100",
-      "71242000",
-      "71317200",
-      "45220000",
-      "71332000",
-      "71247000"
+      "71300000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=764BcO73gHjDqyOhdZ06X0MvebqLkE51ODHthqO%2BvaskJmNpjg31JhXWM5mvwA8OCFaKoydWF6aT3dR%2Bh9ph5KEhBbdwM9FBjU2yJu0NErV45ClyWkoJ44mKM70IFcOu",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=B8e/ljS2FXwTg4oSaqDk6FTdz2BkNI17Ryabs/NhO/nExJSuUQ%2Bkobfj%2BCaY75twbXSK//nYSrMswTPHXR9KnOmjqRJw7cB8O0F2Rpfkiru1aXEvq3KHa/AEHgtDrQw0",
-    "docs_adicionales": [
-      {
-        "nombre": "ANEXO VIII.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=edKMeEfxi49LM3rUWtY7Flu6oMUP8%2BOiBlTerCeBoF%2BhJ8u5TVPzYzXPDTJfaHwPKKBqRrTu96bZ5GSV5eG3fDkf6qMbGpgjdGxvNPsihZv3GVhXrFFqN7yFncy7YfRK"
-      },
-      {
-        "nombre": "ANEXO VII.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ecF2bICR8LLHcXPbNXLdX00ibYw0bsevBd1/5PwU5Ui%2BSx3U2fA5WM5pcWFI9RQVTuQihRhzwH%2B7Kl0WQXe0GjPpn8kRGy%2BqUR0g3npuiYEC1/zDIE0Kw/PWNnLS0Z0z"
-      },
-      {
-        "nombre": "ANEXO II B.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=MFJBLQGfZmohti12yUKomoIJjGbLX/Pmzj/4ne660JGlC5S3AMCpDqWAbwWb5yY4KrwYg4qhmqIFabq2u9yMOUGEqm0wKtgSnH6AeisYnvrVTD3T98KC0nSgQFM0q%2B5s"
-      },
-      {
-        "nombre": "ANEXO IX.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ANfnasMvFMBfQEOKVFd%2BGwq5xGJTwobvUHZ3yRuJIrQ2YixyaTI5vbkBQSeApboCmhw2OfIgxMUVTV7SFnKs%2ByLlWfF8YRPciFHnDBAcHFyHAj0WEJrB5sP7amrh2jBD"
-      },
-      {
-        "nombre": "ANEXO III.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QKCbc0TNYtP2lVabEJWuNS8YuYT4gdzd53CrX5txXMyUAORdQgj/Lpgg0x2q%2B7Zx2rm/Uej5wIYrw95J/U15F6Wv5f8Z99CYNS0InMMlgVc//q7NB2iMZvNyf0xrJmjt"
-      },
-      {
-        "nombre": "ANEXO V.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=7FxzaqbYxqLuFh9CnXtUvYDltmZDQpFvHKBT97b1W4CChgS/QEeScvi5bCYou8UXGqEY9/qoN%2BQ6qQ05IXTE61wMDWU3ozvpKu5AIbdYCGuCx2e6p7hqtlp2aFupgHMr"
-      },
-      {
-        "nombre": "ANEXO VI.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1ESdVpr4qIZxbLs5w1JvYoQdm%2BWccaTbhZebm1IVDrXhGpdmMD3CiBiklaL0RCcsK1aB0WvZL8wOcdNshuFcsNcMfpPnShvj4ypjkef%2BlC7VTD3T98KC0nSgQFM0q%2B5s"
-      },
-      {
-        "nombre": "ANEXO IV.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wz%2B2StmQj2V4P6hnXCJJTa6JyjIYDajwEAmDAzMVD1BS4Iqv//9uo6u0VjRkFbCeyNkqqoybrsB9uWfdTKiW1fnx0j4oxVRaMch1uXsFXoJ45ClyWkoJ44mKM70IFcOu"
-      },
-      {
-        "nombre": "ANEXO X.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=jdA/9gP92rNWJ2MKqQXV2ykHCEvqDO8t7zn69qOyfVR3LokoSB6jvWasfxswZiJ3sruFShvL4bW9osTxRzKgz2H4bpzrkTDcUwg1II5u9CH3GVhXrFFqN7yFncy7YfRK"
-      },
-      {
-        "nombre": "ANEXO II A.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0u2TZW3rNstUCLL2rHnK9NfxLJ3Jf10k786xiSDgqLfvrAPEySdWrXJWqPa1THhRjJ/zLSQt6fm7YGLXIZtfrHPo9lD1q%2B3KJIs9BkOvDPAC1/zDIE0Kw/PWNnLS0Z0z"
-      },
-      {
-        "nombre": "ANEXO I.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=AuPTQWy%2BcoF4XwC3IpZLPP4jdxsiIDScP8FTtssC6RCgN8N7xMQmBL0o6F8R1cHRZ/2X4Jw4M9FrNg5tx04Qr%2Bdqm7E7uI8%2BYnDVc3BYLD6Cx2e6p7hqtlp2aFupgHMr"
-      }
-    ],
-    "organo": "Alcaldía del Ayuntamiento de Ubrique",
-    "importe": "3161498.35",
-    "importe_num": 3161498.35,
-    "fecha_limite": "2026-12-02",
-    "tipo_contrato": "3",
-    "tipo_contrato_match": true,
-    "procedimiento": "1",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "2026/000244-PEA",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Asistencia técnica para el ejercicio de funciones coordinación en materia de seguridad y salud en obras del Plan Estratégico 2024-2027",
-    "updated": "2026-11-12T14:09:50.564+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=5JGvdi4q86njHF5qKI4aaw%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71317200"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=X7vP%2B8xdkjupYRh4kccEppJNd8wol3Ls/cnDv9coGudaJC6ZtcXIgYADIVWKSfadC8b%2BgD9BcqD/8z%2BOssaAt%2BzkZ%2BIuv7dgIdeiH4FnNP/VTD3T98KC0nSgQFM0q%2B5s",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=TPaWWuDnbAmygWxC0x3ahtUs9zxDUIlqruy9RWIUZ0rTjYK2htlDEA004zKRPraorpQ5TRgpqCTB9GB7IBzWjWJAvwCswhsGaOsgS1c6qSrDdQD9RyhUmzT4jZ2In4zL",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Mho3GUO9E4aIBcHF8tEica7RPqNIsC2D6lbZZYaYERmC%2Bax4gmSnR%2B7OibLnrF9CFrPBhkT2t0sMD8j13exMO0pw5a5BkyL%2B1/vk0CXzcteHAj0WEJrB5sP7amrh2jBD",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=tDkI/YCyv1emfq6YE1WZ5yCTGdmw5/fpq8ewL0Vri83/Chqe9KV9vy/nlicjm9wBgQ53S3tCtUAYUHPlOlTTb64eah3kI4X/MemS%2BDpGHQA//q7NB2iMZvNyf0xrJmjt",
     "docs_adicionales": [],
-    "organo": "Presidencia de la Diputación Provincial de Sevilla",
-    "importe": "140923.28",
-    "importe_num": 140923.28,
+    "organo": "Presidencia de la Diputación Provincial de Granada",
+    "importe": "51065.64",
+    "importe_num": 60768.11,
     "fecha_limite": "2026-11-30",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "1",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "C-45-26",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "contratación por lotes de la rehabilitación de la cubierta del edificio de pretratamiento de la EDAR cerro del águila ",
-    "updated": "2026-11-12T11:46:55.954+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=A7diS9HE4dlrSd8H4b2soA%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "45000000",
-      "45200000",
-      "71500000",
-      "71000000",
-      "71540000",
-      "45260000",
-      "71520000",
-      "45000000",
-      "45200000",
-      "71540000",
-      "71500000",
-      "45260000",
-      "71000000",
-      "71520000",
-      "45000000",
-      "71540000",
-      "71520000",
-      "71500000",
-      "45200000",
-      "71000000",
-      "45260000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2cHgNV2KneHgtr0PQ7wfh61R7Gc37282wE0JFljNvkhCM/4DVcS9DjUAKviJPfYKlKL51raVNtA469kvO1xD%2BFGPDzZLQArENmO1FZLiUvJ7QB3HKyQaFUExmUVQCerk",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=osA%2BRrMQi7e1z0QxWAFh9wwMSJI44CNzb/eqvZfFgrcG7IqzCiwxcyKUcnHFL3PNsthwmOTQHH7/LEcgbkDAzDn4YwaaVj37wT5yTFDkdxeCx2e6p7hqtlp2aFupgHMr",
-    "docs_adicionales": [
-      {
-        "nombre": "PPTP REPARACION CUBIERTA EDAR CERRO DEL AGUILA L2 DF.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=XoUpnGm5oG7aqzrTTetVJj6iJjHmb3LgY2M08fdrjhy0ndyCdt89n6Jy8LXviGpYSDV9m5PVQRR2oo8a84UksijNohs6Vw1NeGTaY9Xe4xs//q7NB2iMZvNyf0xrJmjt"
-      }
-    ],
-    "organo": "Consejería delegada de ACOSOL, S.A.U.",
-    "importe": "477621.16",
-    "importe_num": 477621.16,
-    "fecha_limite": "2026-12-14",
-    "tipo_contrato": "3",
-    "tipo_contrato_match": true,
-    "procedimiento": "1",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "476/2026",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Servicios de redacción de proyecto,estudio de Seguridad y Salud,dirección de obra y de ejecución y coordinación de seguridad y salud para obras del campo de fútbol municipal,financiado con cargo a las ayudas de la Administración General del Estado,a través del Ministerio de Política Territorial y Memoria Democrática,previstas en el artículo 7 del Real Decreto-ley 5/2026,de 17 de febrero.",
-    "updated": "2026-11-12T10:02:34.317+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=lE4aGNUeWffs%2BnLj3vAg5A%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71000000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=vAg%2BraQ6bb765oBpb0AwO6mVGwUePkS2U/54TtE3/nsuLwqGloABF%2BuUEcIiCtYm3wSlbevKNsyqQYbmDGAzq8pa9q6TMlmmklMYUTr4eeHVTD3T98KC0nSgQFM0q%2B5s",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=NI0Z%2BOtqLDO69CmHqqhcxaCMzuUaWEY4CoGzwu/T3dXMu6M09PUmTiF12z40XHnON7LEeDegqt%2Bt%2BqKXRD49lmyEpkMOCgfMPGsCCd1sFNkZyAJWGsSt0OzTSTyw9JAs",
-    "docs_adicionales": [
-      {
-        "nombre": "ANEXO I DECLARACION RESPONSABLE.doc",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=05qoQOblBl3%2Bj%2BsJRohXAM4gNbwerAaiNkG5X0Ii9ENJ%2BYCTWPNT5NrJ6IwuV8GVu%2BmcDnBeKF3l7h8BohcsrsiXe2YOUNuX1yxzFQbH%2BFj6CYyL7SIrUOBFfNf52ZqA"
-      },
-      {
-        "nombre": "ANEXO II PROPOSICION ECONOMICA Y RESTO DE CRITERIOS CUANTIFICABLES DE MANERA AUTOMATICA.doc",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=G50VAHxpygDh/5oZlvbpDXDd7KV/d78kUOpnjBaxnmysoRNZoKcsUgpeDBwFzxwax9xCXE%2BDGdcQw26D%2BC/P9krCJjshi/%2BfdIU3SlnWpQOHAj0WEJrB5sP7amrh2jBD"
-      }
-    ],
-    "organo": "Alcaldia del Ayuntamiento de Escañuela",
-    "importe": "16363.64",
-    "importe_num": 16363.64,
-    "fecha_limite": "2026-11-27",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "S-04657-2026",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "DF y CSS en obras sustitución ascensores CP RTVE Andalucía, Sevilla",
-    "updated": "2026-11-12T09:56:45.385+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=P8BPR%2FbkKR%2BTylGzYmBF9Q%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71000000",
-      "71317200",
-      "71520000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/UenCrt1%2BgxIeomHUgwLACCk2iv8nZYPXkkejApQZthgQqi3LNXTSO1imgk9KzhU4UzhC/H3KKoNkQh/VlXIFbBhDKcB3ogL8Kf5IszJ1Oq1aXEvq3KHa/AEHgtDrQw0",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=nR%2BHU2OtfcPArY9VVL0%2BXIevKi96haiicq3bBi0ca2MP3Z6QdW%2BEHogm7KA7E6KEcwKft9sSG8HCv6ShoUz68S/5EbNzBl8CUia5xDdX2hXDdQD9RyhUmzT4jZ2In4zL",
-    "docs_adicionales": [
-      {
-        "nombre": "Mod Anexo I 4657.xlsx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2QAK1U9Ys7YbjPQLxhVaNgZCHcVHmXHLSpKrAHF89myfkxgc4kZfJ/secGgzfuKMlM9xDIQer%2BfZjEcZCqLRK375aB3txCt3zMgPr6h75HZt/o8fNevwsujgRzaBbugn"
-      },
-      {
-        "nombre": "Mod Anexo III 4657.xlsx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iQBUa8LL2He0f%2BMesPUn1tPcIumlSSzw9BCFd/n//TabwANxDEJ7Sq7hHzNDwfTDGqui0E7g2V1sTn02iF0OjFPpT07URzBdhL3BpMH1uxk//q7NB2iMZvNyf0xrJmjt"
-      }
-    ],
-    "organo": "Compras de la Corporación de Radio y Televisión Española S.A.",
-    "importe": "12030",
-    "importe_num": 12030.0,
-    "fecha_limite": "2026-11-30",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles"

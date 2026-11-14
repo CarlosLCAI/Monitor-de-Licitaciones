@@ -1808,7 +1808,7 @@
   },
   {
     "folder_id": "20261056-V",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "Contrato de servicios para el control y vigilancia de los trabajos y el asesoramiento y coordinación en materia de medio ambiente de las obras del proyecto de construcción de Actuaciones de reparación en la estructura AP-0007-0909+665 (A06-AP7-0003-VI) de la autopista AP-7 Cartagena-Vera. Clave obra 38-AL-0048.",
     "updated": "2026-09-17T10:13:10.387+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=vXtjGHjCWeXpxJFXpLZ%2B2A%3D%3D",
@@ -1834,7 +1834,37 @@
     },
     "fecha_captura": "2026-09-18",
     "revisado_humano": false,
-    "revisado_fecha": null
+    "revisado_fecha": null,
+    "docs_adicionales": [
+      {
+        "nombre": "Anexo IV modelo proposicion economica y tecnica.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Chi5kps6td6sB5bOoDPnnfcNzWKMzNSZ%2BE2/sRfXYK8Gv7hpER7J2WDWS9zNFfxgZ/R8kjpE/QrAXW%2BXyebbO6mpDYQS3VkB7e86mcShEiJ7QB3HKyQaFUExmUVQCerk"
+      },
+      {
+        "nombre": "Anexo IX Modelo declaracion de confidencialidad.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iVr9XPOFOtSfIfoqTj%2BKLf8KuROfcZ/vbz27m5Y6f%2B1E64yRigYBPNMrD5Ra5eToLXbwfNPLJNH3%2BmbfdbrwTRE5w/e/of38gEU8XwMGnIJt/o8fNevwsujgRzaBbugn"
+      },
+      {
+        "nombre": "Anexo X Modelo declaracion grupo empresarial.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=tBrzojMMJNGT0PyDG%2BS442a3lQ4n5eOzxe1DL%2ByKhhq/Tty8Umpg/q5J/Q2ENch2RRvMYmLfabOaacMK9KDt7hkMtndZetVrIhER6Ljswr%2BCx2e6p7hqtlp2aFupgHMr"
+      },
+      {
+        "nombre": "Anexo I Modelo declaracion complementaria al DEUC.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=fGr%2BfzJMqm6oEu88PtPSKUnQ0MGUZ9uem4nAD3MPx9s%2BFrW/H%2BqrNxr7PbscP9E6Cs%2BC/CEqaNVJHkITng8686udgC2isy0WomUuSsKcPym1aXEvq3KHa/AEHgtDrQw0"
+      },
+      {
+        "nombre": "DEUC formato PDF y XML.zip",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=vBqyZTVXHzF6rBLiXp%2BZoJZNW64L2RfNNfor1EXUiJiuR%2B1TGbQ51IB/AmWeiciT4hoq7KIOTa1BaG0pjmxST6GzEui7%2BbNRdhfqsG6ZJ%2B36CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "Anexo XI Modelo declaracion compromiso UTE.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wmM2qPx8/n2dhM5045uvcn1lRLWGsiuhjJ0s9P5hPz2hbOqdGwjVqlhUCs6i0lvRJ9clBnPHwDG7hifjHZawgYas7qBaXj%2BUvPOddWFAkFTVTD3T98KC0nSgQFM0q%2B5s"
+      }
+    ],
+    "estado_anterior": "PUB",
+    "resultado": null,
+    "estado_cambiado_el": "2026-11-14",
+    "estado_updated": "2026-11-13T12:47:39.434+01:00"
   },
   {
     "folder_id": "35453/2026",
@@ -1930,7 +1960,7 @@
     "organo": "Alcaldia del Ayuntamiento de Beas de Granada",
     "importe": "127300",
     "importe_num": 127300,
-    "fecha_limite": "2026-11-03",
+    "fecha_limite": "2026-05-15",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1942,7 +1972,7 @@
     },
     "fecha_captura": "2026-09-22",
     "resultado": null,
-    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
+    "estado_updated": "2026-11-12T16:01:41.407+01:00",
     "docs_adicionales": [
       {
         "nombre": "DEUC.pdf",
@@ -1952,7 +1982,9 @@
         "nombre": "DEUC .xml",
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YT6JPBSl4vzEdmckXX0fDFnn00xcBxZkYbL5PBbFiXCK%2Bdg45lzUhWMPyyG58W7kpAZnUzNcTUc2gcMN9Ao7eBTQ3mWBctiWmxSF5s8nal/DdQD9RyhUmzT4jZ2In4zL"
       }
-    ]
+    ],
+    "fecha_limite_anterior": "2026-11-03",
+    "fecha_limite_cambiada_el": "2026-11-14"
   },
   {
     "folder_id": "115/2026",
@@ -5906,14 +5938,17 @@
     "organo": "Alcaldia del Ayuntamiento de Marinaleda",
     "importe": "49586.78",
     "importe_num": 49586.78,
-    "fecha_limite": "2026-11-12",
+    "fecha_limite": "2026-11-23",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-10-28"
+    "fecha_captura": "2026-10-28",
+    "fecha_limite_anterior": "2026-11-12",
+    "fecha_limite_cambiada_el": "2026-11-14",
+    "estado_updated": "2026-11-13T14:07:09.554+01:00"
   },
   {
     "folder_id": "2026/3764",
@@ -8778,5 +8813,265 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-13"
+  },
+  {
+    "folder_id": "2026/SVS/000869",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicios de formación para la obtención del certificado de profesionalidad Operaciones de Grabación y Tratamiento de datos. CÓDIGO  ADGG0508.",
+    "updated": "2026-11-13T14:21:23.923+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=8%2BcdKILgo17CfVQHDepjGQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "80500000",
+      "71356200"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QNRHYNsp8mGsjWQO%2B%2BMm9T/BE40OSppyn7jzJqv381Q4t8CTLnygqSCXuE4BZKl3WM9h1OUbTUu9/6DVOKWdbj7TJSt5dZ3OQzi3jNmYfxVt/o8fNevwsujgRzaBbugn",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=opynu2s8SB9yeAJ0zqv8SfjoXb0qnlRZNE6BHbXoVXt5uDUGkl/RiB7TBUwYDwag2KKUZkdPjE3UbrX5Z5j%2Bv017P51quPj%2B8uhzR7KoDJiB0nvVKRzfe4rpHcnlPhSZ",
+    "docs_adicionales": [
+      {
+        "nombre": "Anexo III editable.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=NjoCG5XoRR/6j%2BXiB42xy7E6VL5NvZTct0Ir8ccTl6HKemvfG73AWAms4trlej6gqr9psPQ2JivRaL6xG%2B2dN1QN2Oabr73k5SlCSMqEkO0ZyAJWGsSt0OzTSTyw9JAs"
+      },
+      {
+        "nombre": "Anexo II editable.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YQwgNX40eNUl%2BYdswB%2B0vH6ttFAbHumfZ0gju1cZm1DpcoSl2/w/m7JS5Gn8%2BvotcJAKDIMriKZPKCLAEAIVdVJCRR2kKQrA7x9XNv7fom6B0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "Anexo pcap.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=bQaL%2BtLKsDaX9Vde4TzG2BvCa6ayPpMxxcjnOd9/pCl3n%2BvUSoSkoSkOif9VUPFr1%2BFR6WL9D5i856hBhA5ZXrHuyryn7/cX3wt0LCjYpTq1aXEvq3KHa/AEHgtDrQw0"
+      },
+      {
+        "nombre": "Informe Memoria 869.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Sf4vIdJy9fCIuM2WgYFsj21wekCwMs2bKp/hGTyJIhcpfse5IeO9XoYBekNfZzUUxLoEJ/RIkEsibqTDg0NyYacLCtRIkp4zEtRvjAc4DY0ZyAJWGsSt0OzTSTyw9JAs"
+      },
+      {
+        "nombre": "RESOLUCION INICIO 869.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=NlAqAwaDmIwZPdjJBnhKk3yghViAD/8zK7q2nQ%2Ba2xvfd2BwQlxDXiXnBqthB5yagBfJ0tA%2BvH/%2B84qji9KRZmVNm/xTA5tEXIMv4M4ksLmHAj0WEJrB5sP7amrh2jBD"
+      }
+    ],
+    "organo": "Junta de Gobierno del Ayuntamiento de Sevilla",
+    "importe": "59385",
+    "importe_num": 59385.0,
+    "fecha_limite": "2026-11-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-14"
+  },
+  {
+    "folder_id": "2026/SVS/000867",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicios  de  formación  incluidos  en  el  itinerario Montaje de instalaciones electrotécnicas y de Telecomunicaciones Código ELES0208 ",
+    "updated": "2026-11-13T14:16:39.913+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=tP%2FHVd4csur%2B3JAijKO%2Bkg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "80500000",
+      "71356200"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=aher60p5R8WOZ71sjETxyce274sJgeB1C152MeEPqwJfDS/UiO0u1HWhspcDsegAAQOHck3jzi0KXsww6c5koFVxFmJpKfkeuaj7sh89l//fdyQgZAdTm3EfcUAC7CJ6",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Tnu780j1y8qx45WUNqnunSg6QfQfkvZm36IRiO6SRKDTeNh57eNEjsb6g/t0Zu7Awr8c7eeEbHk9tzfFgmEKVe44S1fWGG6pvXnr2vvYdD/fdyQgZAdTm3EfcUAC7CJ6",
+    "docs_adicionales": [
+      {
+        "nombre": "Anexo II editable.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=bkJwShLOJTyujkWkaHknq3X8NEAChykwAFIiYRtlFsNNNe/ko2cdQrUfL2RT5ZA8bdDOTxzsWoxXhL2ljlB5yxrYvqNE8jYSKis5Yh%2B4Fj/3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "Anexo III editable.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=sUeLRB5DUkeM6ZzLd9RqZchEArGiO2dKTL2%2B0%2B9XDNJDLk3tXkf75Y0F5Ij9Pw9PZPR5ZWOTE2CJpZmL/N6Fn1r5Kg6DHrPiFZXP1DRfj9p45ClyWkoJ44mKM70IFcOu"
+      },
+      {
+        "nombre": "Informe Memoria.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/DDRi/Bzx0peYPGO6ysLvBq5BwudH33RrCS9yOJTWLe0/yZNcVdvMl6U6HWnzsyc45O/7uC5GI%2Bf%2BSFJJ4/WChREJi0D1s%2BHTWGePw7yVla1aXEvq3KHa/AEHgtDrQw0"
+      },
+      {
+        "nombre": "RESOLUCION INICIO.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=b0V/tq5de4ArDY6MfipfOnbp1gZMYqXOAAwctKwlTZXeu9yYYK9Ncok9PYXLu7fOicUjDT77qzl6UNJDgekZsDbQbmbfc%2BaMvB5jezYQ/797QB3HKyQaFUExmUVQCerk"
+      },
+      {
+        "nombre": "Anexos pcap.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=UATg%2BBrF0IQaLkmbTYJAshebD4PKcX82I8/RnlAJqDcKFEGoOqpBtcncRVHmPWX2PqmrX9HBI6L/S9piZT1Fr2%2B0pVt3x0XMZs5hgfvya2gZyAJWGsSt0OzTSTyw9JAs"
+      }
+    ],
+    "organo": "Junta de Gobierno del Ayuntamiento de Sevilla",
+    "importe": "50032.5",
+    "importe_num": 50032.5,
+    "fecha_limite": "2026-11-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-14"
+  },
+  {
+    "folder_id": "0624/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Asistencia Técnica para el Cálculo de la Huella Hídrica\r\n",
+    "updated": "2026-11-13T14:01:52.444+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=k2KQHhVyTuqExvMJXBMHHQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71356200"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=SgOqk45u3X7gbC/3bA9JyPeZ456UvZwy2mF1mEZf5lTG01V30Gy/%2BMCONhNQRSg0eoPMDkLrSz1Cw0t2okKGM9Jfdlupw9TKpFVY1Bw%2Burlt/o8fNevwsujgRzaBbugn",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=79z3wiVmopd67TJ9/Y6Wxf71KpEQZDHBly7jqBNZF5NJbZ0NcvxCsfOXdRWlCz0Z9pnWo0EsbGb6wo/A2%2BsWoT8FaEWzC91gAjgwVLnVPz0ZyAJWGsSt0OzTSTyw9JAs",
+    "docs_adicionales": [],
+    "organo": "Consejería Delegada de la Empresa Metropolitana de Abastecimiento y Saneamiento de Aguas de Sevilla S.A. (EMASESA)",
+    "importe": "10000",
+    "importe_num": 40000.0,
+    "fecha_limite": "2026-11-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-14"
+  },
+  {
+    "folder_id": "SE 37/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de servicios para la redacción del Proyecto de Ejecución y Dirección de obra de la actuación 2026/2/edils 4 14  regeneración del entorno plaza de la alpujarra, Órgiva",
+    "updated": "2026-11-13T13:24:59.245+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Fwa%2BKSjyYRzLIx6q1oPaMg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71300000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Mho3GUO9E4aIBcHF8tEica7RPqNIsC2D6lbZZYaYERmC%2Bax4gmSnR%2B7OibLnrF9CFrPBhkT2t0sMD8j13exMO0pw5a5BkyL%2B1/vk0CXzcteHAj0WEJrB5sP7amrh2jBD",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=tDkI/YCyv1emfq6YE1WZ5yCTGdmw5/fpq8ewL0Vri83/Chqe9KV9vy/nlicjm9wBgQ53S3tCtUAYUHPlOlTTb64eah3kI4X/MemS%2BDpGHQA//q7NB2iMZvNyf0xrJmjt",
+    "docs_adicionales": [],
+    "organo": "Presidencia de la Diputación Provincial de Granada",
+    "importe": "51065.64",
+    "importe_num": 60768.11,
+    "fecha_limite": "2026-11-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-14"
+  },
+  {
+    "folder_id": "1583/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contratación para la prestación del servicio para la asistencia técnica en los actos preparatorios para la redacción del Plan Básico de Ordenación Municipal de Paterna de Rivera.",
+    "updated": "2026-11-13T13:04:35.175+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=03fYI64YUhr5Rey58Yagpg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71400000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=68gt1Oz//x2FOPIJUvGWDmkRuf4CAtOkOKEfygzvkheRLrKzW7CimITottMIk0PFuLEWY9nrhUsSgMbn6o/UZpy0cDUvQtB39Hh7%2Bhi%2BDrAZyAJWGsSt0OzTSTyw9JAs",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ugyHVU%2BOn62i0uWhf0AFGC%2BNML9VtHXNZr3VZwiiiSeMJxHOIIAFhIGL48sqBw4w7NCo1ZCRcoGijo57CyxSJJp9058o2/jB%2BN7V7zCEF%2Bo//q7NB2iMZvNyf0xrJmjt",
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXO 6.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=47%2BQpbIocUfa3yzaXcSQaM5nuGySHSXLxqugDCFemlJU%2BKLeWQcs3ynfV7Awh8bkJnBXiv3fdn8o2n/L/XRVyUTjWufSt58O8EagS7aDsgo//q7NB2iMZvNyf0xrJmjt"
+      },
+      {
+        "nombre": "ANEXO 9.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9agcZFFqcySablM4C8RZZDTii9QXAe9LoEAPPlHC6n4sNU4HrNTAdt7h8K%2BUjzEW%2BwyqGZxzHx/vM1E6h3XlRWcjMChZm%2BoblsAzljexz4jVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "ANEXO 4.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=5WHE%2Be2VHRxMwfaeyukYSAQB07ZYsShxjkKSkss160ongAFLvpK3WZhLb3iCSPPQ0109jvyclecGv6ehPcpaXcEIs8rgmdmtt%2BGwlBZMttB7QB3HKyQaFUExmUVQCerk"
+      },
+      {
+        "nombre": "ANEXO 7.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ExizSCbJLWRvMgRwkgKP6JD0AgEl0CijGZ2wBBUcRronKX3mQiAgeGO5EqMNSvzMdcU%2BZpJF3n%2Bt7BNkE6J9MvBLjd08ITMcB93J0E1ulHmB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "ANEXO 12.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=n6SbPrwn2l8b1ua0RlMm44RjRIKqG8LYfwDFZXM2d6SHe5CgXlPdtfm4ZrkGEHSXlUaTG4yn8ti6Fcrlz%2BdG9AAxPMVLrddXwjwFQ3m%2BtAlJOVDbGCDM%2BMigrvuVS7Rv"
+      },
+      {
+        "nombre": "ANEXO 13.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=eAziiYspsPdqSLBdSOFpF/iICxGSBuW7WlBElYKOIM8O9HQOWIHRZsT6GiyYJRcWugbDTw26Mg6jBsuvGwe%2ByQGKI/WPfDyCQ06SVT/bPti1aXEvq3KHa/AEHgtDrQw0"
+      },
+      {
+        "nombre": "ANEXO 5.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=GUwev1shFz2%2BiuCa81lFrtKHINyIkvZP9cW0M31fE8rtVq6m6GMzNUSZo1Vipg3JGHJfAxhGE3ILrFmZe8k9ZOai3P4tTne83o3GMlk6YYzVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "ANEXO 3.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=MldAFcw7vYLG2l%2B/2I5cLrewwwo8J8ZxLtkOZIRh%2BTA2NN/ss3bcNc6UtX1NZMG/fAr/UrkHLxVCMMLoIVAdwu%2BsVSt264dTvHYRVFb6x6XfdyQgZAdTm3EfcUAC7CJ6"
+      },
+      {
+        "nombre": "ANEXO 2.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Xzkw6iSlRcNY96oaWMw9%2BN3rLAq/v3Xo06shw3CmKP4nIoD82pKs6pVeXGTh2dzt1tNRrd8RMKw5pBIhAkkah%2BA/I2mi6oAlZF1PETN4vhmHAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "ANEXO 11.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=VjlYUyRpwA1jsNavcDxlhX3ho9m8d8RKp2LKRd9%2BCQize%2BvDWLv6dTJccMM/%2BlRt/HWsoatEZ5T2vaJXC7doMBykMnx9LIYimKtdgqEZQ7rVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "ANEXO 8.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=O7p7Tv2tXilvOvK1UrL6ianchaYZXQYAgMlQCo6t4daQHNvOSqWhWLDhgP%2Bx4Fjj/7tGjQvpQogTFJjYC7hBqDmZ4Kd2kai2Z6X89kyVDR57QB3HKyQaFUExmUVQCerk"
+      },
+      {
+        "nombre": "ANEXO 10.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=NX1ap%2B442mJ7RIuyiN65Y3bRSCCpaKwk4BdD7lzMrCUJVp1L4ahDGDRG3kkIO9WOWPBZBLvoocOGG%2B4lF684zrU4%2BJrgWS0%2BGRDW5lQGoK145ClyWkoJ44mKM70IFcOu"
+      }
+    ],
+    "organo": "Alcaldía del Ayuntamiento de Paterna de Rivera",
+    "importe": "99414.05",
+    "importe_num": 99414.05,
+    "fecha_limite": "2026-12-03",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-14"
+  },
+  {
+    "folder_id": "1930/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato Servicios de redacción de los Proyectos técnicos, dirección facultativa y coorinación de seguridad y salud de las actuaciones de reparación y mejora de infraestructuras y pavimentos municipales del Ayuntamiento de Padul.",
+    "updated": "2026-11-13T08:15:16.054+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=V3qSsDdzxnaFlFRHfEzEaw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71242000",
+      "71242000",
+      "71242000",
+      "71242000",
+      "71242000",
+      "71242000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=OWRU/b6PARESmSReWeh2jQx%2BVLa/HAAEq1OudWf72%2BughLm0I1rZquoKlGkEe72mbpvtzsMZQYBM6FnBenWqbQAFiN576bNovX7TcpgDVBd45ClyWkoJ44mKM70IFcOu",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=eDrMf4qi3Qs/NpaKtJaQ5drmw3DnIlwVljWMNDsmE46qypyVYbRCIaMGir9Ue3GWlXaV%2B/s3q%2B0/5no5xqI1nIHiH2pt%2BexORjQmnIQqfi5JOVDbGCDM%2BMigrvuVS7Rv",
+    "docs_adicionales": [],
+    "organo": "Alcaldía del Ayuntamiento de Padul",
+    "importe": "81280.99",
+    "importe_num": 98350.0,
+    "fecha_limite": "2026-11-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-14"
   }
 ]

@@ -3196,7 +3196,7 @@
     "organo": "Alcaldia del Ayuntamiento de Beas de Granada",
     "importe": "127300",
     "importe_num": 127300,
-    "fecha_limite": "2026-11-03",
+    "fecha_limite": "2026-05-15",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -3204,7 +3204,9 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-22",
-    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
+    "estado_updated": "2026-11-12T16:01:41.407+01:00",
+    "fecha_limite_anterior": "2026-11-03",
+    "fecha_limite_cambiada_el": "2026-11-14"
   },
   {
     "folder_id": "5187/2026",
@@ -3684,14 +3686,17 @@
     "organo": "Alcaldia del Ayuntamiento de Marinaleda",
     "importe": "49586.78",
     "importe_num": 49586.78,
-    "fecha_limite": "2026-11-12",
+    "fecha_limite": "2026-11-23",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-10-28"
+    "fecha_captura": "2026-10-28",
+    "fecha_limite_anterior": "2026-11-12",
+    "fecha_limite_cambiada_el": "2026-11-14",
+    "estado_updated": "2026-11-13T14:07:09.554+01:00"
   },
   {
     "folder_id": "2026/3764",
@@ -6114,5 +6119,32 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-13"
+  },
+  {
+    "folder_id": "SE 37/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de servicios para la redacción del Proyecto de Ejecución y Dirección de obra de la actuación 2026/2/edils 4 14  regeneración del entorno plaza de la alpujarra, Órgiva",
+    "updated": "2026-11-13T13:24:59.245+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Fwa%2BKSjyYRzLIx6q1oPaMg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71300000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Mho3GUO9E4aIBcHF8tEica7RPqNIsC2D6lbZZYaYERmC%2Bax4gmSnR%2B7OibLnrF9CFrPBhkT2t0sMD8j13exMO0pw5a5BkyL%2B1/vk0CXzcteHAj0WEJrB5sP7amrh2jBD",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=tDkI/YCyv1emfq6YE1WZ5yCTGdmw5/fpq8ewL0Vri83/Chqe9KV9vy/nlicjm9wBgQ53S3tCtUAYUHPlOlTTb64eah3kI4X/MemS%2BDpGHQA//q7NB2iMZvNyf0xrJmjt",
+    "docs_adicionales": [],
+    "organo": "Presidencia de la Diputación Provincial de Granada",
+    "importe": "51065.64",
+    "importe_num": 60768.11,
+    "fecha_limite": "2026-11-30",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-14"
   }
 ]

@@ -1,1 +1,77 @@
-[]
+[
+  {
+    "folder_id": "1583/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contratación para la prestación del servicio para la asistencia técnica en los actos preparatorios para la redacción del Plan Básico de Ordenación Municipal de Paterna de Rivera.",
+    "updated": "2026-11-13T13:04:35.175+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=03fYI64YUhr5Rey58Yagpg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71400000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=68gt1Oz//x2FOPIJUvGWDmkRuf4CAtOkOKEfygzvkheRLrKzW7CimITottMIk0PFuLEWY9nrhUsSgMbn6o/UZpy0cDUvQtB39Hh7%2Bhi%2BDrAZyAJWGsSt0OzTSTyw9JAs",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ugyHVU%2BOn62i0uWhf0AFGC%2BNML9VtHXNZr3VZwiiiSeMJxHOIIAFhIGL48sqBw4w7NCo1ZCRcoGijo57CyxSJJp9058o2/jB%2BN7V7zCEF%2Bo//q7NB2iMZvNyf0xrJmjt",
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXO 6.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=47%2BQpbIocUfa3yzaXcSQaM5nuGySHSXLxqugDCFemlJU%2BKLeWQcs3ynfV7Awh8bkJnBXiv3fdn8o2n/L/XRVyUTjWufSt58O8EagS7aDsgo//q7NB2iMZvNyf0xrJmjt"
+      },
+      {
+        "nombre": "ANEXO 9.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9agcZFFqcySablM4C8RZZDTii9QXAe9LoEAPPlHC6n4sNU4HrNTAdt7h8K%2BUjzEW%2BwyqGZxzHx/vM1E6h3XlRWcjMChZm%2BoblsAzljexz4jVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "ANEXO 4.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=5WHE%2Be2VHRxMwfaeyukYSAQB07ZYsShxjkKSkss160ongAFLvpK3WZhLb3iCSPPQ0109jvyclecGv6ehPcpaXcEIs8rgmdmtt%2BGwlBZMttB7QB3HKyQaFUExmUVQCerk"
+      },
+      {
+        "nombre": "ANEXO 7.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ExizSCbJLWRvMgRwkgKP6JD0AgEl0CijGZ2wBBUcRronKX3mQiAgeGO5EqMNSvzMdcU%2BZpJF3n%2Bt7BNkE6J9MvBLjd08ITMcB93J0E1ulHmB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "ANEXO 12.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=n6SbPrwn2l8b1ua0RlMm44RjRIKqG8LYfwDFZXM2d6SHe5CgXlPdtfm4ZrkGEHSXlUaTG4yn8ti6Fcrlz%2BdG9AAxPMVLrddXwjwFQ3m%2BtAlJOVDbGCDM%2BMigrvuVS7Rv"
+      },
+      {
+        "nombre": "ANEXO 13.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=eAziiYspsPdqSLBdSOFpF/iICxGSBuW7WlBElYKOIM8O9HQOWIHRZsT6GiyYJRcWugbDTw26Mg6jBsuvGwe%2ByQGKI/WPfDyCQ06SVT/bPti1aXEvq3KHa/AEHgtDrQw0"
+      },
+      {
+        "nombre": "ANEXO 5.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=GUwev1shFz2%2BiuCa81lFrtKHINyIkvZP9cW0M31fE8rtVq6m6GMzNUSZo1Vipg3JGHJfAxhGE3ILrFmZe8k9ZOai3P4tTne83o3GMlk6YYzVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "ANEXO 3.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=MldAFcw7vYLG2l%2B/2I5cLrewwwo8J8ZxLtkOZIRh%2BTA2NN/ss3bcNc6UtX1NZMG/fAr/UrkHLxVCMMLoIVAdwu%2BsVSt264dTvHYRVFb6x6XfdyQgZAdTm3EfcUAC7CJ6"
+      },
+      {
+        "nombre": "ANEXO 2.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Xzkw6iSlRcNY96oaWMw9%2BN3rLAq/v3Xo06shw3CmKP4nIoD82pKs6pVeXGTh2dzt1tNRrd8RMKw5pBIhAkkah%2BA/I2mi6oAlZF1PETN4vhmHAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "ANEXO 11.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=VjlYUyRpwA1jsNavcDxlhX3ho9m8d8RKp2LKRd9%2BCQize%2BvDWLv6dTJccMM/%2BlRt/HWsoatEZ5T2vaJXC7doMBykMnx9LIYimKtdgqEZQ7rVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "ANEXO 8.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=O7p7Tv2tXilvOvK1UrL6ianchaYZXQYAgMlQCo6t4daQHNvOSqWhWLDhgP%2Bx4Fjj/7tGjQvpQogTFJjYC7hBqDmZ4Kd2kai2Z6X89kyVDR57QB3HKyQaFUExmUVQCerk"
+      },
+      {
+        "nombre": "ANEXO 10.odt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=NX1ap%2B442mJ7RIuyiN65Y3bRSCCpaKwk4BdD7lzMrCUJVp1L4ahDGDRG3kkIO9WOWPBZBLvoocOGG%2B4lF684zrU4%2BJrgWS0%2BGRDW5lQGoK145ClyWkoJ44mKM70IFcOu"
+      }
+    ],
+    "organo": "Alcaldía del Ayuntamiento de Paterna de Rivera",
+    "importe": "99414.05",
+    "importe_num": 99414.05,
+    "fecha_limite": "2026-12-03",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  }
+]
