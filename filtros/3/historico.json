@@ -385,5 +385,50 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-10"
+  },
+  {
+    "folder_id": "2610CPRAE024",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Concurso de Proyectos, con intervención de Jurado, para la Recuperación de las Bajadas Cubiertas del Palacio Real de Madrid y su conexión con el Campo del Moro.",
+    "updated": "2026-11-15T13:27:07.692+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=uN%2FqF64YcKMIYE3ZiZ%2BxmQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000",
+      "71242000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=47dHKqAqtfJ1wQ0TG75owQ0hVwfJYaXlN1IgKkswhCUUcDEwtqXbzMBzsa5eVacPWqTUjUUfrQYhT3y9uMdhudcs1Nnf8%2BiwqzYyP1K/PLQZyAJWGsSt0OzTSTyw9JAs",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4gMYFPFbisNH4/nvIJkih9ZaESMdf6ih6kmdrN1/4KSF8USFB7A4ugg174lUhn%2BxRCaT5SmljhE7Txz1GodzMR%2BWMHjUOWq2Jzl2JDzIIRr6CYyL7SIrUOBFfNf52ZqA",
+    "docs_adicionales": [
+      {
+        "nombre": "Indicaciones cumplimentacion DEUC.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=jyffJ4b%2BtTuu4P4BldkyHjwd4tZyXrc02yYfit0hBGH3zze3uOWPYou%2BJpT0qFoeb%2B/SUJCxAEnq5cT6aX56c89I5%2BMv4gCF%2B18BlPtfiMIZyAJWGsSt0OzTSTyw9JAs"
+      },
+      {
+        "nombre": "README.txt",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QltoRKQxTwvuM6ZsecMbywR8L45ZFEd1fNwc1tItgd69878noiR8yVmaW6JnREslLXwsOUZ4wi7nL1iZ5lAq5Eqz18Fyc8ieQiw3TJYNwu36CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "espd-request.xml",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=DHHifGn1CqX0dJ%2BQ%2BaFE7iAXHpB3TdPH9HjuRbYfVZzuJKDLqQgcq91vElZNsUGn8AmLQa31iHeA4k5zN%2BL8OOO%2BfHviG6KckhoY8d/1all45ClyWkoJ44mKM70IFcOu"
+      },
+      {
+        "nombre": "espd-request.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=L9ZqqcktaCGz%2Bes9ddeZuzBeDQa8OdEHHH3ees2GU5jWMZQx7R62YVvZOxwPq840wKiiA3SRq12P0g/6cDhA4ovwaAdZQ8S034umc77YZvbDdQD9RyhUmzT4jZ2In4zL"
+      }
+    ],
+    "organo": "Secretaría General de Agenda Urbana, Vivienda y Arquitectura",
+    "importe": "1156127.3",
+    "importe_num": 1375352.76,
+    "fecha_limite": "2027-01-25",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "8",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-15"
   }
 ]

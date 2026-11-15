@@ -1570,7 +1570,7 @@
     "organo": "Alcaldía del Ayuntamiento de la Línea de la Concepción",
     "importe": "14876.04",
     "importe_num": 14876.04,
-    "fecha_limite": "2026-10-15",
+    "fecha_limite": "2026-10-02",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -1582,13 +1582,15 @@
     },
     "fecha_captura": "2026-10-01",
     "resultado": null,
-    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
+    "estado_updated": "2026-11-14T15:11:11.903+01:00",
     "docs_adicionales": [
       {
         "nombre": "Anexo I PCAP.pdf",
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=IUA3fBmJIeBNqDnfmFNRSMeEHb2lUI8fDLXgLwwMQuMqN4iDFD0rgJ6e3AraPt8FKW/1gi7c6rZWggSvxyOQ0PvnRJ6rq2Jw/TtPEBjcqBGHAj0WEJrB5sP7amrh2jBD"
       }
-    ]
+    ],
+    "fecha_limite_anterior": "2026-10-15",
+    "fecha_limite_cambiada_el": "2026-11-15"
   },
   {
     "folder_id": "SE-19/26",
