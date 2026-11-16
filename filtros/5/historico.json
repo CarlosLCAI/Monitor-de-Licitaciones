@@ -9952,7 +9952,7 @@
     "docs_adicionales": [],
     "organo": "Consejería Delegada de Agua y Residuos del Campo de Gibraltar, S.A. (ARCGISA)",
     "importe": "48750",
-    "importe_num": 48750.0,
+    "importe_num": 48750,
     "fecha_limite": "2026-11-27",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -10241,6 +10241,9 @@
       },
       "fecha_analisis": "2026-11-16T10:46:29.420958+00:00",
       "solicitada_por": "Belén Fernández"
-    }
+    },
+    "revisado_humano": true,
+    "revisado_fecha": "2026-11-16T10:47:59.923Z",
+    "revisado_por": "Belén Fernández"
   }
 ]
