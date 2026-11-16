@@ -1558,7 +1558,10 @@
       },
       "fecha_analisis": "2026-11-16T12:11:38.742533+00:00",
       "solicitada_por": "Belén Fernández"
-    }
+    },
+    "revisado_humano": true,
+    "revisado_fecha": "2026-11-16T12:21:00.920Z",
+    "revisado_por": "Belén Fernández"
   },
   {
     "folder_id": "LGN_2026_CS_02",
