@@ -1202,6 +1202,15 @@ def leer_feed(nombre, url_inicial, contextos, limite_fecha, fecha_captura_hoy):
                     # El órgano puede publicar más modelos con la licitación ya en curso
                     if data.get("docs_adicionales") and data["docs_adicionales"] != existente.get("docs_adicionales"):
                         existente["docs_adicionales"] = data["docs_adicionales"]
+                    # Rectificación del pliego: la plataforma sustituye el documento y la referencia cambia.
+                    # Sin esto el monitor seguía apuntando al PCAP/PPT antiguo (y la revisión IA lo leía).
+                    for campo_doc in ("pcap_url", "ppt_url"):
+                        nuevo_doc = data.get(campo_doc)
+                        if nuevo_doc and nuevo_doc != existente.get(campo_doc):
+                            if existente.get(campo_doc):  # si antes no había documento no es una rectificación
+                                existente["pliego_cambiado_el"] = fecha_captura_hoy
+                                print(f"    Pliego rectificado [{data['folder_id']}] ({nombre}): cambia {campo_doc}")
+                            existente[campo_doc] = nuevo_doc
                     estado_previo = existente.get("estado")
                     limite_previo = existente.get("fecha_limite")
                     cambios = aplicar_cambio_estado(existente, data, fecha_captura_hoy)
