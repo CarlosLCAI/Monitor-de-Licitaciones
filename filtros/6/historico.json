@@ -475,7 +475,7 @@
     ],
     "organo": "Junta de Compensación Sector Sup-01 El Rodeo",
     "importe": "254930",
-    "importe_num": 254930.0,
+    "importe_num": 254930,
     "fecha_limite": "2026-12-04",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -699,7 +699,10 @@
       },
       "fecha_analisis": "2026-11-16T11:07:43.814816+00:00",
       "solicitada_por": "Belén Fernández"
-    }
+    },
+    "revisado_humano": true,
+    "revisado_fecha": "2026-11-16T11:07:54.811Z",
+    "revisado_por": "Belén Fernández"
   },
   {
     "folder_id": "CONTR 2026 0000337362",
@@ -764,7 +767,7 @@
     "docs_adicionales": [],
     "organo": "Dirección General de Mercados Centrales de Abastecimiento de Málaga S.M.E.S.A.",
     "importe": "40000",
-    "importe_num": 40000.0,
+    "importe_num": 40000,
     "fecha_limite": "2026-11-27",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -810,7 +813,7 @@
     ],
     "organo": "Concejalía Delegada en Materia de Contratación del Ayuntamiento de Torremolinos",
     "importe": "293400",
-    "importe_num": 293400.0,
+    "importe_num": 293400,
     "fecha_limite": "2026-12-02",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -844,7 +847,7 @@
     ],
     "organo": "Consejería delegada de ACOSOL, S.A.U.",
     "importe": "75000",
-    "importe_num": 75000.0,
+    "importe_num": 75000,
     "fecha_limite": "2026-12-01",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
