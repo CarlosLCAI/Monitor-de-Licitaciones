@@ -384,7 +384,164 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-11-10"
+    "fecha_captura": "2026-11-10",
+    "revision_ia": {
+      "informe": "## Bloque 1 – Características Principales del Contrato\n\n### Objeto de la licitación\nServicio de asistencia técnica del Ayuntamiento de Móstoles (Expte. **C/048/CON/2026-091**) para redactar y actualizar el **PMUS** y el **proyecto de Zona de Bajas Emisiones (ZBE)** con su ordenanza reguladora. Incluye el proyecto de camino escolar seguro del CEIP Beato Simón de Rojas, el Plan de Participación Pública y el acompañamiento en la tramitación de aprobación.\n\nObjetivos:\n- Actualizar el PMUS de 2010 conforme a la Ley 7/2021.\n- Definir, delimitar y justificar la ZBE conforme al RD 1052/2022, con estrategia de implantación y seguimiento.\n- Redactar la propuesta de Ordenanza de Movilidad Sostenible y reguladora de la ZBE.\n- Proyectar el camino escolar piloto (solo proyecto, no su implantación).\n- Diseñar y ejecutar la participación pública.\n\n**Aviso sobre el PPT:** el texto recibido llega solo hasta la página 30 de 38, cortado en el apartado 4.3.3. No se han podido analizar la cláusula 7 (medios y equipo), la 10 (plazo), la 12 (presupuesto), la 13 (pagos) ni la 14 (penalidades). La cláusula 7 es clave porque el PCAP (6.3) le remite el personal adscrito, con su experiencia y formación.\n\n### División en lotes\nNo hay división en lotes (PCAP cl. 1.B): las prestaciones están interconectadas.\n\n### Características del contrato\n- **Presupuesto base de licitación:** 85.237,52 € sin IVA; IVA 21 % = 17.899,88 €; total **103.137,40 €**.\n- **Valor estimado:** **85.237,52 €**. No hay prórroga ni modificaciones previstas.\n- **Anualidades:**\n\n| Año | Sin IVA | IVA | Total |\n|---|---|---|---|\n| 2026 | 12.785,63 € | 2.684,98 € | 15.470,61 € |\n| 2027 | 72.451,89 € | 15.214,90 € | 87.666,79 € |\n\n- **Duración:** **12 meses** desde la formalización, con recepciones parciales por hitos (ver Bloque 4). No procede prórroga.\n- **Procedimiento:** abierto simplificado (art. 159 LCSP), tramitación ordinaria, sin regulación armonizada. No cabe recurso especial.\n- **Presentación:** plazo de **15 días naturales** desde el día siguiente a la publicación en el perfil del contratante. La fecha de publicación no consta en el texto, por lo que no está localizada la fecha límite. La presentación es exclusivamente electrónica por PLACE (Anexo VI).\n- **Consultas:** no localizado el plazo ni el medio concreto. Las comunicaciones se hacen por PLACE.\n- **CPV:** 71240000-2 y 71318000-0.\n- **Trabajos obligatorios específicos:**\n  - Trabajo de campo (aforos, encuestas, inventarios, muestreos de parque circulante).\n  - Base de datos georreferenciada (SIG).\n  - Modelización de datos.\n  - Estudio de calidad del aire y de ruido.\n  - Estudio socioeconómico.\n  - Análisis jurídico y ordenanza.\n  - Apoyo jurídico y técnico en la tramitación, incluidas alegaciones y recursos contenciosos (según el PPT).\n  - Diseño de logo y señales del camino escolar.\n- **Subcontratación:** parcial permitida (art. 215 LCSP); la intención debe comunicarse tras la adjudicación y, como tarde, al iniciar la ejecución.\n- **Garantías:** provisional **NO**; definitiva **5 %** del precio final ofertado sin IVA; complementaria NO.\n- **Plazo de garantía:** no procede. **Revisión de precios:** no procede. **Pólizas de seguros específicas:** no procede. **Variantes:** no.\n- **Habilitación empresarial:** no procede. **Clasificación:** no exigible en servicios.\n\n### Discrepancias internas en el PCAP\n- ⚠ REVISAR: la tabla de hitos remite el proyecto ZBE al apartado \"4.2.2\" y los trabajos previos al \"4.2.1\". En el PPT, el apartado 4.2 es el camino escolar y la ZBE es el 4.3. En el régimen de pagos (cl. 21) aparece \"4.3.2\".\n- ⚠ REVISAR: el orden de los hitos 3 y 4 (Camino Escolar / Plan de Participación) está invertido entre la cl. 5 y 16 y la cl. 21.\n- ⚠ REVISAR: el Archivo 1 remite la propuesta técnica a la \"cláusula 9.2.1\" y el Anexo IV a la \"cláusula 9.2\". La propuesta técnica es la cl. **9.3.1**.\n- ⚠ REVISAR: el Archivo 2 remite la acreditación del personal a la \"cláusula 9.1.2\". Es la cl. **9.2.1**.\n- ⚠ REVISAR: los Anexos I y II remiten la documentación previa a la adjudicación a la \"cláusula 20\", que trata de subcontratación.\n- ⚠ REVISAR: el PPT dice \"CINCO fases\" pero numera una \"Fase VI\" (seguimiento) y la participación como Fase V.\n\n## Bloque 2 – Solvencia\n\n### Económica y financiera\n- **Criterio (art. 87.1.a LCSP):** volumen anual de negocios en cualquiera de los tres últimos ejercicios ≥ 1,5 veces el valor estimado, es decir **127.856,28 € (sin IVA)**.\n- **Acreditación:** declaración responsable en el Archivo 1. El propuesto como adjudicatario aporta cuentas anuales y declaración del volumen de negocios global. La inscripción en el ROLECSP también sirve.\n- **Alternativa para servicios profesionales:** seguro de indemnización por riesgos profesionales **≥ valor estimado (85.237,52 €)**, vigente hasta el fin del plazo de presentación, con compromiso de renovación durante la ejecución. Se admite compromiso vinculante de suscripción, que debe hacerse efectivo en 10 días hábiles.\n- **Empresas de reciente creación (< 5 años):** se tiene en cuenta solo el periodo de actividad, con proporcionalidad.\n\n### Técnica y profesional\n- **Criterio (art. 90.1.a LCSP):** relación de los principales servicios de igual o similar naturaleza en los **últimos 3 años**, con importe, fecha y destinatario.\n- **Mínimo:** importe anual acumulado en cualquiera de los tres últimos ejercicios ≥ 70 % del valor anual medio, es decir **59.666,26 € (sin IVA)**.\n- **Acreditación:** declaración responsable para todos. El propuesto aporta la relación y los certificados de buena ejecución. Si el destinatario es privado, certificado o declaración del empresario con las causas por las que no puede aportarlo.\n- **Equipo mínimo:** el PCAP (6.3) exige compromiso de dedicación de los medios personales de la **cláusula 7 del PPT**, con la experiencia y formación allí fijadas. **No localizado**: el texto del PPT recibido termina antes de esa cláusula. Titulaciones, número de puestos, puestos subcontratables y colegiación quedan sin determinar.\n- **Referencia de costes (cl. 5 PCAP):** redactor nivel 1 al 33 %, técnico de apoyo nivel 2 al 100 %, técnico de apoyo de camino escolar 3 meses, técnico jurídico 1 mes, y modelización y equipos. Esto es orientativo y no constituye el equipo mínimo.\n- **Subcontratación y medios externos:** subcontratación parcial permitida (art. 215). El Anexo I (nota 2) admite recurrir a solvencia y medios de otras empresas (art. 75 LCSP) con compromiso escrito. Se admiten UTE.\n- ⚠ REVISAR — criterio de mejora de equipo, no confundir con el mínimo de solvencia: la cl. 9.2.1 puntúa con 10 puntos cada titulado superior o medio adicional (máximo 20). Debe ser competente en Ingeniería Civil, Topografía, Sociología, Geografía o Ciencias Ambientales (o equivalente) y acreditar **≥ 5 años de experiencia** en trabajos propios del objeto.\n\n## Bloque 3 – Criterios de Adjudicación\n\nTotal: **100 puntos** (75 automáticos + 25 por juicio de valor).\n\n### Automáticos (fórmulas)\n**Precio (máx. 35 puntos):**\n\nP(x) = 0,5 × MP × (PC − x)/(PC − MO) + 0,5 × MP × MO/x\n\n- MP = 35 puntos.\n- PC = presupuesto de licitación sin IVA.\n- MO = precio de la mejor oferta sin IVA.\n- x = precio ofertado a puntuar sin IVA.\n\nOfertas anormalmente bajas: art. 85 RGLCAP y art. 149 LCSP. Desempate: art. 147 LCSP.\n\n**Mejoras (máx. 40 puntos)**, ofertadas en el Anexo V:\n\n| Mejora | Regla | Puntos |\n|---|---|---|\n| 9.2.1 Aumento de adscripción de medios | 10 puntos por titulado superior o medio adicional, hasta 20. Debe ser competente en Ingeniería Civil, Topografía, Sociología, Geografía o Ciencias Ambientales, con ≥ 5 años de experiencia en trabajos propios del objeto. Hay que acreditar formación y experiencia. | 20 |\n| 9.2.2 Proyecto adicional de Camino Escolar | Un segundo proyecto de camino escolar, en las mismas condiciones del apartado 4.2 del PPT, para otro centro público elegido por el Ayuntamiento. | 20 |\n\n### Juicio de valor\n**Calidad de la propuesta técnica (máx. 25 puntos)**, cl. 9.3.1.\n\n| Apartado | Puntos |\n|---|---|\n| A. Desarrollo de trabajos previos ZBE y PMUS | 5 |\n| B. Propuesta de Plan de Participación Pública | 4 |\n| C. Calidad del proyecto de ZBE | 8 |\n| D. Calidad del documento del PMUS | 8 |\n\n- **Escala de valoración por apartado:** Óptima 100 %, Aceptable 70 %, Insuficiente 40 %, Nula 0 %.\n- **Formato:** máximo **35 caras A4, Arial 12** (interlineado no especificado). Pueden añadirse hasta 15 páginas de \"Información complementaria\" que no se valoran.\n- **Exclusión:** cualquier mención que permita conocer la oferta económica o los criterios cuantificables en la propuesta técnica es causa de exclusión.\n\n### Umbrales mínimos de puntuación\nSí hay umbral en el juicio de valor: **60 % (15 de 25 puntos)**. Las propuestas que no lo alcancen quedan excluidas. No hay umbrales en los criterios automáticos.\n\n## Bloque 4 – Forma de Pago\n\n- **Sistema:** pago por hitos, con una factura al alcanzar cada hito. Se abona tras conformidad del responsable municipal, reconocimiento de la obligación y aprobación. Las facturas son electrónicas por FACE, con DIR3: oficina contable GE0001486, órgano gestor GE0001522, unidad tramitadora GE0012251.\n\n| Hito | Descripción | % | Importe (IVA incl.) | Mes de finalización |\n|---|---|---|---|---|\n| 1 | Trabajos previos (PMUS Fases I y II; ZBE trabajos previos) | 0 % | 0,00 € | 6 |\n| 2 | Definición preliminar PMUS (primer borrador, Fase III) | 15 % | 15.470,61 € | 9 |\n| 3 | Plan de Participación Ciudadana (diseño) | 5 % | 5.156,87 € | 3 |\n| 4 | Proyecto Camino Escolar CEIP Beato Simón de Rojas | 10 % | 10.313,74 € | 3 |\n| 5 | Ejecución del Plan de Participación Ciudadana | – | 0,00 € | 12 |\n| 6 | Proyecto ZBE | 30 % | 30.941,22 € | 9 |\n| 7 | Redacción PMUS | 30 % | 30.941,22 € | 12 |\n| 8 | Ordenanza ZBE | 10 % | 10.313,74 € | 12 |\n\n(Los hitos 3 y 4 aparecen intercambiados entre las cláusulas 5/16 y la cl. 21. La tabla sigue la cl. 21.)\n\n- **Impacto financiero:** hasta el mes 3 no se cobra nada, y el 0 % del hito 1 implica unos 6 meses de trabajo sin facturar. El hito 5 (ejecución de la participación) no tiene pago propio. El gasto de diciembre se carga a la anualidad de 2027.\n- **Penalidades:** régimen general de los arts. 192 y ss. LCSP. El responsable del contrato acredita el incumplimiento y hay 10 días hábiles de alegaciones. Son inmediatamente ejecutivas, por deducción del pago o contra la garantía. El PPT (cl. 14) no está disponible.\n- **Revisión de precios:** no procede.\n- **Condición especial de ejecución:** igualdad (art. 202 LCSP), con informe a la responsable del contrato. Su incumplimiento reiterado es causa de resolución.\n- **Otras causas de resolución:** pérdida sobrevenida de solvencia o capacidad, e incumplimiento de obligaciones esenciales del PPT.\n- **Confidencialidad y protección de datos:** arts. 133 LCSP y RGPD.\n\n## Bloque 5 – Documentación a Presentar\n\nLa presentación es exclusivamente electrónica por PLACE, en castellano, y consta de dos archivos o sobres. La documentación de cada uno debe ir firmada por el licitador o su representante, con indicación de razón social. En cada archivo debe incluirse la relación de documentos que se propongan como confidenciales, con su fundamento.\n\n### Archivo electrónico nº 1 – Documentación administrativa y criterios de juicio de valor\n- **Anexo I – Declaración responsable:** capacidad, representación, solvencia económica y técnica, ausencia de prohibiciones de contratar, estar al corriente con Hacienda y Seguridad Social (sin deuda ejecutiva con el Ayuntamiento), condición de PYME, no participación en la preparación del contrato, y correo electrónico de notificaciones (apartado Décimo Segundo).\n- **Anexo II – Declaración responsable de adscripción de medios:** compromiso de aportar los medios materiales y humanos exigidos en los pliegos.\n- **Compromiso de constituir UTE** (solo si se concurre en UTE): documento que puede ser privado, firmado por todas las empresas, con el representante y el porcentaje de participación.\n- **Documentación de empresas extranjeras:** sometimiento a los tribunales españoles (si procede).\n- **Anexo III – Declaración de pertenencia o no a grupo empresarial:** art. 42 Código de Comercio y art. 86.1 RGLCAP.\n- **Declaración de solvencia de otras empresas** (solo si se recurre a ellas, art. 75): compromiso escrito y declaración responsable de ambas entidades.\n- **Anexo IV – Propuesta técnica (juicio de valor):**\n  - Máximo 35 páginas A4, Arial 12, más hasta 15 de información complementaria.\n  - Estructura en el orden A, B, C, D (trabajos previos, participación, ZBE, PMUS).\n  - Sin ninguna referencia a la oferta económica ni a las mejoras.\n\n### Sobre nº 2 (Archivo electrónico nº 2) – Oferta económica y criterios evaluables mediante fórmula\n- **Anexo V – Proposición económica y mejoras:**\n  - Precio sin IVA, con máximo 2 decimales.\n  - Número de titulados superiores o medios adicionales que se adscribirán.\n  - Oferta SÍ/NO del proyecto adicional de Camino Escolar.\n- **Documentación acreditativa de formación y experiencia del personal adicional:** para la mejora 9.2.1, con titulación y ≥ 5 años de experiencia.\n\n### Documentación posterior (solo el propuesto como adjudicatario)\n- **Solvencia económica:** cuentas anuales y declaración del volumen de negocios global, o póliza de seguro por el valor estimado con compromiso de renovación.\n- **Solvencia técnica:** relación de servicios de los últimos 3 años (importe, fechas, destinatario) con certificados de buena ejecución, o declaración del empresario si el destinatario es privado.\n- **Medios personales:** documentación acreditativa del equipo y su experiencia y formación (cl. 7 PPT, no localizada), a requerimiento del órgano de contratación.\n- **Garantía definitiva:** 5 % del precio final ofertado sin IVA, en 10 días hábiles desde el requerimiento.\n- **Posesión y validez de los documentos del Anexo I:** el PCAP la exige antes de la adjudicación. No localizado en el texto recibido el listado detallado de documentos (capacidad, representación, Hacienda y Seguridad Social). El Anexo I lo remite erróneamente a la cl. 20.\n- **Seguro:** compromiso de suscripción efectivo en 10 días hábiles (solo si se opta por la vía del seguro).\n\n## Bloque 6 – Conclusiones / Análisis Preliminar\n\n### Precio frente a duración\n- Se licitan 85.237,52 € sin IVA por 12 meses, unos 7.100 €/mes, para un alcance amplio:\n  - PMUS completo (5 fases).\n  - Proyecto de ZBE con calidad del aire, ruido, equipamiento y plataforma.\n  - Ordenanza con análisis jurídico y apoyo en la tramitación y recursos.\n  - Camino escolar piloto.\n  - Participación pública.\n  - Trabajo de campo, SIG y modelización.\n- La base de costes del PCAP es ajustada: un redactor al 33 %, un técnico de apoyo al 100 % durante 12 meses, 5.556 € de técnico de camino escolar, 2.389 € de jurídico, 12.000 € de modelización y 20.000 € de equipos.\n- A esto se suman 40 puntos de mejoras que encarecen la ejecución (un segundo proyecto de camino escolar y hasta 2 titulados adicionales).\n- Los pagos son tardíos: 0 % hasta el mes 3 y 15 % en el mes 9.\n- El margen real es previsiblemente estrecho. Este análisis es solo informativo y no entra en el semáforo.\n\n### Solvencia frente al perfil de CAI\n\n| Requisito | Exigido | Perfil CAI | Valoración |\n|---|---|---|---|\n| Volumen de negocio | ≥ 127.856,28 € (cualquiera de los 3 últimos ejercicios) | 1.876.061 € (2024, declarada); incluso con el certificado AEAT (1.559.018 €) se supera con holgura | **Cumple** |\n| Seguro RC (vía alternativa) | ≥ 85.237,52 € | 2.500.000 € (Caser, CAI Ingeniería); certificado 2026 pendiente de aportar [SIN VERIFICAR] | **Cumple** (falta el certificado) |\n| Experiencia en servicios similares | ≥ 59.666,26 € anuales en cualquiera de los 3 últimos años | Por criterio CPV 712 (71240000, igual al del pliego): Torremolinos 2025 (134.132 €), Conil 2025 (34.640 €) y Huelin-Ayala 2024 (94.116 €, CPV 71242000) | **Cumple por CPV** |\n| Equipo mínimo | Cl. 7 PPT | No localizado | **No valorable** |\n| Clasificación | No exigible | No consta, y no se exige | No aplica |\n| ISO | No exigida | ISO 9001 e ISO 14001 vigentes | No aplica |\n\n- ⚠ REVISAR (experiencia): el perfil no contiene ningún PMUS ni ZBE. La similitud se apoya solo en el criterio CPV de la dirección. El pliego habla de \"igual o similar naturaleza\" sin definirla. El importe de los precedentes es el de adjudicación y la fecha es el año de adjudicación, no de ejecución. Falta confirmar qué parte se ejecutó en el periodo de 3 años y obtener los certificados de buena ejecución.\n- **Capacidad técnica interna:** CAI tiene un área de Movilidad (Luis Jiménez Camacho, ICCP colegiado, estudios de tráfico y trazado), ICCP (Enrique de la Torre Lara y otros), una ambientóloga (Águeda Romeo Jurado) y delineantes y arquitectos para el SIG y el camino escolar.\n- **Carencias probables:**\n  - **Jurista** (ordenanza ZBE): el perfil no tiene ninguno. El pliego permite subcontratación parcial (art. 215) y medios externos (art. 75), por lo que sería cubrible externamente.\n  - **Modelización de calidad del aire y ruido:** no consta capacidad propia específica.\n  - **Mejora 9.2.1:** candidatos con titulación en Ingeniería Civil o Ciencias Ambientales y ≥ 5 años de experiencia: Luis Jiménez Camacho, Enrique de la Torre Lara y Juan José Piñero Soto (experiencia por confirmar). Águeda Romeo Jurado (graduada en 2022, en CAI desde 2024) probablemente no alcanza los 5 años.\n- **Mejora 9.2.2:** requiere capacidad adicional de ejecución para un segundo camino escolar.\n- Las discrepancias del PCAP (hitos, remisiones de cláusulas, Anexo II → cl. 20) conviene aclararlas mediante consulta al órgano de contratación.\n\n### Semáforo de presentación\n- **Color: GRIS**.\n- **Requisitos comparables: 2 de 2 cumplidos** (solvencia económica y experiencia por CPV 712). El seguro es una alternativa y también se cumple.\n- **No valorable:** el equipo mínimo, titulaciones y colegiación de la cláusula 7 del PPT. El texto del PPT recibido está cortado en la página 30 de 38.\n- **Qué falta y si es subcontratable:** pendiente de conocer el equipo mínimo. El pliego permite subcontratación parcial y medios externos, y el único hueco claro del perfil (jurista) sería cubrible así.\n- **Condiciones para pasar a verde o naranja:** revisar la cláusula 7 del PPT completa, confirmar la experiencia de Luis Jiménez Camacho y de otros ICCP y tener el certificado de seguro 2026.\n- **Clasificación:** no se exige, por lo que no procede ⚠ REVISAR por este motivo.",
+      "usa_ppt": true,
+      "uso": {
+        "entrada": 94158,
+        "salida": 16476,
+        "cache_leida": 0,
+        "cache_escrita": 25538
+      },
+      "coste_estimado_usd": 0.4169,
+      "semaforo": "gris",
+      "semaforo_motivo": "Equipo mínimo y titulaciones remitidos a la cláusula 7 del PPT, no incluida en el texto recibido; solvencia económica y técnica sí cumplidas.",
+      "datos_excel": {
+        "info": {
+          "valor_estimado": 85237.52,
+          "iva_pct": 21,
+          "fecha_presentacion": null,
+          "plazo_ejecucion": "12 meses desde la formalización; recepciones parciales por hitos (6, 9 y 12 meses)",
+          "consultas": "",
+          "garantia_provisional": "No procede",
+          "garantia_definitiva": "5 % del precio final ofertado, IVA excluido",
+          "seguro_rc": "No procede póliza específica; alternativa de solvencia: seguro RC ≥ valor estimado (85.237,52 €)",
+          "lotes": "No hay división en lotes",
+          "revision_precios": "No procede",
+          "plazo_garantia": "No procede",
+          "ute": "Admitida; compromiso de constituir UTE en Archivo 1",
+          "subcontratacion": "Parcial permitida (art. 215 LCSP); comunicar tras adjudicación o al inicio de la ejecución",
+          "umbral_tecnico": "60 % del juicio de valor (15 de 25 puntos); exclusión si no se alcanza"
+        },
+        "solvencia": {
+          "nota": "Procedimiento abierto simplificado, sin clasificación exigible. Se admiten UTE y medios de otras empresas (art. 75). Equipo mínimo remitido a la cláusula 7 del PPT, no localizada en el texto recibido (PPT cortado en la pág. 30 de 38).",
+          "economica": [
+            {
+              "nombre": "Volumen anual de negocios",
+              "valor": "≥ 127.856,28 € (1,5 × valor estimado) en cualquiera de los 3 últimos ejercicios",
+              "acreditacion": "Declaración responsable; adjudicatario: cuentas anuales y declaración del volumen de negocios",
+              "cai": "cumple",
+              "cai_nota": "1.876.061 € declarado en 2024; incluso con el dato AEAT (1.559.018 €) se supera"
+            },
+            {
+              "nombre": "Seguro de indemnización por riesgos profesionales (alternativa)",
+              "valor": "≥ 85.237,52 € vigente hasta fin de plazo de presentación, con compromiso de renovación",
+              "acreditacion": "Póliza y compromiso de renovación o compromiso vinculante de suscripción",
+              "cai": "cumple",
+              "cai_nota": "RC 2,5 M€ con Caser; certificado 2026 pendiente de aportar"
+            }
+          ],
+          "tecnica": [
+            {
+              "nombre": "Servicios de igual o similar naturaleza (últimos 3 años)",
+              "valor": "Importe anual acumulado ≥ 59.666,26 € en cualquiera de los 3 últimos ejercicios",
+              "acreditacion": "Declaración responsable; adjudicatario: relación de servicios y certificados de buena ejecución",
+              "cai": "parcial",
+              "cai_nota": "Cumple por CPV 712 (Torremolinos 2025, 134.132 €), pero sin precedentes de PMUS/ZBE y certificados por confirmar"
+            }
+          ],
+          "equipo": [
+            {
+              "nombre": "Redactor del proyecto (nivel salarial 1, dedicación orientativa 33 %)",
+              "valor": "Titulación y experiencia según cláusula 7 PPT (no localizada)",
+              "acreditacion": "Documentación acreditativa a requerimiento del órgano de contratación",
+              "cai": "no_consta",
+              "cai_nota": "Requisitos de la cláusula 7 del PPT no localizados",
+              "cai_personas": "Luis Jiménez Camacho (ICCP, jefe de área de Movilidad, CICCP nº 36616; experiencia por confirmar) | Enrique de la Torre Lara (ICCP, CICCP nº 16917, actividad desde 1995; por confirmar)"
+            },
+            {
+              "nombre": "Técnico de apoyo (nivel salarial 2, dedicación orientativa 100 %)",
+              "valor": "Titulación y experiencia según cláusula 7 PPT (no localizada)",
+              "acreditacion": "Documentación acreditativa a requerimiento del órgano de contratación",
+              "cai": "no_consta",
+              "cai_nota": "Requisitos de la cláusula 7 del PPT no localizados",
+              "cai_personas": "Carlos García Rueda (ICCP; experiencia por confirmar) | Mohammed Alí Chioua (ICCP; experiencia por confirmar)"
+            },
+            {
+              "nombre": "Técnico de apoyo Camino Escolar (3 meses)",
+              "valor": "Titulación y experiencia según cláusula 7 PPT (no localizada)",
+              "acreditacion": "Documentación acreditativa a requerimiento del órgano de contratación",
+              "cai": "no_consta",
+              "cai_nota": "Requisitos de la cláusula 7 del PPT no localizados",
+              "cai_personas": "Ángela María Trueba Argamasilla (arquitecta, máster en regulación económica y territorial, curso GIS; experiencia por confirmar) | Águeda Romeo Jurado (ambientóloga; experiencia por confirmar)"
+            },
+            {
+              "nombre": "Técnico jurídico (1 mes, ordenanza ZBE)",
+              "valor": "Titulación y experiencia según cláusula 7 PPT (no localizada)",
+              "acreditacion": "Documentación acreditativa a requerimiento del órgano de contratación",
+              "cai": "no",
+              "cai_nota": "No consta jurista en plantilla; subcontratación parcial permitida",
+              "cai_personas": "Sin perfil propio; cubrir con colaborador o subcontrata"
+            }
+          ]
+        },
+        "juicio_valor": [
+          {
+            "nombre": "Calidad de la propuesta técnica de prestación del servicio (metodología, organización, planificación y desarrollo)",
+            "puntos": 25,
+            "paginas_a4": 35,
+            "paginas_a3": null,
+            "formato": "A4, Arial 12; hasta 15 páginas de información complementaria no valoradas; sin mención a la oferta económica",
+            "acreditacion": "Propuesta técnica en Archivo 1 conforme al Anexo IV",
+            "apartados": [
+              {
+                "nombre": "A. Desarrollo de trabajos previos ZBE y PMUS",
+                "puntos": 5,
+                "filas": 1
+              },
+              {
+                "nombre": "B. Propuesta de Plan de Participación Pública",
+                "puntos": 4,
+                "filas": 1
+              },
+              {
+                "nombre": "C. Calidad del proyecto de ZBE",
+                "puntos": 8,
+                "filas": 1
+              },
+              {
+                "nombre": "D. Calidad del documento del PMUS",
+                "puntos": 8,
+                "filas": 1
+              }
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "nombre": "Precio",
+            "puntos": 35,
+            "formula": "P(x) = 0,5 × MP × (PC − x)/(PC − MO) + 0,5 × MP × MO/x; MP = 35 puntos; PC = presupuesto de licitación sin IVA; MO = precio de la mejor oferta sin IVA; x = precio ofertado a puntuar sin IVA",
+            "acreditacion": "Anexo V (oferta económica, Sobre nº 2)"
+          }
+        ],
+        "otros": [
+          {
+            "nombre": "Mejoras",
+            "puntos": 40,
+            "acreditacion": "Anexo V y documentación de formación y experiencia del personal (Sobre nº 2)",
+            "apartados": [
+              {
+                "nombre": "Aumento en la adscripción de medios (titulados superiores o medios con ≥ 5 años de experiencia, en Ingeniería Civil, Topografía, Sociología, Geografía o Ciencias Ambientales)",
+                "puntos": 20,
+                "regla": "10 puntos por titulado adicional, hasta 20",
+                "filas": 2
+              },
+              {
+                "nombre": "Ejecución de proyecto adicional de Camino Escolar en un segundo centro público",
+                "puntos": 20,
+                "regla": "20 puntos si se oferta (SÍ/NO)",
+                "filas": 1
+              }
+            ]
+          }
+        ],
+        "umbral": "Juicio de valor: mínimo 60 % (15 de 25 puntos); por debajo, exclusión. Sin umbral en criterios automáticos."
+      },
+      "fecha_analisis": "2026-11-16T10:58:45.480823+00:00",
+      "solicitada_por": "Belén Fernández"
+    }
   },
   {
     "folder_id": "2610CPRAE024",
