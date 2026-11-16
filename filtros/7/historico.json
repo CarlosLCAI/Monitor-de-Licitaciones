@@ -4175,7 +4175,10 @@
       },
       "fecha_analisis": "2026-11-16T11:07:43.814816+00:00",
       "solicitada_por": "Belén Fernández"
-    }
+    },
+    "revisado_humano": true,
+    "revisado_fecha": "2026-11-16T11:07:54.811Z",
+    "revisado_por": "Belén Fernández"
   },
   {
     "folder_id": "SE 34/2026",
