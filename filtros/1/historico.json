@@ -3436,7 +3436,222 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-29",
-    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
+    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
+    "revision_ia": {
+      "informe": "## Bloque 1 – Características Principales del Contrato\n\n### Objeto de la licitación\nContrato de servicios, por procedimiento abierto y sujeto a regulación armonizada, promovido por la **Junta de Compensación del Sector SUP-O1 «El Rodeo»** (Estepona, Málaga). Comprende la **actualización del Proyecto de Urbanización**, la **dirección facultativa** y la **coordinación de seguridad y salud** de las obras. Incluye además el **seguimiento y asesoramiento técnico durante la licitación de las obras**. La prestación es integral, desde la adjudicación hasta la liquidación de las obras y el seguimiento durante el plazo de garantía.\n\nObjetivos:\n- Adaptar el proyecto aprobado (30/11/2021) a la normativa vigente, a los informes municipales, a las compañías suministradoras y a los condicionantes arqueológicos (soterramiento del yacimiento, elevación de rasantes y control arqueológico).\n- Controlar técnica y económicamente la ejecución de las obras (replanteo, mediciones, recepción y liquidación).\n- Asesorar a la Junta en la licitación de las obras: análisis de ofertas, bajas temerarias e informe en 7 días hábiles.\n- Coordinar la seguridad y salud.\n\nPPT: se ha analizado (ver apartados siguientes).\n\n### División en lotes\nNo hay división en lotes (cláusula 2ª).\n\n### Características del contrato\n| Concepto | Dato |\n|---|---|\n| Presupuesto base de licitación (IVA incl.) | **308.465,30 €** |\n| Valor estimado (sin IVA) | **254.930,00 €** (IVA 21 %: 53.535,30 €) |\n| Desglose | Costes directos 103.501,58 €; indirectos 151.428,42 € (⚠ REVISAR: los indirectos superan a los directos, es poco habitual) |\n| Duración | **39 meses** desde el día siguiente a la formalización |\n| Plazos parciales | 3 meses para la actualización del proyecto; 3 meses para el asesoramiento en la licitación; dirección de obra y CSS durante la obra (estimada en 20 meses); seguimiento durante el plazo de garantía |\n| Inicio estimado de obra | Febrero 2027 |\n| Garantía provisional | No procede |\n| Garantía definitiva | 5 % del precio de adjudicación, sin IVA; 5 % complementaria si la oferta es anormal |\n| Presentación | Solo electrónica, en la Plataforma de Contratación del Sector Público (contrataciondelestado.es) |\n| Plazo de presentación | **No localizado** en el texto recibido (consta en el anuncio) |\n| Gastos de publicidad | Hasta 2.500 € a cargo del adjudicatario |\n| Revisión de precios | No hay |\n\n⚠ REVISAR: el plazo de obra de 20 meses figura en el Cuadro «desde la firma del Acta de comprobación del replanteo» y en la cláusula 10ª «desde la adjudicación de las obras».\n\nTrabajos específicos obligatorios (PPT y PCAP):\n- Proyecto en 7 libros: memoria, anejos, estudios, proyectos específicos, planos, pliego y presupuesto.\n- Estudios obligatorios: **geotécnico**, **arqueológico** (ajustado a la intervención ya realizada), **seguridad y salud** y **gestión de residuos**.\n- Entrega en PDF firmado y en papel (hasta 3 copias), con ficheros fuente (dwg, BC3) en USB.\n- Documentos visados por el colegio profesional cuando la tramitación lo requiera.\n- Condicionante ambiental: la AAU vence el **23/07/2027** (según el PPT). Si no se inician las obras antes, hay que repetir el procedimiento.\n- Condición especial de ejecución: más mujeres entre las nuevas contrataciones (+5 puntos sobre la media del sector).\n- Prohibición de adjudicar este contrato a la empresa constructora o a sus vinculadas.\n\n## Bloque 2 – Solvencia\n\n### Económica y financiera\n- **Volumen anual de negocios**: en el mejor de los 3 últimos años concluidos, al menos **1,5 veces el valor anual medio** del contrato, por ser la duración superior a un año.\n  - Cálculo: 254.930 € / 3,25 años = 78.440 €/año, lo que da **≈ 117.660 €**.\n- **Acreditación**: cuentas anuales depositadas en el Registro Mercantil.\n- **Seguro**: responsabilidad civil profesional del Director de obra con suma asegurada **≥ 300.000 €**. Debe suscribirse antes de la formalización y mantenerse hasta el fin del contrato. Vale la póliza de la empresa con certificado de la aseguradora.\n- **Clasificación**: no se exige (solvencia por medios).\n- Esta solvencia se acredita solo tras el requerimiento. En el Sobre 1 basta el DEUC.\n\n### Técnica y profesional\n**Empresa** (últimos 5 años):\n- 1 trabajo completo de **redacción de proyecto** de obra de urbanización o análoga.\n- 1 trabajo completo de **dirección de obra** de urbanización o análoga.\n- «Obra análoga»: incluye movimiento de tierras, afirmado, pavimentación y redes de servicios, con **presupuesto de ejecución por contrata ≥ 4.000.000 € sin IVA**.\n- Se acreditan con certificados de colegios, administraciones o contratantes, que deben indicar función, presupuesto por contrata, fechas y beneficiarios.\n\n**Redactor y Facultativo Director designados**:\n- Técnicos competentes, con título o certificado de colegiación.\n- Cada uno acredita 1 trabajo en 5 años, con las mismas condiciones de obra análoga.\n- Si no son de plantilla, hace falta compromiso de colaboración explícito y una relación de trabajos en los que intervino con el licitador.\n\n**Equipo mínimo** (compromiso de adscripción):\n1. Ingeniero de Caminos, Canales y Puertos, con experiencia ≥ la del Director.\n2. Ingeniero Técnico de Obras Públicas o Ingeniero Civil, con experiencia en una obra de urbanización de PEC ≥ la mitad de la obra.\n3. Ingeniero Industrial, con experiencia en redes eléctricas y alumbrado en una obra de PEC ≥ la mitad.\n4. Titulado competente en Topografía.\n5. Técnico Medioambiental.\n6. Arqueólogo (Arqueólogo Director durante los movimientos de tierras).\n7. Además se designa un Facultativo auxiliar.\n\nAcreditación: relación nominal firmada, titulaciones, historiales y % de dedicación.\n\nSubcontratación y medios externos:\n- Se admiten profesionales que no sean de plantilla, con compromiso de colaboración.\n- También se admite recurrir a medios de otras empresas (art. 75 LCSP), con DEUC de cada una.\n- Importe de la obra y su PEC: no localizado, por lo que la mitad exigida a los perfiles 2, 3 y 4 no puede cuantificarse.\n\n⚠ REVISAR — criterio de mejora de equipo, no confundir con el mínimo de solvencia: hasta 10 puntos por comprometer, a costa del adjudicatario, 5 apoyos adicionales (supervisor de riego/jardinería, de residuos y de geología/geotecnia, peón de arqueología y Arqueólogo Técnico). Cada uno actúa en una sola materia y no puede ser del equipo mínimo.\n\n## Bloque 3 – Criterios de Adjudicación\n\n### Automáticos (fórmulas)\nTotal **59 puntos**.\n\n| Criterio | Puntos | Fórmula |\n|---|---|---|\n| Precio | 49 | 49 × (precio menor / precio del licitador) |\n| Equipo técnico adicional en obra | 10 | X = (Dj + Dm + Dgeo + Dp + Dat) / 15. Cada D es un número entero de días de visita, de 0 a 30. Máximo 150 días, es decir 10 puntos. |\n\nNotas:\n- Los compromisos son nominales. Cada supervisor acude una sola materia, con acta por visita.\n- Las ofertas anormales se detectan según el nº de licitadores: con 1 solo, baja > 25 %; con 4 o más, B > MB + 0,10.\n- Desempate: criterios sociales del art. 147.2 LCSP.\n\n### Juicio de valor\nTotal **41 puntos** (Sobre 2).\n\n| Criterio | Puntos | Límite |\n|---|---|---|\n| Metodología y programa de trabajo | 15 | Extensión no fijada. Incluye organigrama, medios y carga de trabajo. |\n| Análisis del proyecto de las obras | 10 | Máx. 10 págs. A4 |\n| Análisis de afecciones y servidumbres | 10 | Máx. 10 págs. A4 |\n| Sistemas de calidad y flujos de información | 3 | Máx. 10 págs. A4 |\n| Aspectos medioambientales | 3 | Máx. 10 págs. A4 |\n\nLos subapartados valorados de la metodología son:\n- conocimiento del objeto y plan de acciones;\n- claridad de la planificación;\n- idoneidad de los procesos;\n- tiempos de dedicación;\n- síntesis;\n- oficina en la comunidad autónoma.\n\nFormato (letra, interlineado): no localizado. Incluir en el Sobre 2 cualquier dato evaluable por fórmula supone el rechazo de la oferta.\n\n⚠ REVISAR: el PCAP dice que no se incluya documentación de criterios de fórmula «en el Sobre nº 1». Parece una errata y debería ser Sobre 2.\n\n### Umbrales mínimos de puntuación\nExiste umbral: **20,5 puntos** (la mitad de 41) sobre la suma de los criterios de juicio de valor. Quien no lo supere no continúa y no se abre su Sobre 3.\n\n## Bloque 4 – Forma de Pago\nPago previa factura y comprobación por la Junta, según el siguiente calendario de honorarios:\n\n| Hito | % de honorarios |\n|---|---|\n| Entrega y aprobación de la actualización del proyecto | 15 % |\n| Fin del asesoramiento en la licitación de las obras | 5 % |\n| Durante la obra (dirección facultativa), proporcional a las certificaciones de obra | 55 % |\n| Certificación final | Resto hasta completar el 95 % |\n| Acta de fin del plazo de garantía y liquidación | 5 % restante |\n\nCondiciones adicionales:\n- Si el contrato de obras se resuelve o rescinde, solo se cobra la obra realmente ejecutada.\n- Facturas dentro de los 30 días siguientes al fin de cada periodo de pago. Plazo de pago conforme al art. 198 LCSP.\n- Antes de cobrar hay que aportar certificado de la AEAT de estar al corriente de las obligaciones tributarias.\n- **No hay revisión de precios.**\n- Los gastos de publicidad (máx. 2.500 €) se descuentan de los pagos o de la garantía.\n- Penalidades por demora:\n  - 5 % del precio por semana de retraso en el Modificado o en las certificaciones de obra.\n  - 10 % del precio por mes de retraso en la certificación final o la liquidación.\n- Penalidad del 1 % por cambio del Director de obra autorizado por la Junta.\n- Penalidad por impago a subcontratistas: 5 % mensual, hasta el 50 %.\n- No formalizar el contrato o no presentar la documentación requerida: penalidad del 3 % del presupuesto base de licitación sin IVA.\n- Riesgo de cobro: el 55 % de los honorarios depende del ritmo de las obras y de que estas se contraten. Con 39 meses de plazo total, los pagos se alargan.\n\n## Bloque 5 – Documentación a Presentar\n\n### Sobre nº 1 – Documentación general\n- **DEUC** firmado electrónicamente. Se rellenan las partes I, II, III, IV (solo sección A) y VI. Debe declarar constitución válida, representación, cumplimiento de la solvencia y ausencia de prohibiciones.\n- **Documentación adicional, según el caso**:\n  - DEUC de cada empresa cuya solvencia se integre (art. 75).\n  - En UTE: DEUC de cada miembro y compromiso de constitución.\n  - Declaración de sometimiento a la jurisdicción española, si hay empresas extranjeras.\n  - Declaración de empresas del mismo grupo que concurran.\n\n### Sobre nº 2 – Criterios de juicio de valor\n- **Metodología y programa de trabajo**, con organigrama, medios materiales y carga de trabajo.\n- **Análisis del proyecto de las obras** (máx. 10 págs. A4).\n- **Análisis de afecciones y servidumbres** (máx. 10 págs. A4).\n- **Sistemas de calidad y flujos de información** (máx. 10 págs. A4).\n- **Aspectos medioambientales** (máx. 10 págs. A4).\n- Coherencia obligatoria con los medios humanos de la solvencia técnica.\n\n### Sobre nº 3 – Criterios cuantificables mediante fórmulas\n- **Proposición económica** (modelo), con el IVA como partida independiente.\n- **Compromiso de equipo técnico adicional en obra**: cinco profesionales indicados por nombre, con número entero de días (máx. 30 cada uno).\n\n### Documentación posterior (solo el propuesto como adjudicatario)\nPlazo: 10 días hábiles desde el requerimiento.\n- **Garantía definitiva** del 5 % y, en su caso, la complementaria del 5 %.\n- **Capacidad de obrar y representación**: escrituras y DNI.\n- **Solvencia económica**: cuentas anuales.\n- **Solvencia técnica**:\n  - Certificados de proyecto y de dirección de obra.\n  - Designaciones de redactor y director, con títulos y certificados.\n  - Compromiso de adscripción del equipo mínimo, con relación nominal, titulaciones, historiales, % de dedicación y facultativo auxiliar.\n  - Compromisos de colaboración externos.\n- **Compromiso de disposición de medios**.\n- **Certificados positivos de la AEAT y de la Seguridad Social**.\n- **En UTE**: escritura de constitución y CIF.\n- **Seguro de responsabilidad civil**: ≥ 300.000 €, antes de la formalización.\n\n## Bloque 6 – Conclusiones / Análisis Preliminar\n\n**Precio y duración**: el valor estimado es de 254.930 € para 39 meses, es decir unos **78.440 €/año**. De ese plazo, unos 26 meses son activos, entre proyecto, licitación y obra, y el resto es seguimiento de garantía. El precio es ajustado para un equipo mínimo de 6 perfiles más los apoyos adicionales, y el 55 % de los honorarios depende del ritmo de la obra. No se valora la baja (criterio de la Dirección).\n\n**Comparativa con el perfil de CAI**:\n- **Solvencia económica**: se necesitan ≈ 117.660 € y CAI declara **1.876.061 €** (2024), con amplio margen. Cumple.\n- **Seguro**: se exigen 300.000 € y CAI tiene 2,5 M€. El certificado de 2026 está pendiente de aportar, por lo que queda por acreditar.\n- **Clasificación**: no se exige.\n- **Proyecto de urbanización análogo (≥ 4 M€ por contrata, últimos 5 años)**: cumple en solitario con certificados de CAI Soluciones de Ingeniería.\n  - Ejemplos: B-004 Pedrazas (25,8 M€ PEM, 2023), B-009 Golf Río Real (15,3 M€, 2022-23), B-023 Lomas del Flamenco (7,8 M€, 2022), B-012 Huelin-Ayala (10,7 M€, 2024), B-006 Arroyo Enmedio (4,6 M€, 2021-05, en el límite de la ventana).\n  - Los certificados dan el PEM y el pliego pide presupuesto por contrata (PEM × 1,19 aprox.), lo que refuerza el cumplimiento.\n- **Dirección de obra análoga**: cumple en solitario. Ejemplos: B-021 Sánchez Blanca (53,3 M€ PEM, 2022-25), B-025 La Gáspara (5,3 M€, 2022-24), B-023.\n- **Redactor y director designados**: Enrique de la Torre (ICCP, CICCP 16.917) figura como autor y director en esos certificados. Falta comprobar certificado individual y fechas.\n- **Equipo mínimo**:\n  - ICCP: cubierto (De la Torre, Jiménez Camacho, Piñero).\n  - ITOP o Ingeniero Civil: cubierto (Vivanco, Izquierdo, Manella y otros). Falta confirmar la experiencia exigida en obras de PEC ≥ mitad de la obra.\n  - Técnico medioambiental: Águeda Romeo, con experiencia por confirmar.\n  - Ingeniero Industrial: no hay en plantilla. Cívico Melendo (ITI) podría encajar como «titulación equivalente», lo que hay que confirmar. Alternativa: externo (Enrique de Vega).\n  - **Topógrafo** y **arqueólogo**: sin perfil propio.\n  - Los puestos no cubiertos pueden cubrirse con colaboradores o subcontratas, con compromiso de colaboración (el pliego lo permite).\n- **Equipo adicional (criterio de puntuación, no de admisión)**: supervisores de riego/jardinería, residuos y geología, y peón y técnico de arqueología. Todos serían externos.\n\nOtros riesgos:\n- Hay que acreditar la continuidad societaria si se usan certificados antiguos de CAI Consultores de Ingeniería, S.A. Los certificados de los últimos 5 años ya son de B93394195.\n- El umbral técnico de 20,5 de 41 exige una memoria sólida.\n- La AAU caduca el 23/07/2027.\n\n### Semáforo de presentación\n**NARANJA**. Se cumplen unos **9 de 12** requisitos de admisión, contando solvencia económica, seguro, proyecto, DO, redactor/director, ICCP, ITOP y medioambiental.\n\nFalta por acreditar:\n- ingeniero industrial (la ingeniería técnica industrial es dudosa como equivalente);\n- topógrafo;\n- arqueólogo;\n- certificado de seguro 2026;\n- historiales de experiencia por confirmar.\n\nEl pliego **permite cubrir** estos perfiles con profesionales externos mediante compromiso de colaboración o con medios de otras empresas (art. 75).\n\n⚠ REVISAR — criterio pendiente de decidir: no se exige clasificación.",
+      "usa_ppt": true,
+      "uso": {
+        "entrada": 56728,
+        "salida": 14721,
+        "cache_leida": 0,
+        "cache_escrita": 25538
+      },
+      "coste_estimado_usd": 0.3245,
+      "semaforo": "naranja",
+      "semaforo_motivo": "Cumple solvencia económica y experiencia de empresa; faltan ingeniero industrial, topógrafo y arqueólogo, cubribles con externos mediante compromiso de colaboración según el pliego.",
+      "datos_excel": {
+        "info": {
+          "valor_estimado": 254930,
+          "iva_pct": 21,
+          "fecha_presentacion": null,
+          "plazo_ejecucion": "39 meses desde formalización (3 m proyecto + 3 m asesoramiento licitación + obra est. 20 m + seguimiento garantía)",
+          "consultas": "",
+          "garantia_provisional": "No procede",
+          "garantia_definitiva": "5% precio adjudicación sin IVA; 5% complementaria si oferta anormal",
+          "seguro_rc": "RC profesional del Director de obra ≥ 300.000 €, antes de formalizar y hasta fin del contrato",
+          "lotes": "Sin lotes",
+          "revision_precios": "No hay",
+          "plazo_garantia": "No localizado",
+          "ute": "Admitida (solvencia acumulada); no puede presentarse individualmente y en UTE",
+          "subcontratacion": "Arts. 215 ss. LCSP; equipo no de plantilla con compromiso de colaboración; art. 75 medios externos; límite % no localizado",
+          "umbral_tecnico": "20,5 puntos (mitad de 41) en juicio de valor"
+        },
+        "solvencia": {
+          "nota": "UTE: solvencia acumulada. Los apoyos adicionales (criterio de puntuación) no pueden formar parte del equipo mínimo. Obras análogas: PEC ≥ 4.000.000 € sin IVA, últimos 5 años. Equipo no de plantilla: compromiso de colaboración.",
+          "economica": [
+            {
+              "nombre": "Volumen anual de negocios",
+              "valor": "≥ 1,5 × valor anual medio (≈ 117.660 €) en el mejor de los 3 últimos años",
+              "acreditacion": "Cuentas anuales depositadas en el Registro Mercantil",
+              "cai": "cumple",
+              "cai_nota": "1.876.061 € declarados (certificado AEAT discrepante: 1.559.018 €), muy superior"
+            },
+            {
+              "nombre": "Seguro RC profesional (Director de obra)",
+              "valor": "≥ 300.000 €, vigente hasta fin del contrato",
+              "acreditacion": "Certificado de la aseguradora",
+              "cai": "parcial",
+              "cai_nota": "Póliza de 2,5 M€; certificado 2026 pendiente de aportar"
+            }
+          ],
+          "tecnica": [
+            {
+              "nombre": "Proyecto de urbanización análogo",
+              "valor": "1 trabajo completo en 5 años; PEC ≥ 4 M€ sin IVA",
+              "acreditacion": "Certificado de colegio, administración o contratante",
+              "cai": "cumple",
+              "cai_nota": "B-004, B-009, B-023, B-012 con certificado de B93394195"
+            },
+            {
+              "nombre": "Dirección de obra de urbanización análoga",
+              "valor": "1 trabajo completo en 5 años; PEC ≥ 4 M€ sin IVA",
+              "acreditacion": "Certificado de colegio, administración o contratante",
+              "cai": "cumple",
+              "cai_nota": "B-021, B-025, B-023"
+            },
+            {
+              "nombre": "Clasificación empresarial",
+              "valor": "No exigida",
+              "acreditacion": "",
+              "cai": "cumple",
+              "cai_nota": "No exigida"
+            }
+          ],
+          "equipo": [
+            {
+              "nombre": "Redactor de la actualización del proyecto",
+              "valor": "Técnico competente; 1 proyecto análogo en 5 años; título o colegiación",
+              "acreditacion": "Designación, título, certificado del trabajo",
+              "cai": "cumple",
+              "cai_nota": "ICCP en plantilla",
+              "cai_personas": "Enrique de la Torre Lara (ICCP, CICCP 16917; autor en certificados B-004/B-023) | Luis Jiménez Camacho (ICCP, CICCP 36616; experiencia por confirmar) | Juan José Piñero Soto (ICCP; experiencia por confirmar)"
+            },
+            {
+              "nombre": "Facultativo Director de obra",
+              "valor": "Técnico competente; 1 dirección de obra análoga en 5 años",
+              "acreditacion": "Designación, título, certificado",
+              "cai": "cumple",
+              "cai_nota": "Director en B-021/B-025",
+              "cai_personas": "Enrique de la Torre Lara (ICCP; director en B-021) | Augusto Vivanco Maldonado (ITOP, socio; director en B-026; titulación por confirmar) | Antonio Izquierdo Sánchez (Director de obra ITOP; experiencia por confirmar)"
+            },
+            {
+              "nombre": "Ingeniero de Caminos, Canales y Puertos",
+              "valor": "ICCP con experiencia en dirección/control igual o mayor que el Director",
+              "acreditacion": "Titulación, historial, % dedicación",
+              "cai": "cumple",
+              "cai_nota": "ICCP en plantilla",
+              "cai_personas": "Luis Jiménez Camacho (ICCP, CICCP 36616; experiencia por confirmar) | Juan José Piñero Soto (ICCP; experiencia por confirmar) | Enrique de la Torre Lara (ICCP; si no es el Director)"
+            },
+            {
+              "nombre": "Ingeniero Técnico de Obras Públicas / Ingeniero Civil",
+              "valor": "Experiencia en dirección de una obra de urbanización con PEC ≥ mitad de la obra",
+              "acreditacion": "Titulación, historial, % dedicación",
+              "cai": "cumple",
+              "cai_nota": "ITOP/IC en plantilla; experiencia por confirmar",
+              "cai_personas": "Miguel Ángel Manella Galiano (ITOP; DO en B-030; experiencia por confirmar) | Pilar Bentabol (Directora de obra ITOP; experiencia por confirmar) | Rocío González García (ITOP; experiencia por confirmar)"
+            },
+            {
+              "nombre": "Ingeniero Industrial",
+              "valor": "Experiencia en dirección de obra con redes eléctricas y alumbrado, PEC ≥ mitad de la obra; competente para tramitar permisos",
+              "acreditacion": "Titulación, historial, % dedicación, compromiso si es externo",
+              "cai": "parcial",
+              "cai_nota": "No hay ingeniero industrial superior; ITI en Instalaciones (equivalencia por confirmar)",
+              "cai_personas": "Francisco José Cívico Melendo (ITI, COPITI 2590; equivalencia y experiencia por confirmar) | Enrique de Vega (ingeniero industrial) (externo)"
+            },
+            {
+              "nombre": "Titulado en Topografía",
+              "valor": "Experiencia en dirección o control de obra de urbanización análoga, PEC ≥ mitad de la obra",
+              "acreditacion": "Titulación, historial, compromiso de colaboración",
+              "cai": "no",
+              "cai_nota": "Sin topógrafo en plantilla; se subcontrata",
+              "cai_personas": "Sin perfil propio; cubrir con colaborador o subcontrata"
+            },
+            {
+              "nombre": "Técnico Medioambiental",
+              "valor": "Titulación equivalente, con experiencia para inspeccionar la normativa ambiental y tramitar permisos",
+              "acreditacion": "Titulación, historial, % dedicación",
+              "cai": "parcial",
+              "cai_nota": "Ambientóloga en plantilla; experiencia por confirmar",
+              "cai_personas": "Águeda Romeo Jurado (Graduada en Ciencias Ambientales; experiencia por confirmar) | Luis Hens del Campo (Ingeniero de Montes; equivalencia por confirmar) | Carolina Ruiz Peinado (ambientóloga, col. 02205) (externo)"
+            },
+            {
+              "nombre": "Arqueólogo Director",
+              "valor": "Titulación competente; experiencia en seguimiento y permisos arqueológicos",
+              "acreditacion": "Titulación, historial, compromiso de colaboración",
+              "cai": "no",
+              "cai_nota": "Sin arqueólogo; se subcontrata",
+              "cai_personas": "Sin perfil propio; cubrir con colaborador o subcontrata"
+            }
+          ]
+        },
+        "juicio_valor": [
+          {
+            "nombre": "Metodología y programa de trabajo",
+            "puntos": 15,
+            "paginas_a4": null,
+            "paginas_a3": null,
+            "formato": "",
+            "acreditacion": "Sobre 2",
+            "apartados": [
+              {
+                "nombre": "Conocimiento del objeto y plan de acciones",
+                "puntos": null,
+                "filas": 1
+              },
+              {
+                "nombre": "Planificación, medios y dedicaciones",
+                "puntos": null,
+                "filas": 1
+              }
+            ]
+          },
+          {
+            "nombre": "Análisis del proyecto de las obras a ejecutar",
+            "puntos": 10,
+            "paginas_a4": 10,
+            "paginas_a3": null,
+            "formato": "",
+            "acreditacion": "Sobre 2",
+            "apartados": []
+          },
+          {
+            "nombre": "Análisis de las afecciones y servidumbres",
+            "puntos": 10,
+            "paginas_a4": 10,
+            "paginas_a3": null,
+            "formato": "",
+            "acreditacion": "Sobre 2",
+            "apartados": []
+          },
+          {
+            "nombre": "Implantación de sistemas de calidad y flujos de información",
+            "puntos": 3,
+            "paginas_a4": 10,
+            "paginas_a3": null,
+            "formato": "",
+            "acreditacion": "Sobre 2",
+            "apartados": []
+          },
+          {
+            "nombre": "Aspectos medioambientales",
+            "puntos": 3,
+            "paginas_a4": 10,
+            "paginas_a3": null,
+            "formato": "",
+            "acreditacion": "Sobre 2",
+            "apartados": []
+          }
+        ],
+        "formulas": [
+          {
+            "nombre": "Precio",
+            "puntos": 49,
+            "formula": "P = 49 × (Pmin / Pi); Pmin = precio de la oferta más económica admitida; Pi = precio del licitador",
+            "acreditacion": "Sobre 3"
+          },
+          {
+            "nombre": "Equipo técnico adicional en obra",
+            "puntos": 10,
+            "formula": "X = (Dj + Dm + Dgeo + Dp + Dat) / 15; D = días enteros de asistencia (máx. 30 cada uno) de supervisor de riego/jardinería, residuos, geología/geotecnia, peón de arqueología y Arqueólogo Técnico",
+            "acreditacion": "Sobre 3, compromiso nominal"
+          }
+        ],
+        "otros": [],
+        "umbral": "Mínimo 20,5 puntos (mitad de 41) en la suma de criterios de juicio de valor para continuar"
+      },
+      "fecha_analisis": "2026-11-16T11:07:43.814816+00:00",
+      "solicitada_por": "Belén Fernández"
+    }
   },
   {
     "folder_id": "3013/2026",
