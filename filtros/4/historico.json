@@ -9043,7 +9043,212 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-11-14"
+    "fecha_captura": "2026-11-14",
+    "revision_ia": {
+      "informe": "## Bloque 1 – Características Principales del Contrato\n\n### Objeto de la licitación\nServicio de asistencia técnica para los actos preparatorios del Plan Básico de Ordenación Municipal (PBOM) de Paterna de Rivera (Cádiz), financiado al 100 % por la Diputación de Cádiz. Incluye redactar el Documento de Información y Diagnóstico Previo, el Documento de Avance y el Documento Inicial Estratégico. Comprende además participación ciudadana, asesoramiento municipal y soporte hasta la admisión a trámite de la Evaluación Ambiental Estratégica.\n\nObjetivos:\n- Redactar el **DIDP** (Fase II), el **Documento de Avance** y el **DIE** (Fase III), con al menos 3 alternativas de ordenación.\n- Elaborar el **Programa de Trabajo** (Fase I), que pasa a ser contractual.\n- Tramitar la solicitud de inicio de la EAE y atender los requerimientos del órgano ambiental (Fase IV).\n- Celebrar **3 sesiones públicas** de participación ciudadana como mínimo.\n- Entregar **2 paneles DIN A0** en soporte rígido.\n- Trabajar con **QGIS** y formatos abiertos (odt, gpkg/shp, EPSG 25830), sin CAD, con las plantillas de la Diputación.\n\nPPT: analizado e integrado en este informe.\n\n### División en lotes\nNo hay división en lotes (unidad funcional del servicio).\n\n### Características del contrato\n- **Expediente:** 1583/2026. Contrato de servicios, procedimiento abierto simplificado (art. 159 LCSP), no sujeto a regulación armonizada, sin recurso especial. **CPV 71400000-2**.\n- **Presupuesto base de licitación:** **99.414,05 €** sin IVA, más 20.876,95 € de IVA (21 %), total **120.291,00 €**.\n- **Valor estimado:** **99.414,05 €** (sin prórrogas ni modificaciones).\n- ⚠ REVISAR: el desglose del cuadro resumen no cuadra. Costes directos 94.443,35 € (95 %) más indirectos 49.707,70 € (5 %) suman 144.151,05 €, no 99.414,05 €.\n- **Duración:** máximo **12 meses** desde la formalización, y en todo caso antes del **31/01/2028**. Sin prórroga.\n- **Plazos parciales (PPT 8.2):**\n\n| Fase | Plazo | Cierre de la fase |\n|---|---|---|\n| I – Programa de Trabajo | 1 mes (presentación en 15 días hábiles tras formalizar) | Aprobación del Programa |\n| II – DIDP | 6 meses | Aprobación del DIDP |\n| III – Avance + DIE | 4 meses | Aprobación del DA y el DIE |\n| IV – Solicitud de inicio de la EAE | 1 mes | Admisión a trámite |\n\n- **Presentación:** exclusivamente electrónica por PLACSP, en 2 archivos o sobres electrónicos firmados. El plazo mínimo es de 15 días desde la publicación del anuncio.\n- **Plazo y fecha límite de presentación:** no localizados; constan en el anuncio de licitación.\n- **Consultas:** se piden al menos 12 días antes del fin del plazo y se responden como máximo 6 días antes.\n- **Garantías y otras condiciones:**\n  - Garantía provisional: no se exige. Garantía definitiva: 5 % del precio ofertado. Garantía complementaria: no.\n  - Revisión de precios: no. Variantes: no.\n- **Trabajos obligatorios específicos (según el PPT):**\n  - Programa de Trabajo, DIDP, DA y DIE, ajustados a la LISTA y a la LEGAM (Ley 2/2026).\n  - Valoración del impacto en la salud (Anexo C del DA), cartografía SIG y plantillas de la Diputación.\n  - Firma electrónica de todos los miembros del equipo.\n  - No se exigen arqueología, topografía ni geotecnia.\n- **Responsable del contrato:** técnico de la Diputación de Cádiz. Hay una Mesa de Seguimiento.\n\n## Bloque 2 – Solvencia\n\n### Económica y financiera\n- **Cifra de negocio:** no exigida.\n- **Seguro de responsabilidad civil profesional** (art. 87.1.b LCSP) vigente por importe no inferior al valor estimado, es decir, **≥ 99.414,05 €**.\n- **Acreditación:** certificado del asegurador con importes, riesgos y vencimiento, vigente hasta el fin del plazo de ofertas. Se añade el compromiso de renovación durante la ejecución. Basta el compromiso vinculante de suscripción si se resulta adjudicatario.\n- **Clasificación:** no exigible.\n- **Inscripción en ROLECE** (o registro autonómico equivalente): obligatoria (cláusula 8.4). Se admite acreditar que la solicitud se presentó antes del fin del plazo de ofertas.\n\n### Técnica y profesional\nEquipo redactor mínimo, 3 personas. Todas deben adscribirse formalmente, suscribir los documentos y no pueden sustituirse sin aprobación del Ayuntamiento. Es condición esencial del contrato.\n\n| Puesto | Titulación | Experiencia exigida |\n|---|---|---|\n| Director/a del equipo (1) | Grado + Máster habilitante o titulación equivalente, o Ingeniero/a de Caminos | Haber participado como director o coordinador, en los últimos **20 años**, en la redacción de un instrumento de ordenación urbanística general que haya alcanzado al menos la aprobación inicial |\n| Geógrafo/a especialista en SIG (1) | Grado o Licenciatura en Geografía, con formación o experiencia acreditada en SIG | Participación en los últimos 20 años en un instrumento general que haya alcanzado la aprobación inicial |\n| Especialista en medio ambiente (1) | Grado o Licenciatura en Ciencias Ambientales o Biología (art. 16.1 Ley 21/2013) | Participación en los últimos 20 años en un Estudio Ambiental Estratégico o de Impacto Ambiental de un instrumento general que haya alcanzado la aprobación inicial |\n\n- **Acreditación:**\n  - Relación nominal firmada, con copia autenticada de los títulos.\n  - Experiencia mediante certificado o informe de la Administración para la que se prestó el servicio, con identificación del profesional.\n  - Si el profesional no es de plantilla, compromiso individualizado de contratación y de participación hasta el final. La relación laboral o mercantil se documenta antes de la adjudicación.\n- **Medios externos (art. 75 LCSP):** permitidos. El compromiso por escrito se exige al licitador con la mejor oferta.\n- **Subcontratación (cláusula 13):** permitida parcialmente, con declaración en la oferta y Anexo 8. La penalidad por incumplimiento es del 50 % del importe subcontratado. No se detalla qué puestos pueden subcontratarse. Los 3 miembros del equipo mínimo deben adscribirse formalmente, lo que puede hacerse mediante compromiso de contratación si no son de plantilla.\n- **Colegiación:** no se exige expresamente.\n- ⚠ REVISAR (director): el PCAP admite \"Grado + Máster habilitante o equivalente, o ICCP\" sin especificar la titulación. El PPT (4.1) concreta \"Grado más Máster Habilitante **en Arquitectura**\". Confirmar con el órgano de contratación.\n- ⚠ REVISAR — criterio de mejora de equipo, no confundir con el mínimo de solvencia: puntúan aparte la experiencia complementaria del director (criterios A y B, Bloque 3) y los perfiles adicionales de Derecho, Ingeniería Civil, Geología y Sociología. Esa experiencia no puede ser la presentada como solvencia.\n\n## Bloque 3 – Criterios de Adjudicación\n\nMáximo **100 puntos**: 45 por juicio de valor y 55 automáticos.\n\n### Automáticos (fórmulas)\n**Proposición económica: 45 puntos.**\n- Fórmula: **Po = Pe × OEM / OEV**.\n  - Pe = 45.\n  - OEV = oferta a evaluar.\n  - OEM = oferta más baja no desproporcionada.\n- Se excluyen las ofertas por encima del presupuesto de licitación.\n- Se exigen dos decimales en la oferta.\n- **Ofertas anormalmente bajas:** art. 85 RGLCAP con los porcentajes reducidos a 5 puntos (en lugar de 10). Justificación en 5 días hábiles.\n\n**Otros criterios automáticos: hasta 10 puntos.** Experiencia complementaria de la persona directora, además de la mínima de solvencia (no pueden contarse los trabajos usados como solvencia):\n\n| Criterio | Figura de planeamiento | Puntos por figura |\n|---|---|---|\n| A – Municipios de 5.000 a 10.000 hab., no litorales ni en aglomeración (máx. **7**) | Instrumento general o revisión total, hasta aprobación inicial | 7 |\n| | Revisión parcial o modificación del general, hasta aprobación definitiva | 5 |\n| | Instrumento de detalle, hasta aprobación definitiva | 3 |\n| B – Cualquier otro municipio (máx. **3**) | Instrumento general o revisión total, hasta aprobación inicial | 3 |\n| | Revisión parcial o modificación del general, hasta aprobación definitiva | 2 |\n| | Revisión parcial de un general o instrumento de detalle, hasta aprobación definitiva | 1 |\n\nSe debe identificar a los componentes y acreditar la experiencia conforme al apartado 4.3.\n\n### Juicio de valor\nTotal **45 puntos**. Escala: óptimo 100 %, satisfactorio 75 %, suficiente 50 %, insuficiente 0.\n\n**Memoria de Trabajo: 20 puntos.** Formato: Arial 11, márgenes 2 cm, interlineado sencillo.\n\n⚠ REVISAR: el PCAP fija un máximo de **10 páginas A4**, pero un párrafo posterior habla de \"cinco (5) páginas\". Confirmar. El incumplimiento del formato supone que no se valora.\n\n| Apartado | Máx. | Subcriterios |\n|---|---|---|\n| Metodología general | 8 | Claridad de fases (2), adaptación a la Guía ODS 2024 (2), adecuación al municipio (4) |\n| Programación | 5 | Claridad de fases (2), viabilidad temporal (2), tiempos de revisión y participación (1) |\n| Recursos técnicos | 5 | Mejora en la formación del equipo, incluido SIG (2); recursos materiales (1); mejora del equipo redactor (2) |\n| Fomento de la participación ciudadana | 2 | Diversidad y adecuación de métodos (1), inclusión y accesibilidad (1) |\n\nMejora del equipo redactor (hasta 2 puntos): 1 punto por persona, máximo 1 persona de cada una de estas titulaciones: Derecho, Ingeniería Civil, Geología y Sociología.\n- Hay que aportar titulaciones y Anexo 10, con compromiso firmado.\n- Su colaboración debe estar justificada en la Memoria.\n- El Anexo 10 y la documentación acreditativa no cuentan en el límite de páginas.\n\n**Memoria Informativa: 25 puntos.** Máximo **20 páginas A4**, con el mismo formato.\n\n| Apartado | Máx. | Subcriterios |\n|---|---|---|\n| Descripción general del municipio | 7 | Rigor (2), análisis integrado de condicionantes (2), singularidades (3) |\n| Descripción del medio urbano | 8 | Rigor (2), definición del modelo urbano (3), particularidades (3) |\n| Análisis del planeamiento vigente | 10 | Detalle y claridad (2), grado de ejecución (4), problemas y oportunidades (4) |\n\n### Umbrales mínimos de puntuación\nSí existen. La oferta se excluye si no alcanza:\n- **10 puntos** en la Memoria de Trabajo (9.1.1).\n- **12,5 puntos** en la Memoria Informativa (9.1.2).\n\n## Bloque 4 – Forma de Pago\n\n- **Pagos parciales** contra factura conformada por el responsable del contrato:\n  - **10 %** al concluir la Fase I.\n  - **40 %** al concluir la Fase II.\n  - **50 %** al concluir la Fase IV. El cuadro resumen no prevé pago en la Fase III.\n- **Facturación:** electrónica vía FACe, con códigos DIR3 (en blanco en el pliego). La factura debe incluir:\n  - título del contrato, concepto e IVA desglosado;\n  - referencia a la subvención de la Diputación de Cádiz (Base 13.4);\n  - justificante del pago a subcontratistas, si los hay.\n- **Revisión de precios:** no. **Modificaciones previstas:** no.\n- **Plazo de garantía:** 12 meses desde la recepción. Hay que contrastar el PPT 9.2, que sitúa el inicio del plazo en el acta de recepción tras la admisión a trámite de la EAE.\n- **Penalidades:**\n  - Leves: 0,5–2 % del precio.\n  - Graves: 2–5 %.\n  - Muy graves: más del 5 % y hasta el 10 %, o resolución.\n  - Es muy grave cambiar el equipo sin autorización.\n  - Un retraso que ponga en riesgo la subvención provincial es causa de resolución, pérdida de la garantía e indemnización.\n- **Condiciones especiales de ejecución** (esenciales):\n  - Mantener las condiciones laborales del convenio.\n  - Formación del personal de al menos 10 horas en novedades de la ley urbanística andaluza.\n- **Otras sanciones:** penalidad del 3 % del presupuesto base si no se atiende el requerimiento o no se formaliza el contrato. Subcontratación irregular: 50 % del importe subcontratado.\n\n## Bloque 5 – Documentación a Presentar\n\nLa página 10 del PCAP (continuación de la cláusula 11.2) no está en el texto recibido. Por eso el contenido exacto de cada archivo es parcial y se ha deducido de las cláusulas 11.2, 12 y 9 del Anexo I.\n\n### Archivo o sobre electrónico nº 1 – Documentación administrativa y criterios de juicio de valor\n- **Declaración responsable (Anexo 2):** una por cada empresa si es UTE. Se acompaña de la inscripción en ROLECE (o acuse de solicitud) y, en su caso, de la declaración sobre participación en la elaboración de los pliegos.\n- **Certificación de personas trabajadoras con discapacidad (Anexo 5).**\n- **Declaración sobre igualdad (Anexo 6):** el plan de igualdad solo es obligatorio con 50 o más personas en plantilla.\n- **Compromiso de constitución de UTE (Anexo 7):** con el porcentaje de participación de cada empresa (si aplica).\n- **Memoria de Trabajo:** máximo 10 páginas A4.\n- **Memoria Informativa:** máximo 20 páginas A4.\n- **Anexo 10 – Adscripción de medios personales:** equipo mínimo y, por separado, perfiles adicionales. Incluye títulos académicos y compromisos firmados (a verificar en la página 10).\n- **Declaración de documentos confidenciales:** opcional.\n- **Anexo 8 – Subcontratación:** se declara en la oferta si se prevé subcontratar.\n\n### Archivo o sobre electrónico nº 2 – Proposición económica y criterios automáticos\n- **Anexo 3 – Modelo de oferta económica:** o **Anexo 4** para una UTE. Con dos decimales, sin superar el presupuesto, y con el IVA como partida independiente.\n- **Experiencia complementaria de la persona directora (criterios A y B):** a verificar en qué archivo se presenta.\n\n### Documentación posterior (solo el propuesto como adjudicatario)\nPlazo: 7 días hábiles desde el requerimiento.\n- **Personalidad y capacidad:** escritura o estatutos inscritos. Poder bastanteado y DNI del representante.\n- **Certificado de datos de contacto** a efectos de notificaciones.\n- **Certificados de la AEAT y de la Seguridad Social:** alta y recibo del IAE, o declaración de exención.\n- **Solvencia:**\n  - Certificado del seguro de responsabilidad civil y compromiso de renovación.\n  - Relación del equipo mínimo, títulos autenticados y certificados de experiencia emitidos por la Administración.\n  - Compromisos de contratación de personal externo y documentación de la relación laboral o mercantil.\n  - Compromiso de medios externos (art. 75 LCSP), si procede.\n- **Garantía definitiva:** 5 % del precio sin IVA.\n- **Anexo 8:** si se subcontrata.\n- **Declaración de sometimiento a tribunales españoles** (Anexo 9), solo para empresas extranjeras.\n- **Si es UTE:** escritura pública y alta en el IAE en 10 días hábiles tras la adjudicación.\n- **Subsanaciones:** plazo de 3 días.\n\n## Bloque 6 – Conclusiones / Análisis Preliminar\n\n**Precio y duración.** Los 99.414,05 € sin IVA para 12 meses equivalen a unos **8.285 €/mes**. Con la Fase I de solo 1 mes y un 45 % del peso en precio, se prevé competencia con bajas. El margen es ajustado: exige equipo de 3 titulados mínimo, participación ciudadana, paneles A0, informes mensuales y firma de todos los documentos. El desglose del presupuesto es incoherente (⚠ REVISAR). El pago es 10 % / 40 % / 50 %, con el 50 % al cierre de la Fase IV. Esa fase depende de la admisión a trámite del órgano ambiental, fuera del control del adjudicatario.\n\n**Solvencia económica.**\n- El seguro de RC (2,5 M€ en CAI Ingeniería) supera de sobra los 99.414 €, aunque el certificado de 2026 está pendiente de aportar.\n- No se exige cifra de negocio; CAI declara 1,88 M€.\n- No consta inscripción de CAI en ROLECE: obligatoria, por acreditar.\n- La clasificación no es exigible.\n\n**Solvencia técnica y equipo.**\n- No se exige experiencia de la empresa, solo la del equipo.\n- El planeamiento general acreditado por CAI es casi todo en UTE con García de los Reyes. Lo propio de CAI son innovaciones y modificaciones del general, y planeamiento de desarrollo.\n- La participación individual de De la Torre, Torralba o Romeo en un instrumento general con aprobación inicial no consta en el perfil. Por tanto, la experiencia de cada puesto está por confirmar.\n\n| Requisito | Estado CAI |\n|---|---|\n| Seguro RC ≥ 99.414 € | Cumple (certificado 2026 pendiente) |\n| Director (titulación) | Cumple (De la Torre, ICCP; o Torralba, arquitecta) |\n| Director (20 años, instrumento general aprobado inicialmente) | Por confirmar |\n| Geógrafo SIG | No consta en plantilla; cubrir con externo |\n| Medio ambiente (titulación) | Cumple (Romeo, Ciencias Ambientales) |\n| Medio ambiente (EAE de general) | Por confirmar |\n| ROLECE | No consta |\n\nEl pliego permite medios externos y compromisos de contratación, y el pliego admite UTE. Las carencias son cubribles con García de los Reyes o Vicente Guayar (externos, titulación sin verificar) y con un geógrafo externo.\n\n### Semáforo de presentación\n**NARANJA.**\n- **Requisitos cumplidos:** 2 de 7 de plano (seguro y titulaciones del director y del ambiental). Otros 2 están por confirmar (experiencia del director y del especialista ambiental), y 2 faltan o están por acreditar (geógrafo SIG y ROLECE).\n- **Falta o por acreditar:**\n  - Geógrafo SIG: sin perfil propio.\n  - Experiencia en instrumentos generales con aprobación inicial de director y especialista ambiental.\n  - ROLECE.\n  - Certificado de seguro 2026.\n- **Subcontratable o cubrible:** sí. El PCAP admite medios externos con compromiso (art. 75) y UTE. El precedente similar (EAE del PGOM de Málaga) se ganó en UTE, lo que limita a naranja, no a verde.\n- ⚠ REVISAR: titulación del director (PCAP frente a PPT) y límite de páginas de la Memoria de Trabajo (10 frente a 5).",
+      "usa_ppt": true,
+      "uso": {
+        "entrada": 96300,
+        "salida": 16589,
+        "cache_leida": 0,
+        "cache_escrita": 25538
+      },
+      "coste_estimado_usd": 0.4223,
+      "semaforo": "naranja",
+      "semaforo_motivo": "Falta geógrafo SIG y experiencia en general (casi todo en UTE) y ROLECE; el pliego permite medios externos y UTE, cubrible.",
+      "datos_excel": {
+        "info": {
+          "valor_estimado": 99414.05,
+          "iva_pct": 21,
+          "fecha_presentacion": null,
+          "plazo_ejecucion": "12 meses desde formalización y antes del 31/01/2028. Fases: I 1 mes, II 6 meses, III 4 meses, IV 1 mes",
+          "consultas": "Solicitar al menos 12 días antes del fin del plazo; respuesta 6 días antes. Fecha límite en el anuncio (no localizada)",
+          "garantia_provisional": "No se exige",
+          "garantia_definitiva": "5 % del precio ofertado (IVA excluido)",
+          "seguro_rc": "RC profesional no inferior al valor estimado (99.414,05 €)",
+          "lotes": "No hay lotes",
+          "revision_precios": "No se prevé",
+          "plazo_garantia": "12 meses desde recepción",
+          "ute": "Permitida; solvencia acumulable; Anexo 7 con porcentaje de participación",
+          "subcontratacion": "Permitida parcialmente (art. 215.2 LCSP); Anexo 8; penalidad 50 % del subcontrato si se incumple",
+          "umbral_tecnico": "Memoria de Trabajo ≥ 10 pts y Memoria Informativa ≥ 12,5 pts"
+        },
+        "solvencia": {
+          "nota": "Medios externos permitidos (art. 75 LCSP) y compromiso de contratación para personal no integrado. Equipo mínimo de 3 personas adscritas formalmente, condición esencial. UTE permitida. Clasificación no exigible. ROLECE obligatorio. No se exige colegiación. Discrepancia PCAP/PPT sobre titulación del director (Arquitectura en PPT).",
+          "economica": [
+            {
+              "nombre": "Seguro de responsabilidad civil profesional",
+              "valor": "Importe no inferior a 99.414,05 €, vigente hasta fin del plazo de ofertas",
+              "acreditacion": "Certificado del asegurador con importes, riesgos y vencimiento, más compromiso de renovación",
+              "cai": "cumple",
+              "cai_nota": "CAI Ingeniería tiene 2,5 M€; certificado 2026 pendiente"
+            }
+          ],
+          "tecnica": [
+            {
+              "nombre": "Inscripción en ROLECE o registro autonómico",
+              "valor": "Obligatoria (art. 159.4.a LCSP); vale solicitud presentada antes del fin del plazo",
+              "acreditacion": "Certificado de inscripción o acuse de solicitud con declaración responsable",
+              "cai": "no_consta",
+              "cai_nota": "No consta inscripción en el perfil"
+            },
+            {
+              "nombre": "Experiencia del equipo en planeamiento y EAE",
+              "valor": "Acreditada experiencia en planificación urbanística y evaluación ambiental estratégica por el equipo mínimo",
+              "acreditacion": "Certificados de la Administración con identificación del profesional",
+              "cai": "parcial",
+              "cai_nota": "Planeamiento general casi todo en UTE con García de los Reyes"
+            }
+          ],
+          "equipo": [
+            {
+              "nombre": "Director/a del equipo",
+              "valor": "Grado + Máster habilitante (Arquitectura según PPT) o ICCP; haber dirigido o coordinado en los últimos 20 años un instrumento general con aprobación inicial",
+              "acreditacion": "Título autenticado y certificado de la Administración con identificación del profesional",
+              "cai": "parcial",
+              "cai_nota": "Titulación cumple; experiencia en instrumento general por confirmar",
+              "cai_personas": "Enrique de la Torre Lara (ICCP colegiado, actividad desde 1995; experiencia en instrumento general por confirmar) | Carmen Torralba Loyo (Arquitecta, jefa de Diseño Urbano; experiencia por confirmar) | Vicente Guayar (externo; planeamiento; titulación por confirmar)"
+            },
+            {
+              "nombre": "Geógrafo/a especialista en SIG",
+              "valor": "Grado o Licenciatura en Geografía con formación o experiencia SIG; participación en los últimos 20 años en un instrumento general con aprobación inicial",
+              "acreditacion": "Título autenticado y certificado de la Administración",
+              "cai": "no",
+              "cai_nota": "No hay geógrafo en plantilla; cubrir con externo",
+              "cai_personas": "Sin perfil propio; cubrir con colaborador o subcontrata"
+            },
+            {
+              "nombre": "Especialista en medio ambiente",
+              "valor": "Grado o Licenciatura en Ciencias Ambientales o Biología; participación en los últimos 20 años en un EAE o EsIA de un instrumento general con aprobación inicial",
+              "acreditacion": "Título autenticado y certificado de la Administración",
+              "cai": "parcial",
+              "cai_nota": "Titulación cumple; experiencia en EAE de general por confirmar",
+              "cai_personas": "Águeda Romeo Jurado (Grado Ciencias Ambientales UMA 2022; experiencia por confirmar) | Natalia Rodríguez (Bióloga, desde 05/2026; experiencia por confirmar) | Carolina Ruiz Peinado (externo; ambientóloga colegiada nº 02205)"
+            }
+          ]
+        },
+        "juicio_valor": [
+          {
+            "nombre": "Memoria de Trabajo",
+            "puntos": 20,
+            "paginas_a4": 10,
+            "paginas_a3": null,
+            "formato": "Arial 11, márgenes 2 cm, interlineado sencillo; ⚠ el PCAP también dice 5 páginas en un párrafo",
+            "acreditacion": "Memoria (Anexo 10 y títulos de perfiles adicionales no computan en páginas)",
+            "apartados": [
+              {
+                "nombre": "Metodología general",
+                "puntos": 8,
+                "filas": 1
+              },
+              {
+                "nombre": "Programación",
+                "puntos": 5,
+                "filas": 1
+              },
+              {
+                "nombre": "Recursos técnicos (mejora de formación 2, recursos materiales 1, mejora de equipo 2)",
+                "puntos": 5,
+                "filas": 4
+              },
+              {
+                "nombre": "Fomento de la participación ciudadana",
+                "puntos": 2,
+                "filas": 1
+              }
+            ]
+          },
+          {
+            "nombre": "Memoria Informativa",
+            "puntos": 25,
+            "paginas_a4": 20,
+            "paginas_a3": null,
+            "formato": "Arial 11, márgenes 2 cm, interlineado sencillo",
+            "acreditacion": "Memoria informativa y diagnóstico urbanístico previo",
+            "apartados": [
+              {
+                "nombre": "Descripción general del municipio",
+                "puntos": 7,
+                "filas": 1
+              },
+              {
+                "nombre": "Descripción general del medio urbano",
+                "puntos": 8,
+                "filas": 1
+              },
+              {
+                "nombre": "Análisis del planeamiento vigente",
+                "puntos": 10,
+                "filas": 1
+              }
+            ]
+          }
+        ],
+        "formulas": [
+          {
+            "nombre": "Proposición económica",
+            "puntos": 45,
+            "formula": "Po = Pe × OEM / OEV; Po = puntos de la oferta evaluada; Pe = 45; OEV = oferta a evaluar; OEM = oferta menor no desproporcionada. Excluidas ofertas superiores al presupuesto. Anormalidad: art. 85 RGLCAP con 5 puntos porcentuales",
+            "acreditacion": "Anexo 3 (o Anexo 4 si UTE), con dos decimales"
+          }
+        ],
+        "otros": [
+          {
+            "nombre": "A. Experiencia complementaria de la persona directora en municipios de 5.000 a 10.000 hab. (no litoral ni aglomeración)",
+            "puntos": 7,
+            "acreditacion": "Certificados de la Administración con identificación del profesional; distinta de la experiencia de solvencia",
+            "apartados": [
+              {
+                "nombre": "Instrumento general o revisión total, hasta aprobación inicial",
+                "puntos": 7,
+                "regla": "7 puntos por figura, tope 7 en el criterio",
+                "filas": 1
+              },
+              {
+                "nombre": "Revisión parcial o modificación del general, hasta aprobación definitiva",
+                "puntos": 5,
+                "regla": "5 puntos por figura, tope 7 en el criterio",
+                "filas": 2
+              },
+              {
+                "nombre": "Instrumento de ordenación detallada, hasta aprobación definitiva",
+                "puntos": 3,
+                "regla": "3 puntos por figura, tope 7 en el criterio",
+                "filas": 3
+              }
+            ]
+          },
+          {
+            "nombre": "B. Experiencia complementaria de la persona directora en otros municipios",
+            "puntos": 3,
+            "acreditacion": "Certificados de la Administración con identificación del profesional; distinta de la experiencia de solvencia",
+            "apartados": [
+              {
+                "nombre": "Instrumento general o revisión total, hasta aprobación inicial",
+                "puntos": 3,
+                "regla": "3 puntos por figura, tope 3 en el criterio",
+                "filas": 1
+              },
+              {
+                "nombre": "Revisión parcial o modificación del general, hasta aprobación definitiva",
+                "puntos": 2,
+                "regla": "2 puntos por figura, tope 3 en el criterio",
+                "filas": 2
+              },
+              {
+                "nombre": "Revisión parcial de un general o instrumento de detalle, hasta aprobación definitiva",
+                "puntos": 1,
+                "regla": "1 punto por figura, tope 3 en el criterio",
+                "filas": 3
+              }
+            ]
+          }
+        ],
+        "umbral": "Memoria de Trabajo ≥ 10 puntos y Memoria Informativa ≥ 12,5 puntos; si no se alcanzan, exclusión"
+      },
+      "fecha_analisis": "2026-11-16T10:46:29.420958+00:00",
+      "solicitada_por": "Belén Fernández"
+    }
   },
   {
     "folder_id": "1930/2026",
