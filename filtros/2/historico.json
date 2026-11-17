@@ -943,7 +943,10 @@
     },
     "revisado_humano": true,
     "revisado_fecha": "2026-11-09T08:01:22.499Z",
-    "revisado_por": "Belén Fernández"
+    "revisado_por": "Belén Fernández",
+    "presentado": true,
+    "presentado_fecha": "2026-11-17T11:04:53.107Z",
+    "presentado_por": "CarlosLCAI"
   },
   {
     "folder_id": "PCO001202500843",
