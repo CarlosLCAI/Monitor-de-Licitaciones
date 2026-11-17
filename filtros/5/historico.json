@@ -1565,8 +1565,8 @@
       "79952100",
       "71318100"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=O%2BpIzBGNyTNBlYtkTsdRj128ls8az4P8GKMQjVFa5RG8EJXze0nl0hB0jnTsFPrsaFNyfIdWl/E3Q4CTsGJvHSbzYr0zBAe/T8uGxXJydycZyAJWGsSt0OzTSTyw9JAs",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=3frJ7QP0lhxjxaWkSRgNVDkN2%2BvKuB0ZZqhYfA9DjQEryiXGztcOJKAooJ8mJxoqmGus4GT%2Btf8qTDVahD30epuwIuXobgX7PbOvOc9oPywZyAJWGsSt0OzTSTyw9JAs",
+    "pcap_url": "https://www.contratacion.euskadi.eus/ac70cPublicidadWar/downloadDokusiREST/descargaFicheroPublicadoPorIdFichero?idFichero=13864654&R01HNoPortal=true",
+    "ppt_url": "https://www.contratacion.euskadi.eus/ac70cPublicidadWar/downloadDokusiREST/descargaFicheroPublicadoPorIdFichero?idFichero=13864656&R01HNoPortal=true",
     "organo": "Alcaldía del Ayuntamiento de la Línea de la Concepción",
     "importe": "14876.04",
     "importe_num": 14876.04,
@@ -1590,7 +1590,8 @@
       }
     ],
     "fecha_limite_anterior": "2026-10-15",
-    "fecha_limite_cambiada_el": "2026-11-15"
+    "fecha_limite_cambiada_el": "2026-11-15",
+    "pliego_cambiado_el": "2026-11-17"
   },
   {
     "folder_id": "SE-19/26",
@@ -7389,8 +7390,8 @@
       "71310000",
       "71318000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4TRkIoob/FeQ3bPbSguLqRBXcYm%2Bk1LJ6NRnuf8lvATYytiwrJ9Z2HKXfA9hOagh3MV3B0puThU8GPzzP82G//o2JQ3MUowSe3tn%2BtdmySR45ClyWkoJ44mKM70IFcOu",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/IHwvzevUfMsv5fWfDjAe82Suhgb72HQwvRz0AHiWmtmYlRns/dAe0ImWPHCYrLAPz9U/AZa92RzJl2NRaUkuudLKSci1beATMWEUWwhE5OHAj0WEJrB5sP7amrh2jBD",
+    "pcap_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302801731/24B6B6531EE0A394FDB5BEAF395FA7B3",
+    "ppt_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302801732/E00157813F2A6D3BC09FDD5ACF76AF4D",
     "docs_adicionales": [
       {
         "nombre": "ANEXO VI .docx",
@@ -7432,7 +7433,7 @@
     "organo": "Asamblea General del Consorcio Sierra Nevada Vega Sur",
     "importe": "0",
     "importe_num": 600000,
-    "fecha_limite": "2026-09-10",
+    "fecha_limite": "2026-11-30",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "2",
@@ -7440,7 +7441,10 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-30",
-    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
+    "estado_updated": "2026-11-16T14:09:32.395+01:00",
+    "pliego_cambiado_el": "2026-11-17",
+    "fecha_limite_anterior": "2026-09-10",
+    "fecha_limite_cambiada_el": "2026-11-17"
   },
   {
     "folder_id": "15847/2026",
@@ -7553,7 +7557,7 @@
   },
   {
     "folder_id": "CONTR 2026 0000256565",
-    "estado": "EV",
+    "estado": "PUB",
     "resultado": null,
     "titulo": "0000452/2026 servicio de redacción de proyecto, estudio básico de seguridad y salud, dirección facultativa y coordinación de seguridad y salud para la instalación de energía solar fotovoltaica en distintos centros sanitarios y hospitales del servicio andaluz de salud de la provincia de jaén. financiado 85% fondos feder del marco 21-27",
     "updated": "2026-10-30T13:42:07.964+01:00",
@@ -7599,7 +7603,7 @@
     "organo": "Servicio Andaluz de Salud",
     "importe": "392147.16",
     "importe_num": 392147.16,
-    "fecha_limite": "2026-11-13",
+    "fecha_limite": "2026-11-23",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -7609,9 +7613,11 @@
     "descripcion": "SERVICIO DE REDACCIÓN DE PROYECTO, ESTUDIO BÁSICO DE SEGURIDAD Y SALUD, DIRECCIÓN FACULTATIVA Y COORDINACIÓN DE SEGURIDAD Y SALUD PARA LA INSTALACIÓN DE ENERGÍA SOLAR FOTOVOLTAICA EN DISTINTOS CENTROS SANITARIOS Y HOSPITALES DEL SERVICIO ANDALUZ DE SALUD DE LA PROVINCIA DE JAÉN. FINANCIADO 85% FONDOS FEDER DEL MARCO 21-27",
     "junta_consultado": "2026-10-31",
     "fecha_captura": "2026-10-31",
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-11-14",
-    "estado_updated": "2026-11-13T15:41:27.913+01:00"
+    "estado_anterior": "EV",
+    "estado_cambiado_el": "2026-11-17",
+    "estado_updated": "2026-11-16T10:41:45.762+01:00",
+    "fecha_limite_anterior": "2026-11-13",
+    "fecha_limite_cambiada_el": "2026-11-17"
   },
   {
     "folder_id": "2026/AR44U/00004632E",
@@ -8045,7 +8051,7 @@
   },
   {
     "folder_id": "153/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Servicio de explotación de la Estación Depuradora de Aguas Residuales (EDAR) y Estación de Bombeo de Aguas Residuales (EBAR) de Fuerte del Rey.",
     "updated": "2026-11-04T12:49:39.229+01:00",
@@ -8055,13 +8061,13 @@
     "cpv_codes": [
       "90481000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=sFblu4/Rhpjk6IMz3opKHQsX8sYpF8fq9lB0BRMMgIuHKRXGBxS2en7MeL5nbYtWZGfe0XKl3RYgYDRGV4IrEmMxJCZ1Xgjdwkn5B/HMVzV7QB3HKyQaFUExmUVQCerk",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=RBNySezTPzFCEWQw/Wxlk0%2B2VKatsUwKVXWuYfkCyLZJzFv/tbP4af3a6s09C8kcCa2QPDw25JBT7AWv5SBkJ59zqAGhNQkR5FwUmRJGPxe1aXEvq3KHa/AEHgtDrQw0",
+    "pcap_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302799780/1857848A84AD593D36F0C5F4B60FF839",
+    "ppt_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302799781/C4EB8E30B765FA28ED0437203C20A903",
     "docs_adicionales": [],
     "organo": "Alcaldía del Ayuntamiento de Fuerte del Rey",
     "importe": "114120",
     "importe_num": 114120,
-    "fecha_limite": "2026-11-19",
+    "fecha_limite": "2026-10-30",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "9",
@@ -8069,7 +8075,12 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-05",
-    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
+    "estado_updated": "2026-11-16T12:06:53.073+01:00",
+    "pliego_cambiado_el": "2026-11-17",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-17",
+    "fecha_limite_anterior": "2026-11-19",
+    "fecha_limite_cambiada_el": "2026-11-17"
   },
   {
     "folder_id": "587/2025",
@@ -9271,8 +9282,8 @@
     "cpv_codes": [
       "90460000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=6AFhD/Vir2yUQLZyTSnpGnMGKzVnpjtzZo05t7jjCcPwFQCDsEUrEPlg6v9HJjdChtJeSy5LcnEo8QdQ6hIWW4G/fEPKFzrPXZ1yGzhnTg0//q7NB2iMZvNyf0xrJmjt",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=65L4qGt%2B%2Bbb6w1H/NNDfX5mhEIXNtQZ6gjuLKkNvBS9XYyXp7YqB/B2MzN9qTPmtv/CiMeG0dEVapY3tV6pETztSuTrUF/ferCaKEQJNCAUC1/zDIE0Kw/PWNnLS0Z0z",
+    "pcap_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302797423/1F9DACAE7579208DAF469F6D46B28351",
+    "ppt_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302797426/6C0E9866AEA5A0EE6FA746F791AF8C0E",
     "docs_adicionales": [
       {
         "nombre": "Informe justi y aprob gasto.pdf",
@@ -9282,7 +9293,7 @@
     "organo": "Presidencia de la Autoridad Portuaria de Ceuta",
     "importe": "209720.67",
     "importe_num": 349534.45,
-    "fecha_limite": "2026-12-17",
+    "fecha_limite": "2026-12-07",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -9292,7 +9303,11 @@
     "fecha_captura": "2026-11-11",
     "descartado": true,
     "descartado_fecha": "2026-11-11T12:26:08.081Z",
-    "descartado_por": "Luis Hens del Campo"
+    "descartado_por": "Luis Hens del Campo",
+    "pliego_cambiado_el": "2026-11-17",
+    "fecha_limite_anterior": "2026-12-17",
+    "fecha_limite_cambiada_el": "2026-11-17",
+    "estado_updated": "2026-11-16T10:03:08.581+01:00"
   },
   {
     "folder_id": "0011-26GPSE",

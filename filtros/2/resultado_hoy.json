@@ -1,80 +1,29 @@
 [
   {
-    "folder_id": "2610CPRAE024",
+    "folder_id": "8225_428/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Concurso de Proyectos, con intervención de Jurado, para la Recuperación de las Bajadas Cubiertas del Palacio Real de Madrid y su conexión con el Campo del Moro.",
-    "updated": "2026-11-15T13:27:07.692+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=uN%2FqF64YcKMIYE3ZiZ%2BxmQ%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71240000",
-      "71242000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=47dHKqAqtfJ1wQ0TG75owQ0hVwfJYaXlN1IgKkswhCUUcDEwtqXbzMBzsa5eVacPWqTUjUUfrQYhT3y9uMdhudcs1Nnf8%2BiwqzYyP1K/PLQZyAJWGsSt0OzTSTyw9JAs",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4gMYFPFbisNH4/nvIJkih9ZaESMdf6ih6kmdrN1/4KSF8USFB7A4ugg174lUhn%2BxRCaT5SmljhE7Txz1GodzMR%2BWMHjUOWq2Jzl2JDzIIRr6CYyL7SIrUOBFfNf52ZqA",
-    "docs_adicionales": [
-      {
-        "nombre": "Indicaciones cumplimentacion DEUC.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=jyffJ4b%2BtTuu4P4BldkyHjwd4tZyXrc02yYfit0hBGH3zze3uOWPYou%2BJpT0qFoeb%2B/SUJCxAEnq5cT6aX56c89I5%2BMv4gCF%2B18BlPtfiMIZyAJWGsSt0OzTSTyw9JAs"
-      },
-      {
-        "nombre": "README.txt",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QltoRKQxTwvuM6ZsecMbywR8L45ZFEd1fNwc1tItgd69878noiR8yVmaW6JnREslLXwsOUZ4wi7nL1iZ5lAq5Eqz18Fyc8ieQiw3TJYNwu36CYyL7SIrUOBFfNf52ZqA"
-      },
-      {
-        "nombre": "espd-request.xml",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=DHHifGn1CqX0dJ%2BQ%2BaFE7iAXHpB3TdPH9HjuRbYfVZzuJKDLqQgcq91vElZNsUGn8AmLQa31iHeA4k5zN%2BL8OOO%2BfHviG6KckhoY8d/1all45ClyWkoJ44mKM70IFcOu"
-      },
-      {
-        "nombre": "espd-request.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=L9ZqqcktaCGz%2Bes9ddeZuzBeDQa8OdEHHH3ees2GU5jWMZQx7R62YVvZOxwPq840wKiiA3SRq12P0g/6cDhA4ovwaAdZQ8S034umc77YZvbDdQD9RyhUmzT4jZ2In4zL"
-      }
-    ],
-    "organo": "Secretaría General de Agenda Urbana, Vivienda y Arquitectura",
-    "importe": "1156127.3",
-    "importe_num": 1375352.76,
-    "fecha_limite": "2027-01-25",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "8",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "CMBIT1626_CP",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Concurso de proyectos con intervención de jurado para la ampliación y reforma del Centre BIT Menorca, en Alaior\r\n\r\n",
-    "updated": "2026-11-15T10:56:51.005+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=rNepVnV5afW2gkLQ8TeYKA%3D%3D",
+    "titulo": "Regeneración y definición de nuevos usos antiguo campamento militar",
+    "updated": "2026-11-17T01:00:09.373+01:00",
+    "link": "https://hacienda.navarra.es/sicpportal/mtoConcursoProyectos.aspx?cod=26111614584532041951",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
       "71000000",
-      "71200000",
-      "71242000",
-      "71240000"
+      "71400000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ipHjzEYKZn6ZvvaAdDOZBIPLTW3f37gvh2PFBLJjjPTFRioGdnW980L6J12WVDcn%2BSchfWFg8oGKoiE4Qu4eWs1sObuPrdyV9U82cHzJlpdt/o8fNevwsujgRzaBbugn",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iC2HT34JybYZiBlDt9jAc%2BOHZBocWkzpOxMxqmGN/OWIN6xCE5ZBZwoq/fNFflPJg3lKboryBH644UQwo5ST9QiQviqAWpabJY3P2GQmuPsC1/zDIE0Kw/PWNnLS0Z0z",
-    "docs_adicionales": [
-      {
-        "nombre": "20260121_TOPOGRAFIA.rar",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=D0YJp5dcx6imuJIyV5h6Hqk1D0FRV6QLjbvZJOdr/svPHkoLkT9vL/%2BpwVy4bK2PVBsOvXk2YAu/IsGLrDU2R1vv2BfS8fqvDWv6XNsXfeZJOVDbGCDM%2BMigrvuVS7Rv"
-      }
-    ],
-    "organo": "Fundación Balear de Innovación y Tecnología",
-    "importe": "44000",
-    "importe_num": 671435.6,
-    "fecha_limite": "2026-12-28",
+    "pcap_url": null,
+    "ppt_url": null,
+    "docs_adicionales": [],
+    "organo": "AYUNTAMIENTO DE TIEBAS-MURUARTE DE RETA",
+    "importe": "8264.46",
+    "importe_num": 8264.46,
+    "fecha_limite": "2027-01-18",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "8",
     "procedimiento_match": true,
     "importe_match": true,
-    "fuente": "perfiles"
+    "fuente": "agregadas"
   }
 ]

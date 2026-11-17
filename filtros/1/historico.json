@@ -200,7 +200,7 @@
   },
   {
     "folder_id": "24/26",
-    "estado": "RES",
+    "estado": "EV",
     "titulo": "Servicio de Consultoría – Oficina Técnica Administrativa del Proyecto ECOCREM, cofinanciado por el Programa Plurirregional de España FEDER 2021-2027 en un 85% del gasto elegible, en el marco de la Línea FID-CPI del Ministerio de Ciencia, Innovación y Universidades para la empresa Parque Cementerio de Málaga S.A (PARCEMASA).",
     "updated": "2026-07-13T09:00:00.000+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=7j7HaCQg2c9eKgd8LfVV9g%3D%3D",
@@ -214,14 +214,14 @@
       "79411000",
       "73200000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=568hhttuCBx8/RqQfq1A1Zay27yeroPLsNBzXqxKF0Umt8K/cMGRtRmNBXtacV/zhbeC2/p3TxK9YTUawhD4x2zBzJK4WlZANBwX8rmyiut7QB3HKyQaFUExmUVQCerk",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=zp5eD6eWRxhOIVlpuwyE1k4R9uZNkJoHd27aLbND1mxFAZdLp5uwwNuWbeWYaqhgpMH2HVJVk6K6YcbhRWC4iEmcSHkMBZ3Xh2/1gEJzGfcC1/zDIE0Kw/PWNnLS0Z0z",
+    "pcap_url": "https://www.contratacion.euskadi.eus/ac70cPublicidadWar/downloadDokusiREST/descargaFicheroPublicadoPorIdFichero?idFichero=13875668&R01HNoPortal=true",
+    "ppt_url": "https://www.contratacion.euskadi.eus/ac70cPublicidadWar/downloadDokusiREST/descargaFicheroPublicadoPorIdFichero?idFichero=13875670&R01HNoPortal=true",
     "organo": "Gerencia del Parque Cementerio de Málaga, S.A.",
     "importe": "481470.91",
-    "fecha_limite": "2026-11-04",
+    "fecha_limite": "2026-10-27",
     "fecha_captura": "2026-07-14",
     "resultado": null,
-    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
+    "estado_updated": "2026-11-16T13:11:28.579+01:00",
     "docs_adicionales": [
       {
         "nombre": "Carta de derechos y deberes de los alumnos_OK.pdf",
@@ -243,7 +243,12 @@
         "nombre": "DEUC_IG26001.zip",
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=e4ca3WBdXHqZsqp7HWdeWAKEMjYJ7ov7%2B/Za604ji9R/psV7YhmlHQPz46/Sqhm3Vywg1QpgLY8mgqlGoZQh5ISmAKKuekSoN5aHmhrC%2B%2B6Cx2e6p7hqtlp2aFupgHMr"
       }
-    ]
+    ],
+    "pliego_cambiado_el": "2026-11-17",
+    "estado_anterior": "RES",
+    "estado_cambiado_el": "2026-11-17",
+    "fecha_limite_anterior": "2026-11-04",
+    "fecha_limite_cambiada_el": "2026-11-17"
   },
   {
     "folder_id": "06/2026-Servicios_ABI_Simplificado",
@@ -4933,5 +4938,67 @@
     "revisado_humano": true,
     "revisado_fecha": "2026-11-16T10:47:59.923Z",
     "revisado_por": "Belén Fernández"
+  },
+  {
+    "folder_id": "CONTR 2026 0000354263",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Serv. DF. y CSS de la obra de consolidación de los baños Hernando de Zafra",
+    "updated": "2026-11-17T00:41:09.741+01:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1037940",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71245000",
+      "71200000",
+      "71242000",
+      "71221000",
+      "71351914"
+    ],
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/443942",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/443941",
+    "docs_adicionales": [
+      {
+        "nombre": "Memoria justificativa de la contratación df HZafra.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/443967"
+      },
+      {
+        "nombre": "Acuerdo de iniciación del expediente de contratación por el órgano de contratación DF HZafra.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/443968"
+      },
+      {
+        "nombre": "DEUC PDF.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/443970"
+      },
+      {
+        "nombre": "DEUC XML.XML",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/443971"
+      },
+      {
+        "nombre": "Enlace consigna proyecto DF Obra Hernando de Zafra.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/444024"
+      },
+      {
+        "nombre": "Resolución de designación de miembros de la Mesa de Contratación y Comisión técnica SV DF Hzafra.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/444092"
+      },
+      {
+        "nombre": "Informe de insuficiencia de medios df HZafra.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/443976"
+      }
+    ],
+    "organo": "Patronato de la Alhambra y Generalife",
+    "importe": "114241.11",
+    "importe_num": 114241.11,
+    "fecha_limite": "2026-12-10",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas",
+    "descripcion": "Dirección Facultativa y Coordinación en materia de Seguridad y Salud de la obra de Consolidación de los Baños de Hernando de Zafra",
+    "junta_consultado": "2026-11-17",
+    "fecha_captura": "2026-11-17"
   }
 ]

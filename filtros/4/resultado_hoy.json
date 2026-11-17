@@ -1,1 +1,63 @@
-[]
+[
+  {
+    "folder_id": "CONTR 2026 0000354263",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Serv. DF. y CSS de la obra de consolidación de los baños Hernando de Zafra",
+    "updated": "2026-11-17T00:41:09.741+01:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1037940",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71245000",
+      "71200000",
+      "71242000",
+      "71221000",
+      "71351914"
+    ],
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/443942",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/443941",
+    "docs_adicionales": [
+      {
+        "nombre": "Memoria justificativa de la contratación df HZafra.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/443967"
+      },
+      {
+        "nombre": "Acuerdo de iniciación del expediente de contratación por el órgano de contratación DF HZafra.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/443968"
+      },
+      {
+        "nombre": "DEUC PDF.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/443970"
+      },
+      {
+        "nombre": "DEUC XML.XML",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/443971"
+      },
+      {
+        "nombre": "Enlace consigna proyecto DF Obra Hernando de Zafra.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/444024"
+      },
+      {
+        "nombre": "Resolución de designación de miembros de la Mesa de Contratación y Comisión técnica SV DF Hzafra.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/444092"
+      },
+      {
+        "nombre": "Informe de insuficiencia de medios df HZafra.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/443976"
+      }
+    ],
+    "organo": "Patronato de la Alhambra y Generalife",
+    "importe": "114241.11",
+    "importe_num": 114241.11,
+    "fecha_limite": "2026-12-10",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas",
+    "descripcion": "Dirección Facultativa y Coordinación en materia de Seguridad y Salud de la obra de Consolidación de los Baños de Hernando de Zafra",
+    "junta_consultado": "2026-11-17"
+  }
+]
