@@ -675,12 +675,12 @@
     "cpv_codes": [
       "71240000"
     ],
-    "pcap_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302597788/3000C6DECA2891D4DE85371C7F2BB860",
-    "ppt_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302597789/04CA8539A16D52F47F7D109ACADFE4D3",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0WcyMKXLA1Em/UK5T2w1Lvm52NLSuvgy3ZEZ3aZOd7Lr4l%2BIlzklDhfwi%2Bd3bOnoUmHGkX1ildDnwXa1/nriLeN6oVbyYA%2B9zYxNi/bYIKMC1/zDIE0Kw/PWNnLS0Z0z",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Wl11XKgWz7ezyftFiX42au/VDz0n5e1xmAGAkZXI4kFH81oxo9S5tIXc2IuTA32lzj5up4hEstAelO9wbnmacCPS2dZptzoF4Pjb1lxY8Z/fdyQgZAdTm3EfcUAC7CJ6",
     "organo": "Institut Metropolità de Promoció de Sòl i Gestió Patrimonial (IMPSOL)",
     "importe": "2007673.11",
     "importe_num": 2103673.11,
-    "fecha_limite": "2026-06-29",
+    "fecha_limite": "2026-08-24",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "8",
@@ -689,9 +689,9 @@
     "fecha_captura": "2026-10-09",
     "estado_anterior": "ADJ",
     "estado_cambiado_el": "2026-11-10",
-    "fecha_limite_anterior": "2026-07-22",
-    "fecha_limite_cambiada_el": "2026-11-10",
-    "estado_updated": "2026-11-09T13:40:40.208+01:00",
+    "fecha_limite_anterior": "2026-06-29",
+    "fecha_limite_cambiada_el": "2026-11-18",
+    "estado_updated": "2026-11-17T09:29:06.317+01:00",
     "docs_adicionales": [
       {
         "nombre": "Informe_de_inicio_Servicio_limpieza_techos_y_perimetral docx report.pdf",
@@ -705,7 +705,8 @@
         "nombre": "46 26_SERVICIOS_ANEXOS_2_A_5_ABIERTOS RESTRINGIDO report.pdf",
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CzsUPTqb5lkU7lajMg5lPXKziXslq33JjYenXXNPXV5XaIW7J1clGTQhub5TsdXMCeZZjkde9dH2eCzKkUS6KRdcydOcWYtjOyTcNwA8CTCCx2e6p7hqtlp2aFupgHMr"
       }
-    ]
+    ],
+    "pliego_cambiado_el": "2026-11-18"
   },
   {
     "folder_id": "482/2026",

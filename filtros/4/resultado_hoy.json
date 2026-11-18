@@ -1,63 +1,328 @@
 [
   {
-    "folder_id": "CONTR 2026 0000354263",
+    "folder_id": "3786/2026",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Serv. DF. y CSS de la obra de consolidación de los baños Hernando de Zafra",
-    "updated": "2026-11-17T00:41:09.741+01:00",
-    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1037940",
+    "titulo": "El servicio integral de las actividades preventivas de Seguridad en el Trabajo, Higiene Industrial, Ergonomía y Psicosociología aplicada y Medicina del trabajo.",
+    "updated": "2026-11-17T14:15:39.584+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=5WwE1BPgrjw4NavIWzMcHA%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "71245000",
-      "71200000",
-      "71242000",
-      "71221000",
-      "71351914"
+      "71317200",
+      "85100000",
+      "85147000"
     ],
-    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/443942",
-    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/443941",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=sOCe/%2BqHCVJxM4koQM5R4I65XAhL37zJnQKfRXd40xlbFQNTKWTP/6lg5E7OZjlb2VXXFYW4K3wscyH84o2EjsNUhde0o9VORkPBHWdYep0//q7NB2iMZvNyf0xrJmjt",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=qsYS22kvOzcGaaqgmxezZfAhKmlIRzLoSg4ij39QVooY/WhAe%2B%2Btlsx5/osgTtJ7Bny5rr76exXXzWw%2B8rRxZjk/rj7BNVO2G%2BPZPA7dUejfdyQgZAdTm3EfcUAC7CJ6",
     "docs_adicionales": [
       {
-        "nombre": "Memoria justificativa de la contratación df HZafra.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/443967"
+        "nombre": "ANEXO I1.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=3frJ7QP0lhxjxaWkSRgNVGfwgr4a37VlkjVxHnmW6UQxQKtv6d%2By8E3cZTJGWNBI9MDSSo0QfALmNSp3iTtnIuz2dOuxXX/S5Mx37881A%2Bs//q7NB2iMZvNyf0xrJmjt"
       },
       {
-        "nombre": "Acuerdo de iniciación del expediente de contratación por el órgano de contratación DF HZafra.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/443968"
+        "nombre": "ANEXO III1.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4XpHSA%2BStnjXmFTJZzmlfpk20sTgP1yqf098zYLIeIXr9g8PwB8ZgUZ3j06VKAO1sspzf8d35kfIJ6bkDM/qY7CPssG9S8W804c%2BugUJG32B0nvVKRzfe4rpHcnlPhSZ"
       },
       {
-        "nombre": "DEUC PDF.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/443970"
+        "nombre": "ANEXO II.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=7BdzDWwA4EBv0dTHy2gXTBID2oB1Q/i0GDInzjhw4oZcLLBfQDCzW/cuRdfZQkSEljEGVNZBjTSsfFB51C6qg0P3mhW3qtyzt3Xr95LgmeF45ClyWkoJ44mKM70IFcOu"
       },
       {
-        "nombre": "DEUC XML.XML",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/443971"
+        "nombre": "ANEXO III3.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ReKM7Nh3RAmsQ%2Bi5s82GcS3nx7gJVVKPSmTNSaXNE35a%2BJy6gOLo814aALsBT8MworVpbUqzug6db%2B5F7Khnbg3vIyGHKt/TGXpqPj6r1UvDdQD9RyhUmzT4jZ2In4zL"
       },
       {
-        "nombre": "Enlace consigna proyecto DF Obra Hernando de Zafra.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/444024"
+        "nombre": "ANEXO III4.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=gfseWm/XlzBIZCZgkkoXO9Uk9wHDbvHVKvMLP0GMoL7jYmob6Jc1P1CqytIm/QFDfjhlpc5yDYDN1uZ4Q39Cd6iRVSzZdMU608hVk5TA5y0C1/zDIE0Kw/PWNnLS0Z0z"
       },
       {
-        "nombre": "Resolución de designación de miembros de la Mesa de Contratación y Comisión técnica SV DF Hzafra.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/444092"
+        "nombre": "ANEXO I2.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4SA8DpMCilgKLKAOm8IttuO2HUks3rONLkwUoJ1Opzkn33SJm/1nwhexLjgUS3MG13sBJ2AEc8B5%2BsSRTGywlKvrJJmYAQY2oB0WJyuKn0RJOVDbGCDM%2BMigrvuVS7Rv"
       },
       {
-        "nombre": "Informe de insuficiencia de medios df HZafra.PDF",
-        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/443976"
+        "nombre": "ANEXO III5.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=dzE%2BmfcwsJgmSWnvn16pjYaF74%2B/7kPv9TB%2BuYJrQpifxuyV7T09sek/2JMJEXvE4TxDGRgjEhJO/WWYSNQYTSDIF1snkhdMPv3MaRBATZzVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "ANEXO III2.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=H9Exxi89RWc1PE9eLCdEgpT6HGHMHhSp1mFB3TCemqoPLmmzfqwVrjSooZGO0h89%2Br9i2S2MSRwLMOZ5snwfqVNCZtasHPJQff13G6W0siNt/o8fNevwsujgRzaBbugn"
       }
     ],
-    "organo": "Patronato de la Alhambra y Generalife",
-    "importe": "114241.11",
-    "importe_num": 114241.11,
+    "organo": "Junta de Gobierno Local de la Mancomunidad Guadalquivir",
+    "importe": "56168",
+    "importe_num": 87702.0,
     "fecha_limite": "2026-12-10",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "1289/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de prevención de riesgos laborales en el Ayuntamiento de Huércal de Almería.",
+    "updated": "2026-11-17T13:40:02.360+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=I5skgkp9T4zN3k3tjedSGw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71317200",
+      "85148000",
+      "85147000",
+      "71317210",
+      "85140000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=PV8Ed5jJhwpDV5Pw8JenJ1tLIuCU%2Blq8I9Xus2WZcgscjG4UFm3EmeLqmBTwfBjg3w2xxuEHvpQF2FgmQ0vhinRc/ZLrlt2Tx7iE9FkB8RP3GVhXrFFqN7yFncy7YfRK",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=FQB/hOKgPoPeM7dFqpcXGECEX%2B9doBXtLStcXlIEyIjmIlm282Z6v9V3Vnwb7Yqb23L1og8wqcdDlJ4B%2BhpGHEH8o6pAE2b4gkgGE84WZi73GVhXrFFqN7yFncy7YfRK",
+    "docs_adicionales": [
+      {
+        "nombre": "DECRETO 2026_2708 Resolucion PR_2026_2782.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=S97%2B5axe3THCpitBwnwZVUMX8MVoKccmBnYqdNnGkG54JswRlB5P2cLQuHma/P0y3aaYaVGExv7a8d%2BlsBi3Mi0U9DgExsz9O/Tq45qUfdFt/o8fNevwsujgRzaBbugn"
+      },
+      {
+        "nombre": "Memoria justificativa del contrato.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=so/ew6sZqQk%2BAxpzSDx9/aNYMDCkjOIRJK9tNO4YnX0aIsecCtffmpKYMkIR/G6VBlCZaaxeyaOcUE8JMwzvz0AyVsmFykkGZ5YsHAcXQHQ//q7NB2iMZvNyf0xrJmjt"
+      }
+    ],
+    "organo": "Junta de Gobierno Local del Ayuntamiento de Huércal de Almería",
+    "importe": "12452.13",
+    "importe_num": 24750.36,
+    "fecha_limite": "2026-12-02",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "1218/2026/PAS",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Redacción del proyecto de reparación, consolidación y estabilización del camino de Hazas LLanas, incluidos los trabajos previos necesarios. ",
+    "updated": "2026-11-17T13:13:30.849+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Y9pduGgUwkPL1rX3q%2FMAPA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71242000",
+      "71351810",
+      "71310000",
+      "71335000",
+      "71332000",
+      "71351200"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=kOzZ6wg9X9YDhgORihgrH5Cgnw32si/GXPNFC3kAyc70wxS44PS78D/gSnc6LiLT3v/PKs1lBopav3SPLU2D%2B%2BuoueRBgtnfgpGYaRBQ/9rfdyQgZAdTm3EfcUAC7CJ6",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=nt3rCCTOM3TtdmfIICF8U/6CnWo3cDHuI2yEyN0zyBrBbP6I5ZJtsA%2BVjYMzEdPc/IKMLmi2CXqnTzyDknOXX%2BIq49RP8oo0NNfhwtIVYugC1/zDIE0Kw/PWNnLS0Z0z",
+    "docs_adicionales": [],
+    "organo": "Alcaldía del Ayuntamiento de Güéjar Sierra",
+    "importe": "139900",
+    "importe_num": 139900.0,
+    "fecha_limite": "2026-12-02",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "3179/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicios para la redacción del proyecto, dirección facultativa y coordinación de seguridad y salud de la actuación para la reparación de los daños en la carretera de acceso al municipio de Villanueva del Arzobispo, en el marco del Real Decreto-ley 5/2026, de 17 de febrero, por el que se adoptan medidas urgentes en respuesta a los daños causados por diversos fenómenos meteorológicos",
+    "updated": "2026-11-16T21:52:38.852+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=gJjNpapej9VJ8Trn0ZPzLw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71242000",
+      "71317210",
+      "71520000",
+      "71247000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=6QwORiL8YWZmzU2OyfexOxdKlJBjbqRD1PX7jNNGemkKEHVfgg3vxpQBkwydd58sVuTLxXqjE95yp3csTvKyLI%2BLKvuSpdKT6PR%2Bn98Y8tB45ClyWkoJ44mKM70IFcOu",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=FmvOI8FrY5Ng3GWLUVAtvaU3x%2BNm8WXV5OMjDYoas4bVLC8w4FGJt0fOrTkBc9kchB5HNcH/l3SZayvDarq8p0gTdA0iM3ibmWOo31ZEx/T6CYyL7SIrUOBFfNf52ZqA",
+    "docs_adicionales": [
+      {
+        "nombre": "Anexos.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=GdE4kwbnYg0C1oq1WuhAIwtNbscpWi1Y0lb48qA8I1HotpQ%2BltGgVhHonjnTiO6vNkAiIjVxGovICuLrqMmXf90ir7RjsAVaOF4ChwEldXt7QB3HKyQaFUExmUVQCerk"
+      },
+      {
+        "nombre": "Cuadro resumen.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=bmHvF1xdqLEspBg2BiqqHKilWyNvpTksubH%2Bny%2BlQj4BIDfUy8vKhIg6rHMAqtaoII1aM0U1S5nYUUtDbG8RRLxkynR1KPWCZ5NAWGJ9kD7DdQD9RyhUmzT4jZ2In4zL"
+      }
+    ],
+    "organo": "Alcaldía del Ayuntamiento de Villanueva del Arzobispo",
+    "importe": "28748.79",
+    "importe_num": 28748.79,
+    "fecha_limite": "2026-12-01",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "2026/4417",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de servicios de redacción de proyecto de ejecución, dirección de obras, coordinación de seguridad y salud de obras de separación y sustitución de firme dañado e incorporación de la red separativa en Avda. Angeles de Loja. Financiado con cargo a las ayudas de la AGE, a traves del MPT, previstas en el art. 7 del RD-Ley 5/2026, de 17 de febrero. Financiacion prevista 106822,43 euros.",
+    "updated": "2026-11-16T20:29:56.480+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=1tExrNQE1RKdkQsA7ROvsg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71322000",
+      "71317210",
+      "71318000",
+      "71520000",
+      "71317200"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4NKq4LaAyhkH%2BYqEcXQeQHD/tNw0bYKlKXx/nDsgCiuCML/70wwarxkSFFRvKztV12PDTVEDPJgYsE5NpSWteLZrEao28QMwbQq8t83o3oE//q7NB2iMZvNyf0xrJmjt",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=XrsljOTue4npU2gL5Xq6bKcOVpvYFArgjPABB1tZ0JmPxgm2c4fGRVUr1D45cIUaxaknuZGakKe7MteWHWSqnQbB2l8swVrfqO6iQ08WIl8ZyAJWGsSt0OzTSTyw9JAs",
+    "docs_adicionales": [
+      {
+        "nombre": "anexo IV.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=SMpTTRNBSZUUqa1BKBqunscOcvX2A9Cp0g35i0sR4XxJY12yaQP4qpqgJ77HsjJ2e14Su3pvd70Mb5WqzRQKBQ5LsyqudiehvJWMn0nCMgw//q7NB2iMZvNyf0xrJmjt"
+      },
+      {
+        "nombre": "anexo VI.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=EgLaMhtXMxlcemiOsi05%2B2i%2B4D1Odkmzr/zI0RVwI%2BOBx23bTnGvw0LzFBASlJkLzihUgxm6yzqeEePoUAURTPK/etnmpwwsei5ZAkQc6jMZyAJWGsSt0OzTSTyw9JAs"
+      },
+      {
+        "nombre": "anexo V.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=HSVCoCjVeLUm97iBbKBAvrrJkPnvVGqzyy4EuhWNhvcirX9TLzbmOx4uuGwy1oKDiEC3%2BHoArNJDfAUhdGVnrW%2Bv1xAySzCH0K/e5K%2BsdKN7QB3HKyQaFUExmUVQCerk"
+      },
+      {
+        "nombre": "anexo I.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=a9NWWF/zwuDV6SpX41naQ%2BtaPyDGjn04TqZnhYW7EnURhRrk5TEcrn9GsylordQYFirT%2Byqhk0BFgaIaG3fZKnt/Y1ccv8rlbBOuwputgxqHAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "anexo II.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Fdk32O/ZdVCjTB6PAXhJDrc7zwu4qoUcnVjrugmEjm52HOJQ%2BqyEKmNoRcNj2x6S%2BUrJ9wpLYz8JxHaGnU0nkutvRo65lsofJJ8zLxMrhqyHAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "anexo III.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=gG0gGsEI3fgQHZ17iXWSTnQnhcn1ttaBQYptuxA9L0kHpYYyv0U52QpWV0snK9CTD2UE6YnLHBQY2fJzaN%2BprEU8qLjj5oZ49OU%2BFSO6bI6B0nvVKRzfe4rpHcnlPhSZ"
+      }
+    ],
+    "organo": "Alcaldía del Ayuntamiento de Loja",
+    "importe": "88283",
+    "importe_num": 88283.0,
+    "fecha_limite": "2026-12-09",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "2026/4232",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicios para la redacción de proyectos de ejecucion, dirección facultativa y coordinación de seguridad y salud para las actuaciones municipales MPT-28, MPT-53 y MPT-56 en Venta Santa Barbara y el arroyo Neblin, Loja.\r\nContrato financiado por la AGE, a traves del Ministerio de Politica Terrirotial y Memoria Democratica, previstas en el Art. 7 del Real Decreto-Ley 5/2026, de 17 de febrero.",
+    "updated": "2026-11-16T17:08:59.001+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=h3IvMidm449%2FP7lJ7Fu0SA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71300000",
+      "71520000",
+      "71317200",
+      "71322000",
+      "71300000",
+      "71317200",
+      "71322000",
+      "71520000",
+      "71300000",
+      "71317200",
+      "71322000",
+      "71520000",
+      "71300000",
+      "71317200",
+      "71322000",
+      "71520000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=hsP%2Bf9j6F1V7cnA%2BbVa5Rt8CQmvp38xVC742D0swErMVIf/vxsCUBX5C/kaIEvL3seblMlODCsM2yREzM7ckaS4mSIr3gxyQ5qZdHHQViiXfdyQgZAdTm3EfcUAC7CJ6",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=5ffSBiMmRWHhav/DqRe20HM0kt%2BtxsBIHN1RWyM9FbfPiertN9EIbjjbGkTR7A1ffus5LowGx1/npZthkjH0mmxpZDFkgx16YtqP1XRVgDGCx2e6p7hqtlp2aFupgHMr",
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXO III UTE.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wGGmlgNcmRhNJ8ZXiPypPTNLTEuaYWIhJa4fi5ljn14sL4Jo0rAV7SZAMVhcp1VIXToICI1Q4maKFT%2BcKIcb5XOl1bOlL6i0In6MM/OBysu1aXEvq3KHa/AEHgtDrQw0"
+      },
+      {
+        "nombre": "ANEXO IV DECLARACION SOMETIMIENTO TRIBUNALES ESPANOLES.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/AktjH0YQyDEj1oPcxrDmFtSeUlETuo3SZlAobTCSwH9NvLOQL1/W8K5EW3oSARHJPyzbEj80m27WZgQtp0JC301Nhn42cPROvfc4i531Q6HAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "ANEXO II PROPOSICION ECONOMICA.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=5TnW6LkgSoy%2BNB4ILoIzPojICPUzA2lb7V4iADIyQJzqjs8F63JOy1z14CE9sgmTdQfaKGHmx5nzu7td%2BkzXxTmk/4yb40FvrBuu5Nj6wafVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "ANEXO VII DACI.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=edKMeEfxi49LM3rUWtY7Frmvyg5Ezx1JzwWCIzTL3qx/t3m/DBt0BvoSSkacFbRxIWV7NnxGrHNYxrJ%2BPIfeigxbDW6i/4DBHiWfomZeUbeCx2e6p7hqtlp2aFupgHMr"
+      },
+      {
+        "nombre": "ANEXO I DEUC.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=XSQYOP0nFk4nBLoQeuXDqO31uWqSbYIeb4iiTfDZwofEPD47aFyktuM1AnLh42PJ4LZ6KPcoBUG%2BXzzcpT3JM4zzdTENR9sew1WqYvj0te/3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "ANEXO V DECLARACION SOBRE SUBCONTRATISTAS.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=n/L5eGf75JXmBcBd3DsX5OKkbpQXj0G7WCD6xMtzBZmSx0f6yx1uhlOg7k8Bz5evN6xqhvzYLuQ69gFoK%2BbbXXhBTyC/d3xpbaAMxBGFbNDVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "ANEXO VI DECLARACION SOLVENCIA CON MEDIOS EXTERNOS.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Q1fESHH2ZgwXzvUaVPTC57zuutLosKdxenK%2BCYZl5t3p7XU4m2yG5XjUA46TKsI4mskJfIzn1ZseRQdFWDODJ2FxsPfqmowNC%2B98345Poa9JOVDbGCDM%2BMigrvuVS7Rv"
+      }
+    ],
+    "organo": "Alcaldía del Ayuntamiento de Loja",
+    "importe": "150500.04",
+    "importe_num": 150500.04,
+    "fecha_limite": "2026-12-09",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
-    "fuente": "agregadas",
-    "descripcion": "Dirección Facultativa y Coordinación en materia de Seguridad y Salud de la obra de Consolidación de los Baños de Hernando de Zafra",
-    "junta_consultado": "2026-11-17"
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "2026/000895-PEAS",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicios de coordinación en materia de seguridad y salud y actividades preventivas, así como la coordinación de actividades empresariales del programa de Cuaresma en el patio de la Diputación de Sevilla 2027.",
+    "updated": "2026-11-16T12:43:48.602+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=IlsmSEw7DdXkY6rls5tG9A%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71317200",
+      "71317210"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YS3npWcXDPQC%2BfNJ9LKbluUBaM9tSkS4TIZB9qFFVvcfw%2B1Ho8fn21M9dr25/PnwTm3w/qEfHdm40M1o5x6PHDTKgxObrT3PSxCBb371S4E//q7NB2iMZvNyf0xrJmjt",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0WcyMKXLA1Em/UK5T2w1LvU/Zl%2B%2BmqI3%2BBb1sgY1sa7RJT1c99fWyoJDgRkrkNhx4vGm7aQ1ZAAR8L62SW94cRVdXZEbEWkzpPRmFDGq2MyB0nvVKRzfe4rpHcnlPhSZ",
+    "docs_adicionales": [
+      {
+        "nombre": "1794829336277_Pliego_Cl_usulas_Administrativas.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=14ETJVWVLxzEpZOHYeeIpKzqGHwMtthV5T/AZXCKVGlQlvjNBMvNA5ylusOIWWcHuupUK2bjrjOgNn0esGDKLq6OOCxaCRESae0Q4qh2AYy1aXEvq3KHa/AEHgtDrQw0"
+      }
+    ],
+    "organo": "Presidencia de la Diputación Provincial de Sevilla",
+    "importe": "4000",
+    "importe_num": 16000.0,
+    "fecha_limite": "2026-12-04",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
   }
 ]

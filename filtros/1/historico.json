@@ -1426,7 +1426,7 @@
   },
   {
     "folder_id": "2717/2026",
-    "estado": "EV",
+    "estado": "ADJ",
     "titulo": "Servicio de redacción del proyecto básico y de ejecución dividido en tres fases diferenciadas, estudio de seguridad y salud, dirección de obra de la I y II fase, dirección de ejecución de obra de la I y II fase, coordinación de seguridad y salud durante la obra de la I y II fase, de CONSTRUCCIÓN DE POLIDEPORTIVO EN EL CHAPARRAL.",
     "updated": "2026-08-13T23:10:57.236+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Y8t5gxB98YSLAncw3qdZkA%3D%3D",
@@ -1460,8 +1460,16 @@
       "fecha_analisis": "2026-08-15T03:55:26.204330+00:00"
     },
     "fecha_captura": "2026-08-15",
-    "resultado": null,
-    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
+    "resultado": "adjudicada",
+    "estado_updated": "2026-11-17T14:39:29.709+01:00",
+    "docs_adicionales": [
+      {
+        "nombre": "ANTEPROYECTO_PLANO GENERAL PROPUESTA CHAPARRAL.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=i0hKfovuaGe%2BKQoNgEWqzy%2Bhzd17X9yhQJZ9d%2BuujrMFBy3/YBOI/EIdAaJYBLZRbCfeUFfqYnmR31R3IDjAF4qnQph0V4fH635ckJFmyL97QB3HKyQaFUExmUVQCerk"
+      }
+    ],
+    "estado_anterior": "EV",
+    "estado_cambiado_el": "2026-11-18"
   },
   {
     "folder_id": "6491/2026",
@@ -1491,12 +1499,46 @@
       "fecha_analisis": "2026-08-15T03:56:12.751476+00:00"
     },
     "fecha_captura": "2026-08-15",
-    "estado_anterior": "ADJ",
-    "resultado": "adjudicada",
-    "estado_cambiado_el": "2026-10-30",
-    "estado_updated": "2026-10-29T11:52:26.450+01:00",
+    "estado_anterior": "RES",
+    "resultado": "formalizada",
+    "estado_cambiado_el": "2026-11-18",
+    "estado_updated": "2026-11-17T11:14:39.007+01:00",
     "fecha_limite_anterior": "2026-08-11",
-    "fecha_limite_cambiada_el": "2026-10-16"
+    "fecha_limite_cambiada_el": "2026-10-16",
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXO IX - MODELO COMPROMISO UNION TEMPORAL EMPRESARIOS.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=LGpBWBn3QPPOlHR7nQd2kPAfNwleZV3dwj%2B9E5X6neVfuJBxqaHZjIb5kP9FKBJscW17OrFjZDIO1jkTrysKF2CtSDz5kj4hzvqY4ELSsqgZyAJWGsSt0OzTSTyw9JAs"
+      },
+      {
+        "nombre": "ANEXO V - AUTORIZACION CONSULTA Y DECLARACION PERTENENCIA GRUPO EMPRESAS.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=isBkKGmbyIqYs4AouU/K5b05wM8HSTMqcJ06MpNkEeYmGqOqNbPUB2UYgXKVs4lnsLCEuqRIpuJ2cmrk84cY7NoH4COjMpkucc5ihVHBUvrVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "DEUC 6491-2026.xml",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9QqTPnBZ0dXsclbUZo7%2B20jO/CyCLqaFxIixuvOtAIIbLfD6O%2BGVvm9MBeeW2jSUmPBe6oxSxrgBlmcjKagUBTjUJlye1qeazLmxX0JJcTJ45ClyWkoJ44mKM70IFcOu"
+      },
+      {
+        "nombre": "ANEXO II - INSTRUCCIONES DEUC.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=9/INLrIBwGtljIuabdMaqMs2MIsWUd33FicbPrGG17NVgzrpwd2LrrlwcfO6NKIMsNTlYACpIv7BhveIf6VI2GqsZyO4PULHSYgUjOsA19iHAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "ANEXO III - DECLARACION RESPONSABLE.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=OvqHMvLU3rGRzA6%2BxotdxFoPqjJHAlfPd50XQvFTUJvVVSaHUztwALMrvwBvgLRbXz0sqHHIV7bJnAK6v2CSGkEfptI88%2BCKJe%2BzYOstvErfdyQgZAdTm3EfcUAC7CJ6"
+      },
+      {
+        "nombre": "ANEXO IV - DECLARACION RESPONSABLE NO PROHIBICION CONTRATAR.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=44SWSgh9cLnPhwX7wtyHXWzJ9wTXLp0OW10VdpO7IR2%2BtNmdET0zsFdI/skw3IMXNWJHOf327TVwX4RDdmDIBIC8JKv4yVmNvJXXwRS1neTfdyQgZAdTm3EfcUAC7CJ6"
+      },
+      {
+        "nombre": "ANEXO VII - COMPROMISO DEDICACION Y ADSCRIPCION MEDIOS.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=7hN6dM9YTywS7rOWnPCC37PlmebgTk2gEzX3NU9mLoxbmJBSoihx%2Byog1yWNC9R5YDVy2%2BP8oij4arRyyT0LiW8vssvfYpCHa/hoUouKJ9uB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "ANEXO VIII - OFERTA ECONOMICA.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=L2tJCrlzPsBq7ciyxpecfbPCvMtOyWxgG9kEM5psFFR%2B%2BCtRDr6wImW8rbkVJe67TwE3mhTzui5QFnY%2BVVChqpnTf3UE/BJKJImcLzSQYOlJOVDbGCDM%2BMigrvuVS7Rv"
+      }
+    ]
   },
   {
     "folder_id": "34/2026",
@@ -2227,7 +2269,7 @@
   },
   {
     "folder_id": "20809/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Redacción de Proyecto, Dirección de Obra, Coordinación de Seguridad y Salud, de Urbanización de diversas calles, Programa de Ayuda a Inversiones (PAI), cofinanciado por la Unión Europea - Fondo Europeo de Desarrollo Regional (FEDER) en el Marco del Programa operativo Plurirregional de España POPE 2021-2027, 2 lotes.",
     "updated": "2026-10-08T17:19:41.852+02:00",
@@ -2260,7 +2302,36 @@
     },
     "carpeta_descargada": true,
     "carpeta_descargada_fecha": "2026-10-22T12:06:18.593Z",
-    "carpeta_descargada_por": "Kike"
+    "carpeta_descargada_por": "Kike",
+    "docs_adicionales": [
+      {
+        "nombre": "Modelo Declaracion Responsable con declaracion PYME.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=STrNYoyFdE6wopfFY9dkucLEV9XNG7kljoIyUeIn3F1ExSecAYmzJaiT6/h5NOuuOqeLpmUBwxBBO/HO1TKmbTGssKjsARmA%2BQtsx2ajPhSHAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "DEUC.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=88WLJjNPdOhXvzinmXwtC1i6/XFYvoK1ojaYy5Zak3edmgtJSe31or2QB0j//uzW2P0bcQX9kRWrVZ7hLZ0%2BOFyKiGUPLjU3frvj0deYK0IZyAJWGsSt0OzTSTyw9JAs"
+      },
+      {
+        "nombre": "SUPERFICIE VIALES_PAI-FEDER.dwg",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1FEOClUqEhVv56wvWKI19TMSog/QV0kOGw8PzNJPTkwLB92JYXlG9/wm90J24auLBoHhA93d6b7%2B4IGqcZbxFnYlNDJZqfmgTLoJF3e9DBeHAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "SUPERFICIE VIALES_PAI-1-3.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Kss5siiMTykS8mjas8b1svb2kfiFT%2Bn0UIYbWjxK6pGZBM9%2BslKCryNvC5Zsy1Y4wiUqv169gBZhXMe38M5Rlhu79awlXworORxQcFgr%2BWPVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "SUPERFICIE VIALES_PAI-1-1.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Zg/wSvTV0yGqo6UDyONve/lPlp7nEWY%2BUNtEOyHF4P%2BQp1HZmKc95/4hRDv9wjV4nx00QDyr4//JINKvai%2BV%2Bgxl0yB9M0EeiLuT5VSfBan3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "Nota errata superficies.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=t5Om9SxHvD0ZeR6ONmiNVX%2BzU1/z3fLKIVBA246bEtI9S7wp6Nqqs8inCLE4bho2ukmo%2BPgL8NrO1s6uxXX5ye9ZYJPJLp/DyNibUiKWi5IZyAJWGsSt0OzTSTyw9JAs"
+      }
+    ],
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-18",
+    "estado_updated": "2026-11-16T14:10:29.279+01:00"
   },
   {
     "folder_id": "2203/2026",
@@ -2905,7 +2976,7 @@
   },
   {
     "folder_id": "8/2026 (652/2026)",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Redaccion proyectos, direccion facultativa y coordinacion seguridad y salud obras  Consolidacion muro contencion C/ Cuesta de Santo Domingo, reconstruccion muro BIC Castillo La Iruela y sendero cañamares.\r\nContrato financiado por la Administracion General del Estado, a traves  Ministerio de Política Territorial y Memoria Democrática, con las ayudas articulo 7 RDLey 5/2026, de 17 de febrero. ",
     "updated": "2026-10-20T13:05:00.644+02:00",
@@ -2930,8 +3001,8 @@
       "71317200",
       "71242000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=qTQM4Nn1ZVBdvcR6%2BoYXU4878mk3Gm9K1g95mt4uYpUtZkHS6CTFxFrFk8BQOjXW3Io7Qdmzx%2BImVJMtmAh/K0PSv4D6Z5Mu2ZYNFGJM007VTD3T98KC0nSgQFM0q%2B5s",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=rOk84s0MBsdgXXGfUjytVLe6CJHf6Y5Xyv6saQ9gUqq26sOQdNTg8g2dvfA8DRLyJjFODDDw0Un1XiK70FaH0kFBRLDmoqoFysNDLCB2ELMZyAJWGsSt0OzTSTyw9JAs",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ueoMBtG2CZGZFfdvMUPY3gtRfMmUlByy6F3J7KCujToClBJ5d6oBNz1J7S6GK5VVqQVZsQQvLtnQ6209W3raE5SHx658IcB%2B%2B0aeiA/kwPfDdQD9RyhUmzT4jZ2In4zL",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=VlZCiyKrvkEbZs%2BN/j4tt1ej8LEwTwS6uSR7FAv7uMaKAqGB%2BmUGi8LnRPAUxFG7jZ/tG6ITveBXZtT3Ci2aMtKZGjl/8rsbG3Y/t5%2BiEdg//q7NB2iMZvNyf0xrJmjt",
     "docs_adicionales": [
       {
         "nombre": "Anexo I.doc",
@@ -2959,7 +3030,10 @@
     "fecha_captura": "2026-10-21",
     "fecha_limite_anterior": "2026-11-04",
     "fecha_limite_cambiada_el": "2026-10-29",
-    "estado_updated": "2026-10-29T11:43:35.649+01:00"
+    "estado_updated": "2026-11-17T13:18:43.472+01:00",
+    "pliego_cambiado_el": "2026-11-18",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-18"
   },
   {
     "folder_id": "EXPTE. 85/2026",
@@ -3368,7 +3442,7 @@
   },
   {
     "folder_id": "CONT26088",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Servicio temporal de limpieza de muelles públicos, limpieza de superficies de depósito y almacenaje, recogida de residuos sólidos no peligrosos, desratizazción, desinsectación, desinfección, control de plagas y poblaciones de animales y mantenimiento de jardinería y riego de la zona de servicio del Puerto de Sevilla. ",
     "updated": "2026-10-28T09:12:08.683+01:00",
@@ -3394,7 +3468,10 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-10-28"
+    "fecha_captura": "2026-10-28",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-18",
+    "estado_updated": "2026-11-17T07:02:42.404+01:00"
   },
   {
     "folder_id": "1/2026",
@@ -3985,7 +4062,7 @@
   },
   {
     "folder_id": "15847/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Servicios de Redacción del Proyecto Básico y de Ejecución, Estudio de Seguridad y Salud, Dirección de Obra, Dirección de Ejecución de Obra y Coordinación en materia de Seguridad y Salud durante la Ejecución de las Obras de COMPLEJO DEPORTIVO CIUDAD DE LA RAQUETA.",
     "updated": "2026-10-30T08:35:25.626+01:00",
@@ -4045,7 +4122,10 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-10-30"
+    "fecha_captura": "2026-10-30",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-18",
+    "estado_updated": "2026-11-16T11:19:15.499+01:00"
   },
   {
     "folder_id": "1054/2026",

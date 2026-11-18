@@ -167,7 +167,7 @@
   },
   {
     "folder_id": "IC-2026000015",
-    "estado": "EV",
+    "estado": "ADJ",
     "titulo": "Servicio de Redacción de Proyecto de Ejecución, Dirección Facultativa y Coordinación de Seguridad y Salud de las Obras de Restauración de la Envolvente del edificio de la Sede Central del Instituto Cervantes en Madrid, en la calle Alcalá número 49.",
     "updated": "2026-09-17T12:22:53.339+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Fyzip8xCiGx9Zh%2FyRJgM8w%3D%3D",
@@ -194,12 +194,26 @@
     "fecha_captura": "2026-09-18",
     "revisado_humano": true,
     "revisado_fecha": "2026-10-02T11:34:05.296Z",
-    "estado_anterior": "PUB",
-    "resultado": null,
-    "estado_cambiado_el": "2026-10-10",
+    "estado_anterior": "EV",
+    "resultado": "adjudicada",
+    "estado_cambiado_el": "2026-11-18",
     "fecha_limite_anterior": "2026-10-05",
     "fecha_limite_cambiada_el": "2026-10-10",
-    "estado_updated": "2026-10-09T08:05:06.354+02:00"
+    "estado_updated": "2026-11-17T12:42:51.539+01:00",
+    "docs_adicionales": [
+      {
+        "nombre": "report_Visita informativa 1.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=3o2b3hXSNQvtC6BIU6sFRUkuImv8znUQ69nynpFLSZCPUyTXpAHnlkNgBRh93vQJ9iElmQtClH6lkLVFeTgVMANKUZ/RK%2BZ/SsDMMchUzTnfdyQgZAdTm3EfcUAC7CJ6"
+      },
+      {
+        "nombre": "Anexos 1.zip",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=WfmVd5mG1pLJfPe5w3LkP13cH6NtkPjhzfhUmvOz4uzJ%2BXYSJTRnvTunVAzF0OuLZqrX4715hdKF9Cg3fAKUJnRKryD0MC69Yerz9VUsh7m1aXEvq3KHa/AEHgtDrQw0"
+      },
+      {
+        "nombre": "VISITA.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=huY7XCNTXd4vOGuuZB0eVUK9bZbJ0Y5upbgTkxGpW8hJzdzkJ5uW4iWLi%2BWPrGCap20t0hNNUqiHFHLU2PhwES4lFfId%2By9I8BpLXM6ByIiB0nvVKRzfe4rpHcnlPhSZ"
+      }
+    ]
   },
   {
     "folder_id": "2378/2026",
