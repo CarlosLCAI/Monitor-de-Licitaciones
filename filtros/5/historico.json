@@ -10230,7 +10230,10 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-11-12"
+    "fecha_captura": "2026-11-12",
+    "descartado": true,
+    "descartado_fecha": "2026-11-19T08:30:06.418Z",
+    "descartado_por": "Luis Hens del Campo"
   },
   {
     "folder_id": "A-2026-00043",
