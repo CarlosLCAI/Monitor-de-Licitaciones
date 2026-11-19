@@ -8862,7 +8862,10 @@
     "fecha_captura": "2026-11-06",
     "fecha_limite_anterior": "2026-12-14",
     "fecha_limite_cambiada_el": "2026-11-11",
-    "estado_updated": "2026-11-10T09:32:14.100+01:00"
+    "estado_updated": "2026-11-10T09:32:14.100+01:00",
+    "descartado": true,
+    "descartado_fecha": "2026-11-19T08:31:08.398Z",
+    "descartado_por": "Luis Hens del Campo"
   },
   {
     "folder_id": "83/26",
