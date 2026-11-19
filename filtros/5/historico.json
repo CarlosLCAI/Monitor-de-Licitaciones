@@ -10896,7 +10896,10 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-11-18"
+    "fecha_captura": "2026-11-18",
+    "descartado": true,
+    "descartado_fecha": "2026-11-19T08:26:05.298Z",
+    "descartado_por": "Luis Hens del Campo"
   },
   {
     "folder_id": "3179/2026",
