@@ -1277,7 +1277,7 @@
   },
   {
     "folder_id": "26/2026",
-    "estado": "EV",
+    "estado": "RES",
     "titulo": "Servicios de asistencia técnica necesaria para la redacción de los proyectos, documentos técnicos, estudios previos y, en su caso, estudios de alternativas, así como la dirección facultativa y la coordinación de seguridad y salud durante la ejecución de las obras correspondientes a las actuaciones solicitadas por el Ayuntamiento de Puente Genil ",
     "updated": "2026-08-26T11:22:52.512+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=oKIK9pWHxsr10HRJw8TEnQ%3D%3D",
@@ -1320,7 +1320,7 @@
     "organo": "Junta de Gobierno Local de Ayuntamiento de Puente Genil",
     "importe": "272075.73",
     "importe_num": 272075.73,
-    "fecha_limite": "2026-09-24",
+    "fecha_limite": "2026-08-27",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1331,14 +1331,18 @@
       "fecha_analisis": "2026-08-27T14:06:34.955500+00:00"
     },
     "fecha_captura": "2026-08-27",
-    "resultado": null,
-    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
+    "resultado": "formalizada",
+    "estado_updated": "2026-11-17T10:41:49.575+01:00",
     "docs_adicionales": [
       {
         "nombre": "Informe justi y aprob gasto.pdf",
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YDz7PhOijrSV0f7C7pE8fSGg8012IXqxdN2/Mhu13gV7aEfU5h%2BkIxcb4xvGuQNFPZ0U826U1SIA2Qk3652ndK3boUmB2K9dOfd%2BNnvZaKeHAj0WEJrB5sP7amrh2jBD"
       }
-    ]
+    ],
+    "estado_anterior": "EV",
+    "estado_cambiado_el": "2026-11-19",
+    "fecha_limite_anterior": "2026-09-24",
+    "fecha_limite_cambiada_el": "2026-11-19"
   },
   {
     "folder_id": "B30261826002",
@@ -7203,7 +7207,7 @@
     "fuente": "perfiles",
     "fecha_captura": "2026-11-01",
     "estado_updated": "2026-11-17T14:16:59.889+01:00",
-    "pliego_cambiado_el": "2026-11-18",
+    "pliego_cambiado_el": "2026-11-19",
     "estado_anterior": "RES",
     "estado_cambiado_el": "2026-11-18",
     "fecha_limite_anterior": "2026-03-12",

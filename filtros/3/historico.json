@@ -601,5 +601,35 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-15"
+  },
+  {
+    "folder_id": "6012600298",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio para la elaboración y revisión de estudios de seguridad y salud, estudios básicos de seguridad y salud (ESS/EBSS) y coordinador en fase de proyecto",
+    "updated": "2026-11-17T09:10:51.763+01:00",
+    "link": "https://contratos-publicos.comunidad.madrid/contrato-publico/servicio-elaboracion-revision-estudios-seguridad-salud-estudios-basicos-seguridad",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71310000",
+      "71240000",
+      "71530000",
+      "71356200"
+    ],
+    "pcap_url": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-11/6012600298_pcp_signed.pdf",
+    "ppt_url": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-11/6012600298_ppt_signed.pdf",
+    "docs_adicionales": [],
+    "organo": "Metro de Madrid, S.A.",
+    "importe": "159120.00",
+    "importe_num": 159120.0,
+    "fecha_limite": "2026-12-03",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas",
+    "fecha_captura": "2026-11-19"
   }
 ]
