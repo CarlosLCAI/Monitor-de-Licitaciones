@@ -9121,7 +9121,10 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-11-13"
+    "fecha_captura": "2026-11-13",
+    "descartado": true,
+    "descartado_fecha": "2026-11-19T08:28:18.225Z",
+    "descartado_por": "Luis Hens del Campo"
   },
   {
     "folder_id": "GE. 41/2026",
