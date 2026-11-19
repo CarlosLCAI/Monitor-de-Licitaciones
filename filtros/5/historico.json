@@ -10749,7 +10749,7 @@
     ],
     "organo": "Rectorado de la Universidad de Córdoba",
     "importe": "81000",
-    "importe_num": 135000.0,
+    "importe_num": 135000,
     "fecha_limite": "2026-12-03",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -10757,7 +10757,10 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-11-18"
+    "fecha_captura": "2026-11-18",
+    "descartado": true,
+    "descartado_fecha": "2026-11-19T08:25:12.960Z",
+    "descartado_por": "Luis Hens del Campo"
   },
   {
     "folder_id": "1218/2026/PAS",
@@ -10781,7 +10784,7 @@
     "docs_adicionales": [],
     "organo": "Alcaldía del Ayuntamiento de Güéjar Sierra",
     "importe": "139900",
-    "importe_num": 139900.0,
+    "importe_num": 139900,
     "fecha_limite": "2026-12-02",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -10974,7 +10977,7 @@
     ],
     "organo": "Alcaldía del Ayuntamiento de Loja",
     "importe": "88283",
-    "importe_num": 88283.0,
+    "importe_num": 88283,
     "fecha_limite": "2026-12-09",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
