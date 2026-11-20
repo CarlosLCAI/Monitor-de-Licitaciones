@@ -45,7 +45,7 @@
   },
   {
     "folder_id": "1005/2026",
-    "estado": "EV",
+    "estado": "ADJ",
     "titulo": "Redacción del Proyecto de Ejecución de las obras del Parque Urbano Barranco de El Pueblo, en el T.M. de Tijarafe. Isla de La Palma",
     "updated": "2026-07-16T13:36:08.527+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=%2BKT0PU7WZgU4NavIWzMcHA%3D%3D",
@@ -69,8 +69,8 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-07-17",
-    "resultado": null,
-    "estado_updated": "2026-11-11T07:48:14.977970+00:00",
+    "resultado": "adjudicada",
+    "estado_updated": "2026-11-19T20:05:29.911+01:00",
     "docs_adicionales": [
       {
         "nombre": "ANEXO II DECLARACION COMPROMISO UTE.doc",
@@ -104,7 +104,9 @@
         "nombre": "ANEXO VIII OFERTA ECONOMICA.doc",
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=48fM7/eG148VGpR1QNCvWE17LEQ7fe5s9qeXcJkLLNGkFImRFfHS4%2BC26/1wBUvtdXQ%2BmCvjeZcE7MttFKob3Ji6QP4MjVI8Z5o4lusuq4jfdyQgZAdTm3EfcUAC7CJ6"
       }
-    ]
+    ],
+    "estado_anterior": "EV",
+    "estado_cambiado_el": "2026-11-20"
   },
   {
     "folder_id": "SV33/2026",
@@ -1688,7 +1690,7 @@
       "71242000"
     ],
     "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=47dHKqAqtfJ1wQ0TG75owQ0hVwfJYaXlN1IgKkswhCUUcDEwtqXbzMBzsa5eVacPWqTUjUUfrQYhT3y9uMdhudcs1Nnf8%2BiwqzYyP1K/PLQZyAJWGsSt0OzTSTyw9JAs",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4gMYFPFbisNH4/nvIJkih9ZaESMdf6ih6kmdrN1/4KSF8USFB7A4ugg174lUhn%2BxRCaT5SmljhE7Txz1GodzMR%2BWMHjUOWq2Jzl2JDzIIRr6CYyL7SIrUOBFfNf52ZqA",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=btXSpFC1oiInmetBzPx4czNdaUzD8hseOkaebBqG%2BF1VGry9J1ZASF7X9Vh3AuMAiwYkYI/WLq0fwQoq6Jw/bt206wezBt9OLEp6bMrY195t/o8fNevwsujgRzaBbugn",
     "docs_adicionales": [
       {
         "nombre": "Indicaciones cumplimentacion DEUC.pdf",
@@ -1717,7 +1719,8 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-11-15"
+    "fecha_captura": "2026-11-15",
+    "pliego_cambiado_el": "2026-11-20"
   },
   {
     "folder_id": "CMBIT1626_CP",
@@ -1740,6 +1743,10 @@
       {
         "nombre": "20260121_TOPOGRAFIA.rar",
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=D0YJp5dcx6imuJIyV5h6Hqk1D0FRV6QLjbvZJOdr/svPHkoLkT9vL/%2BpwVy4bK2PVBsOvXk2YAu/IsGLrDU2R1vv2BfS8fqvDWv6XNsXfeZJOVDbGCDM%2BMigrvuVS7Rv"
+      },
+      {
+        "nombre": "FOTOS.zip",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=veou1ZMC5PTaGEkremescNcKFW6nOUJc2WLPs4f0iLKNhTNadknnomld3em/kWVAGmkeGs189Ia3qRuh3eJaABpWUXPWucFem39Z/642zKSB0nvVKRzfe4rpHcnlPhSZ"
       }
     ],
     "organo": "Fundación Balear de Innovación y Tecnología",

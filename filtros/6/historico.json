@@ -196,7 +196,7 @@
   },
   {
     "folder_id": "86-26",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Servicio de redacción del anteproyecto de la actuación «mejora del funcionamiento y calidad del agua de la ETAP de Río Verde (T.M. Marbella)», para ACOSOL, S.A.",
     "updated": "2026-10-08T10:30:55.381+02:00",
@@ -226,7 +226,10 @@
       "semaforo": "naranja",
       "semaforo_motivo": "Cumplimos cifra de negocios y seguro, pero faltan experiencia en ETAP ≥1.000 l/s y especialista en potabilización; cubribles solo con UTE o medios externos permitidos.",
       "fecha_analisis": "2026-10-16T07:57:27.453018+00:00"
-    }
+    },
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-20",
+    "estado_updated": "2026-11-19T10:33:38.962+01:00"
   },
   {
     "folder_id": "15665/2026",

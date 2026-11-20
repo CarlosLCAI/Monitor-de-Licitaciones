@@ -71,7 +71,7 @@
   },
   {
     "folder_id": "1854/2026",
-    "estado": "ADJ",
+    "estado": "RES",
     "titulo": "“Redacción proyecto básico y de ejecución, dirección facultativa de las obras y coordinación  de seguridad y salud para las obras de construcción de edificio para centro deportivo en Velilla de San Antonio.",
     "updated": "2026-08-05T10:07:19.087+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=KXcmHtkgvJ19PLkba5eRog%3D%3D",
@@ -98,7 +98,19 @@
     },
     "fecha_captura": "2026-08-06",
     "resultado": "formalizada",
-    "estado_updated": "2026-11-11T07:48:14.977970+00:00"
+    "estado_updated": "2026-11-18T09:55:54.186+01:00",
+    "docs_adicionales": [
+      {
+        "nombre": "Valor estimado- Anexo II.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YI/nEF4h8/Y5gh6bun6EIBiNonv3mnrGuRRTm/KD8UPf%2BrE826hZYHMB8GYXB7l6ahX6ZcD4kuJKJ1VX8f7FZ5qcMZyKXBPkoOru5e2nHppJOVDbGCDM%2BMigrvuVS7Rv"
+      },
+      {
+        "nombre": "Anexo I Criterios de Adjudicacion.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=MpwnSfPSnsqNwEDSpqNF6jxJz7n4EGz7BSnF9uk7rYMSHIqunc9KmmZf0u4gAPXJIjeBngDHNr6lqgjEdYVDw9sB9N4U5qP3DurWe%2BAbGtQZyAJWGsSt0OzTSTyw9JAs"
+      }
+    ],
+    "estado_anterior": "ADJ",
+    "estado_cambiado_el": "2026-11-20"
   },
   {
     "folder_id": "300/2026/00445",
@@ -135,7 +147,7 @@
   },
   {
     "folder_id": "SPA/397/2025/630.00",
-    "estado": "PUB",
+    "estado": "RES",
     "titulo": "Servicio de gestión de la información BIM durante el proyecto de rehabilitación de la sede del Consejo de Seguridad Nuclear",
     "updated": "2026-09-16T09:47:18.388+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ci2VL9zfeKZJ8Trn0ZPzLw%3D%3D",
@@ -163,7 +175,11 @@
     },
     "fecha_captura": "2026-09-17",
     "revisado_humano": true,
-    "revisado_fecha": "2026-10-02T11:34:00.291Z"
+    "revisado_fecha": "2026-10-02T11:34:00.291Z",
+    "estado_anterior": "PUB",
+    "resultado": "desierta",
+    "estado_cambiado_el": "2026-11-20",
+    "estado_updated": "2026-11-19T15:41:30.470+01:00"
   },
   {
     "folder_id": "IC-2026000015",
@@ -571,7 +587,7 @@
       "71242000"
     ],
     "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=47dHKqAqtfJ1wQ0TG75owQ0hVwfJYaXlN1IgKkswhCUUcDEwtqXbzMBzsa5eVacPWqTUjUUfrQYhT3y9uMdhudcs1Nnf8%2BiwqzYyP1K/PLQZyAJWGsSt0OzTSTyw9JAs",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4gMYFPFbisNH4/nvIJkih9ZaESMdf6ih6kmdrN1/4KSF8USFB7A4ugg174lUhn%2BxRCaT5SmljhE7Txz1GodzMR%2BWMHjUOWq2Jzl2JDzIIRr6CYyL7SIrUOBFfNf52ZqA",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=btXSpFC1oiInmetBzPx4czNdaUzD8hseOkaebBqG%2BF1VGry9J1ZASF7X9Vh3AuMAiwYkYI/WLq0fwQoq6Jw/bt206wezBt9OLEp6bMrY195t/o8fNevwsujgRzaBbugn",
     "docs_adicionales": [
       {
         "nombre": "Indicaciones cumplimentacion DEUC.pdf",
@@ -600,7 +616,8 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-11-15"
+    "fecha_captura": "2026-11-15",
+    "pliego_cambiado_el": "2026-11-20"
   },
   {
     "folder_id": "6012600298",
