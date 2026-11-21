@@ -713,7 +713,7 @@
   {
     "folder_id": "482/2026",
     "estado": "RES",
-    "resultado": "adjudicada",
+    "resultado": "formalizada",
     "titulo": "Concurso de proyectos con intervención de jurado para contrato de servicios de redacción de proyecto básico y de ejecución, dirección facultativa de las obras y coordinación de seguridad y salud para la construcción de edificio municipal polivalente para la juventud denominado \"Espacio Joven\".",
     "updated": "2026-10-15T12:41:11.498+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=SRKx9M0hhBydkQsA7ROvsg%3D%3D",
@@ -735,12 +735,16 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fecha_captura": "2026-10-15",
-    "estado_anterior": "ADJ",
-    "estado_cambiado_el": "2026-11-11",
+    "estado_anterior": "RES",
+    "estado_cambiado_el": "2026-11-21",
     "fecha_limite_anterior": "2026-10-15",
     "fecha_limite_cambiada_el": "2026-11-11",
-    "estado_updated": "2026-11-10T14:18:49.697+01:00",
+    "estado_updated": "2026-11-20T14:02:21.339+01:00",
     "docs_adicionales": [
+      {
+        "nombre": "PL Saneamiento EDIFICIO.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=XknMl0kuZI18VgUSqiGqblSK1dCDINFoH/itHqzIYKNGuzALpu6Ur3lwccgkN18ObPA8O6oMw7ZKBZCl7P6B7y3rfTRXRnXMfR7NqBHZdKfVTD3T98KC0nSgQFM0q%2B5s"
+      },
       {
         "nombre": "Estudio topografico parcela 1 23.pdf",
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/A6SY%2BY9LI/RvhxDhLTz6GC94tcdDNHhPJGnVbQtpKPW69Oz7TyToRAGVz1aHpr%2B5x3g2Kms9oBUS8lnNYcy3arny1Gpi0p9HvOiUbMOxNq1aXEvq3KHa/AEHgtDrQw0"
@@ -772,10 +776,6 @@
       {
         "nombre": "Det volumetricas I S1.pdf",
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Do/wPESu7wVQYZ1uJ1dE551igbtW/wQzV7m/tokDA6EYDpX6DTp5Be2YsrYgnPPTn8N9TSj%2Bo6VFP66JwTyaSQlNapcJ1xfkc1ome5L17PnVTD3T98KC0nSgQFM0q%2B5s"
-      },
-      {
-        "nombre": "PL Saneamiento EDIFICIO.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=XknMl0kuZI18VgUSqiGqblSK1dCDINFoH/itHqzIYKNGuzALpu6Ur3lwccgkN18ObPA8O6oMw7ZKBZCl7P6B7y3rfTRXRnXMfR7NqBHZdKfVTD3T98KC0nSgQFM0q%2B5s"
       }
     ]
   },
@@ -1357,8 +1357,8 @@
     "cpv_codes": [
       "71240000"
     ],
-    "pcap_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302735098/8A2DCDA0EF4871A543B552C53C7F9587",
-    "ppt_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302735193/FE4C277C62803DC98791F770EEC483EC",
+    "pcap_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302814182/8A2DCDA0EF4871A543B552C53C7F9587",
+    "ppt_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302814183/FE4C277C62803DC98791F770EEC483EC",
     "docs_adicionales": [],
     "organo": "Ajuntament de Mataró",
     "importe": "230031.29",
@@ -1571,7 +1571,8 @@
     },
     "revisado_humano": true,
     "revisado_fecha": "2026-11-16T12:21:00.920Z",
-    "revisado_por": "Belén Fernández"
+    "revisado_por": "Belén Fernández",
+    "pliego_cambiado_el": "2026-11-21"
   },
   {
     "folder_id": "LGN_2026_CS_02",

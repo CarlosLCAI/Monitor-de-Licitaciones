@@ -1,83 +1,26 @@
 [
   {
-    "folder_id": "010/2026",
+    "folder_id": "P4102500H-2026/000100-PEAS",
     "estado": "PUB",
     "resultado": null,
-    "titulo": "Servicio redacción Proyecto de Obra  Evacuación Pluviales Cuenca Norte y Sur",
-    "updated": "2026-11-19T12:23:26.823+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=V0w%2FjUgcZUuAAM7L03kM8A%3D%3D",
+    "titulo": "Redacción de Proyecto Básico y de Ejecución y Dirección de Obra de la denominada \"Reforma integral del Polideportivo Municipal Ceferino Gil Arenas\"",
+    "updated": "2026-11-20T13:38:09.594+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=OPrFK25BHeqGCFcHcNGIlQ%3D%3D",
     "es_andalucia": true,
     "cpv_match": true,
     "cpv_codes": [
-      "71240000",
-      "71520000"
-    ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=LSSVqTvKSGHdQP8JCItxmGnnY8DsVmhcE28XMawnXKsCxuUwIr8IXwCLFkNj3DqCg/gXx2jyk/XsoJCirf53o0ZbZ3qbddrJpQZ7nV20UMYC1/zDIE0Kw/PWNnLS0Z0z",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QltoRKQxTwvuM6ZsecMby4FtH5bSMrlgFfw5ahZsQlECQPFkFBzEkwRGK7Yhq9MHZke5UtFsRFgD35ymiRLstPX/QQSGTY8iLO0EZj/UyLEC1/zDIE0Kw/PWNnLS0Z0z",
-    "docs_adicionales": [
-      {
-        "nombre": "1 DECLARACION_URGENCIA firmado.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=hHdOOfufp09903vGIJ68hixROuAPpUbshmS9m6frQ2pCHYbxkocd9F9gEVO4/UNbYP47gBX8qg1soKqw5eKj2ttPKe6CNy1rpHjzY3Xxe1DDdQD9RyhUmzT4jZ2In4zL"
-      },
-      {
-        "nombre": "9 RESOLUCION APROB firmado.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=t5Om9SxHvD0ZeR6ONmiNVQQbb04mFAWkWAbDulp2zw%2BN7fJ2v3O35q6QI98ImzUGAzlOCTva0xVMfFsQng29b8TUczMAeBZ5vLVgBmR/JUJ7QB3HKyQaFUExmUVQCerk"
-      },
-      {
-        "nombre": "20200820_DEUCMA_pdf.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=KVYTyES7y8dFQjkyPZG0ST8Yj9W8bYaJE9m9zAK3oInCJo202jCzS%2BNi%2BarpruOPlAU3xlWWF/HJPdFN89Tpm0g24aK6rUNBrcySYeBfb7A//q7NB2iMZvNyf0xrJmjt"
-      },
-      {
-        "nombre": "ANEXO II.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=IUA3fBmJIeBNqDnfmFNRSOVkz7h0TqIx2MxhIqlIgB8HM/%2BP75RfgdyuURQd13EkPWu5feeB0OwIhJJYl5OuSFIKtRQV1shMU6yIIHZ5kC1t/o8fNevwsujgRzaBbugn"
-      }
-    ],
-    "organo": "Alcaldía del Ayuntamiento de Puebla de Guzmán",
-    "importe": "327302.3",
-    "importe_num": 327320.3,
-    "fecha_limite": "2026-12-04",
-    "tipo_contrato": "2",
-    "tipo_contrato_match": true,
-    "procedimiento": "1",
-    "procedimiento_match": true,
-    "importe_match": true,
-    "fuente": "perfiles"
-  },
-  {
-    "folder_id": "2026/135",
-    "estado": "PUB",
-    "resultado": null,
-    "titulo": "Servicios de redacción de proyecto básico y de ejecución, dirección de las obras, coordinación de seguridad y salud y otros servicios relacionados, para la construcción del nuevo Centro de Servicios Sociales Comunitarios \"San Eulogio\" del Excmo Ayuntamiento de Córdoba. ",
-    "updated": "2026-11-18T09:41:35.035+01:00",
-    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=XlUsNFD4Emtq1DdmE7eaXg%3D%3D",
-    "es_andalucia": true,
-    "cpv_match": true,
-    "cpv_codes": [
-      "71000000",
-      "71520000",
-      "71317210",
-      "71242000",
       "71240000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CozDMF4PSDg%2Bg6VcYihGvSWrg1Odz%2BM2NwCFqMQPTuJml3NSK1Kbqhvq5HHkes0qc7tRxcyFnjdrBtJ/MSIwgHw4NkDo5V3/XHU5sXq39pH6CYyL7SIrUOBFfNf52ZqA",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2NNu8F2wkehz2FUreOvO47BM//j84Rqlf7ZNMzjBghzeskWKJzH7XHoQao1uCic9dX5e8xmVtTGvdKrHZK1gDhPLwKqGeKwNxxuyk7tKKWJt/o8fNevwsujgRzaBbugn",
-    "docs_adicionales": [
-      {
-        "nombre": "20261016-ANTEPROYECTO-PARA-CENTRO-DE-SERVICIOS-SOCIALES-COMUNITARIOS-SAN-EULOGIO-CORDOBA-F.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=hjhDh%2BspWtouv83wKArBqwo66C2TpQYA3H2xrwAHjKfADMOfDeIZ5mzFZpbh7cgFe0aK8zWj4OjPLsGhXjV/rtEN8ey0datvPVtz8YIUaTx45ClyWkoJ44mKM70IFcOu"
-      },
-      {
-        "nombre": "INFORME-GEOTECNICO-CSSC-SAN-EULOGIO-VISADO-083-2026.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=l1QH3PmJrY0Bax7TCyYO78QaAAxJ6Clmyfdl2XihDROj/C48mAD/Rm2WSUKmdJC2urL/d%2B3MLjTPh3c6tHM/OpPtkjx35Wg90VhbepPhNSBJOVDbGCDM%2BMigrvuVS7Rv"
-      }
-    ],
-    "organo": "Junta de Gobierno del Ayuntamiento de Córdoba",
-    "importe": "244883.34",
-    "importe_num": 244883.34,
-    "fecha_limite": "2026-12-17",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QKM0E0VqS%2BlxxJH0tpoXl/yNIYtLJZKZpfpI3LIfBTnu2t6/oqdwSVJE0BP1B9h1FkkkCJtl13yX7bvb/DV4dVJgXP3QDWAaCZeEIbrVTb7DdQD9RyhUmzT4jZ2In4zL",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YDKMH41mGEwS556GAH8EWOvbDepn7M5RWtfLW76uAh4TaemQ%2BwZucIFJJETA4kYTDRFcssJPHK4edZ6Kj1l8a3g7Su0r1jIp2qDHbwIoIIw//q7NB2iMZvNyf0xrJmjt",
+    "docs_adicionales": [],
+    "organo": "Alcaldía del Ayuntamiento de Carrión de los Céspedes",
+    "importe": "50000",
+    "importe_num": 50000.0,
+    "fecha_limite": "2026-12-09",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
-    "procedimiento": "1",
+    "procedimiento": "9",
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles"
