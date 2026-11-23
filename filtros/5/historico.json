@@ -1037,12 +1037,12 @@
       "90512000",
       "90610000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=SONFlZtfAQjtMHZ8v0nOJ6XOekdKcl9U/9dOwDGAV2y1T01AYJWA/tnNlGOSQLC3darDThoU8qU3cPZdcTM9mXWwjRcMKnpvZ6z7MWaJaEZ7QB3HKyQaFUExmUVQCerk",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4v1f1W6As413GxbdKhVtM151yhiZ7Ow3Bvg5upmfnDv2etAad2MxhfbsS7GeZaOGJZUHCmnVoTnaP/nSr/eO%2BLa9CskvoCIj5/X3k1/6TwPVTD3T98KC0nSgQFM0q%2B5s",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=HLclx5BXaG01TqQQGvZESFc0XBhPmRp0gvoYe%2B3yxU%2BDBrC9fA1rqLpr/vuGmCW7TtrUTGKnI201kTmYZWwumPm6S90oKi8jqvOspo4dhn76CYyL7SIrUOBFfNf52ZqA",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wR%2B2a1WRcaRGTZ2e59QYPd7RiYzMxTmxid5S9HXCTDV3IdPY3aX1t6agqBFjU4xK%2BaSaimg8e0mX4BAKLBqadyoJTAeC6iAMT8GlnnZ6JiPfdyQgZAdTm3EfcUAC7CJ6",
     "organo": "Junta de Gobierno del Ayuntamiento de Huelva",
     "importe": "296370570.25",
     "importe_num": 355958194.33,
-    "fecha_limite": "2026-11-13",
+    "fecha_limite": "2026-12-21",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -1059,14 +1059,6 @@
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=l3ocH%2BwozFz%2BtdEIa3ymNIcg9R6OwTagUYkx%2BBw1hNPq400LpneYwP5PW87uJXvVxIIPpayH%2BY5eFDHnvHUewkkZOmvLekZtp2AEv3G3AEPDdQD9RyhUmzT4jZ2In4zL"
       },
       {
-        "nombre": "ANEXOS PPT.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=eIxFHzKrZJu4Ocu8tunqb8HtWiflmI8RxERC0j8h6V/BNa0axH9wakzlAdu92PpBwXvnx7ZLeWRc4HAyHPw7KC5XX9aqn5r%2B7qucmKEoFGT6CYyL7SIrUOBFfNf52ZqA"
-      },
-      {
-        "nombre": "DEUC.zip",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=dV4vn48SKaTt9gTh1yq5CIW/W6C2asv2vpSjHifQYQdW/W1W7qXKQtsd%2BpfqHe5w4Yxw/RwljWEZewqMqYJB8LfwUts5C4xRjJ31hfM4Ypht/o8fNevwsujgRzaBbugn"
-      },
-      {
         "nombre": "ANEXO PCAP MODELO DE PROPOSICION ECONOMICAMOD3.xlsx",
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=D70WMAASVdWGJYz/iq101NN7tvHfDyQCFB0HPMI%2Bzlpedf97/3890fJmsOcwwwnZkKpp3vbHYO7chT8TeD4tqz4/kf81AQkjjkhMt0vZkx545ClyWkoJ44mKM70IFcOu"
       },
@@ -1077,8 +1069,16 @@
       {
         "nombre": "Atendiendo a las consultas presentadas por el Ayuntamiento de Huelva.pdf",
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ePx4ZVLtsGAoba0mfcdgcE7fRlRsQbPcGvI5OIaskTG4F/MVhO%2BG0whZElTqXoT2Q13vqg2Vv%2BkzAsUe8geRyGND9RYpVBVu01pnGPOspMdJOVDbGCDM%2BMigrvuVS7Rv"
+      },
+      {
+        "nombre": "ENLACES ANEXO PPT.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=32y7y2P88XRvYYXlTCX5EaQSIjrK5VF9q5YTIgTkGWPIab3hsArMVn1Vsvjq7fZFS3kr7ILDmuAO24VxMK/zVnL4JlMitDzU3QQN7pCE6v/fdyQgZAdTm3EfcUAC7CJ6"
       }
-    ]
+    ],
+    "pliego_cambiado_el": "2026-11-23",
+    "fecha_limite_anterior": "2026-11-13",
+    "fecha_limite_cambiada_el": "2026-11-23",
+    "estado_updated": "2026-11-22T13:57:55.156+01:00"
   },
   {
     "folder_id": "12419/2026",
@@ -4879,7 +4879,7 @@
     "revisado_fecha": "2026-10-20T09:52:09.348Z",
     "revisado_por": "Belén Fernández",
     "estado_updated": "2026-11-20T15:12:13.277+01:00",
-    "pliego_cambiado_el": "2026-11-21",
+    "pliego_cambiado_el": "2026-11-23",
     "estado_anterior": "EV",
     "estado_cambiado_el": "2026-11-21",
     "fecha_limite_anterior": "2026-10-30",
@@ -10144,7 +10144,7 @@
       "fecha_analisis": "2026-11-11T12:16:30.026038+00:00",
       "solicitada_por": "CarlosLCAI"
     },
-    "pliego_cambiado_el": "2026-11-21",
+    "pliego_cambiado_el": "2026-11-23",
     "estado_anterior": "PUB",
     "estado_cambiado_el": "2026-11-21",
     "fecha_limite_anterior": "2026-11-30",
@@ -11392,8 +11392,8 @@
       "71240000",
       "71520000"
     ],
-    "pcap_url": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/pcap_monitorizacion_sala_blanca.pdf",
-    "ppt_url": "https://contratos-publicos.comunidad.madrid/sites/default/files/PCON/2026-09/ppt_monitorizacion.pdf",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=LSSVqTvKSGHdQP8JCItxmGnnY8DsVmhcE28XMawnXKsCxuUwIr8IXwCLFkNj3DqCg/gXx2jyk/XsoJCirf53o0ZbZ3qbddrJpQZ7nV20UMYC1/zDIE0Kw/PWNnLS0Z0z",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QltoRKQxTwvuM6ZsecMby4FtH5bSMrlgFfw5ahZsQlECQPFkFBzEkwRGK7Yhq9MHZke5UtFsRFgD35ymiRLstPX/QQSGTY8iLO0EZj/UyLEC1/zDIE0Kw/PWNnLS0Z0z",
     "docs_adicionales": [
       {
         "nombre": "1 DECLARACION_URGENCIA firmado.pdf",
@@ -11423,7 +11423,7 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-20",
-    "pliego_cambiado_el": "2026-11-21",
+    "pliego_cambiado_el": "2026-11-23",
     "estado_anterior": "RES",
     "estado_cambiado_el": "2026-11-21",
     "estado_updated": "2026-11-20T08:11:57.792+01:00"
