@@ -1,1 +1,180 @@
-[]
+[
+  {
+    "folder_id": "7323/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de instalación, mantenimiento y asistencia técnica de la instalación del alumbrado y electricidad para las fiestas de Navidad de 2026 del municipio de La Zubia.",
+    "updated": "2026-11-23T18:54:40.110+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=4UWCo7VohCakU02jNGj1Fw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71318100",
+      "31527260",
+      "71314100",
+      "31527200"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1HXgEOweSI2kn7%2BoOtRF/XxW1gX%2BZwcz2BJNq4eO0JVB05NwqJldNLAFT7DN2b%2B2adB6w6serz4P9%2Ba1iAYM/qOTsFZUI1ZBk3%2BzoDSYHNDVTD3T98KC0nSgQFM0q%2B5s",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ZR%2BnOHL9xrsG/LiWp7FdAeLOr2DkaYBUoNCOryF7Rvir6A3%2BeUlAYKo8xNXuZNyZpQHyZdvGEDpws9seGhnv79YMNO/IHCN%2BmJL8MyCCd5EC1/zDIE0Kw/PWNnLS0Z0z",
+    "docs_adicionales": [],
+    "organo": "Junta de Gobierno Local del Ayuntamiento de La Zubia",
+    "importe": "69060",
+    "importe_num": 69060.0,
+    "fecha_limite": "2026-12-01",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "CONT-2026000082",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de sonido e iluminación programación Navidad.",
+    "updated": "2026-11-23T14:26:19.007+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=MrdIM1%2BlECmqb7rCcv76BA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71318100",
+      "51313000",
+      "71318100",
+      "51313000",
+      "71318100",
+      "51313000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ZvzirCYmy56NMUCsnKla%2BvciipplLPg2AYIOIzn%2BxIcC70siul7BKwBFNVcfweOGLFEYbO/5E96Vtoev4Iuo9ucJhD6nnPLsoZ2xA8vvgCfDdQD9RyhUmzT4jZ2In4zL",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=tdRxk0iRLCeL%2BJTmmQqDnDsUsXveiJVhB7kbjDXwKcgu2gHwlnYAqUjnuhyQ9iNZwS3YdtGXaXEP3lqDjYzGgXuYUV0P2dc1/%2BiDoafrgAxt/o8fNevwsujgRzaBbugn",
+    "docs_adicionales": [],
+    "organo": "Alcaldía del Ayuntamiento de Torre Pacheco",
+    "importe": "5000",
+    "importe_num": 5000.0,
+    "fecha_limite": "2026-12-09",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "G8260/2026-C33/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "El objeto de contrato es la prestación de los servicios\r\nprofesionales necesarios para la Redacción de Proyecto, así\r\ncomo la Dirección de Obra, Dirección de Ejecución de Obra\r\ny Coordinación de Seguridad y Salud para la Remodelación\r\ndel PARQUE DEL AGUA en el municipio de Maracena",
+    "updated": "2026-11-23T12:43:41.289+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=ZH5n35byjpykU02jNGj1Fw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71242000",
+      "71222000",
+      "71247000",
+      "71520000",
+      "71317210",
+      "71242000",
+      "71222000",
+      "71247000",
+      "71520000",
+      "71317210"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=vQz7kIdttGR4l5pybjyLs9V2/RmcdmHFYrZL%2B1QQxlMtfvsI3F1qpYH2v85sLLy0%2BKL%2BQoAmEAExh3pu/xbYb4SzkZQeeMiJVN5EQZBsTVBJOVDbGCDM%2BMigrvuVS7Rv",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=jG9E/WKSgejAurViKw/tVyHU2x%2BDoododBQonF9kKSn9DQSDao8jS4bpmQ%2B5iLJo4RTnfO2AuXIYwFswXlPDRxrOiBSTFI%2BTa85gF4uUWQDfdyQgZAdTm3EfcUAC7CJ6",
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXO III PLANOS_A3.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=F4uH5TyCbaJC3DBXWunFSJlYcfxGY9c6%2BLZ%2BhWCTcTvOtonA2WHvDtiPIhJqeqaTTC4D66tBsXFuhy%2Bz28aIXNhMN9hWAK6U5fcoCCjg3%2Bo//q7NB2iMZvNyf0xrJmjt"
+      },
+      {
+        "nombre": "ANEXO III MEMORIA.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1H%2BYHuxv9MmVKeMmKJTQyIoTAh3TM9Lkanaos/m6VHnLe7V22mzRzfOGfJQJ31ln6XtVWOvAM/H452ZlGrh%2BPit1XTRXirsn5r6H3RmJgA6HAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "Modelo DACI_contratos PAI_Maracena Ejecutores-Licitadores_DACI EDIL.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=lMExIRdlbKAsRLe/HnfLpal%2BBqyeb1UZjBjjhXaQq3XottPfFA3nI/GjH8H8NGHqIUEPjPDLghfd1XqtEnBwgUqpTuc9UbJkc7AZstQ2ZD7VTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "20261112_Otros_ANEXO 1 PLAN ACTUACION INTEGRADO  PAI  PARQUE DEL AGUA.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iihMolmGp1UbQTLVg4QASaS%2BTKlsZm0GOFMG2PgMq0lpQmrW5%2BA5odh91jq085EH8E3yCuBtAeQtXV38nnm/0/bVzg5oOsWWzSLFMzSBwi9t/o8fNevwsujgRzaBbugn"
+      },
+      {
+        "nombre": "20261112_Otros_ANEXO 2 DESCRIPTIVO ACTUACIONES PROPUESTAS PARQUE DEL AGUA.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=kSz0yUBOSG3M%2B6K1rGz7eusu7TXc0aMdGjtnlFZKDy%2B6f2D841TDFrJz1TqE8%2BwUQMbOf6h%2BuO967ejCDhtz%2BaeWFHS4uubj0L8Mx0CFr421aXEvq3KHa/AEHgtDrQw0"
+      }
+    ],
+    "organo": "Junta de Gobierno Local del Ayuntamiento de Maracena",
+    "importe": "92674.97",
+    "importe_num": 92674.97,
+    "fecha_limite": "2026-12-09",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "0633/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Asistencia técnica para la cumplimentación y presentación de los reportes y notificaciones en materia de control ambiental de varias instalaciones de EMASESA (Vertidos, PRTR y Suelos)",
+    "updated": "2026-11-23T12:33:39.983+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=tsJmefP8dUlJ8Trn0ZPzLw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "90713000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=/%2BQ/74YfnyeSh0g3cs2%2BipyY%2BCQ2zV6zsUDiDkdPyUfG75PtjlUZHOTBx6YrS/634gTktiBSkAhbw5GOkB/LJEKHjeFbRfI0RBvENwVHNMi1aXEvq3KHa/AEHgtDrQw0",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ErraytXofWPBoVZKKTeMvmHPoyrRj4WwpMmnjp1w03Q6%2BNRjSYfUFZDzB5RK6Fore0jzdU/OgnzioHf3hB09wxHL5TP5vCRVOvmGHlmm8R33GVhXrFFqN7yFncy7YfRK",
+    "docs_adicionales": [
+      {
+        "nombre": "Anexo Gestion de la Seguridad de la Informacion Terceros.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=XWYeCvUDanjBvEwI0upQbG301mPAdm3mx495Y2hQgV87cM7IqK9vTyzanCwbVwqsENhYGiplU2uXpelZqE3AvrZzFrR5eZIcPoeOIX3I/kwZyAJWGsSt0OzTSTyw9JAs"
+      }
+    ],
+    "organo": "Consejería Delegada de la Empresa Metropolitana de Abastecimiento y Saneamiento de Aguas de Sevilla S.A. (EMASESA)",
+    "importe": "16800",
+    "importe_num": 33600.0,
+    "fecha_limite": "2026-12-11",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  },
+  {
+    "folder_id": "26.114.GCNI3602.PY.04",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicios consistentes en la Asistencia Técnica a la Redacción del Proyecto de la obra del nuevo Cuartel de la Guardia Civil en Vícar (Almería)(26.114.GCNI3602.PY.04)",
+    "updated": "2026-11-23T09:55:23.857+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=wL6pg2jmiQyOUi78BmzhOQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=WWmnHh/gWr48GOgIk4qD3kEPM2rKCf0DzvLQnbWXu2zAAZ1nCBP8ISs769TWXmoUbmpU2eBCWUFMbsgqcoCP0lNgaZk1NUjJgFk2Q1xVLgcZyAJWGsSt0OzTSTyw9JAs",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=kYB%2B53fxFbbJfWz4OLX0K7VwnU70CVw3LcbCa%2BlSp66R1wRzoYvEDw%2B4rBRJOr0KeHuCL3aROQhNgA0k53DMI0zpxzVNs6ZRaPqiDdNUI833GVhXrFFqN7yFncy7YfRK",
+    "docs_adicionales": [
+      {
+        "nombre": "DEUC .xml",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=TsEjwHxQR1nTpdgt/n/swkDI1DNmV4ZHa3STPJ5VriBwmR9dejUAfjWAHXEt6tqBFzUZcsTQMtpTOheps6/7TX0wqq9PkTCwjDphb7U8OpkZyAJWGsSt0OzTSTyw9JAs"
+      }
+    ],
+    "organo": "Presidencia de la Sociedad de Infraestructuras y Equipamientos Penitenciarios y de la Seguridad del Estado, S.M.E., S.A",
+    "importe": "215000",
+    "importe_num": 215000.0,
+    "fecha_limite": "2026-12-10",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  }
+]

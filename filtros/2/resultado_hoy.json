@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "folder_id": "CC2026/72",
+    "estado": "EV",
+    "resultado": null,
+    "titulo": "Concurso de proyectos y posterior fase de adjudicación de un contrato de servicios mediante procedimiento negociado sin publicidad para la elaboración de los documentos técnicos necesarios para la ordenación urbanística de la antigua Fábrica de Armas de \"La Vega\"",
+    "updated": "2026-11-23T16:08:12.857+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=CX1OBKubJKWAAM7L03kM8A%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71410000",
+      "71400000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ds8yzp9IJ72%2BZignbaFwSPSne3510OEQWtDs3f38x2Oa2gvJZjNdJsOKvjHe4xfsz2gU03mW8GJhv65jWk1nCrCNOV31kR0e4/53wij8WiffdyQgZAdTm3EfcUAC7CJ6",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=IYldEG3dV41gI75mbgKsr7j/MPgQSayTGk4SfPbcl9m8KjiOyWVXxySoVB8Mog56f2ck6iebXeJLanO4EfH/QIk453j2sDMu1vegM6GtsCqHAj0WEJrB5sP7amrh2jBD",
+    "docs_adicionales": [
+      {
+        "nombre": "MEMORIA DE NECESIDAD.PDF",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=kbDlAbAfJjR0poAtv%2BrGkYuT6Z/eOzTxFLANaRzUje6nHHG%2Bh1tGbMpJnzdIo74uuIRhKF6iJFmQLl9AXmz/Wv5C7EjuCu780iMIF6rn9QP3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "CERTIFICADO JUNTA.PDF",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=R4qebMyFQ%2Bxu%2BKx026mlol1k5dBgCpegPzTmAe9c02Qe8ckMjYYK6khph7Svrl5Qlp3Dv3VauL4vDPaMnSbX%2BkKEo2PdmidVWcxBuudKWb5t/o8fNevwsujgRzaBbugn"
+      }
+    ],
+    "organo": "Junta de Gobierno del Ayuntamiento de Oviedo",
+    "importe": "277487.9",
+    "importe_num": 277487.9,
+    "fecha_limite": "2026-04-27",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "8",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles"
+  }
+]

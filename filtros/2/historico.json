@@ -677,12 +677,12 @@
     "cpv_codes": [
       "71240000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0WcyMKXLA1Em/UK5T2w1Lvm52NLSuvgy3ZEZ3aZOd7Lr4l%2BIlzklDhfwi%2Bd3bOnoUmHGkX1ildDnwXa1/nriLeN6oVbyYA%2B9zYxNi/bYIKMC1/zDIE0Kw/PWNnLS0Z0z",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Wl11XKgWz7ezyftFiX42au/VDz0n5e1xmAGAkZXI4kFH81oxo9S5tIXc2IuTA32lzj5up4hEstAelO9wbnmacCPS2dZptzoF4Pjb1lxY8Z/fdyQgZAdTm3EfcUAC7CJ6",
+    "pcap_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302597788/3000C6DECA2891D4DE85371C7F2BB860",
+    "ppt_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302597789/04CA8539A16D52F47F7D109ACADFE4D3",
     "organo": "Institut Metropolità de Promoció de Sòl i Gestió Patrimonial (IMPSOL)",
     "importe": "2007673.11",
     "importe_num": 2103673.11,
-    "fecha_limite": "2026-08-24",
+    "fecha_limite": "2026-05-21",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "8",
@@ -691,9 +691,9 @@
     "fecha_captura": "2026-10-09",
     "estado_anterior": "ADJ",
     "estado_cambiado_el": "2026-11-10",
-    "fecha_limite_anterior": "2026-06-29",
-    "fecha_limite_cambiada_el": "2026-11-18",
-    "estado_updated": "2026-11-17T09:29:06.317+01:00",
+    "fecha_limite_anterior": "2026-08-24",
+    "fecha_limite_cambiada_el": "2026-11-24",
+    "estado_updated": "2026-11-23T16:03:23.617+01:00",
     "docs_adicionales": [
       {
         "nombre": "Informe_de_inicio_Servicio_limpieza_techos_y_perimetral docx report.pdf",
@@ -708,7 +708,7 @@
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=CzsUPTqb5lkU7lajMg5lPXKziXslq33JjYenXXNPXV5XaIW7J1clGTQhub5TsdXMCeZZjkde9dH2eCzKkUS6KRdcydOcWYtjOyTcNwA8CTCCx2e6p7hqtlp2aFupgHMr"
       }
     ],
-    "pliego_cambiado_el": "2026-11-18"
+    "pliego_cambiado_el": "2026-11-24"
   },
   {
     "folder_id": "482/2026",
@@ -1357,8 +1357,8 @@
     "cpv_codes": [
       "71240000"
     ],
-    "pcap_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302814182/8A2DCDA0EF4871A543B552C53C7F9587",
-    "ppt_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302814183/FE4C277C62803DC98791F770EEC483EC",
+    "pcap_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302827181/8A2DCDA0EF4871A543B552C53C7F9587",
+    "ppt_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302827182/FE4C277C62803DC98791F770EEC483EC",
     "docs_adicionales": [],
     "organo": "Ajuntament de Mataró",
     "importe": "230031.29",
@@ -1572,7 +1572,7 @@
     "revisado_humano": true,
     "revisado_fecha": "2026-11-16T12:21:00.920Z",
     "revisado_por": "Belén Fernández",
-    "pliego_cambiado_el": "2026-11-21"
+    "pliego_cambiado_el": "2026-11-24"
   },
   {
     "folder_id": "LGN_2026_CS_02",
@@ -1789,5 +1789,42 @@
     "importe_match": true,
     "fuente": "agregadas",
     "fecha_captura": "2026-11-17"
+  },
+  {
+    "folder_id": "CC2026/72",
+    "estado": "EV",
+    "resultado": null,
+    "titulo": "Concurso de proyectos y posterior fase de adjudicación de un contrato de servicios mediante procedimiento negociado sin publicidad para la elaboración de los documentos técnicos necesarios para la ordenación urbanística de la antigua Fábrica de Armas de \"La Vega\"",
+    "updated": "2026-11-23T16:08:12.857+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=CX1OBKubJKWAAM7L03kM8A%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71410000",
+      "71400000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ds8yzp9IJ72%2BZignbaFwSPSne3510OEQWtDs3f38x2Oa2gvJZjNdJsOKvjHe4xfsz2gU03mW8GJhv65jWk1nCrCNOV31kR0e4/53wij8WiffdyQgZAdTm3EfcUAC7CJ6",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=IYldEG3dV41gI75mbgKsr7j/MPgQSayTGk4SfPbcl9m8KjiOyWVXxySoVB8Mog56f2ck6iebXeJLanO4EfH/QIk453j2sDMu1vegM6GtsCqHAj0WEJrB5sP7amrh2jBD",
+    "docs_adicionales": [
+      {
+        "nombre": "MEMORIA DE NECESIDAD.PDF",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=kbDlAbAfJjR0poAtv%2BrGkYuT6Z/eOzTxFLANaRzUje6nHHG%2Bh1tGbMpJnzdIo74uuIRhKF6iJFmQLl9AXmz/Wv5C7EjuCu780iMIF6rn9QP3GVhXrFFqN7yFncy7YfRK"
+      },
+      {
+        "nombre": "CERTIFICADO JUNTA.PDF",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=R4qebMyFQ%2Bxu%2BKx026mlol1k5dBgCpegPzTmAe9c02Qe8ckMjYYK6khph7Svrl5Qlp3Dv3VauL4vDPaMnSbX%2BkKEo2PdmidVWcxBuudKWb5t/o8fNevwsujgRzaBbugn"
+      }
+    ],
+    "organo": "Junta de Gobierno del Ayuntamiento de Oviedo",
+    "importe": "277487.9",
+    "importe_num": 277487.9,
+    "fecha_limite": "2026-04-27",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "8",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-24"
   }
 ]
