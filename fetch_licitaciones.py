@@ -6,6 +6,7 @@ import base64
 import json
 import os
 import re
+import unicodedata
 from urllib.parse import unquote
 from datetime import datetime, timedelta, timezone
 
@@ -768,11 +769,34 @@ def id_evl(link):
     return unquote(m.group(1)) if m else None
 
 
+PALABRAS_ORGANO = {"alcaldia", "ayuntamiento", "ajuntament", "presidencia", "junta", "gobierno", "local", "consejo",
+                   "rector", "pleno", "concejalia", "delegacion", "area", "diputacion", "provincial", "direccion",
+                   "general", "servicio", "servicios", "agencia", "consorcio", "comision", "ejecutiva", "gerencia",
+                   "municipal", "organo", "contratacion", "mesa", "comunidad", "consejeria", "secretaria"}
+
+
+def _palabras_organo(organo):
+    t = unicodedata.normalize("NFD", (organo or "").lower())
+    t = "".join(c for c in t if unicodedata.category(c) != "Mn")
+    return {p for p in re.findall(r"[a-z]{4,}", t) if p not in PALABRAS_ORGANO}
+
+
 def misma_licitacion(registro, data):
-    """False solo si ambos enlaces traen idEvl y son distintos: mismo número de expediente, otra licitación.
-    Si falta alguno (algunas fuentes no lo traen) se da por la misma, como antes."""
+    """¿Es la misma licitación que la ya guardada con ese número de expediente?
+    - Si ambos enlaces traen idEvl, se comparan: distintos = otra licitación (mismo número, otro órgano).
+    - Si a alguno le falta (licitaciones de otras plataformas: Euskadi, Cataluña, Madrid...), se comparan los nombres
+      del órgano: sin ninguna palabra distintiva en común (p. ej. «Puebla de Guzmán» frente a otro municipio) es otra
+      licitación. Antes se daba por la misma y una licitación de otra comunidad con igual número cambiaba el estado,
+      el plazo y el pliego de la andaluza. Si falta el órgano en alguno, se da por la misma, como antes."""
     a, b = id_evl(registro.get("link")), id_evl(data.get("link"))
-    return not (a and b and a != b)
+    if a and b:
+        return a == b
+    if registro.get("es_andalucia") and data.get("es_andalucia") is False:
+        return False  # la guardada es andaluza y esta versión no: es la de otra comunidad con el mismo número
+    pa, pb = _palabras_organo(registro.get("organo")), _palabras_organo(data.get("organo"))
+    if pa and pb and not (pa & pb):
+        return False
+    return True
 
 
 def clave_unica(data):
