@@ -233,7 +233,7 @@
   },
   {
     "folder_id": "2378/2026",
-    "estado": "PUB",
+    "estado": "EV",
     "titulo": "Elaboración y redacción del Plan Especial de Protección del Conjunto Histórico Artístico de Chinchón",
     "updated": "2026-09-29T19:06:28.990+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=uCirF57jxe6FQ%2FlhRK79lA%3D%3D",
@@ -244,12 +244,12 @@
       "71240000",
       "71200000"
     ],
-    "pcap_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302816502/66DFEF56E1532856441972B12E07209F",
-    "ppt_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302816503/2644AEECF6ED0D41697F60DB6D79259D",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ifV2mnj0U1rb349viwAwGeq60TsUx%2BB9lIl9Pd/LqEoNrmHwkmkh13ovkMQV8cZa3Crc0l0YJXIXFI3vREc4eXmzpKPWY7s8Fuhq/JlPTNO1aXEvq3KHa/AEHgtDrQw0",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=U4v%2Bry5Cit1Jx0gv/22Tlzr2Kf/Y2717wMc7btrBAi0AgBzGRgxUkUK2hYp29xn3Hb/I/GLSz2%2BzJ5e/wtoFpisvY5pU8aPXFqRzTiWvd6mCx2e6p7hqtlp2aFupgHMr",
     "organo": "Alcaldía del Ayuntamiento de Chinchón",
     "importe": "115702.48",
     "importe_num": 115702.48,
-    "fecha_limite": "2026-12-09",
+    "fecha_limite": "2026-10-14",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
     "procedimiento": "1",
@@ -262,13 +262,8 @@
     "fecha_captura": "2026-09-30",
     "revisado_humano": true,
     "revisado_fecha": "2026-10-02T11:31:32.844Z",
-    "estado_updated": "2026-11-19T14:16:22.669+01:00",
-    "resultado": null,
-    "pliego_cambiado_el": "2026-11-21",
-    "estado_anterior": "EV",
-    "estado_cambiado_el": "2026-11-21",
-    "fecha_limite_anterior": "2026-10-14",
-    "fecha_limite_cambiada_el": "2026-11-21"
+    "estado_updated": "2026-11-24T10:40:19.269316+00:00",
+    "resultado": null
   },
   {
     "folder_id": "PA-SER 103/26",
