@@ -42,6 +42,7 @@ NOMBRE_ESTADO = "estado.json"
 NOMBRE_HISTORICO = "historico.json"
 NOMBRE_RESULTADO_HOY = "resultado_hoy.json"
 NOMBRE_ULTIMA_LECTURA = "ultima_lectura.json"
+MARGEN_ULTIMA_ENTRADA_H = 6  # horas de solape con la última entrada vista en la lectura anterior
 
 # Se usa solo si la carpeta del filtro "1" no tiene config.json todavía (primera ejecución).
 # A partir de ahí, filtros/<id>/config.json es la fuente de verdad y se edita desde el visor.
@@ -1375,10 +1376,30 @@ def main():
     feeds_con_error = []
     info_feeds = []  # por feed: páginas, entradas y fecha de su entrada más reciente (para el visor)
 
+    # Última entrada que se vio de cada feed en la lectura anterior: si la Plataforma se retrasa (el feed «perfiles»
+    # llegó a pasar 55 h sin publicar) y luego vuelca de golpe varios días, la ventana fija de 72 h dejaría fuera
+    # las primeras horas. Por eso cada feed se lee, como mínimo, desde su última entrada anterior (con margen).
+    previo_feeds = {}
+    try:
+        with open(ruta_filtro(contextos[0]["desc"], NOMBRE_ULTIMA_LECTURA), encoding="utf-8") as f:
+            previo_feeds = {x["nombre"]: x.get("ultima_entrada") for x in json.load(f).get("feeds", []) if x.get("estado") == "ok"}
+    except (OSError, ValueError, KeyError, TypeError):
+        pass
+
     for nombre_feed, url_feed, obligatorio in FEEDS:
         print(f"== Feed {nombre_feed}")
+        limite_feed = limite_fecha
         try:
-            paginas_feed, entradas_feed, ultima_entrada_feed = leer_feed(nombre_feed, url_feed, contextos, limite_fecha, fecha_captura_hoy)
+            if previo_feeds.get(nombre_feed):
+                desde_previo = datetime.fromisoformat(previo_feeds[nombre_feed]) - timedelta(hours=MARGEN_ULTIMA_ENTRADA_H)
+                # nunca más atrás de 7 días (MAX_PAGINAS acota igualmente el volumen)
+                limite_feed = max(min(limite_fecha, desde_previo), datetime.now(timezone.utc) - timedelta(days=7))
+                if limite_feed < limite_fecha:
+                    print(f"   (se lee desde {limite_feed.isoformat()}: la última entrada anterior es de {previo_feeds[nombre_feed]})")
+        except ValueError:
+            limite_feed = limite_fecha
+        try:
+            paginas_feed, entradas_feed, ultima_entrada_feed = leer_feed(nombre_feed, url_feed, contextos, limite_feed, fecha_captura_hoy)
         except Exception as e:
             if obligatorio:
                 raise
