@@ -2796,8 +2796,8 @@
   },
   {
     "folder_id": "CR050-26-075",
-    "estado": "ADJ",
-    "resultado": "adjudicada",
+    "estado": "RES",
+    "resultado": "formalizada",
     "titulo": "suministro y mantenimiento de contenedores higiénico sanitarios para los centros de trabajo de veiasa",
     "updated": "2026-10-07T14:41:19.329+02:00",
     "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1014129",
@@ -2820,9 +2820,9 @@
     "junta_consultado": "2026-10-09",
     "fecha_captura": "2026-10-08",
     "descripcion": "SUMINISTRO Y MANTENIMIENTO DE CONTENEDORES HIGIÉNICO SANITARIOS PARA LOS CENTROS DE TRABAJO DE VEIASA",
-    "estado_anterior": "EV",
-    "estado_cambiado_el": "2026-11-06",
-    "estado_updated": "2026-11-05T17:41:23.732+01:00"
+    "estado_anterior": "ADJ",
+    "estado_cambiado_el": "2026-11-26",
+    "estado_updated": "2026-11-24T11:42:21.929+01:00"
   },
   {
     "folder_id": "CONTR 2026 0000048893",
@@ -11995,5 +11995,97 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-24"
+  },
+  {
+    "folder_id": "CONTR 2026 0000383730",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "p.b.e, e.s.s., c.s.s. en fase de obra y resp contrato demolición 6vp puche",
+    "updated": "2026-11-24T13:42:29.308+01:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1039228",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000"
+    ],
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/446162",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/446161",
+    "docs_adicionales": [
+      {
+        "nombre": "Memoria justificativa de la contratación.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/446164"
+      },
+      {
+        "nombre": "ANEXOS EDITABLES.ODT",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/446165"
+      },
+      {
+        "nombre": "Acuerdo de iniciación del expediente de contratación por el órgano de contratación.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/446166"
+      }
+    ],
+    "organo": "Agencia de Vivienda y Rehabilitación de Andalucía (AVRA)",
+    "importe": "18000.00",
+    "importe_num": 18000.0,
+    "fecha_limite": "2026-12-10",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "999",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas",
+    "descripcion": "REDACCIÓN DE PROYECTO BÁSICO Y DE EJECUCIÓN, ESTUDIO DE SEGURIDAD Y SALUD, DIRECCIÓN DE OBRA, COORDINACIÓN DE SEGURIDAD Y SALUD EN FASE DE OBRA Y RESPONSABLE DEL CONTRATO DE OBRA DEMOLICIÓN DE 6 VIVIENDAS DE LA PROMOCIÓN PUCHE CENTRO AL-0012, ALMERÍA",
+    "junta_consultado": "2026-11-26",
+    "fecha_captura": "2026-11-26"
+  },
+  {
+    "folder_id": "CONTR 2026 0000344224",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "d.obra y c ss obra edar mº velez rubio velez blanco maria (almeria)",
+    "updated": "2026-11-24T09:42:12.537+01:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1039152",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71317210",
+      "71520000",
+      "90492000",
+      "71310000",
+      "71000000"
+    ],
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/445955",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/445953",
+    "docs_adicionales": [
+      {
+        "nombre": "DEUC HTML.XML",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/445977"
+      },
+      {
+        "nombre": "DEUC PDF.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/445978"
+      },
+      {
+        "nombre": "Memoria justificativa de la contratación.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/445962"
+      },
+      {
+        "nombre": "Acuerdo de iniciación del expediente de contratación por el órgano de contratación.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/445963"
+      }
+    ],
+    "organo": "Consejería de Agricultura, Pesca, Agua y Desarrollo Rural. D.G. de Infraestructuras del Agua (En Transición)",
+    "importe": "508368.29",
+    "importe_num": 610041.94,
+    "fecha_limite": "2027-01-18",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas",
+    "descripcion": "DIRECCIÓN DE OBRA Y COORDINACIÓN DE SEGURIDAD Y SALUD DE OBRA NUEVA EDAR EN LOS MUNICIPIOS DE VÉLEZ RUBIO, VÉLEZ BLANCO Y MARÍA (ALMERÍA).",
+    "junta_consultado": "2026-11-26",
+    "fecha_captura": "2026-11-26"
   }
 ]

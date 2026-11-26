@@ -1,1 +1,127 @@
-[]
+[
+  {
+    "folder_id": "CONTR 2026 0000373931",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicio de prevención ajeno de riesgos laborales para el personal del IAPH",
+    "updated": "2026-11-25T10:42:17.592+01:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1039387",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "85147000",
+      "71317200",
+      "71317210"
+    ],
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/446482",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/446481",
+    "docs_adicionales": [
+      {
+        "nombre": "Memoria justificativa de la contratación.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/446514"
+      },
+      {
+        "nombre": "Acuerdo de iniciación del expediente de contratación por el órgano de contratación.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/446515"
+      }
+    ],
+    "organo": "Instituto Andaluz del Patrimonio Histórico",
+    "importe": "88000.00",
+    "importe_num": 88000.0,
+    "fecha_limite": "2026-12-10",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "999",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas",
+    "descripcion": "Servicio de prevención ajeno de riesgos laborales para el personal del Instituto Andaluz de Patrimonio Histórico, en la modalidad de concierto total de la actividad preventiva",
+    "junta_consultado": "2026-11-26"
+  },
+  {
+    "folder_id": "CONTR 2026 0000367616",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "636/ise/2026/ja rp+ddff sust pabellón 2 ceip sto xto vera cruz, iznatoraf",
+    "updated": "2026-11-24T15:41:40.553+01:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1039318",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000"
+    ],
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/446336",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/446335",
+    "docs_adicionales": [
+      {
+        "nombre": "Memoria justificativa de la contratación.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/446338"
+      },
+      {
+        "nombre": "Acuerdo de iniciación del expediente de contratación por el órgano de contratación.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/446339"
+      }
+    ],
+    "organo": "Agencia Pública Andaluza de Educación",
+    "importe": "42966.00",
+    "importe_num": 42966.0,
+    "fecha_limite": "2026-12-28",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "999",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas",
+    "descripcion": "SERVICIO DE REDACCIÓN DE PROYECTO Y ESTUDIO DE SEGURIDAD Y SALUD, DIRECCIONES DE OBRA (DO Y DEO) Y COORDINACIÓN DE SEGURIDAD Y SALUD PARA LA SUSTITUCIÓN DEL PABELLÓN 2 DEL CEIP SANTÍSIMO CRISTO DE LA VERA CRUZ DE IZNATORAF.",
+    "junta_consultado": "2026-11-26"
+  },
+  {
+    "folder_id": "CONTR 2026 0000344224",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "d.obra y c ss obra edar mº velez rubio velez blanco maria (almeria)",
+    "updated": "2026-11-24T09:42:12.537+01:00",
+    "link": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec/perfiles-licitaciones/detalle-licitacion.jsf?idExpediente=1039152",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71317210",
+      "71520000",
+      "90492000",
+      "71310000",
+      "71000000"
+    ],
+    "pcap_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/445955",
+    "ppt_url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/445953",
+    "docs_adicionales": [
+      {
+        "nombre": "DEUC HTML.XML",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/445977"
+      },
+      {
+        "nombre": "DEUC PDF.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/445978"
+      },
+      {
+        "nombre": "Memoria justificativa de la contratación.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/445962"
+      },
+      {
+        "nombre": "Acuerdo de iniciación del expediente de contratación por el órgano de contratación.PDF",
+        "url": "https://www.juntadeandalucia.es/haciendayadministracionpublica/apl/pdc_sirec_documentacion/rest/descargar/documento/445963"
+      }
+    ],
+    "organo": "Consejería de Agricultura, Pesca, Agua y Desarrollo Rural. D.G. de Infraestructuras del Agua (En Transición)",
+    "importe": "508368.29",
+    "importe_num": 610041.94,
+    "fecha_limite": "2027-01-18",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "agregadas",
+    "descripcion": "DIRECCIÓN DE OBRA Y COORDINACIÓN DE SEGURIDAD Y SALUD DE OBRA NUEVA EDAR EN LOS MUNICIPIOS DE VÉLEZ RUBIO, VÉLEZ BLANCO Y MARÍA (ALMERÍA).",
+    "junta_consultado": "2026-11-26"
+  }
+]
