@@ -1785,14 +1785,30 @@ function renderResumenLectura() {
     return;
   }
   const fecha = new Date(metaLectura.fecha_hora);
-  const horaStr = isNaN(fecha)
-    ? metaLectura.fecha_hora
-    : fecha.toLocaleString('es-ES', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' }) + ' UTC';
+  // Hora local de quien mira (antes ponía «UTC» detrás de una hora local: se leía una hora de menos)
+  const formato = { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' };
+  const horaStr = isNaN(fecha) ? metaLectura.fecha_hora : fecha.toLocaleString('es-ES', formato);
   el.style.display = 'block';
   el.textContent = 'Última búsqueda: ' + horaStr +
-    ' · ' + metaLectura.total_entries_leidas + ' licitaciones leídas' +
+    ' · ' + metaLectura.total_entries_leidas + ' entradas leídas' +
     ' · ' + metaLectura.paginas + ' páginas' +
     ' · ' + metaLectura.nuevas_filtradas + ' nuevas filtradas';
+  // Las entradas leídas cuentan los tres feeds. Si el principal («perfiles») está parado, la lectura es correcta pero
+  // no ve lo publicado desde entonces: se avisa con la fecha de su última entrada.
+  const perfiles = (metaLectura.feeds || []).find(f => f.nombre === 'perfiles' && f.estado === 'ok' && f.ultima_entrada);
+  if (perfiles) {
+    const ult = new Date(perfiles.ultima_entrada);
+    const refLectura = isNaN(fecha) ? Date.now() : fecha.getTime();
+    const horasEnLectura = (refLectura - ult.getTime()) / 36e5;
+    if (!isNaN(ult) && horasEnLectura > 36) {
+      const aviso = document.createElement('span');
+      aviso.style.cssText = 'display:block;margin-top:4px;color:var(--descarte);font-weight:600;';
+      aviso.textContent = 'La Plataforma no había publicado entradas nuevas en el feed principal («perfiles») desde el ' +
+        ult.toLocaleString('es-ES', formato) + ' (' + Math.round(horasEnLectura) + ' h antes de esta lectura): ' +
+        'lo publicado después se recogerá cuando lo publique.';
+      el.appendChild(aviso);
+    }
+  }
 }
 
 function renderTabla(lista) {
