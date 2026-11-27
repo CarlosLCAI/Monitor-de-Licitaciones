@@ -5333,7 +5333,10 @@
     "carpeta_descargada_por": "Luis Hens del Campo",
     "ganada": false,
     "ganada_fecha": null,
-    "ganada_por": null
+    "ganada_por": null,
+    "presentado": true,
+    "presentado_fecha": "2026-11-27T12:01:55.201Z",
+    "presentado_por": "CarlosLCAI"
   },
   {
     "folder_id": "505/2026",
