@@ -143,7 +143,17 @@
     "estado_anterior": "PUB",
     "resultado": null,
     "estado_cambiado_el": "2026-10-06",
-    "estado_updated": "2026-10-05T10:36:29.161+02:00"
+    "estado_updated": "2026-10-05T10:36:29.161+02:00",
+    "docs_adicionales": [
+      {
+        "nombre": "Instrucciones DEUC - 00445.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=uWfkEQ8ktWShO21H8L4TQlDobMAxDjYpwXA/NFw78cPs8HS4yAXZpTTGW64prrrMkmInLCvfjXwZ2edB64/RLV9Ik%2BPKXxcKieMb3X7/EG9JOVDbGCDM%2BMigrvuVS7Rv"
+      },
+      {
+        "nombre": "Recomendaciones a los licitadores.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ybjCKs4004jNQ01mm76RW4JytxW3zHZu%2BDMIByUlW0IUQ3pat0q7VOK1XdehJLtqKhpBoxYDTkgA76V3%2B1DHIfKs7fgrjf24ltlVTke8TYFJOVDbGCDM%2BMigrvuVS7Rv"
+      }
+    ]
   },
   {
     "folder_id": "SPA/397/2025/630.00",
@@ -648,5 +658,37 @@
     "importe_match": true,
     "fuente": "agregadas",
     "fecha_captura": "2026-11-19"
+  },
+  {
+    "folder_id": "26.109.GCRF3703.PY.10",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Servicios consistentes en la Asistencia Técnica a la Redacción del Proyecto de la obra de Reforma del Edificio I de la Dirección General de la Guardia Civil en Madrid (26.109.GCRF3703.PY.10)",
+    "updated": "2026-11-26T10:41:01.434+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=YYc0J6fRQiAXhk1FZxEyvw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71240000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=k9b1NNPyHh9AV4ElC4oKJDbITjLkC31Pi8UuqjsKXH/OfHtOu2exIXhSSzzIGA0y96ECHon4jV9FgkmvJtzpBHd/omJtpcnQqCiHu%2BbrKkEZyAJWGsSt0OzTSTyw9JAs",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=j5f0/cKoxDBXCTt3eEaeZpcWWsZEy1%2B9TS9/5SGVNrPLsrb62C6zdBiwXsBAlE84TY3e/akk47giF%2B9yu2zHHZajarlP6cQkwrs8ABSRz1rfdyQgZAdTm3EfcUAC7CJ6",
+    "docs_adicionales": [
+      {
+        "nombre": "DEUC.xml",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=fT5MHVtoOjI2sjd2y3EOt9kUqY/Sq9yCKwCqpb4QWetla9mpNyrAdwUmbdlsex95yKe2AbHyxJavV0vewKqMt24XItC84k7QWpvfitMbm01t/o8fNevwsujgRzaBbugn"
+      }
+    ],
+    "organo": "Presidencia de la Sociedad de Infraestructuras y Equipamientos Penitenciarios y de la Seguridad del Estado, S.M.E., S.A",
+    "importe": "160000",
+    "importe_num": 160000.0,
+    "fecha_limite": "2026-12-17",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-27"
   }
 ]
