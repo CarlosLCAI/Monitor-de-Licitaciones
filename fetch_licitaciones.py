@@ -1014,6 +1014,12 @@ def parse_entry(entry, filtro_cfg):
     
     deadline_el = entry.find('.//cac:TenderingProcess/cac:TenderSubmissionDeadlinePeriod/cbc:EndDate', NS)
     fecha_limite = deadline_el.text if deadline_el is not None else None
+    # Procedimientos en dos fases (restringido, sistemas de clasificación o dinámicos de adquisición): la fecha que
+    # importa para participar es la de fin de presentación de SOLICITUDES; el «plazo de ofertas» de ese mismo anuncio
+    # puede ser la vigencia del sistema (años después: p. ej. 20/11/2031 frente a solicitudes hasta el 26/12/2026).
+    solicitud_el = entry.find('.//cac:TenderingProcess/cac:ParticipationRequestReceptionPeriod/cbc:EndDate', NS)
+    if solicitud_el is not None and solicitud_el.text and (not fecha_limite or solicitud_el.text[:10] < fecha_limite[:10]):
+        fecha_limite = solicitud_el.text
 
     organo, importe = None, None
     if summary_text:
