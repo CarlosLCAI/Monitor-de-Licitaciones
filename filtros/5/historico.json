@@ -6970,7 +6970,10 @@
     },
     "revisado_humano": true,
     "revisado_fecha": "2026-11-16T11:07:54.811Z",
-    "revisado_por": "Belén Fernández"
+    "revisado_por": "Belén Fernández",
+    "presentado": true,
+    "presentado_fecha": "2026-11-27T12:03:08.717Z",
+    "presentado_por": "CarlosLCAI"
   },
   {
     "folder_id": "3013/2026",
