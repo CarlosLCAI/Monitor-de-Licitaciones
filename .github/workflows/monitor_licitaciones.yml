@@ -61,7 +61,7 @@ jobs:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add estado_monitor.json
+          git add estado_monitor.json filtros/salud_lecturas.json
           git diff --quiet --cached || git commit -m "Aviso: la lectura del monitor ha fallado ($(date +%F))"
           git restore --worktree . 2>/dev/null || true
           for intento in 1 2 3; do

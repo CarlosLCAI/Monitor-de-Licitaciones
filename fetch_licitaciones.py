@@ -1352,6 +1352,35 @@ def escribir_estado_monitor(estado, mensaje="", avisos=None):
         print(f"Aviso: no se pudo escribir {NOMBRE_ESTADO_MONITOR}: {e}")
 
 
+NOMBRE_SALUD_LECTURAS = os.path.join("filtros", "salud_lecturas.json")
+
+
+def registrar_salud_lectura(estado, info_feeds=None, mensaje=""):
+    """Añade una línea por lectura a filtros/salud_lecturas.json: cuándo fue, cómo terminó y, por cada feed, cuál es su
+    última entrada. El visor lo usa en Estadísticas para ver la consistencia de la Plataforma a lo largo del tiempo
+    (cuántas veces y cuántas horas se queda sin publicar). Es independiente de que algo pase o no los filtros."""
+    try:
+        try:
+            with open(NOMBRE_SALUD_LECTURAS, "r", encoding="utf-8") as f:
+                historial = json.load(f)
+            if not isinstance(historial, list):
+                historial = []
+        except (OSError, ValueError):
+            historial = []
+        linea = {"t": datetime.now(timezone.utc).isoformat(), "estado": estado}
+        if info_feeds:
+            linea["feeds"] = [{"n": f.get("nombre"), "e": f.get("estado"), "ult": f.get("ultima_entrada"),
+                               "ent": f.get("entradas"), "pag": f.get("paginas")} for f in info_feeds]
+        if mensaje:
+            linea["msg"] = str(mensaje)[:200]
+        historial.append(linea)
+        with open(NOMBRE_SALUD_LECTURAS, "w", encoding="utf-8") as f:
+            json.dump(historial, f, ensure_ascii=False, separators=(",", ":"))
+            f.write("\n")
+    except Exception as e:  # el registro no debe romper la lectura
+        print(f"Aviso: no se pudo registrar la salud de la lectura: {e}")
+
+
 def main():
     filtros_desc = cargar_manifiesto_filtros()
 
@@ -1516,6 +1545,7 @@ def main():
                 avisos.append(f"El feed «perfiles» de la Plataforma no trae entradas nuevas desde hace {int(horas)} horas "
                               "(posible caída de la Plataforma): pueden estar sin aparecer licitaciones nuevas.")
     escribir_estado_monitor("parcial" if avisos else "ok", "", avisos)
+    registrar_salud_lectura("parcial" if avisos else "ok", info_feeds)
 
     return resultados_por_filtro
 
@@ -1646,5 +1676,6 @@ if __name__ == "__main__":
         except Exception as e:
             print(f"Fallo la ejecucion: {e}")
             escribir_estado_monitor("error", str(e))
+            registrar_salud_lectura("error", None, str(e))
             notificar_fallo_teams(str(e))
             raise

@@ -441,6 +441,8 @@
   .st-tabla { width: 100%; border-collapse: collapse; font-size: 12.5px; table-layout: auto; border: none; background: none; }
   .st-tabla td { padding: 5px 6px 5px 0; border: none; border-top: 1px solid var(--border); width: auto; }
   .st-tabla tr:first-child td { border-top: none; }
+  .salud-tira { display: flex; flex-wrap: wrap; gap: 2px; }
+  .salud-pt { width: 9px; height: 18px; border-radius: 2px; display: inline-block; }
   .st-ok { color: var(--teal-texto); }
   .st-alerta { color: var(--descarte); font-weight: 600; }
   .st-persona { font-size: 12.5px; margin: 8px 0; }
@@ -2120,6 +2122,96 @@ function tarjetaFuentes() {
   return html + '<p class="st-nota">Aviso en rojo si un feed lleva más de 24 h sin entradas (como el del Estado el 5 de octubre). Última lectura: ' + escapeHtml(detalle) + '.</p></div>';
 }
 
+// --- Consistencia de la lectura -------------------------------------------------------------------
+// Registro propio del monitor (filtros/salud_lecturas.json): una línea por lectura con la última entrada de cada
+// feed. Aquí se ve cuánto publica la Plataforma, sea cual sea el resultado de los filtros: una lectura cuenta como
+// «sin novedades» cuando la última entrada del feed es la misma que en la lectura anterior.
+let saludLecturas = null;
+
+async function cargarSaludLecturas() {
+  try {
+    const d = await Backend.leerJson('filtros/salud_lecturas.json');
+    saludLecturas = Array.isArray(d) ? d : [];
+  } catch (e) {
+    saludLecturas = [];
+  }
+  if (pestanaActiva === 'estadisticas') renderEstadisticas();
+}
+
+function analizarSaludFeed(nombreFeed) {
+  const lecturas = [];
+  let previa = null;
+  for (const r of saludLecturas) {
+    const f = (r.feeds || []).find(x => x.n === nombreFeed);
+    const t = new Date(r.t);
+    if (r.estado === 'error' && !f) { lecturas.push({ t, tipo: 'fallo', msg: r.msg }); continue; }
+    if (!f || f.e !== 'ok' || !f.ult) { lecturas.push({ t, tipo: 'error' }); continue; }
+    const ult = new Date(f.ult);
+    const horas = (t - ult) / 3600000;
+    const tipo = previa === null ? 'inicio' : (ult > previa ? 'avanza' : 'sin');
+    lecturas.push({ t, ult, horas, tipo });
+    previa = ult;
+  }
+  const comparables = lecturas.filter(l => l.tipo === 'avanza' || l.tipo === 'sin');
+  const sin = comparables.filter(l => l.tipo === 'sin');
+  let racha = 0, maxRacha = 0;
+  for (const l of lecturas) {
+    if (l.tipo === 'sin') { racha++; maxRacha = Math.max(maxRacha, racha); } else if (l.tipo === 'avanza') racha = 0;
+  }
+  const conHoras = lecturas.filter(l => l.horas != null);
+  const maxHoras = conHoras.reduce((m, l) => Math.max(m, l.horas), 0);
+  const ultimaSin = sin.length ? sin[sin.length - 1].t : null;
+  return { lecturas, comparables: comparables.length, sin: sin.length, maxRacha, maxHoras, ultimaSin,
+           fallos: lecturas.filter(l => l.tipo === 'error' || l.tipo === 'fallo').length };
+}
+
+function tarjetaConsistencia() {
+  let html = '<div class="st-card" style="grid-column:1/-1"><h4>Consistencia de la lectura</h4>';
+  if (saludLecturas === null) return html + '<p class="st-vacio">Cargando el registro de lecturas…</p></div>';
+  if (!saludLecturas.length) return html + '<p class="st-vacio">Sin registro todavía: se irá rellenando con cada lectura del monitor.</p></div>';
+  const fechaCorta = d => d.toLocaleDateString('es-ES', { day: '2-digit', month: '2-digit' });
+  const fechaHora = d => d.toLocaleString('es-ES', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
+  const desde = new Date(saludLecturas[0].t);
+  const lecturasMonitor = saludLecturas.length;
+  const fallosMonitor = saludLecturas.filter(r => r.estado === 'error').length;
+  // huecos del propio monitor: más de 30 h entre dos lecturas = alguna no se ejecutó
+  let huecos = 0, maxHueco = 0;
+  for (let i = 1; i < saludLecturas.length; i++) {
+    const h = (new Date(saludLecturas[i].t) - new Date(saludLecturas[i - 1].t)) / 3600000;
+    if (h > 30) { huecos++; maxHueco = Math.max(maxHueco, h); }
+  }
+  html += '<p class="st-nota" style="margin:0 0 10px">Desde el ' + fechaCorta(desde) + ': ' + lecturasMonitor + ' lecturas del monitor' +
+    (fallosMonitor ? ', <span class="st-alerta">' + fallosMonitor + ' con error</span>' : ', ninguna con error') +
+    (huecos ? ', <span class="st-alerta">' + huecos + ' hueco' + (huecos === 1 ? '' : 's') + ' de más de 30 h (el mayor, ' + Math.round(maxHueco) + ' h)</span>' : ', sin huecos de más de 30 h entre lecturas') + '.</p>';
+
+  const filas = Object.keys(NOMBRES_FEED).map(k => {
+    const a = analizarSaludFeed(k);
+    if (!a.lecturas.length) return '';
+    const pct = a.comparables ? Math.round(100 * a.sin / a.comparables) : 0;
+    const tira = a.lecturas.slice(-60).map(l => {
+      const color = l.tipo === 'avanza' ? 'var(--teal)' : l.tipo === 'sin' ? 'var(--descarte)'
+        : (l.tipo === 'error' || l.tipo === 'fallo') ? 'var(--ganada)' : 'var(--border)';
+      const txt = fechaHora(l.t) + ' · ' + (l.tipo === 'avanza' ? 'con entradas nuevas' : l.tipo === 'sin' ? 'SIN entradas nuevas'
+        : l.tipo === 'inicio' ? 'primera lectura registrada' : 'error de lectura') +
+        (l.horas != null ? ' · última entrada de hace ' + Math.round(l.horas) + ' h' : '');
+      return '<span class="salud-pt" style="background:' + color + '" title="' + escapeHtml(txt) + '"></span>';
+    }).join('');
+    return '<tr><td>' + escapeHtml(NOMBRES_FEED[k]) + '</td>' +
+      '<td class="mono" style="text-align:right">' + (a.sin ? '<span class="st-alerta">' + a.sin + ' de ' + a.comparables + ' (' + pct + ' %)</span>' : '0 de ' + a.comparables) + '</td>' +
+      '<td class="mono" style="text-align:right">' + a.maxRacha + '</td>' +
+      '<td class="mono" style="text-align:right">' + Math.round(a.maxHoras) + ' h</td>' +
+      '<td class="mono" style="text-align:right">' + (a.ultimaSin ? fechaCorta(a.ultimaSin) : '—') + '</td></tr>' +
+      '<tr><td colspan="5" style="padding-top:0"><div class="salud-tira">' + tira + '</div></td></tr>';
+  }).join('');
+  html += '<table class="st-tabla"><tr style="color:var(--etiqueta-suave)"><td>Feed</td><td style="text-align:right">Lecturas sin novedades</td>' +
+    '<td style="text-align:right">Racha máx.</td><td style="text-align:right">Mayor antigüedad</td><td style="text-align:right">Último</td></tr>' + filas + '</table>';
+  html += '<p class="st-nota">Cada cuadrado es una lectura (las últimas 60): <span class="st-ok">turquesa</span> = el feed trae entradas nuevas, ' +
+    '<span class="st-alerta">rojo</span> = sin entradas nuevas desde la lectura anterior, naranja = error. «Racha máx.» son lecturas seguidas sin novedades; ' +
+    '«Mayor antigüedad» es la edad de la última entrada del feed al leerlo. Esto mide lo que publica la Plataforma, no lo que pasa los filtros. ' +
+    'Aviso al abrir el visor si el feed principal lleva más de 4 días parado o el monitor no se ejecuta en 36 h.</p></div>';
+  return html;
+}
+
 function tarjetaUltimaLectura() {
   let html = '<div class="st-card"><h4>Última lectura</h4>';
   if (!metaLectura) return html + '<p class="st-vacio">Sin datos de lectura todavía.</p></div>';
@@ -2355,6 +2447,7 @@ function renderEstadisticas() {
       ? tarjetaDonut('De qué feed salen las licitaciones', itemsFeed, 'licitaciones', 'Las anteriores al 20/10 quedan como «origen sin determinar»: antes no se guardaba.')
       : '<div class="st-card"><h4>De qué feed salen las licitaciones</h4><p class="st-vacio">Se mostrará desde la próxima lectura del monitor: antes no se guardaba el feed de origen.</p></div>') +
     '</div>' +
+    '<h3 class="stats-section-title">Consistencia de la Plataforma</h3><div class="st-grid" style="grid-template-columns:1fr">' + tarjetaConsistencia() + '</div>' +
     '<h3 class="stats-section-title">Historia del monitor</h3><div class="st-grid" style="grid-template-columns:repeat(auto-fit,minmax(320px,1fr))">' +
     tarjetasHistoria(datos) + '</div></div>';
 
@@ -2831,6 +2924,7 @@ async function iniciarVisor() {
   cargarCarpetasPreparadas().then(() => { if (pestanaActiva !== 'estadisticas') renderVista(); });
   if (Object.keys(leerCarpetasPendientes()).length) iniciarVigilanciaCarpetas();
   comprobarEstadoMonitor().catch(() => {});
+  cargarSaludLecturas().catch(() => {});
 }
 
 iniciarVisor().catch(() => {
