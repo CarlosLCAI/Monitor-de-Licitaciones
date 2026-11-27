@@ -5218,7 +5218,7 @@
     "docs_adicionales": [],
     "organo": "Alcaldía del Ayuntamiento de Carrión de los Céspedes",
     "importe": "50000",
-    "importe_num": 50000.0,
+    "importe_num": 50000,
     "fecha_limite": "2026-12-09",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -5365,7 +5365,7 @@
     ],
     "organo": "Presidencia de la Sociedad de Infraestructuras y Equipamientos Penitenciarios y de la Seguridad del Estado, S.M.E., S.A",
     "importe": "215000",
-    "importe_num": 215000.0,
+    "importe_num": 215000,
     "fecha_limite": "2026-12-10",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -5459,7 +5459,7 @@
     "docs_adicionales": [],
     "organo": "Consejo de Administración del Puerto Deportivo de Benalmádena S.A.M.",
     "importe": "99000",
-    "importe_num": 119790.0,
+    "importe_num": 119790,
     "fecha_limite": "2026-12-18",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -5489,7 +5489,7 @@
     "docs_adicionales": [],
     "organo": "Gerencia de la Empresa Malagueña de Transportes S.A.M.",
     "importe": "320000",
-    "importe_num": 1600000.0,
+    "importe_num": 1600000,
     "fecha_limite": "2031-11-20",
     "tipo_contrato": "2",
     "tipo_contrato_match": true,
@@ -5577,6 +5577,9 @@
       },
       "fecha_analisis": "2026-11-27T07:49:37.895955+00:00",
       "solicitada_por": "CarlosLCAI"
-    }
+    },
+    "revisado_humano": true,
+    "revisado_fecha": "2026-11-27T07:59:58.255Z",
+    "revisado_por": "CarlosLCAI"
   }
 ]
