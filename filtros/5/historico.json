@@ -12310,7 +12310,10 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-11-27"
+    "fecha_captura": "2026-11-27",
+    "revisado_humano": true,
+    "revisado_fecha": "2026-11-27T12:00:55.007Z",
+    "revisado_por": "CarlosLCAI"
   },
   {
     "folder_id": "A41555749-2026/001372-PeAS",
