@@ -6355,65 +6355,69 @@
       "71332000",
       "71247000"
     ],
-    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=764BcO73gHjDqyOhdZ06X0MvebqLkE51ODHthqO%2BvaskJmNpjg31JhXWM5mvwA8OCFaKoydWF6aT3dR%2Bh9ph5KEhBbdwM9FBjU2yJu0NErV45ClyWkoJ44mKM70IFcOu",
-    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=B8e/ljS2FXwTg4oSaqDk6FTdz2BkNI17Ryabs/NhO/nExJSuUQ%2Bkobfj%2BCaY75twbXSK//nYSrMswTPHXR9KnOmjqRJw7cB8O0F2Rpfkiru1aXEvq3KHa/AEHgtDrQw0",
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=3W0%2B9C5GQZpfcghiE8W9SgbB5mRe16E6APkWZFdwwd5B0jUFce2kULpyLksnYzF8QT%2B9cwuTTOHzkbSoMXNuplQAeeawqZHpuOPXX8EKKa2Cx2e6p7hqtlp2aFupgHMr",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Ur326eLT6UJW1GJ2FVXR7ibO3nvURpq%2BAUCIMFAcKOlxbgOGtbooBwPz31pevGToYyW%2B1OO1kzG2U0nDoZWu1DTLJssoxAXn6iJGS%2B9h0H%2BB0nvVKRzfe4rpHcnlPhSZ",
     "docs_adicionales": [
       {
-        "nombre": "ANEXO VIII.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=edKMeEfxi49LM3rUWtY7Flu6oMUP8%2BOiBlTerCeBoF%2BhJ8u5TVPzYzXPDTJfaHwPKKBqRrTu96bZ5GSV5eG3fDkf6qMbGpgjdGxvNPsihZv3GVhXrFFqN7yFncy7YfRK"
+        "nombre": "ANEXO III.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2k4SbxK8GHOjO4iYaXKaXzmXQoj7Kft/BpxySwiEChfRVCIY1f2jfTrVbDjnvAZZ7PKde4DgBoe6A0iOTpMmfFku7KxtKUqD/Z8gwIlAWSX3GVhXrFFqN7yFncy7YfRK"
       },
       {
         "nombre": "ANEXO VII.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ecF2bICR8LLHcXPbNXLdX00ibYw0bsevBd1/5PwU5Ui%2BSx3U2fA5WM5pcWFI9RQVTuQihRhzwH%2B7Kl0WQXe0GjPpn8kRGy%2BqUR0g3npuiYEC1/zDIE0Kw/PWNnLS0Z0z"
-      },
-      {
-        "nombre": "ANEXO II B.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=MFJBLQGfZmohti12yUKomoIJjGbLX/Pmzj/4ne660JGlC5S3AMCpDqWAbwWb5yY4KrwYg4qhmqIFabq2u9yMOUGEqm0wKtgSnH6AeisYnvrVTD3T98KC0nSgQFM0q%2B5s"
-      },
-      {
-        "nombre": "ANEXO IX.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ANfnasMvFMBfQEOKVFd%2BGwq5xGJTwobvUHZ3yRuJIrQ2YixyaTI5vbkBQSeApboCmhw2OfIgxMUVTV7SFnKs%2ByLlWfF8YRPciFHnDBAcHFyHAj0WEJrB5sP7amrh2jBD"
-      },
-      {
-        "nombre": "ANEXO III.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=QKCbc0TNYtP2lVabEJWuNS8YuYT4gdzd53CrX5txXMyUAORdQgj/Lpgg0x2q%2B7Zx2rm/Uej5wIYrw95J/U15F6Wv5f8Z99CYNS0InMMlgVc//q7NB2iMZvNyf0xrJmjt"
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=B/jRm5bpU8b1aqVkaCGpLMWdVgDv%2Bs2cpGwo2raddDLbyJFPe9OdrSW1CxTd0JyNX5wSTdzFO/vNw9p5OHHF9JOl4vrga3lAx3EleLGYbRyHAj0WEJrB5sP7amrh2jBD"
       },
       {
         "nombre": "ANEXO V.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=7FxzaqbYxqLuFh9CnXtUvYDltmZDQpFvHKBT97b1W4CChgS/QEeScvi5bCYou8UXGqEY9/qoN%2BQ6qQ05IXTE61wMDWU3ozvpKu5AIbdYCGuCx2e6p7hqtlp2aFupgHMr"
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=ukVqketWFL4cvYULOafIIWnDyt0WPlmtIxMwLjFOsKKft9GJhfkF3gB77zLAzAqQ5rHzChXo2lRxdoS4eDF%2B/5IeGDWsvs/GOtysF%2BIDKbkC1/zDIE0Kw/PWNnLS0Z0z"
       },
       {
-        "nombre": "ANEXO VI.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1ESdVpr4qIZxbLs5w1JvYoQdm%2BWccaTbhZebm1IVDrXhGpdmMD3CiBiklaL0RCcsK1aB0WvZL8wOcdNshuFcsNcMfpPnShvj4ypjkef%2BlC7VTD3T98KC0nSgQFM0q%2B5s"
-      },
-      {
-        "nombre": "ANEXO IV.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wz%2B2StmQj2V4P6hnXCJJTa6JyjIYDajwEAmDAzMVD1BS4Iqv//9uo6u0VjRkFbCeyNkqqoybrsB9uWfdTKiW1fnx0j4oxVRaMch1uXsFXoJ45ClyWkoJ44mKM70IFcOu"
-      },
-      {
-        "nombre": "ANEXO X.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=jdA/9gP92rNWJ2MKqQXV2ykHCEvqDO8t7zn69qOyfVR3LokoSB6jvWasfxswZiJ3sruFShvL4bW9osTxRzKgz2H4bpzrkTDcUwg1II5u9CH3GVhXrFFqN7yFncy7YfRK"
-      },
-      {
-        "nombre": "ANEXO II A.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0u2TZW3rNstUCLL2rHnK9NfxLJ3Jf10k786xiSDgqLfvrAPEySdWrXJWqPa1THhRjJ/zLSQt6fm7YGLXIZtfrHPo9lD1q%2B3KJIs9BkOvDPAC1/zDIE0Kw/PWNnLS0Z0z"
+        "nombre": "ANEXO II B.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=aqsGmUlftMbbDo0lzvRLkVE/M4vbuNC2ZJrVlmUt1ZYPNzgvzJxgfex%2BH%2BTSTz5ufcAjxSAuaPvUlH0K6nB0T8kMZdXcrIrzB/HiMad4mR/VTD3T98KC0nSgQFM0q%2B5s"
       },
       {
         "nombre": "ANEXO I.docx",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=AuPTQWy%2BcoF4XwC3IpZLPP4jdxsiIDScP8FTtssC6RCgN8N7xMQmBL0o6F8R1cHRZ/2X4Jw4M9FrNg5tx04Qr%2Bdqm7E7uI8%2BYnDVc3BYLD6Cx2e6p7hqtlp2aFupgHMr"
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=a%2BtDnjr4%2BKbGFjVX/j%2B4Gy3HQTwr9paRfhlXOcGQfIggyGLy3Rx7NYz%2BxINzf%2BrhhO8I8Cx7D/YMsrFZMmnozDQKrSPuARqYDvOP%2BoAgV2m1aXEvq3KHa/AEHgtDrQw0"
+      },
+      {
+        "nombre": "ANEXO VIII.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=BbHE/SCFrtf1swQWBPYw6w/yGmWheUzZE%2B/YG8wDlvNOFFZCW1o2CVcLhfCu0uDz2Ck3pa4MP2UZxW5ZsevcHlDZxTOYbjnT6lHInGCdein6CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "ANEXO II A.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2CHsoHb5Wdn0u5FbNNnRvVQMs2%2Bx/a5%2BBkA%2BWppU5INXpBk2A%2Bp%2B1FFq7IUpv0UHDFVThIZHgxXg1Jm3cWgKBQsGoOKk2Z68qTf9AO84XCDfdyQgZAdTm3EfcUAC7CJ6"
+      },
+      {
+        "nombre": "ANEXO VI.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=k9HCGSCLHvcjx7VayJoPNkHZg0PZN/2RgIi3FUFwPMvRf1vwJPAZYfdLsbXv8HPeFio6UCAjJRz1neqGa2fB22eX%2BwHVJtRgd8qHrj93CDHVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "ANEXO IV.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=x3jN8WhxZX%2BNpVYQLLM22wpDBs/UVDBlD2vMgUkJULuE9u4QH5r8gd%2BmzyWBLwbxM5SlRaucdcIBeG2ZexS17dhC044pksaNbvgOFUV5OF21aXEvq3KHa/AEHgtDrQw0"
+      },
+      {
+        "nombre": "ANEXO IX.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=EL2riNCLKqI7nDpa5ier1SbK9%2BDx1viW4ltVAR3EmJL%2B3xkz8YRxuoExbeju0RhrhJdvit3lmgKYW/DTIt54uHeHfaaFDz/BDFHvXYh3S3TVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "ANEXO X.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=nXWcPnR%2BtyeNWXeI1NjcI2UPflksWB7c06GtFG20wg8nV2iVSeHY%2B2Hh3pUxKso%2BllvumegVUXcEIkj9ZxZ4R0N5aDzf8IYsz/zdZLq6Bbht/o8fNevwsujgRzaBbugn"
       }
     ],
     "organo": "Alcaldía del Ayuntamiento de Ubrique",
     "importe": "3161498.35",
     "importe_num": 3161498.35,
-    "fecha_limite": "2026-12-02",
+    "fecha_limite": "2026-12-17",
     "tipo_contrato": "3",
     "tipo_contrato_match": true,
     "procedimiento": "1",
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-11-13"
+    "fecha_captura": "2026-11-13",
+    "pliego_cambiado_el": "2026-11-28",
+    "fecha_limite_anterior": "2026-12-02",
+    "fecha_limite_cambiada_el": "2026-11-28",
+    "estado_updated": "2026-11-27T12:23:27.244+01:00"
   },
   {
     "folder_id": "2026/000244-PEA",
@@ -8993,5 +8997,139 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-11-27"
+  },
+  {
+    "folder_id": "A41555749-2026/001369-PeAS",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Redacción del proyecto, dirección facultativa y coordinación de seguridad y salud de las obras de \"Construcción de un Centro de Formación para el Empleo Verde en Aguadulce \" de Sevilla. Plan de Actuación Integrado (PAI) del AUF de Estepa. FEDER",
+    "updated": "2026-11-27T13:41:51.081+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=iC2YR7o1QSacTfjQf3USOg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71200000",
+      "71240000",
+      "71242000",
+      "71200000",
+      "71240000",
+      "71242000",
+      "71000000",
+      "71247000",
+      "71317210"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=HkLGUMORqdi6fsHgEgUhqiCmO1ev3lYKw2XlVluT4Iaa3U4ECiF4I1kMDC7HEJr0Dy3VUwjj72xtvCRfSV%2BG%2BJQ5SWCmfTUmMUsCMNIn9EaCx2e6p7hqtlp2aFupgHMr",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Vmk2waGCw3AnQbLeIwfzL6oyWByy7QD2SD74jaTXiK769zMWcFqAjVp8XuW9rxubk96zVOjdQ50e/nGfTW23kKUSSet50KYMSm204doXy7zfdyQgZAdTm3EfcUAC7CJ6",
+    "docs_adicionales": [],
+    "organo": "Gerencia de PRODETUR S.A.U.",
+    "importe": "26033.06",
+    "importe_num": 26033.06,
+    "fecha_limite": "2026-12-14",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-28"
+  },
+  {
+    "folder_id": "1231/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de servicios de direccion de obras de \"Muro de contencion en calle Pilar\", \"Cementerio Municipal de Jamilena\" y \"Centro Escolar\"",
+    "updated": "2026-11-27T12:15:55.481+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=L42s8rFtQa0adbH3CysQuQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=lDvCeziPCmYaMJPvVmpNvqHpcyrsNWA7irQrbp2bsvka3y9HijaVwEgd0ATTTf2ArM7phUeeNHEQq5NlTthz8/LZ6MJxlgdFqY3PmmKF4E/DdQD9RyhUmzT4jZ2In4zL",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Z4wxZnBiNK7Ma5GmBERF/zlvDyzc4sK2RBHp8it1q7DJrIunmYHPl4uaIJsmOtGBVpirWMcpCeHVnvNPzfv0Me6AMbMik0UzdLFfiGAG91fVTD3T98KC0nSgQFM0q%2B5s",
+    "docs_adicionales": [
+      {
+        "nombre": "Rectificacion error material expediente 1231_2026.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=LX5DS/kQIfEX38T6YWTwRqO5/VmhcCREpdMLsQjCBzBYJDvIyhJbCJaVtY%2BKeAC1myfYtP2yGTpXnXfg2pflcm1dayxGQzFEs7qy75%2B2pd2HAj0WEJrB5sP7amrh2jBD"
+      }
+    ],
+    "organo": "Alcaldía del Ayuntamiento de Jamilena",
+    "importe": "5994.64",
+    "importe_num": 5994.64,
+    "fecha_limite": "2026-12-14",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-28"
+  },
+  {
+    "folder_id": "44206/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Reparaciones de daños varios en carreteras municipales de algeciras.\r\n",
+    "updated": "2026-11-27T11:19:22.629+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=LrtmKKhFUYqS81gZFETWmA%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "45233140",
+      "71317210",
+      "45233140",
+      "71317210",
+      "45233140",
+      "71317210"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=rrDHhzvaNw7PV4uV5eYzuB9gok8CIBZNZc1W4ZmyvJJ5OygTKMMqPcw45oecT9eh1CORQehMLr/r3sUAyyTDDXbPhl0dGpO4lG%2B0V1WB5h76CYyL7SIrUOBFfNf52ZqA",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=DWBmJWpKScgOW4ctdH/SKCQWSwDMUQxemRSQ782F7VFzKlqNxcgrNTDqI8AYy1xscQ4PkRZ%2BKpPMnHIXzfCJUA4L2DcAbae4v81IqqURTjh7QB3HKyQaFUExmUVQCerk",
+    "docs_adicionales": [],
+    "organo": "Alcaldía del Ayuntamiento de Algeciras",
+    "importe": "515496.1",
+    "importe_num": 515496.1,
+    "fecha_limite": "2026-12-29",
+    "tipo_contrato": "3",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-28"
+  },
+  {
+    "folder_id": "5464/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de servicios técnicos de redacción de proyectos y dirección de obras, y demás apoyo a los servicios de urbanismo y obras del Ayuntamiento de Mojácar",
+    "updated": "2026-11-27T10:15:04.915+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=2Bhf3iVx7XrjHF5qKI4aaw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000",
+      "71245000",
+      "71247000",
+      "71242000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YsAMK8gDLr5LrO3F0ZjoDsT9uSZ4Xi6dpOd8icVVCtcnVCh8YqJWWL4SX3l2bAMotP18L2oMCQbwE/MpJ2oFVduNZCQ331c1i8ab200L8hEZyAJWGsSt0OzTSTyw9JAs",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iObceOQ8vr1MCyLDjGBZ2ARn0vdaOgZGACs5XrzAluazf0Czk2seIIWnC0AU%2BjE9M/Ou%2BWHzY0Uo%2B3peO5w7GnW2QkNobSCziuh7qyAyj%2B73GVhXrFFqN7yFncy7YfRK",
+    "docs_adicionales": [
+      {
+        "nombre": "DEUC REDACCION PROYECTOS.zip",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Yy0n9HHsmR38Q3tpa6PD6CEnxxon0DClrfScK5xakxWFCVGCzNasn4zWbEqnV/nJ2WoUNF%2ByJvYJSvozp9vf3MjqHJ0yzISYOgZ/TZKYdqfDdQD9RyhUmzT4jZ2In4zL"
+      }
+    ],
+    "organo": "Junta de Gobierno Local del Ayuntamiento de Mojácar",
+    "importe": "100000",
+    "importe_num": 200000.0,
+    "fecha_limite": "2026-12-14",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-28"
   }
 ]

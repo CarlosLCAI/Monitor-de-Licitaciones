@@ -2277,8 +2277,8 @@
   },
   {
     "folder_id": "15665/2026",
-    "estado": "EV",
-    "resultado": null,
+    "estado": "ADJ",
+    "resultado": "adjudicada",
     "titulo": "Servicios Dirección facultativa y Coordinación de Seguridad y Salud fase obra Proyecto de Ejecución del Plan de Asfaltado Municipal del Ayuntamiento de Torremolinos",
     "updated": "2026-10-02T13:56:28.286+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AXKSTUP2r7VQFSeKCRun4Q%3D%3D",
@@ -2303,9 +2303,9 @@
       "fecha_analisis": "2026-10-03T09:25:52.116451+00:00"
     },
     "fecha_captura": "2026-10-03",
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-10-21",
-    "estado_updated": "2026-10-21T11:57:10.086+02:00"
+    "estado_anterior": "EV",
+    "estado_cambiado_el": "2026-11-28",
+    "estado_updated": "2026-11-27T13:39:35.209+01:00"
   },
   {
     "folder_id": "530/2026",
@@ -6431,8 +6431,8 @@
   },
   {
     "folder_id": "1303/2026",
-    "estado": "EV",
-    "resultado": null,
+    "estado": "ADJ",
+    "resultado": "adjudicada",
     "titulo": "Mantenimiento, conservación y labores de jardinería de espacios ajardinados y arbolado viario",
     "updated": "2026-10-27T14:27:16.451+01:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=WhSZ83HRXndSYrkJkLlFdw%3D%3D",
@@ -6446,16 +6446,16 @@
     "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1NP4M3KX%2Bh2jbpyeTs0Y76ZbUx0UUfbbJ2G%2BUq51R8q0a%2BhfqfgYcxl%2BldHd7bn2J9yTjU2zojpObtIRlXSKNR8P0sfgCX5SPDep2ilBxcSB0nvVKRzfe4rpHcnlPhSZ",
     "docs_adicionales": [
       {
-        "nombre": "INSUFICIENCIA MEDIOS.pdf",
-        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=x%2BKpeafYxn3miFbRFu14mhm0u6HOJGVD%2BQGUPuuiHN9ruDzHZLRec4/2FRwGjdZGBRAruUX2A8FoK/hDSZJSh2qqnuYwf%2BqoF8bVeTYsq/KHAj0WEJrB5sP7amrh2jBD"
-      },
-      {
         "nombre": "MEMORIA JUSTIFICATIVA.pdf",
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=KbEB4q2rCoxVY53nDRg3EX9QmfPhesv37H0KAlup0rwGTTSJtGehWwt8uxjmVM5xvzW9w4HyiyB3tQuUsieBIJGnIBbac9AT8pMVcRUDhP1JOVDbGCDM%2BMigrvuVS7Rv"
       },
       {
         "nombre": "RESOLUCION DE ALCALDIA.pdf",
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1DeiwT3CtDqMFO67Z37Z07huTKtRHlBQAwerrTMqQgLCj20sqN72NCrr35yI7r86ApiYqP/YH8tkVo1bVdMcJFBf6G0zSWV7lhK19kggBV3DdQD9RyhUmzT4jZ2In4zL"
+      },
+      {
+        "nombre": "INSUFICIENCIA MEDIOS.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=x%2BKpeafYxn3miFbRFu14mhm0u6HOJGVD%2BQGUPuuiHN9ruDzHZLRec4/2FRwGjdZGBRAruUX2A8FoK/hDSZJSh2qqnuYwf%2BqoF8bVeTYsq/KHAj0WEJrB5sP7amrh2jBD"
       }
     ],
     "organo": "Alcaldía del Ayuntamiento de Cantoria",
@@ -6469,9 +6469,9 @@
     "importe_match": true,
     "fuente": "perfiles",
     "fecha_captura": "2026-10-27",
-    "estado_updated": "2026-11-12T13:55:14.995+01:00",
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-11-13"
+    "estado_updated": "2026-11-27T11:30:29.879+01:00",
+    "estado_anterior": "EV",
+    "estado_cambiado_el": "2026-11-28"
   },
   {
     "folder_id": "P4106100C-2026/000111-PEAS",
@@ -8542,7 +8542,10 @@
     "carpeta_descargada_por": "Luis Hens del Campo",
     "ganada": false,
     "ganada_fecha": null,
-    "ganada_por": null
+    "ganada_por": null,
+    "presentado": true,
+    "presentado_fecha": "2026-11-27T12:01:55.201Z",
+    "presentado_por": "CarlosLCAI"
   },
   {
     "folder_id": "CSE/1100/1101233553/26/PASU",
@@ -9358,7 +9361,7 @@
   },
   {
     "folder_id": "10/2026 (688/2026)",
-    "estado": "PUB",
+    "estado": "EV",
     "resultado": null,
     "titulo": "Delegado de Protección de Datos de Caracter Personal del Ayuntamiento de La Iruela",
     "updated": "2026-11-09T11:38:10.607+01:00",
@@ -9392,7 +9395,10 @@
     "procedimiento_match": true,
     "importe_match": true,
     "fuente": "perfiles",
-    "fecha_captura": "2026-11-10"
+    "fecha_captura": "2026-11-10",
+    "estado_anterior": "PUB",
+    "estado_cambiado_el": "2026-11-28",
+    "estado_updated": "2026-11-27T11:01:01.943+01:00"
   },
   {
     "folder_id": "CONTR 2026 0000179890",
@@ -12234,6 +12240,10 @@
       {
         "nombre": "ANUNCIO VISITA INSTALACIONES PUNTO LIMPIO E INSPECCION VEHICULOS.pdf",
         "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=1HXgEOweSI2kn7%2BoOtRF/Q/Sl8TEakEPUHKoWacVEExYBqCQf6NSmI3eIRPhAxMMGDVic5A2zhaRDZjK%2ByEfXiJG1TlHC%2BYsu1hF4XpvLl6B0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "Anexo V implantacion biorresiduos.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=2vbEXFbq2dMunWGNYQ9EgQmN3S9mYZ3tOPbpCSaMjU72RBSOVFe%2BmKPBUZQTEHymh2nLf7Hfbx8JP4FcM02yz6Y3psd0G2zvEllbhd90X15JOVDbGCDM%2BMigrvuVS7Rv"
       }
     ],
     "organo": "Pleno del Ayuntamiento de Ogíjares",
@@ -13018,5 +13028,123 @@
     "descripcion": "Servicios de apoyo especializado para la elaboración de estudios de vigilancia y tendencias tecnológicas sectoriales de interés para Andalucía.",
     "junta_consultado": "2026-11-27",
     "fecha_captura": "2026-11-27"
+  },
+  {
+    "folder_id": "A41555749-2026/001369-PeAS",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Redacción del proyecto, dirección facultativa y coordinación de seguridad y salud de las obras de \"Construcción de un Centro de Formación para el Empleo Verde en Aguadulce \" de Sevilla. Plan de Actuación Integrado (PAI) del AUF de Estepa. FEDER",
+    "updated": "2026-11-27T13:41:51.081+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=iC2YR7o1QSacTfjQf3USOg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71200000",
+      "71240000",
+      "71242000",
+      "71200000",
+      "71240000",
+      "71242000",
+      "71000000",
+      "71247000",
+      "71317210"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=HkLGUMORqdi6fsHgEgUhqiCmO1ev3lYKw2XlVluT4Iaa3U4ECiF4I1kMDC7HEJr0Dy3VUwjj72xtvCRfSV%2BG%2BJQ5SWCmfTUmMUsCMNIn9EaCx2e6p7hqtlp2aFupgHMr",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Vmk2waGCw3AnQbLeIwfzL6oyWByy7QD2SD74jaTXiK769zMWcFqAjVp8XuW9rxubk96zVOjdQ50e/nGfTW23kKUSSet50KYMSm204doXy7zfdyQgZAdTm3EfcUAC7CJ6",
+    "docs_adicionales": [],
+    "organo": "Gerencia de PRODETUR S.A.U.",
+    "importe": "26033.06",
+    "importe_num": 26033.06,
+    "fecha_limite": "2026-12-14",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-28"
+  },
+  {
+    "folder_id": "8046/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "El objeto del contrato es la prestación de servicios energéticos y de mantenimiento integral del alumbrado público de Morón de la Frontera en el ámbito señalado en el PCT con arreglo y sujeción a las prescripciones técnicas contenidas en dicho Pliego que forma parte integrante del contrato.",
+    "updated": "2026-11-27T10:46:59.271+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Bv2ZPWMSWsUZDGvgaZEVxQ%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71314000",
+      "51300000",
+      "51100000",
+      "50232110",
+      "09000000",
+      "45316100",
+      "50232100",
+      "45310000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=z2SInEyliC5YFqpl151jRvo78Z6HmEzUw6B92EE79%2BuFkQLRrQsn9dF9uwZsdfJO51ig4JN6Fxh3wtcfK7QJLfPJ7YMy3fHTksYv%2BHEB/q3fdyQgZAdTm3EfcUAC7CJ6",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=7BdzDWwA4EBv0dTHy2gXTFUUFUORuPRCHJU8WIBab%2BNMgvRXCC9CCOUOubvSxb5swDgMZ0CeLn2aCqn4klcZYaAgKBKnzurqaQFlSiyxxQdJOVDbGCDM%2BMigrvuVS7Rv",
+    "docs_adicionales": [
+      {
+        "nombre": "ANEXO MODELO AVAL licitaciones.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=uMfdjvypGjdrQvLzwbj3TkuapzgvVJHX5JlCbCFNwgx2IXU9IjIqbGpIqYvUqCZiWZZx3Fdw2OZDCV/IC/5nmimSeWexOsxdzOPMVn/lCRHVTD3T98KC0nSgQFM0q%2B5s"
+      },
+      {
+        "nombre": "ANEXO PROPOSICION ECONOMICA Y OTROS CRITERIOS CUANTIFICABLES.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=v5D9Uh4mlXGM/Bxydj9/b6dHq94dftid3zeZHNks2f3I2UJ5MhvrSVq0Y2/LcH1MYKuxw/DrF4kA4GaGdpH5g1j3pEBC6BqpjBacXLA%2BZpKHAj0WEJrB5sP7amrh2jBD"
+      },
+      {
+        "nombre": "INFORME 5 2024 DE 14 DE MARZO DE LA COMISION CONSULTIVA DE CONTRATACION PUBLICA DE LA JUNTA DE ANDALUCIA.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=IUA3fBmJIeBNqDnfmFNRSDC3b9x2MXFVqUbUPfA0WXt22E2FLDQ/opvgrMlnqgkC1kHS3VDcdaU2krxvtypfhuR/JBA2pkyVCizr8Q28K0OB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "Informe Memoria Reelaboracion Pliegos por Recurso TARC.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=4Hjl2yw0R0Sl3GnrAlugLT9kaCguO23A5gfYGbvp%2BCnvAOjBDvBrFm0o3zdagySh3k3NvxkM017tDDeX5qmD2o4SbOMXIFOdhmr0Mnr1ZWm1aXEvq3KHa/AEHgtDrQw0"
+      },
+      {
+        "nombre": "ITV Moron v1.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=wP62GvtzBGCLxLK2KyoeGdKhMkqKR8zWhpILbbwp%2BqMG/kmSDLijX4XEFstrJEGbOtpDg/UFrujyOqABU6PvaaBKh%2BSVRwM/KV49MnArzHQZyAJWGsSt0OzTSTyw9JAs"
+      },
+      {
+        "nombre": "DEUC autorrellenable.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Scv3MstrvfqrRWflz9kOvEFwu5rxR4T52hIPz7aLArcPUGzf0uo8MvLKSqxC0X7iR4l/foFkfv6/%2BBzTi8lm1%2BIJL0f08w%2B1gxGuENt20UaB0nvVKRzfe4rpHcnlPhSZ"
+      },
+      {
+        "nombre": "Instrucciones cumplimentacion DEUC licitadores.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=HE8PY2YvzYM3kesQ/4fOo9Ip/aohFxPggNnx1CeCIg9s/KC7gr4G1ZoCdXYhECbgrPqzuFTWynKH1RvoEsjN/A3evjqqPVma1G7Oa65PlhuCx2e6p7hqtlp2aFupgHMr"
+      },
+      {
+        "nombre": "ENLACE PLAN DIRECTOR.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=0lswffRjHOSQJETP4kQ58EKZ1zopFU7fLvo4LPVPo5hId147v1QfLdCMT1qfyGwUjLrxoiaP5ZUJNh3t%2BPgycWaWHBhZ6LFEwPcuXvAige/6CYyL7SIrUOBFfNf52ZqA"
+      },
+      {
+        "nombre": "MODELO SEGURO CAUCION.docx",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=61bQDv1xhJsnMZApKUX%2BMZIHVCgaPN%2BmHkSQ6wavbb4JKqKJzeMBq6KmN98tSQ9YbG1Oe3jDjTBurjiWX8Q8vFEYUmskykAH99G6ufr95NxJOVDbGCDM%2BMigrvuVS7Rv"
+      },
+      {
+        "nombre": "Certificado titularidad Ordinal 201 Ayto moron de la Frontera.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=A6hX3cb/5EReMPLmr01YCpgJUUTRCSGcD8ScuCVb3wQCFpYyvbBSa9nANU5eanrb/TH%2BMyPmN/p/a1wwz2s5NmEJRfkoRB2U8/bbAZH65uMC1/zDIE0Kw/PWNnLS0Z0z"
+      },
+      {
+        "nombre": "ANEXO DECLARACION DE ACEPTACION DE INSTALACION.doc",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=o4FchJH/%2BbM%2Bv8iU4AatObwgpq8JeLZY3aeihyN1Q6J3iYcVK7%2BA3co/xn8RE16iTi0moBPlfKe0N9LWMsqlmRhMRmCJk7xzhcYsaYjo/I2Cx2e6p7hqtlp2aFupgHMr"
+      },
+      {
+        "nombre": "ACUERDO PLN 19 11 2026 APROBAC LIC SERV ENERG ALUMBRADO PUBLICO.pdf",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=OBwYu5/l/Jnz7dLgE3OgDcEDkLRItB/yTHImC7CH%2Bt9V7HOdhBpL4NSnfXcDsAd1ckpLo2OqodIJxVZsam21O/vjnrDuJJtU1aY44FAWmapt/o8fNevwsujgRzaBbugn"
+      }
+    ],
+    "organo": "Pleno del Ayuntamiento de Morón de la Frontera",
+    "importe": "7108473.88",
+    "importe_num": 8530168.66,
+    "fecha_limite": "2027-01-04",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-28"
   }
 ]

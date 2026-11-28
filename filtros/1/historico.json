@@ -2176,8 +2176,8 @@
   },
   {
     "folder_id": "15665/2026",
-    "estado": "EV",
-    "resultado": null,
+    "estado": "ADJ",
+    "resultado": "adjudicada",
     "titulo": "Servicios Dirección facultativa y Coordinación de Seguridad y Salud fase obra Proyecto de Ejecución del Plan de Asfaltado Municipal del Ayuntamiento de Torremolinos",
     "updated": "2026-10-02T13:56:28.286+02:00",
     "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=AXKSTUP2r7VQFSeKCRun4Q%3D%3D",
@@ -2202,9 +2202,9 @@
       "fecha_analisis": "2026-10-03T09:25:52.116451+00:00"
     },
     "fecha_captura": "2026-10-03",
-    "estado_anterior": "PUB",
-    "estado_cambiado_el": "2026-10-21",
-    "estado_updated": "2026-10-21T11:57:10.086+02:00"
+    "estado_anterior": "EV",
+    "estado_cambiado_el": "2026-11-28",
+    "estado_updated": "2026-11-27T13:39:35.209+01:00"
   },
   {
     "folder_id": "2026/CTT_01/000027 - 39/26.-CTOS",
@@ -3752,7 +3752,10 @@
     },
     "revisado_humano": true,
     "revisado_fecha": "2026-11-16T11:07:54.811Z",
-    "revisado_por": "Belén Fernández"
+    "revisado_por": "Belén Fernández",
+    "presentado": true,
+    "presentado_fecha": "2026-11-27T12:03:08.717Z",
+    "presentado_por": "CarlosLCAI"
   },
   {
     "folder_id": "3013/2026",
@@ -5758,5 +5761,75 @@
     "revisado_humano": true,
     "revisado_fecha": "2026-11-27T07:59:58.255Z",
     "revisado_por": "CarlosLCAI"
+  },
+  {
+    "folder_id": "A41555749-2026/001369-PeAS",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Redacción del proyecto, dirección facultativa y coordinación de seguridad y salud de las obras de \"Construcción de un Centro de Formación para el Empleo Verde en Aguadulce \" de Sevilla. Plan de Actuación Integrado (PAI) del AUF de Estepa. FEDER",
+    "updated": "2026-11-27T13:41:51.081+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=iC2YR7o1QSacTfjQf3USOg%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71200000",
+      "71240000",
+      "71242000",
+      "71200000",
+      "71240000",
+      "71242000",
+      "71000000",
+      "71247000",
+      "71317210"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=HkLGUMORqdi6fsHgEgUhqiCmO1ev3lYKw2XlVluT4Iaa3U4ECiF4I1kMDC7HEJr0Dy3VUwjj72xtvCRfSV%2BG%2BJQ5SWCmfTUmMUsCMNIn9EaCx2e6p7hqtlp2aFupgHMr",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Vmk2waGCw3AnQbLeIwfzL6oyWByy7QD2SD74jaTXiK769zMWcFqAjVp8XuW9rxubk96zVOjdQ50e/nGfTW23kKUSSet50KYMSm204doXy7zfdyQgZAdTm3EfcUAC7CJ6",
+    "docs_adicionales": [],
+    "organo": "Gerencia de PRODETUR S.A.U.",
+    "importe": "26033.06",
+    "importe_num": 26033.06,
+    "fecha_limite": "2026-12-14",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "9",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-28"
+  },
+  {
+    "folder_id": "5464/2026",
+    "estado": "PUB",
+    "resultado": null,
+    "titulo": "Contrato de servicios técnicos de redacción de proyectos y dirección de obras, y demás apoyo a los servicios de urbanismo y obras del Ayuntamiento de Mojácar",
+    "updated": "2026-11-27T10:15:04.915+01:00",
+    "link": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=2Bhf3iVx7XrjHF5qKI4aaw%3D%3D",
+    "es_andalucia": true,
+    "cpv_match": true,
+    "cpv_codes": [
+      "71000000",
+      "71245000",
+      "71247000",
+      "71242000"
+    ],
+    "pcap_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=YsAMK8gDLr5LrO3F0ZjoDsT9uSZ4Xi6dpOd8icVVCtcnVCh8YqJWWL4SX3l2bAMotP18L2oMCQbwE/MpJ2oFVduNZCQ331c1i8ab200L8hEZyAJWGsSt0OzTSTyw9JAs",
+    "ppt_url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=iObceOQ8vr1MCyLDjGBZ2ARn0vdaOgZGACs5XrzAluazf0Czk2seIIWnC0AU%2BjE9M/Ou%2BWHzY0Uo%2B3peO5w7GnW2QkNobSCziuh7qyAyj%2B73GVhXrFFqN7yFncy7YfRK",
+    "docs_adicionales": [
+      {
+        "nombre": "DEUC REDACCION PROYECTOS.zip",
+        "url": "https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&DocumentIdParam=Yy0n9HHsmR38Q3tpa6PD6CEnxxon0DClrfScK5xakxWFCVGCzNasn4zWbEqnV/nJ2WoUNF%2ByJvYJSvozp9vf3MjqHJ0yzISYOgZ/TZKYdqfDdQD9RyhUmzT4jZ2In4zL"
+      }
+    ],
+    "organo": "Junta de Gobierno Local del Ayuntamiento de Mojácar",
+    "importe": "100000",
+    "importe_num": 200000.0,
+    "fecha_limite": "2026-12-14",
+    "tipo_contrato": "2",
+    "tipo_contrato_match": true,
+    "procedimiento": "1",
+    "procedimiento_match": true,
+    "importe_match": true,
+    "fuente": "perfiles",
+    "fecha_captura": "2026-11-28"
   }
 ]
